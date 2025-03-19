@@ -5,6 +5,7 @@
     <head><title>Caffeine and Lasers</title></head>
     <link href="../assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
 </head>
 
 
@@ -153,7 +154,7 @@
 <script>
     // Explicitly call the function to fetch and display the latest RSS post
     document.addEventListener("DOMContentLoaded", function() {
-        fetchLatestMastodonPost();
+        fetchLatestMastodonPost("aus.social", "AuntyRed");
     });
 </script>
 

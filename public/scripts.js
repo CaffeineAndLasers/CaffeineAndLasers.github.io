@@ -1,10 +1,10 @@
-const instance = "aus.social";
-const user = "AuntyRed";
 
 
+async function fetchLatestMastodonPost(instance, user) {
+    // Use a CORS proxy to fetch the RSS feed
+    const corsProxy = 'https://api.allorigins.win/raw?url=';
+    const response = await fetch(corsProxy + encodeURIComponent(`https://${instance}/@${user}.rss`));
 
-async function fetchLatestMastodonPost() {
-    const response = await fetch('https://aus.social/@AuntyRed.rss');
     const text = await response.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(text, "text/xml");
