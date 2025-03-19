@@ -1,4 +1,9 @@
-async function fetchLatestRSSPost() {
+const instance = "aus.social";
+const user = "AuntyRed";
+
+
+
+async function fetchLatestMastodonPost() {
     const response = await fetch('https://aus.social/@AuntyRed.rss');
     const text = await response.text();
     const parser = new DOMParser();
@@ -16,16 +21,10 @@ async function fetchLatestRSSPost() {
         const link = linkElement ? linkElement.textContent : "#";
         const pubDate = pubDateElement ? pubDateElement.textContent : "No date available";
 
-        // Update the latest RSS post section
-        document.getElementById("latest-rss-post").innerHTML = `
-            <p><strong>${title}</strong> (${pubDate})</p>
-            <p><a href="${link}" target="_blank">Read more</a></p>
-        `;
-
         // Call the function to embed the latest post
         embedLatestPost(guidElement ? guidElement.textContent : null);
     } else {
-        document.getElementById("latest-rss-post").innerHTML = "<p>No posts available.</p>";
+        document.getElementById("latest-mastodon-post").innerHTML = "<p>No posts available.</p>";
     }
 }
 
@@ -44,15 +43,13 @@ function embedLatestPost(postUrl) {
         `;
 
         // Append the embed HTML to the latest RSS post section
-        document.getElementById("latest-rss-post").innerHTML += embedHtml;
+        document.getElementById("latest-mastodon-post").innerHTML += embedHtml;
 
         // Load the embed script after the embed HTML is added
         const script = document.createElement('script');
         script.setAttribute('data-allowed-prefixes', 'https://aus.social/');
         script.setAttribute('async', '');
         script.src = 'https://staticcdn.aus.social/embed.js';
-        document.getElementById("latest-rss-post").appendChild(script);
+        document.getElementById("latest-mastodon-post").appendChild(script);
     }
 }
-
-fetchLatestRSSPost();

@@ -90,6 +90,13 @@ layout: default.liquid
 </div>
     
 
-<h2>Latest RSS Post</h2>
-<div id="latest-rss-post"></div>
+<h2>From Mastodon</h2>
+<div id="latest-mastodon-post"></div>
+<script>
+    // Explicitly call the function to fetch and display the latest RSS post
+    document.addEventListener("DOMContentLoaded", function() {
+        fetchLatestMastodonPost();
+    });
+</script>
+
 <script src="/scripts.js"></script>
