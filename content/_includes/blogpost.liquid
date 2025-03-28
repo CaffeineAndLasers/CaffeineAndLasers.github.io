@@ -18,7 +18,11 @@ nesting: ../../
 
 <aside id="leftSidebar">{% include "sidebar.liquid" %}</aside>
 
-<main>{{ content }}</main>
+<main>
+{{ content }}
+<div id="c_widget"></div>
+<script src="{{nesting}}comment-widget/comment-widget.js"></script>
+</main>
 
 </div>
 {% include "footer.liquid" %}
