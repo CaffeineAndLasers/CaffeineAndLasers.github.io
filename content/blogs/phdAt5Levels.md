@@ -1,6 +1,6 @@
 ---
 title: My PhD Explained at 5 Levels
-date: 2025-04-23
+date: 2025-03-23
 layout: blogpost.liquid
 description: Finally getting round to explaining what I actually research
 nesting: "../"
