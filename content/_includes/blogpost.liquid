@@ -20,6 +20,16 @@ nesting: ../../
 
 <main>
 {{ content }}
+
+<p>
+QR Code!
+</p>
+
+<div class="qr-code-container">
+  {{ qrCode(page.url, "Scan this QR code to share this blog post") }}
+</div>
+
+
 <div id="c_widget"></div>
 <script src="{{nesting}}comment-widget/comment-widget.js"></script>
 </main>

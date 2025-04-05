@@ -1,3 +1,7 @@
+const QRCode = require('qrcode');
+const path = require('path');
+const fs = require('fs');
+
 module.exports = function (eleventyConfig) {
   // This makes the eleventy command quieter (with less detail)
   eleventyConfig.setQuietMode(true);
@@ -46,4 +50,33 @@ module.exports = function (eleventyConfig) {
       output: "public",
     },
   };
+
+  eleventyConfig.addShortcode("qrCode", async function(url, altText = "QR Code to share this page") {
+    if (!url) {
+      console.warn("No URL provided to qrCode shortcode.");
+      return "";
+    }
+
+    const qrCodeFilename = `qr-code-${Buffer.from(url).toString('base64').substring(0, 12)}.svg`; // Simple filename based on URL hash
+    const qrCodePath = path.join(eleventyConfig.dir.output, 'Assets', 'qr_codes', qrCodeFilename);
+    const qrCodePublicPath = `/img/qr-codes/${qrCodeFilename}`;
+
+    // Ensure directories exist (if not, create them - you might need a more robust solution for complex needs)
+    const dir = path.dirname(qrCodePath);
+    if (!fs.existsSync(dir)){
+        fs.mkdirSync(dir, { recursive: true });
+    }
+
+    try {
+      await QRCode.toFile(qrCodePath, url, {
+        errorCorrectionLevel: 'H', // High error correction
+        type: 'svg',
+      });
+
+      return `<img src="${qrCodePublicPath}" alt="${altText}" width="128" height="128" loading="lazy">`;
+    } catch (err) {
+      console.error("Error generating QR code:", err);
+      return `<p>Error generating QR code</p>`; // Fallback in case of error
+    }
+  });
 };

@@ -4,6 +4,9 @@
     --content: #c9a2e2;
 }
 
+
+
+
 /* @font-face {
     font-family: AtkinsenHyperlegible;
     src: url("/public/fonts/AtkinsonHyperlegible-Regular.ttf");
@@ -245,6 +248,18 @@ strong {
 .webring_next {
     flex: 1;
     text-align: center;
+}
+
+#QR-Code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* Add a border to the QR code */
+    border: 2px solid #8839ef;
+    border-radius: 10px;
+    
+
 }
 
 @media only screen and (max-width: 800px) {
