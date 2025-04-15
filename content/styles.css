@@ -272,6 +272,13 @@ strong {
     align-items: center;
 }
 
+.KappySidebar {
+    margin: 10px;
+    height: 200px; /* Set a fixed height */
+}
+.KappySidebar:hover {
+    content: url("/Assets/KoffeeKoalaWave.png");
+}
 
 
 .webring_previous,
