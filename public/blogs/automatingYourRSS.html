@@ -1,0 +1,238 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>Automating Your RSS Feed with 11ty</title></head>
+    <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+
+<div id="container"><div id="header"></div>
+    <div id="headerArea">
+    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/Resources.html">Resources</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/Resume.html">Resume</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+</ul></nav></div>
+
+
+<div id="flex">
+
+<aside id="leftSidebar"><h2>Updates</h2>
+<div class="box">
+    What am I doing these days!
+    <ul>
+        <li>April 2025 - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
+        <li>July 2024 - Started this website!</li>
+        <li>July 2023 - Started my PhD</li>
+    </ul>
+</div>
+
+
+<h2> Say Hello!</h2> 
+
+<div style="text-align: center;">
+    <img src="\Assets\KoffeeKoala.png" alt="Koffee Koala" />
+</div>
+<p></p>
+
+<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
+
+
+<h2>Find Me Online</h2>
+<ul>
+    <li>
+        <a href="https://aus.social/@AuntyRed/" target="_blank"
+            >Mastodon</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.youtube.com/@CameronJones-dj8mml"
+            target="_blank"
+            >YouTube</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.linkedin.com/in/cameron-jones-sydney/"
+            target="_blank"
+            >LinkedIn</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://github.com/CJones-Optics/"
+            target="_blank"
+            >GitHub</a
+        >
+    </li>
+</ul>
+</aside>
+
+<main>
+
+ <h1 style="font-size:35px;">Automating Your RSS Feed with 11ty</h1>
+
+<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+  <p><strong>Date:</strong> 2025-03-17</p>
+  <p><strong>Last Updated:</strong> </p>
+</div>
+
+<h1>1 Background</h1>
+<p>A while back, I wrote a quick explainer on how to set up your own RSS feed for your site. It was pretty straightforward, and expalined how to hard-code it.</p>
+<p>Then I got lazy, updating the <code>feed.xml</code>  file every time I wrote a blog post was becoming a pain.</p>
+<p>To resolve this, I opted to use 11ty to auto-update the RSS feed every time I added a new blog-post. This very post will get auto-updated to the RSS feed. I already used 11ty for automating other parts of my site, so this was just a natural extension.</p>
+<h1>2 Setting Up Your Environment</h1>
+<h2>2.1 Setting Up Eleventy</h2>
+<p>Go follow <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial">PetraPixels Tutorial</a> she explains it better than me. From here I will assume you have it set-up somewhat like hers? Deal? Deal!</p>
+<h2>2.2 Your Folder Structure</h2>
+<p>I am assuming that all your blogposts are in their own sub-directory. So if your folder structure looks like this</p>
+<hr>
+<pre><code>&gt;Project/
+    &gt; Content/
+        &gt; Blogs/
+         	&gt; Blogpost1.html 
+		&gt; Everything Else
+	&gt; Public
+		&gt; All the files that 11ty generates
+</code></pre>
+<hr>
+<h1>3 Creating Your RSS Template</h1>
+<p>Okay, you did everything and followed Petra's advice? Okay good. Now lets add the required properties to all our blogposts. For every post lets upate the yaml:</p>
+<hr>
+<pre><code class="language-yaml">---
+title: BLOG_TITLE
+date: DATE_IN_THE_FORM_YYYY-MM-DD
+description: DESCRIPTION
+layout: YOUR_TEMPLATE_HERE
+---
+
+&lt;Put the actual blog here&gt;
+
+</code></pre>
+<hr>
+<p>For example, my last blogpost has this in the front-matter.</p>
+<hr>
+<pre><code class="language-yaml">---
+title: How I do my Research (As a PhD Student)
+date: 2025-03-16
+description: Yet another PhD student explains their personal knowledge management system.
+layout: blogpost.liquid
+---
+</code></pre>
+<hr>
+<h1>4 Update your .eleventy.js File</h1>
+<p>We are adding two more functions to the <code>.eleventy.js</code> file. The first one <code>addCollection</code> just looks for the folder of blog posts, and grabs all the <code>html</code>  file (or <code>md</code> files). This is used by the template later. The second just formats the dates nicely.</p>
+<hr>
+<pre><code class="language-js">module.exports = function (eleventyConfig) {
+  // ... existing code ...
+  
+  // Add a collection for blog posts
+  eleventyConfig.addCollection(&quot;blogPosts&quot;, function(collectionApi) {
+    return collectionApi.getFilteredByGlob(&quot;path/to/your/blog/posts/*.{html,md}&quot;).sort((a, b) =&gt; {
+      return b.date - a.date; // Sort in reverse chronological order (newest first)
+    });
+  });
+  
+  // Add date filter for RSS
+  eleventyConfig.addFilter(&quot;dateToRfc822&quot;, function(date) {
+    return new Date(date).toUTCString();
+  });
+  
+  // ... existing code ...
+};
+</code></pre>
+<hr>
+<h1>5 Update the Feed File</h1>
+<p>Final step! Lets fix up your feed. Create or edit your rss feed file. Mine is <code>feed.xml</code></p>
+<hr>
+<pre><code class="language-html">---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;rss version=&quot;2.0&quot;&gt;
+&lt;channel&gt;
+  &lt;title&gt;Your Feed Title&lt;/title&gt;
+  &lt;description&gt;DescriptionOfYourBlog&lt;/description&gt;
+  &lt;link&gt;https://YOURSITEGOESHERE.neocities.org&lt;/link&gt;
+  &lt;lastBuildDate&gt;{{ collections.blogPosts[0].date | date: &quot;%a, %d %b %Y %H:%M:%S %z&quot; }}&lt;/lastBuildDate&gt;
+  &lt;ttl&gt;1440&lt;/ttl&gt;
+
+  {% for post in collections.blogPosts %}
+  &lt;item&gt;
+    &lt;title&gt;{{ post.data.title }}&lt;/title&gt;
+    &lt;description&gt;{{ post.data.description }}&lt;/description&gt;
+    &lt;link&gt;https://YOURSITEGOESHERE.neocities.org{{ post.url }}&lt;/link&gt;
+    &lt;pubDate&gt;{{ post.date | date: &quot;%a, %d %b %Y %H:%M:%S %z&quot; }}&lt;/pubDate&gt;
+  &lt;/item&gt;
+  {% endfor %}
+&lt;/channel&gt;
+&lt;/rss&gt;
+</code></pre>
+<hr>
+<p>What is going on here? The important bit is in-between  <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and ``. This section tells 11ty to go though all the files in the  blogs directory, and generates an RSS entry from all those properties  we went through and added earlier.</p>
+<h1>6 Extension: Automating other parts of your page!</h1>
+<p>There is no reason to limit ourselves to automating the RSS page.</p>
+<h2>6.1 Every Blogpost in bullet points</h2>
+<p>Here is a html snipped which will tell 11ty to put every blog post in the folder in dot-points. Use your CSS skills to snazzy it up using the <code>blog-posts-container</code> class.</p>
+<hr>
+<pre><code class="language-html">&lt;h2&gt;All My Posts&lt;/h2&gt;
+&lt;div class=&quot;blog-posts-container&quot;&gt;
+	&lt;ul&gt;
+	{% for post in collections.blogPosts %}
+		&lt;li&gt;
+			&lt;a href=&quot;{{ post.url }}&quot;&gt;
+				{{ post.date | date: &quot;%Y-%m-%d&quot; }}: {{ post.data.title }}
+			&lt;/a&gt;
+		&lt;/li&gt;
+	{% endfor %}
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+<hr>
+<h2>6.2 Most Recent Blogpost</h2>
+<p>Okay, what if we want to put only the most recent blogpost on our home page. Try out this one</p>
+<hr>
+<pre><code class="language-html">&lt;h2&gt;Latest Blog Post&lt;/h2&gt;
+&lt;div class=&quot;blog-posts-container&quot;&gt;
+	&lt;ul&gt;
+	{% assign latest_post = collections.blogPosts | first %}
+	{% if latest_post %}
+		&lt;li&gt;
+			&lt;a href=&quot;{{ latest_post.url }}&quot;&gt;
+			{{ latest_post.date | date: &quot;%Y-%m-%d&quot; }}: {{ latest_post.data.title }}
+			&lt;/a&gt;
+		&lt;/li&gt;
+		{% else %}
+		&lt;li&gt;No blog posts yet!&lt;/li&gt;
+	{% endif %}
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+<hr>
+
+
+
+<div id="c_widget"></div>
+<script src="../../comment-widget/comment-widget.js"></script>
+</main>
+
+</div>
+<footer id="footer" style="margin-top: 0px;">
+    <a href="/feed.xml" >
+        <img
+        src="/Assets/RSS_Logo.png"
+        alt="RSS Feed"
+        style="width: 20px; height: 20px"
+        /> 
+    </a>
+
+</footer>
+
+</html>

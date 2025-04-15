@@ -1,0 +1,142 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>RSS For Reddit</title></head>
+    <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+
+<div id="container"><div id="header"></div>
+    <div id="headerArea">
+    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/Resources.html">Resources</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/Resume.html">Resume</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+</ul></nav></div>
+
+
+<div id="flex">
+
+<aside id="leftSidebar"><h2>Updates</h2>
+<div class="box">
+    What am I doing these days!
+    <ul>
+        <li>April 2025 - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
+        <li>July 2024 - Started this website!</li>
+        <li>July 2023 - Started my PhD</li>
+    </ul>
+</div>
+
+
+<h2> Say Hello!</h2> 
+
+<div style="text-align: center;">
+    <img src="\Assets\KoffeeKoala.png" alt="Koffee Koala" />
+</div>
+<p></p>
+
+<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
+
+
+<h2>Find Me Online</h2>
+<ul>
+    <li>
+        <a href="https://aus.social/@AuntyRed/" target="_blank"
+            >Mastodon</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.youtube.com/@CameronJones-dj8mml"
+            target="_blank"
+            >YouTube</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.linkedin.com/in/cameron-jones-sydney/"
+            target="_blank"
+            >LinkedIn</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://github.com/CJones-Optics/"
+            target="_blank"
+            >GitHub</a
+        >
+    </li>
+</ul>
+</aside>
+
+<main>
+
+ <h1 style="font-size:35px;">RSS For Reddit</h1>
+
+<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+  <p><strong>Date:</strong> 2024-01-15</p>
+  <p><strong>Last Updated:</strong> </p>
+</div>
+
+<h1>1 How and Why to Use RSS to Improve Your Reddit UX</h1>
+<p>Did you know you can subscribe to subreddits via RSS? Maybe you did, but did you know it’s the best way to use Reddit without getting sucked into the Enshittified Torment Nexus™️?</p>
+<p>It seems like it's only a matter of time before reddit plugs that gap to force you further into the enshittified platform. One last dance on Aaron Swartz's grave. So lets make the most of it while the feeds still exist.</p>
+<p>If you don't know the Good News about RSS. Go and check out Cory Doctorow's <a href="https://pluralistic.net/2024/10/16/keep-it-really-simple-stupid/#read-receipts-are-you-kidding-me-seriously-fuck-that-noise">blogpost</a>, and then come back.</p>
+<h2>1.1 Why You Might Want to Use RSS to Browse Reddit</h2>
+<p>Reddit has fallen deeply down the enshittification black hole. It's been sliding that way for a while, but the API changes and public acquisition clearly made everything much worse.</p>
+<h3>1.1.1 The Infinite Sludge Algorithm</h3>
+<p>Reddit has adopted the same mindset as its other social media competitors: the Infinite Sludge Algorithm. It wants to present you with an endless flow of sludge content, regardless of whether you actually subscribed to see it, just to keep your eyes on their platform for as long as possible.</p>
+<p><em>Who cares what subreddits you subscribed to? Here's some other content we think you'll like.</em></p>
+<p>This is what makes reddit so aweful these days. I want social communities, but I don't want the website which facilitates that community to purposely make itself addictive.</p>
+<h3>1.1.2 Tracking</h3>
+<p>They're obviously tracking you. How else are they going to personalize your sludge?</p>
+<h2>1.2 How Can RSS Save Your Reddit Experience?</h2>
+<p>Using RSS, you can subscribe to <em>only</em> the communities you want to hear from and browse them anonymously until you choose to open them in your browser to interact.</p>
+<p>No more endless algorithm of slop. Just the content you previously decided you wanted to see.</p>
+<h1>2 How Do I do it?</h1>
+<h2>2.1 Get Everything With No Sorting</h2>
+<p>You can simply add <code>.rss</code> to the end of any subreddit URL to get an RSS feed of that subreddit's most recent posts. For example:</p>
+<p><code>https://www.reddit.com/r/LocalLLaMA.rss</code></p>
+<h2>2.2 Okay, but Sorting by New Sucks</h2>
+<p>Yes, it does. Unfortunately, RSS doesn't have any concept of &quot;Upvote,&quot; so there isn’t an RSS option to sort by &quot;hot.&quot; You can make use of Reddit’s URLs though, because you can add <code>.rss</code> to <em>any</em> URL. Here’s how I use it:</p>
+<p><strong>Sort by top, limit to 5 (or however many) posts:</strong>
+Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will create an RSS feed of the top 5 most upvoted posts in <code>/r/3DPrinting</code> today, returned in reverse chronological order.</p>
+<p>I did this for the 5 or so Reddit communities I actually want to keep track of, and now have my own Reddit feed with a hard cap on the top 30 posts from the past 24 hours.</p>
+<p><strong>Why Use the limit argument:</strong> Even when you sort by <code>/top</code> your RSS reader will still list the top 25 (or however many) results in chronological order, leaving you back at square one. That's why I prefer to use <code>/top</code> and <code>?limit</code> to get <em>just</em> the top 5 in my feed.</p>
+<p><strong>Other Filters:</strong>  You can also filter by their other sorting algorithms, e.g. rising <code>https://reddit.com/r/technology/rising/.rss</code> or if you are insane, by controversial <code>https://reddit.com/r/politics/controversial/.rss</code></p>
+<p><strong>Private RSS Feeds</strong>: You can even subscribe to an RSS feed for your entire accounts front page! The Old Reddit website still has options for your private feeds <a href="https://www.reddit.com/prefs/feeds/">Reddit Private RSS Feeds</a> from here you can get an RSS feed of your front page as well as your inbox, or moderator options.</p>
+<p><em>Considering these options only seem to appear on Old Reddit, I am not sure how much longer they will be supported. Lets See</em></p>
+<h1>3 Wrapping Up</h1>
+<p>Using RSS to browse reddit is the best of both worlds – I don't need to quit Reddit and leave those communities but I can still avoid getting sucked into the Enshittified Torment Nexus™️.</p>
+<p>Give it a shot. Your sanity might just thank you for it.</p>
+<h2>3.1 Example RSS links</h2>
+<ul>
+<li><code>https://reddit.com/r/technology/.rss</code></li>
+<li><code>https://reddit.com/r/politics/controversial/.rss</code></li>
+<li><code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code></li>
+</ul>
+
+
+
+<div id="c_widget"></div>
+<script src="../../comment-widget/comment-widget.js"></script>
+</main>
+
+</div>
+<footer id="footer" style="margin-top: 0px;">
+    <a href="/feed.xml" >
+        <img
+        src="/Assets/RSS_Logo.png"
+        alt="RSS Feed"
+        style="width: 20px; height: 20px"
+        /> 
+    </a>
+
+</footer>
+
+</html>

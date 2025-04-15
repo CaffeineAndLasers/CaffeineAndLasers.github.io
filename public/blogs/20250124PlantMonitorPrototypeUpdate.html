@@ -1,0 +1,235 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>Plant Monitor Prototype Update</title></head>
+    <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+
+<div id="container"><div id="header"></div>
+    <div id="headerArea">
+    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/Resources.html">Resources</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/Resume.html">Resume</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+</ul></nav></div>
+
+
+<div id="flex">
+
+<aside id="leftSidebar"><h2>Updates</h2>
+<div class="box">
+    What am I doing these days!
+    <ul>
+        <li>April 2025 - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
+        <li>July 2024 - Started this website!</li>
+        <li>July 2023 - Started my PhD</li>
+    </ul>
+</div>
+
+
+<h2> Say Hello!</h2> 
+
+<div style="text-align: center;">
+    <img src="\Assets\KoffeeKoala.png" alt="Koffee Koala" />
+</div>
+<p></p>
+
+<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
+
+
+<h2>Find Me Online</h2>
+<ul>
+    <li>
+        <a href="https://aus.social/@AuntyRed/" target="_blank"
+            >Mastodon</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.youtube.com/@CameronJones-dj8mml"
+            target="_blank"
+            >YouTube</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.linkedin.com/in/cameron-jones-sydney/"
+            target="_blank"
+            >LinkedIn</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://github.com/CJones-Optics/"
+            target="_blank"
+            >GitHub</a
+        >
+    </li>
+</ul>
+</aside>
+
+<main>
+
+ <h1 style="font-size:35px;">Plant Monitor Prototype Update</h1>
+
+<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+  <p><strong>Date:</strong> 2025-01-24</p>
+  <p><strong>Last Updated:</strong> </p>
+</div>
+
+<h1>My Wireless Plant Monitor! (Prototype)</h1>
+<p>I just wanted to do a quick writeup on a side project I am working on and share photos of an early prototype.</p>
+<p><img src="/Assets/20240124Plant.png" alt=""></p>
+<p><strong>What is it:</strong></p>
+<ul>
+<li>I am working on a IoT system to monitor my plants and let me know when they need water.</li>
+</ul>
+<p><strong>How does it work</strong>
+<strong>Hardware</strong></p>
+<ul>
+<li>Raspberry PicoW</li>
+<li>Core Electronics Capacitive Soil Moisture Meter</li>
+<li>Core Electronics Pico Timer</li>
+<li>A couple AA batteries
+<strong>Software:</strong></li>
+<li>The firmware on the Pico is running micropython - a small footprint port of python designed to run on embedded devices</li>
+<li>It shoot messages over to my main PC, via MQTT</li>
+<li>My PC receives the messages via MosquittoMQTT running locally</li>
+<li>It then throws the messages into a SQLite database, where</li>
+<li>A python Flask App pulls out the data and throws it onto a web dashbaord</li>
+<li>(The web dashboard is hand rolled html, css and vanilla JS)</li>
+</ul>
+<p><strong>Why not just...</strong>
+Why not just buy something, use an existing framework, check my plants myself, do literally anything else with my time.</p>
+<p>Because I wanted to build something myself, and see how it works.</p>
+<h1>2 Requirements</h1>
+<p>I wanted my device to have the following characteristics</p>
+<ul>
+<li>Communicate wirelessly.</li>
+<li>Scalable
+<ul>
+<li>I have a few plants in a bunch of different places. This means I will need a number of sensors.</li>
+<li>This Implied several sub-requirements
+<ul>
+<li>Cost
+<ul>
+<li>The device should cost &lt;$30AUD per unit.</li>
+</ul>
+</li>
+<li>Software Scalability
+<ul>
+<li>The dashboard should scale to support up to 10 clients.</li>
+</ul>
+</li>
+<li>Manafacturability
+<ul>
+<li>I should be able to assemble future units in less than 30 minutes per unit. (Not including 3D print time)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Power:
+<ul>
+<li>The device should last at least a month on a set of batteries</li>
+<li>The device should be powered by disposable alkaline batteries (this is personal preference for convenience, safety, and scalability)</li>
+</ul>
+</li>
+</ul>
+<h1>3 How I built it</h1>
+<h2>3.1 Getting the electronics and sensors working</h2>
+<p>The first step was to get the physical bits and bobs working and playing nicely together. I threw all the components on a breadboard, plugged the sensor into my microcontrollers ADC, wrote a basic script to print the reading to serial and shut back down. Then I tested it on USB power, then through battery power and using the timer. Easy!</p>
+<p><img src="/Assets/20240124PlantMonitorBreadboard.png" alt=""></p>
+<h2>3.2 Soldering it all in place</h2>
+<p>Once I was happy that the electronics worked, I found a leftopver soldered breadboard from some previous work, and soldered everything down. I also found an old three pin connector which was lucky, this meant I could swap out the sensor in case I broke it or somehting.</p>
+<p><img src="/Assets/20240124PlantMonitorCircuitboard.png" alt=""></p>
+<p><img src="/Assets/20240124Circuitboardback.png" alt=""></p>
+<h2>3.3 Write the firmware</h2>
+<p>Next up, I had to do a second pass at the firmware, and get it actually doing what it is meant to. Now I got the device where it would</p>
+<ol>
+<li>Connect to wifi</li>
+<li>take 5 readings (and average them),</li>
+<li>scale the reading to a calibrated value</li>
+<li>shoot it over wifi to the base</li>
+<li>shut back down</li>
+</ol>
+<p><strong>here is where I ran into problems:</strong> For some reason, there was a bug which showed up, ONLY when the USB was NOT plugged in. This was a nightmare to debug. Eventually I hooked up an extra OLED display over I2C, just to print out debug statements.</p>
+<p>Eventually I figured out the problem and was able to move on. (For those curious, I had the device set to restard every 6s, for reasons still unknown, the device could connect to the wifi and take its reading in this time on USB power, but took longer than 6s on battery power, so the restart signal would hit halfway through connecting to the wifi and then everything would fall apart. - solution, just restart on a 1 minute cyuclke instead of 6s. )</p>
+<ol start="4">
+<li>3D print a case</li>
+</ol>
+<p>It aint pretty, and I ain sure it is waterproof, but here is the case fore prototype 1.</p>
+<p><img src="Assets/20240124FinalProduct.png" alt=""></p>
+<h2>3.4 Write the server code</h2>
+<p>Now comes the bit that I'm sure most people think is the easy bit, but I find tedious. I now needed to write the python code to :</p>
+<ol>
+<li>Catch the incomming MQTT messages,</li>
+<li>Thrw them into a database</li>
+<li>Open a webserver,</li>
+<li>Grab all the data from the database</li>
+<li>Make it look pretty.</li>
+</ol>
+<p>This is what I ended up with!</p>
+<p><img src="/Assets/20240124PlantMonitorDashboard.png" alt=""></p>
+<h1>4 Improvements for V2</h1>
+<p>I am sharing the total current state of the project, but I wouldn't reccomend copying it <em>just</em> yet, (at least without a lot of modification). Here is how I plan on improving V2</p>
+<h2>4.1 Device Housing and Footprint Design</h2>
+<ul>
+<li>The Housing of the device is God-awful. It is way clunkier than the parts it is made of</li>
+<li>It isn't water-tight (I just avoid hitting it when I water the plants)</li>
+<li>THE BATTERIES ARN'T even enclosed.
+<ul>
+<li>The design of the case is a little funny, the switch and the battery replacement hatch are on opposite sides of the box. So I couldn't quite figure out how to enclose it and keep both accessible.</li>
+</ul>
+</li>
+</ul>
+<h2>4.2 Electronics</h2>
+<ul>
+<li>I plan on trying to see if I can reduce the power requirement to a pair of AA batteries, instead of three.</li>
+<li>This will help reduce the footprint of the system</li>
+</ul>
+<h2>4.3 Server Code</h2>
+<ul>
+<li>At the moment the web-page looks very ugly, the graph is reactive which is nice, but the scale on the x-axis isn't working propperly, and is evenly spaceing each measurement, regardless of measurement time.</li>
+<li>This should be easy to fix, but just requires me to learn a bit more JavaScript.</li>
+<li>I would like to deploy the whole thing inside a docker container</li>
+</ul>
+<h2>4.4 Documentation</h2>
+<ul>
+<li>Now that I have spotted the mistakes in V1, and know what improvements I want in V2,</li>
+<li>Version 2 will be propperly documented, including:
+<ul>
+<li>Bill Of Materials</li>
+<li>Documented Firmware and Server Software, including install instructions for the server</li>
+<li>3D manufacturing files for the case. (.stl, .3mf as well as design files)</li>
+<li>Photographed Assembly instructions.</li>
+</ul>
+</li>
+</ul>
+
+
+
+<div id="c_widget"></div>
+<script src="../../comment-widget/comment-widget.js"></script>
+</main>
+
+</div>
+<footer id="footer" style="margin-top: 0px;">
+    <a href="/feed.xml" >
+        <img
+        src="/Assets/RSS_Logo.png"
+        alt="RSS Feed"
+        style="width: 20px; height: 20px"
+        /> 
+    </a>
+
+</footer>
+
+</html>

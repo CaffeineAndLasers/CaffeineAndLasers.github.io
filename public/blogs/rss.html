@@ -1,0 +1,243 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>RSS</title></head>
+    <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+
+<div id="container"><div id="header"></div>
+    <div id="headerArea">
+    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/Resources.html">Resources</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/Resume.html">Resume</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+</ul></nav></div>
+
+
+<div id="flex">
+
+<aside id="leftSidebar"><h2>Updates</h2>
+<div class="box">
+    What am I doing these days!
+    <ul>
+        <li>April 2025 - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
+        <li>July 2024 - Started this website!</li>
+        <li>July 2023 - Started my PhD</li>
+    </ul>
+</div>
+
+
+<h2> Say Hello!</h2> 
+
+<div style="text-align: center;">
+    <img src="\Assets\KoffeeKoala.png" alt="Koffee Koala" />
+</div>
+<p></p>
+
+<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
+
+
+<h2>Find Me Online</h2>
+<ul>
+    <li>
+        <a href="https://aus.social/@AuntyRed/" target="_blank"
+            >Mastodon</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.youtube.com/@CameronJones-dj8mml"
+            target="_blank"
+            >YouTube</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.linkedin.com/in/cameron-jones-sydney/"
+            target="_blank"
+            >LinkedIn</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://github.com/CJones-Optics/"
+            target="_blank"
+            >GitHub</a
+        >
+    </li>
+</ul>
+</aside>
+
+<main>
+
+ <h1 style="font-size:35px;">RSS</h1>
+
+<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+  <p><strong>Date:</strong> 2024-08-09</p>
+  <p><strong>Last Updated:</strong> </p>
+</div>
+
+<h1>1 What Is RSS and why might your readers want it?</h1>
+<p>The acronym for RSS is &quot;Really Simple Syndication&quot;. Essentially, it is
+a way better method of alerting your readers to your new blog posts,
+without requiring an email address.</p>
+<h2>1.1 How it works</h2>
+<p>Your users will have an RSS Reader. This program keeps a list of
+webpages to check every refresh period, and presents all the new
+articles to the user.</p>
+<h2>1.2 Why not use email?</h2>
+<ul>
+<li>&quot;I wish I had more emails in my inbox &quot;</li>
+<li>&quot;I love signing up for things and giving my email to strangers&quot;</li>
+<li>&quot;I've never had my email address leaked in a data breach&quot;</li>
+</ul>
+<p>RSS beats email because it makes more sense. The user lets YOU know when
+they want to read, not the other way around. You don't need a long list
+of email addresses, and quit frankly you don't want one.</p>
+<h1>2 How to set it up:</h1>
+<p>All you need to setup an RSS feed is:</p>
+<ol>
+<li>Create a feed page for your website</li>
+<li>Provide a link to it</li>
+<li>Update the feed every time you add a new blogpost</li>
+</ol>
+<p>The users RSS reader handles the rest</p>
+<h2>2.1 Creating the Feed Page:</h2>
+<p>First create your file. The name doesn't matter too much, but should
+end in <code>.xml</code> since that is the file-type. Mine is simply called
+<code>feed.xml</code>.</p>
+<p>The structure of you feed should look like this, with your own info
+replacing the bits I have in {brackets}</p>
+<hr>
+<pre><code class="language-{.sourceCode">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+&lt;rss version=&quot;2.0&quot;&gt;
+&lt;channel&gt;
+  &lt;title&gt;{The Name of your Blog}&lt;/title&gt;
+  &lt;description&gt;{A short description of your blog}&lt;/description&gt;
+  &lt;link&gt;{Link to your homepage}&lt;/link&gt;
+  &lt;lastBuildDate&gt;
+    {Date and time in RFC 2822 format}
+  &lt;/lastBuildDate&gt;
+  &lt;ttl&gt;{Number of minutes between refreshes}&lt;/ttl&gt;
+
+
+
+
+&lt;/channel&gt;
+&lt;/rss&gt;
+</code></pre>
+<hr>
+<p>RFC 2822 Timestamps look like this: <code>Thu, 08 Aug 2024 23:52:25 +0000</code>
+And can easily be generated from this website:
+https://timestampgenerator.com/</p>
+<p>The <code>ttl</code> field instructs how often an RSS reader should wait between
+refreshing the page. E.g. if you set it to 60, each RSS reader will
+refresh your page once per hour. I rarely update my blog. So I have it
+set to 1440 so it updates once a day, so that my web page doesn't get
+hammered with too much traffic.</p>
+<h2>2.2 Adding Articles to the feed</h2>
+<p>The block above is for an empty feed. We will want to add articles to
+it!</p>
+<p>The template for each item:</p>
+<hr>
+<pre><code class="language-{.sourceCode">  &lt;item&gt;
+    &lt;title&gt;{Article Title}&lt;/title&gt;
+    &lt;description&gt;
+      {A short description or preview of the article}
+    &lt;/description&gt;
+    &lt;link&gt;{Link to the the web page of the article}&lt;/link&gt;
+    &lt;pubDate&gt;
+      {Time and date in RFC 2822 format}
+    &lt;/pubDate&gt;
+  &lt;/item&gt;
+</code></pre>
+<hr>
+<p>Each item goes in between the <code>ttl</code> tag and the <code>&lt;\channel&gt;</code> tag. Every
+time you add an article, don't forget to update the <code>&lt;lastBuildDate&gt;</code>
+tag.</p>
+<h2>2.3 Putting it all together:</h2>
+<p>In the end your RSS feed should look like this:</p>
+<hr>
+<pre><code class="language-{.sourceCode">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+&lt;rss version=&quot;2.0&quot;&gt;
+&lt;channel&gt;
+  &lt;title&gt;{The Name of your Blog}&lt;/title&gt;
+  &lt;description&gt;{A short description of your blog}&lt;/description&gt;
+  &lt;link&gt;{Link to your homepage}&lt;/link&gt;
+  &lt;lastBuildDate&gt;
+    {Date and time in RFC 2822 format}
+  &lt;/lastBuildDate&gt;
+  &lt;ttl&gt;{Number of minutes between refreshes}&lt;/ttl&gt;
+
+  &lt;!-- Above this is the header, below are each article --&gt;
+
+ &lt;item&gt;
+    &lt;title&gt;{Article One}&lt;/title&gt;
+    &lt;description&gt;
+      {A short description or preview of the article}
+    &lt;/description&gt;
+    &lt;link&gt;{Link to the the web page of article 1}&lt;/link&gt;
+    &lt;pubDate&gt;
+      {Time and date in RFC 2822 format}
+    &lt;/pubDate&gt;
+  &lt;/item&gt;
+
+ &lt;item&gt;
+    &lt;title&gt;{Article 2}&lt;/title&gt;
+    &lt;description&gt;
+      {A short description or preview of the article}
+    &lt;/description&gt;
+    &lt;link&gt;{Link to the the web page of article 2}&lt;/link&gt;
+    &lt;pubDate&gt;
+      {Time and date in RFC 2822 format}
+    &lt;/pubDate&gt;
+  &lt;/item&gt;
+
+
+&lt;!-- End of the article list --&gt;
+
+&lt;/channel&gt;
+&lt;/rss&gt;
+</code></pre>
+<hr>
+<p>Check out my RSS for a full example. of what the text looks like.</p>
+<h2>2.4 Linking the to the RSS Feed</h2>
+<p>Now that you have created the feed, you need a way to drive users to
+subscribe. All the user needs is the URL of the page you created.</p>
+<p>It is customary to use the RSS logo you can see at the bottom of my page
+to link it it. If you go ahead and click on it, you will see it brings
+you to an empty looking page. Thats because the page isn't for you. It
+is for the programs. So you can go ahead and copy and paste that logo
+into your RSS Reader to subscribe to me 😉.</p>
+<h1>3 Wrapping Up</h1>
+<p>Thats all you need! Don't forget to add a new item to your feed when
+you update your blog! No other maintenance needed. If anyone out there
+makes an old school 88x32 button to link to their RSS feed let me know!
+I really want one, but not enough to make it myself 😜</p>
+<p><img src="/Assets/RSS_Logo.png" alt="RSS Feed"></p>
+
+
+
+<div id="c_widget"></div>
+<script src="../../comment-widget/comment-widget.js"></script>
+</main>
+
+</div>
+<footer id="footer" style="margin-top: 0px;">
+    <a href="/feed.xml" >
+        <img
+        src="/Assets/RSS_Logo.png"
+        alt="RSS Feed"
+        style="width: 20px; height: 20px"
+        /> 
+    </a>
+
+</footer>
+
+</html>

@@ -1,0 +1,198 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>ChiCurate</title></head>
+    <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+
+<div id="container"><div id="header"></div>
+    <div id="headerArea">
+    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/Resources.html">Resources</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/Resume.html">Resume</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+</ul></nav></div>
+
+
+<div id="flex">
+
+<aside id="leftSidebar"><h2>Updates</h2>
+<div class="box">
+    What am I doing these days!
+    <ul>
+        <li>April 2025 - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
+        <li>July 2024 - Started this website!</li>
+        <li>July 2023 - Started my PhD</li>
+    </ul>
+</div>
+
+
+<h2> Say Hello!</h2> 
+
+<div style="text-align: center;">
+    <img src="\Assets\KoffeeKoala.png" alt="Koffee Koala" />
+</div>
+<p></p>
+
+<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
+
+
+<h2>Find Me Online</h2>
+<ul>
+    <li>
+        <a href="https://aus.social/@AuntyRed/" target="_blank"
+            >Mastodon</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.youtube.com/@CameronJones-dj8mml"
+            target="_blank"
+            >YouTube</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.linkedin.com/in/cameron-jones-sydney/"
+            target="_blank"
+            >LinkedIn</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://github.com/CJones-Optics/"
+            target="_blank"
+            >GitHub</a
+        >
+    </li>
+</ul>
+</aside>
+
+<main>
+
+ <h1 style="font-size:35px;">ChiCurate</h1>
+
+<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+  <p><strong>Date:</strong> 2024-11-17</p>
+  <p><strong>Last Updated:</strong> </p>
+</div>
+
+<h1>Introducing ChiCurate: Your Personalized ArXiv Feed</h1>
+<p>In the fast-paced world of scientific research, staying up-to-date with
+the latest publications is crucial. However, with hundreds of papers
+published daily on ArXiv, finding the most relevant ones for your
+research can be like searching for a needle in a haystack. Enter
+ChiCurate, a simple tool designed to make researchers more efficient,
+and unearth the papers they are interested in.</p>
+<p>Get it <a href="https://github.com/CJones-Optics/ChiCurate">here!</a></p>
+<h2>What is ChiCurate?</h2>
+<p>ChiCurate is an open-source tool that creates a personalized ArXiv feed
+tailored to your specific research interests. By leveraging the power of
+local Large Language Models (LLMs) and the simplicity of RSS feeds,
+ChiCurate ranks papers based on their relevance to your work, saving you
+valuable time and ensuring you never miss an important publication in
+your field.</p>
+<h2>Key Advantages</h2>
+<ol>
+<li><strong>Personalization</strong>: Unlike traditional RSS feeds, ChiCurate allows
+you to describe your research interests in plain language. The AI
+then uses this information to rank papers, ensuring you see the most
+relevant content first.</li>
+<li><strong>Local Processing</strong>: ChiCurate runs on your local machine, ensuring
+privacy and giving you full control over the curation process.</li>
+<li><strong>Open Source</strong>: The tool is open-source, allowing for community
+contributions and customizations to fit various research needs.</li>
+<li><strong>Efficient</strong>: While it may take about 15 minutes to process a
+day's worth of papers, you can set it up to run automatically each
+morning, having your personalized feed ready before you start your
+day.</li>
+<li><strong>Flexible</strong>: You can easily adjust your research interests or try
+different LLM models to optimize the curation process.</li>
+<li><strong>Resource-Friendly</strong>: ChiCurate can run on modest hardware, making
+it accessible to researchers without high-end computing resources.</li>
+</ol>
+<h2>How It Works</h2>
+<p>ChiCurate combines two key technologies:</p>
+<ol>
+<li><strong>Local LLMs</strong>: Using Ollama, an open-source tool for running LLMs
+locally, ChiCurate analyzes paper titles (and potentially abstracts)
+to determine their relevance to your interests.</li>
+<li><strong>RSS Feeds</strong>: The tool fetches the latest papers from ArXiv's RSS
+feeds, providing a structured and machine-readable interface for the
+LLM to process.</li>
+</ol>
+<p>By describing your research interests to the AI, you create a
+personalized algorithm that ranks papers based on their relevance to
+your work. This approach gives you the benefits of a curated feed while
+maintaining full control over the curation process.</p>
+<h2>Installation Guide</h2>
+<p>To get started with ChiCurate, follow these steps:</p>
+<ol>
+<li>
+<p><strong>Install Ollama</strong>:</p>
+<ul>
+<li>For Linux: <code>curl -fsSL https://ollama.com/install.sh | sh</code></li>
+<li>For Windows: Install WSL (Windows Subsystem for Linux) first,
+then follow the Linux instructions</li>
+<li>For MacOS: Download the dedicated installer from the Ollama
+website</li>
+</ul>
+</li>
+<li>
+<p><strong>Pull the LLM Model</strong>:</p>
+<p>ollama pull mistral-nemo</p>
+</li>
+<li>
+<p><strong>Install ChiCurate</strong>:</p>
+<p>git clone https://github.com/CJones-Optics/ArXivCurator.git
+cd ./ArXivCurator
+python3 -m venv .venv
+source .venv/activate
+pip install -r requirements.txt</p>
+</li>
+<li>
+<p><strong>Configure ChiCurate</strong>:</p>
+<ul>
+<li>Edit <code>./userData/feeds.csv</code> to include the ArXiv RSS feeds
+you're interested in</li>
+<li>Modify <code>./userData/userPrompt.txt</code> to describe your research
+interests</li>
+<li>Adjust <code>config.yaml</code> if needed (e.g., to change the LLM model or
+batch size)</li>
+</ul>
+</li>
+<li>
+<p><strong>Run ArXiv Curator</strong>:</p>
+<p>Execute <code>run.sh</code> to start the curation process</p>
+</li>
+</ol>
+<p>For optimal use, consider setting up a cron job to run ChiCurate
+automatically each morning.</p>
+<p><strong>UPDATE: September 2024</strong>
+Stay Tuned. I have made the program even more efficient :)</p>
+
+
+
+<div id="c_widget"></div>
+<script src="../../comment-widget/comment-widget.js"></script>
+</main>
+
+</div>
+<footer id="footer" style="margin-top: 0px;">
+    <a href="/feed.xml" >
+        <img
+        src="/Assets/RSS_Logo.png"
+        alt="RSS Feed"
+        style="width: 20px; height: 20px"
+        /> 
+    </a>
+
+</footer>
+
+</html>

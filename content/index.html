@@ -1,0 +1,135 @@
+---
+title: Caffeine and Lasers
+layout: default.liquid
+---
+
+<hr>
+<div style="text-align: center;">
+    <img src="\Assets\CaffineANdLasers.svg" alt="Coffee and Lasers" />
+</div>
+<hr>
+
+<h1>Welcome to my Website!</h1>
+<p><strong>Stick around for musings powered by coffee and lasers</strong></p>
+<details>
+    <summary><b>Who am I?</b></summary>
+    <p>
+        My Name is Cam :)
+
+        I'm a PhD Candidate from Australia. I work on laser systems and funny glass 
+        tubes. 
+        
+        I also really likes coffee, beer, history, and plenty of other things.
+
+    </p>
+</details>
+
+<details>
+    <summary><b>What Do I Do?</b></summary>
+    <p>
+        I use lasers to talk to satellites. Check out <a href="/blogs/phdAt5Levels">this blogpost</a> if you want to know what that means!
+    </p>
+</details>
+
+<details>
+    <summary><b>What is this website?</b></summary>
+    <p> 
+        This website is my personal blog, and home for my digital identity. 
+    </p>
+    <p>
+        The posts are a mix of personal and professional, and represent my personal thoughts
+        and noth that of any employer or institution. 
+    </p>
+    <p>
+        I rarely manage to stick to a single topic in my blog. Common themes revolve around
+        interesting science (mainly physics), personal opionions and documenting my work (both 
+        professional and personal).
+    </p>
+    <p>
+        I'm a big fan of "learning in public" so if I figure something out that I could not find a 
+        tutorial for, I will typically write one up here. See more in <a href="/Colophon.html">`/Colophon`</a>
+    </p>
+</details>
+
+<h2>Latest Blog Post</h2>
+<div class="blog-posts-container">
+  <ul>
+  {% assign latest_post = collections.blogPosts | first %}
+  {% if latest_post %}
+    <li>
+      <a href="{{ latest_post.url }}">
+        {{ latest_post.date | date: "%Y-%m-%d" }}: {{ latest_post.data.title }}
+      </a>
+    </li>
+  {% else %}
+    <li>No blog posts yet!</li>
+  {% endif %}
+  </ul>
+</div>
+
+<h2>From Mastodon</h2>
+<div id="latest-mastodon-post"></div>
+<script>
+    // Explicitly call the function to fetch and display the latest RSS post
+    document.addEventListener("DOMContentLoaded", function() {
+        fetchLatestMastodonPost("aus.social", "AuntyRed");
+    });
+</script>
+
+<style>
+    .code-block {
+        background-color: #f4f4f4;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 1em;
+        margin: 1em 0;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        font-family: monospace;
+    }
+</style>
+
+
+
+<div style="border: 1px solid #ddd; padding: 20px; display: inline-block; text-align: center; margin-top: 20px; margin-left: auto; margin-right: auto;">
+
+    <a href="https://brainmade.org/"> 
+        <img src="\Assets\humanMadeButton.gif" alt="Brainmade" />
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <img src="\Assets\rickroll.gif" alt="Rickroll" />
+    </a>
+
+    <a href="feed.xml">
+        <img src="\Assets\rss-button.gif" alt="RSS" />
+    </a>
+
+    <a href="index.html">
+        <img src="\Assets\CaffeineAndLasersButton.png" alt="Caffeine and Lasers" />
+    </a>
+</div>
+
+<p></p>
+
+<h2>Web Rings</h2>
+<div class="webring">
+    <a class="webring_previous" href="https://fediring.net/previous?host=caffeineandlasers.com/">← prev</a>
+    <div class="webring_center">
+        <a class="webring_name" href="https://fediring.net/" target="_blank">fediring</a>
+        <a class="webring_small" href="https://fediring.net/random">(random)</a>
+    </div>
+    <a class="webring_next" href="https://fediring.net/next?host=caffeineandlasers.com/">next →</a>
+</div>
+    
+<div class="webring">
+    <a class="webring_previous" href="https://meta-ring.hedy.dev/previous/">← prev</a>
+    <div class="webring_center">
+        <a class="webring_name" href="https://meta-ring.hedy.dev" target="_blank">Meta Ring</a>
+        <a class="webring_small" href="https://meta-ring.hedy.dev/random">(random)</a>
+    </div>
+    <a class="webring_next" href="https://meta-ring.hedy.dev/next/">next →</a>
+</div>
+
+

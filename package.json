@@ -1,0 +1,23 @@
+{
+    "name": "CaffeineAndLasers",
+    "private": true,
+    "devDependencies": {
+        "@11ty/eleventy": "^2.0.1",
+        "css-loader": "^7.1.2",
+        "mini-css-extract-plugin": "^2.9.1",
+        "sass": "^1.78.0",
+        "sass-loader": "^16.0.1",
+        "style-loader": "^4.0.0",
+        "tippy.js": "^6.3.7",
+        "webpack": "^5.94.x",
+        "webpack-cli": "^5.1.4"
+    },
+    "scripts": {
+        "webpack": "webpack --watch",
+        "eleventy": "npx @11ty/eleventy --serve",
+        "build": "npx @11ty/eleventy & webpack"
+    },
+    "dependencies": {
+        "qrcode": "^1.5.4"
+    }
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Caffeine And Lasers</title>
+  <description>Musings Powered By Caffeine and Lasers</description>
+  <link>https://Caffeineandlasers.neocities.org</link>
+  <lastBuildDate>Sun, 16 Mar 2025 18:00:00 +1000</lastBuildDate>
+  <ttl>1440</ttl>
+
+ <item>
+    <title>How I do my Reseach (As a PhD Student)</title>
+    <description> Yet another PhD student explains their personal knowledge management system.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/How_I_do_my_Research(As_a_PhD_Student).html</link>
+    <pubDate>Fri, 24 Jan 2025 18:00:00 +1000</pubDate>
+    </item>
+
+  <item>
+    <title>Wireless Plant Monitor</title>
+    <description>Just a quick write-up about my current side project (distraction).</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/20250124PlantMonitorPrototypeUpdate.html</link>
+    <pubDate>Sun, 16 Mar 2025 18:00:00 +1000</pubDate>
+    </item>
+
+  <item>
+    <title>Keep Your Ego In Check (Above The Robots)</title>
+    <description> How do you use AI for writinng? Keep it in its place.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/KeepYourEgoInCheck(AboveTheAI).html</link>
+    <pubDate>Wed, 15 Jan 2025 18:00:00 +1000</pubDate>
+    </item>
+
+  <item>
+  <title>Using RSS to De-Enshittify Reddit</title>
+  <description> Woah, an RSS feed about RSS. How to Escape Reddits' Enshittified Torment Nexus™️ of Reddit with RSS!
+  </description>
+  <link>https://Caffeineandlasers.neocities.org/blogs/UsingRSSRSSforReddit.html</link>
+  <pubDate>Thu, 27 Nov 2024 09:57:01 +1000</pubDate>
+
+  </item>
+
+  <item>
+    <title>Introducing ChiScraper</title>
+    <description>ChiScraper is an open-source tool that helps researchers take control of their ArXiv experience by combining
+    a powerful keyword matching algorithm with LLM-powered ranking. Instead of wading through endless papers, Chi-scraper
+    shows you what's relevant to your research interests and ranks them by importance. It's like having a personal research
+    assistant that pre-screens papers before your morning coffee.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/ChiScraperIntroduction.html</link>
+    <pubDate>Mon, 18 Nov 2024 09:57:01 +1000</pubDate>
+  </item>
+
+  <item>
+    <title>The Case For Power Generation Cooperatives</title>
+    <description>An unqualified opinion on how we should be building power grids.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/TheCaseForPowerCoOps.html</link>
+    <pubDate>Mon, 30 Sep 2024 09:16:09 +1000</pubDate>
+  </item>
+
+
+
+  <item>
+    <title>Where are all the aliens?</title>
+    <description>A recent paper thinks the answer is that the aliens are just ignoring us.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/Aliens.html</link>
+    <pubDate>Thu, 05 Sep 2024 20:52:09 +1000</pubDate>
+  </item>
+
+
+  <item>
+    <title>Four Observations from Two Papers: Applying Science to Coffee Grinding</title>
+    <description>There is something special about when scientists get to study coffee.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/WhatScienceSaysAboutCoffeeGrinding.html</link>
+    <pubDate>Fri, 30 Aug 2024 17:51:22 +1000</pubDate>
+  </item>
+
+  <item>
+    <title>Introducing My LoFi Radio!</title>
+    <description>My latest (and first) contribution to FOSS! A LoFi Radio player.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/lofiRadio.html</link>
+    <pubDate>Sun, 11 Aug 2024 19:55:12 +1000</pubDate>
+  </item>
+
+  <item>
+    <title>How to build your very own RSS Feed</title>
+    <description>A short tutorial on building your own RSS feed.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/rss.html</link>
+    <pubDate>Fri, 09 Aug 2024 04:21:01 +1000</pubDate>
+  </item>
+  <item>
+    <title>Observing The Observer: Perception in Philosphy, Psychology and Physics.</title>
+    <description>What does Descartes, Buddah and Heisenburg have in common? They all observe the observer.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/Perceptibility.html</link>
+    <pubDate>Mon, 05 Aug 2024 09:58:00 +1000</pubDate>
+  </item>
+  <item>
+    <title>A Introduction to LCOS Spatial Light Modulators</title>
+    <description>A short blog post I wrote a while back about LCOS SLMs.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/IntroToLCOS.html</link>
+    <pubDate>Thu, 01 Aug 2024 09:58:00 +1000</pubDate>
+  </item>
+  <item>
+    <title>The Anatomy Of Espresso</title>
+    <description>How does Espresso work? I try and break down what those coffee nerds are talking about.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/20240725T075059.html</link>
+    <pubDate>Fri, 26 Jul 2024 09:58:00 +1000</pubDate>
+  </item>
+</channel>
+</rss>

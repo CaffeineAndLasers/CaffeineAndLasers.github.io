@@ -1,0 +1,40 @@
+---
+title: Default Title
+css: /styles.css
+nesting: ../../
+---
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>{{ title }}</title></head>
+    <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="{{css}}">
+</head>
+
+{% include "header.liquid" %}
+
+<div id="flex">
+
+<aside id="leftSidebar">{% include "sidebar.liquid" %}</aside>
+
+<main>
+
+ <h1 style="font-size:35px;">{{title}}</h1>
+
+<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+  <p><strong>Date:</strong> {{ date | date: "%Y-%m-%d" }}</p>
+  <p><strong>Last Updated:</strong> {{ updated | date: "%Y-%m-%d" }}</p>
+</div>
+
+{{ content }}
+
+
+<div id="c_widget"></div>
+<script src="{{nesting}}comment-widget/comment-widget.js"></script>
+</main>
+
+</div>
+{% include "footer.liquid" %}
+
+</html>

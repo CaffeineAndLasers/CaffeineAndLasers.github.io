@@ -1,0 +1,84 @@
+---
+title: blog
+layout: blog.liquid
+---
+
+<h1>Blog!!!</h1>
+Welcome to my blog. New updates every time I feel like it.
+<b>NOTE-</b> Sometimes I might not feel like it. You can subscribe to my blog
+through the RSS feed
+<p> 
+<a href="feed.xml"> <img src="\Assets\rss-button.gif" /> </a>
+</p>
+
+<h2>⏰Latest Post⏰</h2>
+<div class="blog-posts-container">
+  <ul>
+    <li>
+      <a href="{{ collections.blogPosts[0].url }}">
+        {{ collections.blogPosts[0].date | date: "%Y-%m-%d" }}: {{ collections.blogPosts[0].data.title }}
+      </a>
+    </li>
+  </ul>
+</div>
+
+<h2>⭐My Favourite Posts⭐</h2>
+
+<div class="blog-posts-container">
+  <ul>
+
+    <li>
+      <a href="/blogs/WhatScienceSaysAboutCoffeeGrinding.html">
+        2024-08-30: What Science Says About Coffee Grinding
+      </a>
+      <p>
+        I did a mini-deep dive into the research around electrostatic 
+        clumping of coffee grounds and the ways which people attempt To
+        mitigate it.        
+      </p>
+    </li>
+
+    <li>
+      <a href="/blogs/How_I_do_my_Research(As_a_PhD_Student).html">
+        2025-03-16: How I do My Research (As a PhD Student)
+      </a>
+      <p>
+        Yet another PhD student explains their personal knowledge management system.
+      </p>
+    </li>
+
+    <li>
+      <a href="/blogs/Aliens.html">
+        2024-09-30: Where are all the aliens?
+      </a>
+      <p>
+        This paper suggests, they might just not be talking to us right now.
+      </p>
+    </li>
+
+    <li>
+      <a href="/blogs/Perceptibility.html">
+        2024-08-05: Perceptibility
+      </a>
+      <p>
+        Looking at yourself can be interesting. We do it in philosophy,
+        pyschology and physics too.
+      </p>
+    </li>
+
+  </ul>
+</div>
+
+
+<h2>📜All My Posts📜</h2>
+<div class="blog-posts-container">
+  <ul>
+  {% for post in collections.blogPosts %}
+    <li>
+      <a href="{{ post.url }}">
+        {{ post.date | date: "%Y-%m-%d" }}: {{ post.data.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
