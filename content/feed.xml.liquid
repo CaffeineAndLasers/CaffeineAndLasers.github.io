@@ -19,7 +19,7 @@ permalink: /feed.xml # Ensure it outputs to the root
     <item>
       <title>{{ post.data.title }}</title>
       <description>{{ post.data.description }}</description>
-      <link>>{{ rootURL }}{{ post.url }}</link>
+      <link>{{ rootURL }}{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     </item>
     {% endfor %}
