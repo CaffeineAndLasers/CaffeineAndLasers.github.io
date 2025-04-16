@@ -1,0 +1,27 @@
+---
+title: Default Title
+css: /styles.css
+nesting: ../../
+---
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>{{ title }}</title></head>
+    <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="{{css}}">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+</head>
+
+{% include "header.liquid" %}
+
+<div id="flex">
+
+<aside id="leftSidebar">{% include "sidebar.liquid" %}</aside>
+
+<main>{{ content }}</main>
+
+</div>
+{% include "footer.liquid" %}
+
+</html>

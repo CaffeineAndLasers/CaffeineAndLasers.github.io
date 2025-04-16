@@ -1,0 +1,25 @@
+---
+title: Notes
+layout: default.liquid
+---
+
+<h1>Notes</h1>
+<p><strong>This is where I put all my notes</strong>
+These are bits and pieces which are either too short, or not original
+enough to be a blog post. In here you will find links to other bits of the web I find 
+interesting, random thoughts and pictures I might want to share.</p>
+
+<p>If you want to keep track, my notes are in a seperate RSS feed: #TO-DO</p>
+<hr>
+  {% for post in collections.notes %}
+    <div class="blog-posts-container">
+        <h3>
+        {{ post.date | date: "%Y-%h-%d %H:%M" }}:
+         <a href="{{ post.url }}">{{ post.data.title }}</a> </h3>
+        <!-- Now embed everything from the file -->
+        {{ post.content }}
+    </li>
+    </div>
+    <hr>
+  {% endfor %}
+  
