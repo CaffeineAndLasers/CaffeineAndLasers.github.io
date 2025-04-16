@@ -12,6 +12,12 @@ module.exports = function (eleventyConfig) {
       return b.date - a.date; // Sort in reverse chronological order (newest first)
     });
   });
+  // And Notes
+  eleventyConfig.addCollection("notes", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("content/notes/*.{html,md}").sort((a, b) => {
+      return b.date - a.date; // Sort in reverse chronological order (newest first)
+    });
+  });
 
   // Add date filter for RSS
   eleventyConfig.addFilter("dateToRfc822", function(date) {
