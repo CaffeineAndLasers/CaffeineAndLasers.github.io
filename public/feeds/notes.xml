@@ -5,9 +5,16 @@
     <title> Caffeine and Lasers - Notes </title>
     <description> Thoughts and Links from Caffeine and Lasers</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Wed, 16 Apr 2025 01:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 17 Apr 2025 01:00:00 +0100</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>New Feeds!</title>
+      <description></description>
+      <link>https://Caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html</link>
+      <pubDate>Thu, 17 Apr 2025 01:00:00 +0100</pubDate>
+    </item>
     
     <item>
       <title>Open Source Quantum Magnetometers</title>
@@ -20,13 +27,6 @@
       <title>Learning About Rainbows</title>
       <description></description>
       <link>https://Caffeineandlasers.com/notes/20250416_rainbowspec.html</link>
-      <pubDate>Wed, 16 Apr 2025 01:00:00 +0100</pubDate>
-    </item>
-    
-    <item>
-      <title>New Feeds!</title>
-      <description></description>
-      <link>https://Caffeineandlasers.com/notes/20250416_AddingExtraFeeds.html</link>
       <pubDate>Wed, 16 Apr 2025 01:00:00 +0100</pubDate>
     </item>
     
