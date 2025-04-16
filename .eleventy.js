@@ -24,6 +24,15 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // An all updates (blog posts and notes) collection
+  eleventyConfig.addCollection("updates", function(collectionApi) {
+    return collectionApi.getAllSorted().filter(item => {
+      return item.inputPath.startsWith("content/blogs/") || item.inputPath.startsWith("content/notes/");
+    }).sort((a, b) => {
+      return b.date - a.date; // Sort in reverse chronological order (newest first)
+    });
+  });
+
   // Add date filter for RSS
   eleventyConfig.addFilter("dateToRfc822", function(date) {
     return new Date(date).toUTCString();

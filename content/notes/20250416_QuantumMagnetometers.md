@@ -1,5 +1,7 @@
 ---
 title: Open Source Quantum Magnetometers
+date: 2025-04-16
+description: 
 layout: note.liquid
 ---
 

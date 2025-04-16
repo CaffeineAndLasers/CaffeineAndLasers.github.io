@@ -1,9 +1,9 @@
 ---
-title: Caffeine and Lasers
-description: Coffee, Science and Beer
+title: Caffeine and Lasers - Notes
+description: Thoughts and Links from Caffeine and Lasers
 rootURL: https://Caffeineandlasers.com
 eleventyExcludeFromCollections: true # Keep this if you don't want the feed itself in collections
-permalink: /feed.xml # Ensure it outputs to the root
+permalink: /feeds/notes.xml # Ensure it outputs to the root
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -12,10 +12,10 @@ permalink: /feed.xml # Ensure it outputs to the root
     <title> {{ title }} </title>
     <description> {{  description  }}</description>
     <link>{{ rootURL }}</link>
-    <lastBuildDate>{{ collections.updates[0].date | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <lastBuildDate>{{ collections.notes[0].date | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     <ttl>1440</ttl>
 
-    {% for post in collections.updates %}
+    {% for post in collections.notes %}
     <item>
       <title>{{ post.data.title }}</title>
       <description>{{ post.data.description }}</description>

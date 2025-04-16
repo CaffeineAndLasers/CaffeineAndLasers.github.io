@@ -1,5 +1,7 @@
 ---
 title: Learning About Rainbows
+date: 2025-04-16
+description: 
 layout: note.liquid
 ---
 
