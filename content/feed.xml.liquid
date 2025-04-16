@@ -1,0 +1,27 @@
+---
+title: Caffeine and Lasers
+description: Coffee, Science and Beer
+rootURL: https://Caffeineandlasers.com
+eleventyExcludeFromCollections: true # Keep this if you don't want the feed itself in collections
+permalink: /feed.xml # Ensure it outputs to the root
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> {{ title }} </title>
+    <description> {{  description  }}</description>
+    <link>{{ rootURL }}</link>
+    <lastBuildDate>{{ collections.blogPosts[0].date | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <ttl>1440</ttl>
+
+    {% for post in collections.blogPosts %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <description>{{ post.data.description }}</description>
+      <link>>{{ rootURL }}{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
