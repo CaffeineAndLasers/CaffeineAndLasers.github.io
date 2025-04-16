@@ -26,7 +26,10 @@ module.exports = function (eleventyConfig) {
 
   // An all updates (blog posts and notes) collection
   eleventyConfig.addCollection("updates", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("content/blogs/*.{html,md}").sort((a, b) => {
+    return collectionApi.getFilteredByGlob([
+      "content/blogs/*.{html,md}",
+      "content/notes/*.{html,md}"
+    ]).sort((a, b) => {
       return b.date - a.date; // Sort in reverse chronological order (newest first)
     });
   });
