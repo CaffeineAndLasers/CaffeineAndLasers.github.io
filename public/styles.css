@@ -277,7 +277,7 @@ strong {
     height: 200px; /* Set a fixed height */
 }
 .KappySidebar:hover {
-    content: url("/Assets/KoffeeKoalaWave.png");
+    content: url("/Assets/KappyWave.png");
 }
 
 
