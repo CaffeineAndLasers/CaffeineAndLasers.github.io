@@ -38,36 +38,38 @@ layout: default.liquid
   <p><small>Hover over any book card to see my thoughts on it.</small></p>
 
 <div class="book-container">
-  {% assign books = books | sort: 'date' | reverse %}
-  {% for book in books %}
-    <div class="book-card" style="flex-direction: row;">
-      <div class="book-details" style="flex: 2; margin-right: 20px;">
-        <h2>{{ book.name }}</h2>
-        <p><strong>Author:</strong> {{ book.author }}</p>
-        <p><strong>Read:</strong> {% assign date_parts = book.date | split: "-" %}
-        {% case date_parts[1] %}
-          {% when "01" %}January
-          {% when "02" %}February
-          {% when "03" %}March
-          {% when "04" %}April
-          {% when "05" %}May
-          {% when "06" %}June
-          {% when "07" %}July
-          {% when "08" %}August
-          {% when "09" %}September
-          {% when "10" %}October
-          {% when "11" %}November
-          {% when "12" %}December
-        {% endcase %} {{ date_parts[0] }}</p>
-        <p><strong>Rating:</strong>  {{ book.rating }}</p>
-        <p><strong>{% if book.fiction %}Fiction{% else %}Non-Fiction{% endif %}</strong>  </p>
+{% assign books = books | sort: 'date' | reverse %}
+{% for book in books %}
+    <div class="book-card">
+        <div style="display: flex; flex-direction: row;">
+            <div class="book-details" style="flex: 2; margin-right: 20px;">
+                <h2>{{ book.name }}</h2>
+                <p><strong>Author:</strong> {{ book.author }}</p>
+                <p><strong>Read:</strong> {% assign date_parts = book.date | split: "-" %}
+                {% case date_parts[1] %}
+                    {% when "01" %}January
+                    {% when "02" %}February
+                    {% when "03" %}March
+                    {% when "04" %}April
+                    {% when "05" %}May
+                    {% when "06" %}June
+                    {% when "07" %}July
+                    {% when "08" %}August
+                    {% when "09" %}September
+                    {% when "10" %}October
+                    {% when "11" %}November
+                    {% when "12" %}December
+                {% endcase %} {{ date_parts[0] }}</p>
+                <p><strong>Rating:</strong>  {{ book.rating }}</p>
+                <p><strong>{% if book.fiction %}Fiction{% else %}Non-Fiction{% endif %}</strong></p>
+            </div>
+            <div class="book-cover" style="flex: 1; text-align: center;">
+                <img src="{{ book.coverImg }}" alt="Cover of {{ book.name }}" class="cover-image">
+            </div>
+        </div>
         <p class="book-thoughts"><strong>Thoughts:</strong> {{ book.thoughts }}</p>
-      </div>
-      <div class="book-cover" style="flex: 1; text-align: center;">
-        <img src="{{ book.coverImg }}" alt="Cover of {{ book.name }}" class="cover-image">
-      </div>
     </div>
-  {% endfor %}
+{% endfor %}
 </div>
 
 <style>
