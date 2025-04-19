@@ -11,6 +11,13 @@ module.exports = function (eleventyConfig) {
     url: "https://caffeineandlasers.com"
   });
 
+  // Add books.json data to be available in templates
+  eleventyConfig.addGlobalData("books", function() {
+    const filePath = path.join(__dirname, "content", "books.json");
+    const rawData = fs.readFileSync(filePath, "utf8");
+    return JSON.parse(rawData);
+  });
+
   // Add a collection for blog posts
   eleventyConfig.addCollection("blogPosts", function(collectionApi) {
     return collectionApi.getFilteredByGlob("content/blogs/*.{html,md}").sort((a, b) => {
