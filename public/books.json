@@ -19,6 +19,15 @@
     "coverImg": "/Assets/book-covers/three-body-problem.jpg"
   },
   {
+    "name": "The Village Teacher",
+    "author": "Liu Cixin",
+    "rating": "⭐",
+    "thoughts": "Cixin does not miss. This short graphic novel which I read in an hour hit me like a sledgehammer with its final panel. Teachers are amazing. Go thank your nearest teacher.",
+    "date": "2025-03",
+    "fiction": true,
+    "coverImg": "/Assets/book-covers/three-body-problem.jpg"
+  },
+  {
     "name": "Technofeudalism: What Killed Capitalism",
     "author": "Yanis Varoufakis",
     "rating": "⭐",
