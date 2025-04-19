@@ -116,6 +116,7 @@
         be thinking about for years to come.
     </li>
   </ul>
+  <p><small>Hover over any book card to see my thoughts on it.</small></p>
 
 <div class="book-container">
   
@@ -129,7 +130,7 @@
            2025</p>
         <p><strong>Rating:</strong>  ⭐</p>
         <p><strong>Non-Fiction</strong>  </p>
-        <p><strong>Thoughts:</strong> Varoufakis is a surprisingly great writer. The first chapter draws an extremely compelling extended metaphor between physics and philosphy and economics which blew me away. His core thesis is that we have moved beyond capitalism, and far from the socialist utopia which many predicted would be the downfall of capitalism, we ended up with something weird, and worse than capitalism. Very compelling read, and one of the more influential in how I currently percieve the world economy.</p>
+        <p class="book-thoughts"><strong>Thoughts:</strong> Varoufakis is a surprisingly great writer. The first chapter draws an extremely compelling extended metaphor between physics and philosphy and economics which blew me away. His core thesis is that we have moved beyond capitalism, and far from the socialist utopia which many predicted would be the downfall of capitalism, we ended up with something weird, and worse than capitalism. Very compelling read, and one of the more influential in how I currently percieve the world economy.</p>
       </div>
       <div class="book-cover" style="flex: 1; text-align: center;">
         <img src="/Assets/book-covers/Technofeudalism.jpg" alt="Cover of Technofeudalism: What Killed Capitalism" class="cover-image">
@@ -145,7 +146,7 @@
            2025</p>
         <p><strong>Rating:</strong>  🟩</p>
         <p><strong>Non-Fiction</strong>  </p>
-        <p><strong>Thoughts:</strong> I've readlly enjoyed his Youtube channel "Gary's Economis" for a while now. In that light I was slightly disappointed that the book was mostly biographic, with not a whole lot of economics. That said, Stevensen is a REALLY great writer. Lots of very funny anecdotes, and insights. Worth the read.</p>
+        <p class="book-thoughts"><strong>Thoughts:</strong> I've readlly enjoyed his Youtube channel "Gary's Economis" for a while now. In that light I was slightly disappointed that the book was mostly biographic, with not a whole lot of economics. That said, Stevensen is a REALLY great writer. Lots of very funny anecdotes, and insights. Worth the read.</p>
       </div>
       <div class="book-cover" style="flex: 1; text-align: center;">
         <img src="/Assets/book-covers/tradingGame.jpg" alt="Cover of The Trading Game: A Confession" class="cover-image">
@@ -161,7 +162,7 @@
            2024</p>
         <p><strong>Rating:</strong>  🟩</p>
         <p><strong>Non-Fiction</strong>  </p>
-        <p><strong>Thoughts:</strong> This one was really good. The central premise is that humans are really bad at true randomness, and we fall into very predicatble patterns while trying to do random. The book then outlines the mistakes we tend to make (and practical advice in how you could exploit those blindspots)</p>
+        <p class="book-thoughts"><strong>Thoughts:</strong> This one was really good. The central premise is that humans are really bad at true randomness, and we fall into very predicatble patterns while trying to do random. The book then outlines the mistakes we tend to make (and practical advice in how you could exploit those blindspots)</p>
       </div>
       <div class="book-cover" style="flex: 1; text-align: center;">
         <img src="/Assets/book-covers/predictTheUnpredictable.jpg" alt="Cover of How to Predict the Unpredictable The Art of Outsmarting Almost Everyone" class="cover-image">
@@ -177,7 +178,7 @@
            2023</p>
         <p><strong>Rating:</strong>  ⭐</p>
         <p><strong>Fiction</strong>  </p>
-        <p><strong>Thoughts:</strong> I never thought I would take "Astro-socialogy" as a serious concept before reading this. Read the whole series, seriously.</p>
+        <p class="book-thoughts"><strong>Thoughts:</strong> I never thought I would take "Astro-socialogy" as a serious concept before reading this. Read the whole series, seriously.</p>
       </div>
       <div class="book-cover" style="flex: 1; text-align: center;">
         <img src="/Assets/book-covers/three-body-problem.jpg" alt="Cover of The Three-Body Problem" class="cover-image">
@@ -193,7 +194,7 @@
            2023</p>
         <p><strong>Rating:</strong>  🟩</p>
         <p><strong>Fiction</strong>  </p>
-        <p><strong>Thoughts:</strong> I read Dune, and Dune Messiah where it got a bit too weird. The original is where it is at. The book is at its most interesting when it is talking about real politik. </p>
+        <p class="book-thoughts"><strong>Thoughts:</strong> I read Dune, and Dune Messiah where it got a bit too weird. The original is where it is at. The book is at its most interesting when it is talking about real politik. </p>
       </div>
       <div class="book-cover" style="flex: 1; text-align: center;">
         <img src="/Assets/book-covers/dune.jpg" alt="Cover of Dune" class="cover-image">
@@ -218,6 +219,8 @@
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
+    position: relative;
+    overflow: hidden;
   }
   
   .book-card:hover {
@@ -243,6 +246,20 @@
   .book-details h2 {
     color: #ea76cb;
     margin-top: 0;
+  }
+  
+  .book-thoughts {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease, margin 0.5s ease;
+    margin: 0;
+  }
+  
+  .book-card:hover .book-thoughts {
+    max-height: 500px;
+    opacity: 1;
+    margin: 10px 0;
   }
 </style></main>
 
