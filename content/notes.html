@@ -10,9 +10,19 @@ enough to be a blog post. In here you will find links to other bits of the web I
 interesting, random thoughts and pictures I might want to share.</p>
 
 <p>If you want to keep track, my notes are in a separate <a href="/feeds/notes.xml">RSS feed</a>.</p>
+
+<p>
+  All my notes and pictures are licensed under Creative Commons 0 (CC0) license unless otherwise stated.
+ </p> 
+ 
+ <a href="https://creativecommons.org/public-domain/cc0/">
+    <img src="/Assets/CC0.png" alt="CC0"/>
+  </a>
+
+
 <hr>
   {% for post in collections.notes %}
-    <div class="blog-posts-container">
+    <div class="notes-container">
         <h3>
         {{ post.date | date: "%Y-%h-%d %H:%M" }}:
          <a href="{{ post.url }}">{{ post.data.title }}</a> </h3>
@@ -22,4 +32,3 @@ interesting, random thoughts and pictures I might want to share.</p>
     </div>
     <hr>
   {% endfor %}
-  

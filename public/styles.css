@@ -231,6 +231,15 @@ strong {
     margin: 15px 0;
 }
 
+.notes-container {
+    background-color: #eff1f5;
+    border: 3px dotted #ea76cb;  /* Pink border to match your h1 color */
+    border-radius: 15px;         /* Rounded corners */
+    padding: 15px;
+    margin: 15px 0;
+    /* No max-height or overflow properties, so content will expand naturally */
+}
+
 .blog-posts-container ul {
     margin: 0;
     padding-left: 20px;
