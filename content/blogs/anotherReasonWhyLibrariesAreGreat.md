@@ -1,7 +1,7 @@
 ---
 title: Another reason why libraries are great
 date: 2025-04-22
-updated: 2025-04-22
+updated: 2025-04-23
 description: They reduce this risk in picking books. 
 layout: blogpost.liquid
 ---
@@ -20,4 +20,6 @@ And once you realise this, it’s kind of thrilling. The whole idea that you don
 These days I get to go to the library, I go in with barely any plan. I walk around until I spot some topic I don't know anything about and pick it up. Totally risk free!
 
 
-I like libraries, and I think you should to. If you want to here an actualy librarian talk about librarian stuff, read this [blog by (dr) Molly Tov](https://drmollytov.dev/2025-03-13)
+I like libraries, and I think you should to. If you want to here an actualy librarian talk about librarian stuff, read this [blog by (dr) Molly Tov](https://drmollytov.dev/2025-03-13). 
+
+Update: the excellent Dr Molly Tov, "yes and-ed" me in [this blogpost](https://drmollytov.dev/2025-04-22). It is a good read, that you should check out.
