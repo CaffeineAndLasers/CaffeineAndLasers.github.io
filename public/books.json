@@ -1,5 +1,14 @@
 [
   {
+    "name":     "Conflict: the evolution of warfare from 1945 to Gaza",
+    "author":   "General David Petraeus and Andrew Roberts",
+    "rating":   "🟧",
+    "thoughts": "This is a complicated one to recommend. It was a bit of a slog to read, and parts of it were quite confronting. Without going too much into my own political ideology, I don't think it would be that surprising to most that I do not agree 100% with the political opinions espoused by a general of the U.S military. That said, I do think it is worth a read. Not because I agree with all the opinions of the author, but because I think it is very important for many to understand how a general of the U.S. military thinks.",
+    "date":     "2025-04",
+    "fiction":  false,
+    "coverImg": "/Assets/book-covers/Conflict.jpg"
+  },
+  {
     "name": "The Trading Game: A Confession",
     "author": "Gary Stevenson",
     "rating": "🟩",
@@ -17,6 +26,15 @@
     "date": "2023-08",
     "fiction": true,
     "coverImg": "/Assets/book-covers/three-body-problem.jpg"
+  },  
+  {
+    "name":     "Laziness does not exist: A defense of the exhausted, exploited, and overworked",
+    "author":   "Devon Price",
+    "rating":   "🟧",
+    "thoughts": "I found this to be less interesting than I hoped. Yep, if you work too hard you will burn out, and there are physiological signs. Idk, maybe some people need a book to tell them this.",
+    "date":     "2025-02",
+    "fiction":  false,
+    "coverImg": "/Assets/book-covers/lazinessdoesnotexist.jpg"
   },
   {
     "name": "The Village Teacher",
@@ -44,6 +62,24 @@
     "date": "2024-08",
     "fiction": false,
     "coverImg": "/Assets/book-covers/predictTheUnpredictable.jpg"
+  },  
+  {
+    "name":     "Bloom",
+    "author":   "Ruth Kassinger",
+    "rating":   "⭐",
+    "thoughts": "This book is GREAT. It had me absolutley obsessed with a topic I previously knew nothing about. The book is covers the bilogoy, ecology and biotechnology of algea. It somehow had me turning pages faster I could have possibly thought given the topic. By the end I was obsessed and looking at ingredients on the back of boxes to identify the algal products inside.",
+    "date":     "2024-12",
+    "fiction":  false,
+    "coverImg": "/Assets/book-covers/bloom.jpg"
+  },
+  {
+    "name":     "War & Peace & War: 20 Years In Afghanistan",
+    "author":   "Andrew North",
+    "rating":   "🟩",
+    "thoughts": "I really liked this one. It is a history of the last 20 years in Afghanistan, told biographically through the eyes of the authors collegues. This method of history is deeply personal, and I think an illuminating way to personally understand WHY things happened how they did in a sociological context.",
+    "date":     "2024-10",
+    "fiction":  false,
+    "coverImg": "/Assets/book-covers/warandpeaceandwar.jpg"
   },
   {
     "name": "Dune",
