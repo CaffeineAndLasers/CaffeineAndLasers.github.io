@@ -6,7 +6,6 @@ description: I rant about deceptive branding, nihilism and beer.
 layout: blogpost.liquid
 ---
 
-# Post-Truth Marketing (and a Really Tasty Beer)
 
 I want to talk about advertising for a second. Why does it exist? If you are in a intro to business class you might say:
 
