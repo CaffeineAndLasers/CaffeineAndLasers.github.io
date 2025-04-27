@@ -7,11 +7,18 @@
     <link>https://Caffeineandlasers.com</link>
     <lastBuildDate>
       
-        Sun, 20 Apr 2025 10:00:00 +1000
+        Sun, 27 Apr 2025 10:00:00 +1000
       
     </lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Fixed my feeds. Again.</title>
+      <description>Whoops, thought I fixed my RSS feeds [last week](https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html), Turns out I just broke it again in a new way. This time, they should be working. I think.</description>
+      <link>https://Caffeineandlasers.com/notes/20250427_FixedTheFeed_Again.html</link>
+      <pubDate>Sun, 27 Apr 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>Technofeudalism in 4 comic panels</title>
@@ -38,13 +45,6 @@
       <title>Learning About Rainbows</title>
       <description></description>
       <link>https://Caffeineandlasers.com/notes/20250416_rainbowspec.html</link>
-      <pubDate>Wed, 16 Apr 2025 10:00:00 +1000</pubDate>
-    </item>
-    
-    <item>
-      <title>Fixed my feeds. Again.</title>
-      <description>Whoops, thought I fixed my RSS feeds [last week](https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html), Turns out I just broke it again in a new way. This time, they should be working. I think.</description>
-      <link>https://Caffeineandlasers.com/notes/20250427_FixedTheFeed(Again).html</link>
       <pubDate>Wed, 16 Apr 2025 10:00:00 +1000</pubDate>
     </item>
     
