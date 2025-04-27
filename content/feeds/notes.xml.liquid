@@ -1,5 +1,5 @@
 ---
-title: Caffeine and Lasers - Notes
+title: Caffeine and Lasers - Notes!
 description: Thoughts and Links from Caffeine and Lasers
 rootURL: https://Caffeineandlasers.com
 eleventyExcludeFromCollections: true # Keep this if you don't want the feed itself in collections
@@ -9,18 +9,22 @@ permalink: /feeds/notes.xml # Ensure it outputs to the root
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title> {{ title }} </title>
-    <description> {{  description  }}</description>
+    <title>{{ title }}</title>
+    <description>{{ description }}</description>
     <link>{{ rootURL }}</link>
-    <lastBuildDate>{{ collections.notes[0].date | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <lastBuildDate>
+      {% if collections.notes.length > 0 %}
+        {{ collections.notes[0].date | date: "%a, %d %b %Y %H:%M:%S %z" }}
+      {% endif %}
+    </lastBuildDate>
     <ttl>1440</ttl>
 
-    {% for post in collections.notes %}
+    {% for note in collections.notes %}
     <item>
-      <title>{{ post.data.title }}</title>
-      <description>{{ post.data.description }}</description>
-      <link>{{ rootURL }}{{ post.url }}</link>
-      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <title>{{ note.data.title }}</title>
+      <description>{{ note.data.description }}</description>
+      <link>{{ rootURL }}{{ note.url }}</link>
+      <pubDate>{{ note.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     </item>
     {% endfor %}
   </channel>
