@@ -77,5 +77,7 @@ Maybe at some point I will write another piece about how economics sometimes mis
 
  ![](/Assets/Starbreaker.png)
 
+ - [(dr) Molly Tov - notes from a week of adspotting](https://drmollytov.smol.pub/2025-04-05)
+
 
 
