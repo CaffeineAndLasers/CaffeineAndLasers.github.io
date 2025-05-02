@@ -1,0 +1,241 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>Subreddit RSS Feed Generator</title></head>
+    <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+</head>
+
+<div id="container"><div id="header"></div>
+    <div id="headerArea">
+    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/notes.html">Notes & Links</a></li>
+            <li><a href="/Resources.html">Resources</a></li>
+            <li><a href="/Library.html">Media</a></li>
+            <!-- This empty one feels immature -->
+            <!-- <li><a href="/publications.html">Publications</a></li>  -->
+            <!-- <li><a href="/Resume.html">Resume</a></li> -->
+            <li><a href="/contact.html">Contact Me</a></li>
+</ul></nav></div>
+
+
+<div id="flex">
+
+<aside id="leftSidebar"><h2>Updates</h2>
+<div class="box">
+    What am I doing these days!
+    <ul>
+        <li><b>April 2025</b> - Traveled to U.K to collaborate with Durham University</li>
+        <li><b>April 2025</b> - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
+        <li><b>July 2024</b> - Started this website!</li>
+        <li><b>July 2023</b> - Started my PhD</li>
+    </ul>
+</div>
+
+
+<h2> Say Hello!</h2> 
+
+<div >
+    <img 
+        src="\Assets\KappyIdle.png" 
+        alt="Koffee Koala" 
+        class="KappySidebar"
+    />
+</div>
+
+<p></p>
+
+<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
+
+
+<h2>Find Me Online</h2>
+<ul>
+    <li>
+        <a href="https://aus.social/@AuntyRed/" target="_blank"
+            >Mastodon</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.youtube.com/@CameronJones-dj8mml"
+            target="_blank"
+            >YouTube</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.linkedin.com/in/cameron-jones-sydney/"
+            target="_blank"
+            >LinkedIn</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://github.com/CJones-Optics/"
+            target="_blank"
+            >GitHub</a
+        >
+    </li>
+</ul>
+</aside>
+
+<main>
+<h1>Subreddit RSS Feed Generator</h1>
+<p class="site-description">
+  Generate RSS feed URLs for any subreddit to use in your favorite RSS reader. 
+  Simply enter a subreddit name, select the type of feed, and choose how many posts to include.
+</p>
+
+<div class="notes-container">
+  <form id="rss-generator-form">
+    <div class="form-group">
+      <label for="subreddit-name"><strong>Subreddit Name:</strong></label>
+      <div class="input-prefix-container">
+        <span class="input-prefix">r/</span>
+        <input type="text" id="subreddit-name" placeholder="RSS" required>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="feed-type"><strong>Feed Type:</strong></label>
+      <select id="feed-type">
+        <option value="hot">Hot</option>
+        <option value="new">New</option>
+        <option value="rising">Rising</option>
+        <option value="top">Top</option>
+        <option value="controversial">Controversial</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="limit"><strong>Number of Posts:</strong></label>
+      <input type="number" id="limit" min="1" max="100" value="25">
+    </div>
+    
+    <button type="button" id="generate-button" onclick="generateRssUrl()">Generate RSS URL</button>
+  </form>
+  
+  <div id="result" class="hidden">
+    <h3>Your RSS Feed URL:</h3>
+    <div class="code-block">
+      <code id="rss-url"></code>
+    </div>
+    <button type="button" id="copy-button" onclick="copyToClipboard()">Copy URL</button>
+  </div>
+</div>
+
+<style>
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8839ef;
+  }
+
+  input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #8839ef;
+    border-radius: 5px;
+    background-color: #eff1f5;
+  }
+
+  button {
+    background-color: #ea76cb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: #8839ef;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  #result {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #e64553;
+  }
+
+  .input-prefix-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .input-prefix {
+    background-color: #e6e9ef;
+    border: 2px solid #8839ef;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    padding: 8px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  #subreddit-name {
+    border-radius: 0 5px 5px 0;
+    flex-grow: 1;
+  }
+</style>
+
+<script>
+  function generateRssUrl() {
+    const subredditName = document.getElementById('subreddit-name').value.trim();
+    const feedType = document.getElementById('feed-type').value;
+    const limit = document.getElementById('limit').value;
+    
+    if (!subredditName) {
+      alert('Please enter a subreddit name');
+      return;
+    }
+    
+    const baseUrl = `https://www.reddit.com/r/${subredditName}/${feedType}.rss`;
+    const urlWithLimit = limit ? `${baseUrl}?limit=${limit}` : baseUrl;
+    
+    document.getElementById('rss-url').textContent = urlWithLimit;
+    document.getElementById('result').classList.remove('hidden');
+  }
+  
+  function copyToClipboard() {
+    const rssUrl = document.getElementById('rss-url').textContent;
+    navigator.clipboard.writeText(rssUrl)
+      .then(() => {
+        alert('RSS URL copied to clipboard!');
+      })
+      .catch(err => {
+        console.error('Failed to copy URL: ', err);
+        alert('Failed to copy URL. Please copy it manually.');
+      });
+  }
+</script></main>
+
+</div>
+<footer id="footer" style="margin-top: 0px;">
+    <a href="/FeedList.html" >
+        <img
+        src="/Assets/RSS_Logo.png"
+        alt="RSS Feed"
+        style="width: 20px; height: 20px"
+        /> 
+    </a>
+
+</footer>
+
+</html>
+
+<script src="/scripts.js"></script>

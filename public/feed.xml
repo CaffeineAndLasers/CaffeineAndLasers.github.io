@@ -5,9 +5,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Wed, 30 Apr 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Reddit RSS Feed Generator</title>
+      <description>Yes I am aware of the wild shift in tone. I am angry that I **have** to use reddit, I still don't like it. Here is a tool to get it into your RSS reader. [Check it out](/reddit-rss.html)</description>
+      <link>https://Caffeineandlasers.com/notes/Reddit RSS Feed Generator.html</link>
+      <pubDate>Fri, 02 May 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>Reddit Sucks For Hobbies</title>

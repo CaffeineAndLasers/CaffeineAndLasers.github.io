@@ -1,0 +1,144 @@
+---
+title: Subreddit RSS Feed Generator
+layout: default.liquid
+---
+
+<h1>Subreddit RSS Feed Generator</h1>
+<p class="site-description">
+  Generate RSS feed URLs for any subreddit to use in your favorite RSS reader. 
+  Simply enter a subreddit name, select the type of feed, and choose how many posts to include.
+</p>
+
+<div class="notes-container">
+  <form id="rss-generator-form">
+    <div class="form-group">
+      <label for="subreddit-name"><strong>Subreddit Name:</strong></label>
+      <div class="input-prefix-container">
+        <span class="input-prefix">r/</span>
+        <input type="text" id="subreddit-name" placeholder="RSS" required>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="feed-type"><strong>Feed Type:</strong></label>
+      <select id="feed-type">
+        <option value="hot">Hot</option>
+        <option value="new">New</option>
+        <option value="rising">Rising</option>
+        <option value="top">Top</option>
+        <option value="controversial">Controversial</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="limit"><strong>Number of Posts:</strong></label>
+      <input type="number" id="limit" min="1" max="100" value="25">
+    </div>
+    
+    <button type="button" id="generate-button" onclick="generateRssUrl()">Generate RSS URL</button>
+  </form>
+  
+  <div id="result" class="hidden">
+    <h3>Your RSS Feed URL:</h3>
+    <div class="code-block">
+      <code id="rss-url"></code>
+    </div>
+    <button type="button" id="copy-button" onclick="copyToClipboard()">Copy URL</button>
+  </div>
+</div>
+
+<style>
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8839ef;
+  }
+
+  input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #8839ef;
+    border-radius: 5px;
+    background-color: #eff1f5;
+  }
+
+  button {
+    background-color: #ea76cb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: #8839ef;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  #result {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #e64553;
+  }
+
+  .input-prefix-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .input-prefix {
+    background-color: #e6e9ef;
+    border: 2px solid #8839ef;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    padding: 8px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  #subreddit-name {
+    border-radius: 0 5px 5px 0;
+    flex-grow: 1;
+  }
+</style>
+
+<script>
+  function generateRssUrl() {
+    const subredditName = document.getElementById('subreddit-name').value.trim();
+    const feedType = document.getElementById('feed-type').value;
+    const limit = document.getElementById('limit').value;
+    
+    if (!subredditName) {
+      alert('Please enter a subreddit name');
+      return;
+    }
+    
+    const baseUrl = `https://www.reddit.com/r/${subredditName}/${feedType}.rss`;
+    const urlWithLimit = limit ? `${baseUrl}?limit=${limit}` : baseUrl;
+    
+    document.getElementById('rss-url').textContent = urlWithLimit;
+    document.getElementById('result').classList.remove('hidden');
+  }
+  
+  function copyToClipboard() {
+    const rssUrl = document.getElementById('rss-url').textContent;
+    navigator.clipboard.writeText(rssUrl)
+      .then(() => {
+        alert('RSS URL copied to clipboard!');
+      })
+      .catch(err => {
+        console.error('Failed to copy URL: ', err);
+        alert('Failed to copy URL. Please copy it manually.');
+      });
+  }
+</script>
