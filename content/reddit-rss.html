@@ -9,6 +9,15 @@ layout: default.liquid
   Simply enter a subreddit name, select the type of feed, and choose how many posts to include.
 </p>
 
+<p>
+  <strong>Note:</strong> Most RSS readers will sort by date, not necessarily by the order of the posts in the feed.
+    This means that the "Hot" feed may not always show the "hottest" posts first. Instead it will show the most 
+    recent post which happens to be in the "Hot" feed at the time of the request.
+</p>
+<p>
+    For this reason, I suggest keeping the number of posts relatively low the feed does not get polluted.
+</p>
+
 <div class="notes-container">
   <form id="rss-generator-form">
     <div class="form-group">
@@ -32,7 +41,7 @@ layout: default.liquid
     
     <div class="form-group">
       <label for="limit"><strong>Number of Posts:</strong></label>
-      <input type="number" id="limit" min="1" max="100" value="25">
+      <input type="number" id="limit" min="1" max="100" value="10">
     </div>
     
     <button type="button" id="generate-button" onclick="generateRssUrl()">Generate RSS URL</button>
