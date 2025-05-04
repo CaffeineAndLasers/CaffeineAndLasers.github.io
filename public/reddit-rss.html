@@ -111,12 +111,23 @@
     
     <div class="form-group">
       <label for="feed-type"><strong>Feed Type:</strong></label>
-      <select id="feed-type">
+      <select id="feed-type" onchange="toggleTimeSelector()">
         <option value="hot">Hot</option>
         <option value="new">New</option>
         <option value="rising">Rising</option>
         <option value="top">Top</option>
         <option value="controversial">Controversial</option>
+      </select>
+    </div>
+    
+    <div class="form-group" id="time-selector" style="display: none;">
+      <label for="time-period"><strong>Time Period:</strong></label>
+      <select id="time-period">
+        <option value="day">Today</option>
+        <option value="week">Week</option>
+        <option value="month">Month</option>
+        <option value="year">Year</option>
+        <option value="all">All Time</option>
       </select>
     </div>
     
@@ -207,14 +218,18 @@
     const subredditName = document.getElementById('subreddit-name').value.trim();
     const feedType = document.getElementById('feed-type').value;
     const limit = document.getElementById('limit').value;
+    const timePeriod = document.getElementById('time-period') ? document.getElementById('time-period').value : null;
     
     if (!subredditName) {
       alert('Please enter a subreddit name');
       return;
     }
     
-    const baseUrl = `https://www.reddit.com/r/${subredditName}/${feedType}.rss`;
-    const urlWithLimit = limit ? `${baseUrl}?limit=${limit}` : baseUrl;
+    let baseUrl = `https://www.reddit.com/r/${subredditName}/${feedType}.rss`;
+    if (feedType === 'top' && timePeriod) {
+      baseUrl += `?t=${timePeriod}`;
+    }
+    const urlWithLimit = limit ? `${baseUrl}&limit=${limit}` : baseUrl;
     
     document.getElementById('rss-url').textContent = urlWithLimit;
     document.getElementById('result').classList.remove('hidden');
@@ -230,6 +245,16 @@
         console.error('Failed to copy URL: ', err);
         alert('Failed to copy URL. Please copy it manually.');
       });
+  }
+
+  function toggleTimeSelector() {
+    const feedType = document.getElementById('feed-type').value;
+    const timeSelector = document.getElementById('time-selector');
+    if (feedType === 'top') {
+      timeSelector.style.display = 'block';
+    } else {
+      timeSelector.style.display = 'none';
+    }
   }
 </script></main>
 
