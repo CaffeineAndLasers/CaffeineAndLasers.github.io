@@ -1,7 +1,7 @@
 ---
-title: MInor Reddit RSS Feed Updates 
+title: Minor Reddit RSS Feed Updates 
 date: 2025-05-05
-description: DESCRIPTION
+description: I added an extra feature to the reddit RSS feed generator to allow users to choose what timeframe to extract top posts for. 
 layout: note.liquid
 ---
 
