@@ -28,6 +28,7 @@ layout: default.liquid
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease;
+    border-top: 1px solid #eee;
   }
   
   .feed-item {
@@ -113,10 +114,15 @@ layout: default.liquid
   /* Content visibility classes */
   .pack-content {
     max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: none;
   }
   
   .pack-content.expanded {
     max-height: 2000px; /* Large enough to contain all content */
+    padding: 15px;
+    border-top: 1px solid #eee;
   }
   
   .feed-content {
@@ -173,6 +179,14 @@ layout: default.liquid
   .feed-header.expanded {
     border-radius: 5px 5px 0 0;
   }
+  
+  /* Styling for pack description */
+  .pack-description {
+    padding: 10px 15px 5px 15px;
+    margin-bottom: 0;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+  }
 </style>
 
 <div id="starter-packs">
@@ -184,11 +198,11 @@ layout: default.liquid
           <h2>{{ pack.name }}</h2>
         </div>
       </div>
+      <!-- Description moved outside of collapsible content -->
+      {% if pack.description %}
+        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">{{ pack.description }}</p>
+      {% endif %}
       <div class="pack-content">
-        {% if pack.description %}
-          <p>{{ pack.description }}</p>
-        {% endif %}
-        
         {% for feed in pack.feeds %}
           <div class="feed-item">
             <div class="feed-header">
@@ -235,7 +249,8 @@ You can also use RSS to follow a lot of social media feeds.
       arrow.classList.toggle('expanded');
       
       // Toggle the expanded class on the content
-      const content = this.nextElementSibling;
+      const packElement = this.closest('.starter-pack');
+      const content = packElement.querySelector('.pack-content');
       content.classList.toggle('expanded');
     });
   });

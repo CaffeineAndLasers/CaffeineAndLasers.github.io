@@ -109,6 +109,7 @@
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease;
+    border-top: 1px solid #eee;
   }
   
   .feed-item {
@@ -194,10 +195,15 @@
   /* Content visibility classes */
   .pack-content {
     max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: none;
   }
   
   .pack-content.expanded {
     max-height: 2000px; /* Large enough to contain all content */
+    padding: 15px;
+    border-top: 1px solid #eee;
   }
   
   .feed-content {
@@ -254,6 +260,14 @@
   .feed-header.expanded {
     border-radius: 5px 5px 0 0;
   }
+  
+  /* Styling for pack description */
+  .pack-description {
+    padding: 10px 15px 5px 15px;
+    margin-bottom: 0;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+  }
 </style>
 
 <div id="starter-packs">
@@ -265,11 +279,11 @@
           <h2>Web Comics</h2>
         </div>
       </div>
+      <!-- Description moved outside of collapsible content -->
+      
+        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">Sometimes you need pictures. </p>
+      
       <div class="pack-content">
-        
-          <p>Sometimes you need pictures. </p>
-        
-        
         
           <div class="feed-item">
             <div class="feed-header">
@@ -347,11 +361,11 @@
           <h2>Tech News</h2>
         </div>
       </div>
+      <!-- Description moved outside of collapsible content -->
+      
+        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">Stay up-to-date with the latest technology news and developments</p>
+      
       <div class="pack-content">
-        
-          <p>Stay up-to-date with the latest technology news and developments</p>
-        
-        
         
           <div class="feed-item">
             <div class="feed-header">
@@ -473,11 +487,11 @@
           <h2>AI News</h2>
         </div>
       </div>
+      <!-- Description moved outside of collapsible content -->
+      
+        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">I really like keeping up with the specifics in current ML research. These are my favourite feeds.</p>
+      
       <div class="pack-content">
-        
-          <p>I really like keeping up with the specifics in current ML research. These are my favourite feeds.</p>
-        
-        
         
           <div class="feed-item">
             <div class="feed-header">
@@ -621,11 +635,11 @@
           <h2>Personal Blogs</h2>
         </div>
       </div>
+      <!-- Description moved outside of collapsible content -->
+      
+        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">Thoughtful blogs by individual writers on tech, science, and culture</p>
+      
       <div class="pack-content">
-        
-          <p>Thoughtful blogs by individual writers on tech, science, and culture</p>
-        
-        
         
           <div class="feed-item">
             <div class="feed-header">
@@ -835,11 +849,11 @@
           <h2>Australian News</h2>
         </div>
       </div>
+      <!-- Description moved outside of collapsible content -->
+      
+        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">News sources focused on Australian current events and investigative journalism.</p>
+      
       <div class="pack-content">
-        
-          <p>News sources focused on Australian current events and investigative journalism.</p>
-        
-        
         
           <div class="feed-item">
             <div class="feed-header">
@@ -952,7 +966,8 @@ You can also use RSS to follow a lot of social media feeds.
       arrow.classList.toggle('expanded');
       
       // Toggle the expanded class on the content
-      const content = this.nextElementSibling;
+      const packElement = this.closest('.starter-pack');
+      const content = packElement.querySelector('.pack-content');
       content.classList.toggle('expanded');
     });
   });
