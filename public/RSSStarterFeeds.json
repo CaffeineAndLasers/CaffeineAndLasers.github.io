@@ -1,92 +1,104 @@
-t {
+{
   "starterPacks": [
+    {
+      "name": "Web Comics",
+      "description": "Sometimes you need pictures. ",
+      "feeds": [
+        {
+          "title": "XKCD",
+          "description": "Famous webcomic amongst science types. Literally every science degree person I know loves it.",
+          "xmlURL": "https://xkcd.com/rss.xml",
+          "htmlURL": "https://xkcd.com"
+        },
+        {
+          "title": "Poorly Drawn Lines",
+          "description": "A webcomic with humor and wit.",
+          "xmlURL": "https://poorlydrawnlines.com/feed",
+          "htmlURL": "https://poorlydrawnlines.com"
+        },
+        {
+          "title": "Saturday Morning Breakfast",
+          "description": "A webcomic with a mix of science, philosophy, and humor.",
+          "xmlURL": "https://www.smbc-comics.com/rss.php",
+          "htmlURL": "https://www.smbc-comics.com"
+        }
+      ]
+    },
     {
       "name": "Tech News",
       "description": "Stay up-to-date with the latest technology news and developments",
       "feeds": [
         {
-          "title": "Ars Technica",
-          "description": "Serving the technologist for more than a decade with in-depth coverage of technology, science, and policy",
-          "xmlURL": "https://feeds.arstechnica.com/arstechnica/index",
-          "htmlURL": "https://arstechnica.com"
+          "title": "Hackaday",
+          "description": "They track the random cool DIY and FOSS projects people make and 3D print",
+          "xmlURL": "https://hackaday.com/blog/feed/",
+          "htmlURL": "https://hackaday.com"
         },
         {
-          "title": "The Verge",
-          "description": "Covering the intersection of technology, science, art, and culture",
-          "xmlURL": "https://www.theverge.com/rss/index.xml",
-          "htmlURL": "https://www.theverge.com"
-        },
-        {
-          "title": "Wired",
-          "description": "Deep technology coverage of innovation and how technology is changing our lives",
-          "xmlURL": "https://www.wired.com/feed/rss",
+          "title": "Wired Magazine - Business",
+          "description": "Business-related articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds.",
+          "xmlURL": "https://www.wired.com/feed/category/business/latest/rss",
           "htmlURL": "https://www.wired.com"
         },
         {
-          "title": "Hacker News",
-          "description": "A social news website focusing on computer science and entrepreneurship",
-          "xmlURL": "https://news.ycombinator.com/rss",
-          "htmlURL": "https://news.ycombinator.com"
+          "title": "Wired Magazine - AI",
+          "description": "AI-related articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds. ",
+          "xmlURL": "https://www.wired.com/feed/tag/ai/latest/rss",
+          "htmlURL": "https://www.wired.com"
+        },
+        {
+          "title": "Wired Magazine - Backchannel",
+          "description": "Longform articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds.",
+          "xmlURL": "https://www.wired.com/feed/category/backchannel/latest/rss",
+          "htmlURL": "https://www.wired.com"
+        },
+        {
+          "title": "404 Media",
+          "description": "Random software news, lotsa cybersec and hacker kinda stuff",
+          "xmlURL": "https://www.404media.co/rss",
+          "htmlURL": "https://www.404media.co"
         }
       ]
     },
     {
       "name": "AI News",
-      "description": "Follow the latest in artificial intelligence research and applications",
+      "description": "I really like keeping up with the specifics in current ML research. These are my favourite feeds.",
       "feeds": [
         {
-          "title": "AI Alignment Forum",
-          "description": "Research and discussion on how to align artificial intelligence with human values",
-          "xmlURL": "https://www.alignmentforum.org/feed.xml",
-          "htmlURL": "https://www.alignmentforum.org"
+          "title": "Simon Wilson's Weblog",
+          "description": "He is a researcher at Mozilla and pretty smart",
+          "xmlURL": "https://simonwillison.net/atom/entries/",
+          "htmlURL": "https://simonwillison.net"
         },
         {
-          "title": "DeepMind Blog",
-          "description": "Latest research and breakthroughs from DeepMind",
-          "xmlURL": "https://deepmind.com/blog/feed/basic/",
-          "htmlURL": "https://deepmind.com/blog"
+          "title": "ByCloudAI",
+          "description": "He is a youtuber, who also runs a weekly newsletter, the newsletter recaps 3 new papers on AI research every week.",
+          "xmlURL": "https://rss.beehiiv.com/feeds/Vy37NcFo03.xml",
+          "htmlURL": "https://bycloudai.com"
         },
         {
-          "title": "OpenAI Blog",
-          "description": "Announcements and research updates from OpenAI",
-          "xmlURL": "https://openai.com/blog/rss/",
-          "htmlURL": "https://openai.com/blog"
+          "title": "Nofill",
+          "description": "Another guy's blog on AI shit",
+          "xmlURL": "https://rss.beehiiv.com/feeds/LVYXv4EqVS.xml",
+          "htmlURL": "https://nofill.com"
         },
         {
-          "title": "AI Weirdness",
-          "description": "Exploring the strange side of artificial intelligence",
-          "xmlURL": "https://aiweirdness.com/rss",
-          "htmlURL": "https://aiweirdness.com"
-        }
-      ]
-    },
-    {
-      "name": "Science Blogs",
-      "description": "Popular science blogs covering a range of scientific disciplines",
-      "feeds": [
-        {
-          "title": "Scientific American",
-          "description": "Science news and technology updates from Scientific American",
-          "xmlURL": "https://rss.sciam.com/ScientificAmerican-Global",
-          "htmlURL": "https://www.scientificamerican.com"
+          "title": "Vizuara",
+          "description": "He writes about the very specifics and mathematics of LLMs/Diffusion Models",
+          "xmlURL": "https://vizuara.substack.com/feed",
+          "htmlURL": "https://vizuara.substack.com"
         },
         {
-          "title": "Physics Today",
-          "description": "News, commentary, and articles about physics research",
-          "xmlURL": "https://physicstoday.scitation.org/feed/ptonline/most-recent",
-          "htmlURL": "https://physicstoday.scitation.org"
+          "title": "One Useful Thing",
+          "description": "Insights and analysis on AI and its applications",
+          "xmlURL": "https://www.oneusefulthing.org/feed",
+          "htmlURL": "https://www.oneusefulthing.org"
         },
         {
-          "title": "Quanta Magazine",
-          "description": "Illuminating science, mathematics, and computer science research",
-          "xmlURL": "https://api.quantamagazine.org/feed/",
-          "htmlURL": "https://www.quantamagazine.org"
-        },
-        {
-          "title": "Nature News",
-          "description": "News from the leading international weekly journal of science",
-          "xmlURL": "https://www.nature.com/nature.rss",
-          "htmlURL": "https://www.nature.com/news"
+          "title": "DB Reunig",
+          "description": "Blog on AI and related topics",
+          "xmlURL": "https://www.dbreunig.com/feed.xml",
+          "htmlURL": "https://www.dbreunig.com"
         }
       ]
     },
@@ -95,28 +107,88 @@ t {
       "description": "Thoughtful blogs by individual writers on tech, science, and culture",
       "feeds": [
         {
-          "title": "Slate Star Codex",
-          "description": "Blog by Scott Alexander covering science, medicine, philosophy, politics, and more",
-          "xmlURL": "https://slatestarcodex.com/feed/",
-          "htmlURL": "https://slatestarcodex.com"
+          "title": "Caffeine And Lasers",
+          "description": "My longer posts about technology, science, and culture.",
+          "xmlURL": "https://caffeineandlasers.com/feeds/blogs.xml",
+          "htmlURL": "https://caffeineandlasers.com"
         },
         {
-          "title": "Wait But Why",
-          "description": "Long-form explanations of various topics by Tim Urban",
-          "xmlURL": "https://waitbutwhy.com/feed",
-          "htmlURL": "https://waitbutwhy.com"
+          "title": "Pluralistic",
+          "description": "Cory Doctorow's Blog. He writes an essay just about every day about big tech / politics",
+          "xmlURL": "https://pluralistic.net/feed/",
+          "htmlURL": "https://pluralistic.net"
         },
         {
-          "title": "Marginal Revolution",
-          "description": "Economics and current events blog by Tyler Cowen and Alex Tabarrok",
-          "xmlURL": "https://marginalrevolution.com/feed",
-          "htmlURL": "https://marginalrevolution.com"
+          "title": "Dynomight",
+          "description": "A \"Rationalist\" web blog. Lots of interesting science, posts about society and knowledge. ",
+          "xmlURL": "https://dynomight.net/feed.xml",
+          "htmlURL": "https://dynomight.net"
         },
         {
-          "title": "Daring Fireball",
-          "description": "Apple and tech industry commentary by John Gruber",
-          "xmlURL": "https://daringfireball.net/feeds/main",
-          "htmlURL": "https://daringfireball.net"
+          "title": "Jodie Ettenburg",
+          "description": "Monthly Newsletter with collections of links to cool random spots on the web. E.g. [My Quest to Find the Owner of a Mysterious WWII Japanese Sword.](https://www.outsideonline.com/culture/essays-culture/world-war-ii-japanese-sword/)",
+          "xmlURL": "https://jodiettenberg.substack.com/feed",
+          "htmlURL": "https://jodiettenberg.substack.com"
+        },
+        {
+            "title": "Starbreaker",
+            "description": "Friend of the site, he posts longform rants about tech, politics, and the state of the web.",
+            "xmlURL": "https://starbreaker.org/follow/everything.xml",
+            "htmlURL": "https://starbreaker.org"
+        },
+        {
+          "title": "Ava's Blog",
+          "description": "She mostly blogs about her personal life, but she is a nice writer and has interesting opinions sometimes.",
+          "xmlURL": "https://avas.bearblog.dev/feed/?type=rss",
+          "htmlURL": "https://avas.bearblog.dev"
+        },
+        {
+          "title": "CheapSkates Guide",
+          "description": "Talks about computers and the internet, and computing as cheaply as possible.",
+          "xmlURL": "https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml",
+          "htmlURL": "https://cheapskatesguide.org"
+        },
+        {
+          "title": "ShellSharks",
+          "description": "Bigly into the 'IndieWeb' like me. Posts about CyberSec, technology and blogging. Super Groovy website as well. Look around his site not just the feed IMHO. He has a whole bunch of different feeds, but that one captures everything (I think)",
+          "xmlURL": "https://shellsharks.com/feeds/feed.xml",
+          "htmlURL": "https://shellsharks.com"
+        },
+        {
+          "title": "Citation Needed",
+          "description": "Molly White's Blog. She mostly writes longform about Crypto Grifts, but also occasionally about broader important internet things. She is a relatively important Wikipedia Contributor.",
+          "xmlURL": "https://www.citationneeded.news/rss/",
+          "htmlURL": "https://www.citationneeded.news"
+        }
+      ]
+    },
+    {
+      "name": "Australian News",
+      "description": "News sources focused on Australian current events and investigative journalism.",
+      "feeds": [
+        {
+          "title": "The Daily Aus",
+          "description": "Just a 5 minute read newsletter. Ad supported summary of what the current news is.",
+          "xmlURL": "https://rss.beehiiv.com/feeds/dq4WthPFHi.xml",
+          "htmlURL": "https://www.thedailyaus.com.au"
+        },
+        {
+          "title": "ABC News",
+          "description": "Australia's National Broadcaster.",
+          "xmlURL": "http://www.abc.net.au/news/feed/51120/rss.xml",
+          "htmlURL": "http://www.abc.net.au/news"
+        },
+        {
+          "title": "Michael West Media",
+          "description": "Independent Journos. Great investigational journalism into Australian politics.",
+          "xmlURL": "https://michaelwest.com.au/category/latest-posts/feed/",
+          "htmlURL": "https://michaelwest.com.au"
+        },
+        {
+          "title": "Independent Australia",
+          "description": "Better political coverage than any mainstream journos. Also interesting niche topics covered by independent journos.",
+          "xmlURL": "http://feeds.feedburner.com/IndependentAustralia",
+          "htmlURL": "https://independentaustralia.net"
         }
       ]
     }

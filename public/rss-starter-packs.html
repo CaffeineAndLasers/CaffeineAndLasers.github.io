@@ -143,6 +143,8 @@
     font-weight: bold;
     margin-left: 10px;
     cursor: pointer;
+    min-width: 180px;
+    text-align: center;
   }
   
   .link-button:hover {
@@ -189,16 +191,20 @@
     opacity: 1;
   }
   
-  /* CSS-only dropdown using checkbox hack */
-  .pack-toggle, .feed-toggle {
-    display: none;
+  /* Content visibility classes */
+  .pack-content {
+    max-height: 0;
   }
   
-  .pack-toggle:checked ~ .pack-content {
+  .pack-content.expanded {
     max-height: 2000px; /* Large enough to contain all content */
   }
   
-  .feed-toggle:checked ~ .feed-content {
+  .feed-content {
+    max-height: 0;
+  }
+  
+  .feed-content.expanded {
     max-height: 500px; /* Large enough to contain feed details */
   }
   
@@ -210,18 +216,8 @@
     transition: transform 0.3s;
   }
   
-  .pack-toggle:checked ~ .pack-header .arrow,
-  .feed-toggle:checked ~ .feed-header .arrow {
+  .arrow.expanded {
     transform: rotate(180deg);
-  }
-  
-  /* Collapse border radius when expanded */
-  .pack-toggle:not(:checked) ~ .pack-header {
-    border-radius: 8px;
-  }
-  
-  .feed-toggle:not(:checked) ~ .feed-header {
-    border-radius: 5px;
   }
   
   /* Make the entire header label clickable */
@@ -241,18 +237,116 @@
   .pack-header h2 {
     font-size: 1.5em;
   }
+
+  /* Rounded corners when collapsed */
+  .pack-header {
+    border-radius: 8px;
+  }
+  
+  .pack-header.expanded {
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .feed-header {
+    border-radius: 5px;
+  }
+  
+  .feed-header.expanded {
+    border-radius: 5px 5px 0 0;
+  }
 </style>
 
 <div id="starter-packs">
   
     <div class="starter-pack">
-      <input type="checkbox" id="pack-1" class="pack-toggle">
-      <label for="pack-1" class="pack-header">
+      <div class="pack-header">
+        <div class="pack-label">
+          <span class="arrow">▼</span>
+          <h2>Web Comics</h2>
+        </div>
+      </div>
+      <div class="pack-content">
+        
+          <p>Sometimes you need pictures. </p>
+        
+        
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://xkcd.com">XKCD</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://xkcd.com/rss.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Famous webcomic amongst science types. Literally every science degree person I know loves it.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://poorlydrawnlines.com">Poorly Drawn Lines</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://poorlydrawnlines.com/feed" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>A webcomic with humor and wit.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.smbc-comics.com">Saturday Morning Breakfast</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://www.smbc-comics.com/rss.php" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>A webcomic with a mix of science, philosophy, and humor.</p>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div class="starter-pack">
+      <div class="pack-header">
         <div class="pack-label">
           <span class="arrow">▼</span>
           <h2>Tech News</h2>
         </div>
-      </label>
+      </div>
       <div class="pack-content">
         
           <p>Stay up-to-date with the latest technology news and developments</p>
@@ -260,103 +354,111 @@
         
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--1" class="feed-toggle">
-            <label for="feed--1" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://arstechnica.com">Ars Technica</a></h3>
+                <h3><a href="https://hackaday.com">Hackaday</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://feeds.arstechnica.com/arstechnica/index', this);">Link</span>
+                    <a href="https://hackaday.com/blog/feed/" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Serving the technologist for more than a decade with in-depth coverage of technology, science, and policy</p>
-              
-              
+                <p>They track the random cool DIY and FOSS projects people make and 3D print</p>
               
             </div>
           </div>
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--2" class="feed-toggle">
-            <label for="feed--2" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://www.theverge.com">The Verge</a></h3>
+                <h3><a href="https://www.wired.com">Wired Magazine - Business</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://www.theverge.com/rss/index.xml', this);">Link</span>
+                    <a href="https://www.wired.com/feed/category/business/latest/rss" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Covering the intersection of technology, science, art, and culture</p>
-              
-              
+                <p>Business-related articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds.</p>
               
             </div>
           </div>
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--3" class="feed-toggle">
-            <label for="feed--3" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://www.wired.com">Wired</a></h3>
+                <h3><a href="https://www.wired.com">Wired Magazine - AI</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://www.wired.com/feed/rss', this);">Link</span>
+                    <a href="https://www.wired.com/feed/tag/ai/latest/rss" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Deep technology coverage of innovation and how technology is changing our lives</p>
-              
-              
-              
-                <p><strong>Note:</strong> You can subscribe to ALL of Wired, but their all feed is filled with affiliate marketing trash</p>
+                <p>AI-related articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds. </p>
               
             </div>
           </div>
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--4" class="feed-toggle">
-            <label for="feed--4" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://news.ycombinator.com">Hacker News</a></h3>
+                <h3><a href="https://www.wired.com">Wired Magazine - Backchannel</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://news.ycombinator.com/rss', this);">Link</span>
+                    <a href="https://www.wired.com/feed/category/backchannel/latest/rss" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>A social news website focusing on computer science and entrepreneurship</p>
+                <p>Longform articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds.</p>
               
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.404media.co">404 Media</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://www.404media.co/rss" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
               
+                <p>Random software news, lotsa cybersec and hacker kinda stuff</p>
               
             </div>
           </div>
@@ -365,115 +467,146 @@
     </div>
   
     <div class="starter-pack">
-      <input type="checkbox" id="pack-2" class="pack-toggle">
-      <label for="pack-2" class="pack-header">
+      <div class="pack-header">
         <div class="pack-label">
           <span class="arrow">▼</span>
           <h2>AI News</h2>
         </div>
-      </label>
+      </div>
       <div class="pack-content">
         
-          <p>Follow the latest in artificial intelligence research and applications</p>
+          <p>I really like keeping up with the specifics in current ML research. These are my favourite feeds.</p>
         
         
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--1" class="feed-toggle">
-            <label for="feed--1" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://www.alignmentforum.org">AI Alignment Forum</a></h3>
+                <h3><a href="https://simonwillison.net">Simon Wilson's Weblog</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://www.alignmentforum.org/feed.xml', this);">Link</span>
+                    <a href="https://simonwillison.net/atom/entries/" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Research and discussion on how to align artificial intelligence with human values</p>
-              
-              
+                <p>He is a researcher at Mozilla and pretty smart</p>
               
             </div>
           </div>
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--2" class="feed-toggle">
-            <label for="feed--2" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://deepmind.com/blog">DeepMind Blog</a></h3>
+                <h3><a href="https://bycloudai.com">ByCloudAI</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://deepmind.com/blog/feed/basic/', this);">Link</span>
+                    <a href="https://rss.beehiiv.com/feeds/Vy37NcFo03.xml" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Latest research and breakthroughs from DeepMind</p>
-              
-              
+                <p>He is a youtuber, who also runs a weekly newsletter, the newsletter recaps 3 new papers on AI research every week.</p>
               
             </div>
           </div>
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--3" class="feed-toggle">
-            <label for="feed--3" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://openai.com/blog">OpenAI Blog</a></h3>
+                <h3><a href="https://nofill.com">Nofill</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://openai.com/blog/rss/', this);">Link</span>
+                    <a href="https://rss.beehiiv.com/feeds/LVYXv4EqVS.xml" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Announcements and research updates from OpenAI</p>
-              
-              
+                <p>Another guy's blog on AI shit</p>
               
             </div>
           </div>
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--4" class="feed-toggle">
-            <label for="feed--4" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://aiweirdness.com">AI Weirdness</a></h3>
+                <h3><a href="https://vizuara.substack.com">Vizuara</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://aiweirdness.com/rss', this);">Link</span>
+                    <a href="https://vizuara.substack.com/feed" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Exploring the strange side of artificial intelligence</p>
+                <p>He writes about the very specifics and mathematics of LLMs/Diffusion Models</p>
               
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.oneusefulthing.org">One Useful Thing</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://www.oneusefulthing.org/feed" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
               
+                <p>Insights and analysis on AI and its applications</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.dbreunig.com">DB Reunig</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://www.dbreunig.com/feed.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Blog on AI and related topics</p>
               
             </div>
           </div>
@@ -482,130 +615,12 @@
     </div>
   
     <div class="starter-pack">
-      <input type="checkbox" id="pack-3" class="pack-toggle">
-      <label for="pack-3" class="pack-header">
-        <div class="pack-label">
-          <span class="arrow">▼</span>
-          <h2>Science Blogs</h2>
-        </div>
-      </label>
-      <div class="pack-content">
-        
-          <p>Popular science blogs covering a range of scientific disciplines</p>
-        
-        
-        
-          <div class="feed-item">
-            <input type="checkbox" id="feed--1" class="feed-toggle">
-            <label for="feed--1" class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://www.scientificamerican.com">Scientific American</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
-                
-                  <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://rss.sciam.com/ScientificAmerican-Global', this);">Link</span>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </label>
-            <div class="feed-content">
-              
-                <p>Science news and technology updates from Scientific American</p>
-              
-              
-              
-            </div>
-          </div>
-        
-          <div class="feed-item">
-            <input type="checkbox" id="feed--2" class="feed-toggle">
-            <label for="feed--2" class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://physicstoday.scitation.org">Physics Today</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
-                
-                  <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://physicstoday.scitation.org/feed/ptonline/most-recent', this);">Link</span>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </label>
-            <div class="feed-content">
-              
-                <p>News, commentary, and articles about physics research</p>
-              
-              
-              
-            </div>
-          </div>
-        
-          <div class="feed-item">
-            <input type="checkbox" id="feed--3" class="feed-toggle">
-            <label for="feed--3" class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://www.quantamagazine.org">Quanta Magazine</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
-                
-                  <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://api.quantamagazine.org/feed/', this);">Link</span>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </label>
-            <div class="feed-content">
-              
-                <p>Illuminating science, mathematics, and computer science research</p>
-              
-              
-              
-            </div>
-          </div>
-        
-          <div class="feed-item">
-            <input type="checkbox" id="feed--4" class="feed-toggle">
-            <label for="feed--4" class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://www.nature.com/news">Nature News</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
-                
-                  <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://www.nature.com/nature.rss', this);">Link</span>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </label>
-            <div class="feed-content">
-              
-                <p>News from the leading international weekly journal of science</p>
-              
-              
-              
-            </div>
-          </div>
-        
-      </div>
-    </div>
-  
-    <div class="starter-pack">
-      <input type="checkbox" id="pack-4" class="pack-toggle">
-      <label for="pack-4" class="pack-header">
+      <div class="pack-header">
         <div class="pack-label">
           <span class="arrow">▼</span>
           <h2>Personal Blogs</h2>
         </div>
-      </label>
+      </div>
       <div class="pack-content">
         
           <p>Thoughtful blogs by individual writers on tech, science, and culture</p>
@@ -613,101 +628,303 @@
         
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--1" class="feed-toggle">
-            <label for="feed--1" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://slatestarcodex.com">Slate Star Codex</a></h3>
+                <h3><a href="https://caffeineandlasers.com">Caffeine And Lasers</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://slatestarcodex.com/feed/', this);">Link</span>
+                    <a href="https://caffeineandlasers.com/feeds/blogs.xml" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Blog by Scott Alexander covering science, medicine, philosophy, politics, and more</p>
-              
-              
+                <p>My longer posts about technology, science, and culture.</p>
               
             </div>
           </div>
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--2" class="feed-toggle">
-            <label for="feed--2" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://waitbutwhy.com">Wait But Why</a></h3>
+                <h3><a href="https://pluralistic.net">Pluralistic</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://waitbutwhy.com/feed', this);">Link</span>
+                    <a href="https://pluralistic.net/feed/" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Long-form explanations of various topics by Tim Urban</p>
-              
-              
+                <p>Cory Doctorow's Blog. He writes an essay just about every day about big tech / politics</p>
               
             </div>
           </div>
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--3" class="feed-toggle">
-            <label for="feed--3" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://marginalrevolution.com">Marginal Revolution</a></h3>
+                <h3><a href="https://dynomight.net">Dynomight</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://marginalrevolution.com/feed', this);">Link</span>
+                    <a href="https://dynomight.net/feed.xml" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Economics and current events blog by Tyler Cowen and Alex Tabarrok</p>
-              
-              
+                <p>A "Rationalist" web blog. Lots of interesting science, posts about society and knowledge. </p>
               
             </div>
           </div>
         
           <div class="feed-item">
-            <input type="checkbox" id="feed--4" class="feed-toggle">
-            <label for="feed--4" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
-                <h3><a href="https://daringfireball.net">Daring Fireball</a></h3>
+                <h3><a href="https://jodiettenberg.substack.com">Jodie Ettenburg</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://daringfireball.net/feeds/main', this);">Link</span>
+                    <a href="https://jodiettenberg.substack.com/feed" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               
-                <p>Apple and tech industry commentary by John Gruber</p>
+                <p>Monthly Newsletter with collections of links to cool random spots on the web. E.g. [My Quest to Find the Owner of a Mysterious WWII Japanese Sword.](https://www.outsideonline.com/culture/essays-culture/world-war-ii-japanese-sword/)</p>
               
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://starbreaker.org">Starbreaker</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://starbreaker.org/follow/everything.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
               
+                <p>Friend of the site, he posts longform rants about tech, politics, and the state of the web.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://avas.bearblog.dev">Ava's Blog</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://avas.bearblog.dev/feed/?type=rss" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>She mostly blogs about her personal life, but she is a nice writer and has interesting opinions sometimes.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://cheapskatesguide.org">CheapSkates Guide</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Talks about computers and the internet, and computing as cheaply as possible.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://shellsharks.com">ShellSharks</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://shellsharks.com/feeds/feed.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Bigly into the 'IndieWeb' like me. Posts about CyberSec, technology and blogging. Super Groovy website as well. Look around his site not just the feed IMHO. He has a whole bunch of different feeds, but that one captures everything (I think)</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.citationneeded.news">Citation Needed</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://www.citationneeded.news/rss/" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Molly White's Blog. She mostly writes longform about Crypto Grifts, but also occasionally about broader important internet things. She is a relatively important Wikipedia Contributor.</p>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div class="starter-pack">
+      <div class="pack-header">
+        <div class="pack-label">
+          <span class="arrow">▼</span>
+          <h2>Australian News</h2>
+        </div>
+      </div>
+      <div class="pack-content">
+        
+          <p>News sources focused on Australian current events and investigative journalism.</p>
+        
+        
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.thedailyaus.com.au">The Daily Aus</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://rss.beehiiv.com/feeds/dq4WthPFHi.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Just a 5 minute read newsletter. Ad supported summary of what the current news is.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="http://www.abc.net.au/news">ABC News</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="http://www.abc.net.au/news/feed/51120/rss.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Australia's National Broadcaster.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://michaelwest.com.au">Michael West Media</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://michaelwest.com.au/category/latest-posts/feed/" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Independent Journos. Great investigational journalism into Australian politics.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://independentaustralia.net">Independent Australia</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="http://feeds.feedburner.com/IndependentAustralia" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Better political coverage than any mainstream journos. Also interesting niche topics covered by independent journos.</p>
               
             </div>
           </div>
@@ -717,8 +934,64 @@
   
 </div>
 
+<h2>Social Feeds: </h2>
+You can also use RSS to follow a lot of social media feeds. 
+<li><a href="/reddit-rss.html">My Reddit RSS Feed Generator</a></li>
+<li>All Mastodon Profiles</li>
+<li>And BlueSky</li>
+
 <script>
-  // Copy to clipboard function - keeping this JavaScript as it's necessary functionality
+  // Setup toggle functionality for pack headers
+  document.querySelectorAll('.pack-header').forEach(header => {
+    header.addEventListener('click', function() {
+      // Toggle the expanded class on this header
+      this.classList.toggle('expanded');
+      
+      // Toggle the expanded class on the arrow
+      const arrow = this.querySelector('.arrow');
+      arrow.classList.toggle('expanded');
+      
+      // Toggle the expanded class on the content
+      const content = this.nextElementSibling;
+      content.classList.toggle('expanded');
+    });
+  });
+  
+  // Setup toggle functionality for feed headers
+  document.querySelectorAll('.feed-header').forEach(header => {
+    header.addEventListener('click', function(e) {
+      // Prevent event from bubbling to parent elements
+      e.stopPropagation();
+      
+      // Don't toggle if the click was on a link or button
+      if (e.target.closest('.link-button') || e.target.tagName === 'A') {
+        return;
+      }
+      
+      // Toggle the expanded class on this header
+      this.classList.toggle('expanded');
+      
+      // Toggle the expanded class on the arrow
+      const arrow = this.querySelector('.arrow');
+      arrow.classList.toggle('expanded');
+      
+      // Toggle the expanded class on the content
+      const content = this.nextElementSibling;
+      content.classList.toggle('expanded');
+    });
+  });
+  
+  // Stop propagation on link clicks to prevent toggle
+  document.querySelectorAll('.js-clipboard-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      copyToClipboard(this.href, this);
+      return false;
+    });
+  });
+  
+  // Copy to clipboard function
   function copyToClipboard(text, element) {
     // Create a temporary textarea element to copy from
     const textarea = document.createElement('textarea');
