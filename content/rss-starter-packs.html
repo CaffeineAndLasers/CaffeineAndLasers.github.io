@@ -62,6 +62,8 @@ layout: default.liquid
     font-weight: bold;
     margin-left: 10px;
     cursor: pointer;
+    min-width: 90px;
+    text-align: center;
   }
   
   .link-button:hover {
@@ -108,21 +110,20 @@ layout: default.liquid
     opacity: 1;
   }
   
-  /* Herein lies some cursed CSS which makes the collapsing categories */
-  /* work without JavaScript */
-  /* it works by turning the entire element into an invisible checkbox */
-  /* and then using the :checked pseudo-class to style the elements */
-
-
-  .pack-toggle, .feed-toggle {
-    display: none;
+  /* Content visibility classes */
+  .pack-content {
+    max-height: 0;
   }
   
-  .pack-toggle:checked ~ .pack-content {
+  .pack-content.expanded {
     max-height: 2000px; /* Large enough to contain all content */
   }
   
-  .feed-toggle:checked ~ .feed-content {
+  .feed-content {
+    max-height: 0;
+  }
+  
+  .feed-content.expanded {
     max-height: 500px; /* Large enough to contain feed details */
   }
   
@@ -134,18 +135,8 @@ layout: default.liquid
     transition: transform 0.3s;
   }
   
-  .pack-toggle:checked ~ .pack-header .arrow,
-  .feed-toggle:checked ~ .feed-header .arrow {
+  .arrow.expanded {
     transform: rotate(180deg);
-  }
-  
-  /* Collapse border radius when expanded */
-  .pack-toggle:not(:checked) ~ .pack-header {
-    border-radius: 8px;
-  }
-  
-  .feed-toggle:not(:checked) ~ .feed-header {
-    border-radius: 5px;
   }
   
   /* Make the entire header label clickable */
@@ -166,28 +157,33 @@ layout: default.liquid
     font-size: 1.5em;
   }
 
-  /* No-JS fallback styling */
-  .no-js .link-button {
-    display: inline-block;
+  /* Rounded corners when collapsed */
+  .pack-header {
+    border-radius: 8px;
   }
   
-  /* Hide tooltips when JS is disabled */
-  .no-js .tooltip .tooltiptext {
-    display: none;
+  .pack-header.expanded {
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .feed-header {
+    border-radius: 5px;
+  }
+  
+  .feed-header.expanded {
+    border-radius: 5px 5px 0 0;
   }
 </style>
 
-<!-- Add no-js class by default, will be removed if JS is enabled -->
-<div id="starter-packs" class="no-js">
+<div id="starter-packs">
   {% for pack in starterPacks %}
     <div class="starter-pack">
-      <input type="checkbox" id="pack-{{ forloop.index }}" class="pack-toggle">
-      <label for="pack-{{ forloop.index }}" class="pack-header">
+      <div class="pack-header">
         <div class="pack-label">
           <span class="arrow">▼</span>
           <h2>{{ pack.name }}</h2>
         </div>
-      </label>
+      </div>
       <div class="pack-content">
         {% if pack.description %}
           <p>{{ pack.description }}</p>
@@ -195,27 +191,24 @@ layout: default.liquid
         
         {% for feed in pack.feeds %}
           <div class="feed-item">
-            <input type="checkbox" id="feed-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="feed-toggle">
-            <label for="feed-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="feed-header">
+            <div class="feed-header">
               <div class="feed-label">
                 <span class="arrow">▼</span>
                 <h3><a href="{{ feed.htmlURL }}">{{ feed.title }}</a></h3>
               </div>
-              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
+              <div style="display: flex; align-items: center;">
                 {% if feed.xmlURL %}
                   <div class="tooltip">
-                    <!-- Regular link as fallback -->
-                    <a href="{{ feed.xmlURL }}" class="link-button js-clipboard-link">Link</a>
+                    <a href="{{ feed.xmlURL }}" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 {% endif %}
               </div>
-            </label>
+            </div>
             <div class="feed-content">
               {% if feed.description %}
                 <p>{{ feed.description }}</p>
               {% endif %}
-              
             </div>
           </div>
         {% endfor %}
@@ -225,22 +218,57 @@ layout: default.liquid
 </div>
 
 <script>
-  // Indicate that JavaScript is available
-  document.getElementById('starter-packs').classList.remove('no-js');
+  // Setup toggle functionality for pack headers
+  document.querySelectorAll('.pack-header').forEach(header => {
+    header.addEventListener('click', function() {
+      // Toggle the expanded class on this header
+      this.classList.toggle('expanded');
+      
+      // Toggle the expanded class on the arrow
+      const arrow = this.querySelector('.arrow');
+      arrow.classList.toggle('expanded');
+      
+      // Toggle the expanded class on the content
+      const content = this.nextElementSibling;
+      content.classList.toggle('expanded');
+    });
+  });
   
-  // Convert links to copy buttons when JS is enabled
+  // Setup toggle functionality for feed headers
+  document.querySelectorAll('.feed-header').forEach(header => {
+    header.addEventListener('click', function(e) {
+      // Prevent event from bubbling to parent elements
+      e.stopPropagation();
+      
+      // Don't toggle if the click was on a link or button
+      if (e.target.closest('.link-button') || e.target.tagName === 'A') {
+        return;
+      }
+      
+      // Toggle the expanded class on this header
+      this.classList.toggle('expanded');
+      
+      // Toggle the expanded class on the arrow
+      const arrow = this.querySelector('.arrow');
+      arrow.classList.toggle('expanded');
+      
+      // Toggle the expanded class on the content
+      const content = this.nextElementSibling;
+      content.classList.toggle('expanded');
+    });
+  });
+  
+  // Stop propagation on link clicks to prevent toggle
   document.querySelectorAll('.js-clipboard-link').forEach(link => {
-    const url = link.href;
-    
-    // Replace default link behavior with clipboard functionality
     link.addEventListener('click', function(e) {
       e.preventDefault();
-      copyToClipboard(url, this);
+      e.stopPropagation();
+      copyToClipboard(this.href, this);
       return false;
     });
   });
   
-  // Copy to clipboard function - keeping this JavaScript as it's necessary functionality
+  // Copy to clipboard function
   function copyToClipboard(text, element) {
     // Create a temporary textarea element to copy from
     const textarea = document.createElement('textarea');
