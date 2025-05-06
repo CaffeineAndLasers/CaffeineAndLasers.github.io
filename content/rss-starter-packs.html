@@ -91,10 +91,51 @@ layout: default.liquid
     text-decoration: none;
     font-weight: bold;
     margin-left: 10px;
+    cursor: pointer;
   }
   
   .link-button:hover {
     background-color: #7dadff;
+  }
+  
+  /* Tooltip for copy confirmation */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.9em;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip.show .tooltiptext {
+    visibility: visible;
+    opacity: 1;
   }
 </style>
 
@@ -117,7 +158,10 @@ layout: default.liquid
               <h3><a href="{{ feed.htmlURL }}">{{ feed.title }}</a></h3>
               <div style="display: flex; align-items: center;">
                 {% if feed.xmlURL %}
-                  <a href="{{ feed.xmlURL }}" class="link-button" onclick="event.stopPropagation();">Link</a>
+                  <div class="tooltip">
+                    <span class="link-button" onclick="copyToClipboard('{{ feed.xmlURL }}', this); event.stopPropagation();">Link</span>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
                 {% endif %}
               </div>
             </div>
@@ -138,6 +182,39 @@ layout: default.liquid
 </div>
 
 <script>
+  // Copy to clipboard function
+  function copyToClipboard(text, element) {
+    // Create a temporary textarea element to copy from
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    
+    try {
+      // Execute copy command
+      document.execCommand('copy');
+      
+      // Show the tooltip
+      const tooltip = element.parentNode;
+      tooltip.querySelector('.tooltiptext').textContent = 'Link Copied!';
+      tooltip.classList.add('show');
+      
+      // Hide the tooltip after 2 seconds
+      setTimeout(() => {
+        tooltip.classList.remove('show');
+        // Reset tooltip text after hiding
+        setTimeout(() => {
+          tooltip.querySelector('.tooltiptext').textContent = 'Copy to clipboard';
+        }, 300);
+      }, 2000);
+    } catch (err) {
+      console.error('Failed to copy text: ', err);
+    }
+    
+    // Clean up
+    document.body.removeChild(textarea);
+  }
+
   // Add toggle functionality for pack headers
   document.querySelectorAll('.pack-header').forEach(header => {
     header.addEventListener('click', () => {
