@@ -166,9 +166,19 @@ layout: default.liquid
     font-size: 1.5em;
   }
 
+  /* No-JS fallback styling */
+  .no-js .link-button {
+    display: inline-block;
+  }
+  
+  /* Hide tooltips when JS is disabled */
+  .no-js .tooltip .tooltiptext {
+    display: none;
+  }
 </style>
 
-<div id="starter-packs">
+<!-- Add no-js class by default, will be removed if JS is enabled -->
+<div id="starter-packs" class="no-js">
   {% for pack in starterPacks %}
     <div class="starter-pack">
       <input type="checkbox" id="pack-{{ forloop.index }}" class="pack-toggle">
@@ -194,7 +204,8 @@ layout: default.liquid
               <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 {% if feed.xmlURL %}
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('{{ feed.xmlURL }}', this);">Link</span>
+                    <!-- Regular link as fallback -->
+                    <a href="{{ feed.xmlURL }}" class="link-button js-clipboard-link">Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 {% endif %}
@@ -205,7 +216,6 @@ layout: default.liquid
                 <p>{{ feed.description }}</p>
               {% endif %}
               
-
             </div>
           </div>
         {% endfor %}
@@ -215,6 +225,21 @@ layout: default.liquid
 </div>
 
 <script>
+  // Indicate that JavaScript is available
+  document.getElementById('starter-packs').classList.remove('no-js');
+  
+  // Convert links to copy buttons when JS is enabled
+  document.querySelectorAll('.js-clipboard-link').forEach(link => {
+    const url = link.href;
+    
+    // Replace default link behavior with clipboard functionality
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      copyToClipboard(url, this);
+      return false;
+    });
+  });
+  
   // Copy to clipboard function - keeping this JavaScript as it's necessary functionality
   function copyToClipboard(text, element) {
     // Create a temporary textarea element to copy from
