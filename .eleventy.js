@@ -17,6 +17,13 @@ module.exports = function (eleventyConfig) {
     return JSON.parse(rawData);
   });
 
+  // Add RSSStarterFeeds.json data to be available in templates
+  eleventyConfig.addGlobalData("starterPacks", function() {
+    const filePath = path.join(__dirname, "content", "RSSStarterFeeds.json");
+    const rawData = fs.readFileSync(filePath, "utf8");
+    return JSON.parse(rawData).starterPacks;
+  });
+
   // Add a collection for blog posts
   eleventyConfig.addCollection("blogPosts", function(collectionApi) {
     return collectionApi.getFilteredByGlob("content/blogs/*.{html,md}").sort((a, b) => {

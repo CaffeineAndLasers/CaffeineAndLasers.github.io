@@ -1,0 +1,180 @@
+---
+title: RSS Starter Packs
+layout: default.liquid
+---
+
+<h1>RSS Starter Packs</h1>
+
+<p>Get started with curated collections of RSS feeds covering various interests.</p>
+
+<style>
+  .starter-pack {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .pack-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .pack-header.collapsed {
+    border-radius: 8px;
+  }
+  
+  .pack-header h2 {
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1.5em;
+  }
+  
+  .arrow {
+    margin-right: 10px;
+    font-size: 1.2em;
+    transition: transform 0.3s;
+  }
+  
+  .arrow.down {
+    transform: rotate(0deg);
+  }
+  
+  .arrow.up {
+    transform: rotate(180deg);
+  }
+  
+  .pack-content {
+    padding: 15px;
+    display: none;
+  }
+  
+  .feed-item {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .feed-header {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .feed-header.collapsed {
+    border-radius: 5px;
+  }
+  
+  .feed-header h3 {
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1.2em;
+  }
+  
+  .feed-content {
+    padding: 10px 15px;
+    display: none;
+  }
+  
+  .link-button {
+    display: inline-block;
+    background-color: #a0c5ff;
+    padding: 4px 15px;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .link-button:hover {
+    background-color: #7dadff;
+  }
+</style>
+
+<div id="starter-packs">
+  {% for pack in starterPacks %}
+    <div class="starter-pack">
+      <div class="pack-header collapsed">
+        <span class="arrow down">▼</span>
+        <h2>{{ pack.name }}</h2>
+      </div>
+      <div class="pack-content">
+        {% if pack.description %}
+          <p>{{ pack.description }}</p>
+        {% endif %}
+        
+        {% for feed in pack.feeds %}
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="{{ feed.htmlURL }}">{{ feed.title }}</a></h3>
+              <div style="display: flex; align-items: center;">
+                {% if feed.xmlURL %}
+                  <a href="{{ feed.xmlURL }}" class="link-button" onclick="event.stopPropagation();">Link</a>
+                {% endif %}
+              </div>
+            </div>
+            <div class="feed-content">
+              {% if feed.description %}
+                <p>{{ feed.description }}</p>
+              {% endif %}
+              
+              {% if feed.title contains "Wired" %}
+                <p><strong>Note:</strong> You can subscribe to ALL of Wired, but their all feed is filled with affiliate marketing trash</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  // Add toggle functionality for pack headers
+  document.querySelectorAll('.pack-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      const arrow = header.querySelector('.arrow');
+      
+      header.classList.toggle('collapsed');
+      
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+        arrow.textContent = '▼';
+        arrow.className = 'arrow down';
+      } else {
+        content.style.display = 'block';
+        arrow.textContent = '▲';
+        arrow.className = 'arrow up';
+      }
+    });
+  });
+  
+  // Add toggle functionality for feed headers
+  document.querySelectorAll('.feed-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      const arrow = header.querySelector('.arrow');
+      
+      header.classList.toggle('collapsed');
+      
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+        arrow.textContent = '▼';
+        arrow.className = 'arrow down';
+      } else {
+        content.style.display = 'block';
+        arrow.textContent = '▲';
+        arrow.className = 'arrow up';
+      }
+    });
+  });
+</script>

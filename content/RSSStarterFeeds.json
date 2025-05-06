@@ -1,0 +1,124 @@
+{
+  "starterPacks": [
+    {
+      "name": "Tech News",
+      "description": "Stay up-to-date with the latest technology news and developments",
+      "feeds": [
+        {
+          "title": "Ars Technica",
+          "description": "Serving the technologist for more than a decade with in-depth coverage of technology, science, and policy",
+          "xmlURL": "https://feeds.arstechnica.com/arstechnica/index",
+          "htmlURL": "https://arstechnica.com"
+        },
+        {
+          "title": "The Verge",
+          "description": "Covering the intersection of technology, science, art, and culture",
+          "xmlURL": "https://www.theverge.com/rss/index.xml",
+          "htmlURL": "https://www.theverge.com"
+        },
+        {
+          "title": "Wired",
+          "description": "Deep technology coverage of innovation and how technology is changing our lives",
+          "xmlURL": "https://www.wired.com/feed/rss",
+          "htmlURL": "https://www.wired.com"
+        },
+        {
+          "title": "Hacker News",
+          "description": "A social news website focusing on computer science and entrepreneurship",
+          "xmlURL": "https://news.ycombinator.com/rss",
+          "htmlURL": "https://news.ycombinator.com"
+        }
+      ]
+    },
+    {
+      "name": "AI News",
+      "description": "Follow the latest in artificial intelligence research and applications",
+      "feeds": [
+        {
+          "title": "AI Alignment Forum",
+          "description": "Research and discussion on how to align artificial intelligence with human values",
+          "xmlURL": "https://www.alignmentforum.org/feed.xml",
+          "htmlURL": "https://www.alignmentforum.org"
+        },
+        {
+          "title": "DeepMind Blog",
+          "description": "Latest research and breakthroughs from DeepMind",
+          "xmlURL": "https://deepmind.com/blog/feed/basic/",
+          "htmlURL": "https://deepmind.com/blog"
+        },
+        {
+          "title": "OpenAI Blog",
+          "description": "Announcements and research updates from OpenAI",
+          "xmlURL": "https://openai.com/blog/rss/",
+          "htmlURL": "https://openai.com/blog"
+        },
+        {
+          "title": "AI Weirdness",
+          "description": "Exploring the strange side of artificial intelligence",
+          "xmlURL": "https://aiweirdness.com/rss",
+          "htmlURL": "https://aiweirdness.com"
+        }
+      ]
+    },
+    {
+      "name": "Science Blogs",
+      "description": "Popular science blogs covering a range of scientific disciplines",
+      "feeds": [
+        {
+          "title": "Scientific American",
+          "description": "Science news and technology updates from Scientific American",
+          "xmlURL": "https://rss.sciam.com/ScientificAmerican-Global",
+          "htmlURL": "https://www.scientificamerican.com"
+        },
+        {
+          "title": "Physics Today",
+          "description": "News, commentary, and articles about physics research",
+          "xmlURL": "https://physicstoday.scitation.org/feed/ptonline/most-recent",
+          "htmlURL": "https://physicstoday.scitation.org"
+        },
+        {
+          "title": "Quanta Magazine",
+          "description": "Illuminating science, mathematics, and computer science research",
+          "xmlURL": "https://api.quantamagazine.org/feed/",
+          "htmlURL": "https://www.quantamagazine.org"
+        },
+        {
+          "title": "Nature News",
+          "description": "News from the leading international weekly journal of science",
+          "xmlURL": "https://www.nature.com/nature.rss",
+          "htmlURL": "https://www.nature.com/news"
+        }
+      ]
+    },
+    {
+      "name": "Personal Blogs",
+      "description": "Thoughtful blogs by individual writers on tech, science, and culture",
+      "feeds": [
+        {
+          "title": "Slate Star Codex",
+          "description": "Blog by Scott Alexander covering science, medicine, philosophy, politics, and more",
+          "xmlURL": "https://slatestarcodex.com/feed/",
+          "htmlURL": "https://slatestarcodex.com"
+        },
+        {
+          "title": "Wait But Why",
+          "description": "Long-form explanations of various topics by Tim Urban",
+          "xmlURL": "https://waitbutwhy.com/feed",
+          "htmlURL": "https://waitbutwhy.com"
+        },
+        {
+          "title": "Marginal Revolution",
+          "description": "Economics and current events blog by Tyler Cowen and Alex Tabarrok",
+          "xmlURL": "https://marginalrevolution.com/feed",
+          "htmlURL": "https://marginalrevolution.com"
+        },
+        {
+          "title": "Daring Fireball",
+          "description": "Apple and tech industry commentary by John Gruber",
+          "xmlURL": "https://daringfireball.net/feeds/main",
+          "htmlURL": "https://daringfireball.net"
+        }
+      ]
+    }
+  ]
+}

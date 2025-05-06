@@ -1,0 +1,604 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>RSS Starter Packs</title></head>
+    <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+</head>
+
+<div id="container"><div id="header"></div>
+    <div id="headerArea">
+    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/notes.html">Notes & Links</a></li>
+            <li><a href="/Resources.html">Resources</a></li>
+            <li><a href="/Library.html">Media</a></li>
+            <!-- This empty one feels immature -->
+            <!-- <li><a href="/publications.html">Publications</a></li>  -->
+            <!-- <li><a href="/Resume.html">Resume</a></li> -->
+            <li><a href="/contact.html">Contact Me</a></li>
+</ul></nav></div>
+
+
+<div id="flex">
+
+<aside id="leftSidebar"><h2>Updates</h2>
+<div class="box">
+    What am I doing these days!
+    <ul>
+        <li><b>April 2025</b> - Traveled to U.K to collaborate with Durham University</li>
+        <li><b>April 2025</b> - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
+        <li><b>July 2024</b> - Started this website!</li>
+        <li><b>July 2023</b> - Started my PhD</li>
+    </ul>
+</div>
+
+
+<h2> Say Hello!</h2> 
+
+<div >
+    <img 
+        src="\Assets\KappyIdle.png" 
+        alt="Koffee Koala" 
+        class="KappySidebar"
+    />
+</div>
+
+<p></p>
+
+<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
+
+
+<h2>Find Me Online</h2>
+<ul>
+    <li>
+        <a href="https://aus.social/@AuntyRed/" target="_blank"
+            >Mastodon</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.youtube.com/@CameronJones-dj8mml"
+            target="_blank"
+            >YouTube</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.linkedin.com/in/cameron-jones-sydney/"
+            target="_blank"
+            >LinkedIn</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://github.com/CJones-Optics/"
+            target="_blank"
+            >GitHub</a
+        >
+    </li>
+</ul>
+</aside>
+
+<main>
+<h1>RSS Starter Packs</h1>
+
+<p>Get started with curated collections of RSS feeds covering various interests.</p>
+
+<style>
+  .starter-pack {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .pack-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .pack-header.collapsed {
+    border-radius: 8px;
+  }
+  
+  .pack-header h2 {
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1.5em;
+  }
+  
+  .arrow {
+    margin-right: 10px;
+    font-size: 1.2em;
+    transition: transform 0.3s;
+  }
+  
+  .arrow.down {
+    transform: rotate(0deg);
+  }
+  
+  .arrow.up {
+    transform: rotate(180deg);
+  }
+  
+  .pack-content {
+    padding: 15px;
+    display: none;
+  }
+  
+  .feed-item {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .feed-header {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .feed-header.collapsed {
+    border-radius: 5px;
+  }
+  
+  .feed-header h3 {
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1.2em;
+  }
+  
+  .feed-content {
+    padding: 10px 15px;
+    display: none;
+  }
+  
+  .link-button {
+    display: inline-block;
+    background-color: #a0c5ff;
+    padding: 4px 15px;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .link-button:hover {
+    background-color: #7dadff;
+  }
+</style>
+
+<div id="starter-packs">
+  
+    <div class="starter-pack">
+      <div class="pack-header collapsed">
+        <span class="arrow down">▼</span>
+        <h2>Tech News</h2>
+      </div>
+      <div class="pack-content">
+        
+          <p>Stay up-to-date with the latest technology news and developments</p>
+        
+        
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://arstechnica.com">Ars Technica</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://feeds.arstechnica.com/arstechnica/index" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Serving the technologist for more than a decade with in-depth coverage of technology, science, and policy</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://www.theverge.com">The Verge</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://www.theverge.com/rss/index.xml" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Covering the intersection of technology, science, art, and culture</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://www.wired.com">Wired</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://www.wired.com/feed/rss" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Deep technology coverage of innovation and how technology is changing our lives</p>
+              
+              
+              
+                <p><strong>Note:</strong> You can subscribe to ALL of Wired, but their all feed is filled with affiliate marketing trash</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://news.ycombinator.com">Hacker News</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://news.ycombinator.com/rss" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>A social news website focusing on computer science and entrepreneurship</p>
+              
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div class="starter-pack">
+      <div class="pack-header collapsed">
+        <span class="arrow down">▼</span>
+        <h2>AI News</h2>
+      </div>
+      <div class="pack-content">
+        
+          <p>Follow the latest in artificial intelligence research and applications</p>
+        
+        
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://www.alignmentforum.org">AI Alignment Forum</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://www.alignmentforum.org/feed.xml" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Research and discussion on how to align artificial intelligence with human values</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://deepmind.com/blog">DeepMind Blog</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://deepmind.com/blog/feed/basic/" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Latest research and breakthroughs from DeepMind</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://openai.com/blog">OpenAI Blog</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://openai.com/blog/rss/" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Announcements and research updates from OpenAI</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://aiweirdness.com">AI Weirdness</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://aiweirdness.com/rss" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Exploring the strange side of artificial intelligence</p>
+              
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div class="starter-pack">
+      <div class="pack-header collapsed">
+        <span class="arrow down">▼</span>
+        <h2>Science Blogs</h2>
+      </div>
+      <div class="pack-content">
+        
+          <p>Popular science blogs covering a range of scientific disciplines</p>
+        
+        
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://www.scientificamerican.com">Scientific American</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://rss.sciam.com/ScientificAmerican-Global" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Science news and technology updates from Scientific American</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://physicstoday.scitation.org">Physics Today</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://physicstoday.scitation.org/feed/ptonline/most-recent" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>News, commentary, and articles about physics research</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://www.quantamagazine.org">Quanta Magazine</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://api.quantamagazine.org/feed/" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Illuminating science, mathematics, and computer science research</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://www.nature.com/news">Nature News</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://www.nature.com/nature.rss" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>News from the leading international weekly journal of science</p>
+              
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div class="starter-pack">
+      <div class="pack-header collapsed">
+        <span class="arrow down">▼</span>
+        <h2>Personal Blogs</h2>
+      </div>
+      <div class="pack-content">
+        
+          <p>Thoughtful blogs by individual writers on tech, science, and culture</p>
+        
+        
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://slatestarcodex.com">Slate Star Codex</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://slatestarcodex.com/feed/" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Blog by Scott Alexander covering science, medicine, philosophy, politics, and more</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://waitbutwhy.com">Wait But Why</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://waitbutwhy.com/feed" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Long-form explanations of various topics by Tim Urban</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://marginalrevolution.com">Marginal Revolution</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://marginalrevolution.com/feed" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Economics and current events blog by Tyler Cowen and Alex Tabarrok</p>
+              
+              
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header collapsed">
+              <span class="arrow down">▼</span>
+              <h3><a href="https://daringfireball.net">Daring Fireball</a></h3>
+              <div style="display: flex; align-items: center;">
+                
+                  <a href="https://daringfireball.net/feeds/main" class="link-button" onclick="event.stopPropagation();">Link</a>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Apple and tech industry commentary by John Gruber</p>
+              
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+</div>
+
+<script>
+  // Add toggle functionality for pack headers
+  document.querySelectorAll('.pack-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      const arrow = header.querySelector('.arrow');
+      
+      header.classList.toggle('collapsed');
+      
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+        arrow.textContent = '▼';
+        arrow.className = 'arrow down';
+      } else {
+        content.style.display = 'block';
+        arrow.textContent = '▲';
+        arrow.className = 'arrow up';
+      }
+    });
+  });
+  
+  // Add toggle functionality for feed headers
+  document.querySelectorAll('.feed-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      const arrow = header.querySelector('.arrow');
+      
+      header.classList.toggle('collapsed');
+      
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+        arrow.textContent = '▼';
+        arrow.className = 'arrow down';
+      } else {
+        content.style.display = 'block';
+        arrow.textContent = '▲';
+        arrow.className = 'arrow up';
+      }
+    });
+  });
+</script></main>
+
+</div>
+<footer id="footer" style="margin-top: 0px;">
+    <a href="/FeedList.html" >
+        <img
+        src="/Assets/RSS_Logo.png"
+        alt="RSS Feed"
+        style="width: 20px; height: 20px"
+        /> 
+    </a>
+
+</footer>
+
+</html>
+
+<script src="/scripts.js"></script>
