@@ -99,38 +99,16 @@
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    cursor: pointer;
     background-color: #f5f5f5;
     border-radius: 8px 8px 0 0;
-  }
-  
-  .pack-header.collapsed {
-    border-radius: 8px;
-  }
-  
-  .pack-header h2 {
-    margin: 0;
-    flex-grow: 1;
-    font-size: 1.5em;
-  }
-  
-  .arrow {
-    margin-right: 10px;
-    font-size: 1.2em;
-    transition: transform 0.3s;
-  }
-  
-  .arrow.down {
-    transform: rotate(0deg);
-  }
-  
-  .arrow.up {
-    transform: rotate(180deg);
+    cursor: pointer;
   }
   
   .pack-content {
     padding: 15px;
-    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
   }
   
   .feed-item {
@@ -143,24 +121,16 @@
     display: flex;
     align-items: center;
     padding: 8px 15px;
-    cursor: pointer;
     background-color: #f9f9f9;
     border-radius: 5px 5px 0 0;
-  }
-  
-  .feed-header.collapsed {
-    border-radius: 5px;
-  }
-  
-  .feed-header h3 {
-    margin: 0;
-    flex-grow: 1;
-    font-size: 1.2em;
+    cursor: pointer;
   }
   
   .feed-content {
     padding: 10px 15px;
-    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
   }
   
   .link-button {
@@ -218,15 +188,71 @@
     visibility: visible;
     opacity: 1;
   }
+  
+  /* CSS-only dropdown using checkbox hack */
+  .pack-toggle, .feed-toggle {
+    display: none;
+  }
+  
+  .pack-toggle:checked ~ .pack-content {
+    max-height: 2000px; /* Large enough to contain all content */
+  }
+  
+  .feed-toggle:checked ~ .feed-content {
+    max-height: 500px; /* Large enough to contain feed details */
+  }
+  
+  /* Arrow styling */
+  .arrow {
+    margin-right: 10px;
+    font-size: 1.2em;
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+  
+  .pack-toggle:checked ~ .pack-header .arrow,
+  .feed-toggle:checked ~ .feed-header .arrow {
+    transform: rotate(180deg);
+  }
+  
+  /* Collapse border radius when expanded */
+  .pack-toggle:not(:checked) ~ .pack-header {
+    border-radius: 8px;
+  }
+  
+  .feed-toggle:not(:checked) ~ .feed-header {
+    border-radius: 5px;
+  }
+  
+  /* Make the entire header label clickable */
+  .pack-label, .feed-label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .pack-header h2, .feed-header h3 {
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1.2em;
+  }
+  
+  .pack-header h2 {
+    font-size: 1.5em;
+  }
 </style>
 
 <div id="starter-packs">
   
     <div class="starter-pack">
-      <div class="pack-header collapsed">
-        <span class="arrow down">▼</span>
-        <h2>Tech News</h2>
-      </div>
+      <input type="checkbox" id="pack-1" class="pack-toggle">
+      <label for="pack-1" class="pack-header">
+        <div class="pack-label">
+          <span class="arrow">▼</span>
+          <h2>Tech News</h2>
+        </div>
+      </label>
       <div class="pack-content">
         
           <p>Stay up-to-date with the latest technology news and developments</p>
@@ -234,18 +260,21 @@
         
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://arstechnica.com">Ars Technica</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--1" class="feed-toggle">
+            <label for="feed--1" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://arstechnica.com">Ars Technica</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://feeds.arstechnica.com/arstechnica/index', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://feeds.arstechnica.com/arstechnica/index', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Serving the technologist for more than a decade with in-depth coverage of technology, science, and policy</p>
@@ -256,18 +285,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://www.theverge.com">The Verge</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--2" class="feed-toggle">
+            <label for="feed--2" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.theverge.com">The Verge</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://www.theverge.com/rss/index.xml', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://www.theverge.com/rss/index.xml', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Covering the intersection of technology, science, art, and culture</p>
@@ -278,18 +310,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://www.wired.com">Wired</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--3" class="feed-toggle">
+            <label for="feed--3" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.wired.com">Wired</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://www.wired.com/feed/rss', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://www.wired.com/feed/rss', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Deep technology coverage of innovation and how technology is changing our lives</p>
@@ -302,18 +337,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://news.ycombinator.com">Hacker News</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--4" class="feed-toggle">
+            <label for="feed--4" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://news.ycombinator.com">Hacker News</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://news.ycombinator.com/rss', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://news.ycombinator.com/rss', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>A social news website focusing on computer science and entrepreneurship</p>
@@ -327,10 +365,13 @@
     </div>
   
     <div class="starter-pack">
-      <div class="pack-header collapsed">
-        <span class="arrow down">▼</span>
-        <h2>AI News</h2>
-      </div>
+      <input type="checkbox" id="pack-2" class="pack-toggle">
+      <label for="pack-2" class="pack-header">
+        <div class="pack-label">
+          <span class="arrow">▼</span>
+          <h2>AI News</h2>
+        </div>
+      </label>
       <div class="pack-content">
         
           <p>Follow the latest in artificial intelligence research and applications</p>
@@ -338,18 +379,21 @@
         
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://www.alignmentforum.org">AI Alignment Forum</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--1" class="feed-toggle">
+            <label for="feed--1" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.alignmentforum.org">AI Alignment Forum</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://www.alignmentforum.org/feed.xml', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://www.alignmentforum.org/feed.xml', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Research and discussion on how to align artificial intelligence with human values</p>
@@ -360,18 +404,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://deepmind.com/blog">DeepMind Blog</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--2" class="feed-toggle">
+            <label for="feed--2" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://deepmind.com/blog">DeepMind Blog</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://deepmind.com/blog/feed/basic/', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://deepmind.com/blog/feed/basic/', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Latest research and breakthroughs from DeepMind</p>
@@ -382,18 +429,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://openai.com/blog">OpenAI Blog</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--3" class="feed-toggle">
+            <label for="feed--3" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://openai.com/blog">OpenAI Blog</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://openai.com/blog/rss/', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://openai.com/blog/rss/', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Announcements and research updates from OpenAI</p>
@@ -404,18 +454,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://aiweirdness.com">AI Weirdness</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--4" class="feed-toggle">
+            <label for="feed--4" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://aiweirdness.com">AI Weirdness</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://aiweirdness.com/rss', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://aiweirdness.com/rss', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Exploring the strange side of artificial intelligence</p>
@@ -429,10 +482,13 @@
     </div>
   
     <div class="starter-pack">
-      <div class="pack-header collapsed">
-        <span class="arrow down">▼</span>
-        <h2>Science Blogs</h2>
-      </div>
+      <input type="checkbox" id="pack-3" class="pack-toggle">
+      <label for="pack-3" class="pack-header">
+        <div class="pack-label">
+          <span class="arrow">▼</span>
+          <h2>Science Blogs</h2>
+        </div>
+      </label>
       <div class="pack-content">
         
           <p>Popular science blogs covering a range of scientific disciplines</p>
@@ -440,18 +496,21 @@
         
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://www.scientificamerican.com">Scientific American</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--1" class="feed-toggle">
+            <label for="feed--1" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.scientificamerican.com">Scientific American</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://rss.sciam.com/ScientificAmerican-Global', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://rss.sciam.com/ScientificAmerican-Global', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Science news and technology updates from Scientific American</p>
@@ -462,18 +521,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://physicstoday.scitation.org">Physics Today</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--2" class="feed-toggle">
+            <label for="feed--2" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://physicstoday.scitation.org">Physics Today</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://physicstoday.scitation.org/feed/ptonline/most-recent', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://physicstoday.scitation.org/feed/ptonline/most-recent', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>News, commentary, and articles about physics research</p>
@@ -484,18 +546,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://www.quantamagazine.org">Quanta Magazine</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--3" class="feed-toggle">
+            <label for="feed--3" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.quantamagazine.org">Quanta Magazine</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://api.quantamagazine.org/feed/', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://api.quantamagazine.org/feed/', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Illuminating science, mathematics, and computer science research</p>
@@ -506,18 +571,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://www.nature.com/news">Nature News</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--4" class="feed-toggle">
+            <label for="feed--4" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.nature.com/news">Nature News</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://www.nature.com/nature.rss', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://www.nature.com/nature.rss', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>News from the leading international weekly journal of science</p>
@@ -531,10 +599,13 @@
     </div>
   
     <div class="starter-pack">
-      <div class="pack-header collapsed">
-        <span class="arrow down">▼</span>
-        <h2>Personal Blogs</h2>
-      </div>
+      <input type="checkbox" id="pack-4" class="pack-toggle">
+      <label for="pack-4" class="pack-header">
+        <div class="pack-label">
+          <span class="arrow">▼</span>
+          <h2>Personal Blogs</h2>
+        </div>
+      </label>
       <div class="pack-content">
         
           <p>Thoughtful blogs by individual writers on tech, science, and culture</p>
@@ -542,18 +613,21 @@
         
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://slatestarcodex.com">Slate Star Codex</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--1" class="feed-toggle">
+            <label for="feed--1" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://slatestarcodex.com">Slate Star Codex</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://slatestarcodex.com/feed/', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://slatestarcodex.com/feed/', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Blog by Scott Alexander covering science, medicine, philosophy, politics, and more</p>
@@ -564,18 +638,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://waitbutwhy.com">Wait But Why</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--2" class="feed-toggle">
+            <label for="feed--2" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://waitbutwhy.com">Wait But Why</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://waitbutwhy.com/feed', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://waitbutwhy.com/feed', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Long-form explanations of various topics by Tim Urban</p>
@@ -586,18 +663,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://marginalrevolution.com">Marginal Revolution</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--3" class="feed-toggle">
+            <label for="feed--3" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://marginalrevolution.com">Marginal Revolution</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://marginalrevolution.com/feed', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://marginalrevolution.com/feed', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Economics and current events blog by Tyler Cowen and Alex Tabarrok</p>
@@ -608,18 +688,21 @@
           </div>
         
           <div class="feed-item">
-            <div class="feed-header collapsed">
-              <span class="arrow down">▼</span>
-              <h3><a href="https://daringfireball.net">Daring Fireball</a></h3>
-              <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="feed--4" class="feed-toggle">
+            <label for="feed--4" class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://daringfireball.net">Daring Fireball</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;" onclick="event.stopPropagation();">
                 
                   <div class="tooltip">
-                    <span class="link-button" onclick="copyToClipboard('https://daringfireball.net/feeds/main', this); event.stopPropagation();">Link</span>
+                    <span class="link-button" onclick="copyToClipboard('https://daringfireball.net/feeds/main', this);">Link</span>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
               </div>
-            </div>
+            </label>
             <div class="feed-content">
               
                 <p>Apple and tech industry commentary by John Gruber</p>
@@ -635,7 +718,7 @@
 </div>
 
 <script>
-  // Copy to clipboard function
+  // Copy to clipboard function - keeping this JavaScript as it's necessary functionality
   function copyToClipboard(text, element) {
     // Create a temporary textarea element to copy from
     const textarea = document.createElement('textarea');
@@ -649,7 +732,7 @@
       
       // Show the tooltip
       const tooltip = element.parentNode;
-      tooltip.querySelector('.tooltiptext').textContent = 'Link Copied!';
+      tooltip.querySelector('.tooltiptext').textContent = 'Copied!';
       tooltip.classList.add('show');
       
       // Hide the tooltip after 2 seconds
@@ -667,46 +750,6 @@
     // Clean up
     document.body.removeChild(textarea);
   }
-
-  // Add toggle functionality for pack headers
-  document.querySelectorAll('.pack-header').forEach(header => {
-    header.addEventListener('click', () => {
-      const content = header.nextElementSibling;
-      const arrow = header.querySelector('.arrow');
-      
-      header.classList.toggle('collapsed');
-      
-      if (content.style.display === 'block') {
-        content.style.display = 'none';
-        arrow.textContent = '▼';
-        arrow.className = 'arrow down';
-      } else {
-        content.style.display = 'block';
-        arrow.textContent = '▲';
-        arrow.className = 'arrow up';
-      }
-    });
-  });
-  
-  // Add toggle functionality for feed headers
-  document.querySelectorAll('.feed-header').forEach(header => {
-    header.addEventListener('click', () => {
-      const content = header.nextElementSibling;
-      const arrow = header.querySelector('.arrow');
-      
-      header.classList.toggle('collapsed');
-      
-      if (content.style.display === 'block') {
-        content.style.display = 'none';
-        arrow.textContent = '▼';
-        arrow.className = 'arrow down';
-      } else {
-        content.style.display = 'block';
-        arrow.textContent = '▲';
-        arrow.className = 'arrow up';
-      }
-    });
-  });
 </script></main>
 
 </div>
