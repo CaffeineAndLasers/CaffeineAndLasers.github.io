@@ -21,6 +21,18 @@
           "description": "A webcomic with a mix of science, philosophy, and humor.",
           "xmlURL": "https://www.smbc-comics.com/rss.php",
           "htmlURL": "https://www.smbc-comics.com"
+        },
+        {
+          "title": "The Oatmeal",
+          "description": "One of the most famous webcomics of all time.",
+          "xmlURL": "https://theoatmeal.com/feed/rss",
+          "htmlURL": "https://theoatmeal.com"
+        },
+        {
+          "title": "Lunarbaboon",
+          "description": "A half man/half moon monkey trying to make sense of it all. Comics about life and parenting.",
+          "xmlURL": "http://www.lunarbaboon.com/comics/rss.xml",
+          "htmlURL": "http://www.lunarbaboon.com"
         }
       ]
     },
