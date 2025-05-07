@@ -15,7 +15,7 @@
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/notes.html">Notes & Links</a></li>
             <li><a href="/Resources.html">Resources</a></li>
-            <li><a href="/Library.html">Media</a></li>
+            <li><a href="/media.html">Media</a></li>
             <!-- This empty one feels immature -->
             <!-- <li><a href="/publications.html">Publications</a></li>  -->
             <!-- <li><a href="/Resume.html">Resume</a></li> -->
@@ -86,13 +86,44 @@
 <main>
 <h1>RSS Starter Packs</h1>
 
-<p>Get started with curated collections of RSS feeds covering various interests.</p>
+
+
+<strong> Publised: </strong> 2025-05-07 
+<strong> Updated: </strong> 2025-05-07 
+
+<hr>
+
+<p>I was inspired by BlueSky's meteoric growth, especially compared to Mastodon's. One of the things
+  so many people liked about BlueSky was how easy onboarding was. Especially with their "Starter Packs" feature.
+</p>
+
+<p>
+  So, on my quest as an RSS evangelist, I thought it would be a good idea to create a similar starter packs for RSS.
+  Some of these fall into the "independant web" category, some don't. 
+</p>
+
+<p>
+  <strong>Contributing:</strong> I would encourage anyone else to publish their own starter packs, but I also
+  welcome suggestions to add to mine. Just shoot me an email, or message on my guestbook. The only 
+  catch is I don't want you reccomending your own blog or website. (This saves the awkwardness of
+  me having to reject your own site if I don't think it fits the bill lol) 
+</p>
+
+<hr>
+
+<h2> The Starter Packs </h2> 
 
 <style>
   .starter-pack {
     margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 3px #8839ef dotted;
+    border-radius: 15px;
+    background-color: #eff1f5;
+    transition: transform 0.3s ease;
+  }
+  
+  .starter-pack:hover {
+    transform: translateY(-5px);
   }
   
   .pack-header {
@@ -100,7 +131,7 @@
     align-items: center;
     padding: 10px 15px;
     background-color: #f5f5f5;
-    border-radius: 8px 8px 0 0;
+    border-radius: 15px 15px 0 0;
     cursor: pointer;
   }
   
@@ -114,8 +145,9 @@
   
   .feed-item {
     margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 3px #8839ef dotted;
+    border-radius: 15px;
+    background-color: #eff1f5;
   }
   
   .feed-header {
@@ -123,15 +155,8 @@
     align-items: center;
     padding: 8px 15px;
     background-color: #f9f9f9;
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
     cursor: pointer;
-  }
-  
-  .feed-content {
-    padding: 10px 15px;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.3s ease;
   }
   
   .link-button {
@@ -198,6 +223,7 @@
     padding-top: 0;
     padding-bottom: 0;
     border-top: none;
+    overflow: hidden;
   }
   
   .pack-content.expanded {
@@ -208,10 +234,14 @@
   
   .feed-content {
     max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
   }
   
   .feed-content.expanded {
     max-height: 500px; /* Large enough to contain feed details */
+    padding: 10px 15px;
   }
   
   /* Arrow styling */
@@ -246,19 +276,19 @@
 
   /* Rounded corners when collapsed */
   .pack-header {
-    border-radius: 8px;
+    border-radius: 15px;
   }
   
   .pack-header.expanded {
-    border-radius: 8px 8px 0 0;
+    border-radius: 15px 15px 0 0;
   }
   
   .feed-header {
-    border-radius: 5px;
+    border-radius: 15px;
   }
   
   .feed-header.expanded {
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
   }
   
   /* Styling for pack description */
@@ -346,7 +376,7 @@
             </div>
             <div class="feed-content">
               
-                <p>A webcomic with a mix of science, philosophy, and humor.</p>
+                <p>A webcomic with a mix of science, and humor.</p>
               
             </div>
           </div>
@@ -368,7 +398,7 @@
             </div>
             <div class="feed-content">
               
-                <p>One of the most famous webcomics of all time.</p>
+                <p>One of the most famous webcomics of all time. He also made exploding kittens and unstable unicorns if you are into board games.</p>
               
             </div>
           </div>
@@ -390,7 +420,7 @@
             </div>
             <div class="feed-content">
               
-                <p>A half man/half moon monkey trying to make sense of it all. Comics about life and parenting.</p>
+                <p>A half man/half moon monkey trying to make sense of it all. Comics about life and parenting. Usually a sweet message.</p>
               
             </div>
           </div>
@@ -517,154 +547,6 @@
             <div class="feed-content">
               
                 <p>Random software news, lotsa cybersec and hacker kinda stuff</p>
-              
-            </div>
-          </div>
-        
-      </div>
-    </div>
-  
-    <div class="starter-pack">
-      <div class="pack-header">
-        <div class="pack-label">
-          <span class="arrow">▼</span>
-          <h2>AI News</h2>
-        </div>
-      </div>
-      <!-- Description moved outside of collapsible content -->
-      
-        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">I really like keeping up with the specifics in current ML research. These are my favourite feeds.</p>
-      
-      <div class="pack-content">
-        
-          <div class="feed-item">
-            <div class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://simonwillison.net">Simon Wilson's Weblog</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;">
-                
-                  <div class="tooltip">
-                    <a href="https://simonwillison.net/atom/entries/" class="link-button js-clipboard-link">Copy Link</a>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </div>
-            <div class="feed-content">
-              
-                <p>He is a researcher at Mozilla and pretty smart</p>
-              
-            </div>
-          </div>
-        
-          <div class="feed-item">
-            <div class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://bycloudai.com">ByCloudAI</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;">
-                
-                  <div class="tooltip">
-                    <a href="https://rss.beehiiv.com/feeds/Vy37NcFo03.xml" class="link-button js-clipboard-link">Copy Link</a>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </div>
-            <div class="feed-content">
-              
-                <p>He is a youtuber, who also runs a weekly newsletter, the newsletter recaps 3 new papers on AI research every week.</p>
-              
-            </div>
-          </div>
-        
-          <div class="feed-item">
-            <div class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://nofill.com">Nofill</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;">
-                
-                  <div class="tooltip">
-                    <a href="https://rss.beehiiv.com/feeds/LVYXv4EqVS.xml" class="link-button js-clipboard-link">Copy Link</a>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </div>
-            <div class="feed-content">
-              
-                <p>Another guy's blog on AI shit</p>
-              
-            </div>
-          </div>
-        
-          <div class="feed-item">
-            <div class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://vizuara.substack.com">Vizuara</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;">
-                
-                  <div class="tooltip">
-                    <a href="https://vizuara.substack.com/feed" class="link-button js-clipboard-link">Copy Link</a>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </div>
-            <div class="feed-content">
-              
-                <p>He writes about the very specifics and mathematics of LLMs/Diffusion Models</p>
-              
-            </div>
-          </div>
-        
-          <div class="feed-item">
-            <div class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://www.oneusefulthing.org">One Useful Thing</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;">
-                
-                  <div class="tooltip">
-                    <a href="https://www.oneusefulthing.org/feed" class="link-button js-clipboard-link">Copy Link</a>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </div>
-            <div class="feed-content">
-              
-                <p>Insights and analysis on AI and its applications</p>
-              
-            </div>
-          </div>
-        
-          <div class="feed-item">
-            <div class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="https://www.dbreunig.com">DB Reunig</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;">
-                
-                  <div class="tooltip">
-                    <a href="https://www.dbreunig.com/feed.xml" class="link-button js-clipboard-link">Copy Link</a>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </div>
-            <div class="feed-content">
-              
-                <p>Blog on AI and related topics</p>
               
             </div>
           </div>
@@ -983,6 +865,236 @@
             <div class="feed-content">
               
                 <p>Better political coverage than any mainstream journos. Also interesting niche topics covered by independent journos.</p>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div class="starter-pack">
+      <div class="pack-header">
+        <div class="pack-label">
+          <span class="arrow">▼</span>
+          <h2>Aus Satire News</h2>
+        </div>
+      </div>
+      <!-- Description moved outside of collapsible content -->
+      
+        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">Satirical news sources from Australia, blending humor with current events.</p>
+      
+      <div class="pack-content">
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.betootaadvocate.com">The Betoota Advocate</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://www.betootaadvocate.com/feed/" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Australia's Oldest And Favourite Newspaper</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://theshovel.com.au">The Shovel</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://theshovel.com.au/feed/" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>News you can believe in</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://chaser.com.au">The Chaser</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://chaser.com.au/feed/" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Striving for mediocrity in a world of excellence</p>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div class="starter-pack">
+      <div class="pack-header">
+        <div class="pack-label">
+          <span class="arrow">▼</span>
+          <h2>AI News</h2>
+        </div>
+      </div>
+      <!-- Description moved outside of collapsible content -->
+      
+        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">I really like keeping up with the specifics in current ML research. These are my favourite feeds.</p>
+      
+      <div class="pack-content">
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://simonwillison.net">Simon Wilson's Weblog</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://simonwillison.net/atom/entries/" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>He is a researcher at Mozilla and pretty smart</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://bycloudai.com">ByCloudAI</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://rss.beehiiv.com/feeds/Vy37NcFo03.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>He is a youtuber, who also runs a weekly newsletter, the newsletter recaps 3 new papers on AI research every week.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://nofill.com">Nofill</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://rss.beehiiv.com/feeds/LVYXv4EqVS.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Another guy's blog on AI shit</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://vizuara.substack.com">Vizuara</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://vizuara.substack.com/feed" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>He writes about the very specifics and mathematics of LLMs/Diffusion Models</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.oneusefulthing.org">One Useful Thing</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://www.oneusefulthing.org/feed" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Insights and analysis on AI and its applications</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://www.dbreunig.com">DB Reunig</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://www.dbreunig.com/feed.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Blog on AI and related topics</p>
               
             </div>
           </div>

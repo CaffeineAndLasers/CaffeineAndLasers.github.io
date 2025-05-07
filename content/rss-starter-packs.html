@@ -5,13 +5,44 @@ layout: default.liquid
 
 <h1>RSS Starter Packs</h1>
 
-<p>Get started with curated collections of RSS feeds covering various interests.</p>
+
+
+<strong> Publised: </strong> 2025-05-07 
+<strong> Updated: </strong> 2025-05-07 
+
+<hr>
+
+<p>I was inspired by BlueSky's meteoric growth, especially compared to Mastodon's. One of the things
+  so many people liked about BlueSky was how easy onboarding was. Especially with their "Starter Packs" feature.
+</p>
+
+<p>
+  So, on my quest as an RSS evangelist, I thought it would be a good idea to create a similar starter packs for RSS.
+  Some of these fall into the "independant web" category, some don't. 
+</p>
+
+<p>
+  <strong>Contributing:</strong> I would encourage anyone else to publish their own starter packs, but I also
+  welcome suggestions to add to mine. Just shoot me an email, or message on my guestbook. The only 
+  catch is I don't want you reccomending your own blog or website. (This saves the awkwardness of
+  me having to reject your own site if I don't think it fits the bill lol) 
+</p>
+
+<hr>
+
+<h2> The Starter Packs </h2> 
 
 <style>
   .starter-pack {
     margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 3px #8839ef dotted;
+    border-radius: 15px;
+    background-color: #eff1f5;
+    transition: transform 0.3s ease;
+  }
+  
+  .starter-pack:hover {
+    transform: translateY(-5px);
   }
   
   .pack-header {
@@ -19,7 +50,7 @@ layout: default.liquid
     align-items: center;
     padding: 10px 15px;
     background-color: #f5f5f5;
-    border-radius: 8px 8px 0 0;
+    border-radius: 15px 15px 0 0;
     cursor: pointer;
   }
   
@@ -33,8 +64,9 @@ layout: default.liquid
   
   .feed-item {
     margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 3px #8839ef dotted;
+    border-radius: 15px;
+    background-color: #eff1f5;
   }
   
   .feed-header {
@@ -42,15 +74,8 @@ layout: default.liquid
     align-items: center;
     padding: 8px 15px;
     background-color: #f9f9f9;
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
     cursor: pointer;
-  }
-  
-  .feed-content {
-    padding: 10px 15px;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.3s ease;
   }
   
   .link-button {
@@ -117,6 +142,7 @@ layout: default.liquid
     padding-top: 0;
     padding-bottom: 0;
     border-top: none;
+    overflow: hidden;
   }
   
   .pack-content.expanded {
@@ -127,10 +153,14 @@ layout: default.liquid
   
   .feed-content {
     max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
   }
   
   .feed-content.expanded {
     max-height: 500px; /* Large enough to contain feed details */
+    padding: 10px 15px;
   }
   
   /* Arrow styling */
@@ -165,19 +195,19 @@ layout: default.liquid
 
   /* Rounded corners when collapsed */
   .pack-header {
-    border-radius: 8px;
+    border-radius: 15px;
   }
   
   .pack-header.expanded {
-    border-radius: 8px 8px 0 0;
+    border-radius: 15px 15px 0 0;
   }
   
   .feed-header {
-    border-radius: 5px;
+    border-radius: 15px;
   }
   
   .feed-header.expanded {
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
   }
   
   /* Styling for pack description */

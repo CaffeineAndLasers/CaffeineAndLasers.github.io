@@ -1,0 +1,66 @@
+---
+title: Media
+layout: default.liquid
+---
+
+<h1>Media</h1>
+
+<hr>
+
+<div class="media-bubbles">
+  <div class="media-bubble">
+    <h2>The Library</h2>
+    <a href="/Library.html">Go to Library</a>
+  </div>
+  
+  <div class="media-bubble">
+    <h2>RSS Starter Packs</h2>
+    <a href="/rss-starter-packs.html">Go to RSS Starter Packs</a>
+  </div>
+</div>
+
+<hr>
+
+<style>
+  .media-bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+  }
+  
+  .media-bubble {
+    background-color: #e6e9ef;
+    border: 5px #8839ef dotted;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .media-bubble:hover {
+    transform: scale(1.05);
+  }
+  
+  .media-bubble h2 {
+    margin-top: 0;
+  }
+  
+  .media-bubble a {
+    display: inline-block;
+    background-color: #c9a2e2;
+    color: #8839ef;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #8839ef;
+  }
+  
+  .media-bubble a:hover {
+    background-color: #8839ef;
+    color: #e6e9ef;
+  }
+</style>

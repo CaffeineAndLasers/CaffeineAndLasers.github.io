@@ -18,19 +18,19 @@
         },
         {
           "title": "Saturday Morning Breakfast",
-          "description": "A webcomic with a mix of science, philosophy, and humor.",
+          "description": "A webcomic with a mix of science, and humor.",
           "xmlURL": "https://www.smbc-comics.com/rss.php",
           "htmlURL": "https://www.smbc-comics.com"
         },
         {
           "title": "The Oatmeal",
-          "description": "One of the most famous webcomics of all time.",
+          "description": "One of the most famous webcomics of all time. He also made exploding kittens and unstable unicorns if you are into board games.",
           "xmlURL": "https://theoatmeal.com/feed/rss",
           "htmlURL": "https://theoatmeal.com"
         },
         {
           "title": "Lunarbaboon",
-          "description": "A half man/half moon monkey trying to make sense of it all. Comics about life and parenting.",
+          "description": "A half man/half moon monkey trying to make sense of it all. Comics about life and parenting. Usually a sweet message.",
           "xmlURL": "http://www.lunarbaboon.com/comics/rss.xml",
           "htmlURL": "http://www.lunarbaboon.com"
         }
@@ -72,48 +72,7 @@
         }
       ]
     },
-    {
-      "name": "AI News",
-      "description": "I really like keeping up with the specifics in current ML research. These are my favourite feeds.",
-      "feeds": [
-        {
-          "title": "Simon Wilson's Weblog",
-          "description": "He is a researcher at Mozilla and pretty smart",
-          "xmlURL": "https://simonwillison.net/atom/entries/",
-          "htmlURL": "https://simonwillison.net"
-        },
-        {
-          "title": "ByCloudAI",
-          "description": "He is a youtuber, who also runs a weekly newsletter, the newsletter recaps 3 new papers on AI research every week.",
-          "xmlURL": "https://rss.beehiiv.com/feeds/Vy37NcFo03.xml",
-          "htmlURL": "https://bycloudai.com"
-        },
-        {
-          "title": "Nofill",
-          "description": "Another guy's blog on AI shit",
-          "xmlURL": "https://rss.beehiiv.com/feeds/LVYXv4EqVS.xml",
-          "htmlURL": "https://nofill.com"
-        },
-        {
-          "title": "Vizuara",
-          "description": "He writes about the very specifics and mathematics of LLMs/Diffusion Models",
-          "xmlURL": "https://vizuara.substack.com/feed",
-          "htmlURL": "https://vizuara.substack.com"
-        },
-        {
-          "title": "One Useful Thing",
-          "description": "Insights and analysis on AI and its applications",
-          "xmlURL": "https://www.oneusefulthing.org/feed",
-          "htmlURL": "https://www.oneusefulthing.org"
-        },
-        {
-          "title": "DB Reunig",
-          "description": "Blog on AI and related topics",
-          "xmlURL": "https://www.dbreunig.com/feed.xml",
-          "htmlURL": "https://www.dbreunig.com"
-        }
-      ]
-    },
+
     {
       "name": "Personal Blogs",
       "description": "Thoughtful blogs by individual writers on tech, science, and culture",
@@ -201,6 +160,72 @@
           "description": "Better political coverage than any mainstream journos. Also interesting niche topics covered by independent journos.",
           "xmlURL": "http://feeds.feedburner.com/IndependentAustralia",
           "htmlURL": "https://independentaustralia.net"
+        }
+      ]
+    },
+    {
+      "name": "Aus Satire News",
+      "description": "Satirical news sources from Australia, blending humor with current events.",
+      "feeds": [
+        {
+          "title": "The Betoota Advocate",
+          "description": "Australia's Oldest And Favourite Newspaper",
+          "xmlURL": "https://www.betootaadvocate.com/feed/",
+          "htmlURL": "https://www.betootaadvocate.com"
+        },
+        {
+          "title": "The Shovel",
+          "description": "News you can believe in",
+          "xmlURL": "https://theshovel.com.au/feed/",
+          "htmlURL": "https://theshovel.com.au"
+        },
+        {
+          "title": "The Chaser",
+          "description": "Striving for mediocrity in a world of excellence",
+          "xmlURL": "https://chaser.com.au/feed/",
+          "htmlURL": "https://chaser.com.au"
+        }
+      ]
+    },
+    {
+      "name": "AI News",
+      "description": "I really like keeping up with the specifics in current ML research. These are my favourite feeds.",
+      "feeds": [
+        {
+          "title": "Simon Wilson's Weblog",
+          "description": "He is a researcher at Mozilla and pretty smart",
+          "xmlURL": "https://simonwillison.net/atom/entries/",
+          "htmlURL": "https://simonwillison.net"
+        },
+        {
+          "title": "ByCloudAI",
+          "description": "He is a youtuber, who also runs a weekly newsletter, the newsletter recaps 3 new papers on AI research every week.",
+          "xmlURL": "https://rss.beehiiv.com/feeds/Vy37NcFo03.xml",
+          "htmlURL": "https://bycloudai.com"
+        },
+        {
+          "title": "Nofill",
+          "description": "Another guy's blog on AI shit",
+          "xmlURL": "https://rss.beehiiv.com/feeds/LVYXv4EqVS.xml",
+          "htmlURL": "https://nofill.com"
+        },
+        {
+          "title": "Vizuara",
+          "description": "He writes about the very specifics and mathematics of LLMs/Diffusion Models",
+          "xmlURL": "https://vizuara.substack.com/feed",
+          "htmlURL": "https://vizuara.substack.com"
+        },
+        {
+          "title": "One Useful Thing",
+          "description": "Insights and analysis on AI and its applications",
+          "xmlURL": "https://www.oneusefulthing.org/feed",
+          "htmlURL": "https://www.oneusefulthing.org"
+        },
+        {
+          "title": "DB Reunig",
+          "description": "Blog on AI and related topics",
+          "xmlURL": "https://www.dbreunig.com/feed.xml",
+          "htmlURL": "https://www.dbreunig.com"
         }
       ]
     }

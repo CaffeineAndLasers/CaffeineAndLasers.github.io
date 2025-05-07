@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>Default Title</title></head>
+    <head><title>Media</title></head>
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
@@ -84,13 +84,67 @@
 </aside>
 
 <main>
+<h1>Media</h1>
+
 <hr>
-<div style="text-align: center;">
-    <h1>404 - Page Not Found</h1>
-    <p>Sorry, the page you are looking for does not exist.</p>
-    <img src="/Assets/Kappy404.png" alt="Kappy Koala" style="max-width: 50%; height: auto;" />
+
+<div class="media-bubbles">
+  <div class="media-bubble">
+    <h2>The Library</h2>
+    <a href="/Library.html">Go to Library</a>
+  </div>
+  
+  <div class="media-bubble">
+    <h2>RSS Starter Packs</h2>
+    <a href="/rss-starter-packs.html">Go to RSS Starter Packs</a>
+  </div>
 </div>
-<hr></main>
+
+<hr>
+
+<style>
+  .media-bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+  }
+  
+  .media-bubble {
+    background-color: #e6e9ef;
+    border: 5px #8839ef dotted;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .media-bubble:hover {
+    transform: scale(1.05);
+  }
+  
+  .media-bubble h2 {
+    margin-top: 0;
+  }
+  
+  .media-bubble a {
+    display: inline-block;
+    background-color: #c9a2e2;
+    color: #8839ef;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #8839ef;
+  }
+  
+  .media-bubble a:hover {
+    background-color: #8839ef;
+    color: #e6e9ef;
+  }
+</style></main>
 
 </div>
 <footer id="footer" style="margin-top: 0px;">
