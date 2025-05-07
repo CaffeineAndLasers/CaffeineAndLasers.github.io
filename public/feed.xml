@@ -10,6 +10,13 @@
 
     
     <item>
+      <title>Where did ad supported media come from?</title>
+      <description>Where did the concept of "Advertisement Supported Content" even come from? It is more recent than you think</description>
+      <link>https://Caffeineandlasers.com/blogs/WhereDidBroadcastAdsComeFrom.html</link>
+      <pubDate>Wed, 07 May 2025 10:00:00 +1000</pubDate>
+    </item>
+    
+    <item>
       <title>Commands In LLMs</title>
       <description>I wanted to share a blogpost by [dbreunig](https://www.dbreunig.com) which mirrors a desire I have in the develkopment of LLM tech. [The Post](https://www.dbreunig.com/2025/05/06/you-got-commands-in-my-prompt.html). In short, we need to introduce more *slash* commands.</description>
       <link>https://Caffeineandlasers.com/notes/Commands In LLMs.html</link>
