@@ -1,4 +1,14 @@
 [
+
+  {
+    "name": "Blindsight",
+    "author": "Peter Watts",
+    "rating": "⭐",
+    "thoughts": "Blindsight falls into the club with the Matrix and the Three Body Problem, of being a piece of Sci-Fi who is primarily a piece of philosophy. It is a ***crunchy*** bit of sci-fi which explores transhumanism more thoroughly than any other piece I can think of. I have more thoughts which I will save for an extended blogpost I think. ",
+    "date": "2025-05",
+    "fiction": true,
+    "coverImg": "/Assets/book-covers/blindsight.jpg"
+  },  
   {
     "name":     "Conflict: the evolution of warfare from 1945 to Gaza",
     "author":   "General David Petraeus and Andrew Roberts",
@@ -82,6 +92,24 @@
     "coverImg": "/Assets/book-covers/warandpeaceandwar.jpg"
   },
   {
+    "name": "The Internet Con: How to seize the means of computation",
+    "author": "Cory Doctorow",
+    "rating": "⭐",
+    "thoughts": "Typically I am a very materialist (philosophically, not literally) person, and as a results this was one of the more impactful political books I have ever read. In many cases power is downstream from technology, and Doctorow expertly identifies the problems, their causes and their solutions. More than any other pice, this is a guidebook for the necessary changes to affect downstream changes.",
+    "date": "2024-07",
+    "fiction": false,
+    "coverImg": "/Assets/book-covers/theinternetcon.jpg"
+  },
+  {
+    "name": "Froth: The Science of Beer",
+    "author": "Mark Dredge",
+    "rating": "🟩",
+    "thoughts": "Of all the books I've read about beer (3) this remains my favourite. Probably because it was written by a physicist.",
+    "date": "2023-10",
+    "fiction": false,
+    "coverImg": "/Assets/book-covers/froth.jpg"
+  },
+  {
     "name": "Dune",
     "author": "Frank Herbert",
     "rating": "🟩",
@@ -89,5 +117,14 @@
     "date": "2023-01",
     "fiction": true,
     "coverImg": "/Assets/book-covers/dune.jpg"
+  },
+  {
+    "name": "For the benefit of mankind",
+    "author": "Liu Cixin",
+    "rating": "⭐",
+    "thoughts": "Cixin Liu did that really cool thing where he managed to thread the needle between a scathing critique of capital, while also criticising a reactionary authoritarian communist attempt at redistribution",
+    "date": "2025-02",
+    "fiction": true,
+    "coverImg": "/Assets/book-covers/benefitofmankind.jpg"
   }
 ]
