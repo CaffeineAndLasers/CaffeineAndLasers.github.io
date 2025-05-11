@@ -104,7 +104,7 @@
         {
             "title": "Starbreaker",
             "description": "Friend of the site, he posts longform rants about tech, politics, and the state of the web.",
-            "xmlURL": "https://starbreaker.org/follow/everything.xml",
+            "xmlURL": "https://starbreaker.org/follow/feed.xml",
             "htmlURL": "https://starbreaker.org"
         },
         {
