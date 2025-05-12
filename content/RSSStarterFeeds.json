@@ -27,12 +27,6 @@
           "description": "One of the most famous webcomics of all time. He also made exploding kittens and unstable unicorns if you are into board games.",
           "xmlURL": "https://theoatmeal.com/feed/rss",
           "htmlURL": "https://theoatmeal.com"
-        },
-        {
-          "title": "Lunarbaboon",
-          "description": "A half man/half moon monkey trying to make sense of it all. Comics about life and parenting. Usually a sweet message.",
-          "xmlURL": "http://www.lunarbaboon.com/comics/rss.xml",
-          "htmlURL": "http://www.lunarbaboon.com"
         }
       ]
     },
