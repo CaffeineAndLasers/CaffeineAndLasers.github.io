@@ -1,7 +1,41 @@
 :root {
+    /* Image assets */
     --header-image: url("Assets/modifiedBanner.svg");
     --body-bg-image: url("Assets/pinkBackground.gif");
-    --content: #c9a2e2;
+    
+    /* Primary Colors */
+    --color-primary-purple: #8839ef;
+    --color-primary-pink: #ea76cb;
+    --color-primary-salmon: #dc8a78;
+    
+    /* Secondary Colors */
+    --color-secondary-pink: #ed64f5;
+    --color-secondary-red: #e64553;
+    --color-secondary-red-light: #e8535f;
+    
+    /* Background Colors */
+    --color-bg-dark: #08031a;
+    --color-bg-light: #eff1f5;
+    --color-bg-medium: #e6e9ef;
+    --color-bg-navbar: #dce0e8;
+    --color-bg-code: #f4f4f4;
+    --color-bg-details: #f9f9f9;
+    --color-bg-topbar: #939ab7;
+    --color-content: #c9a2e2;
+    
+    /* Text Colors */
+    --color-text-body: #4c4f69;
+    --color-text-link-webring: #00f;
+    
+    /* Border Colors */
+    --color-border-light: #ddd;
+    --color-border-dark: #000;
+    
+    /* Common Styles */
+    --border-dotted-primary: 5px var(--color-primary-purple) dotted;
+    --border-dotted-secondary: 5px var(--color-primary-salmon) dotted;
+    --border-radius-standard: 20px;
+    --border-radius-small: 10px;
 }
 
 
@@ -35,9 +69,9 @@
 body {
     font-family: "AtkinsenHyperlegible", sans-serif;
     margin: 0;
-    background-color: #08031a;
+    background-color: var(--color-bg-dark);
     background-size: 65px;
-    color: #4c4f69;
+    color: var(--color-text-body);
     background-image: var(--body-bg-image);
 }
 
@@ -54,23 +88,23 @@ hr {
     display: block;
     height: 3px;
     border: 0;
-    border-top: 2px solid #e64553;
-    border-bottom: 2px solid #e8535f;
+    border-top: 2px solid var(--color-secondary-red);
+    border-bottom: 2px solid var(--color-secondary-red-light);
     margin: 25px 0px;
 }
 
 details {
     margin-bottom: 1em;
-    border: 1px solid #ddd;
+    border: 1px solid var(--color-border-light);
     border-radius: 5px;
     padding: 0.5em;
-    background-color: #f9f9f9;
+    background-color: var(--color-bg-details);
 }
 
 summary {
     cursor: pointer;
     font-weight: bold;
-    color: #8839ef;
+    color: var(--color-primary-purple);
 }
 
 summary:hover {
@@ -83,12 +117,14 @@ summary:hover {
 }
 
 #container a {
-    color: #8839eed64f5    font-weight: bold;
+    /* color: #8839ee; */
+    /* d64f5; */
+    font-weight: bold;
 }
 
 .code-block {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
+    background-color: var(--color-bg-code);
+    border: 1px solid var(--color-border-light);
     border-radius: 4px;
     padding: 1em;
     margin: 1em 0;
@@ -100,20 +136,20 @@ summary:hover {
 
 #header {
     width: 100%;
-    background-color: #dc8a78;
+    background-color: var(--color-primary-salmon);
     height: 150px;
     background-image: var(--header-image);
     background-size: 100%;
-    border-radius: 20px;
+    border-radius: var(--border-radius-standard);
     padding: 10px;
 }
 
 #navbar {
     height: auto; /* Remove fixed height */
     min-height: 40px; /* Set a minimum height */
-    background-color: #dce0e8;
-    border: 5px #8839ef dotted;
-    border-radius: 20px;
+    background-color: var(--color-bg-navbar);
+    border: var(--border-dotted-primary);
+    border-radius: var(--border-radius-standard);
     width: 100%;
     padding-bottom: 5px;
     margin-top: 10px;
@@ -134,17 +170,17 @@ summary:hover {
 }
 
 #navbar li a {
-    color: #8839ef;
-    background-color: #e6e9ef;
-    border: 1px solid #8839ef;
-    border-radius: 10px;
+    color: var(--color-primary-purple);
+    background-color: var(--color-bg-medium);
+    border: 1px solid var(--color-primary-purple);
+    border-radius: var(--border-radius-small);
     padding: 5px;
     font-weight: 800;
     text-decoration: none;
 }
 
 #navbar li a:hover {
-    color: #8839ef;
+    color: var(--color-primary-purple);
     text-decoration: underline;
 }
 
@@ -153,9 +189,9 @@ summary:hover {
 }
 
 aside {
-    background-color: #e6e9ef;
-    border: 5px #8839ef dotted;
-    border-radius: 20px;
+    background-color: var(--color-bg-medium);
+    border: var(--border-dotted-primary);
+    border-radius: var(--border-radius-standard);
     width: 200px;
     padding: 20px;
     font-size: smaller;
@@ -163,9 +199,9 @@ aside {
 }
 
 main {
-    background-color: #eff1f5;
-    border: 5px #8839ef dotted;
-    border-radius: 20px;
+    background-color: var(--color-bg-light);
+    border: var(--border-dotted-primary);
+    border-radius: var(--border-radius-standard);
     flex: 1;
     padding: 20px;
     order: 2;
@@ -187,24 +223,24 @@ img {
 }
 
 footer {
-    background-color: #eff1f5;
+    background-color: var(--color-bg-light);
     width: 100%;
     padding: 10px;
     text-align: center;
-    border: 5px #dc8a78 dotted;
-    border-radius: 20px;
+    border: var(--border-dotted-secondary);
+    border-radius: var(--border-radius-standard);
     padding-bottom: 30px;
     margin: 5px;
 }
 
 h1 {
-    color: #ea76cb;
+    color: var(--color-primary-pink);
 }
 h2 {
-    color: #8839ef;
+    color: var(--color-primary-purple);
 }
 h3 {
-    color: #8839ef;
+    color: var(--color-primary-purple);
 }
 
 h1 {
@@ -212,18 +248,18 @@ h1 {
 }
 
 strong {
-    color: #8839ef;
+    color: var(--color-primary-purple);
 }
 
 .box {
-    background-color: #eff1f5;
-    border: 1px solid #ed64f5;
+    background-color: var(--color-bg-light);
+    border: 1px solid var(--color-secondary-pink);
     padding: 10px;
 }
 
 .blog-posts-container {
-    background-color: #eff1f5;
-    border: 3px dotted #ea76cb;  /* Pink border to match your h1 color */
+    background-color: var(--color-bg-light);
+    border: 3px dotted var(--color-primary-pink);  /* Pink border to match your h1 color */
     border-radius: 15px;         /* Rounded corners */
     padding: 15px;
     max-height: 300px;           /* Fixed height to enable scrolling */
@@ -232,8 +268,8 @@ strong {
 }
 
 .notes-container {
-    background-color: #eff1f5;
-    border: 3px dotted #ea76cb;  /* Pink border to match your h1 color */
+    background-color: var(--color-bg-light);
+    border: 3px dotted var(--color-primary-pink);  /* Pink border to match your h1 color */
     border-radius: 15px;         /* Rounded corners */
     padding: 15px;
     margin: 15px 0;
@@ -254,19 +290,19 @@ strong {
     height: 30px;
     padding: 5px;
     font-size: smaller;
-    background-color: #939ab7;
+    background-color: var(--color-bg-topbar);
 }
 
 .webring {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #000;
+    border: 1px solid var(--color-border-dark);
     padding: 3px;
 }
 
 .webring a {
-    color: #00f;
+    color: var(--color-text-link-webring);
     text-decoration: none;
     font-weight: bold;
 }
@@ -302,8 +338,8 @@ strong {
     align-items: center;
     margin-top: 10px;
     /* Add a border to the QR code */
-    border: 2px solid #8839ef;
-    border-radius: 10px;
+    border: 2px solid var(--color-primary-purple);
+    border-radius: var(--border-radius-small);
     
 
 }

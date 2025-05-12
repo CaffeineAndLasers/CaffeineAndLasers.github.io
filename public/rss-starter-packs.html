@@ -116,9 +116,9 @@
 <style>
   .starter-pack {
     margin-bottom: 20px;
-    border: 3px #8839ef dotted;
+    border: 3px var(--color-primary-purple) dotted;
     border-radius: 15px;
-    background-color: #eff1f5;
+    background-color: var(--color-bg-light);
     transition: transform 0.3s ease;
   }
   
@@ -130,7 +130,7 @@
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    background-color: #f5f5f5;
+    background-color: var(--color-bg-details);
     border-radius: 15px 15px 0 0;
     cursor: pointer;
   }
@@ -140,21 +140,21 @@
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--color-border-light);
   }
   
   .feed-item {
     margin-bottom: 15px;
-    border: 3px #8839ef dotted;
+    border: 3px var(--color-primary-purple) dotted;
     border-radius: 15px;
-    background-color: #eff1f5;
+    background-color: var(--color-bg-light);
   }
   
   .feed-header {
     display: flex;
     align-items: center;
     padding: 8px 15px;
-    background-color: #f9f9f9;
+    background-color: var(--color-bg-details);
     border-radius: 15px 15px 0 0;
     cursor: pointer;
   }
@@ -164,7 +164,7 @@
     background-color: #a0c5ff;
     padding: 4px 15px;
     border-radius: 4px;
-    color: #000;
+    color: var(--color-border-dark);
     text-decoration: none;
     font-weight: bold;
     margin-left: 10px;
@@ -229,7 +229,7 @@
   .pack-content.expanded {
     max-height: 2000px; /* Large enough to contain all content */
     padding: 15px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--color-border-light);
   }
   
   .feed-content {
@@ -295,8 +295,8 @@
   .pack-description {
     padding: 10px 15px 5px 15px;
     margin-bottom: 0;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #eee;
+    background-color: var(--color-bg-details);
+    border-bottom: 1px solid var(--color-border-light);
   }
   
   /* Styling for the download OPML button */
