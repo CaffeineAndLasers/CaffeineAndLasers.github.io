@@ -1,0 +1,20 @@
+---
+permalink: "/OPMLs/AllFeeds.opml"
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Caffeine And Lasers - All RSS Feeds</title>
+    <dateCreated>{{ "now" | date: "%a, %d %b %Y %H:%M:%S %Z" }}</dateCreated>
+    <ownerName>Caffeine And Lasers</ownerName>
+  </head>
+  <body>
+    {% for pack in starterPacks %}
+    <outline text="{{ pack.name }}" title="{{ pack.name }}">
+      {% for feed in pack.feeds %}
+      <outline type="rss" text="{{ feed.title }}" title="{{ feed.title }}" xmlUrl="{{ feed.xmlURL }}" htmlUrl="{{ feed.htmlURL }}" description="{{ feed.description }}"/>
+      {% endfor %}
+    </outline>
+    {% endfor %}
+  </body>
+</opml>

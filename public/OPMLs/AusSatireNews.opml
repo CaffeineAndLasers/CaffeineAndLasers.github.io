@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Aus Satire News RSS Feeds</title>
+    <dateCreated>Mon, 12 May 2025 15:07:44 Australia/Sydney</dateCreated>
+    <ownerName>Caffeine And Lasers</ownerName>
+  </head>
+  <body>
+    <outline text="Aus Satire News" title="Aus Satire News">
+      
+      <outline type="rss" text="The Betoota Advocate" title="The Betoota Advocate" xmlUrl="https://www.betootaadvocate.com/feed/" htmlUrl="https://www.betootaadvocate.com" description="Australia's Oldest And Favourite Newspaper"/>
+      
+      <outline type="rss" text="The Shovel" title="The Shovel" xmlUrl="https://theshovel.com.au/feed/" htmlUrl="https://theshovel.com.au" description="News you can believe in"/>
+      
+      <outline type="rss" text="The Chaser" title="The Chaser" xmlUrl="https://chaser.com.au/feed/" htmlUrl="https://chaser.com.au" description="Striving for mediocrity in a world of excellence"/>
+      
+    </outline>
+  </body>
+</opml>

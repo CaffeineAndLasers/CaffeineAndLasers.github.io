@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>AI News RSS Feeds</title>
+    <dateCreated>Mon, 12 May 2025 15:07:44 Australia/Sydney</dateCreated>
+    <ownerName>Caffeine And Lasers</ownerName>
+  </head>
+  <body>
+    <outline text="AI News" title="AI News">
+      
+      <outline type="rss" text="Simon Wilson's Weblog" title="Simon Wilson's Weblog" xmlUrl="https://simonwillison.net/atom/entries/" htmlUrl="https://simonwillison.net" description="He is a researcher at Mozilla and pretty smart"/>
+      
+      <outline type="rss" text="ByCloudAI" title="ByCloudAI" xmlUrl="https://rss.beehiiv.com/feeds/Vy37NcFo03.xml" htmlUrl="https://bycloudai.com" description="He is a youtuber, who also runs a weekly newsletter, the newsletter recaps 3 new papers on AI research every week."/>
+      
+      <outline type="rss" text="Nofill" title="Nofill" xmlUrl="https://rss.beehiiv.com/feeds/LVYXv4EqVS.xml" htmlUrl="https://nofill.com" description="Another guy's blog on AI shit"/>
+      
+      <outline type="rss" text="Vizuara" title="Vizuara" xmlUrl="https://vizuara.substack.com/feed" htmlUrl="https://vizuara.substack.com" description="He writes about the very specifics and mathematics of LLMs/Diffusion Models"/>
+      
+      <outline type="rss" text="One Useful Thing" title="One Useful Thing" xmlUrl="https://www.oneusefulthing.org/feed" htmlUrl="https://www.oneusefulthing.org" description="Insights and analysis on AI and its applications"/>
+      
+      <outline type="rss" text="DB Reunig" title="DB Reunig" xmlUrl="https://www.dbreunig.com/feed.xml" htmlUrl="https://www.dbreunig.com" description="Blog on AI and related topics"/>
+      
+    </outline>
+  </body>
+</opml>

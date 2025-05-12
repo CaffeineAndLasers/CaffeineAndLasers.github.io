@@ -217,6 +217,39 @@ layout: default.liquid
     background-color: #f9f9f9;
     border-bottom: 1px solid #eee;
   }
+  
+  /* Styling for the download OPML button */
+  .download-opml-button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .download-opml-button:hover {
+    background-color: #45a049;
+  }
+  
+  .all-opml-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .all-opml-button:hover {
+    background-color: #0b7dda;
+  }
 </style>
 
 <div id="starter-packs">
@@ -227,6 +260,7 @@ layout: default.liquid
           <span class="arrow">▼</span>
           <h2>{{ pack.name }}</h2>
         </div>
+        <a href="/OPMLs/{{ pack.name | replace: ' ', '' }}.opml" class="download-opml-button">OPML</a>
       </div>
       <!-- Description moved outside of collapsible content -->
       {% if pack.description %}
@@ -260,6 +294,20 @@ layout: default.liquid
     </div>
   {% endfor %}
 </div>
+
+<div style="text-align: center; margin: 30px 0;">
+  <a href="/OPMLs/AllFeeds.opml" class="all-opml-button">Download All Packs OPML</a>
+</div>
+
+<hr>
+<blockquote>
+  <p>
+    <strong>Note:</strong> The behaviour of the OPML file button may vary depending on your browser settings.
+    Some browsers may open the OPML file directly in the browser, while others may prompt you to download it.
+    If you want to download the OPML file directly, right-click the button and select "Save link as..." or "Download linked file".
+  </p>
+</blockquote>
+<hr>
 
 <h2>Social Feeds: </h2>
 You can also use RSS to follow a lot of social media feeds. 

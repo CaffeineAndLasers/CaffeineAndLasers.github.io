@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Caffeine And Lasers - All RSS Feeds</title>
+    <dateCreated>Mon, 12 May 2025 15:07:44 Australia/Sydney</dateCreated>
+    <ownerName>Caffeine And Lasers</ownerName>
+  </head>
+  <body>
+    
+    <outline text="Web Comics" title="Web Comics">
+      
+      <outline type="rss" text="XKCD" title="XKCD" xmlUrl="https://xkcd.com/rss.xml" htmlUrl="https://xkcd.com" description="Famous webcomic amongst science types. Literally every science degree person I know loves it."/>
+      
+      <outline type="rss" text="Poorly Drawn Lines" title="Poorly Drawn Lines" xmlUrl="https://poorlydrawnlines.com/feed" htmlUrl="https://poorlydrawnlines.com" description="A webcomic with humor and wit."/>
+      
+      <outline type="rss" text="Saturday Morning Breakfast" title="Saturday Morning Breakfast" xmlUrl="https://www.smbc-comics.com/rss.php" htmlUrl="https://www.smbc-comics.com" description="A webcomic with a mix of science, and humor."/>
+      
+      <outline type="rss" text="The Oatmeal" title="The Oatmeal" xmlUrl="https://theoatmeal.com/feed/rss" htmlUrl="https://theoatmeal.com" description="One of the most famous webcomics of all time. He also made exploding kittens and unstable unicorns if you are into board games."/>
+      
+    </outline>
+    
+    <outline text="Tech News" title="Tech News">
+      
+      <outline type="rss" text="Hackaday" title="Hackaday" xmlUrl="https://hackaday.com/blog/feed/" htmlUrl="https://hackaday.com" description="They track the random cool DIY and FOSS projects people make and 3D print"/>
+      
+      <outline type="rss" text="Wired Magazine - Business" title="Wired Magazine - Business" xmlUrl="https://www.wired.com/feed/category/business/latest/rss" htmlUrl="https://www.wired.com" description="Business-related articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds."/>
+      
+      <outline type="rss" text="Wired Magazine - AI" title="Wired Magazine - AI" xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss" htmlUrl="https://www.wired.com" description="AI-related articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds. "/>
+      
+      <outline type="rss" text="Wired Magazine - Backchannel" title="Wired Magazine - Backchannel" xmlUrl="https://www.wired.com/feed/category/backchannel/latest/rss" htmlUrl="https://www.wired.com" description="Longform articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds."/>
+      
+      <outline type="rss" text="404 Media" title="404 Media" xmlUrl="https://www.404media.co/rss" htmlUrl="https://www.404media.co" description="Random software news, lotsa cybersec and hacker kinda stuff"/>
+      
+    </outline>
+    
+    <outline text="Personal Blogs" title="Personal Blogs">
+      
+      <outline type="rss" text="Caffeine And Lasers" title="Caffeine And Lasers" xmlUrl="https://caffeineandlasers.com/feeds/blogs.xml" htmlUrl="https://caffeineandlasers.com" description="My longer posts about technology, science, and culture."/>
+      
+      <outline type="rss" text="Pluralistic" title="Pluralistic" xmlUrl="https://pluralistic.net/feed/" htmlUrl="https://pluralistic.net" description="Cory Doctorow's Blog. He writes an essay just about every day about big tech / politics"/>
+      
+      <outline type="rss" text="Dynomight" title="Dynomight" xmlUrl="https://dynomight.net/feed.xml" htmlUrl="https://dynomight.net" description="A "Rationalist" web blog. Lots of interesting science, posts about society and knowledge. "/>
+      
+      <outline type="rss" text="Jodie Ettenburg" title="Jodie Ettenburg" xmlUrl="https://jodiettenberg.substack.com/feed" htmlUrl="https://jodiettenberg.substack.com" description="Monthly Newsletter with collections of links to cool random spots on the web. E.g. [My Quest to Find the Owner of a Mysterious WWII Japanese Sword.](https://www.outsideonline.com/culture/essays-culture/world-war-ii-japanese-sword/)"/>
+      
+      <outline type="rss" text="Starbreaker" title="Starbreaker" xmlUrl="https://starbreaker.org/follow/feed.xml" htmlUrl="https://starbreaker.org" description="Friend of the site, he posts longform rants about tech, politics, and the state of the web."/>
+      
+      <outline type="rss" text="Ava's Blog" title="Ava's Blog" xmlUrl="https://avas.bearblog.dev/feed/?type=rss" htmlUrl="https://avas.bearblog.dev" description="She mostly blogs about her personal life, but she is a nice writer and has interesting opinions sometimes."/>
+      
+      <outline type="rss" text="CheapSkates Guide" title="CheapSkates Guide" xmlUrl="https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml" htmlUrl="https://cheapskatesguide.org" description="Talks about computers and the internet, and computing as cheaply as possible."/>
+      
+      <outline type="rss" text="ShellSharks" title="ShellSharks" xmlUrl="https://shellsharks.com/feeds/feed.xml" htmlUrl="https://shellsharks.com" description="Bigly into the 'IndieWeb' like me. Posts about CyberSec, technology and blogging. Super Groovy website as well. Look around his site not just the feed IMHO. He has a whole bunch of different feeds, but that one captures everything (I think)"/>
+      
+      <outline type="rss" text="Citation Needed" title="Citation Needed" xmlUrl="https://www.citationneeded.news/rss/" htmlUrl="https://www.citationneeded.news" description="Molly White's Blog. She mostly writes longform about Crypto Grifts, but also occasionally about broader important internet things. She is a relatively important Wikipedia Contributor."/>
+      
+    </outline>
+    
+    <outline text="Australian News" title="Australian News">
+      
+      <outline type="rss" text="The Daily Aus" title="The Daily Aus" xmlUrl="https://rss.beehiiv.com/feeds/dq4WthPFHi.xml" htmlUrl="https://www.thedailyaus.com.au" description="Just a 5 minute read newsletter. Ad supported summary of what the current news is."/>
+      
+      <outline type="rss" text="ABC News" title="ABC News" xmlUrl="http://www.abc.net.au/news/feed/51120/rss.xml" htmlUrl="http://www.abc.net.au/news" description="Australia's National Broadcaster."/>
+      
+      <outline type="rss" text="Michael West Media" title="Michael West Media" xmlUrl="https://michaelwest.com.au/category/latest-posts/feed/" htmlUrl="https://michaelwest.com.au" description="Independent Journos. Great investigational journalism into Australian politics."/>
+      
+      <outline type="rss" text="Independent Australia" title="Independent Australia" xmlUrl="http://feeds.feedburner.com/IndependentAustralia" htmlUrl="https://independentaustralia.net" description="Better political coverage than any mainstream journos. Also interesting niche topics covered by independent journos."/>
+      
+    </outline>
+    
+    <outline text="Aus Satire News" title="Aus Satire News">
+      
+      <outline type="rss" text="The Betoota Advocate" title="The Betoota Advocate" xmlUrl="https://www.betootaadvocate.com/feed/" htmlUrl="https://www.betootaadvocate.com" description="Australia's Oldest And Favourite Newspaper"/>
+      
+      <outline type="rss" text="The Shovel" title="The Shovel" xmlUrl="https://theshovel.com.au/feed/" htmlUrl="https://theshovel.com.au" description="News you can believe in"/>
+      
+      <outline type="rss" text="The Chaser" title="The Chaser" xmlUrl="https://chaser.com.au/feed/" htmlUrl="https://chaser.com.au" description="Striving for mediocrity in a world of excellence"/>
+      
+    </outline>
+    
+    <outline text="AI News" title="AI News">
+      
+      <outline type="rss" text="Simon Wilson's Weblog" title="Simon Wilson's Weblog" xmlUrl="https://simonwillison.net/atom/entries/" htmlUrl="https://simonwillison.net" description="He is a researcher at Mozilla and pretty smart"/>
+      
+      <outline type="rss" text="ByCloudAI" title="ByCloudAI" xmlUrl="https://rss.beehiiv.com/feeds/Vy37NcFo03.xml" htmlUrl="https://bycloudai.com" description="He is a youtuber, who also runs a weekly newsletter, the newsletter recaps 3 new papers on AI research every week."/>
+      
+      <outline type="rss" text="Nofill" title="Nofill" xmlUrl="https://rss.beehiiv.com/feeds/LVYXv4EqVS.xml" htmlUrl="https://nofill.com" description="Another guy's blog on AI shit"/>
+      
+      <outline type="rss" text="Vizuara" title="Vizuara" xmlUrl="https://vizuara.substack.com/feed" htmlUrl="https://vizuara.substack.com" description="He writes about the very specifics and mathematics of LLMs/Diffusion Models"/>
+      
+      <outline type="rss" text="One Useful Thing" title="One Useful Thing" xmlUrl="https://www.oneusefulthing.org/feed" htmlUrl="https://www.oneusefulthing.org" description="Insights and analysis on AI and its applications"/>
+      
+      <outline type="rss" text="DB Reunig" title="DB Reunig" xmlUrl="https://www.dbreunig.com/feed.xml" htmlUrl="https://www.dbreunig.com" description="Blog on AI and related topics"/>
+      
+    </outline>
+    
+  </body>
+</opml>

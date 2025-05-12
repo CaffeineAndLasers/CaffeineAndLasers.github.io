@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Tech News RSS Feeds</title>
+    <dateCreated>Mon, 12 May 2025 15:07:44 Australia/Sydney</dateCreated>
+    <ownerName>Caffeine And Lasers</ownerName>
+  </head>
+  <body>
+    <outline text="Tech News" title="Tech News">
+      
+      <outline type="rss" text="Hackaday" title="Hackaday" xmlUrl="https://hackaday.com/blog/feed/" htmlUrl="https://hackaday.com" description="They track the random cool DIY and FOSS projects people make and 3D print"/>
+      
+      <outline type="rss" text="Wired Magazine - Business" title="Wired Magazine - Business" xmlUrl="https://www.wired.com/feed/category/business/latest/rss" htmlUrl="https://www.wired.com" description="Business-related articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds."/>
+      
+      <outline type="rss" text="Wired Magazine - AI" title="Wired Magazine - AI" xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss" htmlUrl="https://www.wired.com" description="AI-related articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds. "/>
+      
+      <outline type="rss" text="Wired Magazine - Backchannel" title="Wired Magazine - Backchannel" xmlUrl="https://www.wired.com/feed/category/backchannel/latest/rss" htmlUrl="https://www.wired.com" description="Longform articles from Wired Magazine. **Note**: You can subscribe to wired's all articles feed, but it is too full of affiliate marketting slop so I prefer to select a couple individual feeds."/>
+      
+      <outline type="rss" text="404 Media" title="404 Media" xmlUrl="https://www.404media.co/rss" htmlUrl="https://www.404media.co" description="Random software news, lotsa cybersec and hacker kinda stuff"/>
+      
+    </outline>
+  </body>
+</opml>
