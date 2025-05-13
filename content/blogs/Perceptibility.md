@@ -1,10 +1,11 @@
 ---
-title: Perceptibilty
-date: 2025-01-15
-description: "What is the threshold for a being to be worthy of moral consideration? Or: when is a consciousness complex enough to matter?"
+title: Perceptibility
+date: 2024-08-05
+description: "Exploring the intersection of philosophy, psychology, and physics in understanding perception and the self."
 layout: blogpost.liquid
 tags:
   - Physics
+  - Science
 ---
 # Observing the observer: Perception in Philosophy Psychology and Physics
 

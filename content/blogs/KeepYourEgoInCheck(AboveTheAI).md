@@ -6,6 +6,7 @@ description: "The secret to effectively using LLMs is having a bigger ego than t
 nesting: "../"
 tags:
   - Culture
+  - Technology
 ---
 
 # Keep Your Ego In Check (Above The Robots)

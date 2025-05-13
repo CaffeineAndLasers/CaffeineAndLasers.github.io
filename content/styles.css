@@ -76,8 +76,16 @@ body {
 }
 
 main {
-    flex: 3 1 60%;
-    width: 100%; /* Ensure main section takes up available space */
+    background-color: var(--color-bg-light);
+    border: var(--border-dotted-primary);
+    border-radius: var(--border-radius-standard);
+    flex: 1;
+    padding: 20px;
+    order: 2;
+    margin: 10px;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    word-break: break-word; /* Break extremely long words */
+    word-wrap: break-word; /* Legacy support */
 }
 
 * {
@@ -112,8 +120,10 @@ summary:hover {
 }
 
 #container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 #container a {
@@ -132,6 +142,35 @@ summary:hover {
     white-space: pre-wrap;
     word-wrap: break-word;
     font-family: monospace;
+}
+
+/* Code block styling */
+pre {
+    background-color: var(--color-bg-medium);
+    border: 1px solid var(--color-border-light);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em 0;
+    overflow-x: auto; /* Horizontal scrollbar */
+    white-space: pre;
+    max-width: 100%;
+    box-sizing: border-box;
+    width: 100%; /* Ensure it doesn't exceed container width */
+}
+
+code {
+    font-family: monospace;
+    background-color: var(--color-bg-medium);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    display: block;
+    min-width: 0; /* Prevent minimum width expansion */
 }
 
 #header {
@@ -186,6 +225,8 @@ summary:hover {
 
 #flex {
     display: flex;
+    max-width: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 aside {
@@ -195,16 +236,6 @@ aside {
     width: 200px;
     padding: 20px;
     font-size: smaller;
-    margin: 10px;
-}
-
-main {
-    background-color: var(--color-bg-light);
-    border: var(--border-dotted-primary);
-    border-radius: var(--border-radius-standard);
-    flex: 1;
-    padding: 20px;
-    order: 2;
     margin: 10px;
 }
 
