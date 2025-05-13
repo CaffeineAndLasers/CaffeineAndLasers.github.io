@@ -4,6 +4,9 @@ date: 2025-04-27
 updated: 2025-04-27
 description: I rant about deceptive branding, nihilism and beer.
 layout: blogpost.liquid
+tags:
+  - FoodAndDrink
+  - Culture
 ---
 
 

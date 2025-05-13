@@ -4,6 +4,9 @@ date: 2025-03-23
 layout: blogpost.liquid
 description: Finally getting round to explaining what I actually research
 nesting: "../"
+tags:
+  - Academia
+  - Science
 ---
 
 **So, what on Earth do I actually work on?** Lets explain it at 5 different levels. 
@@ -50,4 +53,4 @@ It turns out communicating with space is super important for day to day life. Yo
 
 Space science is also progressing advanced bio-technology, where tissues can be grown in a weightless environment, advanced manufacturing, and the potential for future mining operations. 
 
-Currently much of our space technology is bottlenecked by how fast we can downlink data from the satellite. For example, NASAs Hyperspectral Imaging Suite (HISUI) onboard the ISS [generates 300Gb of data every day, but can only downlink 10Gb of it](https://ieeexplore.ieee.org/document/9463743/). The rest is saved on external hard-drives, and physically carried down with the astronauts on their way home. This is clearly not something which will scale, which is why I am working on ways of speeding it up. 
+Currently much of our space technology is bottlenecked by how fast we can downlink data from the satellite. For example, NASAs Hyperspectral Imaging Suite (HISUI) onboard the ISS [generates 300Gb of data every day, but can only downlink 10Gb of it](https://ieeexplore.ieee.org/document/9463743/). The rest is saved on external hard-drives, and physically carried down with the astronauts on their way home. This is clearly not something which will scale, which is why I am working on ways of speeding it up.

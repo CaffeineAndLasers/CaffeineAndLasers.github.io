@@ -4,6 +4,8 @@ date: 2024-09-30
 layout: blogpost.liquid
 description: They arn't talking to us right now. 
 nesting: "../"
+tags:
+  - Science
 ---
 
 ## \...They just aren\'t talking to us

@@ -4,6 +4,8 @@ date: 2025-01-15
 layout: blogpost.liquid
 description: "The secret to effectively using LLMs is having a bigger ego than the AI. This blog post explores how to harness the power of AI while maintaining human strengths."
 nesting: "../"
+tags:
+  - Culture
 ---
 
 # Keep Your Ego In Check (Above The Robots)

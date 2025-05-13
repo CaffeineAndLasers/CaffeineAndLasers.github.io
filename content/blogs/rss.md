@@ -1,8 +1,10 @@
 ---
-title: RSS
-date: 2024-08-09
-description: A short explainer on how to set-up your very own RSS feed
+title: Pushing for RSS
+date: 2025-02-20
+description: "Why I built this website with RSS integration and why you should too"
 layout: blogpost.liquid
+tags:
+  - Webmastery
 ---
 # 1 What Is RSS and why might your readers want it?
 

@@ -5,6 +5,10 @@ updated: 2025-04-12
 layout: blogpost.liquid
 description: It is well known that Physicists have a special relationship with beer. There is just something magical about the amber fluid. Here I want to discuss the ways in which beer and the desire to improve the brewing process furthered humanities analytic chemistry techniques by clever applications of optical physics! We will be discussing the analytic colourimeter, and the refractometer. 
 nesting: "../"
+tags:
+  - Physics
+  - FoodAndDrink
+  - Science
 ---
 
 ---
@@ -54,4 +58,4 @@ Today, refractometers are used in analysis in a variety of areas. Coffee nerds l
 
 # 3 Further Reading
 
-Mark Denny's [Froth! The science of beer](https://archive.org/details/frothscienceofbe0000denn) is a great example of physicists (over) analysing the ambrosia. 
+Mark Denny's [Froth! The science of beer](https://archive.org/details/frothscienceofbe0000denn) is a great example of physicists (over) analysing the ambrosia.

@@ -143,6 +143,13 @@
     </item>
     
     <item>
+      <title>Pushing for RSS</title>
+      <description>Why I built this website with RSS integration and why you should too</description>
+      <link>https://Caffeineandlasers.com/blogs/rss.html</link>
+      <pubDate>Thu, 20 Feb 2025 11:00:00 +1100</pubDate>
+    </item>
+    
+    <item>
       <title>Plant Monitor Prototype Update</title>
       <description>Update on the development of a wireless plant monitor prototype, including its features, functionality, and goals.</description>
       <link>https://Caffeineandlasers.com/blogs/20250124PlantMonitorPrototypeUpdate.html</link>
@@ -153,6 +160,13 @@
       <title>Keep Your Ego In Check (Above The Robots)</title>
       <description>The secret to effectively using LLMs is having a bigger ego than the AI. This blog post explores how to harness the power of AI while maintaining human strengths.</description>
       <link>https://Caffeineandlasers.com/blogs/KeepYourEgoInCheck(AboveTheAI).html</link>
+      <pubDate>Wed, 15 Jan 2025 11:00:00 +1100</pubDate>
+    </item>
+    
+    <item>
+      <title>Perceptibilty</title>
+      <description>What is the threshold for a being to be worthy of moral consideration? Or: when is a consciousness complex enough to matter?</description>
+      <link>https://Caffeineandlasers.com/blogs/Perceptibility.html</link>
       <pubDate>Wed, 15 Jan 2025 11:00:00 +1100</pubDate>
     </item>
     
@@ -196,20 +210,6 @@
       <description>A minimalist audio player that does its job without any frills.</description>
       <link>https://Caffeineandlasers.com/blogs/lofiRadio.html</link>
       <pubDate>Sun, 11 Aug 2024 10:00:00 +1000</pubDate>
-    </item>
-    
-    <item>
-      <title>RSS</title>
-      <description>A short explainer on how to set-up your very own RSS feed</description>
-      <link>https://Caffeineandlasers.com/blogs/rss.html</link>
-      <pubDate>Fri, 09 Aug 2024 10:00:00 +1000</pubDate>
-    </item>
-    
-    <item>
-      <title>Perceptibility</title>
-      <description>Exploring the intersection of philosophy, psychology, and physics in understanding perception and the self.</description>
-      <link>https://Caffeineandlasers.com/blogs/Perceptibility.html</link>
-      <pubDate>Mon, 05 Aug 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>

@@ -3,6 +3,9 @@ title: Embedding your latest Mastodon Post into your webpage
 date: 2025-03-21
 description: Quick tutorial on how to dynamically embed your latest mastodon post into your static webpage
 layout: blogpost.liquid
+tags:
+  - Technology
+  - Webmastery
 ---
 
 
@@ -50,4 +53,4 @@ Now to use the widget, use this snippet, substituting your fediverse instance an
 </script>
 ```
 
-If you would like to see what that looks like, go to my home page and hit `Ctrl+U` to see the source code (on firefox, idk what the key combo for chrome is). 
+If you would like to see what that looks like, go to my home page and hit `Ctrl+U` to see the source code (on firefox, idk what the key combo for chrome is).

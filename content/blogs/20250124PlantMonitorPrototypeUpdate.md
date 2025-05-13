@@ -3,6 +3,9 @@ title: Plant Monitor Prototype Update
 date: 2025-01-24
 description: Update on the development of a wireless plant monitor prototype, including its features, functionality, and goals.
 layout: blogpost.liquid
+tags:
+  - Technology
+  - Projects
 ---
 
 
