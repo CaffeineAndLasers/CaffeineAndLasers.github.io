@@ -4,12 +4,11 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   mode: "production",
   entry: {
-    main: "./js/main.js",
-    layoutGenerator: "./js/layout-generator/main.js",
+    main: "./content/scripts.js"
   },
   output: {
-    path: path.resolve(__dirname, "public/assets"),
-    filename: "js/[name].js",
+    path: path.resolve(__dirname, "public"),
+    filename: "[name].js",
     assetModuleFilename: "[path][name][ext]",
   },
   module: {
