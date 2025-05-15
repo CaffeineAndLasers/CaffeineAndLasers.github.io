@@ -69,6 +69,7 @@ Internationally, my favourite brewery is the [The Klosterbrauerei Andechs](https
 
 In terms of coffee, I legitimately believe that Australia has the best coffee in the world, so I don’t have any memorable experiances internationally despite looking. Even when I travelled, people used to tell me when a cafe was owned by an Australian as a mark of quality.
 
+
 ## 4 What Parts of Science am I most excited about?
 
 Well obviously optics and photonics, thats why I am doing my PhD in that. Outside of that, here are the bits I am keeping my eye on:
@@ -102,3 +103,6 @@ My current obsession in biology at the moment is almost entirely due to watching
 
 I've also been keeping an eye on ML more broadly for their information processing abilities in general. My PhD relies on some simple ML applications, and it feels like more than half the PhD student's I know in physics have ML somewhere in their work. It's quite remarkable how easily it has become just another tool in the toolbox for us.
 
+## 5 Dogs Or Cats?
+
+Dogs
