@@ -182,6 +182,31 @@
       ]
     },
     {
+      "name": "Food And Drinks",
+      "description": "Mostly drinks tbh.",
+      "feeds": [
+        {
+          "title": "Robert McKeon",
+          "description": "Robert is a data scientist (at Apple last I checked?) who does science on coffee. These days mostly on roasting, but his backlog is filled with actionable info on grind, dose and etraction.",
+          "xmlURL": "https://rmckeon.medium.com/feed",
+          "htmlURL": "https://rmckeon.medium.com"
+        },
+        {
+          "title": "Saint John's Wort",
+          "description": "A beer blogger, who writes about the cultural aspects of beer.",
+          "xmlURL": "https://saintjohnswort.ca/feed/",
+          "htmlURL": "https://saintjohnswort.ca/"
+        },
+        {
+          "title": "Ben Viver",
+          "description": "Finally, a food blogger on this list. Writes about food culture, rather than recipies or restaurant reviews.",
+          "xmlURL": "https://benviveur.blogspot.com/feeds/posts/default?alt=rss",
+          "htmlURL": "https://benviveur.blogspot.com/"
+        }
+
+      ]
+    }
+    {
       "name": "AI News",
       "description": "I really like keeping up with the specifics in current ML research. These are my favourite feeds.",
       "feeds": [
