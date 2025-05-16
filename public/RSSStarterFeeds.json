@@ -203,9 +203,8 @@
           "xmlURL": "https://benviveur.blogspot.com/feeds/posts/default?alt=rss",
           "htmlURL": "https://benviveur.blogspot.com/"
         }
-
       ]
-    }
+    },
     {
       "name": "AI News",
       "description": "I really like keeping up with the specifics in current ML research. These are my favourite feeds.",
