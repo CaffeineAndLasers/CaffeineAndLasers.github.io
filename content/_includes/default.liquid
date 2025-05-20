@@ -2,15 +2,20 @@
 title: Default Title
 css: /styles.css
 nesting: ../
+eleventyExcludeFromCollections: false
+permalink: "{{ page.filePathStem }}.html"
 ---
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>{{ title }}</title></head>
+    <title>{{ title }}</title>
     <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="{{css}}">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+    <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
+    <!-- Canonical URL for SEO and sitemap -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head>
 
 {% include "header.liquid" %}

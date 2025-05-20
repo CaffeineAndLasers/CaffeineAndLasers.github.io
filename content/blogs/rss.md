@@ -3,6 +3,8 @@ title: RSS
 date: 2024-08-09
 description: A short explainer on how to set-up your very own RSS feed
 layout: blogpost.liquid
+tags:
+  - Webmastery
 ---
 # 1 What Is RSS and why might your readers want it?
 

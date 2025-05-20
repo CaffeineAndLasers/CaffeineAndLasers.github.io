@@ -3,7 +3,8 @@ title: The Case For Power CoOps
 date: 2024-09-30
 description: "Exploring the potential of supplier cooperatives in the power generation industry, particularly with the rise of solar panels and battery storage."
 layout: blogpost.liquid
-nesting: "../"
+tags:
+  - Culture
 ---
 
 # The Case For Power Generation Supplier-Cooperatives
@@ -72,4 +73,4 @@ Some of the benefits I see are:
 - Community/Political: This gives back power to the people 💪💡⚡💪💡⚡We are so used to outsourcing our fundamental needs to people in suits far away. A supplier co-op  lets regular people engage with society, power and economics in a hands on way, 
 
 # 5 Conclusions
-I think the idea is neat. If you like the idea or want to use it you can buy me a beer. This concludes the licensing agreement. 
+I think the idea is neat. If you like the idea or want to use it you can buy me a beer. This concludes the licensing agreement.

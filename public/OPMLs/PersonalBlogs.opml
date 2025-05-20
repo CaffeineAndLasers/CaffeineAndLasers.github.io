@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Personal Blogs RSS Feeds</title>
+    <dateCreated>Fri, 16 May 2025 11:24:38 Australia/Sydney</dateCreated>
+    <ownerName>Caffeine And Lasers</ownerName>
+  </head>
+  <body>
+    <outline text="Personal Blogs" title="Personal Blogs">
+      
+      <outline type="rss" text="Caffeine And Lasers" title="Caffeine And Lasers" xmlUrl="https://caffeineandlasers.com/feeds/blogs.xml" htmlUrl="https://caffeineandlasers.com" description="My longer posts about technology, science, and culture."/>
+      
+      <outline type="rss" text="Pluralistic" title="Pluralistic" xmlUrl="https://pluralistic.net/feed/" htmlUrl="https://pluralistic.net" description="Cory Doctorow's Blog. He writes an essay just about every day about big tech / politics"/>
+      
+      <outline type="rss" text="Dynomight" title="Dynomight" xmlUrl="https://dynomight.net/feed.xml" htmlUrl="https://dynomight.net" description="A "Rationalist" web blog. Lots of interesting science, posts about society and knowledge. "/>
+      
+      <outline type="rss" text="Jodie Ettenburg" title="Jodie Ettenburg" xmlUrl="https://jodiettenberg.substack.com/feed" htmlUrl="https://jodiettenberg.substack.com" description="Monthly Newsletter with collections of links to cool random spots on the web. E.g. [My Quest to Find the Owner of a Mysterious WWII Japanese Sword.](https://www.outsideonline.com/culture/essays-culture/world-war-ii-japanese-sword/)"/>
+      
+      <outline type="rss" text="Starbreaker" title="Starbreaker" xmlUrl="https://starbreaker.org/follow/feed.xml" htmlUrl="https://starbreaker.org" description="Friend of the site, he posts longform rants about tech, politics, and the state of the web."/>
+      
+      <outline type="rss" text="Ava's Blog" title="Ava's Blog" xmlUrl="https://avas.bearblog.dev/feed/?type=rss" htmlUrl="https://avas.bearblog.dev" description="She mostly blogs about her personal life, but she is a nice writer and has interesting opinions sometimes."/>
+      
+      <outline type="rss" text="CheapSkates Guide" title="CheapSkates Guide" xmlUrl="https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml" htmlUrl="https://cheapskatesguide.org" description="Talks about computers and the internet, and computing as cheaply as possible."/>
+      
+      <outline type="rss" text="ShellSharks" title="ShellSharks" xmlUrl="https://shellsharks.com/feeds/feed.xml" htmlUrl="https://shellsharks.com" description="Bigly into the 'IndieWeb' like me. Posts about CyberSec, technology and blogging. Super Groovy website as well. Look around his site not just the feed IMHO. He has a whole bunch of different feeds, but that one captures everything (I think)"/>
+      
+      <outline type="rss" text="Citation Needed" title="Citation Needed" xmlUrl="https://www.citationneeded.news/rss/" htmlUrl="https://www.citationneeded.news" description="Molly White's Blog. She mostly writes longform about Crypto Grifts, but also occasionally about broader important internet things. She is a relatively important Wikipedia Contributor."/>
+      
+    </outline>
+  </body>
+</opml>

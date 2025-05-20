@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Australian News RSS Feeds</title>
+    <dateCreated>Fri, 16 May 2025 11:24:38 Australia/Sydney</dateCreated>
+    <ownerName>Caffeine And Lasers</ownerName>
+  </head>
+  <body>
+    <outline text="Australian News" title="Australian News">
+      
+      <outline type="rss" text="The Daily Aus" title="The Daily Aus" xmlUrl="https://rss.beehiiv.com/feeds/dq4WthPFHi.xml" htmlUrl="https://www.thedailyaus.com.au" description="Just a 5 minute read newsletter. Ad supported summary of what the current news is."/>
+      
+      <outline type="rss" text="ABC News" title="ABC News" xmlUrl="http://www.abc.net.au/news/feed/51120/rss.xml" htmlUrl="http://www.abc.net.au/news" description="Australia's National Broadcaster."/>
+      
+      <outline type="rss" text="Michael West Media" title="Michael West Media" xmlUrl="https://michaelwest.com.au/category/latest-posts/feed/" htmlUrl="https://michaelwest.com.au" description="Independent Journos. Great investigational journalism into Australian politics."/>
+      
+      <outline type="rss" text="Independent Australia" title="Independent Australia" xmlUrl="http://feeds.feedburner.com/IndependentAustralia" htmlUrl="https://independentaustralia.net" description="Better political coverage than any mainstream journos. Also interesting niche topics covered by independent journos."/>
+      
+    </outline>
+  </body>
+</opml>

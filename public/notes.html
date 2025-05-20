@@ -2,10 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>Notes</title></head>
+    <title>Notes</title>
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+    <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
+    <!-- Canonical URL for SEO and sitemap -->
+    <link rel="canonical" href="https://caffeineandlasers.com/notes.html">
 </head>
 
 <div id="container"><div id="header"></div>
@@ -102,6 +105,49 @@ interesting, random thoughts and pictures I might want to share.</p>
 
 
 <hr>
+  
+    <div class="notes-container">
+        <h3>
+        2025-May-15:
+         <a href="/notes/Crystal Lattice Structure of Popcorn.html">Crystal Lattice Structure of Popcorn (Permalink)</a>  </h3>
+        <!-- Now embed everything from the file -->
+        <p>Has anyone ever studied the crystal lattice structure of a box of popcorn? Relevant research questions include:</p>
+<ul>
+<li>Do the crystal defects introduced by Peanut M&amp;Ms increase or reduce crystal strength?</li>
+<li>How do Peanut M&amp;M defects compare with other confectionry based defects (e.g. regular M&amp;Ms, Reeces Pieces)</li>
+<li>Is the traditional square pyramid profile of a popcorn box optimal? or can integrity by improved by alternate geometries?</li>
+</ul>
+<p>There may be an igNobel prize in this research. If you have thoughts please email me. I am only kind of joking about this.</p>
+
+    </li>
+    </div>
+    <hr>
+  
+    <div class="notes-container">
+        <h3>
+        2025-May-13:
+         <a href="/notes/Really Cool Pacemaker Technology.html">Really Cool Pacemaker Technology (Permalink)</a>  </h3>
+        <!-- Now embed everything from the file -->
+        <p>I found this topic from <a href="https://jodiettenberg.substack.com/">Jodie Ettenburg's Curious About Everything Newsletter</a>, and considering the cool physics involved I had to re-share it here. Researchers at Northwestern University have just broke the record for the <a href="https://news.northwestern.edu/stories/2025/03/worlds-smallest-pacemaker-is-activated-by-light/">smallest pacemaker</a>.</p>
+<p><img src="/Assets/Pacemakers.png" alt=""></p>
+<blockquote>
+<p>From left, a traditional pacemake, a leadless pacemaker and the new pacemaker.</p>
+</blockquote>
+<p>Here are my two favourite bits about it:</p>
+<h2>It uses your BODY as the battery!</h2>
+<p>Okay, so you know how in high-school you did the experiment wher you shoved a bit of copper and zinc into a lemon, and use that as a battery to power a lightbulb or something? Yeah, in this device, YOU are the lemon.</p>
+<p>So typically, the way you power small temporary pacemaker is by using an inductive coil, and keeping the power supply outside your body. This is the same way your phones wireless charger works. The problem is that inductive charging coils are bulky.</p>
+<p>The solution was to embed two different metal electrodes on the device, and use your body's fluid as the electrolyte. This battery is what powers the device.</p>
+<h2>It uses light to control it!</h2>
+<p>If that wasn't cool enough, they had to add cool optics into it as well. There is no compter or anything inside the device, instead it is controlled externally. The device is controlled through a photodiode, and an external heart monitor and infrared LED. When the heartmonitor detects irreglarities in the heartbeat, the LEDs light up, and transmit through the flesh to the device's photodiode control.</p>
+<h2>It saves babies!</h2>
+<p>The reason the device is designed to be so small, is that it is designed with newborn babies in mind, to help them if they are born with congenital heart defect.</p>
+<h2>And it dissolves!</h2>
+<p>Since the application is typically only temporary, the device simply dissolves into the body when it is no longer required. That way, you don't need surgery to extract it at the end.</p>
+
+    </li>
+    </div>
+    <hr>
   
     <div class="notes-container">
         <h3>
@@ -257,15 +303,19 @@ so the only way for me to find out if you like my content is to say hello :)</p>
 </main>
 
 </div>
-<footer id="footer" style="margin-top: 0px;">
-    <a href="/FeedList.html" >
-        <img
-        src="/Assets/RSS_Logo.png"
-        alt="RSS Feed"
-        style="width: 20px; height: 20px"
-        /> 
-    </a>
-
+<footer id="footer">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/FeedList.html">
+            <img 
+            src="/Assets/RSS_Logo.png" 
+            alt="RSS Feed" 
+            style="width: 20px; height: 20px" 
+            />
+        </a>
+        <span style="font-size: 0.8em;">
+            <a href="/sitemap.xml">Sitemap</a>
+        </span>
+    </div>
 </footer>
 
 </html>

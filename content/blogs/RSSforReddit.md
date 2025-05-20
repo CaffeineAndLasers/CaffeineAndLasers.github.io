@@ -4,6 +4,8 @@ date: 2024-01-15
 updated: 2025-04-02
 description: Learn how to use RSS to improve your Reddit experience by subscribing to subreddits anonymously and avoiding the Infinite Sludge Algorithm.
 layout: blogpost.liquid
+tags:
+  - Webmastery
 ---
 
 **UPDATE** I built a widget to generate the feed url for you. See it [here](/reddit-rss.html)

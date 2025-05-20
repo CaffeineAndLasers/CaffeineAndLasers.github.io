@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Food And Drinks RSS Feeds</title>
+    <dateCreated>Fri, 16 May 2025 11:24:38 Australia/Sydney</dateCreated>
+    <ownerName>Caffeine And Lasers</ownerName>
+  </head>
+  <body>
+    <outline text="Food And Drinks" title="Food And Drinks">
+      
+      <outline type="rss" text="Robert McKeon" title="Robert McKeon" xmlUrl="https://rmckeon.medium.com/feed" htmlUrl="https://rmckeon.medium.com" description="Robert is a data scientist (at Apple last I checked?) who does science on coffee. These days mostly on roasting, but his backlog is filled with actionable info on grind, dose and etraction."/>
+      
+      <outline type="rss" text="Saint John's Wort" title="Saint John's Wort" xmlUrl="https://saintjohnswort.ca/feed/" htmlUrl="https://saintjohnswort.ca/" description="A beer blogger, who writes about the cultural aspects of beer."/>
+      
+      <outline type="rss" text="Ben Viver" title="Ben Viver" xmlUrl="https://benviveur.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="https://benviveur.blogspot.com/" description="Finally, a food blogger on this list. Writes about food culture, rather than recipies or restaurant reviews."/>
+      
+    </outline>
+  </body>
+</opml>

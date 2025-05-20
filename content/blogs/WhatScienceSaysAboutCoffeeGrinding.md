@@ -3,6 +3,10 @@ title: What Science Says About Coffee Grinding
 date: 2024-08-30
 description: "Delving into the scientific aspects of coffee grinding, exploring the effects of electrostatic charges and strategies to mitigate them for a better cup of coffee."
 layout: blogpost.liquid
+tags:
+  - Technology
+  - FoodAndDrink
+  - Science
 ---
 # Four Coffee Observations in Two Studies
 

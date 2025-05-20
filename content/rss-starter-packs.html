@@ -8,7 +8,7 @@ layout: default.liquid
 
 
 <strong> Publised: </strong> 2025-05-07 
-<strong> Updated: </strong> 2025-05-07 
+<strong> Updated: </strong> 2025-05-16 
 
 <hr>
 
@@ -35,9 +35,9 @@ layout: default.liquid
 <style>
   .starter-pack {
     margin-bottom: 20px;
-    border: 3px #8839ef dotted;
+    border: 3px var(--color-primary-purple) dotted;
     border-radius: 15px;
-    background-color: #eff1f5;
+    background-color: var(--color-bg-light);
     transition: transform 0.3s ease;
   }
   
@@ -49,7 +49,7 @@ layout: default.liquid
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    background-color: #f5f5f5;
+    background-color: var(--color-bg-details);
     border-radius: 15px 15px 0 0;
     cursor: pointer;
   }
@@ -59,21 +59,21 @@ layout: default.liquid
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--color-border-light);
   }
   
   .feed-item {
     margin-bottom: 15px;
-    border: 3px #8839ef dotted;
+    border: 3px var(--color-primary-purple) dotted;
     border-radius: 15px;
-    background-color: #eff1f5;
+    background-color: var(--color-bg-light);
   }
   
   .feed-header {
     display: flex;
     align-items: center;
     padding: 8px 15px;
-    background-color: #f9f9f9;
+    background-color: var(--color-bg-details);
     border-radius: 15px 15px 0 0;
     cursor: pointer;
   }
@@ -83,7 +83,7 @@ layout: default.liquid
     background-color: #a0c5ff;
     padding: 4px 15px;
     border-radius: 4px;
-    color: #000;
+    color: var(--color-border-dark);
     text-decoration: none;
     font-weight: bold;
     margin-left: 10px;
@@ -148,7 +148,7 @@ layout: default.liquid
   .pack-content.expanded {
     max-height: 2000px; /* Large enough to contain all content */
     padding: 15px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--color-border-light);
   }
   
   .feed-content {
@@ -214,8 +214,43 @@ layout: default.liquid
   .pack-description {
     padding: 10px 15px 5px 15px;
     margin-bottom: 0;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #eee;
+    background-color: var(--color-bg-details);
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  
+  /* Styling for the download OPML button */
+  .download-opml-button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    min-width: 80px;
+    text-align: center;
+  }
+  
+  .download-opml-button:hover {
+    background-color: #45a049;
+  }
+  
+  .all-opml-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .all-opml-button:hover {
+    background-color: #0b7dda;
   }
 </style>
 
@@ -227,6 +262,7 @@ layout: default.liquid
           <span class="arrow">▼</span>
           <h2>{{ pack.name }}</h2>
         </div>
+        <a href="/OPMLs/{{ pack.name | replace: ' ', '' }}.opml" class="download-opml-button">OPML</a>
       </div>
       <!-- Description moved outside of collapsible content -->
       {% if pack.description %}
@@ -261,11 +297,89 @@ layout: default.liquid
   {% endfor %}
 </div>
 
+<div style="text-align: center; margin: 30px 0;">
+  <a href="/OPMLs/AllFeeds.opml" class="all-opml-button">Download All Packs OPML</a>
+</div>
+
+<hr>
+<blockquote>
+  <p>
+    <strong>Note:</strong> The behaviour of the OPML file button may vary depending on your browser settings.
+    Some browsers may open the OPML file directly in the browser, while others may prompt you to download it.
+    If you want to download the OPML file directly, right-click the button and select "Save link as..." or "Download linked file".
+  </p>
+</blockquote>
+<hr>
+
+<h2>YouTube</h2>
+<p>
+  I won't pressume to tell you what to watch on youtube. You can subscribe to your preffered channels 
+  with RSS however. The catch is that Google does its best to keep the RSS feeds hidden.
+</p>
+<p>
+  Most can be found by putting the channels URL into your RSS reader. E.g. I added a_lillian's channel
+  by putting <a href="https://www.youtube.com/@a_lilian">https://www.youtube.com/@a_lilian</a> into my 
+  RSS reader (Newsflash). The URL it found was <a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCmMubqzMeJDrW7u6d4SJh-Q">
+  https://www.youtube.com/feeds/videos.xml?channel_id=UC2v0x4g1j7X3c5r8b6e9Q</a>
+</p>
+
+<p>
+  With obscuration like this, I make no guarantees of how reliable this method is. If you can
+  figure out the channel ID, you can use that to identify the RSS feed directly.
+</p>
+
+
 <h2>Social Feeds: </h2>
 You can also use RSS to follow a lot of social media feeds. 
 <li><a href="/reddit-rss.html">My Reddit RSS Feed Generator</a></li>
-<li>All Mastodon Profiles</li>
-<li>And BlueSky</li>
+<li><strong>Lemmy:</strong> Each lemmy community (sub-rodent?) has an RSS feed accessible from its page.</li>
+<li><strong>All Mastodon Profiles:</strong> Simply append <code>.html</code> to the end of the adrress.
+E.g. mine is: <a href="https://aus.social/@AuntyRed.rss">https://aus.social/@AuntyRed.rss</a> </li>
+<li><strong>And BlueSky:</strong> The RSS feeds are a little bit obscured, (again, idk why people 
+do this). But is linked in the webpage metadata, so you can find it with your RSS reader by giving it
+the URL of the page you wish to follow.</li>
+
+<h2>Other Feeds:</h2>
+<h3>OpenRSS</h3>
+<p>
+<a href="https://openrss.org/feeds/">OpenRSS</a> runs a service bolting on RSS feeds to a number
+of other services which either do not have native feeds, or provide improved feeds with more user 
+control. 
+</p>
+<p>
+  They seem cool, but they're also a donation run third party service. So that consider if the 
+  extra features are worth it to you, and maybe throw them a few bucks to pay your way if you do 
+  use it. 
+</p>
+
+<p>Some of the platforms supported by OpenRSS include:</p>
+<ul>
+  <li>Apple</li>
+  <li>Bandcamp</li>
+  <li>Bing</li>
+  <li>Bluesky</li>
+  <li>Craigslist</li>
+  <li>Discuit</li>
+  <li>eBay</li>
+  <li>GitHub</li>
+  <li>JustWatch</li>
+  <li>Internet Archive</li>
+  <li>Kickstarter</li>
+  <li>Lemmy</li>
+  <li>Locals</li>
+  <li>Medium</li>
+  <li>Mastodon</li>
+  <li>Meetup</li>
+  <li>PocketCasts</li>
+  <li>Reddit</li>
+  <li>Rumble</li>
+  <li>Spotify</li>
+  <li>Substack</li>
+  <li>TikTok</li>
+  <li>Tumblr</li>
+  <li>Twitch</li>
+  <li>YouTube</li>
+</ul>
 
 <script>
   // Setup toggle functionality for pack headers

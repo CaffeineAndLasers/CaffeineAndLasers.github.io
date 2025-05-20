@@ -1,8 +1,11 @@
 ---
 title: Automating Your RSS Feed with 11ty
 date: 2025-03-17
-description: Here is a quick write-up on how to automate a little more of your personal website. 
+description: Here is a quick write-up on how to automate a little more of your personal website.
 layout: blogpost.liquid
+tags:
+  - Technology
+  - Webmastery
 ---
 
 

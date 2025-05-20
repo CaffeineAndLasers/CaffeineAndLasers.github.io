@@ -2,10 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>Library</title></head>
+    <title>Library</title>
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+    <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
+    <!-- Canonical URL for SEO and sitemap -->
+    <link rel="canonical" href="https://caffeineandlasers.com/Library.html">
 </head>
 
 <div id="container"><div id="header"></div>
@@ -384,8 +387,8 @@
   }
   
   .book-card {
-    background-color: #eff1f5;
-    border: 3px #8839ef dotted;
+    background-color: var(--color-bg-light);
+    border: 3px var(--color-primary-purple) dotted;
     border-radius: 15px;
     padding: 20px;
     transition: transform 0.3s ease;
@@ -416,7 +419,7 @@
   }
   
   .book-details h2 {
-    color: #ea76cb;
+    color: var(--color-primary-pink);
     margin-top: 0;
   }
   
@@ -436,15 +439,19 @@
 </style></main>
 
 </div>
-<footer id="footer" style="margin-top: 0px;">
-    <a href="/FeedList.html" >
-        <img
-        src="/Assets/RSS_Logo.png"
-        alt="RSS Feed"
-        style="width: 20px; height: 20px"
-        /> 
-    </a>
-
+<footer id="footer">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/FeedList.html">
+            <img 
+            src="/Assets/RSS_Logo.png" 
+            alt="RSS Feed" 
+            style="width: 20px; height: 20px" 
+            />
+        </a>
+        <span style="font-size: 0.8em;">
+            <a href="/sitemap.xml">Sitemap</a>
+        </span>
+    </div>
 </footer>
 
 </html>

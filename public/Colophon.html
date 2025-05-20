@@ -2,10 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>Colophon</title></head>
+    <title>Colophon</title>
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+    <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
+    <!-- Canonical URL for SEO and sitemap -->
+    <link rel="canonical" href="https://caffeineandlasers.com/Colophon.html">
 </head>
 
 <div id="container"><div id="header"></div>
@@ -99,20 +102,141 @@
 <h1>My 11ty Config</h1>
 <p>My 11ty config was mostly inspired by <a href="https://medium.com/@tarngerine/how-the-heck-do-i-use-eleventy-the-intro-guide-i-wish-i-had-84d9b2689031">this blogpost</a>. All my templates are written in liquid, and <em>almost</em> all my pages are written in Markdown, (since that is what Obsidian supports).</p>
 <p>The general idea is to push all the &quot;web dev&quot; and html into my templating, so my writting can be read in plain txt. If I absolutely need to do some advanced formatting, you can still slip a bit of inline css into markdown anyway.</p>
+<h1>Automations / Templates I'm Proud Of</h1>
+<h2>Adding Books To My Library Page</h2>
+<p>The <a href="/Library.html"><code>/Library</code></a> page is generated automatically for me from a <code>json</code> file I update whenever I feel like adding a book. (I don't add every book I finish, only the ones I feel like talking about). This idea came from <a href="https://anhvn.com/posts/2024/my-eleventy-site-setup/#media-diary">Anhvn's Blogpost / Meta Page</a>. Essentially we use what eleventy calls <a href="https://www.11ty.dev/docs/data-global/">data files</a> to act as variables in the template.</p>
+<p>For example, here is the entry for Three Body Problem:</p>
+<hr>
+<pre><code class="language-json">  {
+    &quot;name&quot;: &quot;The Three-Body Problem&quot;,
+    &quot;author&quot;: &quot;Liu Cixin&quot;,
+    &quot;rating&quot;: &quot;⭐&quot;,
+    &quot;thoughts&quot;: &quot;I never thought I would take \&quot;Astro-socialogy\&quot; as a serious concept before reading this. Read the whole series, seriously.&quot;,
+    &quot;date&quot;: &quot;2023-08&quot;,
+    &quot;fiction&quot;: true,
+    &quot;coverImg&quot;: &quot;/Assets/book-covers/three-body-problem.jpg&quot;
+  },  
+</code></pre>
+<hr>
+<p>There is also a tiny bit of logic in the template to turn the numeric date into a written date because I think it looks nicer.</p>
+<h2>Automatically generating the OPML files for my RSS Starterpacks</h2>
+<p>Much like the <a href="/Library.html"><code>/Library</code></a> my <a href="/rss-starter-packs.html">RSS Starterpacks</a> are built from a <code>.json</code> file I keep in my project. The cool part is the OPML files that users can download and import into their RSS reader. To do this I created a subdirectory to keep all my OPML files in, and then a liquid template <code>StarterPack.opml.liquid</code>. From there 11ty neatly bundles up all the info from my json files into nice OPML files for my users to download.</p>
+<p>For example, my comics starter pack looks like this in <code>json</code>:</p>
+<hr>
+<pre><code class="language-json">    {
+      &quot;name&quot;: &quot;Web Comics&quot;,
+      &quot;description&quot;: &quot;Sometimes you need pictures. &quot;,
+      &quot;feeds&quot;: [
+        {
+          &quot;title&quot;: &quot;XKCD&quot;,
+          &quot;description&quot;: &quot;Famous webcomic amongst science types. Literally every science degree person I know loves it.&quot;,
+          &quot;xmlURL&quot;: &quot;https://xkcd.com/rss.xml&quot;,
+          &quot;htmlURL&quot;: &quot;https://xkcd.com&quot;
+        },
+        {
+          &quot;title&quot;: &quot;Poorly Drawn Lines&quot;,
+          &quot;description&quot;: &quot;A webcomic with humor and wit.&quot;,
+          &quot;xmlURL&quot;: &quot;https://poorlydrawnlines.com/feed&quot;,
+          &quot;htmlURL&quot;: &quot;https://poorlydrawnlines.com&quot;
+        },
+        {
+          &quot;title&quot;: &quot;Saturday Morning Breakfast&quot;,
+          &quot;description&quot;: &quot;A webcomic with a mix of science, and humor.&quot;,
+          &quot;xmlURL&quot;: &quot;https://www.smbc-comics.com/rss.php&quot;,
+          &quot;htmlURL&quot;: &quot;https://www.smbc-comics.com&quot;
+        },
+        {
+          &quot;title&quot;: &quot;The Oatmeal&quot;,
+          &quot;description&quot;: &quot;One of the most famous webcomics of all time. He also made exploding kittens and unstable unicorns if you are into board games.&quot;,
+          &quot;xmlURL&quot;: &quot;https://theoatmeal.com/feed/rss&quot;,
+          &quot;htmlURL&quot;: &quot;https://theoatmeal.com&quot;
+        }
+      ]
+</code></pre>
+<hr>
+<p>It's OPML file looks like this:</p>
+<hr>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;opml version=&quot;2.0&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Web Comics RSS Feeds&lt;/title&gt;
+    &lt;dateCreated&gt;Tue, 13 May 2025 17:05:24 Australia/Sydney&lt;/dateCreated&gt;
+    &lt;ownerName&gt;Caffeine And Lasers&lt;/ownerName&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;outline text=&quot;Web Comics&quot; title=&quot;Web Comics&quot;&gt;
+      
+      &lt;outline type=&quot;rss&quot; text=&quot;XKCD&quot; title=&quot;XKCD&quot; xmlUrl=&quot;https://xkcd.com/rss.xml&quot; htmlUrl=&quot;https://xkcd.com&quot; description=&quot;Famous webcomic amongst science types. Literally every science degree person I know loves it.&quot;/&gt;
+      
+      &lt;outline type=&quot;rss&quot; text=&quot;Poorly Drawn Lines&quot; title=&quot;Poorly Drawn Lines&quot; xmlUrl=&quot;https://poorlydrawnlines.com/feed&quot; htmlUrl=&quot;https://poorlydrawnlines.com&quot; description=&quot;A webcomic with humor and wit.&quot;/&gt;
+      
+      &lt;outline type=&quot;rss&quot; text=&quot;Saturday Morning Breakfast&quot; title=&quot;Saturday Morning Breakfast&quot; xmlUrl=&quot;https://www.smbc-comics.com/rss.php&quot; htmlUrl=&quot;https://www.smbc-comics.com&quot; description=&quot;A webcomic with a mix of science, and humor.&quot;/&gt;
+      
+      &lt;outline type=&quot;rss&quot; text=&quot;The Oatmeal&quot; title=&quot;The Oatmeal&quot; xmlUrl=&quot;https://theoatmeal.com/feed/rss&quot; htmlUrl=&quot;https://theoatmeal.com&quot; description=&quot;One of the most famous webcomics of all time. He also made exploding kittens and unstable unicorns if you are into board games.&quot;/&gt;
+      
+    &lt;/outline&gt;
+  &lt;/body&gt;
+&lt;/opml&gt;
+</code></pre>
+<hr>
 <h1>Learning More</h1>
-<p>I have extra bits and pieces about webmastery in my <a href="https://caffeineandlasers.com/Resources.html">Resources</a> Page</p>
-</main>
+<h2>My Tutorials</h2>
+<p>I have extra bits and pieces about webmastery that I have written in the form of blogposts</p>
+<li>
+    <a href="blogs/rss.html"> How to build your own RSS Feed.</a>
+    I wrote a short explainer on how to setup an RSS Feed for your own website.
+</li>
+<li>
+    <a href="blogs/automatingYourRSS.html"> Automating Your RSS Feed.</a>
+    Part 2 of the RSS Feed tutorial. I give you the code snippets to use 11ty
+    to automate your RSS feed. No more hand changing the file every time you
+    post a new blog. 
+</li>
+<li>
+    <a href="blogs/embeddingYourLatestMastodonPost.html"> Embedding your latest Mastodon Post into your webpage</a> A bodgey workaround using jank-script 
+        to dynamically grab and embed your latest Fediverse post.
+</li>
+<h2>Resources that got me started</h2>
+<li>
+    <a href="https://goblin-heart.net/sadgrl/projects/layout-builder/">
+        Sadgrls Layout Builder.
+    </a>
+    This is a great lil tool to get you a fully formed website layout in a
+    single copy and paste. This is how I originally started my site, but it is 
+    likely customized beyond recognition at this point.
+</li>
+<a href="https://goblin-heart.net/sadgrl/"
+    ><img src="Assets/sadgrlonline.gif" alt="sadgrl"
+/></a>
+<li>
+    <a href="https://petrapixel.neocities.org/coding/neocities"
+        >Petra Pixels Tutorial on pushing your local changes to production with
+        a github action.</a>
+    This greatly improves on the slog of trying to updating your website via the
+    Neocities web interface. I don't use neocities anymore, but I was very greatful 
+    to learn this was possible from petra, and use the same idea to deploy onto github
+    pages now
+</li>
+<a href="https://petrapixel.neocities.org/" target="_blank"
+    ><img
+        src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif"
+        alt="petrapixel"
+/></a></main>
 
 </div>
-<footer id="footer" style="margin-top: 0px;">
-    <a href="/FeedList.html" >
-        <img
-        src="/Assets/RSS_Logo.png"
-        alt="RSS Feed"
-        style="width: 20px; height: 20px"
-        /> 
-    </a>
-
+<footer id="footer">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/FeedList.html">
+            <img 
+            src="/Assets/RSS_Logo.png" 
+            alt="RSS Feed" 
+            style="width: 20px; height: 20px" 
+            />
+        </a>
+        <span style="font-size: 0.8em;">
+            <a href="/sitemap.xml">Sitemap</a>
+        </span>
+    </div>
 </footer>
 
 </html>

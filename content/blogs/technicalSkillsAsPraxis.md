@@ -4,6 +4,9 @@ date: 2025-04-01
 description: "If you are unhappy with the the powers that be, (regardless of who you think that is), you should understand the tools to fight them. Tip: Regulation wont be enough"
 layout: blogpost.liquid
 nesting: "../"
+tags:
+  - Culture
+  - Academia
 ---
 
 
@@ -61,4 +64,4 @@ Mastodon is built to be [billionaire proof](https://pluralistic.net/2025/01/23/d
 
 The process of selecting your server can be intimidating for some. That intimidation is what freedom feels like. For me, I am Aussie, so I want to be moderated by Australians, so I joined Aus.social. There are plenty of other servers to meet your needs though. 
 
-*"But what about my audience?"* Your audience wasn't on BlueSky 12 months ago. You migrated from twitter once, you can do it again. 
+*"But what about my audience?"* Your audience wasn't on BlueSky 12 months ago. You migrated from twitter once, you can do it again.

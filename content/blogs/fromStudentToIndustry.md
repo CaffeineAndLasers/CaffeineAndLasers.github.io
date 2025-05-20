@@ -3,6 +3,8 @@ title: From Student To Industry
 layout: blogpost.liquid
 description: This is a transcript for a talk I delivered to Joel Carpenters UQ Optics class in 2022. I found it in my notes and did not bother to re-read it before uploading. Feel free to yell at me if I\'ve made any mistakes
 date: 2024-07-28
+tags:
+  - Academia
 ---
 **2024-07-28 Note:** This is a transcript for a talk I delivered to
 [Joel Carpenter\'s](https://www.youtube.com/user/joelacarpenter) UQ

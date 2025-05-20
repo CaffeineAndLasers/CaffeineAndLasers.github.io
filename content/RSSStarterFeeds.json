@@ -27,12 +27,6 @@
           "description": "One of the most famous webcomics of all time. He also made exploding kittens and unstable unicorns if you are into board games.",
           "xmlURL": "https://theoatmeal.com/feed/rss",
           "htmlURL": "https://theoatmeal.com"
-        },
-        {
-          "title": "Lunarbaboon",
-          "description": "A half man/half moon monkey trying to make sense of it all. Comics about life and parenting. Usually a sweet message.",
-          "xmlURL": "http://www.lunarbaboon.com/comics/rss.xml",
-          "htmlURL": "http://www.lunarbaboon.com"
         }
       ]
     },
@@ -104,7 +98,7 @@
         {
             "title": "Starbreaker",
             "description": "Friend of the site, he posts longform rants about tech, politics, and the state of the web.",
-            "xmlURL": "https://starbreaker.org/follow/everything.xml",
+            "xmlURL": "https://starbreaker.org/follow/feed.xml",
             "htmlURL": "https://starbreaker.org"
         },
         {
@@ -184,6 +178,30 @@
           "description": "Striving for mediocrity in a world of excellence",
           "xmlURL": "https://chaser.com.au/feed/",
           "htmlURL": "https://chaser.com.au"
+        }
+      ]
+    },
+    {
+      "name": "Food And Drinks",
+      "description": "Mostly drinks tbh.",
+      "feeds": [
+        {
+          "title": "Robert McKeon",
+          "description": "Robert is a data scientist (at Apple last I checked?) who does science on coffee. These days mostly on roasting, but his backlog is filled with actionable info on grind, dose and etraction.",
+          "xmlURL": "https://rmckeon.medium.com/feed",
+          "htmlURL": "https://rmckeon.medium.com"
+        },
+        {
+          "title": "Saint John's Wort",
+          "description": "A beer blogger, who writes about the cultural aspects of beer.",
+          "xmlURL": "https://saintjohnswort.ca/feed/",
+          "htmlURL": "https://saintjohnswort.ca/"
+        },
+        {
+          "title": "Ben Viver",
+          "description": "Finally, a food blogger on this list. Writes about food culture, rather than recipies or restaurant reviews.",
+          "xmlURL": "https://benviveur.blogspot.com/feeds/posts/default?alt=rss",
+          "htmlURL": "https://benviveur.blogspot.com/"
         }
       ]
     },

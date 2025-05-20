@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs');
+const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = function (eleventyConfig) {
   // This makes the eleventy command quieter (with less detail)
@@ -8,6 +9,13 @@ module.exports = function (eleventyConfig) {
   // Add global data for site URL
   eleventyConfig.addGlobalData("site", {
     url: "https://caffeineandlasers.com"
+  });
+
+  // Add sitemap plugin
+  eleventyConfig.addPlugin(sitemap, {
+    sitemap: {
+      hostname: "https://caffeineandlasers.com",
+    },
   });
 
   // Add books.json data to be available in templates
@@ -75,6 +83,7 @@ module.exports = function (eleventyConfig) {
     "css",
     "xml",
     "json",
+    "xsl",
   ]);
 
   // This defines the input and output directories

@@ -1,11 +1,13 @@
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>RSS Starter Packs</title></head>
+    <title>RSS Starter Packs</title>
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+    <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
+    <!-- Canonical URL for SEO and sitemap -->
+    <link rel="canonical" href="https://caffeineandlasers.com/rss-starter-packs.html">
 </head>
 
 <div id="container"><div id="header"></div>
@@ -89,7 +91,7 @@
 
 
 <strong> Publised: </strong> 2025-05-07 
-<strong> Updated: </strong> 2025-05-07 
+<strong> Updated: </strong> 2025-05-16 
 
 <hr>
 
@@ -116,9 +118,9 @@
 <style>
   .starter-pack {
     margin-bottom: 20px;
-    border: 3px #8839ef dotted;
+    border: 3px var(--color-primary-purple) dotted;
     border-radius: 15px;
-    background-color: #eff1f5;
+    background-color: var(--color-bg-light);
     transition: transform 0.3s ease;
   }
   
@@ -130,7 +132,7 @@
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    background-color: #f5f5f5;
+    background-color: var(--color-bg-details);
     border-radius: 15px 15px 0 0;
     cursor: pointer;
   }
@@ -140,21 +142,21 @@
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--color-border-light);
   }
   
   .feed-item {
     margin-bottom: 15px;
-    border: 3px #8839ef dotted;
+    border: 3px var(--color-primary-purple) dotted;
     border-radius: 15px;
-    background-color: #eff1f5;
+    background-color: var(--color-bg-light);
   }
   
   .feed-header {
     display: flex;
     align-items: center;
     padding: 8px 15px;
-    background-color: #f9f9f9;
+    background-color: var(--color-bg-details);
     border-radius: 15px 15px 0 0;
     cursor: pointer;
   }
@@ -164,7 +166,7 @@
     background-color: #a0c5ff;
     padding: 4px 15px;
     border-radius: 4px;
-    color: #000;
+    color: var(--color-border-dark);
     text-decoration: none;
     font-weight: bold;
     margin-left: 10px;
@@ -229,7 +231,7 @@
   .pack-content.expanded {
     max-height: 2000px; /* Large enough to contain all content */
     padding: 15px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--color-border-light);
   }
   
   .feed-content {
@@ -295,8 +297,43 @@
   .pack-description {
     padding: 10px 15px 5px 15px;
     margin-bottom: 0;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #eee;
+    background-color: var(--color-bg-details);
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  
+  /* Styling for the download OPML button */
+  .download-opml-button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    min-width: 80px;
+    text-align: center;
+  }
+  
+  .download-opml-button:hover {
+    background-color: #45a049;
+  }
+  
+  .all-opml-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .all-opml-button:hover {
+    background-color: #0b7dda;
   }
 </style>
 
@@ -308,6 +345,7 @@
           <span class="arrow">▼</span>
           <h2>Web Comics</h2>
         </div>
+        <a href="/OPMLs/WebComics.opml" class="download-opml-button">OPML</a>
       </div>
       <!-- Description moved outside of collapsible content -->
       
@@ -403,28 +441,6 @@
             </div>
           </div>
         
-          <div class="feed-item">
-            <div class="feed-header">
-              <div class="feed-label">
-                <span class="arrow">▼</span>
-                <h3><a href="http://www.lunarbaboon.com">Lunarbaboon</a></h3>
-              </div>
-              <div style="display: flex; align-items: center;">
-                
-                  <div class="tooltip">
-                    <a href="http://www.lunarbaboon.com/comics/rss.xml" class="link-button js-clipboard-link">Copy Link</a>
-                    <span class="tooltiptext">Copy to clipboard</span>
-                  </div>
-                
-              </div>
-            </div>
-            <div class="feed-content">
-              
-                <p>A half man/half moon monkey trying to make sense of it all. Comics about life and parenting. Usually a sweet message.</p>
-              
-            </div>
-          </div>
-        
       </div>
     </div>
   
@@ -434,6 +450,7 @@
           <span class="arrow">▼</span>
           <h2>Tech News</h2>
         </div>
+        <a href="/OPMLs/TechNews.opml" class="download-opml-button">OPML</a>
       </div>
       <!-- Description moved outside of collapsible content -->
       
@@ -560,6 +577,7 @@
           <span class="arrow">▼</span>
           <h2>Personal Blogs</h2>
         </div>
+        <a href="/OPMLs/PersonalBlogs.opml" class="download-opml-button">OPML</a>
       </div>
       <!-- Description moved outside of collapsible content -->
       
@@ -664,7 +682,7 @@
               <div style="display: flex; align-items: center;">
                 
                   <div class="tooltip">
-                    <a href="https://starbreaker.org/follow/everything.xml" class="link-button js-clipboard-link">Copy Link</a>
+                    <a href="https://starbreaker.org/follow/feed.xml" class="link-button js-clipboard-link">Copy Link</a>
                     <span class="tooltiptext">Copy to clipboard</span>
                   </div>
                 
@@ -774,6 +792,7 @@
           <span class="arrow">▼</span>
           <h2>Australian News</h2>
         </div>
+        <a href="/OPMLs/AustralianNews.opml" class="download-opml-button">OPML</a>
       </div>
       <!-- Description moved outside of collapsible content -->
       
@@ -878,6 +897,7 @@
           <span class="arrow">▼</span>
           <h2>Aus Satire News</h2>
         </div>
+        <a href="/OPMLs/AusSatireNews.opml" class="download-opml-button">OPML</a>
       </div>
       <!-- Description moved outside of collapsible content -->
       
@@ -958,8 +978,92 @@
       <div class="pack-header">
         <div class="pack-label">
           <span class="arrow">▼</span>
+          <h2>Food And Drinks</h2>
+        </div>
+        <a href="/OPMLs/FoodAndDrinks.opml" class="download-opml-button">OPML</a>
+      </div>
+      <!-- Description moved outside of collapsible content -->
+      
+        <p style="padding: 10px 15px 0 15px; margin-bottom: 10px;">Mostly drinks tbh.</p>
+      
+      <div class="pack-content">
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://rmckeon.medium.com">Robert McKeon</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://rmckeon.medium.com/feed" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Robert is a data scientist (at Apple last I checked?) who does science on coffee. These days mostly on roasting, but his backlog is filled with actionable info on grind, dose and etraction.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://saintjohnswort.ca/">Saint John's Wort</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://saintjohnswort.ca/feed/" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>A beer blogger, who writes about the cultural aspects of beer.</p>
+              
+            </div>
+          </div>
+        
+          <div class="feed-item">
+            <div class="feed-header">
+              <div class="feed-label">
+                <span class="arrow">▼</span>
+                <h3><a href="https://benviveur.blogspot.com/">Ben Viver</a></h3>
+              </div>
+              <div style="display: flex; align-items: center;">
+                
+                  <div class="tooltip">
+                    <a href="https://benviveur.blogspot.com/feeds/posts/default?alt=rss" class="link-button js-clipboard-link">Copy Link</a>
+                    <span class="tooltiptext">Copy to clipboard</span>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="feed-content">
+              
+                <p>Finally, a food blogger on this list. Writes about food culture, rather than recipies or restaurant reviews.</p>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div class="starter-pack">
+      <div class="pack-header">
+        <div class="pack-label">
+          <span class="arrow">▼</span>
           <h2>AI News</h2>
         </div>
+        <a href="/OPMLs/AINews.opml" class="download-opml-button">OPML</a>
       </div>
       <!-- Description moved outside of collapsible content -->
       
@@ -1104,11 +1208,89 @@
   
 </div>
 
+<div style="text-align: center; margin: 30px 0;">
+  <a href="/OPMLs/AllFeeds.opml" class="all-opml-button">Download All Packs OPML</a>
+</div>
+
+<hr>
+<blockquote>
+  <p>
+    <strong>Note:</strong> The behaviour of the OPML file button may vary depending on your browser settings.
+    Some browsers may open the OPML file directly in the browser, while others may prompt you to download it.
+    If you want to download the OPML file directly, right-click the button and select "Save link as..." or "Download linked file".
+  </p>
+</blockquote>
+<hr>
+
+<h2>YouTube</h2>
+<p>
+  I won't pressume to tell you what to watch on youtube. You can subscribe to your preffered channels 
+  with RSS however. The catch is that Google does its best to keep the RSS feeds hidden.
+</p>
+<p>
+  Most can be found by putting the channels URL into your RSS reader. E.g. I added a_lillian's channel
+  by putting <a href="https://www.youtube.com/@a_lilian">https://www.youtube.com/@a_lilian</a> into my 
+  RSS reader (Newsflash). The URL it found was <a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCmMubqzMeJDrW7u6d4SJh-Q">
+  https://www.youtube.com/feeds/videos.xml?channel_id=UC2v0x4g1j7X3c5r8b6e9Q</a>
+</p>
+
+<p>
+  With obscuration like this, I make no guarantees of how reliable this method is. If you can
+  figure out the channel ID, you can use that to identify the RSS feed directly.
+</p>
+
+
 <h2>Social Feeds: </h2>
 You can also use RSS to follow a lot of social media feeds. 
 <li><a href="/reddit-rss.html">My Reddit RSS Feed Generator</a></li>
-<li>All Mastodon Profiles</li>
-<li>And BlueSky</li>
+<li><strong>Lemmy:</strong> Each lemmy community (sub-rodent?) has an RSS feed accessible from its page.</li>
+<li><strong>All Mastodon Profiles:</strong> Simply append <code>.html</code> to the end of the adrress.
+E.g. mine is: <a href="https://aus.social/@AuntyRed.rss">https://aus.social/@AuntyRed.rss</a> </li>
+<li><strong>And BlueSky:</strong> The RSS feeds are a little bit obscured, (again, idk why people 
+do this). But is linked in the webpage metadata, so you can find it with your RSS reader by giving it
+the URL of the page you wish to follow.</li>
+
+<h2>Other Feeds:</h2>
+<h3>OpenRSS</h3>
+<p>
+<a href="https://openrss.org/feeds/">OpenRSS</a> runs a service bolting on RSS feeds to a number
+of other services which either do not have native feeds, or provide improved feeds with more user 
+control. 
+</p>
+<p>
+  They seem cool, but they're also a donation run third party service. So that consider if the 
+  extra features are worth it to you, and maybe throw them a few bucks to pay your way if you do 
+  use it. 
+</p>
+
+<p>Some of the platforms supported by OpenRSS include:</p>
+<ul>
+  <li>Apple</li>
+  <li>Bandcamp</li>
+  <li>Bing</li>
+  <li>Bluesky</li>
+  <li>Craigslist</li>
+  <li>Discuit</li>
+  <li>eBay</li>
+  <li>GitHub</li>
+  <li>JustWatch</li>
+  <li>Internet Archive</li>
+  <li>Kickstarter</li>
+  <li>Lemmy</li>
+  <li>Locals</li>
+  <li>Medium</li>
+  <li>Mastodon</li>
+  <li>Meetup</li>
+  <li>PocketCasts</li>
+  <li>Reddit</li>
+  <li>Rumble</li>
+  <li>Spotify</li>
+  <li>Substack</li>
+  <li>TikTok</li>
+  <li>Tumblr</li>
+  <li>Twitch</li>
+  <li>YouTube</li>
+</ul>
 
 <script>
   // Setup toggle functionality for pack headers
@@ -1197,15 +1379,19 @@ You can also use RSS to follow a lot of social media feeds.
 </script></main>
 
 </div>
-<footer id="footer" style="margin-top: 0px;">
-    <a href="/FeedList.html" >
-        <img
-        src="/Assets/RSS_Logo.png"
-        alt="RSS Feed"
-        style="width: 20px; height: 20px"
-        /> 
-    </a>
-
+<footer id="footer">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/FeedList.html">
+            <img 
+            src="/Assets/RSS_Logo.png" 
+            alt="RSS Feed" 
+            style="width: 20px; height: 20px" 
+            />
+        </a>
+        <span style="font-size: 0.8em;">
+            <a href="/sitemap.xml">Sitemap</a>
+        </span>
+    </div>
 </footer>
 
 </html>

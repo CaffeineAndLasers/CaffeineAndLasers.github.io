@@ -4,6 +4,8 @@ date: 2025-05-07
 updated: 2025-05-07
 description: Where did the concept of "Advertisement Supported Content" even come from? It is more recent than you think
 layout: blogpost.liquid
+tags:
+  - Culture
 ---
 
 ---
