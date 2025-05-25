@@ -5,9 +5,16 @@
     <title> Caffeine and Lasers - Blog </title>
     <description> Extended thoughts from Caffeine and Lasers</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Wed, 07 May 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 25 May 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Virtual Lab Tour</title>
+      <description>A quick look around what I am working on these days</description>
+      <link>https://Caffeineandlasers.com/blogs/VirtualLabTour.html</link>
+      <pubDate>Sun, 25 May 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>Where did ad supported media come from?</title>
