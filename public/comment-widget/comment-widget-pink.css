@@ -55,14 +55,16 @@
 /* Main */
 #c_widget {
     box-sizing: border-box;
-    height: 100%;
+    min-height: 100px; /* Add a minimum height instead */
     padding: 15px;
-    overflow: auto;
     background-image: url('bow-bg.gif'); /* F2U background provided by https://sadgrl.online/webmastery/downloads/tiledbgs */
     background-attachment: fixed;
     font-family: 'Trebuchet MS';
     font-size: 14px;
     color: #211F24;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible; /* Ensure vertical content flows naturally */
 }
 
 #c_widget button, #c_widget input[type=submit] {

@@ -293,9 +293,8 @@ strong {
     border: 3px dotted var(--color-primary-pink);  /* Pink border to match your h1 color */
     border-radius: 15px;         /* Rounded corners */
     padding: 15px;
-    max-height: 300px;           /* Fixed height to enable scrolling */
-    overflow-y: auto;            /* Vertical scrollbar when needed */
     margin: 15px 0;
+    /* Removed max-height and overflow-y to eliminate scrollbar */
 }
 
 .notes-container {
@@ -373,6 +372,11 @@ strong {
     border-radius: var(--border-radius-small);
     
 
+}
+
+#c_widget {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 @media only screen and (max-width: 800px) {
