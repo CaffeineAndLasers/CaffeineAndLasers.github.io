@@ -8,6 +8,7 @@
         "mini-css-extract-plugin": "^2.9.1",
         "sass": "^1.78.0",
         "sass-loader": "^16.0.1",
+        "sharp": "^0.33.5",
         "style-loader": "^4.0.0",
         "tippy.js": "^6.3.7",
         "webpack": "^5.94.x",
@@ -16,7 +17,10 @@
     "scripts": {
         "webpack": "webpack --watch",
         "eleventy": "npx @11ty/eleventy --serve",
-        "build": "npx @11ty/eleventy & webpack"
+        "build": "npx @11ty/eleventy & webpack",
+        "optimize-images": "node optimize-images.js",
+        "restore-images": "node optimize-images.js restore",
+        "clean-backups": "node optimize-images.js clean"
     },
     "dependencies": {
         "qrcode": "^1.5.4"
