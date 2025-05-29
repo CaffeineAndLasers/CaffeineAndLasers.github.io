@@ -1,5 +1,5 @@
 ---
-title: 3D Printing For Better Science COmmunication
+title: 3D Printing For Better Science Communication
 date: 2025-05-29
 description: Reporting progress on a 3D visualisation to assist in my science communication.
 layout: note.liquid
