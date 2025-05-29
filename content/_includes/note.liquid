@@ -19,7 +19,12 @@ nesting: ../../
 
 <aside id="leftSidebar">{% include "sidebar.liquid" %}</aside>
 
-<main>{{ content }}</main>
+
+<main>
+
+<h1> {{title}} </h1>
+{{ content }}
+</main>
 
 </div>
 {% include "footer.liquid" %}
