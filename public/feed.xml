@@ -5,9 +5,23 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Tue, 27 May 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>3D Printing For Better Science COmmunication</title>
+      <description>Reporting progress on a 3D visualisation to assist in my science communication.</description>
+      <link>https://Caffeineandlasers.com/notes/3DPrintedPhDVisualisations.html</link>
+      <pubDate>Thu, 29 May 2025 10:00:00 +1000</pubDate>
+    </item>
+    
+    <item>
+      <title>On Observing Time</title>
+      <description>Sharing another link to another neat site</description>
+      <link>https://Caffeineandlasers.com/notes/OnObservingTime.html</link>
+      <pubDate>Wed, 28 May 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>On Personal Style And Role Models</title>
