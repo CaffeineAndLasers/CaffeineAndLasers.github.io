@@ -69,11 +69,9 @@ function cleanFilename(filename) {
  * Extract first paragraph from markdown content
  */
 function extractFirstParagraph(content) {
-    // Remove ALL YAML frontmatter blocks (not just the first one)
-    let withoutFrontmatter = content.replace(/^---[\s\S]*?---\n/g, '');
-    
-    // Also remove any remaining frontmatter that might be in the middle
-    withoutFrontmatter = withoutFrontmatter.replace(/\n---[\s\S]*?---\n/g, '\n');
+    // Remove YAML frontmatter blocks only from the beginning of the document
+    // This handles multiple consecutive frontmatter blocks at the start
+    let withoutFrontmatter = content.replace(/^(?:---[\s\S]*?---\s*)+/, '');
     
     // Split by double newlines to get paragraphs
     const paragraphs = withoutFrontmatter.split(/\n\s*\n/);
@@ -168,9 +166,9 @@ async function processMarkdownFile(filePath, exportDir, outputType, contentDir, 
         // Read the markdown file
         let content = await fs.readFile(filePath, 'utf8');
         
-        // Remove ALL existing YAML frontmatter before processing
-        content = content.replace(/^---[\s\S]*?---\n/g, '');
-        content = content.replace(/\n---[\s\S]*?---\n/g, '\n');
+        // Remove YAML frontmatter blocks only from the beginning of the document
+        // This handles multiple consecutive frontmatter blocks at the start
+        content = content.replace(/^(?:---[\s\S]*?---\s*)+/, '');
         
         // Generate title from filename
         const originalFilename = path.parse(filePath).name;
