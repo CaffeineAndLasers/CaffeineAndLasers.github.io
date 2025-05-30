@@ -100,7 +100,8 @@ function extractFirstParagraph(content) {
  * Convert wikilinks to markdown image links
  */
 function convertWikilinks(content, imagePaths) {
-    return content.replace(/!\[\[([^\]]+)\]\]/g, (match, imageName) => {
+    // First, handle wikilinks
+    content = content.replace(/!\[\[([^\]]+)\]\]/g, (match, imageName) => {
         // Handle image with or without extension
         const cleanImageName = imageName.trim();
         
@@ -122,6 +123,32 @@ function convertWikilinks(content, imagePaths) {
         console.warn(`Warning: Image not found for wikilink: ${cleanImageName}`);
         return `![${cleanImageName}](../Assets/${cleanImageName})`;
     });
+    
+    // Second, handle regular markdown image links that don't have the Assets path
+    content = content.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, altText, imagePath) => {
+        // Skip if it already has a path structure (contains / or ..)
+        if (imagePath.includes('/') || imagePath.includes('..')) {
+            return match; // Leave as-is
+        }
+        
+        // Check if this image exists in our image paths
+        const cleanImageName = imagePath.trim();
+        const matchingImage = imagePaths.find(imgPath => {
+            const imgFileName = path.basename(imgPath);
+            return imgFileName.toLowerCase() === cleanImageName.toLowerCase();
+        });
+        
+        if (matchingImage) {
+            const finalImageName = path.basename(matchingImage);
+            return `![${altText}](../Assets/${finalImageName})`;
+        }
+        
+        // If no matching image found, still add the Assets path
+        console.warn(`Warning: Image not found for markdown link: ${cleanImageName}`);
+        return `![${altText}](../Assets/${cleanImageName})`;
+    });
+    
+    return content;
 }
 
 /**
