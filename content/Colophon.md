@@ -22,7 +22,7 @@ If the post is just text then this is all that is needed, I compile using 11ty, 
 
 # My 11ty Config
 
-My 11ty config was mostly inspired by [this blogpost](https://medium.com/@tarngerine/how-the-heck-do-i-use-eleventy-the-intro-guide-i-wish-i-had-84d9b2689031). All my templates are written in liquid, and *almost* all my pages are written in Markdown, (since that is what Obsidian supports).
+My 11ty config was mostly inspired by [this blogpost](https://medium.com/@tarngerine/how-the-heck-do-i-use-eleventy-the-intro-guide-i-wish-i-had-84d9b2689031). All my templates are written in liquid, and *almost* all my pages are written in Markdown, (since that is what Obsidian supports). How I get it from Obsidian to my website is documenter [here](/notes/TwoClickObsidianTotheWebAutomation.html)
 
 The general idea is to push all the "web dev" and html into my templating, so my writting can be read in plain txt. If I absolutely need to do some advanced formatting, you can still slip a bit of inline css into markdown anyway. 
 

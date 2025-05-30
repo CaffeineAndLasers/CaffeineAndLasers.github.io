@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Thu, 29 May 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 30 May 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Two Click Obsidian To the Web Automation</title>
+      <description>Here is a quick write up for method I threw together for getting my writing out of Obsidian and into my website.</description>
+      <link>https://Caffeineandlasers.com/notes/TwoClickObsidianTotheWebAutomation.html</link>
+      <pubDate>Fri, 30 May 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>3D Printing For Better Science Communication</title>
