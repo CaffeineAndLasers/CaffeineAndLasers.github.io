@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Fri, 30 May 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Update on 3D Printing My PhD</title>
+      <description>As promised, I printed it in transparent PETG.... And it looked terrible. Somehow the internal support is more visible than the holes I was trying to show, which instead got clogged up.</description>
+      <link>https://Caffeineandlasers.com/notes/Updateon3DPrintingMyPhD.html</link>
+      <pubDate>Sat, 31 May 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>Two Click Obsidian To the Web Automation</title>
