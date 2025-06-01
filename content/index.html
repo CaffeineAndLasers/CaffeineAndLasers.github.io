@@ -46,6 +46,25 @@ layout: default.liquid
   </ul>
 </div>
 
+<h2>Latest Note</h2>
+<div class="latest-note-container" style="border: 2px solid var(--color-primary-purple); border-radius: 10px; padding: 15px; margin: 10px 0;">
+  {% assign latest_note = collections.notes | first %}
+  {% if latest_note %}
+    <div class="note-content">
+      <h3>
+        <a href="{{ latest_note.url }}">
+          {{ latest_note.date | date: "%Y-%m-%d" }}: {{ latest_note.data.title }}
+        </a>
+      </h4>
+      <div class="note-body">
+        {{ latest_note.content }}
+      </div>
+    </div>
+  {% else %}
+    <p>No notes yet!</p>
+  {% endif %}
+</div>
+
 <h2>From Mastodon</h2>
 <div id="latest-mastodon-post"></div>
 <script>
