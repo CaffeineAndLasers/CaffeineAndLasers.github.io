@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Sat, 31 May 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 01 June 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>A great excerpt from the happiness of dogs</title>
+      <description>The following is a paraphrased exerpt from Mark Rowland's book "The Happiness of Dogs". I haven't finished it yet, but even from chapter one I would reccomend it.</description>
+      <link>https://Caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</link>
+      <pubDate>Sun, 01 June 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>Update on 3D Printing My PhD</title>
