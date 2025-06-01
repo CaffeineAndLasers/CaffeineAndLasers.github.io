@@ -7,7 +7,7 @@ layout: note.liquid
 
 *The following is a paraphrased exerpt from Mark Rowland's book "The Happiness of Dogs". I haven't finished it yet, but even from chapter one I would reccomend it.* 
 
-Okay, so according to Camus, in order to understand life's meaning:"  imagine Sisyphus Happy". Most reasonable people will respond, "but how" after all, repetition is the practically the definition of boring
+Okay, so according to Camus, in order to understand life's meaning we must: "imagine Sisyphus Happy". Most reasonable people will respond, "but how" after all, repetition is the practically the definition of boring
 
 "Well let me tell you about my dog" says Mark Rowlands
 
