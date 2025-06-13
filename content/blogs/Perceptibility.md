@@ -4,14 +4,13 @@ date: 2024-08-05
 description: "Exploring the intersection of philosophy, psychology, and physics in understanding perception and the self."
 layout: blogpost.liquid
 tags:
-  - Physics
-  - Science
 ---
+
 # Observing the observer: Perception in Philosophy Psychology and Physics
 
 **What Do Descarte, Buddhists and Astrophysicists have in common?**
 
-# The Answer?
+## The Answer?
 
 To give a short answer. Fundamental appreciation of one\'s own
 epistemologic limitations and an understanding of the self-referential
@@ -21,7 +20,7 @@ In non-jargon: They pay attention to what they are paying attention to.
 In order to better understand this, lets take a brief tour through
 philosphy, psychology and astrophysics.
 
-# Descartes Says: \"Cogito, Ergo Sum\" {#cogito-ergo-sum}
+## Descartes Says: \"Cogito, Ergo Sum\" {#cogito-ergo-sum}
 
 *I think therefore I am*
 
@@ -52,7 +51,7 @@ him) tried (and failed) to axiomatically reconstruct all of human
 knowledge. This fundamental axiom remains unchanged. You exist, because
 you can observe yourself.
 
-# Anthropic principle
+## Anthropic principle
 
 In 1973, Brandon Carter changed astrophysics forever when he coined the
 \"Anthropic principle\". This principle states that the fact that *we*
@@ -82,7 +81,7 @@ golden age.
 The anthropic principle is invoked many times in astrophysics to explain
 the remarkable coincidences we see in nature.
 
-# Mindfulness
+## Mindfulness
 
 Mental health practitioners, Buddhists, and plenty of wise people
 recommend mindfulness for managing anxiety and depression. This practice
@@ -104,7 +103,7 @@ by modern cognitive psychology. The practice of observing one\'s
 thoughts as the physical process of natural laws is a powerful tool for
 understandng ones place in the universe.
 
-# So what ties these things together?
+## So what ties these things together?
 
 The common thread linking these three concepts is the acknowledgment of
 consciousness or subjective experience as a fundamental starting point
@@ -132,9 +131,9 @@ Specifically:
     Principle accounts for the observer\'s perspective in cosmological
     theories.
 
-# Where else does the role of the observer come up in study?
+## Where else does the role of the observer come up in study?
 
-## Plato\'s Cave
+### Plato\'s Cave
 
 Plato\'s Cave is a philosophical parable that addresses the nature of
 reality and human perception. It is another concept very relevant to
@@ -165,7 +164,7 @@ in relation to our observations of the universe. Much like the prisoners
 mistake shadows for reality, mindfulness encourages us to not mistake
 our own thoughts and feelings for reality.
 
-## Heisenberg Uncertainty Principal
+### Heisenberg Uncertainty Principal
 
 While less philosophically dense, Quantum mechanics is another topic
 which centres observability within its epistemic framework. Quantum

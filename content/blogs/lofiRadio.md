@@ -7,7 +7,9 @@ tags:
   - Technology
   - Projects
 ---
-# 1 Announcing My LoFi Terminal Radio
+# LoFi Terminal Radio
+
+## Announcing My LoFi Terminal Radio
 
 This was a short weekend project I threw together to replace the
 perpetually open YouTube Tab for [lofi beats to relax/study
@@ -15,7 +17,7 @@ to](https://www.youtube.com/watch?v=jfKfPfyJRdk). The result? A
 minimalist audio player that does its job without any frills. Here\'s
 why I created it and how it works.
 
-# 2 What is it
+## What is it
 
 In short, it is an audio player with a very specific emphasis on
 being: - minimalist - distraction-free You cannot select tracks, replay
@@ -26,7 +28,7 @@ The aim of this is to provide an experience akin to radio. You can turn
 it on, change the volume and switch the channel, but the programming is
 up to the DJ.
 
-# 3 Why Design it like this
+## Why Design it like this
 
 This program isn\'t to replace your spotify or main music player.
 Instead it is to replace your [lofi beats to relax/study
@@ -48,7 +50,7 @@ computer memory, and CPU cycles. On top of this, it removes the
 distraction of fiddling with playlists but replaces it with the visual
 clutter of an unnecessary browser tab next to your actual work
 
-# 4 My Solution
+## My Solution
 
 A tool to replace this should have 1. No way to select tracks or
 configure playlists from the UI 2. Stay out of the way when you aren\'t
@@ -61,25 +63,25 @@ extension for GNOME.
 
 ![Screenshot of the UI](lofiRadio.png)
 
-# 5 Where Do I install it?
+## Where Do I install it?
 
 Install instructions at [My
 Repo](https://github.com/CJones-Optics/lofi-player)
 
-# 6 Customising it
+## Customising it
 
-## 6.1 Colours!
+### Colours!
 
 The UI is determined by css, with the colours defined at the top of the
 file. Change your colour scheme to whatever you want just by changing
 the hex codes at the top of the css file.
 
-## 6.2 Keybindings!
+### Keybindings!
 
 Don\'t like vim? Iwon\'t hold it against you. There is a simple text
 file of the keybindings. Change the key to whatever you need.
 
-# 7 Does it work on:
+## Does it work on:
 
 -   Linux
     -   **Yes!** I have tested it on two machines and a virtual machine
@@ -92,7 +94,7 @@ file of the keybindings. Change the key to whatever you need.
         Either way, it doesn\'t work as perfectly on Windows. It will be
         fixed when I get around to it.
 
-# 8 This is all well and good, but who has MP3 files anymore?
+## This is all well and good, but who has MP3 files anymore?
 
 You got me there! Spotify support isn\'t really something I can be
 bothered messing with. Instead, I built my playlists from the Royalty
@@ -101,16 +103,16 @@ Free resources available at
 are genuinely fond of you can actually support them by buying their
 music through Bandcamp.
 
-# 9 Technical Details
+## Technical Details
 
-## 9.1 Frameworks
+### Frameworks
 
 -   Both the backend and UI are written in Python
     -   Backend uses PyGame to handle the mp3 playback
     -   Frontend uses the Textual Framework to handle keybindings, and
         tcss for a css-like experience configuring the UI
 
-## 9.2 How it works:
+### How it works:
 
 -   The player process grabs a directory of mp3 files, and a playlist
     object grabs each file one at a time, and throws it at the player
@@ -118,7 +120,7 @@ music through Bandcamp.
 -   A queue is used to pass commands from the UI in TUI.py, to the
     process in musicPlayer.py and messages back in the other direction.
 
-## 9.3 Customisability
+### Customisability
 
 At the moment the application is optimised for my specific use case. And
 I am very opinionated. This means: -The entire program is controlled
@@ -135,7 +137,7 @@ get you started.
 The process also already has a command written for the next track. You
 only need to add the UI element if you really want it.
 
-# 10 Future Changes
+## Future Changes
 
 Future changes are unlikely because it currently fits my use case.
 However for the sake of completeness, here is how I may extend the
@@ -151,7 +153,7 @@ philosophy, but they are a lot of fun. I plan on building one
 eventually.\
 - GUI Support Cont: Implement a list feature for all the stations.
 
-# 11 Conclusion
+## Conclusion
 
 The LoFi Terminal Radio aims to provide a distraction-free,
 resource-efficient alternative to streaming background music. If you\'re

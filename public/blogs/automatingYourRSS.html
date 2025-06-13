@@ -58,14 +58,14 @@
                 <p><strong>Last Updated:</strong> </p>
             </div>
 
-            <h1>1 Background</h1>
+            <h2>1 Background</h2>
 <p>A while back, I wrote a quick explainer on how to set up your own RSS feed for your site. It was pretty straightforward, and expalined how to hard-code it.</p>
 <p>Then I got lazy, updating the <code>feed.xml</code>  file every time I wrote a blog post was becoming a pain.</p>
 <p>To resolve this, I opted to use 11ty to auto-update the RSS feed every time I added a new blog-post. This very post will get auto-updated to the RSS feed. I already used 11ty for automating other parts of my site, so this was just a natural extension.</p>
-<h1>2 Setting Up Your Environment</h1>
-<h2>2.1 Setting Up Eleventy</h2>
+<h2>2 Setting Up Your Environment</h2>
+<h3>2.1 Setting Up Eleventy</h3>
 <p>Go follow <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial">PetraPixels Tutorial</a> she explains it better than me. From here I will assume you have it set-up somewhat like hers? Deal? Deal!</p>
-<h2>2.2 Your Folder Structure</h2>
+<h3>2.2 Your Folder Structure</h3>
 <p>I am assuming that all your blogposts are in their own sub-directory. So if your folder structure looks like this</p>
 <hr>
 <pre><code>&gt;Project/
@@ -77,7 +77,7 @@
 		&gt; All the files that 11ty generates
 </code></pre>
 <hr>
-<h1>3 Creating Your RSS Template</h1>
+<h2>3 Creating Your RSS Template</h2>
 <p>Okay, you did everything and followed Petra's advice? Okay good. Now lets add the required properties to all our blogposts. For every post lets upate the yaml:</p>
 <hr>
 <pre><code class="language-yaml">---
@@ -101,7 +101,7 @@ layout: blogpost.liquid
 ---
 </code></pre>
 <hr>
-<h1>4 Update your .eleventy.js File</h1>
+<h2>4 Update your .eleventy.js File</h2>
 <p>We are adding two more functions to the <code>.eleventy.js</code> file. The first one <code>addCollection</code> just looks for the folder of blog posts, and grabs all the <code>html</code>  file (or <code>md</code> files). This is used by the template later. The second just formats the dates nicely.</p>
 <hr>
 <pre><code class="language-js">module.exports = function (eleventyConfig) {
@@ -123,7 +123,7 @@ layout: blogpost.liquid
 };
 </code></pre>
 <hr>
-<h1>5 Update the Feed File</h1>
+<h2>5 Update the Feed File</h2>
 <p>Final step! Lets fix up your feed. Create or edit your rss feed file. Mine is <code>feed.xml</code></p>
 <hr>
 <pre><code class="language-html">---
@@ -152,9 +152,9 @@ eleventyExcludeFromCollections: true
 </code></pre>
 <hr>
 <p>What is going on here? The important bit is in-between  <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and ``. This section tells 11ty to go though all the files in the  blogs directory, and generates an RSS entry from all those properties  we went through and added earlier.</p>
-<h1>6 Extension: Automating other parts of your page!</h1>
+<h2>6 Extension: Automating other parts of your page!</h2>
 <p>There is no reason to limit ourselves to automating the RSS page.</p>
-<h2>6.1 Every Blogpost in bullet points</h2>
+<h3>6.1 Every Blogpost in bullet points</h3>
 <p>Here is a html snipped which will tell 11ty to put every blog post in the folder in dot-points. Use your CSS skills to snazzy it up using the <code>blog-posts-container</code> class.</p>
 <hr>
 <pre><code class="language-html">&lt;h2&gt;All My Posts&lt;/h2&gt;
@@ -171,7 +171,7 @@ eleventyExcludeFromCollections: true
 &lt;/div&gt;
 </code></pre>
 <hr>
-<h2>6.2 Most Recent Blogpost</h2>
+<h3>6.2 Most Recent Blogpost</h3>
 <p>Okay, what if we want to put only the most recent blogpost on our home page. Try out this one</p>
 <hr>
 <pre><code class="language-html">&lt;h2&gt;Latest Blog Post&lt;/h2&gt;

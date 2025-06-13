@@ -58,13 +58,14 @@
                 <p><strong>Last Updated:</strong> </p>
             </div>
 
-            <h1>1 Announcing My LoFi Terminal Radio</h1>
+            <h1>LoFi Terminal Radio</h1>
+<h2>Announcing My LoFi Terminal Radio</h2>
 <p>This was a short weekend project I threw together to replace the
 perpetually open YouTube Tab for <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study
 to</a>. The result? A
 minimalist audio player that does its job without any frills. Here's
 why I created it and how it works.</p>
-<h1>2 What is it</h1>
+<h2>What is it</h2>
 <p>In short, it is an audio player with a very specific emphasis on
 being: - minimalist - distraction-free You cannot select tracks, replay
 tracks or go to the next track. This is a feature, not a shortcoming. If
@@ -72,7 +73,7 @@ you want different music, change the station.</p>
 <p>The aim of this is to provide an experience akin to radio. You can turn
 it on, change the volume and switch the channel, but the programming is
 up to the DJ.</p>
-<h1>3 Why Design it like this</h1>
+<h2>Why Design it like this</h2>
 <p>This program isn't to replace your spotify or main music player.
 Instead it is to replace your <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study
 to</a> Youtube tab that stays
@@ -90,7 +91,7 @@ super-overkill for listening to music. It wastes network bandwidth,
 computer memory, and CPU cycles. On top of this, it removes the
 distraction of fiddling with playlists but replaces it with the visual
 clutter of an unnecessary browser tab next to your actual work</p>
-<h1>4 My Solution</h1>
+<h2>My Solution</h2>
 <p>A tool to replace this should have 1. No way to select tracks or
 configure playlists from the UI 2. Stay out of the way when you aren't
 using it</p>
@@ -99,18 +100,18 @@ out of the way. Especially when I leave it running in my <a href="https://extens
 Terminal</a>
 extension for GNOME.</p>
 <p><img src="lofiRadio.png" alt="Screenshot of the UI"></p>
-<h1>5 Where Do I install it?</h1>
+<h2>Where Do I install it?</h2>
 <p>Install instructions at <a href="https://github.com/CJones-Optics/lofi-player">My
 Repo</a></p>
-<h1>6 Customising it</h1>
-<h2>6.1 Colours!</h2>
+<h2>Customising it</h2>
+<h3>Colours!</h3>
 <p>The UI is determined by css, with the colours defined at the top of the
 file. Change your colour scheme to whatever you want just by changing
 the hex codes at the top of the css file.</p>
-<h2>6.2 Keybindings!</h2>
+<h3>Keybindings!</h3>
 <p>Don't like vim? Iwon't hold it against you. There is a simple text
 file of the keybindings. Change the key to whatever you need.</p>
-<h1>7 Does it work on:</h1>
+<h2>Does it work on:</h2>
 <ul>
 <li>Linux
 <ul>
@@ -132,15 +133,15 @@ fixed when I get around to it.</li>
 </ul>
 </li>
 </ul>
-<h1>8 This is all well and good, but who has MP3 files anymore?</h1>
+<h2>This is all well and good, but who has MP3 files anymore?</h2>
 <p>You got me there! Spotify support isn't really something I can be
 bothered messing with. Instead, I built my playlists from the Royalty
 Free resources available at
 <a href="https://pixabay.com/music/search/lofi/">Pixbay</a>, but for artists, you
 are genuinely fond of you can actually support them by buying their
 music through Bandcamp.</p>
-<h1>9 Technical Details</h1>
-<h2>9.1 Frameworks</h2>
+<h2>Technical Details</h2>
+<h3>Frameworks</h3>
 <ul>
 <li>Both the backend and UI are written in Python
 <ul>
@@ -150,7 +151,7 @@ tcss for a css-like experience configuring the UI</li>
 </ul>
 </li>
 </ul>
-<h2>9.2 How it works:</h2>
+<h3>How it works:</h3>
 <ul>
 <li>The player process grabs a directory of mp3 files, and a playlist
 object grabs each file one at a time, and throws it at the player
@@ -158,7 +159,7 @@ object when it needs a new song.</li>
 <li>A queue is used to pass commands from the UI in TUI.py, to the
 process in musicPlayer.py and messages back in the other direction.</li>
 </ul>
-<h2>9.3 Customisability</h2>
+<h3>Customisability</h3>
 <p>At the moment the application is optimised for my specific use case. And
 I am very opinionated. This means: -The entire program is controlled
 from the keyboard, with vim keybindings - No &quot;Next&quot; button is exposed
@@ -171,7 +172,7 @@ repo has a spare folder for GUI elements I designed, (then removed) to
 get you started.</p>
 <p>The process also already has a command written for the next track. You
 only need to add the UI element if you really want it.</p>
-<h1>10 Future Changes</h1>
+<h2>Future Changes</h2>
 <p>Future changes are unlikely because it currently fits my use case.
 However for the sake of completeness, here is how I may extend the
 application. - Custom theming. - At the moment I have a Catpuccino theme
@@ -187,7 +188,7 @@ eventually.\</p>
 <ul>
 <li>GUI Support Cont: Implement a list feature for all the stations.</li>
 </ul>
-<h1>11 Conclusion</h1>
+<h2>Conclusion</h2>
 <p>The LoFi Terminal Radio aims to provide a distraction-free,
 resource-efficient alternative to streaming background music. If you're
 looking for a minimalist approach to your work soundtrack, give it a

@@ -11,7 +11,7 @@ tags:
 
 **I dont care about how it works, what do I need to do?** Scroll to the bottom, and grab the code and instructions there.
 
-# Embedding Mastodon Posts into your Static Web Page
+## Embedding Mastodon Posts into your Static Web Page
 
 There are a few tools for embedding Mastodon toots into a webpage. The most straightforward is to get the embedding code straight from mastodon itself.
 
@@ -23,20 +23,20 @@ Well you could use [Mastofeed](https://mastofeed.com/). But this embeds your ENT
 
 *Sigh* I guess I'll figure it out myself.
 
-# The Work around:
+## The Work around:
 
 As far as I can tell, the Mastodon protocall doesn't have any key for grabbing the latest post directly by URL. The good news is, with a bit of jank-script, we can figure it out. 
 
-## Step 1: Grab the RSS Feed
+### Step 1: Grab the RSS Feed
 
 I realise it is becoming a theme on this website to espouse how much I love RSS. I can't help it. All we are doing here, is using javascript to grab your fediverse rss feed at `yourMastodonInstance/@YourUserName.rss`, and finding the latest item on it. 
 
-## Step 2: Parse it
+### Step 2: Parse it
 
 From here, you could just extract the details from the RSS feed and insert it into the html. You could do that, or ou could extract the URL for that specific post, and use that to generate the embedded iFrame. (I think that looks cooler)
 
 
-# TL;DR Where do I get the code?
+## TL;DR Where do I get the code?
 
 You can find the code in the Github Repo for this website with the source code [here](https://github.com/CaffeineAndLasers/CaffeineAndLasers.github.io/blob/main/content/scripts.js). 
 

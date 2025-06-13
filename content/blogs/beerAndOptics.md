@@ -17,7 +17,7 @@ It is well known that Physicists have a special relationship with beer. There is
 
 ---
 
-# 1 The Analytic Colourimeter
+## 1 The Analytic Colourimeter
 
 The story of the colorimeter comes from the son of a brewer Joseph lovibond.
 
@@ -35,7 +35,7 @@ The lovibond company still exists, and still sells colourimetry equipment for us
 ![Photo of a modern tintometer](/Assets/ModernLovibondTintometer.jpg)
 *Credit: [The Lovibond Company Website](https://www.lovibond.com/PC/Colour-Measurement/Products/Visual-Measurement/Comparator-System-2000-Visual-Grading)*
 
-# 2 The Refractometer
+## 2 The Refractometer
 
 If you know anything about Bavaria, you know that they take beer seriously. So seriously they have laws about its contents, and have had protests and riots about its price. You may also know about the rich history of broader German physics. Well I'm 1841 these two areas of excellence crashed together.
 
@@ -56,6 +56,6 @@ Today, refractometers are used in analysis in a variety of areas. Coffee nerds l
 
 **Authors Note:** I was curious about Steinheils Optical beer test, there isn't a lot of information on the English speaking web about it. I sent an email to the museum curator asking for some more details. I will update this page if I get any interesting materials from them. 
 
-# 3 Further Reading
+## 3 Further Reading
 
 Mark Denny's [Froth! The science of beer](https://archive.org/details/frothscienceofbe0000denn) is a great example of physicists (over) analysing the ambrosia.
