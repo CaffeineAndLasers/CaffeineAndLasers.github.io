@@ -38,12 +38,18 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: var(--font-serif);
     background-color: var(--color-bg-main);
     color: var(--color-text-main);
     line-height: 1.6;
     font-size: 16px;
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 /* Art Nouveau Container Layout */
@@ -57,6 +63,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 /* Left Sidebar with Art Nouveau Images */
@@ -110,6 +117,8 @@ body {
     padding: 40px;
     position: relative;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    overflow-x: hidden;
+    min-width: 0;
 }
 
 .main-content::before {
@@ -344,7 +353,49 @@ li {
     margin: 1rem 0;
     font-family: 'Courier New', monospace;
     overflow-x: auto;
+    overflow-y: visible;
+    white-space: pre;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+    word-wrap: normal;
+    overflow-wrap: normal;
 }
+
+/* Inline code */
+code {
+    font-family: 'Courier New', monospace;
+    background-color: var(--color-bg-sidebar);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    border: 1px solid var(--color-border);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Code inside pre blocks */
+pre code {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    display: block;
+    overflow-x: auto;
+    white-space: pre;
+    word-wrap: normal;
+    overflow-wrap: normal;
+}
+
+/* Additional code block overflow prevention */
+.main-content pre,
+.main-content code,
+.main-content .code-block {
+    max-width: 100%;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+
+
 
 /* Header Image */
 .header-image {
