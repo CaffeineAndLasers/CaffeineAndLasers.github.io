@@ -1,4 +1,6 @@
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,82 +13,36 @@
     <link rel="canonical" href="https://caffeineandlasers.com/Resume.html">
 </head>
 
-<div id="container"><div id="header"></div>
-    <div id="headerArea">
-    <nav id="navbar" style="margin-bottom: 0px;"><ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/notes.html">Notes & Links</a></li>
-            <li><a href="/Resources.html">Resources</a></li>
-            <li><a href="/media.html">Media</a></li>
-            <!-- This empty one feels immature -->
-            <!-- <li><a href="/publications.html">Publications</a></li>  -->
-            <!-- <li><a href="/Resume.html">Resume</a></li> -->
-            <li><a href="/contact.html">Contact Me</a></li>
-</ul></nav></div>
+<body>
+    <div class="art-nouveau-container">
+        
+        <!-- Left Sidebar with Navigation Links -->
+        <aside class="left-sidebar">
+            <nav class="sidebar-nav">
+                <a href="/" class="nav-link">
+                    <div class="nav-item">Homepage</div>
+                </a>
+                <a href="/blog.html" class="nav-link">
+                    <div class="nav-item">Blog Posts</div>
+                </a>
+                <a href="/notes.html" class="nav-link">
+                    <div class="nav-item">Notes</div>
+                </a>
+                <a href="/Resources.html" class="nav-link">
+                    <div class="nav-item">Resources</div>
+                </a>
+                <a href="/media.html" class="nav-link">
+                    <div class="nav-item">Media</div>
+                </a>
+                <a href="/contact.html" class="nav-link">
+                    <div class="nav-item">Contact</div>
+                </a>
+            </nav>
+        </aside>
 
-
-<div id="flex">
-
-<aside id="leftSidebar"><h2>Updates</h2>
-<div class="box">
-    What am I doing these days!
-    <ul>
-        <li><b>April 2025</b> - Traveled to U.K to collaborate with Durham University</li>
-        <li><b>April 2025</b> - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
-        <li><b>July 2024</b> - Started this website!</li>
-        <li><b>July 2023</b> - Started my PhD</li>
-    </ul>
-</div>
-
-
-<h2> Say Hello!</h2> 
-
-<div >
-    <img 
-        src="\Assets\KappyIdle.png" 
-        alt="Koffee Koala" 
-        class="KappySidebar"
-    />
-</div>
-
-<p></p>
-
-<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
-
-
-<h2>Find Me Online</h2>
-<ul>
-    <li>
-        <a href="https://aus.social/@AuntyRed/" target="_blank"
-            >Mastodon</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.youtube.com/@CameronJones-dj8mml"
-            target="_blank"
-            >YouTube</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.linkedin.com/in/cameron-jones-sydney/"
-            target="_blank"
-            >LinkedIn</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://github.com/CJones-Optics/"
-            target="_blank"
-            >GitHub</a
-        >
-    </li>
-</ul>
-</aside>
-
-<main>
+        <!-- Main Content -->
+        <main class="main-content">
+            
 <h1 id="employment">1 Employment</h1>
 <h2 id="finisar---2021-2023---staff-engineer">
     1.1 Finisar - 2021-2023 - Staff Engineer
@@ -272,24 +228,82 @@
     <li>Adaptive Optics</li>
     <li>LCoS SLM - Digital Holography and Beam Steering</li>
 </ul>
-</main>
 
-</div>
-<footer id="footer">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-        <a href="/FeedList.html">
-            <img 
-            src="/Assets/RSS_Logo.png" 
-            alt="RSS Feed" 
-            style="width: 20px; height: 20px" 
-            />
-        </a>
-        <span style="font-size: 0.8em;">
-            <a href="/sitemap.xml">Sitemap</a>
-        </span>
+        </main>
+
+        <!-- Right Sidebar with More Art Nouveau Images -->
+        <aside class="right-sidebar">
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/212b0e55827378b538094641394e192f58cd05bc_2_324x500.png" alt="Art Nouveau Design 4" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/4898632498bf6f05a89445762f62e587924c2142_2_250x500.png" alt="Art Nouveau Design 5" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/65bdf453adc0cd8a0577e65dfa0fceb9f3c0670e_2_301x500.png" alt="Art Nouveau Design 6" />
+            </div>
+        </aside>
+
     </div>
-</footer>
+    
+    <style>
+        .code-block {
+            background-color: var(--color-bg-sidebar);
+            border: 1px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1em;
+            margin: 1em 0;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: monospace;
+        }
 
+        .sidebar-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s ease;
+        }
+
+        .nav-item {
+            background-color: var(--color-bg-sidebar);
+            border: 2px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover .nav-item {
+            background-color: var(--color-text-accent);
+            color: var(--color-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .sidebar-nav {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-item {
+                font-size: 0.9rem;
+                padding: 0.8rem;
+            }
+        }
+    </style>
+    
+    <script src="/scripts.js"></script>
+</body>
 </html>
-
-<script src="/scripts.js"></script>

@@ -31,36 +31,43 @@ layout: default.liquid
   }
   
   .media-bubble {
-    background-color: #e6e9ef;
-    border: 5px #8839ef dotted;
-    border-radius: 20px;
+    background-color: var(--color-bg-sidebar);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
     padding: 20px;
     text-align: center;
     width: 250px;
-    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
   }
   
   .media-bubble:hover {
-    transform: scale(1.05);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
   .media-bubble h2 {
     margin-top: 0;
+    color: var(--color-text-accent);
+    font-weight: bold;
   }
   
   .media-bubble a {
     display: inline-block;
-    background-color: #c9a2e2;
-    color: #8839ef;
+    background-color: var(--color-bg-sidebar);
+    color: var(--color-text);
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     text-decoration: none;
     font-weight: bold;
-    border: 2px solid #8839ef;
+    border: 2px solid var(--color-border);
+    transition: all 0.3s ease;
   }
   
   .media-bubble a:hover {
-    background-color: #8839ef;
-    color: #e6e9ef;
+    background-color: var(--color-text-accent);
+    color: var(--color-bg);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 </style>

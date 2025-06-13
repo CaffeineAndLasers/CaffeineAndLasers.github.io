@@ -3,14 +3,17 @@ title: Caffeine and Lasers
 layout: default.liquid
 ---
 
-<hr>
-<div style="text-align: center;">
-    <img src="\Assets\CaffineANdLasers.svg" alt="Coffee and Lasers" />
+<div class="header-image">
+    <img src="Assets/CaffineANdLasers.svg" alt="Coffee and Lasers" />
 </div>
-<hr>
 
-<h1>Welcome to my Website!</h1>
-<p><strong>Stick around for musings powered by coffee and lasers</strong></p>
+<h1>Welcome to my Website</h1>
+<p style="text-align: center; font-style: italic; font-size: 1.2rem; color: var(--color-text-accent);">
+    <strong>Stick around for musings powered by coffee and lasers</strong>
+</p>
+
+<div class="ornamental-divider"></div>
+
 <details>
     <summary><b>Quick Links</b></summary>
     <ul>
@@ -19,9 +22,10 @@ layout: default.liquid
         <li><a href="/contact.html">/contact</a></li>
         <li><a href="/Colophon.html">/colophon</a></li>
         <li><a href="/Resume.html">/resume</a></li>
+    </ul>
 </details>
 
-<details>
+<details class="art-nouveau-section">
     <summary><b>What Do I Do?</b></summary>
     <p>
         I use lasers to talk to satellites. Check out <a href="/blogs/phdAt5Levels">this blogpost</a> if you want to know what that means!
@@ -29,40 +33,39 @@ layout: default.liquid
     </p>
 </details>
 
-
 <h2>Latest Blog Post</h2>
 <div class="blog-posts-container">
-  <ul>
-  {% assign latest_post = collections.blogPosts | first %}
-  {% if latest_post %}
-    <li>
-      <a href="{{ latest_post.url }}">
-        {{ latest_post.date | date: "%Y-%m-%d" }}: {{ latest_post.data.title }}
-      </a>
-    </li>
-  {% else %}
-    <li>No blog posts yet!</li>
-  {% endif %}
-  </ul>
+    <ul>
+    {% assign latest_post = collections.blogPosts | first %}
+    {% if latest_post %}
+        <li>
+            <a href="{{ latest_post.url }}">
+                {{ latest_post.date | date: "%Y-%m-%d" }}: {{ latest_post.data.title }}
+            </a>
+        </li>
+    {% else %}
+        <li>No blog posts yet!</li>
+    {% endif %}
+    </ul>
 </div>
 
 <h2>Latest Note</h2>
-<div class="latest-note-container" style="border: 2px solid var(--color-primary-purple); border-radius: 10px; padding: 15px; margin: 10px 0;">
-  {% assign latest_note = collections.notes | first %}
-  {% if latest_note %}
-    <div class="note-content">
-      <h3>
-        <a href="{{ latest_note.url }}">
-          {{ latest_note.date | date: "%Y-%m-%d" }}: {{ latest_note.data.title }}
-        </a>
-      </h4>
-      <div class="note-body">
-        {{ latest_note.content }}
-      </div>
-    </div>
-  {% else %}
-    <p>No notes yet!</p>
-  {% endif %}
+<div class="latest-note-container">
+    {% assign latest_note = collections.notes | first %}
+    {% if latest_note %}
+        <div class="note-content">
+            <h3>
+                <a href="{{ latest_note.url }}">
+                    {{ latest_note.date | date: "%Y-%m-%d" }}: {{ latest_note.data.title }}
+                </a>
+            </h3>
+            <div class="note-body">
+                {{ latest_note.content }}
+            </div>
+        </div>
+    {% else %}
+        <p>No notes yet!</p>
+    {% endif %}
 </div>
 
 <h2>From Mastodon</h2>
@@ -74,42 +77,20 @@ layout: default.liquid
     });
 </script>
 
-<style>
-    .code-block {
-        background-color: #f4f4f4;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 1em;
-        margin: 1em 0;
-        overflow-x: auto;
-        white-space: pre-wrap;
-        word-wrap: break-word;
-        font-family: monospace;
-    }
-</style>
-
-
-
-<div style="border: 1px solid #ddd; padding: 20px; display: inline-block; text-align: center; margin-top: 20px; margin-left: auto; margin-right: auto;">
-
+<div class="button-grid">
     <a href="https://brainmade.org/"> 
-        <img src="\Assets\humanMadeButton.gif" alt="Brainmade" />
+        <img src="Assets/humanMadeButton.gif" alt="Brainmade" />
     </a>
-
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <img src="\Assets\rickroll.gif" alt="Rickroll" />
+        <img src="Assets/rickroll.gif" alt="Rickroll" />
     </a>
-
     <a href="feed.xml">
-        <img src="\Assets\rss-button.gif" alt="RSS" />
+        <img src="Assets/rss-button.gif" alt="RSS" />
     </a>
-
     <a href="index.html">
-        <img src="\Assets\CaffeineAndLasersButton.png" alt="Caffeine and Lasers" />
+        <img src="Assets/CaffeineAndLasersButton.png" alt="Caffeine and Lasers" />
     </a>
 </div>
-
-<p></p>
 
 <h2>Web Rings</h2>
 <div class="webring">
