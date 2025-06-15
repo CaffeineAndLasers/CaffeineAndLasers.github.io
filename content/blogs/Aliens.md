@@ -8,7 +8,7 @@ tags:
   - Science
 ---
 
-## \...They just aren\'t talking to us
+# ...They just aren't talking to us
 
 I read a paper exploring a novel explanation for why the universe is so
 darn quiet.
@@ -103,7 +103,7 @@ not have any large enough telescopes.
 So quite simply, it is so quiet, because the aliens are not talking to
 us.
 
-# 1 Source
+## Source
 Boyle, Latham. "On Interstellar Quantum Communication and the Fermi
 Paradox." arXiv, August 5, 2024.
 [https://doi.org/10.48550/arXiv.2408.02445](https://doi.org/10.48550/arXiv.2408.02445.).

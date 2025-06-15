@@ -1,98 +1,64 @@
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>An Introduction To LCOS</title></head>
+    <title>An Introduction To LCOS</title>
     <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
 </head>
 
-<div id="container"><div id="header"></div>
-    <div id="headerArea">
-    <nav id="navbar" style="margin-bottom: 0px;"><ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/notes.html">Notes & Links</a></li>
-            <li><a href="/Resources.html">Resources</a></li>
-            <li><a href="/media.html">Media</a></li>
-            <!-- This empty one feels immature -->
-            <!-- <li><a href="/publications.html">Publications</a></li>  -->
-            <!-- <li><a href="/Resume.html">Resume</a></li> -->
-            <li><a href="/contact.html">Contact Me</a></li>
-</ul></nav></div>
+<body>
+    <div class="art-nouveau-container">
+        
+        <!-- Left Sidebar with Navigation Links -->
+        <aside class="left-sidebar">
+            <nav class="sidebar-nav">
+                <a href="/" class="nav-link">
+                    <div class="nav-item">Homepage</div>
+                </a>
+                <a href="/blog.html" class="nav-link">
+                    <div class="nav-item">Blog Posts</div>
+                </a>
+                <a href="/notes.html" class="nav-link">
+                    <div class="nav-item">Notes</div>
+                </a>
+                <a href="/Resources.html" class="nav-link">
+                    <div class="nav-item">Resources</div>
+                </a>
+                <a href="/media.html" class="nav-link">
+                    <div class="nav-item">Media</div>
+                </a>
+                <a href="/contact.html" class="nav-link">
+                    <div class="nav-item">Contact</div>
+                </a>
+            </nav>
+            
+            <!-- Art Nouveau Images in Left Sidebar -->
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/204b0a7fd6b6bfc441ed3074709a4007eff91cd2_2_343x500.png" alt="Art Nouveau Design 1" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/2411d041e70b28159f78db3f6f00593f76841ce8_2_630x500.png" alt="Art Nouveau Design 2" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/24e0b80f895ee8e246f342b9ce55a2f0f7542296_2_339x500.png" alt="Art Nouveau Design 3" />
+            </div>
+        </aside>
 
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1 style="font-size:35px;">An Introduction To LCOS</h1>
 
-<div id="flex">
+            <div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+                <p><strong>Date:</strong> 2024-08-01</p>
+                <p><strong>Last Updated:</strong> </p>
+            </div>
 
-<aside id="leftSidebar"><h2>Updates</h2>
-<div class="box">
-    What am I doing these days!
-    <ul>
-        <li><b>April 2025</b> - Traveled to U.K to collaborate with Durham University</li>
-        <li><b>April 2025</b> - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
-        <li><b>July 2024</b> - Started this website!</li>
-        <li><b>July 2023</b> - Started my PhD</li>
-    </ul>
-</div>
-
-
-<h2> Say Hello!</h2> 
-
-<div >
-    <img 
-        src="\Assets\KappyIdle.png" 
-        alt="Koffee Koala" 
-        class="KappySidebar"
-    />
-</div>
-
-<p></p>
-
-<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
-
-
-<h2>Find Me Online</h2>
-<ul>
-    <li>
-        <a href="https://aus.social/@AuntyRed/" target="_blank"
-            >Mastodon</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.youtube.com/@CameronJones-dj8mml"
-            target="_blank"
-            >YouTube</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.linkedin.com/in/cameron-jones-sydney/"
-            target="_blank"
-            >LinkedIn</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://github.com/CJones-Optics/"
-            target="_blank"
-            >GitHub</a
-        >
-    </li>
-</ul>
-</aside>
-
-<main>
-
- <h1 style="font-size:35px;">An Introduction To LCOS</h1>
-
-<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
-  <p><strong>Date:</strong> 2024-08-01</p>
-  <p><strong>Last Updated:</strong> </p>
-</div>
-
-<p>From my time at Finisar I got to work extensively with <strong>L</strong>iquid
+            <p>From my time at Finisar I got to work extensively with <strong>L</strong>iquid
 <strong>C</strong>rystal <strong>o</strong>n <strong>S</strong>ilicon (LCOS), <strong>S</strong>patial <strong>L</strong>ight
 <strong>M</strong>odulators (SLMs). This page is my attempt to share a little of what
 I've learned, because it is such a cool technology that I hope others
@@ -120,13 +86,14 @@ makes the substance both electrically and optically active.</p>
 molecules who arrange themselves in a repeating lattice with both
 electrical and optical responses.</p>
 <p><img src="LCLattice.png" alt="Lattice of Liquid Crystals"></p>
-<h3>1.2.1 Electrical Properties of Liquid Crystals {#electrical-properties}</h3>
+<h2>Liquid Crystal Properties</h2>
+<h3>Electrical Properties of Liquid Crystals {#electrical-properties}</h3>
 <p>As a result of that free electron, when we expose a liquid crystal
 lattice to an electric field, the molecules will rotate, re-orienting
 themselves to point in the same direction of the electric field. This
 means that by applying a voltage, we can control the axis or the
 direction of our liquid crystal.</p>
-<h3>1.2.2 Optical Properties of Liquid Crystals {#optical-properties}</h3>
+<h3>Optical Properties of Liquid Crystals {#optical-properties}</h3>
 <p>That free electron also affects the optical properties of the light.
 This is because light is an electro-magnetic field, so the free electron
 will oscillate in harmony with the electric field of any light that
@@ -141,7 +108,7 @@ light hits the crystal at.</p>
 when you are driving a car, and your left tyre is slowed by a puddle,
 making you veer left. When light hits a slow patch at an angle it bends.
 This is how lenses (like the ones in your glasses works.)</p>
-<h2>1.2 Silicon</h2>
+<h2>Silicon</h2>
 <p>Now that we have gotten liquid crystals out of the way, lets talk about
 silicon technology. Undoubtedly computers have changed the world, but
 convenient side effect for us that work in optics, is that the computer
@@ -153,7 +120,7 @@ the liquid crystal between a silicon chip and a conductive transparent
 top glass. The silicon chip lets us apply a custom voltage anywhere in
 the x-y plane. That is, we can create an arbitrary electric field
 pattern across the liquid crystal.</p>
-<h1>2 Putting it all together {#putting-together-the-first-word}</h1>
+<h2>Putting it all together {#putting-together-the-first-word}</h2>
 <p>After all that, we are ready to understand what the device does. An LCoS
 is a device that allows you to apply any refractive index profile you
 want in an x-y plane. It does this by creating an arbitrary electric
@@ -163,12 +130,12 @@ strength. This contraption allows you modulate the phase of incoming
 light in space. This is why we call them a <strong>Spatial Light Modulator</strong>.</p>
 <p>In simple English. This is a lens, that we can reshape into any optical
 configuration from a computer.</p>
-<h1>3 Applications</h1>
+<h2>Applications</h2>
 <p>There are a surprising number of applications for LCOS SLMs, from Beam
 Steering, to <a href="https://arxiv.org/abs/1202.2078">photographing through walls and around
 corners</a>, but I want to talk about
 digital holography for now.</p>
-<h2>3.1 Digital Holography</h2>
+<h3>Digital Holography</h3>
 <p>Using spatial light phase modulation, we can use an SLM to create a real
 life holograms. The required necessary phase map to create a given
 hologram's amplitude map can be calculated using the Gerchburg Saxton
@@ -183,7 +150,7 @@ point in space. It would have worked better if I had a smoke machine on
 hand.</p>
 <p><img src="PhySocHologram.png" alt="Hologram of the word PHYSOC projected onto a carboard
 box"></p>
-<h3>3.1.1 Holographic Optical Tweezers</h3>
+<h4>Holographic Optical Tweezers</h4>
 <p>Aside from cool sci-fi implications of real life holograms replacing
 zoom calls, I would like to highlight one especially cool application of
 Computer Generated Holograms and LCOS SLMs, and that is Optical
@@ -201,7 +168,7 @@ You can see a demonstration below, where particles only 4.5 micrometers
 are being manipluated by such a device. <img src="HolographicOpticalTweezers.png" alt="A microscope photograph of
 microparticels aranged as numbers
 1-9"></p>
-<h2>3.2 Spy Stuff</h2>
+<h3>Spy Stuff</h3>
 <p>It turn out, the only difference between white paint and a mirror, is
 that white paint isn't very smooth. It reflects all the colours the
 same as a mirror, but scatters the light - reflecting it at different
@@ -214,32 +181,93 @@ were able to take photos around corners by photographing white paint,
 and through &quot;privacy&quot; glass. <img src="lookingAroundCorners.png" alt="extract of a scientific paper, showing
 the pheomena"> Credit: <a href="https://arxiv.org/abs/1202.2078">Katz, O.
 (2012)</a></p>
-<h1>4 Conclusion</h1>
+<h2>Conclusion</h2>
 <p>I hope you enjoyed this short introduction to my niche area of interest.
 There are plenty of cool applications for LCoS in the world of research
 and engineering, and if you ever get the chance to work with the, I
 would highly recommend it.</p>
 
 
+            <div id="c_widget"></div>
+            <script src="../../comment-widget/comment-widget.js"></script>
+        </main>
 
-<div id="c_widget"></div>
-<script src="../../comment-widget/comment-widget.js"></script>
-</main>
+        <!-- Right Sidebar with More Art Nouveau Images -->
+        <aside class="right-sidebar">
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/212b0e55827378b538094641394e192f58cd05bc_2_324x500.png" alt="Art Nouveau Design 4" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/4898632498bf6f05a89445762f62e587924c2142_2_250x500.png" alt="Art Nouveau Design 5" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/65bdf453adc0cd8a0577e65dfa0fceb9f3c0670e_2_301x500.png" alt="Art Nouveau Design 6" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/129bf6cd9443833f51c757b243681fab837cd0f9_2_245x500.png" alt="Art Nouveau Design 7" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/168d976d31eb1bd668726daf5362f73a8286971b_2_343x500.png" alt="Art Nouveau Design 8" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/1cbe305a3edb85f4f468419956eb6149fc3b70f4_2_225x500.png" alt="Art Nouveau Design 9" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/336eb62858f5d3e3f77cdd717da77b7119ade36c_2_678x500.png" alt="Art Nouveau Design 10" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/4b1ac2d5e232521e6509d73130f5c8872f35a9e1_2_349x500.png" alt="Art Nouveau Design 11" />
+            </div>
+        </aside>
 
-</div>
-<footer id="footer">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-        <a href="/FeedList.html">
-            <img 
-            src="/Assets/RSS_Logo.png" 
-            alt="RSS Feed" 
-            style="width: 20px; height: 20px" 
-            />
-        </a>
-        <span style="font-size: 0.8em;">
-            <a href="/sitemap.xml">Sitemap</a>
-        </span>
     </div>
-</footer>
+    
+    <style>
+        .sidebar-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
 
+        .nav-link {
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s ease;
+        }
+
+        .nav-item {
+            background-color: var(--color-bg-sidebar);
+            border: 2px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover .nav-item {
+            background-color: var(--color-text-accent);
+            color: var(--color-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .sidebar-nav {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-item {
+                font-size: 0.9rem;
+                padding: 0.8rem;
+            }
+        }
+    </style>
+    
+    <script src="/scripts.js"></script>
+</body>
 </html>

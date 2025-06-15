@@ -4,38 +4,147 @@ css: /styles.css
 nesting: ../../
 ---
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>{{ title }}</title></head>
+    <title>{{ title }}</title>
     <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="{{css}}">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
 </head>
 
-{% include "header.liquid" %}
+<body>
+    <div class="art-nouveau-container">
+        
+        <!-- Left Sidebar with Navigation Links -->
+        <aside class="left-sidebar">
+            <nav class="sidebar-nav">
+                <a href="/" class="nav-link">
+                    <div class="nav-item">Homepage</div>
+                </a>
+                <a href="/blog.html" class="nav-link">
+                    <div class="nav-item">Blog Posts</div>
+                </a>
+                <a href="/notes.html" class="nav-link">
+                    <div class="nav-item">Notes</div>
+                </a>
+                <a href="/Resources.html" class="nav-link">
+                    <div class="nav-item">Resources</div>
+                </a>
+                <a href="/media.html" class="nav-link">
+                    <div class="nav-item">Media</div>
+                </a>
+                <a href="/contact.html" class="nav-link">
+                    <div class="nav-item">Contact</div>
+                </a>
+            </nav>
+            
+            <!-- Art Nouveau Images in Left Sidebar -->
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/204b0a7fd6b6bfc441ed3074709a4007eff91cd2_2_343x500.png" alt="Art Nouveau Design 1" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/2411d041e70b28159f78db3f6f00593f76841ce8_2_630x500.png" alt="Art Nouveau Design 2" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/24e0b80f895ee8e246f342b9ce55a2f0f7542296_2_339x500.png" alt="Art Nouveau Design 3" />
+            </div>
+        </aside>
 
-<div id="flex">
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1 style="font-size:35px;">{{title}}</h1>
 
-<aside id="leftSidebar">{% include "sidebar.liquid" %}</aside>
+            <div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+                <p><strong>Date:</strong> {{ date | date: "%Y-%m-%d" }}</p>
+                <p><strong>Last Updated:</strong> {{ updated | date: "%Y-%m-%d" }}</p>
+            </div>
 
-<main>
+            {{ content }}
 
- <h1 style="font-size:35px;">{{title}}</h1>
+            <div id="c_widget"></div>
+            <script src="{{nesting}}comment-widget/comment-widget.js"></script>
+        </main>
 
-<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
-  <p><strong>Date:</strong> {{ date | date: "%Y-%m-%d" }}</p>
-  <p><strong>Last Updated:</strong> {{ updated | date: "%Y-%m-%d" }}</p>
-</div>
+        <!-- Right Sidebar with More Art Nouveau Images -->
+        <aside class="right-sidebar">
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/212b0e55827378b538094641394e192f58cd05bc_2_324x500.png" alt="Art Nouveau Design 4" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/4898632498bf6f05a89445762f62e587924c2142_2_250x500.png" alt="Art Nouveau Design 5" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/65bdf453adc0cd8a0577e65dfa0fceb9f3c0670e_2_301x500.png" alt="Art Nouveau Design 6" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/129bf6cd9443833f51c757b243681fab837cd0f9_2_245x500.png" alt="Art Nouveau Design 7" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/168d976d31eb1bd668726daf5362f73a8286971b_2_343x500.png" alt="Art Nouveau Design 8" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/1cbe305a3edb85f4f468419956eb6149fc3b70f4_2_225x500.png" alt="Art Nouveau Design 9" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/336eb62858f5d3e3f77cdd717da77b7119ade36c_2_678x500.png" alt="Art Nouveau Design 10" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="{{nesting}}Assets/ArtNovau/4b1ac2d5e232521e6509d73130f5c8872f35a9e1_2_349x500.png" alt="Art Nouveau Design 11" />
+            </div>
+        </aside>
 
-{{ content }}
+    </div>
+    
+    <style>
+        .sidebar-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
 
+        .nav-link {
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s ease;
+        }
 
-<div id="c_widget"></div>
-<script src="{{nesting}}comment-widget/comment-widget.js"></script>
-</main>
+        .nav-item {
+            background-color: var(--color-bg-sidebar);
+            border: 2px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
 
-</div>
-{% include "footer.liquid" %}
+        .nav-link:hover .nav-item {
+            background-color: var(--color-text-accent);
+            color: var(--color-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
+        @media (max-width: 768px) {
+            .sidebar-nav {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-item {
+                font-size: 0.9rem;
+                padding: 0.8rem;
+            }
+        }
+    </style>
+    
+    <script src="/scripts.js"></script>
+</body>
 </html>

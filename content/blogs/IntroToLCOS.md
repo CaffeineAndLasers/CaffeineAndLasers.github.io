@@ -45,7 +45,9 @@ electrical and optical responses.
 
 ![Lattice of Liquid Crystals](LCLattice.png)
 
-### 1.2.1 Electrical Properties of Liquid Crystals {#electrical-properties}
+## Liquid Crystal Properties
+
+### Electrical Properties of Liquid Crystals {#electrical-properties}
 
 As a result of that free electron, when we expose a liquid crystal
 lattice to an electric field, the molecules will rotate, re-orienting
@@ -53,7 +55,7 @@ themselves to point in the same direction of the electric field. This
 means that by applying a voltage, we can control the axis or the
 direction of our liquid crystal.
 
-### 1.2.2 Optical Properties of Liquid Crystals {#optical-properties}
+### Optical Properties of Liquid Crystals {#optical-properties}
 
 That free electron also affects the optical properties of the light.
 This is because light is an electro-magnetic field, so the free electron
@@ -71,7 +73,7 @@ when you are driving a car, and your left tyre is slowed by a puddle,
 making you veer left. When light hits a slow patch at an angle it bends.
 This is how lenses (like the ones in your glasses works.)
 
-## 1.2 Silicon
+## Silicon
 
 Now that we have gotten liquid crystals out of the way, lets talk about
 silicon technology. Undoubtedly computers have changed the world, but
@@ -86,7 +88,7 @@ top glass. The silicon chip lets us apply a custom voltage anywhere in
 the x-y plane. That is, we can create an arbitrary electric field
 pattern across the liquid crystal.
 
-# 2 Putting it all together {#putting-together-the-first-word}
+## Putting it all together {#putting-together-the-first-word}
 
 After all that, we are ready to understand what the device does. An LCoS
 is a device that allows you to apply any refractive index profile you
@@ -99,14 +101,14 @@ light in space. This is why we call them a **Spatial Light Modulator**.
 In simple English. This is a lens, that we can reshape into any optical
 configuration from a computer.
 
-# 3 Applications
+## Applications
 
 There are a surprising number of applications for LCOS SLMs, from Beam
 Steering, to [photographing through walls and around
 corners](https://arxiv.org/abs/1202.2078), but I want to talk about
 digital holography for now.
 
-## 3.1 Digital Holography
+### Digital Holography
 
 Using spatial light phase modulation, we can use an SLM to create a real
 life holograms. The required necessary phase map to create a given
@@ -126,7 +128,7 @@ hand.
 ![Hologram of the word PHYSOC projected onto a carboard
 box](PhySocHologram.png)
 
-### 3.1.1 Holographic Optical Tweezers
+#### Holographic Optical Tweezers
 
 Aside from cool sci-fi implications of real life holograms replacing
 zoom calls, I would like to highlight one especially cool application of
@@ -146,7 +148,7 @@ are being manipluated by such a device. ![A microscope photograph of
 microparticels aranged as numbers
 1-9](HolographicOpticalTweezers.png)
 
-## 3.2 Spy Stuff
+### Spy Stuff
 
 It turn out, the only difference between white paint and a mirror, is
 that white paint isn\'t very smooth. It reflects all the colours the
@@ -162,7 +164,7 @@ and through \"privacy\" glass. ![extract of a scientific paper, showing
 the pheomena](lookingAroundCorners.png) Credit: [Katz, O.
 (2012)](https://arxiv.org/abs/1202.2078)
 
-# 4 Conclusion
+## Conclusion
 
 I hope you enjoyed this short introduction to my niche area of interest.
 There are plenty of cool applications for LCoS in the world of research

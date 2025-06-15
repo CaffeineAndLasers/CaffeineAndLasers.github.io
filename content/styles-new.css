@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+    /* Art Nouveau Color Palette */
+    --color-primary-gold: #d4af37;
+    --color-primary-bronze: #cd7f32;
+    --color-primary-sage: #9caf88;
+    --color-primary-cream: #f5f5dc;
+    --color-primary-terracotta: #e2725b;
+    
+    /* Background Colors */
+    --color-bg-main: #faf8f1;
+    --color-bg-dark: #2c3e50;
+    --color-bg-sidebar: #f8f6f0;
+    --color-bg-accent: rgba(212, 175, 55, 0.1);
+    
+    /* Text Colors */
+    --color-text-main: #2c3e50;
+    --color-text-accent: #8b4513;
+    --color-text-light: #6b7280;
+    
+    /* Border and Decoration */
+    --color-border: #d4af37;
+    --color-ornament: #cd7f32;
+    
+    /* Typography */
+    --font-serif: 'Playfair Display', serif;
+    --font-display: 'Cinzel', serif;
+    
+    /* Spacing and Layout */
+    --border-radius: 0px;
+    --ornament-size: 3px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-serif);
+    background-color: var(--color-bg-main);
+    color: var(--color-text-main);
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Art Nouveau Container Layout */
+.art-nouveau-container {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-areas: 
+        "left-sidebar main right-sidebar";
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Left Sidebar with Art Nouveau Images */
+.left-sidebar {
+    grid-area: left-sidebar;
+    background-color: var(--color-bg-sidebar);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.art-nouveau-frame {
+    border: 3px solid var(--color-ornament);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.art-nouveau-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.art-nouveau-frame::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        45deg,
+        transparent 30%,
+        rgba(212, 175, 55, 0.1) 50%,
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+/* Main Content Area */
+.main-content {
+    grid-area: main;
+    background-color: var(--color-bg-main);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 40px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.main-content::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid var(--color-ornament);
+    border-radius: var(--border-radius);
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+    grid-area: right-sidebar;
+    background-color: var(--color-bg-sidebar);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 20px;
+}
+
+/* Typography */
+h1 {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-primary-bronze);
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+h1::after {
+    content: '◆';
+    display: block;
+    font-size: 1rem;
+    color: var(--color-primary-gold);
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-text-accent);
+    margin: 2rem 0 1rem 0;
+    position: relative;
+    border-bottom: 2px solid var(--color-primary-gold);
+    padding-bottom: 0.5rem;
+}
+
+h2::before {
+    content: '❦';
+    color: var(--color-primary-gold);
+    margin-right: 10px;
+}
+
+h3 {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-text-accent);
+    margin: 1.5rem 0 0.75rem 0;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Links */
+a {
+    color: var(--color-primary-bronze);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-primary-gold);
+    text-decoration: underline;
+}
+
+/* Art Nouveau Decorative Elements */
+hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--color-primary-gold),
+        var(--color-primary-bronze),
+        var(--color-primary-gold),
+        transparent
+    );
+    margin: 2rem 0;
+    position: relative;
+}
+
+hr::before {
+    content: '❦';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--color-bg-main);
+    color: var(--color-primary-gold);
+    padding: 0 15px;
+    font-size: 1.2rem;
+}
+
+/* Content Boxes */
+.content-box {
+    background-color: var(--color-bg-accent);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.latest-note-container {
+    background-color: var(--color-bg-accent);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.blog-posts-container {
+    background-color: var(--color-bg-accent);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+/* Details styling */
+details {
+    background-color: var(--color-bg-accent);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+summary {
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--color-text-accent);
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+}
+
+summary::before {
+    content: '▶';
+    position: absolute;
+    left: 0;
+    color: var(--color-primary-gold);
+    transition: transform 0.3s ease;
+}
+
+details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+/* Lists */
+ul {
+    padding-left: 2rem;
+    margin: 1rem 0;
+}
+
+li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+/* Code blocks */
+.code-block, pre {
+    background-color: var(--color-bg-sidebar);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin: 1rem 0;
+    font-family: 'Courier New', monospace;
+    overflow-x: auto;
+}
+
+/* Header Image */
+.header-image {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.header-image img {
+    max-width: 300px;
+    height: auto;
+    border: 3px solid var(--color-border);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Button Grid */
+.button-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: var(--color-bg-accent);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+}
+
+.button-grid img {
+    max-height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.button-grid img:hover {
+    transform: scale(1.1);
+}
+
+/* Web Ring */
+.webring {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-bg-accent);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin: 1rem 0;
+    font-family: var(--font-display);
+}
+
+.webring_previous, .webring_next {
+    color: var(--color-primary-bronze);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.webring_center {
+    text-align: center;
+}
+
+.webring_name {
+    font-weight: 700;
+    color: var(--color-text-accent);
+    text-decoration: none;
+}
+
+.webring_small {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .art-nouveau-container {
+        grid-template-columns: 250px 1fr 250px;
+    }
+}
+
+@media (max-width: 900px) {
+    .art-nouveau-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "main"
+            "left-sidebar"
+            "right-sidebar";
+    }
+    
+    .left-sidebar, .right-sidebar {
+        display: none; /* Hide sidebars on mobile for cleaner look */
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .art-nouveau-container {
+        padding: 10px;
+    }
+    
+    .main-content {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}

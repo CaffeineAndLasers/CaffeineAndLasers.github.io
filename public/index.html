@@ -1,4 +1,6 @@
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,90 +13,58 @@
     <link rel="canonical" href="https://caffeineandlasers.com/">
 </head>
 
-<div id="container"><div id="header"></div>
-    <div id="headerArea">
-    <nav id="navbar" style="margin-bottom: 0px;"><ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/notes.html">Notes & Links</a></li>
-            <li><a href="/Resources.html">Resources</a></li>
-            <li><a href="/media.html">Media</a></li>
-            <!-- This empty one feels immature -->
-            <!-- <li><a href="/publications.html">Publications</a></li>  -->
-            <!-- <li><a href="/Resume.html">Resume</a></li> -->
-            <li><a href="/contact.html">Contact Me</a></li>
-</ul></nav></div>
+<body>
+    <div class="art-nouveau-container">
+        
+        <!-- Left Sidebar with Navigation Links -->
+        <aside class="left-sidebar">
+            <nav class="sidebar-nav">
+                <a href="/" class="nav-link">
+                    <div class="nav-item">Home</div>
+                </a>
+                <a href="/blog.html" class="nav-link">
+                    <div class="nav-item">Blog Posts</div>
+                </a>
+                <a href="/notes.html" class="nav-link">
+                    <div class="nav-item">Notes</div>
+                </a>
+                <a href="/Resources.html" class="nav-link">
+                    <div class="nav-item">Resources</div>
+                </a>
+                <a href="/media.html" class="nav-link">
+                    <div class="nav-item">Media</div>
+                </a>
+                <a href="/contact.html" class="nav-link">
+                    <div class="nav-item">Contact</div>
+                </a>
+            </nav>
+            
+            <!-- Art Nouveau Images in Left Sidebar -->
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/204b0a7fd6b6bfc441ed3074709a4007eff91cd2_2_343x500.png" alt="Art Nouveau Design 1" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/2411d041e70b28159f78db3f6f00593f76841ce8_2_630x500.png" alt="Art Nouveau Design 2" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/24e0b80f895ee8e246f342b9ce55a2f0f7542296_2_339x500.png" alt="Art Nouveau Design 3" />
+            </div>
+        </aside>
 
-
-<div id="flex">
-
-<aside id="leftSidebar"><h2>Updates</h2>
-<div class="box">
-    What am I doing these days!
-    <ul>
-        <li><b>April 2025</b> - Traveled to U.K to collaborate with Durham University</li>
-        <li><b>April 2025</b> - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
-        <li><b>July 2024</b> - Started this website!</li>
-        <li><b>July 2023</b> - Started my PhD</li>
-    </ul>
+        <!-- Main Content -->
+        <main class="main-content">
+            
+<div class="header-image">
+    <img src="Assets/CaffineANdLasers.svg" alt="Coffee and Lasers" />
 </div>
 
+<h1>Welcome to my Website</h1>
+<p style="text-align: center; font-style: italic; font-size: 1.2rem; color: var(--color-text-accent);">
+    <strong>Stick around for musings powered by coffee and lasers</strong>
+</p>
 
-<h2> Say Hello!</h2> 
+<div class="ornamental-divider"></div>
 
-<div >
-    <img 
-        src="\Assets\KappyIdle.png" 
-        alt="Koffee Koala" 
-        class="KappySidebar"
-    />
-</div>
-
-<p></p>
-
-<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
-
-
-<h2>Find Me Online</h2>
-<ul>
-    <li>
-        <a href="https://aus.social/@AuntyRed/" target="_blank"
-            >Mastodon</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.youtube.com/@CameronJones-dj8mml"
-            target="_blank"
-            >YouTube</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.linkedin.com/in/cameron-jones-sydney/"
-            target="_blank"
-            >LinkedIn</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://github.com/CJones-Optics/"
-            target="_blank"
-            >GitHub</a
-        >
-    </li>
-</ul>
-</aside>
-
-<main>
-<hr>
-<div style="text-align: center;">
-    <img src="\Assets\CaffineANdLasers.svg" alt="Coffee and Lasers" />
-</div>
-<hr>
-
-<h1>Welcome to my Website!</h1>
-<p><strong>Stick around for musings powered by coffee and lasers</strong></p>
 <details>
     <summary><b>Quick Links</b></summary>
     <ul>
@@ -103,9 +73,10 @@
         <li><a href="/contact.html">/contact</a></li>
         <li><a href="/Colophon.html">/colophon</a></li>
         <li><a href="/Resume.html">/resume</a></li>
+    </ul>
 </details>
 
-<details>
+<details class="art-nouveau-section">
     <summary><b>What Do I Do?</b></summary>
     <p>
         I use lasers to talk to satellites. Check out <a href="/blogs/phdAt5Levels">this blogpost</a> if you want to know what that means!
@@ -113,42 +84,41 @@
     </p>
 </details>
 
-
 <h2>Latest Blog Post</h2>
 <div class="blog-posts-container">
-  <ul>
-  
-  
-    <li>
-      <a href="/blogs/TranshumanisminaTechnofeudalSociety.html">
-        2025-06-04: Transhumanism in a Technofeudal Society
-      </a>
-    </li>
-  
-  </ul>
+    <ul>
+    
+    
+        <li>
+            <a href="/blogs/TranshumanisminaTechnofeudalSociety.html">
+                2025-06-04: Transhumanism in a Technofeudal Society
+            </a>
+        </li>
+    
+    </ul>
 </div>
 
 <h2>Latest Note</h2>
-<div class="latest-note-container" style="border: 2px solid var(--color-primary-purple); border-radius: 10px; padding: 15px; margin: 10px 0;">
-  
-  
-    <div class="note-content">
-      <h3>
-        <a href="/notes/Agreatexcerptfromthehappinessofdogs.html">
-          2025-06-01: A great excerpt from the happiness of dogs
-        </a>
-      </h4>
-      <div class="note-body">
-        <p><em>The following is a paraphrased exerpt from Mark Rowland's book &quot;The Happiness of Dogs&quot;. I haven't finished it yet, but even from chapter one I would reccomend it.</em></p>
+<div class="latest-note-container">
+    
+    
+        <div class="note-content">
+            <h3>
+                <a href="/notes/Agreatexcerptfromthehappinessofdogs.html">
+                    2025-06-01: A great excerpt from the happiness of dogs
+                </a>
+            </h3>
+            <div class="note-body">
+                <p><em>The following is a paraphrased exerpt from Mark Rowland's book &quot;The Happiness of Dogs&quot;. I haven't finished it yet, but even from chapter one I would reccomend it.</em></p>
 <p>Okay, so according to Camus, in order to understand life's meaning we must: &quot;imagine Sisyphus Happy&quot;. Most reasonable people will respond, &quot;but how&quot; after all, repetition is the practically the definition of boring</p>
 <p>&quot;Well let me tell you about my dog&quot; says Mark Rowlands</p>
 <p>Every day I take him for a walk along the canals. And every day he runs along the bank, scaring the local iguanas to the other side of the canal, where they will stay until the next morning, and my dog will repeat the task.
 Not only does my dog accept his iguana herding duties with zeal, it seems to be his favorite part of the day</p>
 <p><em><strong>&quot;Finding meaning in life is difficult for us, but easy for dogs. The consequences of this insight are profound and unsettling&quot;</strong></em> (Actual quote)</p>
 
-      </div>
-    </div>
-  
+            </div>
+        </div>
+    
 </div>
 
 <h2>From Mastodon</h2>
@@ -160,42 +130,20 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
     });
 </script>
 
-<style>
-    .code-block {
-        background-color: #f4f4f4;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 1em;
-        margin: 1em 0;
-        overflow-x: auto;
-        white-space: pre-wrap;
-        word-wrap: break-word;
-        font-family: monospace;
-    }
-</style>
-
-
-
-<div style="border: 1px solid #ddd; padding: 20px; display: inline-block; text-align: center; margin-top: 20px; margin-left: auto; margin-right: auto;">
-
+<div class="button-grid">
     <a href="https://brainmade.org/"> 
-        <img src="\Assets\humanMadeButton.gif" alt="Brainmade" />
+        <img src="Assets/humanMadeButton.gif" alt="Brainmade" />
     </a>
-
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <img src="\Assets\rickroll.gif" alt="Rickroll" />
+        <img src="Assets/rickroll.gif" alt="Rickroll" />
     </a>
-
     <a href="feed.xml">
-        <img src="\Assets\rss-button.gif" alt="RSS" />
+        <img src="Assets/rss-button.gif" alt="RSS" />
     </a>
-
     <a href="index.html">
-        <img src="\Assets\CaffeineAndLasersButton.png" alt="Caffeine and Lasers" />
+        <img src="Assets/CaffeineAndLasersButton.png" alt="Caffeine and Lasers" />
     </a>
 </div>
-
-<p></p>
 
 <h2>Web Rings</h2>
 <div class="webring">
@@ -217,24 +165,97 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
 </div>
 
 
-</main>
 
-</div>
-<footer id="footer">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-        <a href="/FeedList.html">
-            <img 
-            src="/Assets/RSS_Logo.png" 
-            alt="RSS Feed" 
-            style="width: 20px; height: 20px" 
-            />
-        </a>
-        <span style="font-size: 0.8em;">
-            <a href="/sitemap.xml">Sitemap</a>
-        </span>
+        </main>
+
+        <!-- Right Sidebar with More Art Nouveau Images -->
+        <aside class="right-sidebar">
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/212b0e55827378b538094641394e192f58cd05bc_2_324x500.png" alt="Art Nouveau Design 4" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/4898632498bf6f05a89445762f62e587924c2142_2_250x500.png" alt="Art Nouveau Design 5" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/65bdf453adc0cd8a0577e65dfa0fceb9f3c0670e_2_301x500.png" alt="Art Nouveau Design 6" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/129bf6cd9443833f51c757b243681fab837cd0f9_2_245x500.png" alt="Art Nouveau Design 7" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/168d976d31eb1bd668726daf5362f73a8286971b_2_343x500.png" alt="Art Nouveau Design 8" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/1cbe305a3edb85f4f468419956eb6149fc3b70f4_2_225x500.png" alt="Art Nouveau Design 9" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/336eb62858f5d3e3f77cdd717da77b7119ade36c_2_678x500.png" alt="Art Nouveau Design 10" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/4b1ac2d5e232521e6509d73130f5c8872f35a9e1_2_349x500.png" alt="Art Nouveau Design 11" />
+            </div>
+        </aside>
+
     </div>
-</footer>
+    
+    <style>
+        .code-block {
+            background-color: var(--color-bg-sidebar);
+            border: 1px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1em;
+            margin: 1em 0;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: monospace;
+        }
 
+        .sidebar-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s ease;
+        }
+
+        .nav-item {
+            background-color: var(--color-bg-sidebar);
+            border: 2px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover .nav-item {
+            background-color: var(--color-text-accent);
+            color: var(--color-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .sidebar-nav {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-item {
+                font-size: 0.9rem;
+                padding: 0.8rem;
+            }
+        }
+    </style>
+    
+    <script src="/scripts.js"></script>
+</body>
 </html>
-
-<script src="/scripts.js"></script>

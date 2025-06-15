@@ -9,7 +9,7 @@ tags:
 ---
 
 
-# 1 Background
+## 1 Background
 A while back, I wrote a quick explainer on how to set up your own RSS feed for your site. It was pretty straightforward, and expalined how to hard-code it. 
 
 Then I got lazy, updating the `feed.xml`  file every time I wrote a blog post was becoming a pain. 
@@ -17,11 +17,11 @@ Then I got lazy, updating the `feed.xml`  file every time I wrote a blog post wa
 To resolve this, I opted to use 11ty to auto-update the RSS feed every time I added a new blog-post. This very post will get auto-updated to the RSS feed. I already used 11ty for automating other parts of my site, so this was just a natural extension. 
 
 
-# 2 Setting Up Your Environment
-## 2.1 Setting Up Eleventy
+## 2 Setting Up Your Environment
+### 2.1 Setting Up Eleventy
 Go follow [PetraPixels Tutorial](https://petrapixel.neocities.org/coding/eleventy-tutorial) she explains it better than me. From here I will assume you have it set-up somewhat like hers? Deal? Deal!
 
-## 2.2 Your Folder Structure
+### 2.2 Your Folder Structure
 I am assuming that all your blogposts are in their own sub-directory. So if your folder structure looks like this
 
 ------------------------------------------------------------------------
@@ -38,7 +38,7 @@ I am assuming that all your blogposts are in their own sub-directory. So if your
 
 ------------------------------------------------------------------------
 
-# 3 Creating Your RSS Template
+## 3 Creating Your RSS Template
 
 Okay, you did everything and followed Petra's advice? Okay good. Now lets add the required properties to all our blogposts. For every post lets upate the yaml:
 
@@ -73,7 +73,7 @@ layout: blogpost.liquid
 
 ------------------------------------------------------------------------
 
-# 4 Update your .eleventy.js File
+## 4 Update your .eleventy.js File
 
 We are adding two more functions to the `.eleventy.js` file. The first one `addCollection` just looks for the folder of blog posts, and grabs all the `html`  file (or `md` files). This is used by the template later. The second just formats the dates nicely. 
 
@@ -102,7 +102,7 @@ module.exports = function (eleventyConfig) {
 
 ------------------------------------------------------------------------
 
-# 5 Update the Feed File
+## 5 Update the Feed File
 
 Final step! Lets fix up your feed. Create or edit your rss feed file. Mine is `feed.xml`
 
@@ -140,11 +140,11 @@ eleventyExcludeFromCollections: true
 
 What is going on here? The important bit is in-between  `{% for post in collections.blogPosts %}` and `{% endfor %}`. This section tells 11ty to go though all the files in the  blogs directory, and generates an RSS entry from all those properties  we went through and added earlier. 
 
-# 6 Extension: Automating other parts of your page!
+## 6 Extension: Automating other parts of your page!
 
 There is no reason to limit ourselves to automating the RSS page. 
 
-## 6.1 Every Blogpost in bullet points
+### 6.1 Every Blogpost in bullet points
 
 Here is a html snipped which will tell 11ty to put every blog post in the folder in dot-points. Use your CSS skills to snazzy it up using the `blog-posts-container` class. 
 
@@ -170,7 +170,7 @@ Here is a html snipped which will tell 11ty to put every blog post in the folder
 ------------------------------------------------------------------------
 
 
-## 6.2 Most Recent Blogpost
+### 6.2 Most Recent Blogpost
 
 Okay, what if we want to put only the most recent blogpost on our home page. Try out this one
 

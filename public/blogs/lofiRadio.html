@@ -1,104 +1,71 @@
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>LoFi Terminal</title></head>
+    <title>LoFi Terminal</title>
     <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
 </head>
 
-<div id="container"><div id="header"></div>
-    <div id="headerArea">
-    <nav id="navbar" style="margin-bottom: 0px;"><ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/notes.html">Notes & Links</a></li>
-            <li><a href="/Resources.html">Resources</a></li>
-            <li><a href="/media.html">Media</a></li>
-            <!-- This empty one feels immature -->
-            <!-- <li><a href="/publications.html">Publications</a></li>  -->
-            <!-- <li><a href="/Resume.html">Resume</a></li> -->
-            <li><a href="/contact.html">Contact Me</a></li>
-</ul></nav></div>
+<body>
+    <div class="art-nouveau-container">
+        
+        <!-- Left Sidebar with Navigation Links -->
+        <aside class="left-sidebar">
+            <nav class="sidebar-nav">
+                <a href="/" class="nav-link">
+                    <div class="nav-item">Homepage</div>
+                </a>
+                <a href="/blog.html" class="nav-link">
+                    <div class="nav-item">Blog Posts</div>
+                </a>
+                <a href="/notes.html" class="nav-link">
+                    <div class="nav-item">Notes</div>
+                </a>
+                <a href="/Resources.html" class="nav-link">
+                    <div class="nav-item">Resources</div>
+                </a>
+                <a href="/media.html" class="nav-link">
+                    <div class="nav-item">Media</div>
+                </a>
+                <a href="/contact.html" class="nav-link">
+                    <div class="nav-item">Contact</div>
+                </a>
+            </nav>
+            
+            <!-- Art Nouveau Images in Left Sidebar -->
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/204b0a7fd6b6bfc441ed3074709a4007eff91cd2_2_343x500.png" alt="Art Nouveau Design 1" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/2411d041e70b28159f78db3f6f00593f76841ce8_2_630x500.png" alt="Art Nouveau Design 2" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/24e0b80f895ee8e246f342b9ce55a2f0f7542296_2_339x500.png" alt="Art Nouveau Design 3" />
+            </div>
+        </aside>
 
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1 style="font-size:35px;">LoFi Terminal</h1>
 
-<div id="flex">
+            <div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+                <p><strong>Date:</strong> 2024-08-11</p>
+                <p><strong>Last Updated:</strong> </p>
+            </div>
 
-<aside id="leftSidebar"><h2>Updates</h2>
-<div class="box">
-    What am I doing these days!
-    <ul>
-        <li><b>April 2025</b> - Traveled to U.K to collaborate with Durham University</li>
-        <li><b>April 2025</b> - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
-        <li><b>July 2024</b> - Started this website!</li>
-        <li><b>July 2023</b> - Started my PhD</li>
-    </ul>
-</div>
-
-
-<h2> Say Hello!</h2> 
-
-<div >
-    <img 
-        src="\Assets\KappyIdle.png" 
-        alt="Koffee Koala" 
-        class="KappySidebar"
-    />
-</div>
-
-<p></p>
-
-<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
-
-
-<h2>Find Me Online</h2>
-<ul>
-    <li>
-        <a href="https://aus.social/@AuntyRed/" target="_blank"
-            >Mastodon</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.youtube.com/@CameronJones-dj8mml"
-            target="_blank"
-            >YouTube</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.linkedin.com/in/cameron-jones-sydney/"
-            target="_blank"
-            >LinkedIn</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://github.com/CJones-Optics/"
-            target="_blank"
-            >GitHub</a
-        >
-    </li>
-</ul>
-</aside>
-
-<main>
-
- <h1 style="font-size:35px;">LoFi Terminal</h1>
-
-<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
-  <p><strong>Date:</strong> 2024-08-11</p>
-  <p><strong>Last Updated:</strong> </p>
-</div>
-
-<h1>1 Announcing My LoFi Terminal Radio</h1>
+            <h1>LoFi Terminal Radio</h1>
+<h2>Announcing My LoFi Terminal Radio</h2>
 <p>This was a short weekend project I threw together to replace the
 perpetually open YouTube Tab for <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study
 to</a>. The result? A
 minimalist audio player that does its job without any frills. Here's
 why I created it and how it works.</p>
-<h1>2 What is it</h1>
+<h2>What is it</h2>
 <p>In short, it is an audio player with a very specific emphasis on
 being: - minimalist - distraction-free You cannot select tracks, replay
 tracks or go to the next track. This is a feature, not a shortcoming. If
@@ -106,7 +73,7 @@ you want different music, change the station.</p>
 <p>The aim of this is to provide an experience akin to radio. You can turn
 it on, change the volume and switch the channel, but the programming is
 up to the DJ.</p>
-<h1>3 Why Design it like this</h1>
+<h2>Why Design it like this</h2>
 <p>This program isn't to replace your spotify or main music player.
 Instead it is to replace your <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study
 to</a> Youtube tab that stays
@@ -124,7 +91,7 @@ super-overkill for listening to music. It wastes network bandwidth,
 computer memory, and CPU cycles. On top of this, it removes the
 distraction of fiddling with playlists but replaces it with the visual
 clutter of an unnecessary browser tab next to your actual work</p>
-<h1>4 My Solution</h1>
+<h2>My Solution</h2>
 <p>A tool to replace this should have 1. No way to select tracks or
 configure playlists from the UI 2. Stay out of the way when you aren't
 using it</p>
@@ -133,18 +100,18 @@ out of the way. Especially when I leave it running in my <a href="https://extens
 Terminal</a>
 extension for GNOME.</p>
 <p><img src="lofiRadio.png" alt="Screenshot of the UI"></p>
-<h1>5 Where Do I install it?</h1>
+<h2>Where Do I install it?</h2>
 <p>Install instructions at <a href="https://github.com/CJones-Optics/lofi-player">My
 Repo</a></p>
-<h1>6 Customising it</h1>
-<h2>6.1 Colours!</h2>
+<h2>Customising it</h2>
+<h3>Colours!</h3>
 <p>The UI is determined by css, with the colours defined at the top of the
 file. Change your colour scheme to whatever you want just by changing
 the hex codes at the top of the css file.</p>
-<h2>6.2 Keybindings!</h2>
+<h3>Keybindings!</h3>
 <p>Don't like vim? Iwon't hold it against you. There is a simple text
 file of the keybindings. Change the key to whatever you need.</p>
-<h1>7 Does it work on:</h1>
+<h2>Does it work on:</h2>
 <ul>
 <li>Linux
 <ul>
@@ -166,15 +133,15 @@ fixed when I get around to it.</li>
 </ul>
 </li>
 </ul>
-<h1>8 This is all well and good, but who has MP3 files anymore?</h1>
+<h2>This is all well and good, but who has MP3 files anymore?</h2>
 <p>You got me there! Spotify support isn't really something I can be
 bothered messing with. Instead, I built my playlists from the Royalty
 Free resources available at
 <a href="https://pixabay.com/music/search/lofi/">Pixbay</a>, but for artists, you
 are genuinely fond of you can actually support them by buying their
 music through Bandcamp.</p>
-<h1>9 Technical Details</h1>
-<h2>9.1 Frameworks</h2>
+<h2>Technical Details</h2>
+<h3>Frameworks</h3>
 <ul>
 <li>Both the backend and UI are written in Python
 <ul>
@@ -184,7 +151,7 @@ tcss for a css-like experience configuring the UI</li>
 </ul>
 </li>
 </ul>
-<h2>9.2 How it works:</h2>
+<h3>How it works:</h3>
 <ul>
 <li>The player process grabs a directory of mp3 files, and a playlist
 object grabs each file one at a time, and throws it at the player
@@ -192,7 +159,7 @@ object when it needs a new song.</li>
 <li>A queue is used to pass commands from the UI in TUI.py, to the
 process in musicPlayer.py and messages back in the other direction.</li>
 </ul>
-<h2>9.3 Customisability</h2>
+<h3>Customisability</h3>
 <p>At the moment the application is optimised for my specific use case. And
 I am very opinionated. This means: -The entire program is controlled
 from the keyboard, with vim keybindings - No &quot;Next&quot; button is exposed
@@ -205,7 +172,7 @@ repo has a spare folder for GUI elements I designed, (then removed) to
 get you started.</p>
 <p>The process also already has a command written for the next track. You
 only need to add the UI element if you really want it.</p>
-<h1>10 Future Changes</h1>
+<h2>Future Changes</h2>
 <p>Future changes are unlikely because it currently fits my use case.
 However for the sake of completeness, here is how I may extend the
 application. - Custom theming. - At the moment I have a Catpuccino theme
@@ -221,32 +188,93 @@ eventually.\</p>
 <ul>
 <li>GUI Support Cont: Implement a list feature for all the stations.</li>
 </ul>
-<h1>11 Conclusion</h1>
+<h2>Conclusion</h2>
 <p>The LoFi Terminal Radio aims to provide a distraction-free,
 resource-efficient alternative to streaming background music. If you're
 looking for a minimalist approach to your work soundtrack, give it a
 try! Feedback and contributions are always welcome.</p>
 
 
+            <div id="c_widget"></div>
+            <script src="../../comment-widget/comment-widget.js"></script>
+        </main>
 
-<div id="c_widget"></div>
-<script src="../../comment-widget/comment-widget.js"></script>
-</main>
+        <!-- Right Sidebar with More Art Nouveau Images -->
+        <aside class="right-sidebar">
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/212b0e55827378b538094641394e192f58cd05bc_2_324x500.png" alt="Art Nouveau Design 4" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/4898632498bf6f05a89445762f62e587924c2142_2_250x500.png" alt="Art Nouveau Design 5" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/65bdf453adc0cd8a0577e65dfa0fceb9f3c0670e_2_301x500.png" alt="Art Nouveau Design 6" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/129bf6cd9443833f51c757b243681fab837cd0f9_2_245x500.png" alt="Art Nouveau Design 7" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/168d976d31eb1bd668726daf5362f73a8286971b_2_343x500.png" alt="Art Nouveau Design 8" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/1cbe305a3edb85f4f468419956eb6149fc3b70f4_2_225x500.png" alt="Art Nouveau Design 9" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/336eb62858f5d3e3f77cdd717da77b7119ade36c_2_678x500.png" alt="Art Nouveau Design 10" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="../../Assets/ArtNovau/4b1ac2d5e232521e6509d73130f5c8872f35a9e1_2_349x500.png" alt="Art Nouveau Design 11" />
+            </div>
+        </aside>
 
-</div>
-<footer id="footer">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-        <a href="/FeedList.html">
-            <img 
-            src="/Assets/RSS_Logo.png" 
-            alt="RSS Feed" 
-            style="width: 20px; height: 20px" 
-            />
-        </a>
-        <span style="font-size: 0.8em;">
-            <a href="/sitemap.xml">Sitemap</a>
-        </span>
     </div>
-</footer>
+    
+    <style>
+        .sidebar-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
 
+        .nav-link {
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s ease;
+        }
+
+        .nav-item {
+            background-color: var(--color-bg-sidebar);
+            border: 2px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover .nav-item {
+            background-color: var(--color-text-accent);
+            color: var(--color-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .sidebar-nav {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-item {
+                font-size: 0.9rem;
+                padding: 0.8rem;
+            }
+        }
+    </style>
+    
+    <script src="/scripts.js"></script>
+</body>
 </html>

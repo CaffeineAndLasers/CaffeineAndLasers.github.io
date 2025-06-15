@@ -19,7 +19,7 @@ Here are four observations from two scientific papers on the practice of
 coffee grinding. Experienced coffee nerds might know some of these
 intuitively, but now we have graphs to back them up.
 
-## 1. Study One: Chemical strategies to mitigate electrostatic charging during coffee grinding
+## Study One: Chemical strategies to mitigate electrostatic charging during coffee grinding
 
 One interesting aspect of coffee grinding is the role of electrostatic
 charges. When you grind coffee, the particles become charged, causing
@@ -34,7 +34,7 @@ through only part of the coffee bed. The result is a cup of coffee
 that's less flavorful and more bitter than it should be. This paper
 quantifies two strategies used to minimize this effect.
 
-### 1.1 Electrical De-ionizers
+### Electrical De-ionizers
 
 Many modern "luxury" grinders include high-voltage ionizers fitted on
 the exit chute of the grinder. The idea behind this device is to bombard
@@ -65,7 +65,7 @@ coffee grinds does not cause the clumps to dissipate on their own,
 perhaps it can make them easier to break apart with a coffee
 distribution tool?
 
-### 1.2 Spritzing the beans with water.
+### Spritzing the beans with water.
 
 Another method for reducing static is much simpler: just spritz your
 coffee beans with a little water before grinding. The idea is that the
@@ -87,14 +87,14 @@ also illustrated in figure 5.
 
 ![](CoffeeGrindsPaper1Fig5.png)
 
-### 1.3 Lessons from this paper
+### Lessons from this paper
 
 -   Grinders fitted with an electrical de-ionizer do not produce better
     coffee but do result in less mess when making coffee.\
 -   Treating beans with a spray of water reduces clumping, resulting in
     increased extraction and lower grinder retention.
 
-## 2. Study Two: The effect of bean origin and temperature on grinding roasted coffee
+## Study Two: The effect of bean origin and temperature on grinding roasted coffee
 
 The second study focused on how different factors related to the coffee
 beans themselves affect grinding
@@ -102,7 +102,7 @@ beans themselves affect grinding
 This paper compares the effects of both bean origin and bean temperature
 prior to grinding.
 
-### 2.1 The Effect of Bean Origin
+### The Effect of Bean Origin
 
 Will different single-origin coffees grind differently? For once, the
 answer is simple: NO!
@@ -134,7 +134,7 @@ roasts?\
 3. The EK43 is an expensive commercial grinder. How consistent are
 cheaper home grinders?
 
-### 2.2 Effect of Bean Temperature
+### Effect of Bean Temperature
 
 If you've ever ordered one of those expensive coffees---like the ones
 that cost more than \$10 a cup---you may have seen the barista pull the
@@ -167,7 +167,7 @@ to extremely low temperatures and then warmed back up to room
 temperature behaves just like coffee that was never cooled in the first
 place.
 
-# 3. So what did we learn?
+## So what did we learn?
 
 The actionable takeaways from this mini deep dive are:
 
@@ -185,7 +185,7 @@ If you know of any novel research on coffee, let me know! My email is in
 the "Contact Me" section of my website, and my Mastodon handle is on the
 sidebar.
 
-# 3 Sources
+## Sources
 
 Harper, J.M., Hendon, C.H., 2023. Chemical strategies to mitigate
 electrostatic charging during coffee grinding.

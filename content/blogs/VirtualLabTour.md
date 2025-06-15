@@ -14,7 +14,9 @@ I've spent the past week throwing together a new setup in my lab. I can't talk a
 
 Showing people experiments in progress is always interesting, becaus quite often they end up with several thousand dollar equipment that costs more than my car, held up by cardboard boxes and sticky tape. 
 
-## 1 Whats in my lab
+# My Current Lab Setup
+
+## Whats in my lab
 
 So here is my whole setup so far. Lets go through it step by step
 
@@ -45,7 +47,7 @@ After I couple it into the fiber, I want to see what actually happens to the lig
 Everything is mounted on 3-axis stagesso I can align these components. That's why everything is mounted "sideways". This is important because these fibres are *tiny*. 
 
 
-## 2 So what does it do?
+## So what does it do?
 
 The idea is to get light INTO these photonic crystal fibres, and then take photos of what these fibres do to the light. 
 
@@ -61,7 +63,7 @@ We are altering the fibres somewhat, we are filling the fibres with some liquid 
  
  Notice that there are a few extra missing holes.I don't know why these are missing. Further work needed. 
 
-## 3 How do you fill up the holes?
+## How do you fill up the holes?
 
 
 Crazy enough, the liquid will suck itself up just from surface tension forces (Capillary action for those in the know).  All I do is load a syringe with a tiny ammount of the liquid, and pop my fibre inside, and it will suck it up. 
@@ -77,7 +79,7 @@ Once I have prepared my sample fibre they go in: *The Box*
 <img src="/Assets/2970b5ec-d75d-4404-aacc-b40e69811719~1.jpg" style="width: 50%; display: block; margin: 0 auto;" alt="The Box">
 
 
-## 4 Wrapping up the tour:
+## Wrapping up the tour:
 
 That is everything I have to say for now. I'm not supposed to say **why** I am doing what I'm doing just yet, but that will come soon once I get some publications out. 
 

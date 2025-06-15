@@ -1,4 +1,6 @@
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,82 +13,48 @@
     <link rel="canonical" href="https://caffeineandlasers.com/Colophon.html">
 </head>
 
-<div id="container"><div id="header"></div>
-    <div id="headerArea">
-    <nav id="navbar" style="margin-bottom: 0px;"><ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/notes.html">Notes & Links</a></li>
-            <li><a href="/Resources.html">Resources</a></li>
-            <li><a href="/media.html">Media</a></li>
-            <!-- This empty one feels immature -->
-            <!-- <li><a href="/publications.html">Publications</a></li>  -->
-            <!-- <li><a href="/Resume.html">Resume</a></li> -->
-            <li><a href="/contact.html">Contact Me</a></li>
-</ul></nav></div>
+<body>
+    <div class="art-nouveau-container">
+        
+        <!-- Left Sidebar with Navigation Links -->
+        <aside class="left-sidebar">
+            <nav class="sidebar-nav">
+                <a href="/" class="nav-link">
+                    <div class="nav-item">Home</div>
+                </a>
+                <a href="/blog.html" class="nav-link">
+                    <div class="nav-item">Blog Posts</div>
+                </a>
+                <a href="/notes.html" class="nav-link">
+                    <div class="nav-item">Notes</div>
+                </a>
+                <a href="/Resources.html" class="nav-link">
+                    <div class="nav-item">Resources</div>
+                </a>
+                <a href="/media.html" class="nav-link">
+                    <div class="nav-item">Media</div>
+                </a>
+                <a href="/contact.html" class="nav-link">
+                    <div class="nav-item">Contact</div>
+                </a>
+            </nav>
+            
+            <!-- Art Nouveau Images in Left Sidebar -->
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/204b0a7fd6b6bfc441ed3074709a4007eff91cd2_2_343x500.png" alt="Art Nouveau Design 1" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/2411d041e70b28159f78db3f6f00593f76841ce8_2_630x500.png" alt="Art Nouveau Design 2" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/24e0b80f895ee8e246f342b9ce55a2f0f7542296_2_339x500.png" alt="Art Nouveau Design 3" />
+            </div>
+        </aside>
 
-
-<div id="flex">
-
-<aside id="leftSidebar"><h2>Updates</h2>
-<div class="box">
-    What am I doing these days!
-    <ul>
-        <li><b>April 2025</b> - Traveled to U.K to collaborate with Durham University</li>
-        <li><b>April 2025</b> - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
-        <li><b>July 2024</b> - Started this website!</li>
-        <li><b>July 2023</b> - Started my PhD</li>
-    </ul>
-</div>
-
-
-<h2> Say Hello!</h2> 
-
-<div >
-    <img 
-        src="\Assets\KappyIdle.png" 
-        alt="Koffee Koala" 
-        class="KappySidebar"
-    />
-</div>
-
-<p></p>
-
-<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
-
-
-<h2>Find Me Online</h2>
-<ul>
-    <li>
-        <a href="https://aus.social/@AuntyRed/" target="_blank"
-            >Mastodon</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.youtube.com/@CameronJones-dj8mml"
-            target="_blank"
-            >YouTube</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://www.linkedin.com/in/cameron-jones-sydney/"
-            target="_blank"
-            >LinkedIn</a
-        >
-    </li>
-    <li>
-        <a
-            href="https://github.com/CJones-Optics/"
-            target="_blank"
-            >GitHub</a
-        >
-    </li>
-</ul>
-</aside>
-
-<main><h1>The Software Stack</h1>
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1>Colophon</h1>
+<h2>The Software Stack</h2>
 <ul>
 <li><strong>Host</strong>: <a href="https://pages.github.com/">Github Pages</a></li>
 <li><strong>Domain Name Registrar</strong>: <a href="https://porkbun.com/">PorkBun</a></li>
@@ -95,67 +63,63 @@
 <li><strong>Text Editor (For longform writing, not code)</strong>: <a href="https://obsidian.md/">Obsidian</a></li>
 <li><strong>Code Editor</strong>: I bounce between VSCode, Cursor and Zed depending on my mood, and which computer I am working on.</li>
 </ul>
-<h1>How I Update My Site</h1>
+<h2>How I Update My Site</h2>
 <p>All the hard work in updating my website is taken care of by 11ty. I have a section below how I manage my 11ty templates.</p>
 <p>My blogposts start written in Obsidian where all my knowledge lives. Whenever I have written something that I think is worth publishing, I simply drag and drop the <code>.md</code> file to <code>Content</code> folder in my websites repo.</p>
 <p>If the post is just text then this is all that is needed, I compile using 11ty, Push the updates to github and the new post is up! If I have pictures in the post, these get broken in the process, so I need to manually pull each one across and re-link them. This is something I still need to figure out how to automate.</p>
-<h1>My 11ty Config</h1>
+<h2>My 11ty Config</h2>
 <p>My 11ty config was mostly inspired by <a href="https://medium.com/@tarngerine/how-the-heck-do-i-use-eleventy-the-intro-guide-i-wish-i-had-84d9b2689031">this blogpost</a>. All my templates are written in liquid, and <em>almost</em> all my pages are written in Markdown, (since that is what Obsidian supports). How I get it from Obsidian to my website is documenter <a href="/notes/TwoClickObsidianTotheWebAutomation.html">here</a></p>
 <p>The general idea is to push all the &quot;web dev&quot; and html into my templating, so my writting can be read in plain txt. If I absolutely need to do some advanced formatting, you can still slip a bit of inline css into markdown anyway.</p>
-<h1>Automations / Templates I'm Proud Of</h1>
-<h2>Adding Books To My Library Page</h2>
+<h2>Automations / Templates I'm Proud Of</h2>
+<h3>Adding Books To My Library Page</h3>
 <p>The <a href="/Library.html"><code>/Library</code></a> page is generated automatically for me from a <code>json</code> file I update whenever I feel like adding a book. (I don't add every book I finish, only the ones I feel like talking about). This idea came from <a href="https://anhvn.com/posts/2024/my-eleventy-site-setup/#media-diary">Anhvn's Blogpost / Meta Page</a>. Essentially we use what eleventy calls <a href="https://www.11ty.dev/docs/data-global/">data files</a> to act as variables in the template.</p>
 <p>For example, here is the entry for Three Body Problem:</p>
-<hr>
-<pre><code class="language-json">  {
-    &quot;name&quot;: &quot;The Three-Body Problem&quot;,
-    &quot;author&quot;: &quot;Liu Cixin&quot;,
-    &quot;rating&quot;: &quot;⭐&quot;,
-    &quot;thoughts&quot;: &quot;I never thought I would take \&quot;Astro-socialogy\&quot; as a serious concept before reading this. Read the whole series, seriously.&quot;,
-    &quot;date&quot;: &quot;2023-08&quot;,
-    &quot;fiction&quot;: true,
-    &quot;coverImg&quot;: &quot;/Assets/book-covers/three-body-problem.jpg&quot;
-  },  
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;The Three-Body Problem&quot;,
+  &quot;author&quot;: &quot;Liu Cixin&quot;,
+  &quot;rating&quot;: &quot;⭐&quot;,
+  &quot;thoughts&quot;: &quot;I never thought I would take \&quot;Astro-socialogy\&quot; as a serious concept before reading this. Read the whole series, seriously.&quot;,
+  &quot;date&quot;: &quot;2023-08&quot;,
+  &quot;fiction&quot;: true,
+  &quot;coverImg&quot;: &quot;/Assets/book-covers/three-body-problem.jpg&quot;
+}
 </code></pre>
-<hr>
 <p>There is also a tiny bit of logic in the template to turn the numeric date into a written date because I think it looks nicer.</p>
-<h2>Automatically generating the OPML files for my RSS Starterpacks</h2>
+<h3>Automatically generating the OPML files for my RSS Starterpacks</h3>
 <p>Much like the <a href="/Library.html"><code>/Library</code></a> my <a href="/rss-starter-packs.html">RSS Starterpacks</a> are built from a <code>.json</code> file I keep in my project. The cool part is the OPML files that users can download and import into their RSS reader. To do this I created a subdirectory to keep all my OPML files in, and then a liquid template <code>StarterPack.opml.liquid</code>. From there 11ty neatly bundles up all the info from my json files into nice OPML files for my users to download.</p>
 <p>For example, my comics starter pack looks like this in <code>json</code>:</p>
-<hr>
-<pre><code class="language-json">    {
-      &quot;name&quot;: &quot;Web Comics&quot;,
-      &quot;description&quot;: &quot;Sometimes you need pictures. &quot;,
-      &quot;feeds&quot;: [
-        {
-          &quot;title&quot;: &quot;XKCD&quot;,
-          &quot;description&quot;: &quot;Famous webcomic amongst science types. Literally every science degree person I know loves it.&quot;,
-          &quot;xmlURL&quot;: &quot;https://xkcd.com/rss.xml&quot;,
-          &quot;htmlURL&quot;: &quot;https://xkcd.com&quot;
-        },
-        {
-          &quot;title&quot;: &quot;Poorly Drawn Lines&quot;,
-          &quot;description&quot;: &quot;A webcomic with humor and wit.&quot;,
-          &quot;xmlURL&quot;: &quot;https://poorlydrawnlines.com/feed&quot;,
-          &quot;htmlURL&quot;: &quot;https://poorlydrawnlines.com&quot;
-        },
-        {
-          &quot;title&quot;: &quot;Saturday Morning Breakfast&quot;,
-          &quot;description&quot;: &quot;A webcomic with a mix of science, and humor.&quot;,
-          &quot;xmlURL&quot;: &quot;https://www.smbc-comics.com/rss.php&quot;,
-          &quot;htmlURL&quot;: &quot;https://www.smbc-comics.com&quot;
-        },
-        {
-          &quot;title&quot;: &quot;The Oatmeal&quot;,
-          &quot;description&quot;: &quot;One of the most famous webcomics of all time. He also made exploding kittens and unstable unicorns if you are into board games.&quot;,
-          &quot;xmlURL&quot;: &quot;https://theoatmeal.com/feed/rss&quot;,
-          &quot;htmlURL&quot;: &quot;https://theoatmeal.com&quot;
-        }
-      ]
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;Web Comics&quot;,
+  &quot;description&quot;: &quot;Sometimes you need pictures. &quot;,
+  &quot;feeds&quot;: [
+    {
+      &quot;title&quot;: &quot;XKCD&quot;,
+      &quot;description&quot;: &quot;Famous webcomic amongst science types. Literally every science degree person I know loves it.&quot;,
+      &quot;xmlURL&quot;: &quot;https://xkcd.com/rss.xml&quot;,
+      &quot;htmlURL&quot;: &quot;https://xkcd.com&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Poorly Drawn Lines&quot;,
+      &quot;description&quot;: &quot;A webcomic with humor and wit.&quot;,
+      &quot;xmlURL&quot;: &quot;https://poorlydrawnlines.com/feed&quot;,
+      &quot;htmlURL&quot;: &quot;https://poorlydrawnlines.com&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Saturday Morning Breakfast&quot;,
+      &quot;description&quot;: &quot;A webcomic with a mix of science, and humor.&quot;,
+      &quot;xmlURL&quot;: &quot;https://www.smbc-comics.com/rss.php&quot;,
+      &quot;htmlURL&quot;: &quot;https://www.smbc-comics.com&quot;
+    },
+    {
+      &quot;title&quot;: &quot;The Oatmeal&quot;,
+      &quot;description&quot;: &quot;One of the most famous webcomics of all time. He also made exploding kittens and unstable unicorns if you are into board games.&quot;,
+      &quot;xmlURL&quot;: &quot;https://theoatmeal.com/feed/rss&quot;,
+      &quot;htmlURL&quot;: &quot;https://theoatmeal.com&quot;
+    }
+  ]
+}
 </code></pre>
-<hr>
 <p>It's OPML file looks like this:</p>
-<hr>
 <pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;opml version=&quot;2.0&quot;&gt;
   &lt;head&gt;
@@ -178,67 +142,126 @@
   &lt;/body&gt;
 &lt;/opml&gt;
 </code></pre>
-<hr>
-<h1>Learning More</h1>
-<h2>My Tutorials</h2>
+<h2>Learning More</h2>
+<h3>My Tutorials</h3>
 <p>I have extra bits and pieces about webmastery that I have written in the form of blogposts</p>
+<ul>
 <li>
-    <a href="blogs/rss.html"> How to build your own RSS Feed.</a>
-    I wrote a short explainer on how to setup an RSS Feed for your own website.
+<p><a href="/blogs/rss.html">How to build your own RSS Feed.</a> I wrote a short explainer on how to setup an RSS Feed for your own website.</p>
 </li>
 <li>
-    <a href="blogs/automatingYourRSS.html"> Automating Your RSS Feed.</a>
-    Part 2 of the RSS Feed tutorial. I give you the code snippets to use 11ty
-    to automate your RSS feed. No more hand changing the file every time you
-    post a new blog. 
+<p><a href="/blogs/automatingYourRSS.html">Automating Your RSS Feed.</a> Part 2 of the RSS Feed tutorial. I give you the code snippets to use 11ty to automate your RSS feed. No more hand changing the file every time you post a new blog.</p>
 </li>
 <li>
-    <a href="blogs/embeddingYourLatestMastodonPost.html"> Embedding your latest Mastodon Post into your webpage</a> A bodgey workaround using jank-script 
-        to dynamically grab and embed your latest Fediverse post.
+<p><a href="/blogs/embeddingYourLatestMastodonPost.html">Embedding your latest Mastodon Post into your webpage</a> A bodgey workaround using jank-script to dynamically grab and embed your latest Fediverse post.</p>
 </li>
-<h2>Resources that got me started</h2>
-<li>
-    <a href="https://goblin-heart.net/sadgrl/projects/layout-builder/">
-        Sadgrls Layout Builder.
-    </a>
-    This is a great lil tool to get you a fully formed website layout in a
-    single copy and paste. This is how I originally started my site, but it is 
-    likely customized beyond recognition at this point.
-</li>
-<a href="https://goblin-heart.net/sadgrl/"
+</ul>
+<h3>Resources that got me started</h3>
+<ul>
+<li><a href="https://goblin-heart.net/sadgrl/projects/layout-builder/">Sadgrls Layout Builder.</a> This is a great lil tool to get you a fully formed website layout in a single copy and paste. This is how I originally started my site, but it is likely customized beyond recognition at this point.</li>
+</ul>
+<p><a href="https://goblin-heart.net/sadgrl/"
     ><img src="Assets/sadgrlonline.gif" alt="sadgrl"
-/></a>
-<li>
-    <a href="https://petrapixel.neocities.org/coding/neocities"
-        >Petra Pixels Tutorial on pushing your local changes to production with
-        a github action.</a>
-    This greatly improves on the slog of trying to updating your website via the
-    Neocities web interface. I don't use neocities anymore, but I was very greatful 
-    to learn this was possible from petra, and use the same idea to deploy onto github
-    pages now
-</li>
-<a href="https://petrapixel.neocities.org/" target="_blank"
+/></a></p>
+<ul>
+<li><a href="https://petrapixel.neocities.org/coding/neocities">Petra Pixels Tutorial on pushing your local changes to production with a github action.</a> This greatly improves on the slog of trying to updating your website via the Neocities web interface. I don't use neocities anymore, but I was very greatful to learn this was possible from petra, and use the same idea to deploy onto github pages now</li>
+</ul>
+<p><a href="https://petrapixel.neocities.org/" target="_blank"
     ><img
         src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif"
         alt="petrapixel"
-/></a></main>
+/></a></p>
 
-</div>
-<footer id="footer">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-        <a href="/FeedList.html">
-            <img 
-            src="/Assets/RSS_Logo.png" 
-            alt="RSS Feed" 
-            style="width: 20px; height: 20px" 
-            />
-        </a>
-        <span style="font-size: 0.8em;">
-            <a href="/sitemap.xml">Sitemap</a>
-        </span>
+        </main>
+
+        <!-- Right Sidebar with More Art Nouveau Images -->
+        <aside class="right-sidebar">
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/212b0e55827378b538094641394e192f58cd05bc_2_324x500.png" alt="Art Nouveau Design 4" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/4898632498bf6f05a89445762f62e587924c2142_2_250x500.png" alt="Art Nouveau Design 5" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/65bdf453adc0cd8a0577e65dfa0fceb9f3c0670e_2_301x500.png" alt="Art Nouveau Design 6" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/129bf6cd9443833f51c757b243681fab837cd0f9_2_245x500.png" alt="Art Nouveau Design 7" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/168d976d31eb1bd668726daf5362f73a8286971b_2_343x500.png" alt="Art Nouveau Design 8" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/1cbe305a3edb85f4f468419956eb6149fc3b70f4_2_225x500.png" alt="Art Nouveau Design 9" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/336eb62858f5d3e3f77cdd717da77b7119ade36c_2_678x500.png" alt="Art Nouveau Design 10" />
+            </div>
+            <div class="art-nouveau-frame">
+                <img src="Assets/ArtNovau/4b1ac2d5e232521e6509d73130f5c8872f35a9e1_2_349x500.png" alt="Art Nouveau Design 11" />
+            </div>
+        </aside>
+
     </div>
-</footer>
+    
+    <style>
+        .code-block {
+            background-color: var(--color-bg-sidebar);
+            border: 1px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1em;
+            margin: 1em 0;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: monospace;
+        }
 
+        .sidebar-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s ease;
+        }
+
+        .nav-item {
+            background-color: var(--color-bg-sidebar);
+            border: 2px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover .nav-item {
+            background-color: var(--color-text-accent);
+            color: var(--color-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .sidebar-nav {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-item {
+                font-size: 0.9rem;
+                padding: 0.8rem;
+            }
+        }
+    </style>
+    
+    <script src="/scripts.js"></script>
+</body>
 </html>
-
-<script src="/scripts.js"></script>

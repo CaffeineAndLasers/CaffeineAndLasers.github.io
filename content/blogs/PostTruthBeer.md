@@ -22,6 +22,8 @@ I think intuitively we all know this is not true. I turn off my adblocker, and I
 
 In practicality, we live in a "Post Truth Society", and the contemporary marketing industry is at the forefront of this nihilist ideology.
 
+# A Case Study in Deceptive Marketing
+
 ## Part 1: A really Tasty Beer
 
 I was at the bottleshop recently, and picked up some beers by a brewery I hadn't heard of before. I got a 6-pack of the [Zytho Brewing Oaked Cherry Sour](https://untappd.com/b/zytho-brewing-oaked-cherry-sour/5164674)
