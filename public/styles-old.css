@@ -28,7 +28,7 @@
     --font-display: 'Cinzel', serif;
     
     /* Spacing and Layout */
-    --border-radius: 8px;
+    --border-radius: 0px;
     --ornament-size: 3px;
 }
 
@@ -447,7 +447,7 @@ strong {
 .blog-posts-container {
     background-color: var(--color-bg-light);
     border: 3px dotted var(--color-primary-pink);  /* Pink border to match your h1 color */
-    border-radius: 15px;         /* Rounded corners */
+    border-radius: 0px;         /* Squared corners */
     padding: 15px;
     margin: 15px 0;
     /* Removed max-height and overflow-y to eliminate scrollbar */
@@ -456,7 +456,7 @@ strong {
 .notes-container {
     background-color: var(--color-bg-light);
     border: 3px dotted var(--color-primary-pink);  /* Pink border to match your h1 color */
-    border-radius: 15px;         /* Rounded corners */
+    border-radius: 0px;         /* Squared corners */
     padding: 15px;
     margin: 15px 0;
     /* No max-height or overflow properties, so content will expand naturally */

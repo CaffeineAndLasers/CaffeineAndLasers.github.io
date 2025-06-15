@@ -106,7 +106,7 @@
             padding: 8px 12px;
             background-color: var(--color-primary-purple);
             color: white;
-            border-radius: 5px;
+            border-radius: 0px;
           }
           
           @media (max-width: 768px) {

@@ -28,7 +28,7 @@
     --font-display: 'Cinzel', serif;
     
     /* Spacing and Layout */
-    --border-radius: 8px;
+    --border-radius: 0px;
     --ornament-size: 3px;
 }
 
@@ -367,7 +367,7 @@ code {
     font-family: 'Courier New', monospace;
     background-color: var(--color-bg-sidebar);
     padding: 0.2em 0.4em;
-    border-radius: 3px;
+    border-radius: 0px;
     border: 1px solid var(--color-border);
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -703,7 +703,7 @@ html {
 a:focus, summary:focus, details:focus {
     outline: 2px solid var(--color-primary-gold);
     outline-offset: 2px;
-    border-radius: 2px;
+    border-radius: 0px;
 }
 
 /* Print styles */
