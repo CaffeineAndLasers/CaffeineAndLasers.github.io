@@ -108,6 +108,38 @@ interesting, random thoughts and pictures I might want to share.</p>
   
     <div class="notes-container">
         <h3>
+        2025-June-23:
+         <a href="/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html">BlogPost   Digitizing Paper notes in the 21st Century (Permalink)</a>  </h3>
+        <!-- Now embed everything from the file -->
+        <p>Shoutout to <a href="https://heals-draws.art/">Heals</a> for sharing their own workflow in a Mastodon post for inspiring me.</p>
+<h1>Problem Statement</h1>
+<p>Here are two axioms, which were until recently, incompatible.</p>
+<ol>
+<li>I want all my notes to be digitized in plain text</li>
+<li>I enjoy writing in pen and paper</li>
+</ol>
+<p>Keeping everything in plain text preserves my writing well into the future and hopefully as long as I am alive. But writing on pen and paper <em>feels nice</em>. It is more ergonomic, more tactile, and I genuinely believe it helps me recall what I have written better.</p>
+<h1>What Do?</h1>
+<p>It turns out LLM Optical Character Recognition (OCR) is getting <strong>really good</strong>. (I hate the acronym OCR, there is nothing optical about it, but that is a topic for another blogpost).</p>
+<p>So with Heals advice I settled on <a href="https://mistral.ai/news/mistral-ocr">Mistral's OCR</a>. They have a generous enough free tier, and seems to perform really well.</p>
+<p>So, since the folks at Mistral have already done all the hard work, I wrote a wrapper for my workflow.</p>
+<h1>How does it work?</h1>
+<p>I have a bash script which watches a directory on my computer. Now when I finish writing a page a take a photo of my notes, and drop it in the this directory.</p>
+<p>When a new photo is detected, the script sends it to Mistral to extract all the text, and any doodles I might've done on the page. It then compiles a markdown version of my notes, and saves it into my Obsidian vault.</p>
+<h1>Does it Work?</h1>
+<p>Here is a sample of my text and the output.</p>
+<div style="display: flex; gap: 1em; align-items: flex-start;">
+    <img src="/Assets/634b047a1182d9c022be4c46facf6145.png" style="height: 300px; object-fit: contain;" alt="Sample 1"/>
+    <img src="/Assets/cb6e6a037c8feeb39a27d940a9be80fd.png" style="height: 300px; object-fit: contain;" alt="Sample 2"/>
+</div>
+<p>My handwriting is normally pretty messy, most &quot;handwriting recognition&quot; software normally fails on my writting but it succeeds most of the time here. The most common failure mode I encounter is in complicated mathematics expressions, or the characters I know that that I write weirdly sometimes. (e.g. <code>\varepsilon</code>)</p>
+
+    </li>
+    </div>
+    <hr>
+  
+    <div class="notes-container">
+        <h3>
         2025-June-01:
          <a href="/notes/Agreatexcerptfromthehappinessofdogs.html">A great excerpt from the happiness of dogs (Permalink)</a>  </h3>
         <!-- Now embed everything from the file -->
