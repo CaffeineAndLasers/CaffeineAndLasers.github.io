@@ -40,3 +40,5 @@ Here is a sample of my text and the output.
 </div>
 
 My handwriting is normally pretty messy, most "handwriting recognition" software normally fails on my writting but it succeeds most of the time here. The most common failure mode I encounter is in complicated mathematics expressions, or the characters I know that that I write weirdly sometimes. (e.g. `\varepsilon`)
+
+I've been used it on realy samples of my handwriting a few times over the coarse of 2 weeks now before I posted this, so I am confident that the tool actually works on things other than just the sample pages above. 
