@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Mon, 23 June 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 25 June 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Biology is cool again</title>
+      <description>Biology was never not cool to be honest, but I stumbled upon another mind melting phenomenon.</description>
+      <link>https://Caffeineandlasers.com/notes/BiologyIsCoolAgain.html</link>
+      <pubDate>Wed, 25 June 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>BlogPost   Digitizing Paper notes in the 21st Century</title>
