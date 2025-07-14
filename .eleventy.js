@@ -1,6 +1,9 @@
 const path = require('path');
 const fs = require('fs');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
+const markdownIt = require('markdown-it');
+const markdownItMathjax3 = require('markdown-it-mathjax3');
+
 
 module.exports = function (eleventyConfig) {
   // This makes the eleventy command quieter (with less detail)
@@ -85,6 +88,14 @@ module.exports = function (eleventyConfig) {
     "json",
     "xsl",
   ]);
+
+  let markdownLibrary = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  }).use(markdownItMathjax3);
+  
+  eleventyConfig.setLibrary("md", markdownLibrary);
 
   // This defines the input and output directories
   return {

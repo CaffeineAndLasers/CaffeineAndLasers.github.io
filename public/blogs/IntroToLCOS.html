@@ -92,132 +92,132 @@
   <p><strong>Last Updated:</strong> </p>
 </div>
 
-<p>From my time at Finisar I got to work extensively with <strong>L</strong>iquid
-<strong>C</strong>rystal <strong>o</strong>n <strong>S</strong>ilicon (LCOS), <strong>S</strong>patial <strong>L</strong>ight
-<strong>M</strong>odulators (SLMs). This page is my attempt to share a little of what
-I've learned, because it is such a cool technology that I hope others
+<p>From my time at Finisar I got to work extensively with <strong>L</strong>iquid<br>
+<strong>C</strong>rystal <strong>o</strong>n <strong>S</strong>ilicon (LCOS), <strong>S</strong>patial <strong>L</strong>ight<br>
+<strong>M</strong>odulators (SLMs). This page is my attempt to share a little of what<br>
+I've learned, because it is such a cool technology that I hope others<br>
 get to work with.</p>
 <h1>1 What is an LCOS SLM?</h1>
-<p>There are two acronyms here, so I will break it down into its composite
+<p>There are two acronyms here, so I will break it down into its composite<br>
 parts before I piece everything back together.</p>
 <h2>1.1 Liquid Crystals</h2>
-<p>We all know that liquids are substances without any structure, the
-molecules are free to move around, and don't have any structure. A
-crystal on the other hand, has a lot of structure, it is a substance
-with a structure that repeats in one, two or three dimensions (or four
-if you count <a href="https://en.wikipedia.org/wiki/Time_crystal">time crystals</a>
-). Bringing the two concepts together, liquid crystals are a substance
-with a loosely repeating structure, where molecules are free to jostle,
+<p>We all know that liquids are substances without any structure, the<br>
+molecules are free to move around, and don't have any structure. A<br>
+crystal on the other hand, has a lot of structure, it is a substance<br>
+with a structure that repeats in one, two or three dimensions (or four<br>
+if you count <a href="https://en.wikipedia.org/wiki/Time_crystal">time crystals</a><br>
+). Bringing the two concepts together, liquid crystals are a substance<br>
+with a loosely repeating structure, where molecules are free to jostle,<br>
 twist, and rotate, but not break out of their structure.</p>
-<p>The molecular structure of the liquid crystals we are interested in
-gives it another trick that makes it useful for our applications. If we
+<p>The molecular structure of the liquid crystals we are interested in<br>
+gives it another trick that makes it useful for our applications. If we<br>
 consider the MBBA molecule:</p>
 <p><img src="LiquidCrystalDiagram.png" alt="Chemical Diagram of the MBBA Molecule"></p>
-<p>It has a long rod-like structure, AND a free electron that is able to
-move up and down the length of the molecule uninterrupted. This electron
+<p>It has a long rod-like structure, AND a free electron that is able to<br>
+move up and down the length of the molecule uninterrupted. This electron<br>
 makes the substance both electrically and optically active.</p>
-<p>Putting all this together, liquid crystals are long, rod shaped
-molecules who arrange themselves in a repeating lattice with both
+<p>Putting all this together, liquid crystals are long, rod shaped<br>
+molecules who arrange themselves in a repeating lattice with both<br>
 electrical and optical responses.</p>
 <p><img src="LCLattice.png" alt="Lattice of Liquid Crystals"></p>
 <h3>1.2.1 Electrical Properties of Liquid Crystals {#electrical-properties}</h3>
-<p>As a result of that free electron, when we expose a liquid crystal
-lattice to an electric field, the molecules will rotate, re-orienting
-themselves to point in the same direction of the electric field. This
-means that by applying a voltage, we can control the axis or the
+<p>As a result of that free electron, when we expose a liquid crystal<br>
+lattice to an electric field, the molecules will rotate, re-orienting<br>
+themselves to point in the same direction of the electric field. This<br>
+means that by applying a voltage, we can control the axis or the<br>
 direction of our liquid crystal.</p>
 <h3>1.2.2 Optical Properties of Liquid Crystals {#optical-properties}</h3>
-<p>That free electron also affects the optical properties of the light.
-This is because light is an electro-magnetic field, so the free electron
-will oscillate in harmony with the electric field of any light that
-passes through it, this slows down the speed of light through the
-substance. There is a catch though, that electron can only run up and
-down the length of the molecule, so if the molecule is not totally in
-the same axis as the electric field of the light, the effect will be
-reduced. That means that the refractive index of the substance (the
-speed which light moves through it), is determined by the the angle the
+<p>That free electron also affects the optical properties of the light.<br>
+This is because light is an electro-magnetic field, so the free electron<br>
+will oscillate in harmony with the electric field of any light that<br>
+passes through it, this slows down the speed of light through the<br>
+substance. There is a catch though, that electron can only run up and<br>
+down the length of the molecule, so if the molecule is not totally in<br>
+the same axis as the electric field of the light, the effect will be<br>
+reduced. That means that the refractive index of the substance (the<br>
+speed which light moves through it), is determined by the the angle the<br>
 light hits the crystal at.</p>
-<p>This is important, because slowing down light is how we bend it. Imagine
-when you are driving a car, and your left tyre is slowed by a puddle,
-making you veer left. When light hits a slow patch at an angle it bends.
+<p>This is important, because slowing down light is how we bend it. Imagine<br>
+when you are driving a car, and your left tyre is slowed by a puddle,<br>
+making you veer left. When light hits a slow patch at an angle it bends.<br>
 This is how lenses (like the ones in your glasses works.)</p>
 <h2>1.2 Silicon</h2>
-<p>Now that we have gotten liquid crystals out of the way, lets talk about
-silicon technology. Undoubtedly computers have changed the world, but
-convenient side effect for us that work in optics, is that the computer
-revolution has resulted in cheap, high quality semiconductor
-manufacturing. So any time we can exploit silicon technology for optics,
+<p>Now that we have gotten liquid crystals out of the way, lets talk about<br>
+silicon technology. Undoubtedly computers have changed the world, but<br>
+convenient side effect for us that work in optics, is that the computer<br>
+revolution has resulted in cheap, high quality semiconductor<br>
+manufacturing. So any time we can exploit silicon technology for optics,<br>
 we jump on the opportunity.</p>
-<p>In order to control those liquid crystals I described above, we sandwich
-the liquid crystal between a silicon chip and a conductive transparent
-top glass. The silicon chip lets us apply a custom voltage anywhere in
-the x-y plane. That is, we can create an arbitrary electric field
+<p>In order to control those liquid crystals I described above, we sandwich<br>
+the liquid crystal between a silicon chip and a conductive transparent<br>
+top glass. The silicon chip lets us apply a custom voltage anywhere in<br>
+the x-y plane. That is, we can create an arbitrary electric field<br>
 pattern across the liquid crystal.</p>
 <h1>2 Putting it all together {#putting-together-the-first-word}</h1>
-<p>After all that, we are ready to understand what the device does. An LCoS
-is a device that allows you to apply any refractive index profile you
-want in an x-y plane. It does this by creating an arbitrary electric
-field profile using silicon chip technology, and placing liquid crystals
-within that field, whose refractive index is a function electric field
-strength. This contraption allows you modulate the phase of incoming
+<p>After all that, we are ready to understand what the device does. An LCoS<br>
+is a device that allows you to apply any refractive index profile you<br>
+want in an x-y plane. It does this by creating an arbitrary electric<br>
+field profile using silicon chip technology, and placing liquid crystals<br>
+within that field, whose refractive index is a function electric field<br>
+strength. This contraption allows you modulate the phase of incoming<br>
 light in space. This is why we call them a <strong>Spatial Light Modulator</strong>.</p>
-<p>In simple English. This is a lens, that we can reshape into any optical
+<p>In simple English. This is a lens, that we can reshape into any optical<br>
 configuration from a computer.</p>
 <h1>3 Applications</h1>
-<p>There are a surprising number of applications for LCOS SLMs, from Beam
-Steering, to <a href="https://arxiv.org/abs/1202.2078">photographing through walls and around
-corners</a>, but I want to talk about
+<p>There are a surprising number of applications for LCOS SLMs, from Beam<br>
+Steering, to <a href="https://arxiv.org/abs/1202.2078">photographing through walls and around<br>
+corners</a>, but I want to talk about<br>
 digital holography for now.</p>
 <h2>3.1 Digital Holography</h2>
-<p>Using spatial light phase modulation, we can use an SLM to create a real
-life holograms. The required necessary phase map to create a given
-hologram's amplitude map can be calculated using the Gerchburg Saxton
+<p>Using spatial light phase modulation, we can use an SLM to create a real<br>
+life holograms. The required necessary phase map to create a given<br>
+hologram's amplitude map can be calculated using the Gerchburg Saxton<br>
 Algorithm.</p>
-<p>This algorithm creates a phase profile, which when light propagates
-through, creates constructive interference at the desired points in 3D
+<p>This algorithm creates a phase profile, which when light propagates<br>
+through, creates constructive interference at the desired points in 3D<br>
 space, and deconstructively interferes everywhere else.</p>
-<p>Below you can see a hologram I built in the lab. The photo fails to do
-it justice. If I were to move the box forward or backwards, the hologram
-would disappear, since it was programmed to appear at that specific
-point in space. It would have worked better if I had a smoke machine on
+<p>Below you can see a hologram I built in the lab. The photo fails to do<br>
+it justice. If I were to move the box forward or backwards, the hologram<br>
+would disappear, since it was programmed to appear at that specific<br>
+point in space. It would have worked better if I had a smoke machine on<br>
 hand.</p>
 <p><img src="PhySocHologram.png" alt="Hologram of the word PHYSOC projected onto a carboard
 box"></p>
 <h3>3.1.1 Holographic Optical Tweezers</h3>
-<p>Aside from cool sci-fi implications of real life holograms replacing
-zoom calls, I would like to highlight one especially cool application of
-Computer Generated Holograms and LCOS SLMs, and that is Optical
-Tweezers. This effect relies on the fact that light has momentum. By
-exploiting this fact, we can use CGH to create a donut shaped light
-intensity profile, and use the momentum contained within this profile to
-pick up and move around small objects. This is super useful for things
-like neuron cells, which tend to respond poorly to being picked up by
-glass pipettes. Holographic Optical Tweezers offer a comparatively
-gentle experience for the cells. This concept is used with some
-regularity within biological research and is a commercial product
-offered by <a href="https://www.meadowlark.com/3d-holographic-optical-tweezing-kit/">Meadowlark Polarisation
-Optics</a>.
-You can see a demonstration below, where particles only 4.5 micrometers
+<p>Aside from cool sci-fi implications of real life holograms replacing<br>
+zoom calls, I would like to highlight one especially cool application of<br>
+Computer Generated Holograms and LCOS SLMs, and that is Optical<br>
+Tweezers. This effect relies on the fact that light has momentum. By<br>
+exploiting this fact, we can use CGH to create a donut shaped light<br>
+intensity profile, and use the momentum contained within this profile to<br>
+pick up and move around small objects. This is super useful for things<br>
+like neuron cells, which tend to respond poorly to being picked up by<br>
+glass pipettes. Holographic Optical Tweezers offer a comparatively<br>
+gentle experience for the cells. This concept is used with some<br>
+regularity within biological research and is a commercial product<br>
+offered by <a href="https://www.meadowlark.com/3d-holographic-optical-tweezing-kit/">Meadowlark Polarisation<br>
+Optics</a>.<br>
+You can see a demonstration below, where particles only 4.5 micrometers<br>
 are being manipluated by such a device. <img src="HolographicOpticalTweezers.png" alt="A microscope photograph of
 microparticels aranged as numbers
 1-9"></p>
 <h2>3.2 Spy Stuff</h2>
-<p>It turn out, the only difference between white paint and a mirror, is
-that white paint isn't very smooth. It reflects all the colours the
-same as a mirror, but scatters the light - reflecting it at different
+<p>It turn out, the only difference between white paint and a mirror, is<br>
+that white paint isn't very smooth. It reflects all the colours the<br>
+same as a mirror, but scatters the light - reflecting it at different<br>
 angles and distances.</p>
-<p>This is where the LCOS comes in again, if the light has been scattered
-by the white paint, we can use an LCOS to undo that distortion, and
-reconstruct an image. This is what <a href="https://arxiv.org/abs/1202.2078">these
-researchers</a> figured out, where they
-were able to take photos around corners by photographing white paint,
+<p>This is where the LCOS comes in again, if the light has been scattered<br>
+by the white paint, we can use an LCOS to undo that distortion, and<br>
+reconstruct an image. This is what <a href="https://arxiv.org/abs/1202.2078">these<br>
+researchers</a> figured out, where they<br>
+were able to take photos around corners by photographing white paint,<br>
 and through &quot;privacy&quot; glass. <img src="lookingAroundCorners.png" alt="extract of a scientific paper, showing
-the pheomena"> Credit: <a href="https://arxiv.org/abs/1202.2078">Katz, O.
+the pheomena"> Credit: <a href="https://arxiv.org/abs/1202.2078">Katz, O.<br>
 (2012)</a></p>
 <h1>4 Conclusion</h1>
-<p>I hope you enjoyed this short introduction to my niche area of interest.
-There are plenty of cool applications for LCoS in the world of research
-and engineering, and if you ever get the chance to work with the, I
+<p>I hope you enjoyed this short introduction to my niche area of interest.<br>
+There are plenty of cool applications for LCoS in the world of research<br>
+and engineering, and if you ever get the chance to work with the, I<br>
 would highly recommend it.</p>
 
 

@@ -25,6 +25,8 @@
         "import-obsidian": "node obsidian-import.js"
     },
     "dependencies": {
+        "markdown-it": "^14.1.0",
+        "markdown-it-mathjax3": "^4.3.2",
         "qrcode": "^1.5.4"
     }
 }

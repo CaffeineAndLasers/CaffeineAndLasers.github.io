@@ -5,10 +5,22 @@
     <title>/about</title>
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social https://polyfill.io https://cdn.jsdelivr.net 'unsafe-inline' 'wasm-unsafe-eval';">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="https://caffeineandlasers.com/about.html">
+    
+    <!-- MathJax Configuration -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <div id="container"><div id="header"></div>
@@ -106,26 +118,26 @@
                 </div>
             </div>
         </div>
-<p><div style="width: 180px; margin-right: 15px;">
-<div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-<img src="Assets/EGGYPOCKET.png" alt="EGGY POCKET Album Cover" style="width: 100%; display: block;">
-<div style="padding: 10px; text-align: center;">
-<div style="font-weight: bold; color: #333; font-size: 16px;">EGGY POCKET</div>
-<div style="color: #666; font-size: 14px;">Bilmuri</div>
-</div>
-</div>
+<p><div style="width: 180px; margin-right: 15px;"><br>
+<div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"><br>
+<img src="Assets/EGGYPOCKET.png" alt="EGGY POCKET Album Cover" style="width: 100%; display: block;"><br>
+<div style="padding: 10px; text-align: center;"><br>
+<div style="font-weight: bold; color: #333; font-size: 16px;">EGGY POCKET</div><br>
+<div style="color: #666; font-size: 14px;">Bilmuri</div><br>
+</div><br>
+</div><br>
 </div></p>
-<p><div style="width: 180px; margin-right: 15px;">
-<div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-<img src="Assets/ForeverHowlongcover.png" alt="Forever Howlong Album Cover" style="width: 100%; display: block;">
-<div style="padding: 10px; text-align: center;">
-<div style="font-weight: bold; color: #333; font-size: 16px;">Forever Howlong</div>
-<div style="color: #666; font-size: 14px;">Black Country, New Road</div>
-</div>
-</div>
-</div>
+<p><div style="width: 180px; margin-right: 15px;"><br>
+<div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"><br>
+<img src="Assets/ForeverHowlongcover.png" alt="Forever Howlong Album Cover" style="width: 100%; display: block;"><br>
+<div style="padding: 10px; text-align: center;"><br>
+<div style="font-weight: bold; color: #333; font-size: 16px;">Forever Howlong</div><br>
+<div style="color: #666; font-size: 14px;">Black Country, New Road</div><br>
+</div><br>
+</div><br>
+</div><br>
 </div></p>
-<p><!-- Scroll indicator -->
+<p><!-- Scroll indicator --><br>
 <div style="text-align: center; margin-top: 10px;"></p>
 <p></div></p>
 </div>

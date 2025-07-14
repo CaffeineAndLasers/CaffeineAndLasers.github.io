@@ -114,7 +114,7 @@
 <p><code>https://www.reddit.com/r/LocalLLaMA.rss</code></p>
 <h2>2.2 Okay, but Sorting by New Sucks</h2>
 <p>Yes, it does. Unfortunately, RSS doesn't have any concept of &quot;Upvote,&quot; so there isn’t an RSS option to sort by &quot;hot.&quot; You can make use of Reddit’s URLs though, because you can add <code>.rss</code> to <em>any</em> URL. Here’s how I use it:</p>
-<p><strong>Sort by top, limit to 5 (or however many) posts:</strong>
+<p><strong>Sort by top, limit to 5 (or however many) posts:</strong><br>
 Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will create an RSS feed of the top 5 most upvoted posts in <code>/r/3DPrinting</code> today, returned in reverse chronological order.</p>
 <p>I did this for the 5 or so Reddit communities I actually want to keep track of, and now have my own Reddit feed with a hard cap on the top 30 posts from the past 24 hours.</p>
 <p><strong>Why Use the limit argument:</strong> Even when you sort by <code>/top</code> your RSS reader will still list the top 25 (or however many) results in chronological order, leaving you back at square one. That's why I prefer to use <code>/top</code> and <code>?limit</code> to get <em>just</em> the top 5 in my feed.</p>

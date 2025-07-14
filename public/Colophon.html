@@ -5,10 +5,22 @@
     <title>Colophon</title>
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social https://polyfill.io https://cdn.jsdelivr.net 'unsafe-inline' 'wasm-unsafe-eval';">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="https://caffeineandlasers.com/Colophon.html">
+    
+    <!-- MathJax Configuration -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <div id="container"><div id="header"></div>
