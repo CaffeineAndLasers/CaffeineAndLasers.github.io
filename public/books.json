@@ -1,6 +1,16 @@
 [
 
   {
+    "name": "The Happiness of Dogs: Why the unexamined life is the most worth living",
+    "author": "Mark Rowlands",
+    "rating": "🟩",
+    "thoughts": "This was a very accessible book on philosophy, I have previsoly struggled with a lot of \"traditional\" philosphy, e.g. Netzsche and Camus which who I've attempted to read several times and keep bouncing off. Admittedly, when I picked it up I was expecting a self-help book, turns out it was a philosophy of mind book. Very worthwile anyway.",
+    "date": "2025-06",
+    "fiction": false,
+    "coverImg": "/Assets/book-covers/happinessOfDogs.png"
+  },
+
+  {
     "name": "Blindsight",
     "author": "Peter Watts",
     "rating": "⭐",
