@@ -1,5 +1,5 @@
 ---
-title: It Turns Out The Eldritch Horror Was The Corporations We Worked At ALong The Way
+title: It Turns Out The Eldritch Horror Was The Corporations We Worked At Along The Way
 date: 2025-07-29
 description: I just stumbled accross an interesting paper on organisations with an abstract I just had to share. (Sections removed for emphasis, clarity and comedy)
 
