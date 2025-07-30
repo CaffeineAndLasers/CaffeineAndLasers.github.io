@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Tue, 29 July 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 30 July 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>My favourite aliens</title>
+      <description>This is a blogpost about my favourite aliens.</description>
+      <link>https://Caffeineandlasers.com/blogs/Blogpost-Myfavouritealiens.html</link>
+      <pubDate>Wed, 30 July 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>It Turns Out The Eldritch Horror Was The Corporations We Worked At Along The Way</title>
