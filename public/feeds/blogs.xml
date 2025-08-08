@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers - Blog </title>
     <description> Extended thoughts from Caffeine and Lasers</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Wed, 30 July 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Statistics for fun, science and art</title>
+      <description>Here's a pretty photo I made using Python and some neat mathematics and statistics.</description>
+      <link>https://Caffeineandlasers.com/blogs/Blog-Statsforfunscienceandart.html</link>
+      <pubDate>Fri, 08 Aug 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>My favourite aliens</title>
