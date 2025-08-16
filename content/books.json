@@ -1,5 +1,25 @@
 [
 
+   {
+    "name":     "I Spy: My life in MI5",
+    "author":   "Tom Marcus",
+    "rating":   "🟧",
+    "thoughts": "Fair warning, this is straight up propaganda (it even had to pass MI5 clearance to publish) and is written like Tom Clancy. Nonetheless, it was really enjoyable to read. The narrative of it is mostly in the form of radio chatter which is a form I personally find gripping. Also kind of terrrifying to think how many terror plots get stopped, but it restored some level of my faith in instituitions to see the principaled stance that Tom and his team operated within.",
+    "date":     "2025-08",
+    "fiction":  false,
+    "coverImg": "/Assets/book-covers/ispy.jpg"
+  },
+
+ {
+    "name":     "Snake Island ",
+    "author":   "Ben Hobson",
+    "rating":   "🟩",
+    "thoughts": "The review they stick in the front describes it as \"Part western, part Greek tragedy\" and I think that is a really good description. The story is very Australian, but not in a cheap way, and all the characters are fascinating. I don't read a lot of fiction and even less \"literaqture\" but this was really enjoyable",
+    "date":     "2025-08",
+    "fiction":  true,
+    "coverImg": "/Assets/book-covers/snakeisland.jpg"
+  },
+
 
   {
     "name":     "No Power Greater: A History of Union Action in Australia",
