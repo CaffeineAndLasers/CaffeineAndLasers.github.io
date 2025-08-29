@@ -339,14 +339,6 @@
   
   
   <url>
-    <loc>https://caffeineandlasers.com/about.html</loc>
-    <lastmod>2025-05-15T09:36:36Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
     <loc>https://caffeineandlasers.com/notes/Crystal Lattice Structure of Popcorn.html</loc>
     <lastmod>2025-05-15T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -525,6 +517,14 @@
   <url>
     <loc>https://caffeineandlasers.com/blogs/Blog-Statsforfunscienceandart.html</loc>
     <lastmod>2025-08-08T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/about.html</loc>
+    <lastmod>2025-08-29T13:53:40Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
