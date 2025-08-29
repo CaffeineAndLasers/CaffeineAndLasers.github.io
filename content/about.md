@@ -77,26 +77,26 @@ Well obviously optics and photonics, thats why I am doing my PhD in that. Outsid
 ### 4.1 Astronomy
 **SETI (Search For Extraterrestrial intelligence)**
 
-I don't expect to find Aliens in my lifetime, but SETI is a great excuse to study the very edges of what is epistimalogically possible. The current state of research incorporates epistamology, communication theory, quantum information theory, and high precision photonics. [Here is a blogpost](/blogs/Aliens.html) about a paper I really enjoyed recenetly, and [here](https://arxiv.org/abs/2407.07097) is a link to another paper I enjoyed but didn't get round to translating to a general audience
+I don't expect to find Aliens in my lifetime, but SETI is a great excuse to study the very edges of what is possible. The current state of research incorporates epistamology, communication theory, quantum information theory, and high precision photonics. [Here is a blogpost](/blogs/Aliens.html) about a paper I really enjoyed recenetly, and [here](https://arxiv.org/abs/2407.07097) is a link to another paper I enjoyed but didn't get round to translating to a general audience
 
 ### 4.2 Physics
 **Quantum Sensing**
 
-I know the world is mad keen about quantum computing. I did a little bit of Quantum Computing research during my undergrad, which has left me a little veiled and skeptical about the whole field. Maybe it'll work, or maybe it's just the next nuclear fusion (Just 5 more years guys). 
+I know the world is mad keen about quantum computing. I did a little bit of Quantum Computing research during my undergrad, which has left me a little veiled and skeptical about the whole field. Maybe it'll work, or maybe it's just the next cold nuclear fusion (Just 5 more years guys). 
 
-Quantum sensors are already hitting the market however, and I think they are really cool. They occupy an interesting area, because in many cases, the physics has lying around for a while, but we have only just gotten our Computer Science and Computer hardware to the degree that we can actually use them.
+Quantum sensors are already hitting the market however, and I think they are really cool. They occupy an interesting area, because in many cases, the physics behind them has lying around for a ages, but we have only just gotten our computer science and computer hardware to the degree that we can actually use them.
 
-The technology is crazy cool, things like measuring how Earth gravitational field is distorted by mountains to determine the density of that mountain, to figure out what it is made out of. 
+The technology is crazy in the level of precision, things like measuring how Earth gravitational field is distorted to use for navigation systems, all the way to tracking the movement of people UNDER that mountain thanks to how the metal they are carrying on them distorts the local magnetic fields. 
 
 ### 4.3 Chemistry
 **Metamaterials**
 
-Okay, I haven't been keeping an eye on chemistry all that much, but I wanted to list it ofr inclusion. Does Meta-materials count as chemistry or physics,  go argue about it on my guest book. Nonetheless, keeping up with some of the crazy materials humanity is figuring out how to build is really exciting. 
+Okay, I haven't been keeping an eye on chemistry all that much, but I wanted to list it ofr inclusion. Does Meta-materials count as chemistry or physics, go argue about it on my guest book. Either way, keeping up with some of the crazy materials humanity is figuring out how to build is really exciting. For example, did you know the windshield of the F-35 jet is made of a really big saphire?
 
 ### 4.4 Biology
 **Engineered Microbiology**
 
-My current obsession in biology at the moment is almost entirely due to watching the crazy work done by [Thought Emporium](https://www.youtube.com/@thethoughtemporium). Learning about the current state of direct gene editing for protein synthesis is really exciting. I get excited about the possibility to produce massive complex structures biologically, for human application. 
+My current obsession in biology at the moment is almost entirely due to watching the crazy work done by [Thought Emporium](https://www.youtube.com/@thethoughtemporium). Learning about the current state of direct gene editing for protein synthesis is really exciting. The possibility to produce massive complex structures biologically is really something to marvel at.
 
 ### 4.5 Maths and Computer Science
 ***Sigh***  *I know, another techie who is excited about AI - I know*. But seriously, I have been tracking the progress of LLMs closely and have been very excited by the progress. - no I don't think they are going to replace everyone like the marketers think - but I also don't think the stochastic parrots are completely useless. 
