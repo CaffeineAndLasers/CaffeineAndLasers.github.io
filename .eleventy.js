@@ -72,6 +72,7 @@ module.exports = function (eleventyConfig) {
 
   // This will copy these folders and files to the output without modifying them
   eleventyConfig.addPassthroughCopy("content/assets");
+  eleventyConfig.addPassthroughCopy("content/assets/**/*");
   eleventyConfig.addPassthroughCopy("content/**/*.svg");
   eleventyConfig.addPassthroughCopy("content/**/*.png");
 

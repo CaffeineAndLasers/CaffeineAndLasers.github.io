@@ -5,8 +5,8 @@
 import fs from "fs";
 import fetch from "node-fetch";
 
-const BOOKS_FILE = "./books.json";
-const COVER_DIR = "./Assets/book-covers/";
+const BOOKS_FILE = "./content/books.json";
+const COVER_DIR  = "./content/Assets/book-covers/";
 
 // helper: download a file
 async function download(url, path) {
