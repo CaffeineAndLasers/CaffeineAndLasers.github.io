@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers - Blog </title>
     <description> Extended thoughts from Caffeine and Lasers</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Fri, 08 Aug 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Aug 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>How to Actually Take notes</title>
+      <description>I've seen way too many people ask how do you use Obsidian, how do you take notes, it all seems so daunting. To be completely honest, it seems really obvious to me. So I figured I would just write down what I do.</description>
+      <link>https://Caffeineandlasers.com/blogs/HowtoActuallyTakenotes.html</link>
+      <pubDate>Sun, 31 Aug 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>Statistics for fun, science and art</title>
