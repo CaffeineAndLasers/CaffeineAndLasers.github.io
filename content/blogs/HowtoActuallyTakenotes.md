@@ -1,7 +1,7 @@
 ---
 title: How to Actually Take notes
 date: 2025-08-31
-updated: 2025-08-31
+updated: 2025-09-01
 description: "I've seen way too many people ask how do you use Obsidian, how do you take notes, it all seems so daunting. To be completely honest, it seems really obvious to me. So I figured I would just write down what I do."
 layout: blogpost.liquid
 ---
