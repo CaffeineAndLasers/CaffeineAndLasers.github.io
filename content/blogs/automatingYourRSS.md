@@ -148,7 +148,7 @@ There is no reason to limit ourselves to automating the RSS page.
 
 ## 6.1 Every Blogpost in bullet points
 
-Here is a html snipped which will tell 11ty to put every blog post in the folder in dot-points. Use your CSS skills to snazzy it up using the `blog-posts-container` class. 
+Here is a html snippet which will tell 11ty to put every blog post in your folder in dot-points. Use your CSS skills to snazzy it up using the `blog-posts-container` class. 
 
 ------------------------------------------------------------------------
 
