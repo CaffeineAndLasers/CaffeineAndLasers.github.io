@@ -1,6 +1,7 @@
 ---
 title: Automating Your RSS Feed with 11ty
 date: 2025-03-17
+updated: 2025-09-05
 description: Here is a quick write-up on how to automate a little more of your personal website.
 layout: blogpost.liquid
 tags:
@@ -10,7 +11,7 @@ tags:
 
 
 # 1 Background
-A while back, I wrote a quick explainer on how to set up your own RSS feed for your site. It was pretty straightforward, and expalined how to hard-code it. 
+A while back, I wrote a quick explainer on how to set up your own RSS feed for your site. It was pretty straightforward, and showed you how to hard-code it. 
 
 Then I got lazy, updating the `feed.xml`  file every time I wrote a blog post was becoming a pain. 
 
@@ -28,19 +29,20 @@ I am assuming that all your blogposts are in their own sub-directory. So if your
 
 ```
 >Project/
-    > Content/
-        > Blogs/
-         	> Blogpost1.html 
-		> Everything Else
-	> Public
-		> All the files that 11ty generates
+--> Content/
+----> Blogs/
+------> Blogpost1.html 
+------> Blogpost2.html
+---->Everything Else
+--> Public
+----> All the files that 11ty generates
 ```
 
 ------------------------------------------------------------------------
 
 # 3 Creating Your RSS Template
 
-Okay, you did everything and followed Petra's advice? Okay good. Now lets add the required properties to all our blogposts. For every post lets upate the yaml:
+Okay, you did everything and followed Petra's advice? Okay good. Now let's add the required properties to all our blogposts. For every post let's upate the yaml:
 
 ------------------------------------------------------------------------
 
@@ -104,7 +106,7 @@ module.exports = function (eleventyConfig) {
 
 # 5 Update the Feed File
 
-Final step! Lets fix up your feed. Create or edit your rss feed file. Mine is `feed.xml`
+Final step! let's fix up your feed. Create or edit your rss feed file. Mine is `feed.xml`
 
 ------------------------------------------------------------------------
 
@@ -138,7 +140,7 @@ eleventyExcludeFromCollections: true
 
 ------------------------------------------------------------------------
 
-What is going on here? The important bit is in-between  `{% for post in collections.blogPosts %}` and `{% endfor %}`. This section tells 11ty to go though all the files in the  blogs directory, and generates an RSS entry from all those properties  we went through and added earlier. 
+What is going on here? The important bit is in-between  `\{\% for post in collections.blogPosts \%\}` and `{\% endfor \%\}`. This section tells 11ty to go through all the files in the  blogs directory, and generates an RSS entry from all those properties  we went through and added earlier. 
 
 # 6 Extension: Automating other parts of your page!
 

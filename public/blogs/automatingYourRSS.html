@@ -89,11 +89,11 @@
 
 <div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
   <p><strong>Date:</strong> 2025-03-17</p>
-  <p><strong>Last Updated:</strong> </p>
+  <p><strong>Last Updated:</strong> 2025-09-05</p>
 </div>
 
 <h1>1 Background</h1>
-<p>A while back, I wrote a quick explainer on how to set up your own RSS feed for your site. It was pretty straightforward, and expalined how to hard-code it.</p>
+<p>A while back, I wrote a quick explainer on how to set up your own RSS feed for your site. It was pretty straightforward, and showed you how to hard-code it.</p>
 <p>Then I got lazy, updating the <code>feed.xml</code>  file every time I wrote a blog post was becoming a pain.</p>
 <p>To resolve this, I opted to use 11ty to auto-update the RSS feed every time I added a new blog-post. This very post will get auto-updated to the RSS feed. I already used 11ty for automating other parts of my site, so this was just a natural extension.</p>
 <h1>2 Setting Up Your Environment</h1>
@@ -103,16 +103,17 @@
 <p>I am assuming that all your blogposts are in their own sub-directory. So if your folder structure looks like this</p>
 <hr>
 <pre><code>&gt;Project/
-    &gt; Content/
-        &gt; Blogs/
-         	&gt; Blogpost1.html 
-		&gt; Everything Else
-	&gt; Public
-		&gt; All the files that 11ty generates
+--&gt; Content/
+----&gt; Blogs/
+------&gt; Blogpost1.html 
+------&gt; Blogpost2.html
+----&gt;Everything Else
+--&gt; Public
+----&gt; All the files that 11ty generates
 </code></pre>
 <hr>
 <h1>3 Creating Your RSS Template</h1>
-<p>Okay, you did everything and followed Petra's advice? Okay good. Now lets add the required properties to all our blogposts. For every post lets upate the yaml:</p>
+<p>Okay, you did everything and followed Petra's advice? Okay good. Now let's add the required properties to all our blogposts. For every post let's upate the yaml:</p>
 <hr>
 <pre><code class="language-yaml">---
 title: BLOG_TITLE
@@ -158,7 +159,7 @@ layout: blogpost.liquid
 </code></pre>
 <hr>
 <h1>5 Update the Feed File</h1>
-<p>Final step! Lets fix up your feed. Create or edit your rss feed file. Mine is <code>feed.xml</code></p>
+<p>Final step! let's fix up your feed. Create or edit your rss feed file. Mine is <code>feed.xml</code></p>
 <hr>
 <pre><code class="language-html">---
 permalink: /feed.xml
@@ -185,7 +186,7 @@ eleventyExcludeFromCollections: true
 &lt;/rss&gt;
 </code></pre>
 <hr>
-<p>What is going on here? The important bit is in-between  <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and <code>and</code> and ``. This section tells 11ty to go though all the files in the  blogs directory, and generates an RSS entry from all those properties  we went through and added earlier.</p>
+<p>What is going on here? The important bit is in-between  <code>\{\% for post in collections.blogPosts \%\}</code> and <code>{\% endfor \%\}</code>. This section tells 11ty to go through all the files in the  blogs directory, and generates an RSS entry from all those properties  we went through and added earlier.</p>
 <h1>6 Extension: Automating other parts of your page!</h1>
 <p>There is no reason to limit ourselves to automating the RSS page.</p>
 <h2>6.1 Every Blogpost in bullet points</h2>
