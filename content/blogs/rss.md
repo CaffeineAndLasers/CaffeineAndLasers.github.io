@@ -5,19 +5,15 @@ updated: 2025-09-05
 description: A short explainer on how to set-up your very own RSS feed
 layout: blogpost.liquid
 tags:
-  - Webmastery
+  - Web
 ---
 # 1 What Is RSS and why might your readers want it?
 
-The acronym for RSS is \"Really Simple Syndication\". Essentially, it is
-a way better method of alerting your readers to your new blog posts,
-without requiring an email address.
+The acronym for RSS is \"Really Simple Syndication\". Essentially, it is a way better method of alerting your readers to your new blog posts, without requiring an email address.
 
 ## 1.1 How it works
 
-Your users will have an RSS Reader. This program keeps a list of
-webpages to check every refresh period, and presents all the new
-articles to the user.
+Your users will have an RSS Reader. This program keeps a list of webpages to check every refresh period, and presents all the new articles to the user.
 
 ## 1.2 Why not use email?
 
@@ -25,9 +21,7 @@ articles to the user.
 -   \"I love signing up for things and giving my email to strangers\"
 -   \"I\'ve never had my email address leaked in a data breach\"
 
-RSS beats email because it makes more sense. The user lets **YOU** know when
-they want to read, not the other way around. You don\'t need a long list
-of email addresses, and quite frankly you don\'t want one.
+RSS beats email because it makes more sense. The user lets **YOU** know when they want to read, not the other way around. You don\'t need a long list of email addresses, and quite frankly you don\'t want one.
 
 # 2 How to set it up:
 
@@ -41,12 +35,9 @@ The users RSS reader handles the rest
 
 ## 2.1 Creating the Feed Page:
 
-First create your file. The name doesn\'t matter too much, but should
-end in `.xml` since that is the file-type. Mine is simply called
-`feed.xml`.
+First create your file. The name doesn\'t matter too much, but should end in `.xml` since that is the file-type. Mine is simply called `feed.xml`.
 
-The structure of your feed should look like this, with your own info
-replacing the bits I have in {brackets}
+The structure of your feed should look like this, with your own info replacing the bits I have in {brackets}
 
 ------------------------------------------------------------------------
 
@@ -71,15 +62,9 @@ replacing the bits I have in {brackets}
 
 ------------------------------------------------------------------------
 
-RFC 2822 Timestamps look like this: `Thu, 08 Aug 2024 23:52:25 +0000`
-And can easily be generated from this website:
-https://timestampgenerator.com/
+RFC 2822 Timestamps look like this: `Thu, 08 Aug 2024 23:52:25 +0000` And can easily be generated from this website: https://timestampgenerator.com/
 
-The `ttl` field instructs how often an RSS reader should wait between
-refreshing the page. E.g. if you set it to 60, each RSS reader will
-refresh your page once per hour. I rarely update my blog. So I have it
-set to 1440 so it updates once a day, so that my web page doesn\'t get
-hammered with too much traffic.
+The `ttl` field instructs how often an RSS reader should wait between refreshing the page. E.g. if you set it to 60, each RSS reader will refresh your page once per hour. I rarely update my blog. So I have it set to 1440 so it updates once a day, so that my web page doesn\'t get hammered with too much traffic.
 
 ## 2.2 Adding Articles to the feed
 
@@ -164,14 +149,9 @@ Check out my RSS for a full example. of what the text looks like.
 
 ## 2.4 Linking the to the RSS Feed
 
-Now that you have created the feed, you need a way to drive users to
-subscribe. All the user needs is the URL of the page you created.
+Now that you have created the feed, you need a way to drive users to subscribe. All the user needs is the URL of the page you created.
 
-It is customary to use the RSS logo you can see at the bottom of my page
-to link it it. If you go ahead and click on it, you will see it brings
-you to an empty looking page. Thats because the page isn\'t for you. It
-is for the programs. So you can go ahead and copy and paste that logo
-into your RSS Reader to subscribe to me 😉.
+It is customary to use the RSS logo you can see at the bottom of my page to link it it. If you go ahead and click on it, you will see it brings you to an empty looking page. Thats because the page isn\'t for you. It is for the programs. So you can go ahead and copy and paste that logo into your RSS Reader to subscribe to me 😉.
 
 # 3 Wrapping Up
 

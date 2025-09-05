@@ -93,22 +93,16 @@
 </div>
 
 <h1>1 What Is RSS and why might your readers want it?</h1>
-<p>The acronym for RSS is &quot;Really Simple Syndication&quot;. Essentially, it is<br>
-a way better method of alerting your readers to your new blog posts,<br>
-without requiring an email address.</p>
+<p>The acronym for RSS is &quot;Really Simple Syndication&quot;. Essentially, it is a way better method of alerting your readers to your new blog posts, without requiring an email address.</p>
 <h2>1.1 How it works</h2>
-<p>Your users will have an RSS Reader. This program keeps a list of<br>
-webpages to check every refresh period, and presents all the new<br>
-articles to the user.</p>
+<p>Your users will have an RSS Reader. This program keeps a list of webpages to check every refresh period, and presents all the new articles to the user.</p>
 <h2>1.2 Why not use email?</h2>
 <ul>
 <li>&quot;I wish I had more emails in my inbox &quot;</li>
 <li>&quot;I love signing up for things and giving my email to strangers&quot;</li>
 <li>&quot;I've never had my email address leaked in a data breach&quot;</li>
 </ul>
-<p>RSS beats email because it makes more sense. The user lets <strong>YOU</strong> know when<br>
-they want to read, not the other way around. You don't need a long list<br>
-of email addresses, and quite frankly you don't want one.</p>
+<p>RSS beats email because it makes more sense. The user lets <strong>YOU</strong> know when they want to read, not the other way around. You don't need a long list of email addresses, and quite frankly you don't want one.</p>
 <h1>2 How to set it up:</h1>
 <p>All you need to setup an RSS feed is:</p>
 <ol>
@@ -118,11 +112,8 @@ of email addresses, and quite frankly you don't want one.</p>
 </ol>
 <p>The users RSS reader handles the rest</p>
 <h2>2.1 Creating the Feed Page:</h2>
-<p>First create your file. The name doesn't matter too much, but should<br>
-end in <code>.xml</code> since that is the file-type. Mine is simply called<br>
-<code>feed.xml</code>.</p>
-<p>The structure of your feed should look like this, with your own info<br>
-replacing the bits I have in {brackets}</p>
+<p>First create your file. The name doesn't matter too much, but should end in <code>.xml</code> since that is the file-type. Mine is simply called <code>feed.xml</code>.</p>
+<p>The structure of your feed should look like this, with your own info replacing the bits I have in {brackets}</p>
 <hr>
 <pre><code class="language-{.sourceCode">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
 &lt;rss version=&quot;2.0&quot;&gt;
@@ -142,14 +133,8 @@ replacing the bits I have in {brackets}</p>
 &lt;/rss&gt;
 </code></pre>
 <hr>
-<p>RFC 2822 Timestamps look like this: <code>Thu, 08 Aug 2024 23:52:25 +0000</code><br>
-And can easily be generated from this website:<br>
-<a href="https://timestampgenerator.com/">https://timestampgenerator.com/</a></p>
-<p>The <code>ttl</code> field instructs how often an RSS reader should wait between<br>
-refreshing the page. E.g. if you set it to 60, each RSS reader will<br>
-refresh your page once per hour. I rarely update my blog. So I have it<br>
-set to 1440 so it updates once a day, so that my web page doesn't get<br>
-hammered with too much traffic.</p>
+<p>RFC 2822 Timestamps look like this: <code>Thu, 08 Aug 2024 23:52:25 +0000</code> And can easily be generated from this website: <a href="https://timestampgenerator.com/">https://timestampgenerator.com/</a></p>
+<p>The <code>ttl</code> field instructs how often an RSS reader should wait between refreshing the page. E.g. if you set it to 60, each RSS reader will refresh your page once per hour. I rarely update my blog. So I have it set to 1440 so it updates once a day, so that my web page doesn't get hammered with too much traffic.</p>
 <h2>2.2 Adding Articles to the feed</h2>
 <p>The block above is for an empty feed. We will want to add articles to<br>
 it!</p>
@@ -217,13 +202,8 @@ tag.</p>
 <hr>
 <p>Check out my RSS for a full example. of what the text looks like.</p>
 <h2>2.4 Linking the to the RSS Feed</h2>
-<p>Now that you have created the feed, you need a way to drive users to<br>
-subscribe. All the user needs is the URL of the page you created.</p>
-<p>It is customary to use the RSS logo you can see at the bottom of my page<br>
-to link it it. If you go ahead and click on it, you will see it brings<br>
-you to an empty looking page. Thats because the page isn't for you. It<br>
-is for the programs. So you can go ahead and copy and paste that logo<br>
-into your RSS Reader to subscribe to me 😉.</p>
+<p>Now that you have created the feed, you need a way to drive users to subscribe. All the user needs is the URL of the page you created.</p>
+<p>It is customary to use the RSS logo you can see at the bottom of my page to link it it. If you go ahead and click on it, you will see it brings you to an empty looking page. Thats because the page isn't for you. It is for the programs. So you can go ahead and copy and paste that logo into your RSS Reader to subscribe to me 😉.</p>
 <h1>3 Wrapping Up</h1>
 <p>Thats all you need! Don't forget to add a new item to your feed when<br>
 you update your blog! No other maintenance needed. Feel free to use the button below for your RSS feed, and subscribe to my feed using the icon in my site's footer.</p>
