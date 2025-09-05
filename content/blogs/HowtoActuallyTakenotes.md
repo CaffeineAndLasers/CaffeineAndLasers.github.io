@@ -49,7 +49,7 @@ If I am taking minutes for a meeting it gets the title `YYYYMMDD_MeetingTopic` m
 ---
 
 ### 1.4.2 Research Notes
-Here's where my advice gets a bit more specific. I previously wrote a blog post linked [here](https://caffeineandlasers.com/blogs/How_I_do_my_Research(As_a_PhD_Student).html) which goes into detail about how I take notes on various scientific papers.  The short version is I use Zotero to track the PDFs of all scientific papers I read and through some plugins that syncs with my obsidian notes to create the obsidian note for each source automatically, then I can link my notes to the source easily. 
+Here's where my advice gets a bit more specific. I previously wrote a blog post linked [here](https://caffeineandlasers.com/blogs/How_I_do_my_Research(As_a_PhD_Student).html) which goes into detail about how I take notes on various scientific papers.  The short version is I use Zotero to track the PDFs of all scientific papers I read and through some plugins that sync with my obsidian notes to create the obsidian note for each source automatically, then I can link my notes to the source easily. 
 
 I sometimes do the same with books.
 
