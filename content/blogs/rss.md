@@ -1,6 +1,7 @@
 ---
 title: RSS
 date: 2024-08-09
+updated: 2025-09-05
 description: A short explainer on how to set-up your very own RSS feed
 layout: blogpost.liquid
 tags:
@@ -24,9 +25,9 @@ articles to the user.
 -   \"I love signing up for things and giving my email to strangers\"
 -   \"I\'ve never had my email address leaked in a data breach\"
 
-RSS beats email because it makes more sense. The user lets YOU know when
+RSS beats email because it makes more sense. The user lets **YOU** know when
 they want to read, not the other way around. You don\'t need a long list
-of email addresses, and quit frankly you don\'t want one.
+of email addresses, and quite frankly you don\'t want one.
 
 # 2 How to set it up:
 
@@ -44,7 +45,7 @@ First create your file. The name doesn\'t matter too much, but should
 end in `.xml` since that is the file-type. Mine is simply called
 `feed.xml`.
 
-The structure of you feed should look like this, with your own info
+The structure of your feed should look like this, with your own info
 replacing the bits I have in {brackets}
 
 ------------------------------------------------------------------------
@@ -175,9 +176,7 @@ into your RSS Reader to subscribe to me 😉.
 # 3 Wrapping Up
 
 Thats all you need! Don\'t forget to add a new item to your feed when
-you update your blog! No other maintenance needed. If anyone out there
-makes an old school 88x32 button to link to their RSS feed let me know!
-I really want one, but not enough to make it myself 😜
+you update your blog! No other maintenance needed. Feel free to use the button below for your RSS feed, and subscribe to my feed using the icon in my site's footer.
 
 
-![RSS Feed](/Assets/RSS_Logo.png)
+![RSS Feed](/Assets/rss-button.gif)
