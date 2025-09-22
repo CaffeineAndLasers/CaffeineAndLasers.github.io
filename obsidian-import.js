@@ -2,7 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 
 // CONFIGURATION - Edit this path to match your Obsidian export directory
-const DEFAULT_EXPORT_PATH = '/home/cameron/Documents/Vault/ObsidianVault/output'; // <-- CHANGE THIS
+const DEFAULT_EXPORT_PATH = "C:\\Users\\cjones\\Documents\\ObsidianVault\\output"; // <-- CHANGE THIS
 
 // Default destination directories (relative to script location)
 const DEFAULT_ASSETS_DIR = './content/Assets';
