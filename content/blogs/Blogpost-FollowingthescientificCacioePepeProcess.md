@@ -2,7 +2,7 @@
 title: The IgNobel Cacio e Pepe 
 date: 2025-09-22
 updated: 2025-09-22
-description: "If you are a certain kind of nerd, you undoubtedly follow the Ig Nobel prizes each year. In case you don't, follow them, the Ig Nobel prize is awarded each year for Science which makes you laugh, then makes you think. Previous winners include why is belly button lint blue, and predicting corruption of post soviet states based on the BMI of the leaders"
+description: "Preparing Cacio e Pepe as prescribed by teh 2025 IgNobel Prize winning paper"
 tags:
     - Food
 layout: blogpost.liquid
@@ -10,7 +10,9 @@ layout: blogpost.liquid
 
 If you are a certain kind of nerd, you undoubtedly follow the Ig Nobel prizes each year. In case you don't follow them, the Ig Nobel prize is awarded each year for Science which makes you laugh, then makes you think. Previous winners include [why is belly button lint blue](https://www.abc.net.au/science/k2/lint/results.htm), and [predicting corruption of post soviet states based on the BMI of the leaders](https://onlinelibrary.wiley.com/doi/10.1111/ecot.12259).
 
-[This years Ig Nobel Prize](https://arstechnica.com/science/2025/09/meet-the-2025-ig-nobel-prize-winners/) for physics was awarded for studying the [Phase behavior of Cacio e Pepe sauce](https://doi.org/10.1063/5.0255841](https://doi.org/10.1063/5.0255841)The dish in question is a classic Roman pasta preparation, but has a reputation for being difficult to reproduce in the home. [Adam Ragusea hypothesizes in his video](https://www.youtube.com/watch?v=n8YZeA-ZC6c) that the reason why restaurants are more successful in the preparation of this dish is that they use the same pot to boil pasta in all night, leading to increasing starch concentration within the pot.
+[This years Ig Nobel Prize](https://arstechnica.com/science/2025/09/meet-the-2025-ig-nobel-prize-winners/) for physics was awarded for studying the [Phase behavior of Cacio e Pepe sauce](https://doi.org/10.1063/5.0255841). In honour of this years award, and for my dinner, we are going to prepare Cacio e Pepe as prescribed by this paper.
+
+The dish in question is a classic Roman pasta preparation, but has a reputation for being difficult to reproduce in the home. [Adam Ragusea hypothesizes in his video](https://www.youtube.com/watch?v=n8YZeA-ZC6c) that the reason why restaurants are more successful in the preparation of this dish is that they use the same pot to boil pasta in all night, leading to increasing starch concentration within the pot.
 
 This hypothesis is backed up by the research which isolates starch content as the most important variable in determining the texture of the sauce. 
 
