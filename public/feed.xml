@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Mon, 22 Sept 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Oct 2025 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>I was on a podcast!</title>
+      <description></description>
+      <link>https://Caffeineandlasers.com/blogs/TheNerdAndTheScientist.html</link>
+      <pubDate>Sat, 04 Oct 2025 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>The IgNobel Cacio e Pepe</title>
