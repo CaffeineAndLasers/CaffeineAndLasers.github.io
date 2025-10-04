@@ -6,7 +6,7 @@ description:
 layout: blogpost.liquid
 ---
 
-I recently appeared on my friend Kovi's podcast "The Nerd and the Scientist" Podcast. 
+I recently appeared on my friend's podcast "The Nerd and the Scientist" Podcast. 
 
 [Find the podcast here](https://rss.com/podcasts/thenerdandthescientist/2237674/) or watch it on youtube below:
 
