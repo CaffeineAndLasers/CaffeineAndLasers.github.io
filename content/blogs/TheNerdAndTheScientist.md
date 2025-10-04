@@ -13,3 +13,5 @@ I recently appeared on my friend Kovi's podcast "The Nerd and the Scientist" Pod
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CoZ2RsQr--8?si=uamEO_8lNTT2gr5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+Find more from Science Actually [here](https://linktr.ee/scienceactually) 
+
