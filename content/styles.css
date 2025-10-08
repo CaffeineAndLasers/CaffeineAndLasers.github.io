@@ -24,8 +24,11 @@
     --color-content: #c9a2e2;
     
     /* Text Colors */
-    --color-text-body: #4c4f69;
+    --color-text-body: #1c1e2b;
     --color-text-link-webring: #00f;
+
+    font-size: 16px; /* 1rem = 16px; change to 15px or 18px to scale site-wide */
+
     
     /* Border Colors */
     --color-border-light: #ddd;
