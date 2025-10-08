@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Sat, 04 Oct 2025 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>IAC Public Blog</title>
+      <description>I attended IAC 2025 last week in my home city of beautiful Sydney!</description>
+      <link>https://Caffeineandlasers.com/blogs/IACPublicBlog.html</link>
+      <pubDate>Wed, 08 Oct 2025 11:00:00 +1100</pubDate>
+    </item>
     
     <item>
       <title>I was on a podcast!</title>
