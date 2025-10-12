@@ -9,6 +9,20 @@
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="https://caffeineandlasers.com/media.html">
+        <meta name="color-scheme" content="dark light">
+        <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
+        <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
+        <!-- Early theme application to prevent flash -->
+        <script>
+            (function() {
+                try {
+                    var stored = localStorage.getItem('cl-theme');
+                    var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+                    var theme = stored || (prefersLight ? 'theme-light' : 'theme-dark');
+                    document.documentElement.classList.add(theme);
+                } catch (e) { /* no-op */ }
+            })();
+        </script>
 </head>
 
 <div id="container"><div id="header"></div>
@@ -23,6 +37,7 @@
             <!-- <li><a href="/publications.html">Publications</a></li>  -->
             <!-- <li><a href="/Resume.html">Resume</a></li> -->
             <li><a href="/contact.html">Contact Me</a></li>
+            
 </ul></nav></div>
 
 
@@ -115,9 +130,9 @@
   }
   
   .media-bubble {
-    background-color: #e6e9ef;
-    border: 5px #8839ef dotted;
-    border-radius: 20px;
+    background-color: var(--color-bg-medium);
+    border: var(--border-dotted-secondary);
+    border-radius: var(--border-radius-standard);
     padding: 20px;
     text-align: center;
     width: 250px;
@@ -134,19 +149,22 @@
   
   .media-bubble a {
     display: inline-block;
-    background-color: #c9a2e2;
-    color: #8839ef;
+    background-color: var(--color-primary-pink);
+    color: var(--color-bg-dark);
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: var(--border-radius-small);
     text-decoration: none;
     font-weight: bold;
-    border: 2px solid #8839ef;
+    border: 2px solid var(--color-primary-purple);
   }
+  .media-bubble a:link,
+  .media-bubble a:visited { color: var(--color-bg-dark); }
   
   .media-bubble a:hover {
-    background-color: #8839ef;
-    color: #e6e9ef;
+    background-color: var(--color-primary-purple);
+    color: var(--color-bg-light);
   }
+  .media-bubble a:active { transform: scale(0.98); }
 </style></main>
 
 </div>
@@ -168,3 +186,7 @@
 </html>
 
 <script src="/scripts.js"></script>
+<!-- Global floating theme toggle -->
+<button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">
+    🌙 Dark
+</button>

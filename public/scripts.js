@@ -53,3 +53,47 @@ function embedLatestPost(postUrl) {
         document.getElementById("latest-mastodon-post").appendChild(script);
     }
 }
+
+// Theme toggle and initialization
+(function() {
+    function setTheme(themeClass) {
+        var root = document.documentElement;
+        root.classList.remove('theme-dark', 'theme-light');
+        root.classList.add(themeClass);
+        try { localStorage.setItem('cl-theme', themeClass); } catch (e) {}
+        // Update theme-color for mobile URL bar
+        var metas = document.querySelectorAll('meta[name="theme-color"]');
+        metas.forEach(function(m) {
+            if (themeClass === 'theme-dark' && m.media && m.media.includes('dark')) {
+                m.content = '#1e1e2e';
+            }
+            if (themeClass === 'theme-light' && m.media && m.media.includes('light')) {
+                m.content = '#eff1f5';
+            }
+        });
+    }
+
+    function initThemeToggle() {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        // Reflect current theme in button label/state
+        var current = document.documentElement.classList.contains('theme-light') ? 'theme-light' : 'theme-dark';
+        btn.classList.add('theme-toggle-fab');
+        btn.textContent = current === 'theme-dark' ? '🌙 Dark' : '☀️ Light';
+        btn.setAttribute('aria-pressed', current === 'theme-dark' ? 'true' : 'false');
+
+        btn.addEventListener('click', function() {
+            var now = document.documentElement.classList.contains('theme-dark') ? 'theme-dark' : 'theme-light';
+            var next = now === 'theme-dark' ? 'theme-light' : 'theme-dark';
+            setTheme(next);
+            btn.textContent = next === 'theme-dark' ? '🌙 Dark' : '☀️ Light';
+            btn.setAttribute('aria-pressed', next === 'theme-dark' ? 'true' : 'false');
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initThemeToggle);
+    } else {
+        initThemeToggle();
+    }
+})();

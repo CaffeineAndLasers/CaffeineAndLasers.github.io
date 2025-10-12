@@ -9,6 +9,20 @@
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="https://caffeineandlasers.com/Resume.html">
+        <meta name="color-scheme" content="dark light">
+        <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
+        <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
+        <!-- Early theme application to prevent flash -->
+        <script>
+            (function() {
+                try {
+                    var stored = localStorage.getItem('cl-theme');
+                    var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+                    var theme = stored || (prefersLight ? 'theme-light' : 'theme-dark');
+                    document.documentElement.classList.add(theme);
+                } catch (e) { /* no-op */ }
+            })();
+        </script>
 </head>
 
 <div id="container"><div id="header"></div>
@@ -23,6 +37,7 @@
             <!-- <li><a href="/publications.html">Publications</a></li>  -->
             <!-- <li><a href="/Resume.html">Resume</a></li> -->
             <li><a href="/contact.html">Contact Me</a></li>
+            
 </ul></nav></div>
 
 
@@ -293,3 +308,7 @@
 </html>
 
 <script src="/scripts.js"></script>
+<!-- Global floating theme toggle -->
+<button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">
+    🌙 Dark
+</button>

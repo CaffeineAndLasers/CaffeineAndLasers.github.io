@@ -31,9 +31,9 @@ layout: default.liquid
   }
   
   .media-bubble {
-    background-color: #e6e9ef;
-    border: 5px #8839ef dotted;
-    border-radius: 20px;
+    background-color: var(--color-bg-medium);
+    border: var(--border-dotted-secondary);
+    border-radius: var(--border-radius-standard);
     padding: 20px;
     text-align: center;
     width: 250px;
@@ -50,17 +50,20 @@ layout: default.liquid
   
   .media-bubble a {
     display: inline-block;
-    background-color: #c9a2e2;
-    color: #8839ef;
+    background-color: var(--color-primary-pink);
+    color: var(--color-bg-dark);
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: var(--border-radius-small);
     text-decoration: none;
     font-weight: bold;
-    border: 2px solid #8839ef;
+    border: 2px solid var(--color-primary-purple);
   }
+  .media-bubble a:link,
+  .media-bubble a:visited { color: var(--color-bg-dark); }
   
   .media-bubble a:hover {
-    background-color: #8839ef;
-    color: #e6e9ef;
+    background-color: var(--color-primary-purple);
+    color: var(--color-bg-light);
   }
+  .media-bubble a:active { transform: scale(0.98); }
 </style>

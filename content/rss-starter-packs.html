@@ -80,10 +80,11 @@ layout: default.liquid
   
   .link-button {
     display: inline-block;
-    background-color: #a0c5ff;
-    padding: 4px 15px;
-    border-radius: 4px;
-    color: var(--color-border-dark);
+    background-color: var(--color-primary-pink);
+    padding: 6px 16px;
+    border-radius: var(--border-radius-small);
+    color: var(--color-bg-dark);
+    border: 2px solid var(--color-primary-purple);
     text-decoration: none;
     font-weight: bold;
     margin-left: 10px;
@@ -93,8 +94,10 @@ layout: default.liquid
   }
   
   .link-button:hover {
-    background-color: #7dadff;
+    background-color: var(--color-primary-purple);
+    color: var(--color-bg-light);
   }
+  .link-button:link, .link-button:visited { color: var(--color-bg-dark); }
   
   /* Tooltip for copy confirmation */
   .tooltip {
@@ -232,6 +235,7 @@ layout: default.liquid
     min-width: 80px;
     text-align: center;
   }
+  .download-opml-button:link, .download-opml-button:visited { color: white; }
   
   .download-opml-button:hover {
     background-color: #45a049;
@@ -239,18 +243,22 @@ layout: default.liquid
   
   .all-opml-button {
     display: inline-block;
-    background-color: #2196F3;
-    color: white;
+    background-color: var(--color-primary-purple);
+    color: var(--color-bg-light);
     padding: 10px 20px;
     margin-top: 20px;
-    border-radius: 4px;
+    border-radius: var(--border-radius-small);
+    border: 2px solid var(--color-primary-pink);
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
   }
+  .all-opml-button:link, .all-opml-button:visited { color: var(--color-bg-light); }
   
   .all-opml-button:hover {
-    background-color: #0b7dda;
+    background-color: var(--color-primary-pink);
+    color: var(--color-bg-dark);
+    border-color: var(--color-primary-purple);
   }
 </style>
 

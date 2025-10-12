@@ -57,45 +57,49 @@
     box-sizing: border-box;
     min-height: 100px; /* Add a minimum height instead */
     padding: 15px;
-    background-image: url('bow-bg.gif'); /* F2U background provided by https://sadgrl.online/webmastery/downloads/tiledbgs */
-    background-attachment: fixed;
-    font-family: 'Trebuchet MS';
+    /* Remove busy background to match dark theme */
+    background-image: none;
+    background-color: var(--color-bg-light);
+    font-family: 'Trebuchet MS', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     font-size: 14px;
-    color: #211F24;
+    color: var(--color-text-body);
     max-width: 100%;
     overflow-x: hidden;
     overflow-y: visible; /* Ensure vertical content flows naturally */
+    border: var(--border-dotted-primary);
+    border-radius: var(--border-radius-standard);
 }
 
 #c_widget button, #c_widget input[type=submit] {
-    padding: 4px;
+    padding: 6px 10px;
     text-decoration: none;
-	text-transform: lowercase;
-	text-align: center;
-    background-color: white;
-    color: #CE98FB;
-    border: 1px solid #CE98FB;
-    border-radius: 5px;
+    text-transform: lowercase;
+    text-align: center;
+    background-color: var(--color-primary-pink);
+    color: var(--color-bg-dark);
+    border: 1px solid var(--color-primary-purple);
+    border-radius: var(--border-radius-small);
+    font-weight: 700;
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
-    background-color: #FB96D8;
-    color: white;
-    border: 1px solid #FB96D8;
+    background-color: var(--color-primary-purple);
+    color: var(--color-bg-light);
+    border: 1px solid var(--color-primary-purple);
 }
 #c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
 #c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
-    background-color: white;
-    color: #CE98FB;
-    border: 1px solid #CE98FB;
+    background-color: var(--color-primary-pink);
+    color: var(--color-bg-dark);
+    border: 1px solid var(--color-primary-purple);
 }
 
 /* Input section */
 #c_inputDiv {
     padding: 10px;
     text-transform: lowercase;
-    background-color: rgba(255, 255, 255, .8);
-    border: 1px dashed #CE98FB;
-    border-radius: 5px;
+    background-color: var(--color-bg-medium);
+    border: 1px dashed var(--color-primary-purple);
+    border-radius: var(--border-radius-small);
 }
 #c_container {margin-top: 10px;}
 
@@ -104,6 +108,7 @@
     padding: 0;
     font-style: italic;
     text-decoration: underline;
+    color: var(--color-primary-pink);
 }
 
 .c-inputWrapper {
@@ -112,13 +117,23 @@
     margin-bottom: 5px;
 }
 .c-input {
-    padding: 4px;
-    color: #5E2C49;
-    border-radius: 4px;
-    border: 1px solid #CE98FB;
-	outline: none;
+    padding: 6px 8px;
+    color: var(--color-text-body);
+    background-color: var(--color-bg-details);
+    border-radius: 6px;
+    border: 1px solid var(--color-primary-purple);
+    outline: none;
+    caret-color: var(--color-primary-purple);
 }
-.c-input:focus {border: 1px solid #FB96D8;}
+.c-input:focus {border: 1px solid var(--color-primary-pink);}    
+
+/* Placeholder readability */
+#c_widget input::placeholder,
+#c_widget textarea::placeholder {
+    color: color-mix(in srgb, var(--color-text-body) 60%, transparent);
+}
+
+.c-label { color: var(--color-text-body); }
 
 .c-textInput {
     width: calc(100% - 10px);
@@ -133,17 +148,17 @@
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, .75);
-    border: 1px dashed #CE98FB;
-    border-radius: 4px;
+    background-color: var(--color-bg-light);
+    border: 1px dashed var(--color-primary-purple);
+    border-radius: 6px;
 }
 .c-reply {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 1);
-    border: 1px dashed #CE98FB;
-    border-radius: 4px;
+    background-color: var(--color-bg-medium);
+    border: 1px dashed var(--color-primary-purple);
+    border-radius: 6px;
 }
 .c-reply:last-child {margin-bottom: 0;}
 
@@ -156,20 +171,26 @@
 }
 .c-site {
     text-transform: lowercase;
-    color: #CE98FB;
+    color: var(--color-primary-pink);
+    text-decoration: none;
 }
-.c-site:hover {color: #211F24;}
+.c-site:hover {color: var(--color-primary-purple); text-decoration: underline;}
 .c-timestamp {
     float: right;
-    opacity: 60%;
+    opacity: 70%;
+    color: var(--color-text-body);
 }
 .c-text {
     margin: 0;
     margin-top: 10px;
     padding: 0;
     text-align: justify;
-    color: #5E2C49;
+    color: var(--color-text-body);
 }
+
+/* Keep anchor colors readable inside widget */
+#c_widget a:link, #c_widget a:visited { color: var(--color-text-link-webring); }
+#c_widget a:hover { color: var(--color-primary-pink); }
 
 /* Pagination */
 #c_pagination {text-align: center;}
