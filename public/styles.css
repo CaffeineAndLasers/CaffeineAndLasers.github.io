@@ -154,29 +154,7 @@
 
 
 
-/* @font-face {
-    font-family: AtkinsenHyperlegible;
-    src: url("/public/fonts/AtkinsonHyperlegible-Regular.ttf");
-}
-
-@font-face {
-    font-family: AtkinsenHyperlegible;
-    src: url("/public/fonts/AtkinsonHyperlegible-Bold.ttf");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: AtkinsenHyperlegible;
-    src: url("/public/fonts/AtkinsonHyperlegible-Italic.ttf");
-    font-style: italic;
-}
-
-@font-face {
-    font-family: AtkinsenHyperlegible;
-    src: url("/public/fonts/AtkinsonHyperlegible-BoldItalic.ttf");
-    font-style: italic;
-    font-weight: bold;
-} */
+/* Atkinson Hyperlegible is loaded from Google Fonts in layout heads */
 
 body {
     font-family: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
