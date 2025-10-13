@@ -6,6 +6,19 @@
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/styles.css">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('cl-theme');
+          var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+          var theme = stored || (prefersLight ? 'theme-light' : 'theme-dark');
+          document.documentElement.classList.add(theme);
+        } catch (e) {}
+      })();
+    </script>
 </head>
 
 <div id="container"><div id="header"></div>
@@ -140,3 +153,6 @@ Credit: <a href="https://simple.wikipedia.org/wiki/Adaptive_optics">WikiMedia</a
 </footer>
 
 </html>
+
+<script src="/scripts.js"></script>
+<button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">🌙 Dark</button>
