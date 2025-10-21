@@ -7,6 +7,7 @@ nesting: ../../
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin">
     <head><title>{{ title }}</title></head>
     <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="{{css}}{{ nocache }}">
@@ -37,7 +38,7 @@ nesting: ../../
 
 <main>
 
- <h1 style="font-size:35px;">{{title}}</h1>
+ <h1 style="font-size:35px;" data-vt="{{ page.url | slugify }}">{{title}}</h1>
 
 <div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
   <p><strong>Date:</strong> {{ date | date: "%Y-%m-%d" }}</p>

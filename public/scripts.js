@@ -97,3 +97,21 @@ function embedLatestPost(postUrl) {
         initThemeToggle();
     }
 })();
+
+// Apply View Transition names from data attributes (shared element transitions)
+(function() {
+    function applyViewTransitionNames() {
+        var els = document.querySelectorAll('[data-vt]');
+        els.forEach(function(el){
+            try {
+                var vt = el.getAttribute('data-vt');
+                if (vt) el.style.viewTransitionName = 'vt-' + vt;
+            } catch (e) {}
+        });
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', applyViewTransitionNames);
+    } else {
+        applyViewTransitionNames();
+    }
+})();

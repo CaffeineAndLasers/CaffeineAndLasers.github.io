@@ -548,3 +548,39 @@ button#theme-toggle.theme-toggle-fab {
 @media (max-width: 420px) {
     #theme-toggle.theme-toggle-fab { padding: 10px; font-size: 14px; }
 }
+
+/* View Transitions: cross-document page animation and shared elements */
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    html { view-transition-name: none; }
+    ::view-transition-group(*) { animation: none !important; }
+    ::view-transition-old(root),
+    ::view-transition-new(root) { animation: none !important; }
+}
+
+/* Root page transition: subtle fade and slight slide */
+::view-transition-old(root) {
+    animation: vt-fade-out 180ms ease-out both;
+}
+::view-transition-new(root) {
+    animation: vt-fade-in 240ms ease-out 60ms both;
+}
+
+@keyframes vt-fade-out {
+    from { opacity: 1; transform: none; }
+    to { opacity: 0; transform: translateY(6px); }
+}
+@keyframes vt-fade-in {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: none; }
+}
+
+/* Keep the navbar feeling anchored during transitions */
+::view-transition-old(site-nav) {
+    animation: vt-nav-out 120ms ease-out both;
+}
+::view-transition-new(site-nav) {
+    animation: vt-nav-in 220ms ease-out both;
+}
+@keyframes vt-nav-out { from { opacity: 1 } to { opacity: .85 } }
+@keyframes vt-nav-in { from { opacity: .85 } to { opacity: 1 } }
