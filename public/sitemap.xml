@@ -569,4 +569,12 @@
     <priority>0.7</priority>
   </url>
   
+  
+  <url>
+    <loc>https://caffeineandlasers.com/notes/LearningRL.html</loc>
+    <lastmod>2025-11-17T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
 </urlset>
