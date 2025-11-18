@@ -11,6 +11,16 @@ nesting: ../../
     <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="{{css}}{{ nocache }}">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
+    <!-- Canonical URL for SEO and sitemap -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <!-- Octothorpes: request indexing of this page on load -->
+    <link rel="preload" as="fetch" href="https://octothorp.es/?uri={{ site.url }}{{ page.url }}">
+    <!-- Octothorpes: emit one link per tag on this page -->
+    {% if tags %}
+      {% for tag in tags %}
+        <link rel="octo:octothorpes" href="{{ tag }}">
+      {% endfor %}
+    {% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
