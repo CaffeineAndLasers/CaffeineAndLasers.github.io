@@ -83,9 +83,24 @@ layout: blog.liquid
 
 <h2>📜All My Posts📜</h2>
 <div class="blog-posts-container">
-  <ul>
+
+  <!-- Tag filter UI -->
+  <div id="tag-filters" style="margin-bottom: 1rem;">
+    <strong>Filter by tag:</strong>
+    <label style="margin-left:0.75rem;"><input type="radio" name="tag-filter" value="all" checked> Show all</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Academia"> Academia</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Culture"> Culture</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="FoodAndDrink"> Food & Drink</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Physics"> Physics</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Projects"> Projects</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Science"> Science</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Technology"> Technology</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Webmastery"> Webmastery</label>
+  </div>
+
+  <ul id="all-posts-list">
   {% for post in collections.blogPosts %}
-    <li>
+    <li class="post-item" data-tags="{% if post.data.tags %}{{ post.data.tags | join: ',' }}{% endif %}">
       <a href="{{ post.url }}">
         {{ post.date | date: "%Y-%m-%d" }}: {{ post.data.title }}
       </a>
@@ -93,6 +108,37 @@ layout: blog.liquid
   {% endfor %}
   </ul>
 </div>
+
+<script>
+  (function(){
+    // Simple client-side filtering by tag. Checks the data-tags attribute.
+    const radios = document.querySelectorAll('input[name="tag-filter"]');
+    const posts = document.querySelectorAll('#all-posts-list .post-item');
+
+    function showAll() {
+      posts.forEach(p => p.style.display = 'list-item');
+    }
+
+    function filterBy(tag) {
+      posts.forEach(p => {
+        const tags = (p.getAttribute('data-tags') || '').split(',').map(s => s.trim()).filter(Boolean);
+        if (tags.length === 0) {
+          // If post has no tags, show it only when 'all' is selected
+          p.style.display = (tag === 'all') ? 'list-item' : 'none';
+        } else {
+          p.style.display = (tag === 'all' || tags.indexOf(tag) !== -1) ? 'list-item' : 'none';
+        }
+      });
+    }
+
+    radios.forEach(r => {
+      r.addEventListener('change', e => {
+        const tag = e.target.value;
+        if (tag === 'all') showAll(); else filterBy(tag);
+      });
+    });
+  })();
+</script>
 
     <p>
       Unless otherwise stated, all my blogposts are license under the 

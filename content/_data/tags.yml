@@ -1,0 +1,65 @@
+# Generated tag list mapping for the site's blog posts
+# Keys are tag names and values are lists of filenames (relative to content/blogs)
+
+Academia:
+  - How_I_do_my_Research(As_a_PhD_Student).md
+  - HowtoActuallyTakenotes.md
+  - fromStudentToIndustry.md
+  - phdAt5Levels.md
+  - technicalSkillsAsPraxis.md
+
+Culture:
+  - PostTruthBeer.md
+  - TheCaseForPowerCoOps.md
+  - On Personal Style And Rolemodels.md
+  - TranshumanisminaTechnofeudalSociety.md
+  - anotherReasonWhyLibrariesAreGreat.md
+  - KeepYourEgoInCheck(AboveTheAI).md
+  - technicalSkillsAsPraxis.md
+  - WhereDidBroadcastAdsComeFrom.md
+
+FoodAndDrink:
+  - beerAndOptics.md
+  - WhatScienceSaysAboutCoffeeGrinding.md
+  - 20240725T075059.md
+  - Blogpost-FollowingthescientificCacioePepeProcess.md
+  - PostTruthBeer.md
+
+Physics:
+  - IntroToLCOS.md
+  - beerAndOptics.md
+  - Perceptibility.md
+
+Projects:
+  - ChiCurate.md
+  - lofiRadio.md
+  - 20250124PlantMonitorPrototypeUpdate.md
+  - ChiScraperIntroduction.md
+
+Science:
+  - Blogpost-Myfavouritealiens.md
+  - Blog-Statsforfunscienceandart.md
+  - Aliens.md
+  - VirtualLabTour.md
+  - WhatScienceSaysAboutCoffeeGrinding.md
+  - IACPublicBlog.md
+  - TheNerdAndTheScientist.md
+  - Perceptibility.md
+  - phdAt5Levels.md
+
+Technology:
+  - WhatScienceSaysAboutCoffeeGrinding.md
+  - AnthroLLM.md
+  - ChiCurate.md
+  - lofiRadio.md
+  - embeddingYourLatestMastodonPost.md
+  - automatingYourRSS.md
+  - KeepYourEgoInCheck(AboveTheAI).md
+  - 20250124PlantMonitorPrototypeUpdate.md
+  - ChiScraperIntroduction.md
+
+Webmastery:
+  - rss.md
+  - embeddingYourLatestMastodonPost.md
+  - automatingYourRSS.md
+  - RSSforReddit.md

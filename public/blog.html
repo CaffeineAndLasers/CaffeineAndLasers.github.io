@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head><title>blog</title></head>
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="/styles.css?nocache=1763436893179">
+    <link rel="stylesheet" href="/styles.css?nocache=1763438246371">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -181,201 +181,216 @@
 
 <h2>📜All My Posts📜</h2>
 <div class="blog-posts-container">
-  <ul>
+
+  <!-- Tag filter UI -->
+  <div id="tag-filters" style="margin-bottom: 1rem;">
+    <strong>Filter by tag:</strong>
+    <label style="margin-left:0.75rem;"><input type="radio" name="tag-filter" value="all" checked> Show all</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Academia"> Academia</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Culture"> Culture</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="FoodAndDrink"> Food & Drink</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Physics"> Physics</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Projects"> Projects</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Science"> Science</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Technology"> Technology</label>
+    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Webmastery"> Webmastery</label>
+  </div>
+
+  <ul id="all-posts-list">
   
-    <li>
+    <li class="post-item" data-tags="Science">
       <a href="/blogs/IACPublicBlog.html">
         2025-10-08: IAC 2025 Reflections
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Science">
       <a href="/blogs/TheNerdAndTheScientist.html">
         2025-10-04: I was on a podcast!
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="FoodAndDrink">
       <a href="/blogs/Blogpost-FollowingthescientificCacioePepeProcess.html">
         2025-09-22: The IgNobel Cacio e Pepe
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Academia">
       <a href="/blogs/HowtoActuallyTakenotes.html">
         2025-08-31: How to Actually Take notes
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Science">
       <a href="/blogs/Blog-Statsforfunscienceandart.html">
         2025-08-08: Statistics for fun, science and art
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Science">
       <a href="/blogs/Blogpost-Myfavouritealiens.html">
         2025-07-30: My favourite aliens
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Technology">
       <a href="/blogs/AnthroLLM.html">
         2025-07-14: (A different reason) Why You Should Anthropomorphise LLMs, (Or Maybe Not)
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Culture">
       <a href="/blogs/TranshumanisminaTechnofeudalSociety.html">
         2025-06-04: Transhumanism in a Technofeudal Society
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Culture">
       <a href="/blogs/On Personal Style And Rolemodels.html">
         2025-05-27: On Personal Style And Role Models
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Science">
       <a href="/blogs/VirtualLabTour.html">
         2025-05-25: Virtual Lab Tour
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Culture">
       <a href="/blogs/WhereDidBroadcastAdsComeFrom.html">
         2025-05-07: Where did ad supported media come from?
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="FoodAndDrink,Culture">
       <a href="/blogs/PostTruthBeer.html">
         2025-04-27: Post-Truth Marketing (and a Really Tasty Beer)
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Culture">
       <a href="/blogs/anotherReasonWhyLibrariesAreGreat.html">
         2025-04-22: Another reason why libraries are great
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Physics,FoodAndDrink,Science">
       <a href="/blogs/beerAndOptics.html">
         2025-04-12: Beer And Optics
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Culture,Academia">
       <a href="/blogs/technicalSkillsAsPraxis.html">
         2025-04-01: On the role of technical skills in fighting power
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Academia,Science">
       <a href="/blogs/phdAt5Levels.html">
         2025-03-23: My PhD Explained at 5 Levels
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Technology,Webmastery">
       <a href="/blogs/embeddingYourLatestMastodonPost.html">
         2025-03-21: Embedding your latest Mastodon Post into your webpage
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Technology,Webmastery">
       <a href="/blogs/automatingYourRSS.html">
         2025-03-17: Automating Your RSS Feed with 11ty
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Academia">
       <a href="/blogs/How_I_do_my_Research(As_a_PhD_Student).html">
         2025-03-16: How I do My Research (As a PhD Student)
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Technology,Projects">
       <a href="/blogs/20250124PlantMonitorPrototypeUpdate.html">
         2025-01-24: Plant Monitor Prototype Update
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Culture,Technology">
       <a href="/blogs/KeepYourEgoInCheck(AboveTheAI).html">
         2025-01-15: Keep Your Ego In Check (Above The Robots)
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Technology,Projects">
       <a href="/blogs/ChiScraperIntroduction.html">
         2024-11-18: Introducing ChiScraper
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Technology,Projects">
       <a href="/blogs/ChiCurate.html">
         2024-11-17: ChiCurate
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Science">
       <a href="/blogs/Aliens.html">
         2024-09-30: Where are all the aliens?
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Culture">
       <a href="/blogs/TheCaseForPowerCoOps.html">
         2024-09-30: The Case For Power CoOps
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Technology,FoodAndDrink,Science">
       <a href="/blogs/WhatScienceSaysAboutCoffeeGrinding.html">
         2024-08-30: What Science Says About Coffee Grinding
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Technology,Projects">
       <a href="/blogs/lofiRadio.html">
         2024-08-11: LoFi Terminal
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Webmastery">
       <a href="/blogs/rss.html">
         2024-08-09: RSS
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Physics,Science">
       <a href="/blogs/Perceptibility.html">
         2024-08-05: Perceptibility
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Physics">
       <a href="/blogs/IntroToLCOS.html">
         2024-08-01: An Introduction To LCOS
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Academia">
       <a href="/blogs/fromStudentToIndustry.html">
         2024-07-28: From Student To Industry
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="FoodAndDrink">
       <a href="/blogs/20240725T075059.html">
         2024-07-25: Anatomy of the Espresso
       </a>
     </li>
   
-    <li>
+    <li class="post-item" data-tags="Webmastery">
       <a href="/blogs/RSSforReddit.html">
         2024-01-15: RSS For Reddit
       </a>
@@ -383,6 +398,37 @@
   
   </ul>
 </div>
+
+<script>
+  (function(){
+    // Simple client-side filtering by tag. Checks the data-tags attribute.
+    const radios = document.querySelectorAll('input[name="tag-filter"]');
+    const posts = document.querySelectorAll('#all-posts-list .post-item');
+
+    function showAll() {
+      posts.forEach(p => p.style.display = 'list-item');
+    }
+
+    function filterBy(tag) {
+      posts.forEach(p => {
+        const tags = (p.getAttribute('data-tags') || '').split(',').map(s => s.trim()).filter(Boolean);
+        if (tags.length === 0) {
+          // If post has no tags, show it only when 'all' is selected
+          p.style.display = (tag === 'all') ? 'list-item' : 'none';
+        } else {
+          p.style.display = (tag === 'all' || tags.indexOf(tag) !== -1) ? 'list-item' : 'none';
+        }
+      });
+    }
+
+    radios.forEach(r => {
+      r.addEventListener('change', e => {
+        const tag = e.target.value;
+        if (tag === 'all') showAll(); else filterBy(tag);
+      });
+    });
+  })();
+</script>
 
     <p>
       Unless otherwise stated, all my blogposts are license under the 
@@ -420,5 +466,5 @@
 
 </html>
 
-<script src="/scripts.js?nocache=1763436893179"></script>
+<script src="/scripts.js?nocache=1763438246371"></script>
 <button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">🌙 Dark</button>
