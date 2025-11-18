@@ -4,6 +4,8 @@ date: 2025-10-08
 updated: 2025-10-08
 description: "I attended IAC 2025 last week in my home city of beautiful Sydney!"
 layout: blogpost.liquid
+tags:
+	- Science
 ---
 
 I attended IAC 2025 last week in my home city of beautiful Sydney!

@@ -4,6 +4,8 @@ date: 2025-08-08
 updated: 2025-08-08
 description: "Here's a pretty photo I made using Python and some neat mathematics and statistics."
 layout: blogpost.liquid
+tags:
+    - Science
 ---
 
 Here's a pretty photo I made using Python and some neat mathematics and statistics.

@@ -5,7 +5,7 @@ updated: 2025-09-05
 description: A short explainer on how to set-up your very own RSS feed
 layout: blogpost.liquid
 tags:
-  - Web
+  - Webmastery
 ---
 # 1 What Is RSS and why might your readers want it?
 

@@ -4,7 +4,7 @@ date: 2025-09-22
 updated: 2025-09-22
 description: "Preparing Cacio e Pepe as prescribed by teh 2025 IgNobel Prize winning paper"
 tags:
-    - Food
+    - FoodAndDrink
 layout: blogpost.liquid
 ---
 

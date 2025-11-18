@@ -4,6 +4,8 @@ date: 2025-07-14
 updated: 2025-07-14
 description: "The other day I read this great blog-post about why you shouldn't anthropomorphise LLMs. I agree with all the specifics of the post, but also slightly disagree with AddXorRol's epistemic framework.  Then I read this response by seangodecke explaining why you should. I went into it assuming that Sean would bring up my criticisms, because they seem so obvious, but he took a completely different angle to me. So I figured I will throw my hat into the ring about why I think sometimes it is useful to anthropomorphise LLMs (even if it is not the most correct framework)."
 layout: blogpost.liquid
+tags:
+    - Technology
 ---
 
 

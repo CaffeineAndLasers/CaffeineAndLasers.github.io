@@ -4,6 +4,8 @@ date: 2025-07-30
 updated: 2025-07-30
 description: This is a blogpost about my favourite aliens.  
 layout: blogpost.liquid
+tags:
+	- Science
 ---
 
 This is a blogpost about my favourite aliens.  

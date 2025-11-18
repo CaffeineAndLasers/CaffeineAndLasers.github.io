@@ -4,6 +4,8 @@ date: 2025-04-22
 updated: 2025-04-23
 description: They reduce this risk in picking books. 
 layout: blogpost.liquid
+tags:
+	- Culture
 ---
 
 # Another reason why libraries are great

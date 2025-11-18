@@ -4,6 +4,8 @@ date: 2025-10-04
 updated: 2025-10-04
 description: 
 layout: blogpost.liquid
+tags:
+	- Science
 ---
 
 I recently appeared on my friend's podcast "The Nerd and the Scientist". 

@@ -4,6 +4,8 @@ date: 2025-05-27
 updated: 2025-05-27
 description: I finally break my silence and share how I was STEMbofied
 layout: blogpost.liquid
+tags:
+    - Culture
 ---
 
 
