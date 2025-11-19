@@ -71,8 +71,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
 
   // This will copy these folders and files to the output without modifying them
-  eleventyConfig.addPassthroughCopy("content/assets");
-  eleventyConfig.addPassthroughCopy("content/assets/**/*");
+  eleventyConfig.addPassthroughCopy("content/Assets");
+  eleventyConfig.watchIgnores.add("content/Assets/");
+  // eleventyConfig.addPassthroughCopy("content/assets/**/*");
   eleventyConfig.addPassthroughCopy("content/**/*.svg");
   eleventyConfig.addPassthroughCopy("content/**/*.png");
 
