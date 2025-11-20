@@ -3,11 +3,12 @@ title: Default Title
 css: /styles.css
 nesting: ../../
 ---
+<!DOCTYPE html><html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>{{ title }}</title></head>
+    <title>{{ title }}</title>
     <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="{{css}}{{ nocache }}">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
@@ -64,7 +65,7 @@ nesting: ../../
 </div>
 {% include "footer.liquid" %}
 
-</html>
-
 <script src="/scripts.js{{ nocache }}"></script>
 <button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">🌙 Dark</button>
+</html>
+
