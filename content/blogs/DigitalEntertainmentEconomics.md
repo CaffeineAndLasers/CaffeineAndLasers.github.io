@@ -1,5 +1,5 @@
 ---
-title: Digital Entertainment Economics
+title: The Horrible Economics Of Digital Creativity
 date: 2025-11-23
 updated: 2025-11-23
 description: "![](93a394b0823c091fa188c09052af2fcc.png)"
