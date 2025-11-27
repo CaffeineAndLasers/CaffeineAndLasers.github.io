@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Sun, 23 Nov 2025 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 27 Nov 2025 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>The Stupid AI Risks</title>
+      <description>Here I explore some of the missing middle of AI risks. The stupid risks, not caused by ultraintelligent artificial super intelligence, instead by pluggisng a dumb ai into a complex system</description>
+      <link>https://Caffeineandlasers.com/blogs/TheStupidAIRisks.html</link>
+      <pubDate>Thu, 27 Nov 2025 11:00:00 +1100</pubDate>
+    </item>
     
     <item>
       <title>The Horrible Economics Of Digital Entertainment</title>

@@ -58,6 +58,25 @@ nesting: ../../
 {{ content }}
 
 
+{% if tags and tags.size > 0 %}
+<section class="post-tags" aria-label="Post tags">
+  <h2 class="post-tags__heading">Tags</h2>
+  <div class="post-tags__list">
+    {% for tag in tags %}
+    <a
+      class="post-tag"
+      href="https://octothorp.es/explore?o={{ tag | url_encode }}%2C{{ tag | downcase | url_encode }}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      #{{ tag }}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+
 <div id="c_widget"></div>
 <script src="{{nesting}}comment-widget/comment-widget.js"></script>
 </main>

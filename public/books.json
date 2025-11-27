@@ -74,8 +74,8 @@
   {
     "name": "Laziness does not exist: A defense of the exhausted, exploited, and overworked",
     "author": "Devon Price",
-    "rating": "🟧",
-    "thoughts": "I found this to be less interesting than I hoped. Yep, if you work too hard you will burn out, and there are physiological signs. Idk, maybe some people need a book to tell them this.",
+    "rating": "🟥",
+    "thoughts": "I found this to be less interesting than I hoped. Yep, if you work too hard you will burn out, and there are physiological signs. Idk, maybe some people need a book to tell them this, but I found it obvious and tedious",
     "date": "2025-02",
     "fiction": false,
     "coverImg": "/Assets/book-covers/lazinessdoesnotexist.jpg"
@@ -196,5 +196,23 @@
     "date": "2025-09",
     "fiction": false,
     "coverImg": "/Assets/book-covers/LifeAsNoOneKnowsIt.jpg"
+  },
+  {
+    "name": "More Everything Forever",
+    "author": "Adam Becker",
+    "rating": "🟧",
+    "thoughts": "This ends up feeling like one of those documentaries about flat Earth consspiracy theorests, except the nutjobs in question are Peter Theil, Sam Altman and Venture Captialists. I found it frustrating at some points because of the ammount of time it spends debunking obviously stupid ideas. It definately brought up some insights into ideology of some of these people, but the book felt a little bit too long IMHO. The ideology it describes is so incoherent that I find myself wondering how useful understanding it really is. If the actions of longtermist effective altruists are indistinguishable from a selfish asshole, then I wonder why not just apply Occam's Razor and assume they are just selfish assholes?",
+    "date": "2025-11",
+    "fiction": false,
+    "coverImg": "/Assets/book-covers/moreEverythingForever.jpg"
+  },
+  {
+    "name": "How They Get You",
+    "author": "Chris Kohler",
+    "rating": "🟩*",
+    "fiction": false,
+    "thoughts": "*If you willingly read the finance stories in the news or know a bit about personal finance, you can probably skip this book. But I would highly recommend buying for any teenagers or twenty-somethings in your life. (I know I would have liked to have read it earlier in my life.) \n\nIt ends up being closer to a personal finance book than an economica book. Its insights arnt really anything I hadn't heard before, BUT it is well written, Kohler is a funny guy, and it's lessons are absolutely important (I just happened to know most of them beforehand)\n\nside note: this book also is extremely Australian and for Australian audiences. (a rare thing I'm this world). by that, I don't mean he is talking about riding your kangaroo to school, but instead he discusses reasonable rates for you superfund and how pokies impacts Aussies specifically",
+    "coverImg": "/Assets/book-covers/howTheyGetYou.jpg",
+    "date": "2025-11"
   }
 ]
