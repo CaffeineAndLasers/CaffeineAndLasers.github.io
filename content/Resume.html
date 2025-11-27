@@ -3,188 +3,123 @@ title: Resume
 layout: default.liquid
 ---
 
+<hr>
+<p style="text-align: center;">{{ resume.basics.summary }}</p>
+<hr>
+
 <h1 id="employment">1 Employment</h1>
-<h2 id="finisar---2021-2023---staff-engineer">
-    1.1 Finisar - 2021-2023 - Staff Engineer
+{% for job in resume.work %}
+<h2 id="{{ job.name | downcase | replace: ' ', '-' }}-{{ job.startDate | date: '%Y' }}-{{ job.endDate | date: '%Y' }}-{{ job.position | downcase | replace: ' ', '-' }}">
+    1.{{ forloop.index }} {{ job.name }} - {% if job.startDate %}{{ job.startDate | date: "%Y" }}{% if job.endDate %}-{{ job.endDate | date: "%Y" }}{% else %}-Current{% endif %}{% endif %} - {{ job.position }}
 </h2>
 <ul>
+    {% for highlight in job.highlights %}
     <li>
-        Managed LCOS SLM line, worth $1.5M p.a. including product development,
-        customer management/collaboration, quality control
+        {{ highlight }}
     </li>
-    <li>
-        Wrote, Tested and Deployed automated unit testing software for SLM line, saving 400
-        hours of operator labour p.a.
-    </li>
-    <li>
-        Successfully launched and transferred to production Finisar’s 4th
-        generation SLM
-        <ul>
-            <li>Design Input</li>
-            <li>Debugging and Rework</li>
-            <li>Training Operators</li>
-        </ul>
-    </li>
-    <li>
-        Developed a power cycling test solution to test thousands of units in order to 
-        verify the stability of High-Resolution OCM line for a large international 
-        telecommunications customer.
-    </li>
-    <li>
-        Consulted to U.S. firm, to deploy an experiment on site. No overruns or
-        budget blowouts, despite final hour changes required from the customer.
-    </li>
-    <li>
-        Designed new instrument front panels for entire instrumentation
-        department for Finisar to Coherent re-branding effort.
-    </li>
-    <li>
-        Delivered lecture to UQ on the transition from study to employment,
-        represented Finisar at UNSW Electrical and Communication Engineering
-        Society Employment Fair
-    </li>
-    <li>
-        Consulted to Finisar to assist with SLM line handover after they hired
-        replacement
-    </li>
+    {% endfor %}
 </ul>
-<h2 id="university-of-sydney---2019-2020-2023-current---tutor">
-    1.2 University of Sydney - 2019-2020, 2023-Current - Tutor
-</h2>
-<ul>
-    <li>
-        Tutored the first year physics class of 2020, adapted under pressure to
-        covid guidelines, transitioning from in person, to online and hybrid
-        tutorials
-    </li>
-    <li>
-        Demonstrated for Kickstart physics 2019-2020 and 2023-Current. Where I
-        took in hosted high school students and ran them through experiments
-    </li>
-</ul>
-<h2 id="private-tutoring---2017-current">
-    1.3 Private Tutoring - 2017-Current
-</h2>
-<ul>
-    <li>
-        Taught dozens of students from year 5, all the way to university
-        calculus. Multiple students who achieved &gt;90 ATAR. Multiple special
-        needs students
-    </li>
-</ul>
+{% endfor %}
 <h1 id="education">2 Education</h1>
+{% for edu in resume.education %}
 <h2
-    id="phd---australian-national-university---research-school-of-astronomy-and-astrophysics---advanced-instrumentation-technology-centre---2023---ongoing"
+    id="{{ edu.studyType | downcase }}-{{ edu.institution | downcase | replace: ' ', '-' }}-{{ edu.area | downcase | replace: ' ', '-' }}-{{ edu.startDate | date: '%Y' }}-{{ edu.endDate | date: '%Y' }}"
 >
-    2.1 PhD - Australian National University - Research School of Astronomy and
-    Astrophysics - Advanced Instrumentation Technology Centre - 2023 - Ongoing
+    2.{{ forloop.index }} {{ edu.studyType }} - {{ edu.institution }} - {% if edu.area and edu.studyType != "Bachelor" %}{{ edu.area }} - {% endif %}{% if edu.startDate %}{{ edu.startDate | date: "%Y" }}{% endif %}{% if edu.endDate %} - {{ edu.endDate | date: "%Y" }}{% else %} - Ongoing{% endif %}
 </h2>
+{% if edu.thesisTitle %}
 <p>
-    <strong>Thesis Title:</strong> Advanced wavefront sensing for Adaptive
-    Optics applied to Free Space Optical Communication.
-    <strong>Primary Supervisor:</strong> Dr Francis Bennet (ANU)
-    <strong>Associate Supervisors:</strong> Tony Travoullion (ANU), Sarah Tedder
-    (NASA)
+    <strong>{{ edu.studyType }} Thesis Title:</strong> {{ edu.thesisTitle }}
+    {% if edu.supervisor %}<strong>{% if edu.studyType == "PhD" %}Primary {% endif %}Supervisor:</strong> {{ edu.supervisor }}{% endif %}
+    {% if edu.associateSupervisors %}<strong>Associate Supervisors:</strong> {{ edu.associateSupervisors | join: ", " }}{% endif %}
+    {% if edu.score and edu.studyType != "Bachelor" %}<strong>Mark:</strong> {{ edu.score }}{% endif %}
 </p>
-<h2
-    id="honours---university-of-sydney---school-of-physics---quantum-computing-department---2020"
->
-    2.2 Honours - University of Sydney - School of Physics - Quantum Computing
-    Department - 2020
-</h2>
-<p>
-    <strong>Honours Thesis Title:</strong> Adiabatically Protected Operations on
-    Majorana Fermions for Topological Quantum Computing
-    <strong>Supervisor:</strong> Dr Arne Grimsmo <strong>Mark:</strong> First
-    Class Honours
-</p>
-<h2 id="bachelor-of-science---university-of-sydney-2017-2019">
-    2.3 Bachelor of Science - University of Sydney 2017-2019
-</h2>
-<p><strong>Converted WAM:</strong> 82</p>
+{% elsif edu.score %}
+<p><strong>WAM:</strong> {{ edu.score | replace: " (Converted WAM)", "" | replace: "(Converted WAM)", "" }}</p>
+{% endif %}
+{% endfor %}
 <h1 id="extracurricular">3 Extracurricular</h1>
-<h2 id="sydney-photonics-industry-network">
-    3.1 Sydney Photonics Industry Network
+{% for volunteer in resume.volunteer %}
+<h2 id="{{ volunteer.organization | downcase | replace: ' ', '-' }}">
+    3.{{ forloop.index }} {{ volunteer.organization }}{% if volunteer.position and volunteer.position != "Volunteer" %} -{{ volunteer.position }} {{ volunteer.startDate | date: "%Y" }}{% endif %}
 </h2>
-<ul>
-    <li>Volunteered with SPIN for the International day of light 2024</li>
-</ul>
-<h2 id="hopsters-co-operative-brewery---enmore">
-    3.2 Hopsters Co-operative Brewery - Enmore
-</h2>
+{% if volunteer.summary %}
 <p>
-    Active member in the running of Australia’s first (and as far as I know
-    only), co-operatuve owned brewery. - Hosted several events, including
-    science out reach events, Physics in the pub and other public lectures -
-    Assisted in operations, managing events and logistics - Worked behind the
-    bar.
+    {{ volunteer.summary }}{% if volunteer.highlights.size > 0 %} {% for highlight in volunteer.highlights %}- {{ highlight }} {% endfor %}{% endif %}
 </p>
-<h2 id="university-of-sydney-physics-society--president-2019">
-    3.3 University of Sydney Physics Society -President 2019
-</h2>
+{% elsif volunteer.highlights.size > 0 %}
 <ul>
+    {% for highlight in volunteer.highlights %}
     <li>
-        Successfully continued the PhySoc Industry Networking Night into its
-        second year.
+        {{ highlight }}
     </li>
-    <li>
-        Maintained a professional network of corporate and academic
-        relationships.
-    </li>
-    <li>
-        Successful sponsorship run to raise funds to continue operations of the
-        society <strong>without</strong> cash injection from the University.
-    </li>
-    <li>
-        Dozens of successful events including Guest lectures from notable
-        Science Communicators including Dr Karl and Physics Youtuber “Tibees”
-    </li>
+    {% endfor %}
 </ul>
+{% endif %}
+{% endfor %}
 <h1 id="other-qualifications">4 Other Qualifications</h1>
 <ul>
-    <li>Agile Practitioner - 2024</li>
-    <li>NSW RSA</li>
-    <li>WWCC</li>
+    {% for cert in resume.certificates %}
+    <li>{{ cert.name }}{% if cert.date %} - {{ cert.date | date: "%Y" }}{% endif %}</li>
+    {% endfor %}
 </ul>
 <h1 id="skills-proficiency">5 Skills / Proficiency</h1>
+{% assign software_skills = resume.skills | where: "name", "Programming Languages" | first %}
+{% assign design_skills = resume.skills | where: "name", "Software Design" | first %}
+{% assign technical_skills = resume.skills | where: "name", "Technical Skills" | first %}
+{% assign soft_skills = resume.skills | where: "name", "Soft Skills" | first %}
+{% assign expertise_skills = resume.skills | where: "name", "Research & Engineering Expertise" | first %}
+
 <h2 id="software">5.1 Software</h2>
-<h3 id="languages">5.1.1 Languages</h3>
+<h3 id="languages">5.1.1 {{ software_skills.name }}</h3>
 <ul>
-    <li>LabVIEW</li>
-    <li>Python</li>
-    <li>MATLAB</li>
-    <li>C++ for Embedded Software (Novice)</li>
+    {% for keyword in software_skills.keywords %}
+    <li>{{ keyword }}</li>
+    {% endfor %}
 </ul>
-<h3 id="designs">5.1.2 Designs</h3>
+<h3 id="designs">5.1.2 {{ design_skills.name }}</h3>
 <ul>
-    <li>OOP</li>
-    <li>Numerical Simulation</li>
-    <li>Statistical Analysis</li>
-    <li>Machine Learning / Neural Networks</li>
+    {% for keyword in design_skills.keywords %}
+    <li>{{ keyword }}</li>
+    {% endfor %}
 </ul>
 <h2 id="skills">5.2 Skills</h2>
-<h3 id="technical-skills">5.2.1 Technical Skills</h3>
+<h3 id="technical-skills">5.2.1 {{ technical_skills.name }}</h3>
 <ul>
-    <li>Free Space Optics</li>
-    <li>Fibre Optics</li>
-    <li>
-        CAD
+    {% for keyword in technical_skills.keywords %}
+    {% if keyword == "CAD" %}
+    <li>{{ keyword }}
         <ul>
-            <li>3D Printing</li>
-            <li>Aluminium Routing</li>
+            {% for cad_keyword in technical_skills.keywords %}
+            {% if cad_keyword contains "CAD - " %}
+            <li>{{ cad_keyword | replace: "CAD - ", "" }}</li>
+            {% endif %}
+            {% endfor %}
         </ul>
     </li>
-    <li>Electronic Design (Novice)</li>
+    {% elsif keyword contains "CAD - " %}
+    {%- comment -%}Skip CAD subskills as they're handled in nested list{%- endcomment -%}
+    {% else %}
+    <li>{{ keyword }}</li>
+    {% endif %}
+    {% endfor %}
 </ul>
-<h3 id="soft-skills">5.2.2 Soft Skills</h3>
+<h3 id="soft-skills">5.2.2 {{ soft_skills.name }}</h3>
 <ul>
-    <li>Project Management</li>
-    <li>Customer Relations</li>
+    {% for keyword in soft_skills.keywords %}
+    <li>{{ keyword }}</li>
+    {% endfor %}
 </ul>
 <h2 id="areas-of-research-engineering-expertise">
-    5.3 Areas of Research / Engineering Expertise
+    5.3 {{ expertise_skills.name }}
 </h2>
 <ul>
-    <li>Adaptive Optics</li>
-    <li>LCoS SLM - Digital Holography and Beam Steering</li>
+    {% for keyword in expertise_skills.keywords %}
+    {% if keyword contains " - " %}
+    {% assign parts = keyword | split: " - " %}
+    <li>{{ parts[0] }} - {{ parts[1] }}</li>
+    {% else %}
+    <li>{{ keyword }}</li>
+    {% endif %}
+    {% endfor %}
 </ul>

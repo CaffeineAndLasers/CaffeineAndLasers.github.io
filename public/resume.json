@@ -1,0 +1,227 @@
+{
+  "basics": {
+    "name": "Cameron Jones",
+    "label": "PhD Candidate, Australian National University",
+    "image": "",
+    "email": "cameronjonesaustralia@gmail.com",
+    "phone": "0430555134",
+    "url": "https://caffeineandlasers.com",
+    "summary": "PhD Candidate researching advanced wavefront sensing for adaptive optics applied to free space optical communication. I use lasers to do cool things.",
+    "location": {
+      "address": "Unit 6, 117 Pacific Hwy",
+      "postalCode": "2077",
+      "city": "Hornsby",
+      "countryCode": "AU",
+      "region": "New South Wales"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "cameron-jones-sydney",
+        "url": "https://www.linkedin.com/in/cameron-jones-sydney/"
+      },
+      {
+        "network": "GitHub",
+        "username": "CJones-Optics",
+        "url": "https://github.com/CJones-Optics/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Finisar",
+      "position": "Staff Engineer",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2023-12-31",
+      "summary": "Managed LCOS SLM line worth $1.5M p.a. including product development, customer management/collaboration, and quality control.",
+      "highlights": [
+        "Managed LCOS SLM line, worth $1.5M p.a. including product development, customer management/collaboration, quality control",
+        "Wrote, Tested and Deployed automated unit testing software for SLM line, saving 400 hours of operator labour p.a.",
+        "Successfully launched and transferred to production Finisar's 4th generation SLM",
+        "Developed a power cycling test solution to test thousands of units to verify stability of High-Resolution OCM line for large international telecommunications customer",
+        "Consulted to U.S. firm to deploy an experiment on site with no overruns or budget blowouts",
+        "Designed new instrument front panels for entire instrumentation department for Finisar to Coherent re-branding effort",
+        "Delivered lecture to UQ on transition from study to employment, represented Finisar at UNSW Electrical and Communication Engineering Society Employment Fair",
+        "Consulted to Finisar to assist with SLM line handover after they hired replacement"
+      ]
+    },
+    {
+      "name": "University of Sydney",
+      "position": "Tutor",
+      "url": "https://www.sydney.edu.au/",
+      "startDate": "2019-01-01",
+      "endDate": "2025-01-01",
+      "summary": "Physics tutor and demonstrator for first year physics and Kickstart physics program.",
+      "highlights": [
+        "Tutored first year physics class of 2020, adapted under pressure to COVID guidelines, transitioning from in person to online and hybrid tutorials",
+        "Demonstrated for Kickstart physics 2019-2020 and 2023-Current, hosting high school students and running them through experiments"
+      ]
+    },
+    {
+      "name": "Private Tutoring",
+      "position": "",
+      "url": "",
+      "startDate": "2017-01-01",
+      "endDate": " Current ",
+      "summary": "Private tutoring for mathematics and physics from year 5 through university level.",
+      "highlights": [
+        "Taught dozens of students from year 5 to university calculus",
+        "Multiple students achieved >90 ATAR",
+        "Experience with multiple special needs students"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Sydney Photonics Industry Network",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "summary": "Volunteered with SPIN for the International Day of Light 2024",
+      "highlights": []
+    },
+    {
+      "organization": "Hopsters Co-operative Brewery",
+      "position": "Active Member",
+      "url": "https://hopsters.coop/",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Active member in running Australia's first co-operative owned brewery",
+      "highlights": [
+        "Hosted several events, including science outreach events, Physics in the Pub and other public lectures",
+        "Assisted in operations, managing events and logistics",
+        "Worked behind the bar"
+      ]
+    },
+    {
+      "organization": "University of Sydney Physics Society",
+      "position": "President",
+      "url": "",
+      "startDate": "2019-01-01",
+      "endDate": "2019-12-31",
+      "summary": "Led the University of Sydney Physics Society as President",
+      "highlights": [
+        "Successfully continued the PhySoc Industry Networking Night into its second year",
+        "Maintained a professional network of corporate and academic relationships",
+        "Successful sponsorship run to raise funds to continue operations without cash injection from the University",
+        "Organized dozens of successful events including guest lectures from notable science communicators including Dr Karl and Physics YouTuber 'Tibees'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Australian National University",
+      "url": "https://www.anu.edu.au/",
+      "area": "Free Space Optical Communication",
+      "studyType": "PhD",
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "score": "",
+      "courses": [],
+      "thesisTitle": "Advanced wavefront sensing for Adaptive Optics applied to Free Space Optical Communication",
+      "supervisor": "Dr Francis Bennet (ANU)",
+      "associateSupervisors": ["Tony Travoullion (ANU)", "Sarah Tedder (NASA)"]
+    },
+    {
+      "institution": "University of Sydney",
+      "url": "https://www.sydney.edu.au/",
+      "area": "Quantum Computing",
+      "studyType": "Honours",
+      "startDate": "2020-01-01",
+      "endDate": "2020-12-31",
+      "score": "First Class Honours",
+      "courses": [],
+      "thesisTitle": "Adiabatically Protected Operations on Majorana Fermions for Topological Quantum Computing",
+      "supervisor": "Dr Arne Grimsmo"
+    },
+    {
+      "institution": "University of Sydney",
+      "url": "https://www.sydney.edu.au/",
+      "area": "Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2017-01-01",
+      "endDate": "2019-12-31",
+      "score": "82 (Converted WAM)",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Agile Practitioner",
+      "date": "2024-01-01",
+      "issuer": "",
+      "url": ""
+    },
+    {
+      "name": "NSW RSA",
+      "date": "",
+      "issuer": "",
+      "url": ""
+    },
+    {
+      "name": "WWCC",
+      "date": "",
+      "issuer": "",
+      "url": ""
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "LabVIEW",
+        "Python",
+        "MATLAB",
+        "C++ for Embedded Software"
+      ]
+    },
+    {
+      "name": "Software Design",
+      "level": "",
+      "keywords": [
+        "OOP",
+        "Numerical Simulation",
+        "Statistical Analysis",
+        "Machine Learning",
+        "Neural Networks"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "level": "",
+      "keywords": [
+        "Free Space Optics",
+        "Fibre Optics",
+        "CAD",
+        "CAD and 3D Printing",
+        "Electronic Design"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "",
+      "keywords": [
+        "Project Management",
+        "Customer Relations",
+        "Education"
+      ]
+    },
+    {
+      "name": "Research & Engineering Expertise",
+      "level": "",
+      "keywords": [
+        "Adaptive Optics",
+        "LCoS SLM - Digital Holography and Beam Steering"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": []
+}
