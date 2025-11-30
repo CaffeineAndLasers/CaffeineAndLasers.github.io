@@ -4,9 +4,16 @@
     <title> Caffeine and Lasers </title>
     <description> Coffee, Science and Beer</description>
     <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>Thu, 27 Nov 2025 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Wormz in Space!</title>
+      <description>The UK Space Agency is sending wormz to space, (on the ISS) to study biological effects of spaceflight</description>
+      <link>https://Caffeineandlasers.com/notes/20251201_WormsInSpace.html</link>
+      <pubDate>Mon, 01 Dec 2025 11:00:00 +1100</pubDate>
+    </item>
     
     <item>
       <title>The Stupid AI Risks</title>
