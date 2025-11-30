@@ -69,6 +69,19 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("dateToRfc822", function(date) {
     return new Date(date).toUTCString();
   });
+
+  // Convert relative URLs to absolute URLs for RSS feeds
+  eleventyConfig.addFilter("absoluteUrl", function(content, baseUrl) {
+    if (!content) return content;
+    // Replace relative paths like ../Assets/ or ./Assets/ with absolute URLs
+    return content
+      .replace(/src="\.\.\/Assets\//g, `src="${baseUrl}/Assets/`)
+      .replace(/src="\.\/Assets\//g, `src="${baseUrl}/Assets/`)
+      .replace(/src="\/Assets\//g, `src="${baseUrl}/Assets/`)
+      .replace(/href="\.\.\/Assets\//g, `href="${baseUrl}/Assets/`)
+      .replace(/href="\.\/Assets\//g, `href="${baseUrl}/Assets/`)
+      .replace(/href="\/Assets\//g, `href="${baseUrl}/Assets/`);
+  });
   
 
   // This will stop the default behaviour of foo.html being turned into foo/index.html

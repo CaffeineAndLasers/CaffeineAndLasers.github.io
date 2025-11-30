@@ -19,7 +19,7 @@ permalink: /feeds/notes.xml # Ensure it outputs to the root
     <item>
       <title>{{ note.data.title }}</title>
       <description>{{ note.data.description }}</description>
-      <content:encoded><![CDATA[{{ note.templateContent }}]]></content:encoded>
+      <content:encoded><![CDATA[{{ note.templateContent | absoluteUrl: rootURL }}]]></content:encoded>
       <link>{{ rootURL }}{{ note.url }}</link>
       <guid isPermaLink="true">{{ rootURL }}{{ note.url }}</guid>
       <pubDate>{{ note.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>

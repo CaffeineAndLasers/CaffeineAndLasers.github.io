@@ -19,7 +19,7 @@ permalink: /feeds/blogs.xml # Ensure it outputs to the root
     <item>
       <title>{{ post.data.title }}</title>
       <description>{{ post.data.description }}</description>
-      <content:encoded><![CDATA[{{ post.templateContent }}]]></content:encoded>
+      <content:encoded><![CDATA[{{ post.templateContent | absoluteUrl: rootURL }}]]></content:encoded>
       <link>{{ rootURL }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ rootURL }}{{ post.url }}</guid>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
