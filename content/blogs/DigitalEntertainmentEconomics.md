@@ -2,7 +2,7 @@
 title: The Horrible Economics Of Digital Entertainment 
 date: 2025-11-23
 updated: 2025-11-23
-description: "![](93a394b0823c091fa188c09052af2fcc.png)"
+description: Like software, digital entertainment is infinitely reproducible (for free); however, unlike software, it is easily substitutable (replaceable). This has grave impacts for artists, making the demand curve much slipperier.
 layout: blogpost.liquid
 tags:
   - Culture

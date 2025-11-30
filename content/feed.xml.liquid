@@ -1,16 +1,17 @@
 ---
 title: Caffeine and Lasers
 description: Coffee, Science and Beer
-rootURL: https://Caffeineandlasers.com
+rootURL: https://caffeineandlasers.com
 eleventyExcludeFromCollections: true # Keep this if you don't want the feed itself in collections
 permalink: /feed.xml # Ensure it outputs to the root
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title> {{ title }} </title>
-    <description> {{  description  }}</description>
+    <title>{{ title }}</title>
+    <description>{{ description }}</description>
     <link>{{ rootURL }}</link>
+    <atom:link href="{{ rootURL }}/feed.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>{{ collections.updates[0].date | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     <ttl>1440</ttl>
 
@@ -18,7 +19,9 @@ permalink: /feed.xml # Ensure it outputs to the root
     <item>
       <title>{{ post.data.title }}</title>
       <description>{{ post.data.description }}</description>
+      <content:encoded><![CDATA[{{ post.templateContent }}]]></content:encoded>
       <link>{{ rootURL }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ rootURL }}{{ post.url }}</guid>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     </item>
     {% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: Open Source Quantum Magnetometers
 date: 2025-04-16
-description: 
+description: Its kind of wild that Quantum tech has gotten to the point where folks are sharing Open Source schematics for N-V Quantum Magnetomer's with a total BOM of >$250AUD.
 layout: note.liquid
 ---
 

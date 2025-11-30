@@ -1,7 +1,7 @@
 ---
 title: Reddit Sucks For Hobbies 
 date: 2025-04-30
-description: DESCRIPTION
+description: It's frustrating that nearly every niche interest and hobby's main online community exists on Reddit, because Reddit is fucking terrible for fostering genuine communities.
 layout: note.liquid
 ---
 

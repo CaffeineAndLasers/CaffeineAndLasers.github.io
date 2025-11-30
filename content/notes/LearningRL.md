@@ -1,7 +1,7 @@
 ---
 title: Learning Reinforcment Learning 
 date: 2025-11-17
-description: DESCRIPTION
+description: I found myself needing to design some reinforcement learning for some of my work and came across this fantastic video.
 layout: note.liquid
 ---
 

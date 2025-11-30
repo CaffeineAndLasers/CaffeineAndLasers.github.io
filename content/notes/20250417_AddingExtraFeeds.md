@@ -1,7 +1,7 @@
 ---
 title: New Feeds! 
 date: 2025-04-17
-description: 
+description: Quiet few months. Turns out my RSS feed was broken. Sorry for the spam of todays three posts.
 layout: note.liquid
 ---
 

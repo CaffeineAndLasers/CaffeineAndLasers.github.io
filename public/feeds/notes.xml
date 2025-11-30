@@ -1,189 +1,444 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Caffeine and Lasers - Notes!</title>
     <description>Thoughts and Links from Caffeine and Lasers</description>
-    <link>https://Caffeineandlasers.com</link>
-    <lastBuildDate>
-      
-        Mon, 01 Dec 2025 11:00:00 +1100
-      
-    </lastBuildDate>
+    <link>https://caffeineandlasers.com</link>
+    <atom:link href="https://caffeineandlasers.com/feeds/notes.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Mon, 01 Dec 2025 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
     
     <item>
       <title>Wormz in Space!</title>
       <description>The UK Space Agency is sending wormz to space, (on the ISS) to study biological effects of spaceflight</description>
-      <link>https://Caffeineandlasers.com/notes/20251201_WormsInSpace.html</link>
+      <content:encoded><![CDATA[<p><a href="https://le.ac.uk/news/2025/november/worms-space-experiment-biological-effects-spaceflight">Link to the full article from University of Leicester</a></p>
+<p><img src="/Assets/SpaceWormz.png" alt=""></p>
+<p>Leicester scientists are sending tiny worms to the International Space Station in 2026 to study the biological effects of space.</p>
+<p>The team at Space Park Leicester has designed and built a miniature space laboratory called a Petri Pod that will house the worms outside the space station. The worms will be exposed to space radiation and microgravity while nutrients are supplied to them through an agar carrier.</p>
+<p>The hope is to get a better understanding of the effects of spaceflight on <strong>long-term</strong> health effects, including aging and development. Right now prolonged exposure to microgravity and space radiation still has a lot of unknown effects, and the hope is this will be one of the steps which can assist in long term space or lunar habitation.</p>
+<p>Cool Stuff! Hope their experiments run well. Read the full article for a deeper explanation.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20251201_WormsInSpace.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20251201_WormsInSpace.html</guid>
       <pubDate>Mon, 01 Dec 2025 11:00:00 +1100</pubDate>
     </item>
     
     <item>
       <title>4 Gravitons - Mandatory Dumb Acronyms</title>
       <description>An amusing post by 4 Gravitons which I am sharing its entirety here.</description>
-      <link>https://Caffeineandlasers.com/notes/WhatsWithAllTheAcronyms.html</link>
+      <content:encoded><![CDATA[<p>The following post is from 4 Gravitons <a href="https://4gravitons.com/2025/11/21/mandatory-dumb-acronyms/">here</a>, (not me). If you enjoyed it, go subscribe to them! <a href="https://4gravitons.com">4 Gravitons</a></p>
+<hr>
+<p>Sometimes, the world is silly for honest, happy reasons. And sometimes, it’s silly for reasons you never even considered.</p>
+<p>Scientific projects often have acronyms, some of which are…clever, let’s say. Astronomers are famous for acronyms. Read this list, and you can find examples from 2D-FRUTTI and ABRACADABRA to WOMBAT and YORIC. Some of these aren’t even “really” acronyms, using letters other than the beginning of each word, multiple letters from a word, or both. (An egregious example from that list: VESTALE from “unVEil the darknesS of The gAlactic buLgE”.)</p>
+<p>But here’s a pattern you’ve probably not noticed. I suggest that you should see more of these…clever…acronyms in projects in Europe, and they should show up in a wider range of fields, not just astronomy. And the reason why, is the European Research Council.</p>
+<p>In the US, scientific grants are spread out among different government agencies. Typical grants are small, the kind of thing that lets a group share a postdoc every few years, with different types of grants covering projects of different scales.</p>
+<p>The EU, instead, has the European Research Council, or ERC, with a flagship series of grants covering different career stages: Starting, Consolidator, and Advanced. Unlike most US grants, these are large (supporting multiple employees over several years), individual (awarded to a single principal investigator, not a collaboration) and general (the ERC uses the same framework across multiple fields, from physics to medicine to history).</p>
+<p>That means there are a lot of medium-sized research projects in Europe that are funded by an ERC grant. And each of them are required to have an acronym.</p>
+<p>Why? Who knows? “Acronym” is simply one of the un-skippable entries in the application forms, with a pre-set place of honor in their required grant proposal format. Nobody checks whether it’s a “real acronym”, so in practice it often isn’t, turning into some sort of catchy short name with “acronym vibes”. It, like everything else on these forms, is optimized to catch the attention of a committee of scientists who really would rather be doing something else, often discussed and refined by applicants’ mentors and sometimes even dedicated university staff.</p>
+<p>So if you run into a scientist in Europe who proudly leads a group with a cutesy, vaguely acronym-adjacent name? And you keep running into these people?</p>
+<p>It’s not a coincidence, and it’s not just scientists’ sense of humor. It’s the ERC.</p>
+<hr>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/WhatsWithAllTheAcronyms.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/WhatsWithAllTheAcronyms.html</guid>
       <pubDate>Sun, 23 Nov 2025 11:00:00 +1100</pubDate>
     </item>
     
     <item>
       <title>Learning Reinforcment Learning</title>
-      <description>DESCRIPTION</description>
-      <link>https://Caffeineandlasers.com/notes/LearningRL.html</link>
+      <description>I found myself needing to design some reinforcement learning for some of my work and came across this fantastic video.</description>
+      <content:encoded><![CDATA[<p>I found myself needing to design some reinforcement learning for some of my work and came across this fantastic video.</p>
+<p>Definiately  worth sharing for anyone interested.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VnpRp7ZglfA?si=yaYFJlYLfxwgp6so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/LearningRL.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/LearningRL.html</guid>
       <pubDate>Mon, 17 Nov 2025 11:00:00 +1100</pubDate>
     </item>
     
     <item>
       <title>A Good Day on the Web</title>
       <description>Today was a good day for me on the internet. I was struggling with a design for a hobby project I am in the planning stages of, so i hit up the Laser Pointer Forum asking for advice on how to build a particular piece of kit. The helpful folks there pointed me to The Laser Cookbook by Gordon McComb, so I gave it a search and it was avaliable to borrow on the Internet Archive's Website! And had exact instructions to for what I was trying to build. Sometimes the internet is just great!</description>
-      <link>https://Caffeineandlasers.com/notes/AGoodDayOnTheWeb.html</link>
+      <content:encoded><![CDATA[<p>Today was a good day for me on the internet. I was struggling with a design for a hobby project I am in the planning stages of, so i hit up the <a href="https://laserpointerforums.com/">Laser Pointer Forum</a> asking for advice on how to build a particular piece of kit. The helpful folks there pointed me to <a href="https://archive.org/details/lasercookbook88p0000mcco/page/122/mode/2up">The Laser Cookbook : 88 practical projects by Gordon McComb</a>, so I gave it a search and it was avaliable to borrow on the Internet Archive's Website! And had exact instructions to for what I was trying to build. Sometimes the internet is just great!</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/AGoodDayOnTheWeb.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/AGoodDayOnTheWeb.html</guid>
       <pubDate>Thu, 30 Oct 2025 11:00:00 +1100</pubDate>
     </item>
     
     <item>
       <title>Dumb Realisation about a niche problem</title>
       <description>Just wanted to share a quick solution I realised about my relationship to "short form content". In general I do not consume (or at least try my best not to consume) short form / vertical videos. Too addictive, don't want to wastew the time on it.</description>
-      <link>https://Caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</link>
+      <content:encoded><![CDATA[<p>Just wanted to share a quick solution I realised about my relationship to &quot;short form content&quot;. In general I do not consume (or at least try my best not to consume) short form / vertical videos. Too addictive, don't want to wastew the time on it.</p>
+<p>but....</p>
+<p>There are a handful of creators who do thoughtful shortform vids I really like. Namely <a href="https://www.youtube.com/@etymology_nerd">EtymologyNerd</a> and <a href="https://www.youtube.com/@ChrisKohlerNews/shorts">Chris Kohler News</a></p>
+<p>what do?</p>
+<p>Then I remembered that whole YouTube has hidden RSS feeds, and all these creators post to YouTube Shorts as well. So I just sub there and watch in my RSS &quot;reader&quot;.</p>
+<p>Yes, it is garish watching vertical aspect ratio on a computer, but, it seriously removes the temptation to even open youtube shorts when I know I've already seen the good ones.</p>
+<p>Try it out if you are trying to remove your TikTok addiction, but don't want to &quot;miss out&quot; on your favourite creators.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</guid>
       <pubDate>Thu, 31 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>It Turns Out The Eldritch Horror Was The Corporations We Worked At Along The Way</title>
       <description>I just stumbled accross an interesting paper on organisations with an abstract I just had to share. (Sections removed for emphasis, clarity and comedy)</description>
-      <link>https://Caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</link>
+      <content:encoded><![CDATA[<p>I just stumbled accross an interesting paper on organisations with an abstract I just had to share. (Sections removed for emphasis, clarity and comedy)</p>
+<hr>
+<blockquote>
+<p>This paper examines how employees become simultaneously empowered and alienated by detailed, holistic knowledge of the actual operations of their organization,... As employees build and scrutinize process maps of their organization, they develop a new comprehension of the structure and operation of their organization. What they had perceived as purposively designed, relatively stable, and largely external is revealed to be continuously produced through social interaction... this altered comprehension of the organization’s functioning and logic changes employees’ orientation to and place within the organization. Their central roles are revealed as less efficacious than imagined and, in fact, as reproducing the organization's inefficiencies</p>
+</blockquote>
+<hr>
+<p><a href="https://www.researchgate.net/publication/334063511_Moving_off_the_Map_How_Knowledge_of_Organizational_Operations_Empowers_and_Alienates">The Paper</a></p>
+<p><img src="/Assets/orgChart.png" alt=""></p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</guid>
       <pubDate>Tue, 29 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Biology is cool again</title>
       <description>Biology was never not cool to be honest, but I stumbled upon another mind melting phenomenon.</description>
-      <link>https://Caffeineandlasers.com/notes/BiologyIsCoolAgain.html</link>
+      <content:encoded><![CDATA[<p>Biology was never not cool to be honest, but I stumbled upon another mind melting phenomenon.</p>
+<h2>The <a href="https://en.wikipedia.org/wiki/Venus%27_flower_basket">Venus' flower basket</a></h2>
+<p><img src="../Assets/f02c9eb1f21ad26f3da727ecdca5efc4.png" alt="Closeup of intricate lattice of the Venus' flower basket"></p>
+<p><strong>Credit: <a href="https://en.wikipedia.org/wiki/File:Expn4384_(27840605922).jpg">Wikimedia</a></strong></p>
+<p>Is a deep sea sponge that grows between 500m - 1km underwater (although it can be found as shallow as 100m), and is MADE OF GLASS.</p>
+<p>Even cooler than the fact that this sponge manages to grow glass biologically while underwater, <a href="https://www.researchgate.net/profile/Micha-Ilan/publication/10603716_Fiber-_optical_Features_of_a_Glass_Sponge/links/00b7d533c042ed2b87000000/Fiber-optical-Features-of-a-Glass-Sponge.pdf?origin=publication_detail&amp;_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uRG93bmxvYWQiLCJwcmV2aW91c1BhZ2UiOiJwdWJsaWNhdGlvbiIsInBvc2l0aW9uIjoiZ2xvYmFsRm9vdGVyIn19">IT TURNS THE GLASS FILAMENTS INTO SINGLE MODE OPTIC FIBERS</a> This was presented back in a 2003 nature article.</p>
+<p><img src="../Assets/f93250d8df546fe3e7017e979bb133b9.png" alt=""></p>
+<p>Anyway, short one for today. Just wanted to share something I thought was crazy cool.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</guid>
       <pubDate>Wed, 25 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>BlogPost   Digitizing Paper notes in the 21st Century</title>
       <description>Shoutout to Heals for sharing their own workflow in a Mastodon post for inspiring me.</description>
-      <link>https://Caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</link>
+      <content:encoded><![CDATA[<p>Shoutout to <a href="https://heals-draws.art/">Heals</a> for sharing their own workflow in a Mastodon post for inspiring me.</p>
+<h1>Problem Statement</h1>
+<p>Here are two axioms, which were until recently, incompatible.</p>
+<ol>
+<li>I want all my notes to be digitized in plain text</li>
+<li>I enjoy writing in pen and paper</li>
+</ol>
+<p>Keeping everything in plain text preserves my writing well into the future and hopefully as long as I am alive. But writing on pen and paper <em>feels nice</em>. It is more ergonomic, more tactile, and I genuinely believe it helps me recall what I have written better.</p>
+<h1>What Do?</h1>
+<p>It turns out LLM Optical Character Recognition (OCR) is getting <strong>really good</strong>. (I hate the acronym OCR, there is nothing optical about it, but that is a topic for another blogpost).</p>
+<p>So with Heals advice I settled on <a href="https://mistral.ai/news/mistral-ocr">Mistral's OCR</a>. They have a generous enough free tier, and seems to perform really well.</p>
+<p>So, since the folks at Mistral have already done all the hard work, I wrote a wrapper for my workflow.</p>
+<h1>How does it work?</h1>
+<p>I have a bash script which watches a directory on my computer. Now when I finish writing a page a take a photo of my notes, and drop it in the this directory.</p>
+<p>When a new photo is detected, the script sends it to Mistral to extract all the text, and any doodles I might've done on the page. It then compiles a markdown version of my notes, and saves it into my Obsidian vault.</p>
+<h1>Does it Work?</h1>
+<p>Here is a sample of my text and the output.</p>
+<div style="display: flex; gap: 1em; align-items: flex-start;">
+    <img src="/Assets/634b047a1182d9c022be4c46facf6145.png" style="height: 300px; object-fit: contain;" alt="Sample 1"/>
+    <img src="/Assets/cb6e6a037c8feeb39a27d940a9be80fd.png" style="height: 300px; object-fit: contain;" alt="Sample 2"/>
+</div>
+<p>My handwriting is normally pretty messy, most &quot;handwriting recognition&quot; software normally fails on my writting but it succeeds most of the time here. The most common failure mode I encounter is in complicated mathematics expressions, or the characters I know that that I write weirdly sometimes. (e.g. <code>\varepsilon</code>)</p>
+<p>I've been used it on realy samples of my handwriting a few times over the coarse of 2 weeks now before I posted this, so I am confident that the tool actually works on things other than just the sample pages above.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</guid>
       <pubDate>Mon, 23 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>A great excerpt from the happiness of dogs</title>
       <description>The following is a paraphrased exerpt from Mark Rowland's book "The Happiness of Dogs". I haven't finished it yet, but even from chapter one I would reccomend it.</description>
-      <link>https://Caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</link>
+      <content:encoded><![CDATA[<p><em>The following is a paraphrased exerpt from Mark Rowland's book &quot;The Happiness of Dogs&quot;. I haven't finished it yet, but even from chapter one I would reccomend it.</em></p>
+<p>Okay, so according to Camus, in order to understand life's meaning we must: &quot;imagine Sisyphus Happy&quot;. Most reasonable people will respond, &quot;but how&quot; after all, repetition is the practically the definition of boring</p>
+<p>&quot;Well let me tell you about my dog&quot; says Mark Rowlands</p>
+<p>Every day I take him for a walk along the canals. And every day he runs along the bank, scaring the local iguanas to the other side of the canal, where they will stay until the next morning, and my dog will repeat the task.<br>
+Not only does my dog accept his iguana herding duties with zeal, it seems to be his favorite part of the day</p>
+<p><em><strong>&quot;Finding meaning in life is difficult for us, but easy for dogs. The consequences of this insight are profound and unsettling&quot;</strong></em> (Actual quote)</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</guid>
       <pubDate>Sun, 01 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Update on 3D Printing My PhD</title>
       <description>As promised, I printed it in transparent PETG.... And it looked terrible. Somehow the internal support is more visible than the holes I was trying to show, which instead got clogged up.</description>
-      <link>https://Caffeineandlasers.com/notes/Updateon3DPrintingMyPhD.html</link>
+      <content:encoded><![CDATA[<p>As promised, I printed it in transparent PETG.... <em>And it looked terrible</em>. Somehow the internal support is more visible than the holes I was trying to show, which instead got clogged up.</p>
+<p>Oh well. I will stick with my Blue PLA one.</p>
+<p><img src="../Assets/8e54eb76f9ee144177b9f8394a1fc071.png" alt=""></p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/Updateon3DPrintingMyPhD.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/Updateon3DPrintingMyPhD.html</guid>
       <pubDate>Sat, 31 May 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Two Click Obsidian To the Web Automation</title>
       <description>Here is a quick write up for method I threw together for getting my writing out of Obsidian and into my website.</description>
-      <link>https://Caffeineandlasers.com/notes/TwoClickObsidianTotheWebAutomation.html</link>
+      <content:encoded><![CDATA[<p>Here is a quick write up for method I threw together for getting my writing out of Obsidian and into my website.</p>
+<p>The problem statement:</p>
+<p>While Eleventy is capable of turning markdown into html, there are a handful of slight differences between my web environment and my obsidian environment that made things tedious.</p>
+<ul>
+<li><strong>I have to manually drag across images</strong>: All of my images are thrown in an <code>Assets</code> folder in Obsidian, and embeded into my docs from there. When I want to get an article into my web directory, I had to manually find and copy and paste the files linked in the markdown one-by-one. Which is annoying</li>
+<li><strong>Wikilinks vs Vanilla Md links</strong>. In Obsidian I embed image with the follwing syntax <code>![[Image.jpg]]</code>, however in my Web directory, I need to link to my Assets folder with a regular markdown link like this: <code>![alt text](/Assets/Image.jpg)</code>, and eleventy can't figure out what to do with these wiki links</li>
+<li><strong>My Obisidian Front Matter and my Web Front matter are different</strong>. I need to strip out all the metadata from my vault. (Tags, parent notes etc), and add the metadata relevant to my web page.</li>
+</ul>
+<p>Thankfully thanks to the power of modern computing, this was a task easy to automate.</p>
+<h2>Step 1 - Obsidian &quot;Markdown Export&quot; Plugin</h2>
+<p><a href="obsidian://show-plugin?id=obsidian-markdown-export-plugin">This plugin</a> is simple. It copies the current note to a new export directory, along with everything else embedded in it. (Including Images).</p>
+<h2>Step 2 - Obsidian-Import.js</h2>
+<p>Then I &quot;wrote&quot;* a quick bit of Javascript for use in my Node environment. It</p>
+<ol>
+<li>Grabs the markdown file from the export file</li>
+<li>Removes the Obsidian Front Matter</li>
+<li>Generates and adds the website front matter</li>
+<li>Does a bit of regex to fix the wikilinks and re-link them to the correct location in my website directory</li>
+<li>Saves everything where it needs to go.</li>
+</ol>
+<h1>1 Putting it all together.</h1>
+<p>Now all I need to do to get a post out of obsidian and into my website is</p>
+<ul>
+<li>
+<ol>
+<li>Hit the markdown export plugin in Obsidian</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Run <code>node obisian-import --blog</code> within my websites directory</li>
+</ol>
+<ul>
+<li>2.5 Verify it looks right</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>Commit and push my changes</li>
+</ol>
+</li>
+</ul>
+<p>This very post was generated with this method.</p>
+<p>The code is kind of specific to my website, with a bunch of hard-coded paths. (e.g. I differentiate between notes like this and blogposts), but feel free to take a look at the <a href="https://github.com/CaffeineAndLasers/CaffeineAndLasers.github.io/blob/main/obsidian-import.js">code</a> and make it work for you.</p>
+<p>* NOTE: By &quot;I wrote&quot;, I mean I gave a list of requirements to Claude and iterated until it passed my requirements. I am not good at JavaScript</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/TwoClickObsidianTotheWebAutomation.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/TwoClickObsidianTotheWebAutomation.html</guid>
       <pubDate>Fri, 30 May 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>3D Printing For Better Science Communication</title>
       <description>Reporting progress on a 3D visualisation to assist in my science communication.</description>
-      <link>https://Caffeineandlasers.com/notes/3DPrintedPhDVisualisations.html</link>
+      <content:encoded><![CDATA[<p>Something I have been dealing with during my PhD, is that it is really hard to describe the 3D geometry of a photonic crystal just using words. Having pictures helps, but doesn't always cut it.</p>
+<p>I was mulling over this problem after I was excitedly trying to explain my recent results to friends, family and collegues.... and none of them had any idea what I was talking about... Fair enough.</p>
+<p>I saw a <a href="https://www.youtube.com/watch?v=BwtwOqdlY5E">video by Dr Fatima</a> a lil while back, where she mentioned a talk she saw where the speaker handed out 3D printed slices of the universe at different point ins time</p>
+<p>💡💡💡</p>
+<p>So: I 3D printed a scale model of my photonic crysal fiber.</p>
+<p><strong>Behlod! A 200:1(ish) representation of a photonic crystal fiber slice</strong></p>
+<p><img src="/Assets/3DPrintedPCF.jpg" alt="Blue plastic model of Photonic Crystal Fiber"></p>
+<p>This is only a short section, because I wanted to verify that it will actually work.</p>
+<p>I bought some translucent PETG so the next version will look kinda like glass (maybe) and I will print a longer section. I will update with a new post once I have this longer version.</p>
+<p>In reality these fibers are less than a quarter milimeter in diameter, and made of glass, so a scaled up version is necessary.</p>
+<p>Now in future talks and presentations, I will have hands on props to pass around. Hopefully this will help people understand what the device I am describing actually looks like.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/3DPrintedPhDVisualisations.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/3DPrintedPhDVisualisations.html</guid>
       <pubDate>Thu, 29 May 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>On Observing Time</title>
       <description>Sharing another link to another neat site</description>
-      <link>https://Caffeineandlasers.com/notes/OnObservingTime.html</link>
+      <content:encoded><![CDATA[<p>Just sharing another neat website out there. <a href="https://observingtime.cam/">On Observing Time</a>. The concept is simple, it is just a collection of live camera feeds from around the world.</p>
+<p>The creator Jon wrote an essay on the concept <a href="https://thecreativeindependent.com/essays/on-observing-time/">here</a></p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/OnObservingTime.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/OnObservingTime.html</guid>
       <pubDate>Wed, 28 May 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Crystal Lattice Structure of Popcorn</title>
       <description>Future IgNobel Prize Winning Research Opportunity</description>
-      <link>https://Caffeineandlasers.com/notes/Crystal Lattice Structure of Popcorn.html</link>
+      <content:encoded><![CDATA[<p>Has anyone ever studied the crystal lattice structure of a box of popcorn? Relevant research questions include:</p>
+<ul>
+<li>Do the crystal defects introduced by Peanut M&amp;Ms increase or reduce crystal strength?</li>
+<li>How do Peanut M&amp;M defects compare with other confectionry based defects (e.g. regular M&amp;Ms, Reeces Pieces)</li>
+<li>Is the traditional square pyramid profile of a popcorn box optimal? or can integrity by improved by alternate geometries?</li>
+</ul>
+<p>There may be an igNobel prize in this research. If you have thoughts please email me. I am only kind of joking about this.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/Crystal Lattice Structure of Popcorn.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/Crystal Lattice Structure of Popcorn.html</guid>
       <pubDate>Thu, 15 May 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Really Cool Pacemaker Technology</title>
-      <description>DESCRIPTION</description>
-      <link>https://Caffeineandlasers.com/notes/Really Cool Pacemaker Technology.html</link>
+      <description>Researchers at Northwestern University have just broke the record for the smallest pacemaker.</description>
+      <content:encoded><![CDATA[<p>I found this topic from <a href="https://jodiettenberg.substack.com/">Jodie Ettenburg's Curious About Everything Newsletter</a>, and considering the cool physics involved I had to re-share it here. Researchers at Northwestern University have just broke the record for the <a href="https://news.northwestern.edu/stories/2025/03/worlds-smallest-pacemaker-is-activated-by-light/">smallest pacemaker</a>.</p>
+<p><img src="/Assets/Pacemakers.png" alt=""></p>
+<blockquote>
+<p>From left, a traditional pacemake, a leadless pacemaker and the new pacemaker.</p>
+</blockquote>
+<p>Here are my two favourite bits about it:</p>
+<h2>It uses your BODY as the battery!</h2>
+<p>Okay, so you know how in high-school you did the experiment wher you shoved a bit of copper and zinc into a lemon, and use that as a battery to power a lightbulb or something? Yeah, in this device, YOU are the lemon.</p>
+<p>So typically, the way you power small temporary pacemaker is by using an inductive coil, and keeping the power supply outside your body. This is the same way your phones wireless charger works. The problem is that inductive charging coils are bulky.</p>
+<p>The solution was to embed two different metal electrodes on the device, and use your body's fluid as the electrolyte. This battery is what powers the device.</p>
+<h2>It uses light to control it!</h2>
+<p>If that wasn't cool enough, they had to add cool optics into it as well. There is no compter or anything inside the device, instead it is controlled externally. The device is controlled through a photodiode, and an external heart monitor and infrared LED. When the heartmonitor detects irreglarities in the heartbeat, the LEDs light up, and transmit through the flesh to the device's photodiode control.</p>
+<h2>It saves babies!</h2>
+<p>The reason the device is designed to be so small, is that it is designed with newborn babies in mind, to help them if they are born with congenital heart defect.</p>
+<h2>And it dissolves!</h2>
+<p>Since the application is typically only temporary, the device simply dissolves into the body when it is no longer required. That way, you don't need surgery to extract it at the end.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/Really Cool Pacemaker Technology.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/Really Cool Pacemaker Technology.html</guid>
       <pubDate>Tue, 13 May 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Commands In LLMs</title>
       <description>I wanted to share a blogpost by [dbreunig](https://www.dbreunig.com) which mirrors a desire I have in the develkopment of LLM tech. [The Post](https://www.dbreunig.com/2025/05/06/you-got-commands-in-my-prompt.html). In short, we need to introduce more *slash* commands.</description>
-      <link>https://Caffeineandlasers.com/notes/Commands In LLMs.html</link>
+      <content:encoded><![CDATA[<p>I wanted to share a blogpost by <a href="https://www.dbreunig.com">dbreunig</a> which mirrors a desire I have in the develkopment of LLM tech. <a href="https://www.dbreunig.com/2025/05/06/you-got-commands-in-my-prompt.html">The Post</a>. In short, we need to introduce more <em>slash</em> commands.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/Commands In LLMs.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/Commands In LLMs.html</guid>
       <pubDate>Wed, 07 May 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Minor Reddit RSS Feed Updates</title>
       <description>I added an extra feature to the reddit RSS feed generator to allow users to choose what timeframe to extract top posts for.</description>
-      <link>https://Caffeineandlasers.com/notes/MInor Reddit RSS Feed Updates.html</link>
+      <content:encoded><![CDATA[<p>I added an extra feature to the reddit RSS feed generator to allow users to choose what timeframe to extract top posts for.</p>
+<p>i.e. Top posts today/this week/this month/all time.</p>
+<p>Shout out to Rohit at <a href="https://rohit.online/">Rohit Online</a> for emailing me with the feature request.</p>
+<p>I am super happy to get comments / guestbook entries or emails. I purposely do not keep any viewership metrics on this site<br>
+so the only way for me to find out if you like my content is to say hello :)</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/MInor Reddit RSS Feed Updates.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/MInor Reddit RSS Feed Updates.html</guid>
       <pubDate>Mon, 05 May 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Reddit RSS Feed Generator</title>
       <description>Yes I am aware of the wild shift in tone. I am angry that I **have** to use reddit, I still don't like it. Here is a tool to get it into your RSS reader. [Check it out](/reddit-rss.html)</description>
-      <link>https://Caffeineandlasers.com/notes/Reddit RSS Feed Generator.html</link>
+      <content:encoded><![CDATA[<p>Yes I am aware of the wild shift in tone. I am angry that I <strong>have</strong> to use reddit, I still don't like it.</p>
+<p>Anyway, I built a widget which builds a URL to the RSS feed for whatever subreddits you might want to subscribe to on your RSS reader. It also lets you select by <code>/new</code>, <code>/top</code> and <code>/hot</code>.</p>
+<p><a href="/reddit-rss.html">Check it out</a></p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/Reddit RSS Feed Generator.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/Reddit RSS Feed Generator.html</guid>
       <pubDate>Fri, 02 May 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Reddit Sucks For Hobbies</title>
-      <description>DESCRIPTION</description>
-      <link>https://Caffeineandlasers.com/notes/Reddit Sucks For Hobbies.html</link>
+      <description>It's frustrating that nearly every niche interest and hobby's main online community exists on Reddit, because Reddit is fucking terrible for fostering genuine communities.</description>
+      <content:encoded><![CDATA[<p>It's frustrating that nearly every niche interest and hobby's main online community exists on Reddit, because Reddit is fucking terrible for fostering genuine communities.</p>
+<p>If you go into any subreddit - I will pick on /r/3DPrinting for now - at least 50% of the posts are either &quot;Look at my very first print&quot; or &quot;Help me debug this issue&quot; (They absolutely did not google it before asking for help on reddit).</p>
+<p>While there is nothing <em>inherently</em> wrong with introducing yourself to the community or asking for help, that's not what keeps experienced members engaged in the community. So you have all these newbie posts polluting the online community frustrating people who want to have deeper discussions about the hobby. And it isn't the newbies fault either, newbies need somewhere to share space with experienced people to get that experience.</p>
+<p>Is this some unsolvable fact of life about online communities? <strong>NO!</strong></p>
+<p>Traditional forums solved this by making separate threads for <em>introductions</em> and <em>help threads</em> and <em>memes / off topic</em>. We didn't just throw everything into one big list and wish you luck.</p>
+<p>Anyway, can we go back to forums? I'm so sick of reddit man.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/Reddit Sucks For Hobbies.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/Reddit Sucks For Hobbies.html</guid>
       <pubDate>Wed, 30 Apr 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Podcast is the best medium for horror fiction.</title>
       <description>Just raving about a couple audio-ficiton podcasts I have been listening to.</description>
-      <link>https://Caffeineandlasers.com/notes/20250429_HorrorPodcasts.html</link>
+      <content:encoded><![CDATA[<h1>Podcast is the best medium for horror fiction</h1>
+<p>If you ever watch horror movies, you know that the anticipation is scarier than the reveal. The scraping noise against the window beats the monster reveal on the terror factor every time. This is the mistake that bad horror movies make when they reveal their monster too early.</p>
+<p>The reason for this is simple. Your imagination will create a monster far more terrifying than the best CGI in the world.</p>
+<p>So what if it’s all in your imagination? I truly believe that podcast is the best medium for horror fiction today. There are some extremely talented story writers partnering with equally talented audio mixers to create stories that suck you in and keep you terrified.</p>
+<p>The best of these stories embrace the limitations of the medium. They are based around listening to the radio chatter during a crisis, or found audio recordings after the attack’s aftermath.</p>
+<p>My favourite horror and thriller podcasts at the moment are:</p>
+<ul>
+<li>
+<p><a href="https://thewhitevault.com/">The White Vault</a> – Very heavily inspired by <em>The Thing</em>, it follows an Arctic expedition that takes a bad turn. It does a really good job at putting the characters in “no-win” scenarios which force them to make terrifying decisions.</p>
+</li>
+<li>
+<p><a href="https://www.derelictpodcast.com/">Fathom and its sequel Derelict</a> – This is the one that got me really into the medium. The audio production is phenomenal. Season 1 is set deep in an undersea base, the sound design—creaking metal, distant water rushing through cracks—builds an auditory environment so immersive, it’s crazy.</p>
+</li>
+</ul>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20250429_HorrorPodcasts.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20250429_HorrorPodcasts.html</guid>
       <pubDate>Tue, 29 Apr 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Fixed my feeds. Again.</title>
       <description>Whoops, thought I fixed my RSS feeds [last week](https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html), Turns out I just broke it again in a new way. This time, they should be working. I think.</description>
-      <link>https://Caffeineandlasers.com/notes/20250427_FixedTheFeed_Again.html</link>
+      <content:encoded><![CDATA[<p>Whoops, thought I fixed my RSS feeds <a href="https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html">last week</a>, Turns out I just broke it again in a new way. This time, they should be working. I think.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20250427_FixedTheFeed_Again.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20250427_FixedTheFeed_Again.html</guid>
       <pubDate>Sun, 27 Apr 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Technofeudalism in 4 comic panels</title>
       <description>I tried to compress Yannis Varoufakis "Technofeudalism - What Killed Capitalism" into 4 poorly drawn comic panels</description>
-      <link>https://Caffeineandlasers.com/notes/20250420_Technofeudalism.html</link>
+      <content:encoded><![CDATA[<p>I tried to compress Yanis Varoufakis &quot;Technofeudalism - What Killed Capitalism&quot; into 4 poorly drawn comic panels</p>
+<p><img src="/Assets/TechnofeudalismComic.png" alt=""></p>
+<p>License:</p>
+<p><a href="https://creativecommons.org/public-domain/cc0/"><img src="/Assets/CC0.png" alt=""></a></p>
+<p>Treat it like some bathroom graffiti</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20250420_Technofeudalism.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20250420_Technofeudalism.html</guid>
       <pubDate>Sun, 20 Apr 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>New Feeds!</title>
-      <description></description>
-      <link>https://Caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html</link>
+      <description>Quiet few months. Turns out my RSS feed was broken. Sorry for the spam of todays three posts.</description>
+      <content:encoded><![CDATA[<p>Quiet few months. Turns out my RSS feed was broken. Sorry for the spam of todays three posts.</p>
+<p>Two Important Updates:</p>
+<ol>
+<li>
+<p>I fixed the RSS functionality of my site. If you missed anything from this year, feel free to go back and read my older articles</p>
+</li>
+<li>
+<p>I added multiple feeds to my site. This one (the one you are probably subscribed to if you are reading this in your RSS reader), combines my blogposts, and shorter notes and links. If you are interested in subscribing to JUST my longform blogs, you can grab that link from my page. (Ditto for just my notes).</p>
+</li>
+</ol>
+<p>Thanks!</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html</guid>
       <pubDate>Thu, 17 Apr 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Open Source Quantum Magnetometers</title>
-      <description></description>
-      <link>https://Caffeineandlasers.com/notes/20250416_QuantumMagnetometers.html</link>
+      <description>Its kind of wild that Quantum tech has gotten to the point where folks are sharing Open Source schematics for N-V Quantum Magnetomer's with a total BOM of >$250AUD.</description>
+      <content:encoded><![CDATA[<p>Its kind of wild that Quantum tech has gotten to the point where folks are sharing Open Source schematics for N-V Quantum Magnetomer's with a total BOM of &gt;$250AUD. The construction seems (relatively) accessible as well.</p>
+<p>Read about it on their <a href="https://quantumvillage.org/">Site</a> and their <a href="https://github.com/QuantumVillage/UncutGem">github repo</a>.</p>
+<p>According to some of the authors on LinkedIn V2 may be sold as a kit to hobbyists.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20250416_QuantumMagnetometers.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20250416_QuantumMagnetometers.html</guid>
       <pubDate>Wed, 16 Apr 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title>Learning About Rainbows</title>
-      <description></description>
-      <link>https://Caffeineandlasers.com/notes/20250416_rainbowspec.html</link>
+      <description>One of my favourite sites on the IndieWeb RainbowSpec focuses entirely on learning everything you could possibly want about the optics of rainbows.</description>
+      <content:encoded><![CDATA[<p>One of my favourite sites on thie IndieWeb RainbowSpec focuses entirely on learning everything you could possibly want about the optics of rainbows. From the visible spectrum to double rainbows, and glories. Worth a good read!</p>
+<p><a href="https://rainbowspec.observer/"><img src="/Assets/rainbowspecbutton.png" alt=""></a></p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20250416_rainbowspec.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20250416_rainbowspec.html</guid>
       <pubDate>Wed, 16 Apr 2025 10:00:00 +1000</pubDate>
     </item>
     

@@ -1,7 +1,7 @@
 ---
 title: Really Cool Pacemaker Technology 
 date: 2025-05-13
-description: DESCRIPTION
+description: Researchers at Northwestern University have just broke the record for the smallest pacemaker.
 layout: note.liquid
 ---
 

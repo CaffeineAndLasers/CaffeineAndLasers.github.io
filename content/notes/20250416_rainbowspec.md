@@ -1,7 +1,7 @@
 ---
 title: Learning About Rainbows
 date: 2025-04-16
-description: 
+description: One of my favourite sites on the IndieWeb RainbowSpec focuses entirely on learning everything you could possibly want about the optics of rainbows.
 layout: note.liquid
 ---
 
