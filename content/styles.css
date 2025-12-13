@@ -49,6 +49,12 @@
     --color-text-body: var(--ctp-text);
     --color-text-link-webring: var(--ctp-lavender);
 
+    --card-bg: rgba(255, 255, 255, 0.06);
+    --card-border-color: rgba(148, 163, 184, 0.18);
+    --card-shadow: 0 18px 45px rgba(8, 8, 16, 0.45);
+    --card-shadow-media: 0 18px 45px rgba(8, 8, 20, 0.5);
+    --text-muted: var(--ctp-subtext0);
+
     font-size: 16px; /* 1rem = 16px; change to 15px or 18px to scale site-wide */
 
     /* Borders */
@@ -92,6 +98,12 @@
 
         --color-border-light: #ddd;
         --color-border-dark: #000;
+
+        --card-bg: rgba(255, 255, 255, 0.94);
+        --card-border-color: rgba(15, 23, 42, 0.12);
+        --card-shadow: 0 18px 45px rgba(15, 23, 42, 0.14);
+        --card-shadow-media: 0 18px 45px rgba(15, 23, 42, 0.2);
+        --text-muted: #475569;
     }
 }
 
@@ -121,6 +133,12 @@
 
     --color-border-light: #3a3f58;
     --color-border-dark: #0b0b10;
+
+    --card-bg: rgba(255, 255, 255, 0.06);
+    --card-border-color: rgba(148, 163, 184, 0.18);
+    --card-shadow: 0 18px 45px rgba(8, 8, 16, 0.45);
+    --card-shadow-media: 0 18px 45px rgba(8, 8, 20, 0.5);
+    --text-muted: var(--ctp-subtext0);
 }
 
 .theme-light {
@@ -148,6 +166,12 @@
 
     --color-border-light: #ddd;
     --color-border-dark: #000;
+
+    --card-bg: rgba(255, 255, 255, 0.94);
+    --card-border-color: rgba(15, 23, 42, 0.12);
+    --card-shadow: 0 18px 45px rgba(15, 23, 42, 0.14);
+    --card-shadow-media: 0 18px 45px rgba(15, 23, 42, 0.2);
+    --text-muted: #475569;
 }
 
 
@@ -233,6 +257,26 @@ main a:hover, aside a:hover {
 }
 main a:visited, aside a:visited {
     color: var(--color-primary-purple);
+}
+
+main [style*="--card-bg"] {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--card-border-color);
+    box-shadow: var(--card-shadow) !important;
+    color: var(--color-text-body);
+}
+
+main [style*="--card-bg"] p {
+    color: var(--text-muted);
+}
+
+main [style*="--card-bg"] img {
+    box-shadow: var(--card-shadow-media) !important;
+}
+
+main [style*="--card-bg"] iframe {
+    box-shadow: var(--card-shadow) !important;
+    border: 1px solid var(--card-border-color);
 }
 
 .code-block {
