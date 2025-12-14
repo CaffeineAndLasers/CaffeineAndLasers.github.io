@@ -5,9 +5,79 @@
     <description>Coffee, Science and Beer</description>
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 13 Dec 2025 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Bad Art Day</title>
+      <description>Sharing an afternoon of doodling.</description>
+      <content:encoded><![CDATA[<p>I am not an artist by any means. But, after watching <a href="https://www.youtube.com/watch?v=2n8W6CBxc64&amp;pp=ygUVc3RydXRobGVzcyBjcmVhdGl2aXR5">Stuthless video on getting unstuck from a creative rut</a> I decided it could be fun to walk down to the park and mess around with some art.</p>
+<p>First up was a tea-stain map. I threw tea onto a piece of paper and turned it into a map for some fictional fantasy empire.</p>
+<div class="art-piece rotate-left">
+	<img src="https://caffeineandlasers.com/Assets/asdfcawe.jpg" alt="Tea-stain map sketch of a fictional fantasy empire" />
+</div>
+<p>Then I tried to draw a circle, failed, turned it into an onion.</p>
+<div class="art-piece rotate-left">
+	<img src="https://caffeineandlasers.com/Assets/qwerca.jpg" alt="Onion doodle born from a failed circle sketch" />
+</div>
+<p><strong>Go Onion!</strong></p>
+<p>(10 points to anyone who knows the reference)</p>
+<p>My partner who actually does know how to draw and paint had a bit more success than me:</p>
+<div class="art-piece">
+	<img src="https://caffeineandlasers.com/Assets/fdsa.jpg" alt="Skeleton Doctor" />
+</div>
+<div class="art-piece rotate-right">
+	<img src="https://caffeineandlasers.com/Assets/asfd.jpg" alt="Some colours n shit" />
+</div>
+<style>
+.art-piece {
+	margin: 1.5rem auto;
+	max-width: 75%;
+}
+
+.art-piece img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+}
+
+.art-piece.rotate-left {
+	max-width: 75%;
+	aspect-ratio: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
+}
+
+.art-piece.rotate-left img {
+	transform: rotate(-90deg);
+	width: 100%;
+	max-width: none;
+}
+
+.art-piece.rotate-right {
+	max-width: 75%;
+	aspect-ratio: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
+}
+
+.art-piece.rotate-right img {
+	transform: rotate(90deg);
+	width: 100%;
+	max-width: none;
+}
+</style>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20251214_NewPhotoDrop.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20251214_NewPhotoDrop.html</guid>
+      <pubDate>Sun, 14 Dec 2025 11:00:00 +1100</pubDate>
+    </item>
     
     <item>
       <title>Caffeine And Lasers Wrapped 2025</title>
