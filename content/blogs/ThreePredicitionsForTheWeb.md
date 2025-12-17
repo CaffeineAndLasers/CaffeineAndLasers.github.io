@@ -6,6 +6,7 @@ description: "My submission for the December 2025 IndieWeb Carnival"
 layout: blogpost.liquid
 tags:
     - Culture
+    - Webmastery
     - Technology
     - IndieWebCarnival
     - IndieWeb
