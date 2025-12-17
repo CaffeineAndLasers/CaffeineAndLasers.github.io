@@ -5,9 +5,36 @@
     <description>Coffee, Science and Beer</description>
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 14 Dec 2025 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Late Night Doodles</title>
+      <description>Sharing some more drawings.</description>
+      <content:encoded><![CDATA[<p>I was doodling late at night, under some very warm light. In fact, I legitimately wasnt sure if the marker I was using was purple or black. (Glad it was purple)</p>
+<div class="art-piece">
+	<img src="https://caffeineandlasers.com/Assets/purpleCheckerDoodle.jpg" alt="Purple Warped Checkboard Pattern with a red scar through it" />
+</div>
+<style>
+.art-piece {
+	margin: 1.5rem auto;
+	max-width: 75%;
+}
+
+.art-piece img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+}
+
+</style>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20251218_lateNightDoodles copy.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20251218_lateNightDoodles copy.html</guid>
+      <pubDate>Thu, 18 Dec 2025 11:00:00 +1100</pubDate>
+    </item>
     
     <item>
       <title>Bad Art Day</title>
