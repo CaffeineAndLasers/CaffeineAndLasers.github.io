@@ -43,9 +43,58 @@ nesting: ../../
 
 <main>
 
-<h1 style="font-size:35px;">{{ title }}</h1>
+<article class="book-review">
+  <header class="book-review-header">
+    <h1>{{ title }}</h1>
+    {% if author %}
+    <p class="book-author">by {{ author }}</p>
+    {% endif %}
+  </header>
 
-{{ content }}
+  <div class="book-review-content">
+    <div class="book-review-meta" style="display: flex; flex-direction: row; align-items: flex-start; gap: 20px;">
+      {% if coverImg %}
+      <div class="book-cover-large" style="flex: 0 0 auto; text-align: left; margin-right: 30px;">
+        <img src="{{ coverImg }}" alt="Cover of {{ title | xml_escape }}" class="cover-image" style="max-height: 320px; max-width: 100%; border-radius: 6px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+      </div>
+      {% endif %}
+
+      <div class="book-info" style="flex: 1;">
+        {% if rating %}<p><strong>Rating:</strong> {{ rating }}</p>{% endif %}
+        <p><strong>Type:</strong> {% if fiction %}Fiction{% else %}Non-Fiction{% endif %}</p>
+        {% if date %}
+        {% assign date_parts = date | split: "-" %}
+        <p><strong>Read:</strong>
+          {% case date_parts[1] %}
+            {% when "01" %}January
+            {% when "02" %}February
+            {% when "03" %}March
+            {% when "04" %}April
+            {% when "05" %}May
+            {% when "06" %}June
+            {% when "07" %}July
+            {% when "08" %}August
+            {% when "09" %}September
+            {% when "10" %}October
+            {% when "11" %}November
+            {% when "12" %}December
+          {% endcase %} {{ date_parts[0] }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="book-thoughts" style="margin-top: 24px; padding: 16px 20px; border: none; border-radius: var(--border-radius-small); position: relative; background-color: var(--color-bg-medium);">
+      <div style="position:absolute; left:-10px; top:12px; bottom:12px; width:6px; background: var(--color-primary-purple); border-radius: 6px;"></div>
+      <h2 style="margin-top: 0;">My Thoughts</h2>
+      {% if thoughts %}
+        <p>{{ thoughts }}</p>
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </div>
+  </div>
+  <p style="margin-top: 18px;"><a href="/Library.html">← Back to Library</a></p>
+</article>
 
 </main>
 

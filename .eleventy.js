@@ -48,6 +48,12 @@ module.exports = function (eleventyConfig) {
       return b.date - a.date; // Sort in reverse chronological order (newest first)
     });
   });
+  // Add a collection for books (generated from content/books/*.md)
+  eleventyConfig.addCollection("books", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("content/books/*.{html,md}").sort((a, b) => {
+      return b.date - a.date; // newest first
+    });
+  });
   // And Notes
   eleventyConfig.addCollection("notes", function(collectionApi) {
     return collectionApi.getFilteredByGlob("content/notes/*.{html,md}").sort((a, b) => {

@@ -3,8 +3,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://caffeineandlasers.com/books/dune.html</loc>
+    <lastmod>2023-01-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/the-three-body-problem.html</loc>
+    <lastmod>2023-08-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/froth-the-science-of-beer.html</loc>
+    <lastmod>2023-10-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/blogs/RSSforReddit.html</loc>
     <lastmod>2024-01-15T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/the-internet-con-how-to-seize-the-means-of-computation.html</loc>
+    <lastmod>2024-07-01T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -28,6 +60,14 @@
   
   <url>
     <loc>https://caffeineandlasers.com/blogs/IntroToLCOS.html</loc>
+    <lastmod>2024-08-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/how-to-predict-the-unpredictable-the-art-of-outsmarting-almost-everyone.html</loc>
     <lastmod>2024-08-01T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -83,6 +123,22 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/books/in-ascension.html</loc>
+    <lastmod>2024-10-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/war-peace-war-20-years-in-afghanistan.html</loc>
+    <lastmod>2024-10-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/blogs/ChiCurate.html</loc>
     <lastmod>2024-11-17T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -99,6 +155,14 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/books/bloom.html</loc>
+    <lastmod>2024-12-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/blogs/KeepYourEgoInCheck(AboveTheAI).html</loc>
     <lastmod>2025-01-15T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -109,6 +173,46 @@
   <url>
     <loc>https://caffeineandlasers.com/blogs/20250124PlantMonitorPrototypeUpdate.html</loc>
     <lastmod>2025-01-24T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/for-the-benefit-of-mankind.html</loc>
+    <lastmod>2025-02-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/laziness-does-not-exist-a-defense-of-the-exhausted-exploited-and-overworked.html</loc>
+    <lastmod>2025-02-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/technofeudalism-what-killed-capitalism.html</loc>
+    <lastmod>2025-03-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/the-trading-game-a-confession.html</loc>
+    <lastmod>2025-03-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/the-village-teacher.html</loc>
+    <lastmod>2025-03-01T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -156,6 +260,14 @@
   
   <url>
     <loc>https://caffeineandlasers.com/blogs/technicalSkillsAsPraxis.html</loc>
+    <lastmod>2025-04-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/conflict-the-evolution-of-warfare-from-1945-to-gaza.html</loc>
     <lastmod>2025-04-01T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -253,6 +365,14 @@
   <url>
     <loc>https://caffeineandlasers.com/notes/Reddit Sucks For Hobbies.html</loc>
     <lastmod>2025-04-30T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/blindsight.html</loc>
+    <lastmod>2025-05-01T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -395,6 +515,14 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/books/the-happiness-of-dogs-why-the-unexamined-life-is-the-most-worth-living.html</loc>
+    <lastmod>2025-06-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</loc>
     <lastmod>2025-06-01T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -467,6 +595,14 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/books/no-power-greater-a-history-of-union-action-in-australia.html</loc>
+    <lastmod>2025-07-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/blogs/AnthroLLM.html</loc>
     <lastmod>2025-07-14T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -499,6 +635,30 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/books/everything-is-tuberculosis.html</loc>
+    <lastmod>2025-08-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/i-spy-my-life-in-mi5.html</loc>
+    <lastmod>2025-08-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/snake-island.html</loc>
+    <lastmod>2025-08-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/blogs/Blog-Statsforfunscienceandart.html</loc>
     <lastmod>2025-08-08T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -517,6 +677,22 @@
   <url>
     <loc>https://caffeineandlasers.com/blogs/HowtoActuallyTakenotes.html</loc>
     <lastmod>2025-08-31T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/algospeak.html</loc>
+    <lastmod>2025-09-01T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/life-as-no-one-knows-it.html</loc>
+    <lastmod>2025-09-01T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -563,6 +739,30 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/books/challenger.html</loc>
+    <lastmod>2025-11-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/how-they-get-you.html</loc>
+    <lastmod>2025-11-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/more-everything-forever.html</loc>
+    <lastmod>2025-11-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/notes/LearningRL.html</loc>
     <lastmod>2025-11-17T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -597,6 +797,22 @@
   <url>
     <loc>https://caffeineandlasers.com/Resume.html</loc>
     <lastmod>2025-11-28T09:17:36Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/careless-people.html</loc>
+    <lastmod>2025-12-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/exile-economics.html</loc>
+    <lastmod>2025-12-01T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -645,14 +861,6 @@
   <url>
     <loc>https://caffeineandlasers.com/blogs/100Daysof2025.html</loc>
     <lastmod>2026-01-02T11:00:00Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/books/i-spy-my-life-in-mi5.html</loc>
-    <lastmod>2026-01-05T17:43:01Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

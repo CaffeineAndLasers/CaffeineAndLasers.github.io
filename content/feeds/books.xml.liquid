@@ -12,21 +12,21 @@ permalink: /feeds/books.xml
     <description>{{ description }}</description>
     <link>{{ rootURL }}/Library.html</link>
     <atom:link href="{{ rootURL }}/feeds/books.xml" rel="self" type="application/rss+xml"/>
-    {% assign sortedBooks = books | sort: 'date' | reverse %}
+    {% assign sortedBooks = collections.books | sort: 'date' | reverse %}
     <lastBuildDate>{{ sortedBooks[0].date | date: "%a, %d %b %Y 00:00:00 +0000" }}</lastBuildDate>
     <ttl>1440</ttl>
 
     {% for book in sortedBooks %}
     <item>
-      <title><![CDATA[{{ book.name }} by {{ book.author }}]]></title>
+      <title><![CDATA[{{ book.data.name }} by {{ book.data.author }}]]></title>
       <description><![CDATA[
-        <p><strong>Rating:</strong> {{ book.rating }}</p>
-        <p><strong>Type:</strong> {% if book.fiction %}Fiction{% else %}Non-Fiction{% endif %}</p>
-        <p><img src="{{ rootURL }}{{ book.coverImg }}" alt="Cover of {{ book.name | xml_escape }}" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
-        <p>{{ book.thoughts | xml_escape }}</p>
+        <p><strong>Rating:</strong> {{ book.data.rating }}</p>
+        <p><strong>Type:</strong> {% if book.data.fiction %}Fiction{% else %}Non-Fiction{% endif %}</p>
+        <p><img src="{{ rootURL }}{{ book.data.coverImg }}" alt="Cover of {{ book.data.name | xml_escape }}" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p>{{ book.data.thoughts | xml_escape }}</p>
       ]]></description>
-      <link>{{ rootURL }}/books/{{ book.name | slugify }}.html</link>
-      <guid isPermaLink="true">{{ rootURL }}/books/{{ book.name | slugify }}.html</guid>
+      <link>{{ rootURL }}{{ book.url }}</link>
+      <guid isPermaLink="true">{{ rootURL }}{{ book.url }}</guid>
       <pubDate>{{ book.date | date: "%a, %d %b %Y 00:00:00 +0000" }}</pubDate>
     </item>
     {% endfor %}

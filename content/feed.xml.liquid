@@ -12,7 +12,7 @@ permalink: /feed.xml # Ensure it outputs to the root
     <description>{{ description }}</description>
     <link>{{ rootURL }}</link>
     <atom:link href="{{ rootURL }}/feed.xml" rel="self" type="application/rss+xml"/>
-    {% assign allItems = collections.updates | concat: books | sort: 'date' | reverse %}
+    {% assign allItems = collections.updates | concat: collections.books | sort: 'date' | reverse %}
     <lastBuildDate>{{ allItems[0].date | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     <ttl>1440</ttl>
 
@@ -26,21 +26,18 @@ permalink: /feed.xml # Ensure it outputs to the root
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     </item>
     {% endfor %}
-
-    {% for book in books %}
-    {% assign sortedBooks = books | sort: 'date' | reverse %}
-    {% endfor %}
+    {% assign sortedBooks = collections.books | sort: 'date' | reverse %}
     {% for book in sortedBooks %}
     <item>
-      <title><![CDATA[Book Review: {{ book.name }} by {{ book.author }}]]></title>
+      <title><![CDATA[Book Review: {{ book.data.name }} by {{ book.data.author }}]]></title>
       <description><![CDATA[
-        <p><strong>Rating:</strong> {{ book.rating }}</p>
-        <p><strong>Type:</strong> {% if book.fiction %}Fiction{% else %}Non-Fiction{% endif %}</p>
-        <p><img src="{{ rootURL }}{{ book.coverImg }}" alt="Cover of {{ book.name | xml_escape }}" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
-        <p>{{ book.thoughts | xml_escape }}</p>
+        <p><strong>Rating:</strong> {{ book.data.rating }}</p>
+        <p><strong>Type:</strong> {% if book.data.fiction %}Fiction{% else %}Non-Fiction{% endif %}</p>
+        <p><img src="{{ rootURL }}{{ book.data.coverImg }}" alt="Cover of {{ book.data.name | xml_escape }}" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p>{{ book.data.thoughts | xml_escape }}</p>
       ]]></description>
-      <link>{{ rootURL }}/books/{{ book.name | slugify }}.html</link>
-      <guid isPermaLink="true">{{ rootURL }}/books/{{ book.name | slugify }}.html</guid>
+      <link>{{ rootURL }}{{ book.url }}</link>
+      <guid isPermaLink="true">{{ rootURL }}{{ book.url }}</guid>
       <pubDate>{{ book.date | date: "%a, %d %b %Y 00:00:00 +0000" }}</pubDate>
     </item>
     {% endfor %}
