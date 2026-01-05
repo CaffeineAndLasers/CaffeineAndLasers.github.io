@@ -222,7 +222,7 @@
     "thoughts": "It is embarrassing for me to  admit that I work in the  \"Space Industry\" but I barely know anything about space history, so I picked up this one.It was one of the most compelling non-fiction books I have ever read. It felt like reading a thriller. I swear I could hear the intense music kick in once I got to the chapter about the SRB O-rings. If you know you know. At a bit over 500 pages it is a bit of a commitment, but the breadth and depth of his reasearch was fantastic.",
     "date": "2025-11",
     "fiction":false,
-    "coverImg": "./Assets/book-covers/9780241994269.png"
+    "coverImg": "/Assets/book-covers/9780241994269.png"
   },
 
 
@@ -233,7 +233,7 @@
     "thoughts": "I knew Facebook did shady shit beforehand but the degree to which and the amount they knew that they were doing still managed to shock me. the metaphor the title implies, a reference to the Great Gatsby is extremely apt. The belligerence with which the Facebook leadership acted kind of blew me away. On the other hand, it is important to remember that this is and ex employee with an extra grind and she is bringing out all the dirty laundry. Personally, I tend to take a structural analysis point of view when talking about the problems with companies like Facebook. That Cory doctorow point about how the current cup of execs are not uniquely stupid or evil. They are just enabled by stupid laws. The book doesn't explore any of this, as far as Williams is concerned, the leadership at Facebook is uniquely evil and uncaring. \n I remember when I had to study Great Gatsby in high school, we had to discuss the degree to which our narrator was a reliable narrator. Because he was enjoying all the same spoils as the people he was criticizing. I wonder about Williams. If she wasn't sexually harassed and bullied out of her job, I wonder how critical she would be of Facebook. Would she have still been a whistleblower if she wasn't treated so horribly by the people in charge? I don't know, maybe.",
     "date": "2025-12",
     "fiction":false,
-    "coverImg": "./Assets/book-covers/CarelessPeople.jpg"
+    "coverImg": "/Assets/book-covers/CarelessPeople.jpg"
   },
 
  {
@@ -243,7 +243,7 @@
     "thoughts": "I probably need to stop reading books with theses which I already agree with from the beginning. Turns out that economic protectionism and isolationism is bad for your economy. Who knew?",
     "date": "2025-12",
     "fiction":false,
-    "coverImg": "./Assets/book-covers/ExileEconomics.jpg"
+    "coverImg": "/Assets/book-covers/ExileEconomics.jpg"
   }
 
 

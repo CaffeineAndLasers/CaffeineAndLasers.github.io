@@ -43,7 +43,7 @@ layout: default.liquid
     <div class="book-card">
         <div style="display: flex; flex-direction: row;">
             <div class="book-details" style="flex: 2; margin-right: 20px;">
-                <h2>{{ book.name }}</h2>
+                <h2><a href="/books/{{ book.name | slugify }}.html">{{ book.name }}</a></h2>
                 <p><strong>Author:</strong> {{ book.author }}</p>
                 <p><strong>Read:</strong> {% assign date_parts = book.date | split: "-" %}
                 {% case date_parts[1] %}

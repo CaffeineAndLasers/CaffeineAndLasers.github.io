@@ -1,0 +1,57 @@
+---
+title: Default Title
+css: /styles.css
+nesting: ../../
+---
+<!DOCTYPE html><html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="{{css}}{{ nocache }}">
+    <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers - Book Reviews" href="/feeds/books.xml">
+    <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
+    <!-- Canonical URL for SEO and sitemap -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <!-- Octothorpes: request indexing of this page on load -->
+    <link rel="preload" as="fetch" href="https://octothorp.es/?uri={{ site.url }}{{ page.url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('cl-theme');
+          var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+          var theme = stored || (prefersLight ? 'theme-light' : 'theme-dark');
+          document.documentElement.classList.add(theme);
+        } catch (e) {}
+      })();
+    </script>
+</head>
+
+{% include "header.liquid" %}
+
+<div id="flex">
+
+<aside id="leftSidebar">{% include "sidebar.liquid" %}</aside>
+
+<main>
+
+<h1 style="font-size:35px;">{{ title }}</h1>
+
+{{ content }}
+
+</main>
+
+</div>
+{% include "footer.liquid" %}
+
+<script src="/scripts.js{{ nocache }}"></script>
+<button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">🌙 Dark</button>
+</html>
