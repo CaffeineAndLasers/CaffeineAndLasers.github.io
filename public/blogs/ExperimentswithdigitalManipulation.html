@@ -1,0 +1,326 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Does dithering still protect you from DeepFakes?</title>
+    <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/styles.css?nocache=1768180080413">
+    <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
+    <!-- Canonical URL for SEO and sitemap -->
+    <link rel="canonical" href="https://caffeineandlasers.com/blogs/ExperimentswithdigitalManipulation.html">
+    <!-- Octothorpes: request indexing of this page on load -->
+    <link rel="preload" as="fetch" href="https://octothorp.es/?uri=https://caffeineandlasers.com/blogs/ExperimentswithdigitalManipulation.html">
+    <!-- Octothorpes: emit one link per tag on this page -->
+    
+      
+        <link rel="octo:octothorpes" href="AI">
+      
+        <link rel="octo:octothorpes" href="Technology">
+      
+        <link rel="octo:octothorpes" href="Culture">
+      
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('cl-theme');
+          var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+          var theme = stored || (prefersLight ? 'theme-light' : 'theme-dark');
+          document.documentElement.classList.add(theme);
+        } catch (e) {}
+      })();
+    </script>
+</head>
+
+<div id="container"><div id="header"></div>
+    <div id="headerArea">
+    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/notes.html">Notes & Links</a></li>
+            <li><a href="/Resources.html">Resources</a></li>
+            <li><a href="/media.html">Media</a></li>
+            <!-- This empty one feels immature -->
+            <!-- <li><a href="/publications.html">Publications</a></li>  -->
+            <!-- <li><a href="/Resume.html">Resume</a></li> -->
+            <li><a href="/contact.html">Contact Me</a></li>
+            
+</ul></nav></div>
+
+
+<div id="flex">
+
+<aside id="leftSidebar"><h2>Updates</h2>
+<div class="box">
+    What am I doing these days!
+    <ul>
+        <li><b>April 2025</b> - Traveled to U.K to collaborate with Durham University</li>
+        <li><b>April 2025</b> - Traveling to <a href="https://dlr.expert/coat2025/" target="_blank">COAT 2025</a> in Munich </li>
+        <li><b>July 2024</b> - Started this website!</li>
+        <li><b>July 2023</b> - Started my PhD</li>
+    </ul>
+</div>
+
+
+<h2> Say Hello!</h2> 
+
+<div >
+    <img 
+        src="/Assets/KappyIdle.png" 
+        alt="Koffee Koala" 
+        class="KappySidebar"
+    />
+</div>
+
+<p></p>
+
+<b>Sign my  <a href="https://caffeineandlasers.atabook.org/"> Guestbook </a>!</b>
+
+
+<h2>Find Me Online</h2>
+<ul>
+    <li>
+        <a href="https://aus.social/@AuntyRed/" target="_blank"
+            >Mastodon</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.youtube.com/@CameronJones-dj8mml"
+            target="_blank"
+            >YouTube</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://www.linkedin.com/in/cameron-jones-sydney/"
+            target="_blank"
+            >LinkedIn</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://github.com/CJones-Optics/"
+            target="_blank"
+            >GitHub</a
+        >
+    </li>
+</ul>
+</aside>
+
+<main>
+
+ <h1 style="font-size:35px;">Does dithering still protect you from DeepFakes?</h1>
+
+<div style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;">
+  <p><strong>Date:</strong> 2026-01-12</p>
+  <p><strong>Last Updated:</strong> 2026-01-12</p>
+</div>
+
+
+This blogpost may not last very long depending on how technology goes
+
+<p>With the disturbing applications of Grok's image generation, I am becoming less and less comfortable with my pictures being online. Don't get me wrong - I understand as a nondescript white dude this threat is relatively minor for me compared to other demographics. <a href="https://www.wired.com/story/grok-is-pushing-ai-undressing-mainstream/">However, with the way people are acting I am surprised anyone have photos up on Twitter in 2026 to be honest.</a></p>
+
+<p>One argued way around this is by using heavy image manipulation like dithering. This is something I first heard about through Ava's blog <a href="https://blog.avas.space/events-vs-privacy/">https://blog.avas.space/events-vs-privacy/</a> and also when I first started taking the idea of removing your face from social media seriously.</p>
+
+<p>The argument is quite reasonable, dithering preserves your likeness well enough for the avergae person, but doesn't give enough detail to reconstruct your face accurately.</p>
+
+<p>So I decided to check where the state of technology is in 2026, and how much safety dithering actually wins you. The prompt used for all generations (unless otherwise specified) was: </p>
+	
+	<code>Undither and recolour this</code>.
+
+<p>No jailbreaking prompts were used.</p>
+
+<h2> Background</h2>
+
+<h3>Threat Profile</h3>
+
+<p>After my introduction, you might question how reasonable it is to post the original image I will be using for my comparison.</p>
+
+<p>For what it's worth, this blog has a few pictures of me on it, and links to my LinkedIn and other video appearances. So I decided re-using a picture which is already publicly available is acceptable within my threat profile for now. I expect to be job-hunting within the next 18 months so keeping some kind of public profile is necessary for now, but I reserve the right to nuke my digital likeness in the future with the way this technology is moving.</p>
+
+<h3>Models Used</h3>
+
+<p>I am sticking with the three most important for this quick analysis.</p>
+
+<ol>
+	<li><strong>ChatGPT Image Gen:</strong> This represents the option that most people are familiar with. It isn't the best in any category of performance, but people know it.</li>
+	<li><strong>Google NanoBanna Pro:</strong> This is best in class at accuracy and instruction following at time of writing. As a Google operation they have some of the stronger safety rails against immoral behaviour, supposedly.</li>
+	<li><strong>Grok ImageGen:</strong> While strictly lower in performance than the other options, this is the one in the news at the moment because they are the only major provider with very weak safety rails.</li>
+</ol>
+
+<p>It is worth noting that there are literally <em>thousands</em> of Stable Diffusion fine-tunes out there, specifically for deep-faking and nudifying images. I am not including them in this analysis since there are so many of them but, more importantly, they are slightly more difficult to use and install which represents a hurdle too large for the general population of Twitter trolls.</p>
+
+<p>Okay, onto the analysis:</p>
+
+<h2>Case 1 — Midshot profile picture</h2>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; margin: 20px 0;">
+  <div style="flex: 1; min-width: 300px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">Original</p>
+    <img src="../Assets/ba7724aa12065802dd7b1db9dabedc42.jpg" alt="Original profile" style="width: 100%; height: 400px; object-fit: contain;">
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">Dithered</p>
+    <img src="../Assets/bb229ae541d498e2bc33210accb4249a.png" alt="Dithered" style="width: 100%; height: 400px; object-fit: contain;">
+  </div>
+</div>
+
+<p>I ran it through some dithering until it hit a point I was artistically happy with while remaining identifiably still me. (Although the puppy's details do get lost.)</p>
+
+<p>Now let's pass it into ChatGPT Image Gen requesting it to un-dither and recolour the image:</p>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; margin: 20px 0;">
+  <div style="flex: 1; min-width: 250px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">ChatGPT Image Gen</p>
+    <img src="../Assets/fbcabdc7ac103084bb077b5cadd5c604.png" alt="ChatGPT reconstruction" style="width: 100%; height: 350px; object-fit: contain;">
+  </div>
+  <div style="flex: 1; min-width: 250px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">Google NanoBanna Pro</p>
+    <img src="../Assets/aaa88bda2cf8886e55afd14379bbbbc2.png" alt="NanoBanna reconstruction" style="width: 100%; height: 350px; object-fit: contain;">
+  </div>
+  <div style="flex: 1; min-width: 250px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">Grok</p>
+    <img src="../Assets/4316de69f334acc0b1e6c3681a9d3361.png" alt="Grok reconstruction 1" style="width: 100%; height: 350px; object-fit: contain;">
+  </div>
+</div>
+
+<p>..... and shit. Grok and ChatGPT were obviously wrong, but the NanoBanna version is uncomfortably close. The dog is still messed up, but you could remove/fix that with further generatiuons. The picture of me, is close enough that I think it could fool some people. I have minor nitpicks on how it drew me, but it is close enough that I think if someone used that face to imitate me in the right level of stress or not paying attention (e.g. in a profile picture), or to someone who has only met me a handful of times, I think it could trick them.</p>
+
+<p>Interestingly in the Grok case, it couldn't decide on my sex from the original image so it actually generated two options with this as the second:</p>
+
+<p style="text-align: center;"><img src="../Assets/92e7baf74c01d1b43f1ec1194dd1403b.png" alt="Grok reconstruction 2" style="max-width: 400px;"></p>
+
+<p>Considering Grok's reputation, I decided to see if I could trigger a safety refusal by asking it to make the images shirtless, to which it happily obliged.</p>
+
+<p style="text-align: center;"><img src="../Assets/5f213ce74aa9759c8c2465865a4680da.png" alt="Grok shirtless" style="max-width: 400px;"></p>
+
+<p>It also generated slightly horrifying nipple-less nude female version of me. It was operating with Barbie rules — completely formed breasts but no nipples. I have absolutely no intention of sharing that monstrosity here.</p>
+
+<p>I would like to stress that at no point did I tell or imply to the any model that the photo was of me, or that I had consent to use or de-anonymize the image. This includes the shirtless follow up picture that Grok generated.</p>
+
+<h2>Test 2 — Selfie</h2>
+
+<p>One obvious problem with the previous example was it was a mid-shot with less-than-ideal lighting and a lot going on in frame. What about if I used a well-lit selfie as a kind of worst-case scenario?</p>
+
+<p>Once again, a photo I already have elsewhere on this blog.</p>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; margin: 20px 0;">
+  <div style="flex: 1; min-width: 300px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">Original</p>
+    <img src="../Assets/f8d98870b5e39525bb367ad2ce02b804.jpg" alt="Original selfie" style="width: 100%; height: 400px; object-fit: contain;">
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">Dithered</p>
+    <img src="../Assets/a7b45cc4967aad7c867d5feaeb450c25.png" alt="Dithered selfie" style="width: 100%; height: 400px; object-fit: contain;">
+  </div>
+</div>
+
+<p>Now let's look at the reconstructions:</p>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; margin: 20px 0;">
+  <div style="flex: 1; min-width: 250px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">ChatGPT</p>
+    <img src="../Assets/ea2403dad34a3be10d184e3dba8c6325.png" alt="ChatGPT selfie" style="width: 100%; height: 350px; object-fit: contain;">
+  </div>
+  <div style="flex: 1; min-width: 250px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">NanoBanna</p>
+    <img src="../Assets/aadec8e7d77a80ca45486f444a489292.png" alt="NanoBanna selfie" style="width: 100%; height: 350px; object-fit: contain;">
+  </div>
+  <div style="flex: 1; min-width: 250px;">
+    <p style="font-weight: bold; margin-bottom: 10px;">Grok</p>
+    <img src="../Assets/06e6d076aaea6a3bd1aeb71b8a2fb309.png" alt="Grok selfie" style="width: 100%; height: 350px; object-fit: contain;">
+  </div>
+</div>
+
+<p>In this case, none of them look nearly like me. This includes the NanoBanna model which got pretty close in the last attempt.</p>
+
+<p>Interestingly, all three reconstructed the building behind as sandstone Neo-renaissance-y with all its ornamentation compared to the red-brick Gothic in the original.</p>
+
+
+<h2>Conclusions and General thoughts</h2>
+
+<p>Of the three models tested, Grok is the least resilient to digital manipulation by far. Considering they are also the ones with nearly no safety rails, I think we should all breathe a sigh of relief for no. I am not particularly well informed about Grok's models, but from their outputs it looks to me like they are still using a modified Stable Diffusion–like architecture rather than the more advanced natively multimodal models pushed by OpenAI and Google. So at some point in the future, if they do not get stopped I suspect they will eventually get to the same baseline as Google's models, but with that signature lack of social, legal, or moral obligations that Grok is so proud of.</p>
+
+<p>At the moment, it looks like NanoBanna Pro can get uncomfortably close in one lucky shot. This should be something to watch closely if you are using these privacy preserving technique</p>
+
+<p>Looking at the outputs of all three across both cases, it seems that they are all very well trained on humans as subjects, so they can undither a general concept of a face quite well (even if it isn't my face most of the time), but they often fail with the detail around them.</p>
+
+<p>Finally a note: even the "responsible" providers like Google didn't trigger any safety refusal at my request even though it was clearly trying to de-anonymize someone, even without any kind of jailbreak.</p>
+
+
+
+
+
+
+<section class="post-tags" aria-label="Post tags">
+  <h2 class="post-tags__heading">Tags</h2>
+  <div class="post-tags__list">
+    
+    <a
+      class="post-tag"
+      href="https://octothorp.es/explore?o=AI%2Cai"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      #AI
+    </a>
+    
+    <a
+      class="post-tag"
+      href="https://octothorp.es/explore?o=Technology%2Ctechnology"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      #Technology
+    </a>
+    
+    <a
+      class="post-tag"
+      href="https://octothorp.es/explore?o=Culture%2Cculture"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      #Culture
+    </a>
+    
+  </div>
+</section>
+
+
+
+<div id="c_widget"></div>
+<script src="../../comment-widget/comment-widget.js"></script>
+</main>
+
+</div>
+<footer id="footer">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/FeedList.html">
+            <img 
+            src="/Assets/RSS_Logo.png" 
+            alt="RSS Feed" 
+            style="width: 20px; height: 20px" 
+            />
+        </a>
+        <a href="https://octothorp.es" title="Octothorpes main ring">
+            <img src="https://octothorp.es/badge.png" alt="Badge for the Octothorpes main ring" style="height: 20px" />
+        </a>
+        <span style="font-size: 0.8em;">
+            <a href="/sitemap.xml">Sitemap</a>
+        </span>
+    </div>
+</footer>
+
+<script src="/scripts.js?nocache=1768180080413"></script>
+<button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">🌙 Dark</button>
+</html>
+
