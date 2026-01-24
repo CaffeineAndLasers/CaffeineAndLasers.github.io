@@ -889,4 +889,12 @@
     <priority>0.7</priority>
   </url>
   
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/being-human.html</loc>
+    <lastmod>2026-01-24T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
 </urlset>
