@@ -22,7 +22,8 @@
         "optimize-images": "node optimize-images.js",
         "restore-images": "node optimize-images.js restore",
         "clean-backups": "node optimize-images.js clean",
-        "import-obsidian": "node obsidian-import.js"
+        "import-obsidian": "node obsidian-import.js",
+        "add-book": "node isbn-search.js"
     },
     "dependencies": {
         "markdown-it": "^14.1.0",

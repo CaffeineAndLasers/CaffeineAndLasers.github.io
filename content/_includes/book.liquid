@@ -86,11 +86,7 @@ nesting: ../../
     <div class="book-thoughts" style="margin-top: 24px; padding: 16px 20px; border: none; border-radius: var(--border-radius-small); position: relative; background-color: var(--color-bg-medium);">
       <div style="position:absolute; left:-10px; top:12px; bottom:12px; width:6px; background: var(--color-primary-purple); border-radius: 6px;"></div>
       <h2 style="margin-top: 0;">My Thoughts</h2>
-      {% if thoughts %}
-        <p>{{ thoughts }}</p>
-      {% else %}
-        {{ content }}
-      {% endif %}
+      {{ content }}
     </div>
   </div>
   <p style="margin-top: 18px;"><a href="/Library.html">← Back to Library</a></p>

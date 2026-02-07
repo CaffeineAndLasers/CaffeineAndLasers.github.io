@@ -6,7 +6,7 @@
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feed.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Wed, 28 Jan 2026 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 14:53:03 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -3920,6 +3920,32 @@ Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will
     </item>
     
     
+    
+    <item>
+      <title><![CDATA[Book Review: Negotiation by Max H. Bazerman]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> </p>
+        <p><strong>Type:</strong> Non-Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9780691249445.jpg" alt="Cover of Negotiation" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/negotiation.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/negotiation.html</guid>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title><![CDATA[Book Review: The Avoidable War by Kevin Rudd]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟩</p>
+        <p><strong>Type:</strong> Non-Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9781541701298.jpg" alt="Cover of The Avoidable War" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/the-avoidable-war.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/the-avoidable-war.html</guid>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Book Review: Being Human by Lewis Dartnell]]></title>
