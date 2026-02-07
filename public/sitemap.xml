@@ -899,6 +899,14 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/books/negotiation.html</loc>
+    <lastmod>2026-02-06T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/FeedList.html</loc>
     <lastmod>2026-02-07T14:46:24Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -909,14 +917,6 @@
   <url>
     <loc>https://caffeineandlasers.com/Library.html</loc>
     <lastmod>2026-02-07T14:46:24Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/books/negotiation.html</loc>
-    <lastmod>2026-02-07T14:53:03Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
