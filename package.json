@@ -17,7 +17,7 @@
     },
     "scripts": {
         "webpack": "webpack --watch",
-        "eleventy": "npx @11ty/eleventy --serve",
+        "eleventy": "npx @11ty/eleventy --serve --port 8082",
         "build": "npx @11ty/eleventy & webpack",
         "optimize-images": "node optimize-images.js",
         "restore-images": "node optimize-images.js restore",

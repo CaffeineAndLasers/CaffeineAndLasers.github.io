@@ -251,6 +251,54 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/Resources.html</loc>
+    <lastmod>2025-03-28T23:02:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/Resume.html</loc>
+    <lastmod>2025-03-28T23:02:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/blog.html</loc>
+    <lastmod>2025-03-28T23:02:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/contact.html</loc>
+    <lastmod>2025-03-28T23:02:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/</loc>
+    <lastmod>2025-03-28T23:02:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/publications.html</loc>
+    <lastmod>2025-03-28T23:02:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/blogs/technicalSkillsAsPraxis.html</loc>
     <lastmod>2025-04-01T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -261,6 +309,14 @@
   <url>
     <loc>https://caffeineandlasers.com/books/conflict-the-evolution-of-warfare-from-1945-to-gaza.html</loc>
     <lastmod>2025-04-01T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/Colophon.html</loc>
+    <lastmod>2025-04-11T18:57:53Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -291,8 +347,32 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/notes.html</loc>
+    <lastmod>2025-04-17T04:52:16Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html</loc>
     <lastmod>2025-04-17T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/FeedList.html</loc>
+    <lastmod>2025-04-18T05:46:07Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/Library.html</loc>
+    <lastmod>2025-04-20T04:22:33Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -387,6 +467,30 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/media.html</loc>
+    <lastmod>2025-05-10T15:24:01Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/reddit-rss.html</loc>
+    <lastmod>2025-05-10T15:24:01Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/rss-starter-packs.html</loc>
+    <lastmod>2025-05-10T15:24:01Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/notes/Really Cool Pacemaker Technology.html</loc>
     <lastmod>2025-05-13T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -397,6 +501,30 @@
   <url>
     <loc>https://caffeineandlasers.com/notes/Crystal Lattice Structure of Popcorn.html</loc>
     <lastmod>2025-05-15T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/OPMLs/AllFeeds.opml</loc>
+    <lastmod>2025-05-20T20:30:22Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/OPMLs/WebComics.opml</loc>
+    <lastmod>2025-05-20T20:30:22Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/about.html</loc>
+    <lastmod>2025-05-20T20:30:22Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -715,118 +843,6 @@
   
   
   <url>
-    <loc>https://caffeineandlasers.com/Colophon.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/OPMLs/AllFeeds.opml</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/OPMLs/WebComics.opml</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/Resources.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/Resume.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/about.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/blog.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/contact.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/media.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/notes.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/publications.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/reddit-rss.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/rss-starter-packs.html</loc>
-    <lastmod>2025-12-13T13:20:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
     <loc>https://caffeineandlasers.com/notes/20251214_NewPhotoDrop.html</loc>
     <lastmod>2025-12-14T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -901,22 +917,6 @@
   <url>
     <loc>https://caffeineandlasers.com/books/negotiation.html</loc>
     <lastmod>2026-02-06T11:00:00Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/FeedList.html</loc>
-    <lastmod>2026-02-07T14:46:24Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/Library.html</loc>
-    <lastmod>2026-02-07T14:46:24Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
