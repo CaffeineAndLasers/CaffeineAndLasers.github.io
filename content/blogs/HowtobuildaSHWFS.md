@@ -4,6 +4,10 @@ date: 2026-03-12
 updated: 2026-03-12
 description: "A short buildlog / tutorial for how to build a Shack Hartmann Wavefront Sensor"
 layout: blogpost.liquid
+tags:
+  - Science 
+  - Physics
+  - Projects
 ---
 
 ## Introduction
