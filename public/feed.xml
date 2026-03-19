@@ -6,7 +6,7 @@
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feed.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Sat, 14 Mar 2026 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -4337,6 +4337,45 @@ Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will
     </item>
     
     
+    
+    <item>
+      <title><![CDATA[Book Review: Too Late to Awaken: What Lies Ahead When There is no Future? by Slavoj Žižek]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟩🟩</p>
+        <p><strong>Type:</strong> Non-Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/tooLateToAwaken.jpg" alt="Cover of Too Late to Awaken: What Lies Ahead When There is no Future?" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/tooLateToAwaken.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/tooLateToAwaken.html</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title><![CDATA[Book Review: Nuts and Bolts: Seven Small Inventions That Changed the World in a Big Way by Roma Agrawal]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟧</p>
+        <p><strong>Type:</strong> Non-Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/nutsAndBolts.jpg" alt="Cover of Nuts and Bolts: Seven Small Inventions That Changed the World in a Big Way" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/nuts-and-bolts-seven-small-inventions-that-changed-the-world-in-a-big-way.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/nuts-and-bolts-seven-small-inventions-that-changed-the-world-in-a-big-way.html</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title><![CDATA[Book Review: The Art of Explanation: How to Communicate with Clarity and Confidence by Ros Atkins]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟩</p>
+        <p><strong>Type:</strong> Non-Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/theArtOfExplanation.jpg" alt="Cover of The Art of Explanation: How to Communicate with Clarity and Confidence" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/howToExplainAnything.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/howToExplainAnything.html</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Book Review: Negotiation: The Game Has Changed by Max H. Bazerman]]></title>
