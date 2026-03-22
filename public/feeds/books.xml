@@ -6,9 +6,22 @@
     <link>https://caffeineandlasers.com/Library.html</link>
     <atom:link href="https://caffeineandlasers.com/feeds/books.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[This Book Will Make You Kinder by Henry James Garrett]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟧</p>
+        <p><strong>Type:</strong> Non-Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9781788165488.jpg" alt="Cover of This Book Will Make You Kinder" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/this-book-will-make-you-kinder.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/this-book-will-make-you-kinder.html</guid>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Too Late to Awaken: What Lies Ahead When There is no Future? by Slavoj Žižek]]></title>
