@@ -6,7 +6,7 @@
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feed.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Mon, 20 Apr 2026 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -4349,6 +4349,19 @@ Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will
     </item>
     
     
+    
+    <item>
+      <title><![CDATA[Book Review: The Dispossessed by Ursula K. Le Guin]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> ⭐</p>
+        <p><strong>Type:</strong> Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/0-06-012563-2.jpg" alt="Cover of The Dispossessed" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/the-dispossessed.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/the-dispossessed.html</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Book Review: This Book Will Make You Kinder by Henry James Garrett]]></title>
