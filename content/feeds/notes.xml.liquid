@@ -12,14 +12,14 @@ permalink: /feeds/notes.xml # Ensure it outputs to the root
     <description>{{ description }}</description>
     <link>{{ rootURL }}</link>
     <atom:link href="{{ rootURL }}/feeds/notes.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>{% if collections.notes.length > 0 %}{{ collections.notes[0].date | date: "%a, %d %b %Y %H:%M:%S %z" }}{% endif %}</lastBuildDate>
+    <lastBuildDate>{% if collections.notes.length > 0 %}{{ collections.notes[0].date | date: "%a, %d %b %Y %H:%M:%S %z" }}{% else %}{{ "now" | date: "%a, %d %b %Y %H:%M:%S %z" }}{% endif %}</lastBuildDate>
     <ttl>1440</ttl>
 
     {% for note in collections.notes %}
     <item>
-      <title>{{ note.data.title }}</title>
-      <description>{{ note.data.description }}</description>
-      <content:encoded><![CDATA[{{ note.templateContent | absoluteUrl: rootURL }}]]></content:encoded>
+      <title><![CDATA[{{ note.data.title | toCdata }}]]></title>
+      <description><![CDATA[{{ note.data.description | toCdata }}]]></description>
+      <content:encoded><![CDATA[{{ note.templateContent | absoluteUrl: rootURL | toCdata }}]]></content:encoded>
       <link>{{ rootURL }}{{ note.url }}</link>
       <guid isPermaLink="true">{{ rootURL }}{{ note.url }}</guid>
       <pubDate>{{ note.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>

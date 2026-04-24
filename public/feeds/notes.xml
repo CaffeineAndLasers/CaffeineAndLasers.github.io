@@ -10,8 +10,8 @@
 
     
     <item>
-      <title>Some thoughts on the role of astrophysics, AI and ML.</title>
-      <description>DESCRIPTION</description>
+      <title><![CDATA[Some thoughts on the role of astrophysics, AI and ML.]]></title>
+      <description><![CDATA[DESCRIPTION]]></description>
       <content:encoded><![CDATA[<p>I was reccomended a couple of white papers by a collegue (Thanks <a href="https://benjaminpope.github.io/">Ben Pope</a>!) and I wanted to share them here. Being opinion white-papers they are both quite readable.</p>
 <h3><a href="https://arxiv.org/abs/2405.18095">Is machine learning good or bad for the natural sciences?</a></h3>
 <p>Hogg and Villar make some very compelling arguments here about position of ML in the sciences. Their argument on the confirmation bias problemm in emulation is something I hadn't thought about before. Similarly theuir argument that using ML for confounding models represents the most conservative point is genuinely good point.</p>
@@ -28,8 +28,8 @@
     </item>
     
     <item>
-      <title>Link: I've fired one of America's most powerful lasers – here's what a shot day looks like</title>
-      <description>A look into what it's like working with one of America's most powerful lasers</description>
+      <title><![CDATA[Link: I've fired one of America's most powerful lasers – here's what a shot day looks like]]></title>
+      <description><![CDATA[A look into what it's like working with one of America's most powerful lasers]]></description>
       <content:encoded><![CDATA[<p><img src=".%5CAssets%5CLazer1005_AlbertLeeLazer.jpg" alt="Picure of the lab"><br>
 <strong>Image Credit:</strong> <a href="https://thedailytexan.com/2018/10/05/funding-for-texas-petawatt-returns/">The Daily Texan</a></p>
 <p>LINK: <a href="https://theconversation.com/ive-fired-one-of-americas-most-powerful-lasers-heres-what-a-shot-day-looks-like-279520">The Conversation</a></p>
@@ -40,8 +40,8 @@
     </item>
     
     <item>
-      <title>Removing blog comments and guestbook from Caffeine & Lasers</title>
-      <description>Things with age verification and privacy invasion is getting pretty hairy here in Australia. I am not totally sure if my implementations of blog comments or a guestbook are in violation of Australia's rules. Who could of guessed these rushed through laws would be ambiguous and have unforseen drawbacks?</description>
+      <title><![CDATA[Removing blog comments and guestbook from Caffeine & Lasers]]></title>
+      <description><![CDATA[Things with age verification and privacy invasion is getting pretty hairy here in Australia. I am not totally sure if my implementations of blog comments or a guestbook are in violation of Australia's rules. Who could of guessed these rushed through laws would be ambiguous and have unforseen drawbacks?]]></description>
       <content:encoded><![CDATA[<p>Things with age verification and privacy invasion is getting pretty hairy here in Australia. I am not totally sure if my implementations of blog comments or a guestbook are in violation of Australia's rules. Who could of guessed these rushed through laws would be ambiguous and have unforseen drawbacks?</p>
 <p>Anyway, I have remvoed access for comments and my guestbook from the website for now. I have kept the database for both of them, so I can bring them back if I get a better idea of how the law works.</p>
 <p>If you would like to get in contact, I would highly reccomend sendng me an email, or saying hello on Mastodon (where the legal responsibility is on them lol)</p>
@@ -53,8 +53,8 @@
     </item>
     
     <item>
-      <title>Its so over</title>
-      <description>Its always "Its so over" the most before the "We're so back"</description>
+      <title><![CDATA[Its so over]]></title>
+      <description><![CDATA[Its always "Its so over" the most before the "We're so back"]]></description>
       <content:encoded><![CDATA[<p><img src="https://caffeineandlasers.com/Assets/26d45ff405f1eab4.png" alt="Hand-drawn wave chart labeled &quot;We're so back&quot; at the peaks, &quot;Its so over&quot; at the trough, and &quot;Currently here&quot; pointing to the current downward slope."></p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/20260307_WeAreSoBack.html</link>
@@ -63,8 +63,8 @@
     </item>
     
     <item>
-      <title>Countering The Quantum Propaganda</title>
-      <description>Replication of Quantum Factorisation Records with an 8-bit Home Computer, an Abacus, and a Dog</description>
+      <title><![CDATA[Countering The Quantum Propaganda]]></title>
+      <description><![CDATA[Replication of Quantum Factorisation Records with an 8-bit Home Computer, an Abacus, and a Dog]]></description>
       <content:encoded><![CDATA[<p>Despite being bullish on Quantum sensing applications, I have been known to be bearish on quantum computers for a few years now. This may be a bit of disillusionment from my undergrad research.</p>
 <p>Anyway, here is a fantastic bit of anti Quantum Propaganda that I missed from last year.</p>
 <p><a href="https://eprint.iacr.org/2025/1237">Replication of Quantum Factorisation Records with an 8-bit Home Computer, an Abacus, and a Dog</a></p>
@@ -84,8 +84,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>Late Night Doodles</title>
-      <description>Sharing some more drawings.</description>
+      <title><![CDATA[Late Night Doodles]]></title>
+      <description><![CDATA[Sharing some more drawings.]]></description>
       <content:encoded><![CDATA[<p>I was doodling late at night, under some very warm light. In fact, I legitimately wasnt sure if the marker I was using was purple or black. (Glad it was purple)</p>
 <div class="art-piece">
 	<img src="https://caffeineandlasers.com/Assets/purpleCheckerDoodle.jpg" alt="Purple Warped Checkboard Pattern with a red scar through it" />
@@ -111,8 +111,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>Bad Art Day</title>
-      <description>Sharing an afternoon of doodling.</description>
+      <title><![CDATA[Bad Art Day]]></title>
+      <description><![CDATA[Sharing an afternoon of doodling.]]></description>
       <content:encoded><![CDATA[<p>I am not an artist by any means. But, after watching <a href="https://www.youtube.com/watch?v=2n8W6CBxc64&amp;pp=ygUVc3RydXRobGVzcyBjcmVhdGl2aXR5">Stuthless video on getting unstuck from a creative rut</a> I decided it could be fun to walk down to the park and mess around with some art.</p>
 <p>First up was a tea-stain map. I threw tea onto a piece of paper and turned it into a map for some fictional fantasy empire.</p>
 <div class="art-piece rotate-left">
@@ -181,8 +181,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>Wormz in Space!</title>
-      <description>The UK Space Agency is sending wormz to space, (on the ISS) to study biological effects of spaceflight</description>
+      <title><![CDATA[Wormz in Space!]]></title>
+      <description><![CDATA[The UK Space Agency is sending wormz to space, (on the ISS) to study biological effects of spaceflight]]></description>
       <content:encoded><![CDATA[<p><a href="https://le.ac.uk/news/2025/november/worms-space-experiment-biological-effects-spaceflight">Link to the full article from University of Leicester</a></p>
 <p><img src="https://caffeineandlasers.com/Assets/SpaceWormz.png" alt=""></p>
 <p>Leicester scientists are sending tiny worms to the International Space Station in 2026 to study the biological effects of space.</p>
@@ -196,8 +196,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>4 Gravitons - Mandatory Dumb Acronyms</title>
-      <description>An amusing post by 4 Gravitons which I am sharing its entirety here.</description>
+      <title><![CDATA[4 Gravitons - Mandatory Dumb Acronyms]]></title>
+      <description><![CDATA[An amusing post by 4 Gravitons which I am sharing its entirety here.]]></description>
       <content:encoded><![CDATA[<p>The following post is from 4 Gravitons <a href="https://4gravitons.com/2025/11/21/mandatory-dumb-acronyms/">here</a>, (not me). If you enjoyed it, go subscribe to them! <a href="https://4gravitons.com">4 Gravitons</a></p>
 <hr>
 <p>Sometimes, the world is silly for honest, happy reasons. And sometimes, it’s silly for reasons you never even considered.</p>
@@ -217,8 +217,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>Learning Reinforcment Learning</title>
-      <description>I found myself needing to design some reinforcement learning for some of my work and came across this fantastic video.</description>
+      <title><![CDATA[Learning Reinforcment Learning]]></title>
+      <description><![CDATA[I found myself needing to design some reinforcement learning for some of my work and came across this fantastic video.]]></description>
       <content:encoded><![CDATA[<p>I found myself needing to design some reinforcement learning for some of my work and came across this fantastic video.</p>
 <p>Definiately  worth sharing for anyone interested.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VnpRp7ZglfA?si=yaYFJlYLfxwgp6so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]]></content:encoded>
@@ -228,8 +228,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>A Good Day on the Web</title>
-      <description>Today was a good day for me on the internet. I was struggling with a design for a hobby project I am in the planning stages of, so i hit up the Laser Pointer Forum asking for advice on how to build a particular piece of kit. The helpful folks there pointed me to The Laser Cookbook by Gordon McComb, so I gave it a search and it was avaliable to borrow on the Internet Archive's Website! And had exact instructions to for what I was trying to build. Sometimes the internet is just great!</description>
+      <title><![CDATA[A Good Day on the Web]]></title>
+      <description><![CDATA[Today was a good day for me on the internet. I was struggling with a design for a hobby project I am in the planning stages of, so i hit up the Laser Pointer Forum asking for advice on how to build a particular piece of kit. The helpful folks there pointed me to The Laser Cookbook by Gordon McComb, so I gave it a search and it was avaliable to borrow on the Internet Archive's Website! And had exact instructions to for what I was trying to build. Sometimes the internet is just great!]]></description>
       <content:encoded><![CDATA[<p>Today was a good day for me on the internet. I was struggling with a design for a hobby project I am in the planning stages of, so i hit up the <a href="https://laserpointerforums.com/">Laser Pointer Forum</a> asking for advice on how to build a particular piece of kit. The helpful folks there pointed me to <a href="https://archive.org/details/lasercookbook88p0000mcco/page/122/mode/2up">The Laser Cookbook : 88 practical projects by Gordon McComb</a>, so I gave it a search and it was avaliable to borrow on the Internet Archive's Website! And had exact instructions to for what I was trying to build. Sometimes the internet is just great!</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/AGoodDayOnTheWeb.html</link>
@@ -238,8 +238,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>Dumb Realisation about a niche problem</title>
-      <description>Just wanted to share a quick solution I realised about my relationship to "short form content". In general I do not consume (or at least try my best not to consume) short form / vertical videos. Too addictive, don't want to wastew the time on it.</description>
+      <title><![CDATA[Dumb Realisation about a niche problem]]></title>
+      <description><![CDATA[Just wanted to share a quick solution I realised about my relationship to "short form content". In general I do not consume (or at least try my best not to consume) short form / vertical videos. Too addictive, don't want to wastew the time on it.]]></description>
       <content:encoded><![CDATA[<p>Just wanted to share a quick solution I realised about my relationship to &quot;short form content&quot;. In general I do not consume (or at least try my best not to consume) short form / vertical videos. Too addictive, don't want to wastew the time on it.</p>
 <p>but....</p>
 <p>There are a handful of creators who do thoughtful shortform vids I really like. Namely <a href="https://www.youtube.com/@etymology_nerd">EtymologyNerd</a> and <a href="https://www.youtube.com/@ChrisKohlerNews/shorts">Chris Kohler News</a></p>
@@ -254,8 +254,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>It Turns Out The Eldritch Horror Was The Corporations We Worked At Along The Way</title>
-      <description>I just stumbled accross an interesting paper on organisations with an abstract I just had to share. (Sections removed for emphasis, clarity and comedy)</description>
+      <title><![CDATA[It Turns Out The Eldritch Horror Was The Corporations We Worked At Along The Way]]></title>
+      <description><![CDATA[I just stumbled accross an interesting paper on organisations with an abstract I just had to share. (Sections removed for emphasis, clarity and comedy)]]></description>
       <content:encoded><![CDATA[<p>I just stumbled accross an interesting paper on organisations with an abstract I just had to share. (Sections removed for emphasis, clarity and comedy)</p>
 <hr>
 <blockquote>
@@ -271,8 +271,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>Biology is cool again</title>
-      <description>Biology was never not cool to be honest, but I stumbled upon another mind melting phenomenon.</description>
+      <title><![CDATA[Biology is cool again]]></title>
+      <description><![CDATA[Biology was never not cool to be honest, but I stumbled upon another mind melting phenomenon.]]></description>
       <content:encoded><![CDATA[<p>Biology was never not cool to be honest, but I stumbled upon another mind melting phenomenon.</p>
 <h2>The <a href="https://en.wikipedia.org/wiki/Venus%27_flower_basket">Venus' flower basket</a></h2>
 <p><img src="https://caffeineandlasers.com/Assets/f02c9eb1f21ad26f3da727ecdca5efc4.png" alt="Closeup of intricate lattice of the Venus' flower basket"></p>
@@ -288,8 +288,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>BlogPost   Digitizing Paper notes in the 21st Century</title>
-      <description>Shoutout to Heals for sharing their own workflow in a Mastodon post for inspiring me.</description>
+      <title><![CDATA[BlogPost   Digitizing Paper notes in the 21st Century]]></title>
+      <description><![CDATA[Shoutout to Heals for sharing their own workflow in a Mastodon post for inspiring me.]]></description>
       <content:encoded><![CDATA[<p>Shoutout to <a href="https://heals-draws.art/">Heals</a> for sharing their own workflow in a Mastodon post for inspiring me.</p>
 <h1>Problem Statement</h1>
 <p>Here are two axioms, which were until recently, incompatible.</p>
@@ -320,8 +320,8 @@ hard it can be to disentangle their coats in the first place</li>
     </item>
     
     <item>
-      <title>A great excerpt from the happiness of dogs</title>
-      <description>The following is a paraphrased exerpt from Mark Rowland's book "The Happiness of Dogs". I haven't finished it yet, but even from chapter one I would reccomend it.</description>
+      <title><![CDATA[A great excerpt from the happiness of dogs]]></title>
+      <description><![CDATA[The following is a paraphrased exerpt from Mark Rowland's book "The Happiness of Dogs". I haven't finished it yet, but even from chapter one I would reccomend it.]]></description>
       <content:encoded><![CDATA[<p><em>The following is a paraphrased exerpt from Mark Rowland's book &quot;The Happiness of Dogs&quot;. I haven't finished it yet, but even from chapter one I would reccomend it.</em></p>
 <p>Okay, so according to Camus, in order to understand life's meaning we must: &quot;imagine Sisyphus Happy&quot;. Most reasonable people will respond, &quot;but how&quot; after all, repetition is the practically the definition of boring</p>
 <p>&quot;Well let me tell you about my dog&quot; says Mark Rowlands</p>
@@ -335,8 +335,8 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
     </item>
     
     <item>
-      <title>Update on 3D Printing My PhD</title>
-      <description>As promised, I printed it in transparent PETG.... And it looked terrible. Somehow the internal support is more visible than the holes I was trying to show, which instead got clogged up.</description>
+      <title><![CDATA[Update on 3D Printing My PhD]]></title>
+      <description><![CDATA[As promised, I printed it in transparent PETG.... And it looked terrible. Somehow the internal support is more visible than the holes I was trying to show, which instead got clogged up.]]></description>
       <content:encoded><![CDATA[<p>As promised, I printed it in transparent PETG.... <em>And it looked terrible</em>. Somehow the internal support is more visible than the holes I was trying to show, which instead got clogged up.</p>
 <p>Oh well. I will stick with my Blue PLA one.</p>
 <p><img src="https://caffeineandlasers.com/Assets/8e54eb76f9ee144177b9f8394a1fc071.png" alt=""></p>
@@ -347,8 +347,8 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
     </item>
     
     <item>
-      <title>Two Click Obsidian To the Web Automation</title>
-      <description>Here is a quick write up for method I threw together for getting my writing out of Obsidian and into my website.</description>
+      <title><![CDATA[Two Click Obsidian To the Web Automation]]></title>
+      <description><![CDATA[Here is a quick write up for method I threw together for getting my writing out of Obsidian and into my website.]]></description>
       <content:encoded><![CDATA[<p>Here is a quick write up for method I threw together for getting my writing out of Obsidian and into my website.</p>
 <p>The problem statement:</p>
 <p>While Eleventy is capable of turning markdown into html, there are a handful of slight differences between my web environment and my obsidian environment that made things tedious.</p>
@@ -401,8 +401,8 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
     </item>
     
     <item>
-      <title>3D Printing For Better Science Communication</title>
-      <description>Reporting progress on a 3D visualisation to assist in my science communication.</description>
+      <title><![CDATA[3D Printing For Better Science Communication]]></title>
+      <description><![CDATA[Reporting progress on a 3D visualisation to assist in my science communication.]]></description>
       <content:encoded><![CDATA[<p>Something I have been dealing with during my PhD, is that it is really hard to describe the 3D geometry of a photonic crystal just using words. Having pictures helps, but doesn't always cut it.</p>
 <p>I was mulling over this problem after I was excitedly trying to explain my recent results to friends, family and collegues.... and none of them had any idea what I was talking about... Fair enough.</p>
 <p>I saw a <a href="https://www.youtube.com/watch?v=BwtwOqdlY5E">video by Dr Fatima</a> a lil while back, where she mentioned a talk she saw where the speaker handed out 3D printed slices of the universe at different point ins time</p>
@@ -421,8 +421,8 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
     </item>
     
     <item>
-      <title>On Observing Time</title>
-      <description>Sharing another link to another neat site</description>
+      <title><![CDATA[On Observing Time]]></title>
+      <description><![CDATA[Sharing another link to another neat site]]></description>
       <content:encoded><![CDATA[<p>Just sharing another neat website out there. <a href="https://observingtime.cam/">On Observing Time</a>. The concept is simple, it is just a collection of live camera feeds from around the world.</p>
 <p>The creator Jon wrote an essay on the concept <a href="https://thecreativeindependent.com/essays/on-observing-time/">here</a></p>
 ]]></content:encoded>
@@ -432,8 +432,8 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
     </item>
     
     <item>
-      <title>Crystal Lattice Structure of Popcorn</title>
-      <description>Future IgNobel Prize Winning Research Opportunity</description>
+      <title><![CDATA[Crystal Lattice Structure of Popcorn]]></title>
+      <description><![CDATA[Future IgNobel Prize Winning Research Opportunity]]></description>
       <content:encoded><![CDATA[<p>Has anyone ever studied the crystal lattice structure of a box of popcorn? Relevant research questions include:</p>
 <ul>
 <li>Do the crystal defects introduced by Peanut M&amp;Ms increase or reduce crystal strength?</li>
@@ -448,8 +448,8 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
     </item>
     
     <item>
-      <title>Really Cool Pacemaker Technology</title>
-      <description>Researchers at Northwestern University have just broke the record for the smallest pacemaker.</description>
+      <title><![CDATA[Really Cool Pacemaker Technology]]></title>
+      <description><![CDATA[Researchers at Northwestern University have just broke the record for the smallest pacemaker.]]></description>
       <content:encoded><![CDATA[<p>I found this topic from <a href="https://jodiettenberg.substack.com/">Jodie Ettenburg's Curious About Everything Newsletter</a>, and considering the cool physics involved I had to re-share it here. Researchers at Northwestern University have just broke the record for the <a href="https://news.northwestern.edu/stories/2025/03/worlds-smallest-pacemaker-is-activated-by-light/">smallest pacemaker</a>.</p>
 <p><img src="https://caffeineandlasers.com/Assets/Pacemakers.png" alt=""></p>
 <blockquote>
@@ -473,8 +473,8 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
     </item>
     
     <item>
-      <title>Commands In LLMs</title>
-      <description>I wanted to share a blogpost by [dbreunig](https://www.dbreunig.com) which mirrors a desire I have in the develkopment of LLM tech. [The Post](https://www.dbreunig.com/2025/05/06/you-got-commands-in-my-prompt.html). In short, we need to introduce more *slash* commands.</description>
+      <title><![CDATA[Commands In LLMs]]></title>
+      <description><![CDATA[I wanted to share a blogpost by [dbreunig](https://www.dbreunig.com) which mirrors a desire I have in the develkopment of LLM tech. [The Post](https://www.dbreunig.com/2025/05/06/you-got-commands-in-my-prompt.html). In short, we need to introduce more *slash* commands.]]></description>
       <content:encoded><![CDATA[<p>I wanted to share a blogpost by <a href="https://www.dbreunig.com">dbreunig</a> which mirrors a desire I have in the develkopment of LLM tech. <a href="https://www.dbreunig.com/2025/05/06/you-got-commands-in-my-prompt.html">The Post</a>. In short, we need to introduce more <em>slash</em> commands.</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/Commands In LLMs.html</link>
@@ -483,8 +483,8 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
     </item>
     
     <item>
-      <title>Minor Reddit RSS Feed Updates</title>
-      <description>I added an extra feature to the reddit RSS feed generator to allow users to choose what timeframe to extract top posts for.</description>
+      <title><![CDATA[Minor Reddit RSS Feed Updates]]></title>
+      <description><![CDATA[I added an extra feature to the reddit RSS feed generator to allow users to choose what timeframe to extract top posts for.]]></description>
       <content:encoded><![CDATA[<p>I added an extra feature to the reddit RSS feed generator to allow users to choose what timeframe to extract top posts for.</p>
 <p>i.e. Top posts today/this week/this month/all time.</p>
 <p>Shout out to Rohit at <a href="https://rohit.online/">Rohit Online</a> for emailing me with the feature request.</p>
@@ -497,8 +497,8 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     </item>
     
     <item>
-      <title>Reddit RSS Feed Generator</title>
-      <description>Yes I am aware of the wild shift in tone. I am angry that I **have** to use reddit, I still don't like it. Here is a tool to get it into your RSS reader. [Check it out](/reddit-rss.html)</description>
+      <title><![CDATA[Reddit RSS Feed Generator]]></title>
+      <description><![CDATA[Yes I am aware of the wild shift in tone. I am angry that I **have** to use reddit, I still don't like it. Here is a tool to get it into your RSS reader. [Check it out](/reddit-rss.html)]]></description>
       <content:encoded><![CDATA[<p>Yes I am aware of the wild shift in tone. I am angry that I <strong>have</strong> to use reddit, I still don't like it.</p>
 <p>Anyway, I built a widget which builds a URL to the RSS feed for whatever subreddits you might want to subscribe to on your RSS reader. It also lets you select by <code>/new</code>, <code>/top</code> and <code>/hot</code>.</p>
 <p><a href="/reddit-rss.html">Check it out</a></p>
@@ -509,8 +509,8 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     </item>
     
     <item>
-      <title>Reddit Sucks For Hobbies</title>
-      <description>It's frustrating that nearly every niche interest and hobby's main online community exists on Reddit, because Reddit is fucking terrible for fostering genuine communities.</description>
+      <title><![CDATA[Reddit Sucks For Hobbies]]></title>
+      <description><![CDATA[It's frustrating that nearly every niche interest and hobby's main online community exists on Reddit, because Reddit is fucking terrible for fostering genuine communities.]]></description>
       <content:encoded><![CDATA[<p>It's frustrating that nearly every niche interest and hobby's main online community exists on Reddit, because Reddit is fucking terrible for fostering genuine communities.</p>
 <p>If you go into any subreddit - I will pick on /r/3DPrinting for now - at least 50% of the posts are either &quot;Look at my very first print&quot; or &quot;Help me debug this issue&quot; (They absolutely did not google it before asking for help on reddit).</p>
 <p>While there is nothing <em>inherently</em> wrong with introducing yourself to the community or asking for help, that's not what keeps experienced members engaged in the community. So you have all these newbie posts polluting the online community frustrating people who want to have deeper discussions about the hobby. And it isn't the newbies fault either, newbies need somewhere to share space with experienced people to get that experience.</p>
@@ -524,8 +524,8 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     </item>
     
     <item>
-      <title>Podcast is the best medium for horror fiction.</title>
-      <description>Just raving about a couple audio-ficiton podcasts I have been listening to.</description>
+      <title><![CDATA[Podcast is the best medium for horror fiction.]]></title>
+      <description><![CDATA[Just raving about a couple audio-ficiton podcasts I have been listening to.]]></description>
       <content:encoded><![CDATA[<h1>Podcast is the best medium for horror fiction</h1>
 <p>If you ever watch horror movies, you know that the anticipation is scarier than the reveal. The scraping noise against the window beats the monster reveal on the terror factor every time. This is the mistake that bad horror movies make when they reveal their monster too early.</p>
 <p>The reason for this is simple. Your imagination will create a monster far more terrifying than the best CGI in the world.</p>
@@ -547,8 +547,8 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     </item>
     
     <item>
-      <title>Fixed my feeds. Again.</title>
-      <description>Whoops, thought I fixed my RSS feeds [last week](https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html), Turns out I just broke it again in a new way. This time, they should be working. I think.</description>
+      <title><![CDATA[Fixed my feeds. Again.]]></title>
+      <description><![CDATA[Whoops, thought I fixed my RSS feeds [last week](https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html), Turns out I just broke it again in a new way. This time, they should be working. I think.]]></description>
       <content:encoded><![CDATA[<p>Whoops, thought I fixed my RSS feeds <a href="https://caffeineandlasers.com/notes/20250417_AddingExtraFeeds.html">last week</a>, Turns out I just broke it again in a new way. This time, they should be working. I think.</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/20250427_FixedTheFeed_Again.html</link>
@@ -557,8 +557,8 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     </item>
     
     <item>
-      <title>Technofeudalism in 4 comic panels</title>
-      <description>I tried to compress Yannis Varoufakis "Technofeudalism - What Killed Capitalism" into 4 poorly drawn comic panels</description>
+      <title><![CDATA[Technofeudalism in 4 comic panels]]></title>
+      <description><![CDATA[I tried to compress Yannis Varoufakis "Technofeudalism - What Killed Capitalism" into 4 poorly drawn comic panels]]></description>
       <content:encoded><![CDATA[<p>I tried to compress Yanis Varoufakis &quot;Technofeudalism - What Killed Capitalism&quot; into 4 poorly drawn comic panels</p>
 <p><img src="https://caffeineandlasers.com/Assets/TechnofeudalismComic.png" alt=""></p>
 <p>License:</p>
@@ -571,8 +571,8 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     </item>
     
     <item>
-      <title>New Feeds!</title>
-      <description>Quiet few months. Turns out my RSS feed was broken. Sorry for the spam of todays three posts.</description>
+      <title><![CDATA[New Feeds!]]></title>
+      <description><![CDATA[Quiet few months. Turns out my RSS feed was broken. Sorry for the spam of todays three posts.]]></description>
       <content:encoded><![CDATA[<p>Quiet few months. Turns out my RSS feed was broken. Sorry for the spam of todays three posts.</p>
 <p>Two Important Updates:</p>
 <ol>
@@ -591,8 +591,8 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     </item>
     
     <item>
-      <title>Open Source Quantum Magnetometers</title>
-      <description>Its kind of wild that Quantum tech has gotten to the point where folks are sharing Open Source schematics for N-V Quantum Magnetomer's with a total BOM of >$250AUD.</description>
+      <title><![CDATA[Open Source Quantum Magnetometers]]></title>
+      <description><![CDATA[Its kind of wild that Quantum tech has gotten to the point where folks are sharing Open Source schematics for N-V Quantum Magnetomer's with a total BOM of >$250AUD.]]></description>
       <content:encoded><![CDATA[<p>Its kind of wild that Quantum tech has gotten to the point where folks are sharing Open Source schematics for N-V Quantum Magnetomer's with a total BOM of &gt;$250AUD. The construction seems (relatively) accessible as well.</p>
 <p>Read about it on their <a href="https://quantumvillage.org/">Site</a> and their <a href="https://github.com/QuantumVillage/UncutGem">github repo</a>.</p>
 <p>According to some of the authors on LinkedIn V2 may be sold as a kit to hobbyists.</p>
@@ -603,8 +603,8 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     </item>
     
     <item>
-      <title>Learning About Rainbows</title>
-      <description>One of my favourite sites on the IndieWeb RainbowSpec focuses entirely on learning everything you could possibly want about the optics of rainbows.</description>
+      <title><![CDATA[Learning About Rainbows]]></title>
+      <description><![CDATA[One of my favourite sites on the IndieWeb RainbowSpec focuses entirely on learning everything you could possibly want about the optics of rainbows.]]></description>
       <content:encoded><![CDATA[<p>One of my favourite sites on thie IndieWeb RainbowSpec focuses entirely on learning everything you could possibly want about the optics of rainbows. From the visible spectrum to double rainbows, and glories. Worth a good read!</p>
 <p><a href="https://rainbowspec.observer/"><img src="https://caffeineandlasers.com/Assets/rainbowspecbutton.png" alt=""></a></p>
 ]]></content:encoded>
