@@ -5,9 +5,27 @@
     <description>Thoughts and Links from Caffeine and Lasers</description>
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feeds/notes.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 20 Apr 2026 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title>Some thoughts on the role of astrophysics, AI and ML.</title>
+      <description>DESCRIPTION</description>
+      <content:encoded><![CDATA[<p>I was reccomended a couple of white papers by a collegue (Thanks <a href="https://benjaminpope.github.io/">Ben Pope</a>!) and I wanted to share them here. Being opinion white-papers they are both quite readable.</p>
+<h3><a href="https://arxiv.org/abs/2405.18095">Is machine learning good or bad for the natural sciences?</a></h3>
+<p>Hogg and Villar make some very compelling arguments here about position of ML in the sciences. Their argument on the confirmation bias problemm in emulation is something I hadn't thought about before. Similarly theuir argument that using ML for confounding models represents the most conservative point is genuinely good point.</p>
+<h3><a href="https://arxiv.org/abs/2602.10181v1">Why do we do astrophysics?</a></h3>
+<p>For a bit of insight into the world of astronomy. Astronomers are kind oif freaking out right now. Economic instability means that governments are looking to shed unnecessaru spending, and astronomers are caught in their crosshairs. Combined with the rapid devlopment of AI systems, it represents a concerning future.</p>
+<p>Hogg makes a coherent argument as to <strong>why</strong> astronomy / astrophysics is practised, and what exactly it is they get paid to do. This is the most comprehensive explanation I have heard before. I suspect this comes from the wisdom you get from experience of someone who finished their PhD before I was born.</p>
+<p>After praising his wisdom, I want to criticise one of his arguments. While I agree with the conclusion that the &quot;Let-it-rip&quot; stategy of &quot;AI-driven science&quot; is likely to be a bad idea, I am not sold on the specific argument he uses to get there. To summarise his argument, he argues that by allowing AI to do astrophysics, humans can no longer be considered astrophysiscists. Since you need to <strong>DO</strong> astrophyics, (not just read it), in order to <strong>BE</strong> an astrophysicist.</p>
+<p>I agree with that claim, but I do not think he sufficiently argued that being an astrophysicist is something worth being in the first place.  If I refine my criticism into something worth sharing I will turn it into an essay on my blog.</p>
+<p>In anycase, the article is well worth the read, and maybe you will disagree with my disagreement of him.</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/ACouplePapersOnAstrophysics.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/ACouplePapersOnAstrophysics.html</guid>
+      <pubDate>Fri, 24 Apr 2026 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title>Link: I've fired one of America's most powerful lasers – here's what a shot day looks like</title>
