@@ -1,34 +1,38 @@
 
 
 async function fetchLatestMastodonPost(instance, user) {
-    // Use a CORS proxy to fetch the RSS feed
-    const corsProxy = 'https://api.allorigins.win/raw?url=';
-    const response = await fetch(corsProxy + encodeURIComponent(`https://${instance}/@${user}.rss`));
+    const container = document.getElementById("latest-mastodon-post");
+    if (!container) return;
 
-    const text = await response.text();
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(text, "text/xml");
-    const latestPost = xml.querySelector("item");
+    try {
+        const accountResponse = await fetch(`https://${instance}/api/v1/accounts/lookup?acct=${encodeURIComponent(user)}`);
+        if (!accountResponse.ok) throw new Error("Could not load Mastodon account");
+        const account = await accountResponse.json();
 
-    if (latestPost) {
-        const titleElement = latestPost.querySelector("description");
-        const linkElement = latestPost.querySelector("link");
-        const pubDateElement = latestPost.querySelector("pubDate");
-        const guidElement = latestPost.querySelector("guid");
+        const statusesUrl = new URL(`https://${instance}/api/v1/accounts/${account.id}/statuses`);
+        statusesUrl.searchParams.set("limit", "1");
+        statusesUrl.searchParams.set("exclude_replies", "true");
+        statusesUrl.searchParams.set("exclude_reblogs", "true");
+        const statusesResponse = await fetch(statusesUrl.toString());
+        if (!statusesResponse.ok) throw new Error("Could not load Mastodon statuses");
+        const statuses = await statusesResponse.json();
+        const latestPost = statuses[0];
 
-        // Extract title from the description
-        const title = titleElement ? titleElement.textContent.split('</p>')[0].replace(/<[^>]+>/g, '') : "No title available";
-        const link = linkElement ? linkElement.textContent : "#";
-        const pubDate = pubDateElement ? pubDateElement.textContent : "No date available";
-
-        // Call the function to embed the latest post
-        embedLatestPost(guidElement ? guidElement.textContent : null);
-    } else {
-        document.getElementById("latest-mastodon-post").innerHTML = "<p>No posts available.</p>";
+        if (latestPost && latestPost.url) {
+            // Call the function to embed the latest post
+            embedLatestPost(latestPost.url);
+        } else {
+            container.innerHTML = "<p>No posts available.</p>";
+        }
+    } catch (error) {
+        container.innerHTML = '<p><a href="https://aus.social/@AuntyRed">View latest posts on Mastodon</a></p>';
     }
 }
 
 function embedLatestPost(postUrl) {
+    const container = document.getElementById("latest-mastodon-post");
+    if (!container) return;
+
     if (postUrl) {
         const embedHtml = `
             <blockquote class="mastodon-embed" data-embed-url="${postUrl}/embed" style="background: #FCF8FF; border-radius: 8px; border: 1px solid #C9C4DA; margin: 0; max-width: 540px; min-width: 270px; overflow: hidden; padding: 0;">
@@ -43,15 +47,20 @@ function embedLatestPost(postUrl) {
         `;
 
         // Append the embed HTML to the latest RSS post section
-        document.getElementById("latest-mastodon-post").innerHTML += embedHtml;
+        container.innerHTML += embedHtml;
 
         // Load the embed script after the embed HTML is added
         const script = document.createElement('script');
         script.setAttribute('data-allowed-prefixes', 'https://aus.social/');
         script.setAttribute('async', '');
         script.src = 'https://staticcdn.aus.social/embed.js';
-        document.getElementById("latest-mastodon-post").appendChild(script);
+        container.appendChild(script);
     }
+}
+
+function initLatestMastodonPost() {
+    if (!document.getElementById("latest-mastodon-post")) return;
+    fetchLatestMastodonPost("aus.social", "AuntyRed");
 }
 
 // Theme toggle and initialization
@@ -98,3 +107,8 @@ function embedLatestPost(postUrl) {
     }
 })();
 
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLatestMastodonPost);
+} else {
+    initLatestMastodonPost();
+}

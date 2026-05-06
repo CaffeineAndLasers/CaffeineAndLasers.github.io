@@ -13,7 +13,7 @@ From my time at Finisar I got to work extensively with **L**iquid
 I\'ve learned, because it is such a cool technology that I hope others
 get to work with.
 
-# 1 What is an LCOS SLM?
+## 1 What is an LCOS SLM?
 
 There are two acronyms here, so I will break it down into its composite
 parts before I piece everything back together.
@@ -86,7 +86,7 @@ top glass. The silicon chip lets us apply a custom voltage anywhere in
 the x-y plane. That is, we can create an arbitrary electric field
 pattern across the liquid crystal.
 
-# 2 Putting it all together {#putting-together-the-first-word}
+## 2 Putting it all together {#putting-together-the-first-word}
 
 After all that, we are ready to understand what the device does. An LCoS
 is a device that allows you to apply any refractive index profile you
@@ -99,7 +99,7 @@ light in space. This is why we call them a **Spatial Light Modulator**.
 In simple English. This is a lens, that we can reshape into any optical
 configuration from a computer.
 
-# 3 Applications
+## 3 Applications
 
 There are a surprising number of applications for LCOS SLMs, from Beam
 Steering, to [photographing through walls and around
@@ -162,7 +162,7 @@ and through \"privacy\" glass. ![extract of a scientific paper, showing
 the pheomena](lookingAroundCorners.png) Credit: [Katz, O.
 (2012)](https://arxiv.org/abs/1202.2078)
 
-# 4 Conclusion
+## 4 Conclusion
 
 I hope you enjoyed this short introduction to my niche area of interest.
 There are plenty of cool applications for LCoS in the world of research

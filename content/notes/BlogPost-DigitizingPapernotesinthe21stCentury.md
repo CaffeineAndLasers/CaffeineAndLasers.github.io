@@ -7,7 +7,7 @@ layout: note.liquid
 
 Shoutout to [Heals](https://heals-draws.art/) for sharing their own workflow in a Mastodon post for inspiring me. 
 
-# Problem Statement
+## Problem Statement
 
 Here are two axioms, which were until recently, incompatible.
 
@@ -16,7 +16,7 @@ Here are two axioms, which were until recently, incompatible.
 
 Keeping everything in plain text preserves my writing well into the future and hopefully as long as I am alive. But writing on pen and paper *feels nice*. It is more ergonomic, more tactile, and I genuinely believe it helps me recall what I have written better.
 
-# What Do?
+## What Do?
 
 It turns out LLM Optical Character Recognition (OCR) is getting **really good**. (I hate the acronym OCR, there is nothing optical about it, but that is a topic for another blogpost). 
 
@@ -24,13 +24,13 @@ So with Heals advice I settled on [Mistral's OCR](https://mistral.ai/news/mistra
 
 So, since the folks at Mistral have already done all the hard work, I wrote a wrapper for my workflow.
 
-# How does it work?
+## How does it work?
 
 I have a bash script which watches a directory on my computer. Now when I finish writing a page a take a photo of my notes, and drop it in the this directory. 
 
 When a new photo is detected, the script sends it to Mistral to extract all the text, and any doodles I might've done on the page. It then compiles a markdown version of my notes, and saves it into my Obsidian vault. 
 
-# Does it Work?
+## Does it Work?
 
 Here is a sample of my text and the output.
 

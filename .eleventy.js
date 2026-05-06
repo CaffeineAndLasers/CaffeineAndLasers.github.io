@@ -11,7 +11,11 @@ module.exports = function (eleventyConfig) {
 
   // Add global data for site URL
   eleventyConfig.addGlobalData("site", {
-    url: "https://caffeineandlasers.com"
+    url: "https://caffeineandlasers.com",
+    name: "Caffeine and Lasers",
+    description: "Personal site and blog by Cameron Jones about optics, lasers, coffee, science, the web, books, and research.",
+    author: "Cameron Jones",
+    defaultImage: "https://caffeineandlasers.com/Assets/CaffineANdLasers.svg"
   });
 
   // Add sitemap plugin

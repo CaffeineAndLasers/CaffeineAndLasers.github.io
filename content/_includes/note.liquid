@@ -3,11 +3,14 @@ title: Default Title
 css: /styles.css
 nesting: ../../
 ---
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head><title>{{ title }}</title></head>
+    <title>{{ title }}</title>
+    {% include "seo-meta.liquid" %}
     <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="{{css}}{{ nocache }}">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
@@ -23,6 +26,7 @@ nesting: ../../
         {% endif %}
 </head>
 
+<body>
 {% include "header.liquid" %}
 
 <div id="flex">
@@ -39,4 +43,5 @@ nesting: ../../
 </div>
 {% include "footer.liquid" %}
 
+</body>
 </html>

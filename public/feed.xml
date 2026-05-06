@@ -174,7 +174,7 @@
 <div style="text-align: center; font-size: 1.2em; margin: 15px 0;">
   "He who has a why to live can bear almost any how" 
 </div>
-<h1>Related Works</h1>
+<h2>Related Works</h2>
 <p>This cool fan animation by AnafDraws:</p>
 <div style="text-align: center; position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 15px 0;">
 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/hm38-8p8qbo?si=Zgm0Iho_K9K2rtyu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -201,7 +201,7 @@
 <p>Source: <a href="https://en.wikipedia.org/wiki/Shack%E2%80%93Hartmann_wavefront_sensor#/media/File:Shack_Hartmann_WFS_lensletarray.svg">Wikimedia</a></p>
 <p>In addition to the microlens array and camera, you will also need a couple of optical relays.</p>
 <p>The rest of this post walks through the build process, from selecting components through alignment. I've organized it as a series of steps, though in practice you'll likely bounce between them as your constraints evolve.</p>
-<h1>Build Process</h1>
+<h2>Build Process</h2>
 <h2>Step 1: Setup a Kanban Board and collect your constraints</h2>
 <p>The free parameters you will be balancing are:</p>
 <ul>
@@ -543,7 +543,7 @@
 <p>(Try to ignore the fat fingerprint on that one lol)</p>
 <p>The strength of the butter was a real emotional roller coaster for me. I grabbed about as much lavender from the garden as I felt comfortable cutting off in public. A lot of the shrubs were quite dry as well, so I didn't want to take too many when the shrubs were so sad-looking. Anyway, after the initial heating, I gave it a smell and was worried that it wasn't strong enough, and this worry continued all the way until I added it to the molten chocolate. Tasting the molten chocolate afterward, it definitely tasted like lavender, but it was really mild. By the time it cooled, the scent profile changed quite drastically. The lavender comes through very strongly in the final product; if anything, it needed more vanilla to balance the floral profile.</p>
 <p>Anyway, very happy with the result. These will form the basis for all my gifting for the next month or so.</p>
-<h1>Recipe Card:</h1>
+<h2>Recipe Card:</h2>
 <style>
   /* Mobile overrides scoped to the recipe card */
   @media (max-width: 700px) {
@@ -993,13 +993,13 @@ This blogpost may not last very long depending on how technology goes
       <description><![CDATA[My 2025 Wrapped.]]></description>
       <content:encoded><![CDATA[<p>Once again repurposing the corporate webs ideas as my own. Here is MY 2025 wrapped, according to my opinion. Minor editorial note, these are the things I <strong>liked</strong> this year, not neccessarily the best things which came out this year.</p>
 <p>Okay to the list;</p>
-<h1>1 Album</h1>
+<h2>1 Album</h2>
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.25rem;">Creeper - Sanguivore II: Mistress of Death</p>
 	<img src="https://caffeineandlasers.com/Assets/9569c5c7f9f13c55e39a6641b8314ea7.png" alt="Creeper Sanguivore II cover art" style="display:block;margin:0 auto;max-width:100%;width:auto;height:auto;max-height:360px;object-fit:contain;border-radius:16px;box-shadow:0 18px 45px rgba(15,23,42,0.18);" />
 	<p style="margin:1.5rem 0 0;color:var(--text-muted,#475569);">I have had this record on repeat since it dropped. Its like a Campy 80s slasher flick with the best of 80s Rock, metal and pop to form a Campy, Glam Rock revival. Just look at the music video for <a href="https://www.youtube.com/watch?v=P5K3Vq1TfWQ" style="color:inherit;text-decoration:underline dotted;">Prey For the Night</a>, and you will see all the Satanic Panic, Slasher Horror, mixing with Flash Dance ad Kate Bush. Other parts of the album feature guitar riffs which would feel right at home on a KISS or Guns N Roses record. (And I swear the opening choral refraim on Blood Magik could have been an early draft for "Heaven Is A Place On Earth"). The whole Creeper project is fantastic and over the top, and reminds me of if Ghost leaned more into punk. I adore the album and very much think you should give it a spin.</p>
 </div>
-<h1>2 Book</h1>
+<h2>2 Book</h2>
 <div style="display:flex;flex-wrap:wrap;gap:2.5rem;margin:2.5rem 0;align-items:flex-start;justify-content:center;">
 	<section style="flex:1 1 280px;max-width:420px;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 		<h3 style="margin-top:0;margin-bottom:1rem;font-size:1.5rem;">Fiction</h3>
@@ -1018,7 +1018,7 @@ This blogpost may not last very long depending on how technology goes
 		<p style="margin:1.5rem 0 0;color:var(--text-muted,#475569);">I read this one literally right after I read Blindsight and they actually dovetail quite nicely into each other, as this is another philosophy of mind book. (Though if you want a laugh, go have a read of the one star reviews on Amazon, by people whoa re angry that it isn't actually about dogs). Rowlands is a really good writer in my opinion. The book wasn't presented as a "Pop philosphy" kind of book, (and no marble statues or stoicism bros thank god), but nonetheless was quite accesible to someone like me who's main interaction with philosphy is through youtube videos. He presents several arguments which at least I find to be compelling, about how our minds work by comparing us to the current scientific understanding of how a dogs work. </p>
 	</section>
 </div>
-<h1>3 Youtube</h1>
+<h2>3 Youtube</h2>
 <div style="display:flex;flex-wrap:wrap;gap:2.5rem;margin:2.5rem 0;justify-content:center;align-items:stretch;">
 	<section style="flex:1 1 320px;max-width:480px;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 		<h3 style="margin:0 0 1rem;font-size:1.5rem;">For Doing The Most</h3>
@@ -1036,14 +1036,14 @@ This blogpost may not last very long depending on how technology goes
 <p><p style="margin:1.5rem 0 0;color:var(--text-muted,#475569);">Technically I first watched this video when it released around 2 years ago, but it remains my favourite, blending art, history, music and self help into one brilliant video. Watch it <a href="https://www.youtube.com/watch?v=BAO6MD7Qc44" style="color:inherit;text-decoration:underline dotted;">here</a>.</p></p>
 <p></section></p>
 </div>
-<h1>4 Blog</h1>
+<h2>4 Blog</h2>
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0;font-weight:600;font-size:1.15rem;">
 		<a href="https://dynomight.net/" style="color:inherit;text-decoration:underline dotted;">Dynomight</a>
 	</p>
 	<p style="margin:1.5rem 0 0;color:var(--text-muted,#475569);"> I really like the posts Dynomight makes. I appreciate their curiosity, and willingness to post opinionated but well resarched arguments about things I have never otherwise thought about. </p>
 	</div>
-<h1>5 Videogame</h1>
+<h2>5 Videogame</h2>
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.25rem;">Death Stranding 2</p>
 	<img src="https://caffeineandlasers.com/Assets/2ce52205a9040272e4f5b2dea94f47f3.png" alt="Death Stranding 2 poster" style="display:block;margin:0 auto 1.75rem;max-width:100%;width:auto;height:auto;max-height:360px;object-fit:contain;border-radius:16px;box-shadow:0 18px 45px rgba(15,23,42,0.18);" />
@@ -1051,32 +1051,33 @@ This blogpost may not last very long depending on how technology goes
 	<p style="margin:0 0 1.75rem;color:var(--text-muted,#475569);"> Furthermore, I am happy to report that the soundtrack slaps. Check out the snippet from Troy Bakers rendition of BB's theme </p>
 	<iframe data-testid="embed-iframe" style="border-radius:12px;width:100%;max-width:100%;box-shadow:0 12px 30px rgba(15,23,42,0.12);" src="https://open.spotify.com/embed/track/3L5GClQnpdAMqKM0YK7WH9?utm_source=generator&theme=0" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
-<h1>6 Podcast</h1>
+<h2>6 Podcast</h2>
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.25rem;">Fathom</p>
 	<img src="https://caffeineandlasers.com/Assets/96766151d3e91c4ad715835a74fc98d0.png" alt="Fathom podcast cover art" style="display:block;margin:0 auto 1.75rem;max-width:100%;width:auto;height:auto;max-height:360px;object-fit:contain;border-radius:16px;box-shadow:0 18px 45px rgba(15,23,42,0.18);" />
 	<p style="margin:0 0 1.75rem;color:var(--text-muted,#475569);">I have <a href="/notes/20250429_HorrorPodcasts.html" style="color:inherit;text-decoration:underline dotted;">written before</a> as to why I think audio drama is one of the best mediums for Horror / Thriller narratives and I think the Fathom podcast is the best example of that. The writing in this piece is tight and the sound design is phenomenal. Hearing the walls of the Fathom base groan as they struggle against the rush of water is something that you feel deep inside if you listen to this with good headphones. </p>
 	<iframe width="100%" height="315" src="https://www.youtube.com/embed/q7OdjRbVWrc?si=UFuDWHWkzkoxERY1" title="YouTube video player" frameborder="0" style="border-radius:12px;box-shadow:0 12px 30px rgba(15,23,42,0.12);" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<h1>7 TV</h1>
+<h2>7 TV</h2>
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.25rem;">Only Murders in the Building</p>
 	<img src="https://caffeineandlasers.com/Assets/bf5a84e74fc8903485816379f8691523.png" alt="Only Murders in the Building poster" style="display:block;margin:0 auto;max-width:100%;width:auto;height:auto;max-height:360px;object-fit:contain;border-radius:16px;box-shadow:0 18px 45px rgba(15,23,42,0.18);" />
 	<p style="margin:1.5rem 0 0;color:var(--text-muted,#475569);">This gets my award for dumb fun. Selena Gomez, Steve Martin and Martin Short do a great job at weaving comedy and mystery in this one, and I can't believe it took me this long to get around to watching it. </p>
 </div>
-<h1>8 Research (Not professionally related)</h1>
+<h2>8 Research (Not professionally related)</h2>
 <div style="max-width:700px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:2rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:left;">
 	<p style="margin:0 0 1rem;font-weight:600;font-size:1.25rem;text-align:center;">Ultra miniature pacemaker</p>
 	<p style="margin:0 0 1rem;">I spoke about this in a <a href="https://caffeineandlasers.com/notes/Really%20Cool%20Pacemaker%20Technology.html" style="color:inherit;text-decoration:underline dotted;">previous note of mine.</a> So I won't get into too much detail here. Researchers developed an ultra-miniature pacemaker which uses the patient's body itself as the battery. The pacemaker is designed to be injected into newborns with rare heart defects and to dissolve into the body itself when it is no longer needed. (And it is laser controlled!)</p>
 	<p style="margin:0 0 1.75rem;">It was some super cool work.</p>
 	<img src="https://caffeineandlasers.com/Assets/8732db15237c6e3df2b2b67f931483fa.png" alt="Ultraminiature pacemaker concept illustration" style="display:block;margin:0 auto;max-width:100%;width:auto;height:auto;max-height:360px;object-fit:contain;border-radius:16px;box-shadow:0 18px 45px rgba(15,23,42,0.18);" />
 </div>
-<h1>9 Live Event</h1>
+<h2>9 Live Event</h2>
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.15rem;">California Girls, Grasps, Rebel Yell and Marcus Whale performing at Lazy Thinking</p>
 	<img src="https://caffeineandlasers.com/Assets/2b55e8e93253f806b6d79eb0e37e7de2.jpg" alt="California Girls, Grasps, Rebel Yell and Marcus Whale performing" style="display:block;margin:0 auto;max-width:100%;width:auto;height:auto;max-height:360px;object-fit:contain;border-radius:16px;box-shadow:0 18px 45px rgba(15,23,42,0.18);" />
 	<p style="margin:1.5rem 0 0;color:var(--text-muted,#475569);"> I got really lucky to get to this gig. I have been a fan of Califonia Girls and Marcus Whale for a few years now, but I only heard they were playing a show by chance when I turned on the radio two days before the gig. The show was a "boiler room" kind of deal, and I spent almost the whole show standing directly beside the performers, and watching them play on the decks. All four performers were fantastic. I had never listened to Rebel Yell before hand, but had a lot of fun dancing to her set. I should also give a shout out to Califonia girls who was absolutely hammered by the time his set starts, and after performing two songs, drunkenly mumbles something about how that was all he prepared for and "let me just play some shit off my laptop" and then performed one of the best DJ sets I have ever experianced in my life. (Again, clearly while clearly off his face drunk) </p>
-</div>]]></content:encoded>
+</div>
+]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/CaffeineAndLasersWrapped2025.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/CaffeineAndLasersWrapped2025.html</guid>
       <pubDate>Sat, 13 Dec 2025 11:00:00 +1100</pubDate>
@@ -1089,7 +1090,7 @@ This blogpost may not last very long depending on how technology goes
 <a href="https://kmcd.dev/posts/internet-map-2025/">KMCD Visualizing The Internet</a></p>
 <p>The theme for this months <a href="https://indieweb.org/IndieWeb_Carnival">IndieWeb Carnival</a> is <a href="https://vhbelvadi.com/indieweb-carnival-future"><strong>where do you see the IndieWeb in 2030</strong></a> and is hosted by <a href="https://vhbelvadi.co">V.H Belvadi</a>. I thought this was a great  excuse to yap about my politics, what I want to see in the world (and what I think will actually happen).  So I am making three predictions. What I would <strong>like</strong> to see in the next 5 years, what I <strong>expect</strong> to happen, and what I think the <strong>biggest risks are</strong>. I'm not sure what portion of my readers are famiiar with the &quot;IndieWeb&quot; as a concept, vs how many I have from the IndieWeb.</p>
 <p><strong>Note:</strong> To be honest, I actually have no idea how many readers I have - no tracking ofc - though I am confident it is at least 3, because that's how many emails I have received from readers lol)</p>
-<h1>1 Predictions</h1>
+<h2>1 Predictions</h2>
 <h2>1.1 The Optimistic</h2>
 <h3>1.1.1 Event Pages</h3>
 <p>As the popularity of Meta products decreases, &quot;LinkTree&quot; and their competitors come up with &quot;EventPages&quot; and create a spec for standardised event sharing across different platforms. This enables platform agnostic event sharing for peoples music gigs, personal parties, and more, with the organisers no having to remember to keep every page up to date, since there is only one page. Furthermore, the events can spread organically even to platforms the organiser isn't on, since it is standardised. This means that an a band can plan their gig on EventPages and posted to Facebook, but a fam can share it too mastodon with a few button presses.</p>
@@ -1120,12 +1121,12 @@ This blogpost may not last very long depending on how technology goes
 <p>At first users try to circumvent this using VPNs, but not long after governments introduce Know-Your-Customer rules (KYC) to Commercial VPNs which restrict their ability to spoof national borders. KYC laws have been around in finance for decades, it isn't a stretch to apply them to VPNs accepting credit-cards. The most technically savy start to setup their own VPNs on Virtual Private Servers (VPS) they rent themselves. There is only a matter of time before governments start leaning on ISP companies to introduce packet sniffing techniques to identify these underground VPNs and shut them down.</p>
 <p>This global lockdown takes the indieweb down with them. Owning a website will require registration with the government including your ID, and mandatory registration details on the footer of each page that anyone can look up the websites owner. This is justified as &quot;Cracking down on misinformation and cyber-bullying&quot;, but also ends any chance at pseudoanonymity on the web.</p>
 <p>As a result the entire concept of the indieweb becomes a niche article on Wikipedia with a particularly angry discussion section between its editors, all of whom claim to be authorities because they were part of it back in its heyday.</p>
-<h1>2 Conclusion</h1>
+<h2>2 Conclusion</h2>
 <p>I really hope my pessimistic predictions do not come true, but it is hard not to be nervous about it while living in Australia with our <a href="https://www.abc.net.au/news/2025-12-04/when-is-the-teen-social-media-ban-what-apps-are-banned/106086152">new teen social media ban</a> and all its associated privacy risks. While I put my most optimistic predictions about adversarial interop as unlikely, I do not  think it is impossible. A good political movement with the right spark could definately bring it about. It used to be the norm after all.</p>
 <p>Finally, one bonus prediction from <a href="https://www.smbc-comics.com/">Saturday Morning Breakfast Cereal</a></p>
 <p><img src="https://caffeineandlasers.com/Assets/fb505195de961dfa92619b66359994b9.png" alt=""><br>
 <a href="https://www.smbc-comics.com/comic/daisy">Link</a></p>
-<h1>3 Further Reading:</h1>
+<h2>3 Further Reading:</h2>
 <ul>
 <li>Only one item on my list this time and that is <a href="https://craphound.com/category/internetcon/">Cory Doctorow's &quot;The Internet Con&quot;</a>. He clearly inspired a lot of my thoughts here, as evident by THREE citations he got in one blogpost, but he also puts forward a thorough plan on how to achieve my most optimistic predictions in his book.</li>
 </ul>
@@ -1472,13 +1473,13 @@ This blogpost may not last very long depending on how technology goes
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Blogpost-FollowingthescientificCacioePepeProcess.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Blogpost-FollowingthescientificCacioePepeProcess.html</guid>
-      <pubDate>Mon, 22 Sept 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 22 Sep 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title><![CDATA[How to Actually Take notes]]></title>
       <description><![CDATA[I've seen way too many people ask how do you use Obsidian, how do you take notes, it all seems so daunting. To be completely honest, it seems really obvious to me. So I figured I would just write down what I do.]]></description>
-      <content:encoded><![CDATA[<h1>1 How to take notes</h1>
+      <content:encoded><![CDATA[<h2>1 How to take notes</h2>
 <p>I've seen way too many people ask how do you use Obsidian, how do you take notes, it all seems so daunting. To be completely honest, it seems really obvious to me. So I figured I would just write down what I do. The key to effective note-taking in Obsidian or any other system you want to use is to <strong>WRITE THINGS DOWN</strong>. Preferably in your system of choice. Everything else is secondary. However, I will admit that to many people a blank page is intimidating and they don't know where to start.</p>
 <p>So here are some rules of thumb I have taken on how to take notes:</p>
 <h2>1.1 &quot;I just need to quickly drop something down. It's not a full-fledged note.&quot;</h2>
@@ -1509,14 +1510,14 @@ Since Obsidian has backlinks, I create an empty note with the name of anyone I h
 <p>An example of this might be a textbook I've been reading on for <a href="https://en.wikipedia.org/wiki/Photonic_crystal">photonic crystals</a>. Suppose, I just read the chapter on how to calculate propagation modes within a crystal (What that means doesn't matter here). The equations and quotes I rip straight out of the textbook go in my textbook note, then I create my own note called <em>&quot;Photonic Crystal Propagation Modes&quot;</em>, where I link back to the textbook note.</p>
 <p>The general idea here should be that the source notes can contain whatever copy and paste the things I need. However, my own notes should not have anything copy and pasted without attribution. This saves any future headaches and prevents me from accidentally doing a plagiarism by confusing other people's writing with my own.</p>
 <p>This section is admittedly the most complicated part of my note taking and where I'll forgive people for saying they get overwhelmed. But I also think this level of diligence is only required if you are doing any kind of publication or academic work.</p>
-<h1>2 Topics Vs Types of Notes</h1>
+<h2>2 Topics Vs Types of Notes</h2>
 <p>When it comes to deciding how to organise your folder structure, or whatever else, it helps to have a clear idea of the difference between what topic a file might refer to, and what type of file it is. For example, take my meeting minutes from a research meeting. The note is <em>about</em> research, so it's topic is research, but its <em>type</em> is meeting minutes.</p>
 <p>A note can hypothetically have several topics, but not several types. I could cover multiple things in my meeting notes, but I can't have meeting notes that are also lab notes.</p>
 <p>With that in mind, I find the best way to organise is use folders for types of notes, and tags for note topics. Meetings, Research notes, lab notes etc all get their own folders, but 'optics', &quot;quantum&quot;, &quot;statistics&quot; get tags, since one note could refer to multiple topics, e.g. &quot;Quantum Optics&quot;, so that note gets both tags.</p>
 <h2>2.1 When to break the rules</h2>
 <p>My exception to the rule I just established is in journaling. I am a big fan of journaling. I am a big fan of backing up my notes onto &quot;the cloud&quot;. I am <strong>NOT</strong> a big fan of backing up my private journaling to the cloud.</p>
 <p>So for this reason my journaling goes into its own folder where my automated backup and sync knows not to touch it.</p>
-<h1>3 Concluding thoughts</h1>
+<h2>3 Concluding thoughts</h2>
 <p>This isn't a &quot;system&quot;, I'm not telling you rules, I'm not your dad.</p>
 <p>This is just how I happen to do things. Once again, the only important bit is to write things down. The structure will emerge itself.... Probably</p>
 ]]></content:encoded>
@@ -1603,7 +1604,7 @@ def k_means(X, K, max_iters=100):
 </ul>
 <p>I tried it on a beautiful portrait of my partner and I standing on a grassy hill. And there was so much grass in the picture that the algorithm painted both of us green because it was trying to maximize the number of different greens it could use in order to reduce the error.</p>
 <p>This photo we used works quite well because we have yellow rain jacket, brown floorboards, dark brown carpet, grey dog and black features on the dog. So it fits quite nicely into k equals 5.</p>
-<h1>The Code</h1>
+<h2>The Code</h2>
 <pre><code class="language-python">import numpy as np
 import matplotlib.pyplot as plt
 
@@ -1674,7 +1675,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</guid>
-      <pubDate>Thu, 31 July 2025 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 31 Jul 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1742,7 +1743,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Blogpost-Myfavouritealiens.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Blogpost-Myfavouritealiens.html</guid>
-      <pubDate>Wed, 30 July 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 30 Jul 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1759,7 +1760,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</guid>
-      <pubDate>Tue, 29 July 2025 10:00:00 +1000</pubDate>
+      <pubDate>Tue, 29 Jul 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1801,7 +1802,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/AnthroLLM.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/AnthroLLM.html</guid>
-      <pubDate>Mon, 14 July 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 14 Jul 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1818,28 +1819,28 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</guid>
-      <pubDate>Wed, 25 June 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 25 Jun 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title><![CDATA[BlogPost   Digitizing Paper notes in the 21st Century]]></title>
       <description><![CDATA[Shoutout to Heals for sharing their own workflow in a Mastodon post for inspiring me.]]></description>
       <content:encoded><![CDATA[<p>Shoutout to <a href="https://heals-draws.art/">Heals</a> for sharing their own workflow in a Mastodon post for inspiring me.</p>
-<h1>Problem Statement</h1>
+<h2>Problem Statement</h2>
 <p>Here are two axioms, which were until recently, incompatible.</p>
 <ol>
 <li>I want all my notes to be digitized in plain text</li>
 <li>I enjoy writing in pen and paper</li>
 </ol>
 <p>Keeping everything in plain text preserves my writing well into the future and hopefully as long as I am alive. But writing on pen and paper <em>feels nice</em>. It is more ergonomic, more tactile, and I genuinely believe it helps me recall what I have written better.</p>
-<h1>What Do?</h1>
+<h2>What Do?</h2>
 <p>It turns out LLM Optical Character Recognition (OCR) is getting <strong>really good</strong>. (I hate the acronym OCR, there is nothing optical about it, but that is a topic for another blogpost).</p>
 <p>So with Heals advice I settled on <a href="https://mistral.ai/news/mistral-ocr">Mistral's OCR</a>. They have a generous enough free tier, and seems to perform really well.</p>
 <p>So, since the folks at Mistral have already done all the hard work, I wrote a wrapper for my workflow.</p>
-<h1>How does it work?</h1>
+<h2>How does it work?</h2>
 <p>I have a bash script which watches a directory on my computer. Now when I finish writing a page a take a photo of my notes, and drop it in the this directory.</p>
 <p>When a new photo is detected, the script sends it to Mistral to extract all the text, and any doodles I might've done on the page. It then compiles a markdown version of my notes, and saves it into my Obsidian vault.</p>
-<h1>Does it Work?</h1>
+<h2>Does it Work?</h2>
 <p>Here is a sample of my text and the output.</p>
 <div style="display: flex; gap: 1em; align-items: flex-start;">
     <img src="https://caffeineandlasers.com/Assets/634b047a1182d9c022be4c46facf6145.png" style="height: 300px; object-fit: contain;" alt="Sample 1"/>
@@ -1850,13 +1851,13 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</guid>
-      <pubDate>Mon, 23 June 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 23 Jun 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title><![CDATA[Transhumanism in a Technofeudal Society]]></title>
       <description><![CDATA[I can not stop thinking about Peter Watts novel Blindsight (2006). It keeps me up at night thinking about its implications and what it says about humanity. Let me tell you about it.]]></description>
-      <content:encoded><![CDATA[<h1>1 Blindsight, Transhumanism, and Surveillance Capitalism</h1>
+      <content:encoded><![CDATA[<h2>1 Blindsight, Transhumanism, and Surveillance Capitalism</h2>
 <p>I can not stop thinking about Peter Watts novel Blindsight (2006). It keeps me up at night thinking about its implications and what it says about humanity. Let me tell you about it.</p>
 <p>The novel's main character Siri is a &quot;synthesist&quot;. Siri has the remarkable ability to translate ideas without having to actually understand them himself. Instead, he prompts his interlocutors to speak, and rather than attempting to process the words directly, he observes their &quot;topology&quot;, the connections between the speakers language, their body movements and their interactions with their environment. Keaton describes it like understanding the shape of an underwater object by observing the waves it creates on the surface. Others compare it to the &quot;<a href="https://en.wikipedia.org/wiki/Chinese_room">Chinese Room</a>&quot; thought experiment.</p>
 <p>I let this concept sit with me for a while. Pondering what it must be like to process information without understanding. Then I realised, he was just describing surveillance capitalism.*</p>
@@ -1908,7 +1909,7 @@ They succeed in controlling us — our decisions, our desires — even without a
 <p>Is this something we would do? Is there a significant difference between a human uploading themselves into a digital utopia, and a rat starving itself to death because it is so addicted to its heroine it forgot to eat?</p>
 <p><em>Blindsight</em> was published in 2006. That September, Facebook opened to everyone, and the world was never the same.</p>
 <p>It wasn't long before his team and his competitors perfected their poison. For all our progress as humans, it turns out that we could be captured by 30 second vertical format videos. No different from <em>&quot;those rats back in the sixties&quot;</em></p>
-<h1>2 Further Reading</h1>
+<h2>2 Further Reading</h2>
 <ul>
 <li><a href="https://www.rifters.com/real/Blindsight.htm">Blindsight</a> is actually free. Watts released it into the public domain. You can read it online or download the pdf or ePub. <a href="https://www.rifters.com/real/shorts.htm">here</a> is the rest of his public domain works</li>
 <li>This essay was also strongly inspired by Mark Rowland's book &quot;The Happiness of Dogs&quot;, which discuses philosophy of mind and consciousness extensively.</li>
@@ -1922,7 +1923,7 @@ They succeed in controlling us — our decisions, our desires — even without a
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/TranshumanisminaTechnofeudalSociety.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/TranshumanisminaTechnofeudalSociety.html</guid>
-      <pubDate>Wed, 04 June 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 04 Jun 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1937,7 +1938,7 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</guid>
-      <pubDate>Sun, 01 June 2025 10:00:00 +1000</pubDate>
+      <pubDate>Sun, 01 Jun 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1975,7 +1976,7 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
 <li>Does a bit of regex to fix the wikilinks and re-link them to the correct location in my website directory</li>
 <li>Saves everything where it needs to go.</li>
 </ol>
-<h1>1 Putting it all together.</h1>
+<h2>1 Putting it all together.</h2>
 <p>Now all I need to do to get a post out of obsidian and into my website is</p>
 <ul>
 <li>
@@ -2188,7 +2189,7 @@ The conclusions drawn from the historical argument are mostly mine.</em></p>
 <h2>What does this mean?</h2>
 <p>The ad supported internet was not an inevitability, and ad supported media is not a fundamental part of the human condition. They are a trend which began with <strong>recent</strong> technological developments.</p>
 <p>Your grandparents were alive in a time before advertising became the only way to fund TV, news and art. I just want to emphasise this to give hope to the idea of building something better.</p>
-<h1>Further Reading</h1>
+<h2>Further Reading</h2>
 <ul>
 <li>Pluralistic <a href="https://pluralistic.net/2023/09/29/ban-surveillance-ads/#sucker-funnel">The surveillance advertising to financial fraud pipeline (29 Sept 2023)</a></li>
 </ul>
@@ -2252,7 +2253,7 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     <item>
       <title><![CDATA[Podcast is the best medium for horror fiction.]]></title>
       <description><![CDATA[Just raving about a couple audio-ficiton podcasts I have been listening to.]]></description>
-      <content:encoded><![CDATA[<h1>Podcast is the best medium for horror fiction</h1>
+      <content:encoded><![CDATA[<h2>Podcast is the best medium for horror fiction</h2>
 <p>If you ever watch horror movies, you know that the anticipation is scarier than the reveal. The scraping noise against the window beats the monster reveal on the terror factor every time. This is the mistake that bad horror movies make when they reveal their monster too early.</p>
 <p>The reason for this is simple. Your imagination will create a monster far more terrifying than the best CGI in the world.</p>
 <p>So what if it’s all in your imagination? I truly believe that podcast is the best medium for horror fiction today. There are some extremely talented story writers partnering with equally talented audio mixers to create stories that suck you in and keep you terrified.</p>
@@ -2342,7 +2343,7 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     <item>
       <title><![CDATA[Another reason why libraries are great]]></title>
       <description><![CDATA[They reduce this risk in picking books.]]></description>
-      <content:encoded><![CDATA[<h1>Another reason why libraries are great</h1>
+      <content:encoded><![CDATA[<h2>Another reason why libraries are great</h2>
 <p>Everyone knows the main reasons why libraries are great. You get to read books for free. It is the only place left in our world where you can exist - I mean <em>loiter</em> - without the expectation of spending money. Sharing knowledge to upskill yourself, or your community.</p>
 <p>But I have one more reason I want to share: <strong>It makes choosing books much lower risk</strong>. Here me out</p>
 <p>If you are buying a book, they cost what $30AUD these days, so if you spent money on this thing, you probably want to enjoy it. In fact, you will probably be annoyed if you spent that money and didn't enjoy it. This will factor into your decision making.</p>
@@ -2420,7 +2421,7 @@ so the only way for me to find out if you like my content is to say hello :)</p>
       <content:encoded><![CDATA[<hr>
 <p>It is well known that Physicists have a special relationship with beer. There is just something magical about the amber fluid. Here I want to discuss the ways in which beer and the desire to improve the brewing process furthered humanities analytic chemistry techniques by clever applications of optical physics! We will be discussing the analytic colourimeter, and the refractometer.</p>
 <hr>
-<h1>1 The Analytic Colourimeter</h1>
+<h2>1 The Analytic Colourimeter</h2>
 <p>The story of the colorimeter comes from the son of a brewer Joseph lovibond.</p>
 <p>The brewery faced a difficult problem. How do you get the same level of roast every single time? See brewers by their malts and grains at different levels of roast, from ashy dark, to light blonde, and mix them in the wort to achieve the desired carbohydrate/sugar profile. Getting the recipe consistent is difficult, since you cannot just add the same amount of each ingredient every time, since the roast levels are going to be inconsistent</p>
 <p>Lovibond supposedly came to his solution while long through the stained glass windows of his church in 1880 (This story strikes me as something made up for marketing, but I don't have proof it is fake, so let's roll with it). Lovibond realized that you can achieve a continuous gradient of colours by varying the amount of dye* in the glass. From the he created the Lovibond scale, a series of stained glass sheets of defined dye content. The brewer may then compare the colour of their beer to the series of glasses until a match was found.</p>
@@ -2429,7 +2430,7 @@ so the only way for me to find out if you like my content is to say hello :)</p>
 <p>The lovibond company still exists, and still sells colourimetry equipment for use is science and  manufacturing. The company still exists, and still sells instruments for colour measurement, and water analysis. They even still sell an <a href="https://www.lovibond.com/PC/Colour-Measurement/Products/Visual-Measurement/Comparator-System-2000-Visual-Grading">updated version of Lovibond's Device</a></p>
 <p><img src="https://caffeineandlasers.com/Assets/ModernLovibondTintometer.jpg" alt="Photo of a modern tintometer"><br>
 <em>Credit: <a href="https://www.lovibond.com/PC/Colour-Measurement/Products/Visual-Measurement/Comparator-System-2000-Visual-Grading">The Lovibond Company Website</a></em></p>
-<h1>2 The Refractometer</h1>
+<h2>2 The Refractometer</h2>
 <p>If you know anything about Bavaria, you know that they take beer seriously. So seriously they have laws about its contents, and have had protests and riots about its price. You may also know about the rich history of broader German physics. Well I'm 1841 these two areas of excellence crashed together.</p>
 <p>While the Bavarian purity laws were in effect, there was little way for the consumer to be confident they received the product they were paying for. Carl August Steinheil, a physicist in Munich established a test in 1841, after inventing the refractometer and combining it with the already existing hydrometer.</p>
 <p>Just like light bends through a prism, it also does through a liquid. Go and check with a glass of water now. The refractometer just measures how much the light is bent. This measures the &quot;refractive index&quot; of the liquid. This is useful, since how much a liquid bends the light depends on how much <em>STUFF</em> is in the liquid. Sugars, dextrose etc, and how that &quot;<em>stuff</em>&quot; interacts with light. If you want a more in depth analysis of refraction, I would recommend checking out <a href="https://rainbowspec.observer/prisms/">this explanation</a> by friend of the site <a href="https://solaria.neocities.org/">Solaria</a>.</p>
@@ -2440,7 +2441,7 @@ so the only way for me to find out if you like my content is to say hello :)</p>
 <em>A photo I took of Steinheil's refractometer while visiting the Deutsche Museum</em></p>
 <p>Today, refractometers are used in analysis in a variety of areas. Coffee nerds like using them to measure extraction efficiency, and confectionry manafactureers use them to measure sugar concentration.</p>
 <p><strong>Authors Note:</strong> I was curious about Steinheils Optical beer test, there isn't a lot of information on the English speaking web about it. I sent an email to the museum curator asking for some more details. I will update this page if I get any interesting materials from them.</p>
-<h1>3 Further Reading</h1>
+<h2>3 Further Reading</h2>
 <p>Mark Denny's <a href="https://archive.org/details/frothscienceofbe0000denn">Froth! The science of beer</a> is a great example of physicists (over) analysing the ambrosia.</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/beerAndOptics.html</link>
@@ -2451,7 +2452,7 @@ so the only way for me to find out if you like my content is to say hello :)</p>
     <item>
       <title><![CDATA[On the role of technical skills in fighting power]]></title>
       <description><![CDATA[If you are unhappy with the the powers that be, (regardless of who you think that is), you should understand the tools to fight them. Tip: Regulation wont be enough]]></description>
-      <content:encoded><![CDATA[<h1>1 On the role of technical skills in fighting power</h1>
+      <content:encoded><![CDATA[<h2>1 On the role of technical skills in fighting power</h2>
 <p>I've been reading Yanis Varifakis's <a href="https://www.penguin.com.au/books/technofeudalism-9781529926095">Technofeudalism: What killed capitalism</a> and have been thinking about the pessimism a lot of progressives have in opposing oligarchy.<br>
 Specifically, progressives are often reluctant to engage with techno-capital on its own terms, and instead fall into old habbits of at best, trying to regulate out the problems, or at worst complaining to no end.</p>
 <p>Ultimately, I think that <a href="https://craphound.com/">Cory Doctorow</a> provides a strong direction for political action, stronger than most leftie-youtubers/tik-tokers if I am being honest. In <a href="https://craphound.com/category/internetcon/">The internet con: How to seize the means of computation</a> he argues that while freedom of computation and communication is not strictly <strong>more</strong> important than climate change, feminism, economic justice, insert-your-preferred-issue-here, it <strong>is</strong> a necessary component to affecting change to reach those goals. iYou will not be able to out-boycott the capital class when you rely on them for survival, you especially wont be able to use the tools of cloud capital to oppose it.  We have known this for decades, remember when Audre Lorde said this?:</p>
@@ -2470,10 +2471,10 @@ Specifically, progressives are often reluctant to engage with techno-capital on 
 <p>I know starting a website sounds daunting but the great folks at <a href="32bit.cafe">32BitCafe</a> have a simple tutorial on where and how to start (<a href="https://32bit.cafe/cyowebsite/">https://32bit.cafe/cyowebsite/</a>). If you are on the fence, spend a couple hours playing around with it. It costs nothing, and you might enjoy it.</p>
 <h2>1.4 <strong>Start to pry yourself away from the cloud</strong></h2>
 <p>Don't forget. &quot;The Cloud&quot; is just someone else's computer.  Escaping entirely from the cloud is going to be impossible, but every step you take is less data they have on you. The FUTO organisation's <a href="https://immich.app/">Immich</a> is an alternative to Google Photos and Apple Cloud. They also have a tracker-less <a href="https://keyboard.futo.org/">keyboard</a> for your android phone (Did you know your default keyboard sends telemetry back to the manafacturer?). <a href="https://nextcloud.com/">Nextcloud</a> is a self-hostable version alternative to Google Drive, or for an easier option, consider backing up yourself using a Network Attached Storage (NAS). <a href="https://www.synology.com/en-global">Synology</a> sells just-works out of the box options.</p>
-<h1>2 Conclusion</h1>
+<h2>2 Conclusion</h2>
 <p>Every step of these you take, removes another bind that cloud-capital uses to control you. It won't fix everything, but it makes the next steps easier - nay - possible. Sometimes material change, requires digital work.</p>
 <p>I want to clarify, this is not a call to out-technology the problem. The technology is already here, and is being used against you. I am calling on you to understand the state of modern (class) warfare. The good news is, <a href="https://www.citationneeded.news/we-can-have-a-different-web/">the good ol days of the internet are not over</a> and you can be part of it.</p>
-<h1>3 Appendix: BlueSky Are NOT your Saviours</h1>
+<h2>3 Appendix: BlueSky Are NOT your Saviours</h2>
 <p>This doesn't quite fit in with the rest of my argument, but it needs to be said somewhere. Bluesky has all the same incentives which enshittified Twitter. It is still under the total control of its owners, who can enforce their will onto you.</p>
 <p>If you desperately need to shout your opinions in 300 character outbursts, there are still options however. Look into Mastodon.</p>
 <p>Mastodon is built to be <a href="https://pluralistic.net/2025/01/23/defense-in-depth/">billionaire proof</a>, because you select your server, and your server admins select who you are federated with. Think of it like email, your gmail account can still message your friends hotmail account. Same idea here.</p>
@@ -2489,25 +2490,25 @@ Specifically, progressives are often reluctant to engage with techno-capital on 
       <title><![CDATA[My PhD Explained at 5 Levels]]></title>
       <description><![CDATA[Finally getting round to explaining what I actually research]]></description>
       <content:encoded><![CDATA[<p><strong>So, what on Earth do I actually work on?</strong> Lets explain it at 5 different levels.</p>
-<h1>1 Primary School</h1>
+<h2>1 Primary School</h2>
 <p>I use lasers to talk to astronauts</p>
 <p><img src="https://caffeineandlasers.com/Assets/IllumaT.png" alt="A digital render of 2 satellites in orbit. A laser beam originates from Earth's surface and is recieved at the first satellite, which relays it to the second"></p>
 <p>Credit: <a href="https://www.nasa.gov/directorates/somd/space-communications-navigation-program/whats-next-the-future-of-nasas-laser-communications/">NASA</a></p>
-<h1>2 High School</h1>
+<h2>2 High School</h2>
 <p>We use lasers to communicate to communicate with satellites and other things in space. It is like morse code, turning the laser on and off to symbolise &quot;1&quot;s and &quot;0&quot;s. Standard wireless data transfer uses radio, this is what your wifi uses. Moving from radio to laser lets us speed up our data transfer because lasers can blink on/off much faster than radio waves, packing more 1s and 0s into each second.</p>
-<h1>3 Adult</h1>
+<h2>3 Adult</h2>
 <p>Wireless communication using lasers allows us to achieve far higher data transfer rates than radio. The speed difference is equivalent to moving from copper telephone wires to high-speed optic fiber. My research is taking all the technology from optic fiber networks, and removing the optic fiber.</p>
 <p>The catch, is that turbulence, heat, and air density changes bend and blur the laser, like how a road looks wavy on a hot day. I am working on a way of dealing with this!</p>
 <p><img src="https://caffeineandlasers.com/Assets/HotRoad.png" alt="A car shimmers in the heat pouring off the asphalt on the highway leading in to Death Valley National Park"><br>
 Credit: <a href="https://www.hawaiipublicradio.org/2013-07-01/heat-wave-will-bake-southwest-for-most-of-this-week">Dave Gikey, NPR</a></p>
-<h1>4 University Student</h1>
+<h2>4 University Student</h2>
 <p>When light, like that from a laser beam, passes through the atmosphere it gets distorted, much like seeing sunlight pass through to the bottom of a pool. This makes it more difficult to couple the beam into optic fiber for the receiver, causing signal loss.</p>
 <p>In order to deal with this problem, we use a technique called adaptive optics. This involves measuring the phase of laser beams wavefront, and use deformable mirrors to correct it in real time (about 1,000 corrections a second). I am working on a new type of wavefront sensor for this process.</p>
 <p><img src="https://caffeineandlasers.com/Assets/Deformable_mirror_correction.png" alt="Schematic illustration of a deformable mirror correcting a perturbed wavefront. When a wavefront is perturbed for whatever reason, applying a phase shift with half the amplitude (because the reflection doubles the effect) can correct the wavefront to its original shape before perturbation. In such situations a deformable mirror can be used, although the correction is never perfect because the deformable mirror has a finite number of elements (actuators)."><br>
 Credit: <a href="https://simple.wikipedia.org/wiki/Adaptive_optics">WikiMedia</a></p>
-<h1>5 Industry Expert</h1>
+<h2>5 Industry Expert</h2>
 <p>I am developing a novel wavefront sensor for use in Adaptive Optics assisted Free Space Optical Communications. The sensor I am developing leverages photonic technologies to reduce the size weight and power of traditional WFSing techniques and aims to reduce cost and complexity while improving scalability for satellite-to-ground FSOC links</p>
-<h1>6 Why we care about all this!</h1>
+<h2>6 Why we care about all this!</h2>
 <p>It turns out communicating with space is super important for day to day life. You use space technology daily when you use GPS to get around. Its not just that, Earth Observation satellites, (who point their cameras at Earth), are used by meteorologists and climate scientist for weather prediction. We also use them for agricultural monitoring, disaster monitoring, and anything where a birds eye view can help.</p>
 <p>Space science is also progressing advanced bio-technology, where tissues can be grown in a weightless environment, advanced manufacturing, and the potential for future mining operations.</p>
 <p>Currently much of our space technology is bottlenecked by how fast we can downlink data from the satellite. For example, NASAs Hyperspectral Imaging Suite (HISUI) onboard the ISS <a href="https://ieeexplore.ieee.org/document/9463743/">generates 300Gb of data every day, but can only downlink 10Gb of it</a>. The rest is saved on external hard-drives, and physically carried down with the astronauts on their way home. This is clearly not something which will scale, which is why I am working on ways of speeding it up.</p>
@@ -2521,19 +2522,19 @@ Credit: <a href="https://simple.wikipedia.org/wiki/Adaptive_optics">WikiMedia</a
       <title><![CDATA[Embedding your latest Mastodon Post into your webpage]]></title>
       <description><![CDATA[Quick tutorial on how to dynamically embed your latest mastodon post into your static webpage]]></description>
       <content:encoded><![CDATA[<p><strong>I dont care about how it works, what do I need to do?</strong> Scroll to the bottom, and grab the code and instructions there.</p>
-<h1>Embedding Mastodon Posts into your Static Web Page</h1>
+<h2>Embedding Mastodon Posts into your Static Web Page</h2>
 <p>There are a few tools for embedding Mastodon toots into a webpage. The most straightforward is to get the embedding code straight from mastodon itself.</p>
 <p><img src="https://caffeineandlasers.com/Assets/20250321EmbedToot.png" alt="Screenshot highlighting the menu showing embed post"></p>
 <p>The problem with this, is you want to grab the latest post, regardless of when you last updated the site?</p>
 <p>Well you could use <a href="https://mastofeed.com/">Mastofeed</a>. But this embeds your ENTIRE Mastodon feed.</p>
 <p><em>Sigh</em> I guess I'll figure it out myself.</p>
-<h1>The Work around:</h1>
+<h2>The Work around:</h2>
 <p>As far as I can tell, the Mastodon protocall doesn't have any key for grabbing the latest post directly by URL. The good news is, with a bit of jank-script, we can figure it out.</p>
 <h2>Step 1: Grab the RSS Feed</h2>
 <p>I realise it is becoming a theme on this website to espouse how much I love RSS. I can't help it. All we are doing here, is using javascript to grab your fediverse rss feed at <code>yourMastodonInstance/@YourUserName.rss</code>, and finding the latest item on it.</p>
 <h2>Step 2: Parse it</h2>
 <p>From here, you could just extract the details from the RSS feed and insert it into the html. You could do that, or ou could extract the URL for that specific post, and use that to generate the embedded iFrame. (I think that looks cooler)</p>
-<h1>TL;DR Where do I get the code?</h1>
+<h2>TL;DR Where do I get the code?</h2>
 <p>You can find the code in the Github Repo for this website with the source code <a href="https://github.com/CaffeineAndLasers/CaffeineAndLasers.github.io/blob/main/content/scripts.js">here</a>.</p>
 <p>Just copy and paste the both the <code>embedLatestPost</code> and <code>fetchLatestMastodonPost</code> functions into your <code>scripts.js</code> file (or create it if you don't have one), and make sure you call it at the end of your code with  <code>&lt;script src=&quot;/scripts.js&quot;&gt;&lt;/script&gt;</code></p>
 <p>Now to use the widget, use this snippet, substituting your fediverse instance and username.</p>
@@ -2554,11 +2555,11 @@ Credit: <a href="https://simple.wikipedia.org/wiki/Adaptive_optics">WikiMedia</a
     <item>
       <title><![CDATA[Automating Your RSS Feed with 11ty]]></title>
       <description><![CDATA[Here is a quick write-up on how to automate a little more of your personal website.]]></description>
-      <content:encoded><![CDATA[<h1>1 Background</h1>
+      <content:encoded><![CDATA[<h2>1 Background</h2>
 <p>A while back, I wrote a quick explainer on how to set up your own RSS feed for your site. It was pretty straightforward, and showed you how to hard-code it.</p>
 <p>Then I got lazy, updating the <code>feed.xml</code>  file every time I wrote a blog post was becoming a pain.</p>
 <p>To resolve this, I opted to use 11ty to auto-update the RSS feed every time I added a new blog-post. This very post will get auto-updated to the RSS feed. I already used 11ty for automating other parts of my site, so this was just a natural extension.</p>
-<h1>2 Setting Up Your Environment</h1>
+<h2>2 Setting Up Your Environment</h2>
 <h2>2.1 Setting Up Eleventy</h2>
 <p>Go follow <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial">PetraPixels Tutorial</a> she explains it better than me. From here I will assume you have it set-up somewhat like hers? Deal? Deal!</p>
 <h2>2.2 Your Folder Structure</h2>
@@ -2574,7 +2575,7 @@ Credit: <a href="https://simple.wikipedia.org/wiki/Adaptive_optics">WikiMedia</a
 ----&gt; All the files that 11ty generates
 </code></pre>
 <hr>
-<h1>3 Creating Your RSS Template</h1>
+<h2>3 Creating Your RSS Template</h2>
 <p>Okay, you did everything and followed Petra's advice? Okay good. Now let's add the required properties to all our blogposts. For every post let's upate the yaml:</p>
 <hr>
 <pre><code class="language-yaml">---
@@ -2598,7 +2599,7 @@ layout: blogpost.liquid
 ---
 </code></pre>
 <hr>
-<h1>4 Update your .eleventy.js File</h1>
+<h2>4 Update your .eleventy.js File</h2>
 <p>We are adding two more functions to the <code>.eleventy.js</code> file. The first one <code>addCollection</code> just looks for the folder of blog posts, and grabs all the <code>html</code>  file (or <code>md</code> files). This is used by the template later. The second just formats the dates nicely.</p>
 <hr>
 <pre><code class="language-js">module.exports = function (eleventyConfig) {
@@ -2620,7 +2621,7 @@ layout: blogpost.liquid
 };
 </code></pre>
 <hr>
-<h1>5 Update the Feed File</h1>
+<h2>5 Update the Feed File</h2>
 <p>Final step! let's fix up your feed. Create or edit your rss feed file. Mine is <code>feed.xml</code></p>
 <hr>
 <pre><code class="language-html">---
@@ -2649,7 +2650,7 @@ eleventyExcludeFromCollections: true
 </code></pre>
 <hr>
 <p>What is going on here? The important bit is in-between  <code>\{\% for post in collections.blogPosts \%\}</code> and <code>{\% endfor \%\}</code>. This section tells 11ty to go through all the files in the  blogs directory, and generates an RSS entry from all those properties  we went through and added earlier.</p>
-<h1>6 Extension: Automating other parts of your page!</h1>
+<h2>6 Extension: Automating other parts of your page!</h2>
 <p>There is no reason to limit ourselves to automating the RSS page.</p>
 <h2>6.1 Every Blogpost in bullet points</h2>
 <p>Here is a html snippet which will tell 11ty to put every blog post in your folder in dot-points. Use your CSS skills to snazzy it up using the <code>blog-posts-container</code> class.</p>
@@ -2697,7 +2698,7 @@ eleventyExcludeFromCollections: true
     <item>
       <title><![CDATA[How I do My Research (As a PhD Student)]]></title>
       <description><![CDATA[Yet another PhD student explains their personal knowledge management system.]]></description>
-      <content:encoded><![CDATA[<h1>How I do My Research (As a PhD Student)</h1>
+      <content:encoded><![CDATA[<h2>How I do My Research (As a PhD Student)</h2>
 <p>It has almost become a cliche amongst a certain kind of PhD student to explain<br>
 <em>Exactly</em> your research workflow, and why it works. Now it is my turn to add to<br>
 the pile.</p>
@@ -2712,7 +2713,7 @@ my &quot;Second Brain&quot; needs to be written by me. Not copy and pasted, and 
 This isn't for any political or philosophical reason. It’s simply because I<br>
 understand things better when I put them in my own words, and my Vault is only<br>
 for things I <em>have</em> understood.</p>
-<h1>1 Technologies</h1>
+<h2>1 Technologies</h2>
 <h2>1.1 Obsidian</h2>
 <p><img src="https://caffeineandlasers.com/Assets/ObsidianLogo.png" alt="Obsidian Logo"
      style="float: right; width: 25%; margin-left: 10px;"></p>
@@ -2747,7 +2748,7 @@ works backwards, where from a given note, I can quickly see every note which lin
 <h2>1.4 Synology Diskstation NAS</h2>
 <p>This networked Access Storage Device, is where all my local backups go. It is essentially an external hard drive which plugs into an Ethernet port in my house. Then every networked device in my house, including my computers, phone, tablet and my partners devices, see it as an  attached hard-drive.</p>
 <p>I use automatic backups to move everything important onto this regularly.</p>
-<h1>2 The workflow!</h1>
+<h2>2 The workflow!</h2>
 <h2>2.1 Literature Review</h2>
 <p>The first step, after identifying relevant papers (see the secret step for more details), is to throw the paper into my Zotero database.</p>
 <p>Whenever I want to read a paper, Zotero downloads it, grabs the bibliographic information, and saves it all. Once it’s in Zotero, the BetterBibTex plugin will append the details to a .bib file.</p>
@@ -2797,7 +2798,7 @@ relevant “parent” notes.  This means I have two types of notes:</p>
 <p>I have notes for people – coworkers, networking contacts, etc. Not much usually goes in these notes; they mostly exist as a place to link <em>to</em>, and to see backlinks <em>from</em>.</p>
 <h3>2.3.3 Meetings</h3>
 <p>When I take notes during a meeting, the first thing I do is link to the people notes for all attendees. This lets me quickly check every meeting I’ve had with someone by looking at their person note and checking the backlinks.</p>
-<h1>3 Making Sense of the Chaos</h1>
+<h2>3 Making Sense of the Chaos</h2>
 <p>Okay, so that’s how I get knowledge <strong>into</strong> my system. How do I get it <strong>out</strong>?<br>
 Links, mostly!</p>
 <p>Obsidian’s search is super fast and great. So, when I need a specific note,<br>
@@ -2820,7 +2821,7 @@ approximation, along with a link to the relevant paper.</p>
 <p>Here you can see where I can start with a fuzzy, half remembered idea, and quickly resurface a specific paper, rather than scratching my head trying to remember who wrote what from a cold start.</p>
 <p>With any hope, this lets me do research and close the loop!</p>
 <p><img src="https://caffeineandlasers.com/Assets/PKM_Flowchart.png" alt=""></p>
-<h1>Conclusions</h1>
+<h2>Conclusions</h2>
 <p>This is just a broad overview of physically <strong>HOW</strong> I do my research.<br>
 Maybe at some point later I will dive deeper into my philosphy of what deserves<br>
 a note and how I go about learning. But that is for another  time.</p>
@@ -2836,7 +2837,7 @@ if you feel like chatting ping me an email or connnect on Mastodon!</p>
     <item>
       <title><![CDATA[Plant Monitor Prototype Update]]></title>
       <description><![CDATA[Update on the development of a wireless plant monitor prototype, including its features, functionality, and goals.]]></description>
-      <content:encoded><![CDATA[<h1>My Wireless Plant Monitor! (Prototype)</h1>
+      <content:encoded><![CDATA[<h2>My Wireless Plant Monitor! (Prototype)</h2>
 <p>I just wanted to do a quick write-up on a side project I'm working on and share photos of an early prototype.</p>
 <p><img src="https://caffeineandlasers.com/Assets/20240124Plant.png" alt=""></p>
 <p><strong>What is it:</strong></p>
@@ -2861,7 +2862,7 @@ if you feel like chatting ping me an email or connnect on Mastodon!</p>
 <p><strong>Why not just...</strong><br>
 Why not just buy something, use an existing framework, check my plants myself, do literally anything else with my time.</p>
 <p>Because I wanted to build something myself, and see how it works.</p>
-<h1>2 Requirements</h1>
+<h2>2 Requirements</h2>
 <p>I wanted my device to have the following characteristics</p>
 <ul>
 <li>Communicate wirelessly.</li>
@@ -2896,7 +2897,7 @@ Why not just buy something, use an existing framework, check my plants myself, d
 </ul>
 </li>
 </ul>
-<h1>3 How I built it</h1>
+<h2>3 How I built it</h2>
 <h2>3.1 Getting the electronics and sensors working</h2>
 <p>The first step was to get the physical bits and bobs working and playing nicely together. I threw all the components on a breadboard, plugged the sensor into my microcontroller's ADC, wrote a basic script to print the reading to serial and shut down. Then I tested it on USB power, and then on battery power using the timer. Easy!</p>
 <p><img src="https://caffeineandlasers.com/Assets/20240124PlantMonitorBreadboard.png" alt=""></p>
@@ -2931,7 +2932,7 @@ Why not just buy something, use an existing framework, check my plants myself, d
 </ol>
 <p>This is what I ended up with!</p>
 <p><img src="https://caffeineandlasers.com/Assets/20240124PlantMonitorDashboard.png" alt=""></p>
-<h1>4 Improvements for V2</h1>
+<h2>4 Improvements for V2</h2>
 <p>I am sharing the current state of the project, but I wouldn't recommend copying it <em>just</em> yet (at least without a lot of modification). Here is how I plan on improving V2</p>
 <h2>4.1 Device housing and footprint design</h2>
 <ul>
@@ -2975,7 +2976,7 @@ Why not just buy something, use an existing framework, check my plants myself, d
     <item>
       <title><![CDATA[Keep Your Ego In Check (Above The Robots)]]></title>
       <description><![CDATA[The secret to effectively using LLMs is having a bigger ego than the AI. This blog post explores how to harness the power of AI while maintaining human strengths.]]></description>
-      <content:encoded><![CDATA[<h1>Keep Your Ego In Check (Above The Robots)</h1>
+      <content:encoded><![CDATA[<h2>Keep Your Ego In Check (Above The Robots)</h2>
 <p>In order to use LLMs effectively, you need a bigger ego than the AI. That's the secret.</p>
 <p>There's a lot of talk about the rise of &quot;GPT slop&quot; on the internet. People use it as evidence that AI shouldn't be a writing tool. I disagree. I think LLMs are great, <em>if</em> you're confident you can write better than the AI.</p>
 <p>But why use an AI if you're better than it? The key is understanding human strengths and weaknesses—that's where the AI comes in. Corey Doctorow calls this the <a href="https://pluralistic.net/2022/04/17/revenge-of-the-chickenized-reverse-centaurs">Centaur/Reverse-Centaur</a> dynamic.</p>
@@ -3010,7 +3011,7 @@ Why not just buy something, use an existing framework, check my plants myself, d
     <item>
       <title><![CDATA[Introducing ChiScraper]]></title>
       <description><![CDATA[Introducing ChiScraper, an open-source tool designed to help researchers streamline their ArXiv experience by combining keyword matching with LLM-powered ranking.]]></description>
-      <content:encoded><![CDATA[<h1>1 <a href="https://chiscraper.github.io">ChiScraper</a>: Personalised ArXiv Assistant</h1>
+      <content:encoded><![CDATA[<h2>1 <a href="https://chiscraper.github.io">ChiScraper</a>: Personalised ArXiv Assistant</h2>
 <p>Keeping up with the latest research papers can feel like drinking from a firehouse - Especially if you are following the current LLM trend. ChiScraper is an open-source tool that helps researchers take control of their ArXiv experience by combining a powerful keyword matching algorithm with LLM-powered ranking. Instead of wading through endless papers, Chi-scraper shows you what's relevant to your research interests and ranks them by importance.</p>
 <p>It's like having a personal research assistant that pre-screens papers before your morning coffee.</p>
 <p>Visit the project <a href="https://chiscraper.github.io">website</a>, or the <a href="https://github.com/ChiScraper/ChiScraper">GitHub Repo</a></p>
@@ -3021,7 +3022,7 @@ Why not just buy something, use an existing framework, check my plants myself, d
 <h2>1.2 Getting Started</h2>
 <p>If you're interested in trying ChiScraper, head over to <a href="https://chiscraper.github.io/">the project website</a> for installation instructions and detailed documentation. The setup process is<br>
 straightforward, and you can be up and running in minutes, whether you choose to use OpenAI's models or go the local LLM route.</p>
-<h1>2 How do I use it</h1>
+<h2>2 How do I use it</h2>
 <h2>2.1 Choosing Your LLM</h2>
 <p>We purposely built the program to be model agnostic. For a &quot;just works&quot; config we defaulted to using OpenAI's GPT4o-mini model for the ranking. In my opinion this model is overkill for the task at hand, (but from a design perspective, we want a model which erred on too smart, rather than too dumb).</p>
 <p>In my experience, even for highly technical physics papers, models around the 8b mark work well. It works well with <code>llama3.1:8b</code>, but really like using it with <code>qwen2.5:7b</code>, which seems to be even smarter than 8b llama model, and has a slight performance edge thanks to its smaller size.</p>
@@ -3070,7 +3071,7 @@ straightforward, and you can be up and running in minutes, whether you choose to
     <item>
       <title><![CDATA[ChiCurate]]></title>
       <description><![CDATA[Introducing ChiCurate, an open-source tool designed to help researchers streamline their ArXiv experience by combining keyword matching with LLM-powered ranking.]]></description>
-      <content:encoded><![CDATA[<h1>Introducing ChiCurate: Your Personalized ArXiv Feed</h1>
+      <content:encoded><![CDATA[<h2>Introducing ChiCurate: Your Personalized ArXiv Feed</h2>
 <p>In the fast-paced world of scientific research, staying up-to-date with<br>
 the latest publications is crucial. However, with hundreds of papers<br>
 published daily on ArXiv, finding the most relevant ones for your<br>
@@ -3247,27 +3248,27 @@ technology to see that we wouldn't be able to hear them because we do<br>
 not have any large enough telescopes.</p>
 <p>So quite simply, it is so quiet, because the aliens are not talking to<br>
 us.</p>
-<h1>1 Source</h1>
+<h2>1 Source</h2>
 <p>Boyle, Latham. &quot;On Interstellar Quantum Communication and the Fermi<br>
 Paradox.&quot; arXiv, August 5, 2024.<br>
 <a href="https://doi.org/10.48550/arXiv.2408.02445.">https://doi.org/10.48550/arXiv.2408.02445</a>.</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Aliens.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Aliens.html</guid>
-      <pubDate>Mon, 30 Sept 2024 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 30 Sep 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title><![CDATA[The Case For Power CoOps]]></title>
       <description><![CDATA[Exploring the potential of supplier cooperatives in the power generation industry, particularly with the rise of solar panels and battery storage.]]></description>
-      <content:encoded><![CDATA[<h1>The Case For Power Generation Supplier-Cooperatives</h1>
+      <content:encoded><![CDATA[<h2>The Case For Power Generation Supplier-Cooperatives</h2>
 <p><strong>Authors Note:</strong> <em>I do not work in the power industry. I am not an expert in power generation. I'm just some dude with ideas. Keep this in mind</em></p>
 <p>The invention of Photovoltaic devices (i.e., Solar Panels) and high-capacity battery storage presents new opportunities not possible with traditional power generation methods.</p>
 <p>Of particular interest, it allows small to medium-sized entities to enter the power generation market and compete with the big players. I think medium-sized supplier co-ops may be powerful players in the future of electricity generation.</p>
 <p><strong>What does this even look like?</strong><br>
 For centuries, farmers have pooled commodities into co-ops to trade as blocks. This gives them leverage to negotiate with massive buyers like supermarkets since they are not trying to undercut each other, and large actors do not have an information asymmetry advantage.</p>
 <p>We now have many solar panels (generators) and Li-Ion batteries (storage) distributed across our power grids and managed by individuals and families. These individuals are negotiating by themselves with power companies and getting ripped off. So the answer is simple: Why not pool their resources and negotiate with power companies as a single block? This is just a supplier co-op, the same as the farmers'.</p>
-<h1>1 Structure</h1>
+<h2>1 Structure</h2>
 <p>For such an organization to be successful, it needs to have capabilities within the following four branches:</p>
 <ol>
 <li>Generation (Solar Panels)</li>
@@ -3277,10 +3278,10 @@ For centuries, farmers have pooled commodities into co-ops to trade as blocks. T
 </ol>
 <p>The neat thing is, not all of this has to be set up at the same time. Starting with a small group of individuals with panels, they can negotiate as a block and then bootstrap the co-op into a larger organization with all four branches.</p>
 <p>The larger the co-op, the greater its ability to negotiate on behalf of its members in buying and selling to the grid. This is Union Power if you are a socialist, or just like health insurance if you are a capitalist.</p>
-<h1>2 Not Just Panels</h1>
+<h2>2 Not Just Panels</h2>
 <p>Not every site is a good candidate for solar panels; they don't get enough light, etc. A co-op would let these people contribute as well, paying them for battery storage.</p>
 <p>There is no reason that a battery HAS to be plugged directly into a solar panel. The grid could pay people to house and maintain a battery on their property and use that for storing the excess power generated by the panels on other people's properties, paying them for their service.</p>
-<h1>3 Incentives Matter</h1>
+<h2>3 Incentives Matter</h2>
 <p>A co-op, which is owned by its members, can prioritize cheap power for its members over profitability. Therefore, they can make strategic decisions to prioritize their members' needs rather than selling back to the grid. E.g., instead of selling power at a high rate to maximize income, the provider may choose to reserve the power in their batteries to power their members at a lower cost.</p>
 <h2>3.1 The Difficulties with Economics</h2>
 <p>While economics plays in our favor in some cases, there are a couple of cases where the economics play against us.</p>
@@ -3302,25 +3303,25 @@ For centuries, farmers have pooled commodities into co-ops to trade as blocks. T
 <p>In a typical company, the owners (shareholders) usually have more power. But in our co-op, it's flipped on its head. The employees running the grid will know way more about the business than the average member. This knowledge imbalance could lead to some issues.  For example, the employees will be incentivized to push power prices up for the owners as high as they can while staying cheaper than other commercial options.</p>
 <p>Imagine this scenario: The co-op managers (employees) might push for selling electricity to members at $0.12 per kWh, arguing that it's still cheaper than the $0.15 per kWh from the big power companies. The members might not realize that with the co-op's efficient operations, the price could actually be $0.10 per kWh. The extra $0.02 is padding the co-op's budget, potentially leading to higher salaries or unnecessary expenses.</p>
 <p>This tricky economic issue could be partially mitigated by making a joint supplier/employee co-op so that employees have skin in the game. This will just trade a power imbalance for a political imbalance between employee-owners and supplier-owners. This combined with appropriate board management, auditing and transparency, I think, will yield more fair results than the current privately owned state of business.</p>
-<h1>4 Benefits</h1>
+<h2>4 Benefits</h2>
 <p>Some of the benefits I see are:</p>
 <ul>
 <li>Power Prices to the consumer</li>
 <li>Environmental:  Larger organisations of Solar Panel owners can share the size and power as legacy generators, who still have a vested interest in fossil fuel generation.</li>
 <li>Community/Political: This gives back power to the people 💪💡⚡💪💡⚡We are so used to outsourcing our fundamental needs to people in suits far away. A supplier co-op  lets regular people engage with society, power and economics in a hands on way,</li>
 </ul>
-<h1>5 Conclusions</h1>
+<h2>5 Conclusions</h2>
 <p>I think the idea is neat. If you like the idea or want to use it you can buy me a beer. This concludes the licensing agreement.</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/TheCaseForPowerCoOps.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/TheCaseForPowerCoOps.html</guid>
-      <pubDate>Mon, 30 Sept 2024 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 30 Sep 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title><![CDATA[What Science Says About Coffee Grinding]]></title>
       <description><![CDATA[Delving into the scientific aspects of coffee grinding, exploring the effects of electrostatic charges and strategies to mitigate them for a better cup of coffee.]]></description>
-      <content:encoded><![CDATA[<h1>Four Coffee Observations in Two Studies</h1>
+      <content:encoded><![CDATA[<h2>Four Coffee Observations in Two Studies</h2>
 <p>There is something beautiful about scientists being given the freedom to<br>
 apply their skills to passion projects. High-impact science is valuable,<br>
 but the purity of studying a hobby out of sheer interest is something I<br>
@@ -3450,7 +3451,7 @@ grinder is set finer.</p>
 to extremely low temperatures and then warmed back up to room<br>
 temperature behaves just like coffee that was never cooled in the first<br>
 place.</p>
-<h1>3. So what did we learn?</h1>
+<h2>3. So what did we learn?</h2>
 <p>The actionable takeaways from this mini deep dive are:</p>
 <ol>
 <li>Adding water to your coffee pre-grind improves extraction, reduces<br>
@@ -3466,7 +3467,7 @@ grinder with identical settings.</li>
 <p>If you know of any novel research on coffee, let me know! My email is in<br>
 the &quot;Contact Me&quot; section of my website, and my Mastodon handle is on the<br>
 sidebar.</p>
-<h1>3 Sources</h1>
+<h2>3 Sources</h2>
 <p>Harper, J.M., Hendon, C.H., 2023. Chemical strategies to mitigate<br>
 electrostatic charging during coffee grinding.<br>
 <a href="https://doi.org/10.48550/arXiv.2312.03103">https://doi.org/10.48550/arXiv.2312.03103</a></p>
@@ -3484,13 +3485,13 @@ grinding roasted coffee. Sci Rep 6, 24483.<br>
     <item>
       <title><![CDATA[LoFi Terminal]]></title>
       <description><![CDATA[A minimalist audio player that does its job without any frills.]]></description>
-      <content:encoded><![CDATA[<h1>1 Announcing My LoFi Terminal Radio</h1>
+      <content:encoded><![CDATA[<h2>1 Announcing My LoFi Terminal Radio</h2>
 <p>This was a short weekend project I threw together to replace the<br>
 perpetually open YouTube Tab for <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study<br>
 to</a>. The result? A<br>
 minimalist audio player that does its job without any frills. Here's<br>
 why I created it and how it works.</p>
-<h1>2 What is it</h1>
+<h2>2 What is it</h2>
 <p>In short, it is an audio player with a very specific emphasis on<br>
 being: - minimalist - distraction-free You cannot select tracks, replay<br>
 tracks or go to the next track. This is a feature, not a shortcoming. If<br>
@@ -3498,7 +3499,7 @@ you want different music, change the station.</p>
 <p>The aim of this is to provide an experience akin to radio. You can turn<br>
 it on, change the volume and switch the channel, but the programming is<br>
 up to the DJ.</p>
-<h1>3 Why Design it like this</h1>
+<h2>3 Why Design it like this</h2>
 <p>This program isn't to replace your spotify or main music player.<br>
 Instead it is to replace your <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study<br>
 to</a> Youtube tab that stays<br>
@@ -3516,7 +3517,7 @@ super-overkill for listening to music. It wastes network bandwidth,<br>
 computer memory, and CPU cycles. On top of this, it removes the<br>
 distraction of fiddling with playlists but replaces it with the visual<br>
 clutter of an unnecessary browser tab next to your actual work</p>
-<h1>4 My Solution</h1>
+<h2>4 My Solution</h2>
 <p>A tool to replace this should have 1. No way to select tracks or<br>
 configure playlists from the UI 2. Stay out of the way when you aren't<br>
 using it</p>
@@ -3525,10 +3526,10 @@ out of the way. Especially when I leave it running in my <a href="https://extens
 Terminal</a><br>
 extension for GNOME.</p>
 <p><img src="lofiRadio.png" alt="Screenshot of the UI"></p>
-<h1>5 Where Do I install it?</h1>
+<h2>5 Where Do I install it?</h2>
 <p>Install instructions at <a href="https://github.com/CJones-Optics/lofi-player">My<br>
 Repo</a></p>
-<h1>6 Customising it</h1>
+<h2>6 Customising it</h2>
 <h2>6.1 Colours!</h2>
 <p>The UI is determined by css, with the colours defined at the top of the<br>
 file. Change your colour scheme to whatever you want just by changing<br>
@@ -3536,7 +3537,7 @@ the hex codes at the top of the css file.</p>
 <h2>6.2 Keybindings!</h2>
 <p>Don't like vim? Iwon't hold it against you. There is a simple text<br>
 file of the keybindings. Change the key to whatever you need.</p>
-<h1>7 Does it work on:</h1>
+<h2>7 Does it work on:</h2>
 <ul>
 <li>Linux
 <ul>
@@ -3558,14 +3559,14 @@ fixed when I get around to it.</li>
 </ul>
 </li>
 </ul>
-<h1>8 This is all well and good, but who has MP3 files anymore?</h1>
+<h2>8 This is all well and good, but who has MP3 files anymore?</h2>
 <p>You got me there! Spotify support isn't really something I can be<br>
 bothered messing with. Instead, I built my playlists from the Royalty<br>
 Free resources available at<br>
 <a href="https://pixabay.com/music/search/lofi/">Pixbay</a>, but for artists, you<br>
 are genuinely fond of you can actually support them by buying their<br>
 music through Bandcamp.</p>
-<h1>9 Technical Details</h1>
+<h2>9 Technical Details</h2>
 <h2>9.1 Frameworks</h2>
 <ul>
 <li>Both the backend and UI are written in Python
@@ -3597,7 +3598,7 @@ repo has a spare folder for GUI elements I designed, (then removed) to<br>
 get you started.</p>
 <p>The process also already has a command written for the next track. You<br>
 only need to add the UI element if you really want it.</p>
-<h1>10 Future Changes</h1>
+<h2>10 Future Changes</h2>
 <p>Future changes are unlikely because it currently fits my use case.<br>
 However for the sake of completeness, here is how I may extend the<br>
 application. - Custom theming. - At the moment I have a Catpuccino theme<br>
@@ -3613,7 +3614,7 @@ eventually.\</p>
 <ul>
 <li>GUI Support Cont: Implement a list feature for all the stations.</li>
 </ul>
-<h1>11 Conclusion</h1>
+<h2>11 Conclusion</h2>
 <p>The LoFi Terminal Radio aims to provide a distraction-free,<br>
 resource-efficient alternative to streaming background music. If you're<br>
 looking for a minimalist approach to your work soundtrack, give it a<br>
@@ -3627,7 +3628,7 @@ try! Feedback and contributions are always welcome.</p>
     <item>
       <title><![CDATA[RSS]]></title>
       <description><![CDATA[A short explainer on how to set-up your very own RSS feed]]></description>
-      <content:encoded><![CDATA[<h1>1 What Is RSS and why might your readers want it?</h1>
+      <content:encoded><![CDATA[<h2>1 What Is RSS and why might your readers want it?</h2>
 <p>The acronym for RSS is &quot;Really Simple Syndication&quot;. Essentially, it is a way better method of alerting your readers to your new blog posts, without requiring an email address.</p>
 <h2>1.1 How it works</h2>
 <p>Your users will have an RSS Reader. This program keeps a list of webpages to check every refresh period, and presents all the new articles to the user.</p>
@@ -3638,7 +3639,7 @@ try! Feedback and contributions are always welcome.</p>
 <li>&quot;I've never had my email address leaked in a data breach&quot;</li>
 </ul>
 <p>RSS beats email because it makes more sense. The user lets <strong>YOU</strong> know when they want to read, not the other way around. You don't need a long list of email addresses, and quite frankly you don't want one.</p>
-<h1>2 How to set it up:</h1>
+<h2>2 How to set it up:</h2>
 <p>All you need to setup an RSS feed is:</p>
 <ol>
 <li>Create a feed page for your website</li>
@@ -3739,7 +3740,7 @@ tag.</p>
 <h2>2.4 Linking the to the RSS Feed</h2>
 <p>Now that you have created the feed, you need a way to drive users to subscribe. All the user needs is the URL of the page you created.</p>
 <p>It is customary to use the RSS logo you can see at the bottom of my page to link it it. If you go ahead and click on it, you will see it brings you to an empty looking page. Thats because the page isn't for you. It is for the programs. So you can go ahead and copy and paste that logo into your RSS Reader to subscribe to me 😉.</p>
-<h1>3 Wrapping Up</h1>
+<h2>3 Wrapping Up</h2>
 <p>Thats all you need! Don't forget to add a new item to your feed when<br>
 you update your blog! No other maintenance needed. Feel free to use the button below for your RSS feed, and subscribe to my feed using the icon in my site's footer.</p>
 <p><img src="https://caffeineandlasers.com/Assets/rss-button.gif" alt="RSS Feed"></p>
@@ -3752,16 +3753,16 @@ you update your blog! No other maintenance needed. Feel free to use the button b
     <item>
       <title><![CDATA[Perceptibility]]></title>
       <description><![CDATA[Exploring the intersection of philosophy, psychology, and physics in understanding perception and the self.]]></description>
-      <content:encoded><![CDATA[<h1>Observing the observer: Perception in Philosophy Psychology and Physics</h1>
+      <content:encoded><![CDATA[<h2>Observing the observer: Perception in Philosophy Psychology and Physics</h2>
 <p><strong>What Do Descarte, Buddhists and Astrophysicists have in common?</strong></p>
-<h1>The Answer?</h1>
+<h2>The Answer?</h2>
 <p>To give a short answer. Fundamental appreciation of one's own<br>
 epistemologic limitations and an understanding of the self-referential<br>
 nature of perceiving one's existence.</p>
 <p>In non-jargon: They pay attention to what they are paying attention to.<br>
 In order to better understand this, lets take a brief tour through<br>
 philosphy, psychology and astrophysics.</p>
-<h1>Descartes Says: &quot;Cogito, Ergo Sum&quot; {#cogito-ergo-sum}</h1>
+<h2>Descartes Says: &quot;Cogito, Ergo Sum&quot; {#cogito-ergo-sum}</h2>
 <p><em>I think therefore I am</em></p>
 <p>A famous line everyone has heard before. Let's cover what Descartes<br>
 meant by this.</p>
@@ -3783,7 +3784,7 @@ it must still be true.</p>
 him) tried (and failed) to axiomatically reconstruct all of human<br>
 knowledge. This fundamental axiom remains unchanged. You exist, because<br>
 you can observe yourself.</p>
-<h1>Anthropic principle</h1>
+<h2>Anthropic principle</h2>
 <p>In 1973, Brandon Carter changed astrophysics forever when he coined the<br>
 &quot;Anthropic principle&quot;. This principle states that the fact that <em>we</em><br>
 exist, is a necessary condition for us to make observations about the<br>
@@ -3808,7 +3809,7 @@ age. If we weren't then we wouldn't exist to notice that it is a<br>
 golden age.</p>
 <p>The anthropic principle is invoked many times in astrophysics to explain<br>
 the remarkable coincidences we see in nature.</p>
-<h1>Mindfulness</h1>
+<h2>Mindfulness</h2>
 <p>Mental health practitioners, Buddhists, and plenty of wise people<br>
 recommend mindfulness for managing anxiety and depression. This practice<br>
 emphasizes observing one's thoughts and feelings from a detached<br>
@@ -3825,7 +3826,7 @@ that cause anxiety and depression.</p>
 by modern cognitive psychology. The practice of observing one's<br>
 thoughts as the physical process of natural laws is a powerful tool for<br>
 understandng ones place in the universe.</p>
-<h1>So what ties these things together?</h1>
+<h2>So what ties these things together?</h2>
 <p>The common thread linking these three concepts is the acknowledgment of<br>
 consciousness or subjective experience as a fundamental starting point<br>
 for understanding reality.</p>
@@ -3851,7 +3852,7 @@ Descartes isolates a singular perspective, and the Anthropic<br>
 Principle accounts for the observer's perspective in cosmological<br>
 theories.</li>
 </ol>
-<h1>Where else does the role of the observer come up in study?</h1>
+<h2>Where else does the role of the observer come up in study?</h2>
 <h2>Plato's Cave</h2>
 <p>Plato's Cave is a philosophical parable that addresses the nature of<br>
 reality and human perception. It is another concept very relevant to<br>
@@ -3905,7 +3906,7 @@ and &quot;reality&quot; as a ket<br>
 calculated as a probability by multiplying the two:<br>
 <img src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Clangle%7BO%7D%7C%7BR%7D%5Crangle%20%3D%20p%28O%29" alt="langle{O}{R}rangle =
 p(O)" title="\langle{O}|{R}\rangle = p(O)"></p>
-<h1>Concluding thoughts</h1>
+<h2>Concluding thoughts</h2>
 <p>To be completely honest, I don't know how to tie this blog post<br>
 together, other than noticing the interesting pattern of the role of the<br>
 observer in so many different fields.The act of decoupling the concept<br>
@@ -3931,7 +3932,7 @@ stay tuned for that!</p>
 <strong>M</strong>odulators (SLMs). This page is my attempt to share a little of what<br>
 I've learned, because it is such a cool technology that I hope others<br>
 get to work with.</p>
-<h1>1 What is an LCOS SLM?</h1>
+<h2>1 What is an LCOS SLM?</h2>
 <p>There are two acronyms here, so I will break it down into its composite<br>
 parts before I piece everything back together.</p>
 <h2>1.1 Liquid Crystals</h2>
@@ -3987,7 +3988,7 @@ the liquid crystal between a silicon chip and a conductive transparent<br>
 top glass. The silicon chip lets us apply a custom voltage anywhere in<br>
 the x-y plane. That is, we can create an arbitrary electric field<br>
 pattern across the liquid crystal.</p>
-<h1>2 Putting it all together {#putting-together-the-first-word}</h1>
+<h2>2 Putting it all together {#putting-together-the-first-word}</h2>
 <p>After all that, we are ready to understand what the device does. An LCoS<br>
 is a device that allows you to apply any refractive index profile you<br>
 want in an x-y plane. It does this by creating an arbitrary electric<br>
@@ -3997,7 +3998,7 @@ strength. This contraption allows you modulate the phase of incoming<br>
 light in space. This is why we call them a <strong>Spatial Light Modulator</strong>.</p>
 <p>In simple English. This is a lens, that we can reshape into any optical<br>
 configuration from a computer.</p>
-<h1>3 Applications</h1>
+<h2>3 Applications</h2>
 <p>There are a surprising number of applications for LCOS SLMs, from Beam<br>
 Steering, to <a href="https://arxiv.org/abs/1202.2078">photographing through walls and around<br>
 corners</a>, but I want to talk about<br>
@@ -4048,7 +4049,7 @@ were able to take photos around corners by photographing white paint,<br>
 and through &quot;privacy&quot; glass. <img src="lookingAroundCorners.png" alt="extract of a scientific paper, showing
 the pheomena"> Credit: <a href="https://arxiv.org/abs/1202.2078">Katz, O.<br>
 (2012)</a></p>
-<h1>4 Conclusion</h1>
+<h2>4 Conclusion</h2>
 <p>I hope you enjoyed this short introduction to my niche area of interest.<br>
 There are plenty of cool applications for LCoS in the world of research<br>
 and engineering, and if you ever get the chance to work with the, I<br>
@@ -4067,7 +4068,7 @@ would highly recommend it.</p>
 Optics class in 2022. I found it in my notes and did not bother to<br>
 re-read it before uploading. Feel free to yell at me if I've made any<br>
 mistakes.</p>
-<h1>From Student To Industry</h1>
+<h2>From Student To Industry</h2>
 <p>Good afternoon everyone, my name is Cameron, I am a somewhat recent hire<br>
 at Finisar, so I was sitting in your seat only a few years ago. Today I<br>
 am going to talk about some of the things I noticed going from studying<br>
@@ -4213,13 +4214,13 @@ used to explaining your work and understanding the work of others.</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/fromStudentToIndustry.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/fromStudentToIndustry.html</guid>
-      <pubDate>Sun, 28 July 2024 10:00:00 +1000</pubDate>
+      <pubDate>Sun, 28 Jul 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title><![CDATA[Anatomy of the Espresso]]></title>
       <description><![CDATA[What even is an espresso?]]></description>
-      <content:encoded><![CDATA[<h1>1 Anatomy of the Espresso</h1>
+      <content:encoded><![CDATA[<h2>1 Anatomy of the Espresso</h2>
 <p>There are dozens of methods of brewing coffee, from the humble filter,<br>
 plunger, aeropress and cold brew. But here in Australia, when we hear<br>
 &quot;coffee&quot;, we think espresso. There is a lot of mysticism around coffee<br>
@@ -4249,7 +4250,7 @@ dissolve the flavour compounds.</p>
 <p>The combination of these two factors is what allows the incredibly rich<br>
 and concentrated nature of the espresso, and it is these factors we keep<br>
 in mind when exploring how espresso works.</p>
-<h1>2 Flavour</h1>
+<h2>2 Flavour</h2>
 <h2>2.1 Taste and Aromatics</h2>
 <p>Like many natural products (e.g. beer and wine) it is important to<br>
 consider taste and flavour differently. Taste is the 5 basic tastes,<br>
@@ -4299,7 +4300,7 @@ concentration of flavour per mL)</p>
 <p>A strong Espresso is more viscous than water, owing to the significant<br>
 fraction of oils suspended in the solution. This gives an Espresso its<br>
 texture (or as the weirdos call it &quot;Mouthfeel&quot;)</p>
-<h1>3 Parameters Baristas Measure and Control</h1>
+<h2>3 Parameters Baristas Measure and Control</h2>
 <p>An espresso &quot;recipe&quot; is three numbers: 1. Dose 2. Yield 3. Time. When a<br>
 barista wants to replicate the taste of espresso days apart, they<br>
 attempt to replicate these numbers.</p>
@@ -4348,25 +4349,25 @@ barista changes during service, this leaves resistance as the variable.</p>
 barista's control are dose and coarseness. Since the other factors<br>
 change over the course of the day, so will the coarseness have to change<br>
 to account for these differences.</p>
-<h1>4 Dialing in the espresso</h1>
+<h2>4 Dialing in the espresso</h2>
 <p>The process of making an espresso taste good, is the process of<br>
 exploring the parameter space in order balance extraction and maximise<br>
 strength, by adjusting dose, yield and grinder settings. .</p>
-<h1>5 Conclusion</h1>
+<h2>5 Conclusion</h2>
 <p>And that's it! That is all the information you need to know to<br>
 understand what the hell those weird coffee nerds are talking about, or<br>
 maybe level up your own coffee :)</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/20240725T075059.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/20240725T075059.html</guid>
-      <pubDate>Thu, 25 July 2024 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 25 Jul 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
       <title><![CDATA[RSS For Reddit]]></title>
       <description><![CDATA[Learn how to use RSS to improve your Reddit experience by subscribing to subreddits anonymously and avoiding the Infinite Sludge Algorithm.]]></description>
       <content:encoded><![CDATA[<p><strong>UPDATE</strong> I built a widget to generate the feed url for you. See it <a href="/reddit-rss.html">here</a></p>
-<h1>1 How and Why to Use RSS to Improve Your Reddit UX</h1>
+<h2>1 How and Why to Use RSS to Improve Your Reddit UX</h2>
 <p>Did you know you can subscribe to subreddits via RSS? Maybe you did, but did you know it’s the best way to use Reddit without getting sucked into the Enshittified Torment Nexus™️?</p>
 <p>It seems like it's only a matter of time before reddit plugs that gap to force you further into the enshittified platform. One last dance on Aaron Swartz's grave. So lets make the most of it while the feeds still exist.</p>
 <p>If you don't know the Good News about RSS. Go and check out Cory Doctorow's <a href="https://pluralistic.net/2024/10/16/keep-it-really-simple-stupid/#read-receipts-are-you-kidding-me-seriously-fuck-that-noise">blogpost</a>, and then come back.</p>
@@ -4381,7 +4382,7 @@ maybe level up your own coffee :)</p>
 <h2>1.2 How Can RSS Save Your Reddit Experience?</h2>
 <p>Using RSS, you can subscribe to <em>only</em> the communities you want to hear from and browse them anonymously until you choose to open them in your browser to interact.</p>
 <p>No more endless algorithm of slop. Just the content you previously decided you wanted to see.</p>
-<h1>2 How Do I do it?</h1>
+<h2>2 How Do I do it?</h2>
 <h2>2.1 Get Everything With No Sorting</h2>
 <p>You can simply add <code>.rss</code> to the end of any subreddit URL to get an RSS feed of that subreddit's most recent posts. For example:</p>
 <p><code>https://www.reddit.com/r/LocalLLaMA.rss</code></p>
@@ -4394,7 +4395,7 @@ Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will
 <p><strong>Other Filters:</strong>  You can also filter by their other sorting algorithms, e.g. rising <code>https://reddit.com/r/technology/rising/.rss</code> or if you are insane, by controversial <code>https://reddit.com/r/politics/controversial/.rss</code></p>
 <p><strong>Private RSS Feeds</strong>: You can even subscribe to an RSS feed for your entire accounts front page! The Old Reddit website still has options for your private feeds <a href="https://www.reddit.com/prefs/feeds/">Reddit Private RSS Feeds</a> from here you can get an RSS feed of your front page as well as your inbox, or moderator options.</p>
 <p><em>Considering these options only seem to appear on Old Reddit, I am not sure how much longer they will be supported. Lets See</em></p>
-<h1>3 Wrapping Up</h1>
+<h2>3 Wrapping Up</h2>
 <p>Using RSS to browse reddit is the best of both worlds – I don't need to quit Reddit and leave those communities but I can still avoid getting sucked into the Enshittified Torment Nexus™️.</p>
 <p>Give it a shot. Your sanity might just thank you for it.</p>
 <h2>3.1 Example RSS links</h2>
@@ -4602,7 +4603,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/life-as-no-one-knows-it.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/life-as-no-one-knows-it.html</guid>
-      <pubDate>Mon, 01 Sept 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4616,7 +4617,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/algospeak.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/algospeak.html</guid>
-      <pubDate>Mon, 01 Sept 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4672,7 +4673,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/no-power-greater-a-history-of-union-action-in-australia.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/no-power-greater-a-history-of-union-action-in-australia.html</guid>
-      <pubDate>Tue, 01 July 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4686,7 +4687,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-happiness-of-dogs-why-the-unexamined-life-is-the-most-worth-living.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-happiness-of-dogs-why-the-unexamined-life-is-the-most-worth-living.html</guid>
-      <pubDate>Sun, 01 June 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4854,7 +4855,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-internet-con-how-to-seize-the-means-of-computation.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-internet-con-how-to-seize-the-means-of-computation.html</guid>
-      <pubDate>Mon, 01 July 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>

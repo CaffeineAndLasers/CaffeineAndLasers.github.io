@@ -12,7 +12,7 @@ Optics class in 2022. I found it in my notes and did not bother to
 re-read it before uploading. Feel free to yell at me if I\'ve made any
 mistakes.
 
-# From Student To Industry
+## From Student To Industry
 
 Good afternoon everyone, my name is Cameron, I am a somewhat recent hire
 at Finisar, so I was sitting in your seat only a few years ago. Today I

@@ -14,7 +14,7 @@ Once again repurposing the corporate webs ideas as my own. Here is MY 2025 wrapp
 
 Okay to the list;
 
-# 1 Album
+## 1 Album
 
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.25rem;">Creeper - Sanguivore II: Mistress of Death</p>
@@ -23,7 +23,7 @@ Okay to the list;
 </div>
 
 
-# 2 Book
+## 2 Book
 
 <div style="display:flex;flex-wrap:wrap;gap:2.5rem;margin:2.5rem 0;align-items:flex-start;justify-content:center;">
 	<section style="flex:1 1 280px;max-width:420px;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
@@ -45,7 +45,7 @@ Okay to the list;
 </div>
 
 
-# 3 Youtube
+## 3 Youtube
 
 
 <div style="display:flex;flex-wrap:wrap;gap:2.5rem;margin:2.5rem 0;justify-content:center;align-items:stretch;">
@@ -70,7 +70,7 @@ Okay to the list;
 	</section>
 </div>
 
-# 4 Blog
+## 4 Blog
 
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0;font-weight:600;font-size:1.15rem;">
@@ -80,7 +80,7 @@ Okay to the list;
 	</div>
 
 
-# 5 Videogame
+## 5 Videogame
 
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.25rem;">Death Stranding 2</p>
@@ -90,7 +90,7 @@ Okay to the list;
 	<iframe data-testid="embed-iframe" style="border-radius:12px;width:100%;max-width:100%;box-shadow:0 12px 30px rgba(15,23,42,0.12);" src="https://open.spotify.com/embed/track/3L5GClQnpdAMqKM0YK7WH9?utm_source=generator&theme=0" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 
-# 6 Podcast
+## 6 Podcast
 
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.25rem;">Fathom</p>
@@ -100,7 +100,7 @@ Okay to the list;
 </div>
 
 
-# 7 TV 
+## 7 TV
 
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.25rem;">Only Murders in the Building</p>
@@ -109,7 +109,7 @@ Okay to the list;
 </div>
 
 
-# 8 Research (Not professionally related)
+## 8 Research (Not professionally related)
 
 <div style="max-width:700px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:2rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:left;">
 	<p style="margin:0 0 1rem;font-weight:600;font-size:1.25rem;text-align:center;">Ultra miniature pacemaker</p>
@@ -118,7 +118,7 @@ Okay to the list;
 	<img src="../Assets/8732db15237c6e3df2b2b67f931483fa.png" alt="Ultraminiature pacemaker concept illustration" style="display:block;margin:0 auto;max-width:100%;width:auto;height:auto;max-height:360px;object-fit:contain;border-radius:16px;box-shadow:0 18px 45px rgba(15,23,42,0.18);" />
 </div>
 
-# 9 Live Event
+## 9 Live Event
 
 <div style="max-width:640px;margin:2.5rem auto;background:var(--card-bg,rgba(15,23,42,0.04));padding:1.75rem;border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,0.12);text-align:center;">
 	<p style="margin:0 0 1.5rem;font-weight:600;font-size:1.15rem;">California Girls, Grasps, Rebel Yell and Marcus Whale performing at Lazy Thinking</p>

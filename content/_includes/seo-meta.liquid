@@ -1,0 +1,33 @@
+{%- capture resolvedTitle -%}{%- if title -%}{{ title }}{%- else -%}{{ site.name }}{%- endif -%}{%- endcapture -%}
+{%- if description -%}
+{%- assign resolvedDescription = description -%}
+{%- elsif page.url contains "/books/" -%}
+{%- capture resolvedDescription -%}Review of {{ title }}{%- if author %} by {{ author }}{%- endif %}.{%- endcapture -%}
+{%- else -%}
+{%- assign resolvedDescription = site.description -%}
+{%- endif -%}
+{%- assign absoluteUrl = site.url | append: page.url -%}
+
+<meta name="description" content="{{ resolvedDescription | strip | xml_escape }}">
+<meta name="author" content="{{ site.author | xml_escape }}">
+<meta property="og:title" content="{{ resolvedTitle | strip | xml_escape }}">
+<meta property="og:description" content="{{ resolvedDescription | strip | xml_escape }}">
+<meta property="og:type" content="{% if date %}article{% else %}website{% endif %}">
+<meta property="og:url" content="{{ absoluteUrl }}">
+<meta property="og:site_name" content="{{ site.name | xml_escape }}">
+<meta property="og:image" content="{{ socialImage | default: site.defaultImage }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ resolvedTitle | strip | xml_escape }}">
+<meta name="twitter:description" content="{{ resolvedDescription | strip | xml_escape }}">
+<meta name="twitter:image" content="{{ socialImage | default: site.defaultImage }}">
+{%- if date %}
+<meta property="article:published_time" content="{{ date | date: "%Y-%m-%dT%H:%M:%SZ" }}">
+{%- endif %}
+{%- if updated %}
+<meta property="article:modified_time" content="{{ updated | date: "%Y-%m-%dT%H:%M:%SZ" }}">
+{%- endif %}
+{%- if tags %}
+{%- for tag in tags %}
+<meta property="article:tag" content="{{ tag | xml_escape }}">
+{%- endfor %}
+{%- endif %}

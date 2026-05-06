@@ -8,7 +8,7 @@ tags:
 nesting: "../"
 ---
 
-# {{ title }}
+## {{ title }}
 
 
 It has almost become a cliche amongst a certain kind of PhD student to explain
@@ -28,7 +28,7 @@ This isn't for any political or philosophical reason. It’s simply because I
 understand things better when I put them in my own words, and my Vault is only
 for things I _have_ understood.
 
-# 1 Technologies
+## 1 Technologies
 
 ## 1.1 Obsidian
 <img src="/Assets/ObsidianLogo.png" alt="Obsidian Logo"
@@ -81,7 +81,7 @@ This networked Access Storage Device, is where all my local backups go. It is es
 
 I use automatic backups to move everything important onto this regularly.
 
-# 2 The workflow!
+## 2 The workflow!
 
 ## 2.1 Literature Review
 
@@ -141,7 +141,7 @@ I have notes for people – coworkers, networking contacts, etc. Not much usuall
 
 When I take notes during a meeting, the first thing I do is link to the people notes for all attendees. This lets me quickly check every meeting I’ve had with someone by looking at their person note and checking the backlinks.
 
-# 3 Making Sense of the Chaos
+## 3 Making Sense of the Chaos
 
 Okay, so that’s how I get knowledge **into** my system. How do I get it **out**?
 Links, mostly!
@@ -173,7 +173,7 @@ With any hope, this lets me do research and close the loop!
 
 ![](/Assets/PKM_Flowchart.png)
 
-# Conclusions
+## Conclusions
 This is just a broad overview of physically **HOW** I do my research.
 Maybe at some point later I will dive deeper into my philosphy of what deserves
 a note and how I go about learning. But that is for another  time.

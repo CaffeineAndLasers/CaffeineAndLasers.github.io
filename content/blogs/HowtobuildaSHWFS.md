@@ -26,7 +26,7 @@ In addition to the microlens array and camera, you will also need a couple of op
 
 The rest of this post walks through the build process, from selecting components through alignment. I've organized it as a series of steps, though in practice you'll likely bounce between them as your constraints evolve.
 
-# Build Process 
+## Build Process
 
 ## Step 1: Setup a Kanban Board and collect your constraints
 
@@ -334,7 +334,6 @@ At this point you should have:
 	}
 })();
 </script>
-
 
 
 

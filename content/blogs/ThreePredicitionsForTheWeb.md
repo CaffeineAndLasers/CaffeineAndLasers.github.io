@@ -21,7 +21,7 @@ The theme for this months [IndieWeb Carnival](https://indieweb.org/IndieWeb_Carn
 
 **Note:** To be honest, I actually have no idea how many readers I have - no tracking ofc - though I am confident it is at least 3, because that's how many emails I have received from readers lol)
 
-# 1 Predictions 
+## 1 Predictions
 
 ## 1.1 The Optimistic
 
@@ -79,7 +79,7 @@ This global lockdown takes the indieweb down with them. Owning a website will re
 
 As a result the entire concept of the indieweb becomes a niche article on Wikipedia with a particularly angry discussion section between its editors, all of whom claim to be authorities because they were part of it back in its heyday.
 
-# 2 Conclusion
+## 2 Conclusion
 I really hope my pessimistic predictions do not come true, but it is hard not to be nervous about it while living in Australia with our [new teen social media ban](https://www.abc.net.au/news/2025-12-04/when-is-the-teen-social-media-ban-what-apps-are-banned/106086152) and all its associated privacy risks. While I put my most optimistic predictions about adversarial interop as unlikely, I do not  think it is impossible. A good political movement with the right spark could definately bring it about. It used to be the norm after all. 
 
 Finally, one bonus prediction from [Saturday Morning Breakfast Cereal](https://www.smbc-comics.com/) 
@@ -87,5 +87,5 @@ Finally, one bonus prediction from [Saturday Morning Breakfast Cereal](https://w
 ![](../Assets/fb505195de961dfa92619b66359994b9.png)
 [Link](https://www.smbc-comics.com/comic/daisy)
 
-# 3 Further Reading:
+## 3 Further Reading:
 - Only one item on my list this time and that is [Cory Doctorow's "The Internet Con"](https://craphound.com/category/internetcon/). He clearly inspired a lot of my thoughts here, as evident by THREE citations he got in one blogpost, but he also puts forward a thorough plan on how to achieve my most optimistic predictions in his book.

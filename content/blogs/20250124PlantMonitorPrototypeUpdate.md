@@ -11,7 +11,7 @@ tags:
 
 
 
-# My Wireless Plant Monitor! (Prototype)
+## My Wireless Plant Monitor! (Prototype)
 
 I just wanted to do a quick write-up on a side project I'm working on and share photos of an early prototype.
 
@@ -41,7 +41,7 @@ Why not just buy something, use an existing framework, check my plants myself, d
 
 Because I wanted to build something myself, and see how it works.
 
-# 2 Requirements
+## 2 Requirements
 I wanted my device to have the following characteristics
 
 - Communicate wirelessly.
@@ -58,7 +58,7 @@ I wanted my device to have the following characteristics
 	- The device should last at least a month on a set of batteries.
 	- The device should be powered by disposable alkaline batteries (this is personal preference for convenience, safety, and scalability).
 
-# 3 How I built it
+## 3 How I built it
 ## 3.1 Getting the electronics and sensors working
 
 The first step was to get the physical bits and bobs working and playing nicely together. I threw all the components on a breadboard, plugged the sensor into my microcontroller's ADC, wrote a basic script to print the reading to serial and shut down. Then I tested it on USB power, and then on battery power using the timer. Easy!
@@ -113,7 +113,7 @@ This is what I ended up with!
 
 ![](/Assets/20240124PlantMonitorDashboard.png)
 
-# 4 Improvements for V2
+## 4 Improvements for V2
 I am sharing the current state of the project, but I wouldn't recommend copying it *just* yet (at least without a lot of modification). Here is how I plan on improving V2
 
 ## 4.1 Device housing and footprint design

@@ -31,7 +31,7 @@ Then I "wrote"\* a quick bit of Javascript for use in my Node environment. It
 4. Does a bit of regex to fix the wikilinks and re-link them to the correct location in my website directory
 5. Saves everything where it needs to go.
 
-# 1 Putting it all together.
+## 1 Putting it all together.
 
 Now all I need to do to get a post out of obsidian and into my website is
 - 1. Hit the markdown export plugin in Obsidian

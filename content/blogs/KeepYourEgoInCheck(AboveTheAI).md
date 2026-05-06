@@ -9,7 +9,7 @@ tags:
   - Technology
 ---
 
-# Keep Your Ego In Check (Above The Robots)
+## Keep Your Ego In Check (Above The Robots)
 
 In order to use LLMs effectively, you need a bigger ego than the AI. That's the secret.
 

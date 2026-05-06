@@ -7,11 +7,11 @@ tags:
   - Physics
   - Science
 ---
-# Observing the observer: Perception in Philosophy Psychology and Physics
+## Observing the observer: Perception in Philosophy Psychology and Physics
 
 **What Do Descarte, Buddhists and Astrophysicists have in common?**
 
-# The Answer?
+## The Answer?
 
 To give a short answer. Fundamental appreciation of one\'s own
 epistemologic limitations and an understanding of the self-referential
@@ -21,7 +21,7 @@ In non-jargon: They pay attention to what they are paying attention to.
 In order to better understand this, lets take a brief tour through
 philosphy, psychology and astrophysics.
 
-# Descartes Says: \"Cogito, Ergo Sum\" {#cogito-ergo-sum}
+## Descartes Says: \"Cogito, Ergo Sum\" {#cogito-ergo-sum}
 
 *I think therefore I am*
 
@@ -52,7 +52,7 @@ him) tried (and failed) to axiomatically reconstruct all of human
 knowledge. This fundamental axiom remains unchanged. You exist, because
 you can observe yourself.
 
-# Anthropic principle
+## Anthropic principle
 
 In 1973, Brandon Carter changed astrophysics forever when he coined the
 \"Anthropic principle\". This principle states that the fact that *we*
@@ -82,7 +82,7 @@ golden age.
 The anthropic principle is invoked many times in astrophysics to explain
 the remarkable coincidences we see in nature.
 
-# Mindfulness
+## Mindfulness
 
 Mental health practitioners, Buddhists, and plenty of wise people
 recommend mindfulness for managing anxiety and depression. This practice
@@ -104,7 +104,7 @@ by modern cognitive psychology. The practice of observing one\'s
 thoughts as the physical process of natural laws is a powerful tool for
 understandng ones place in the universe.
 
-# So what ties these things together?
+## So what ties these things together?
 
 The common thread linking these three concepts is the acknowledgment of
 consciousness or subjective experience as a fundamental starting point
@@ -132,7 +132,7 @@ Specifically:
     Principle accounts for the observer\'s perspective in cosmological
     theories.
 
-# Where else does the role of the observer come up in study?
+## Where else does the role of the observer come up in study?
 
 ## Plato\'s Cave
 
@@ -200,7 +200,7 @@ calculated as a probability by multiplying the two:
 p(O)](https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Clangle%7BO%7D%7C%7BR%7D%5Crangle%20%3D%20p%28O%29 "\langle{O}|{R}\rangle = p(O)")
 
 
-# Concluding thoughts
+## Concluding thoughts
 
 To be completely honest, I don\'t know how to tie this blog post
 together, other than noticing the interesting pattern of the role of the

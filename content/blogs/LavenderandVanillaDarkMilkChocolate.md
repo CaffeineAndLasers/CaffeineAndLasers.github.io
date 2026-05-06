@@ -78,7 +78,7 @@ The strength of the butter was a real emotional roller coaster for me. I grabbed
 
 Anyway, very happy with the result. These will form the basis for all my gifting for the next month or so. 
 
-# Recipe Card:
+## Recipe Card:
 
 <style>
   /* Mobile overrides scoped to the recipe card */

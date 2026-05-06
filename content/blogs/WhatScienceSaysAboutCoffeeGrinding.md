@@ -8,7 +8,7 @@ tags:
   - FoodAndDrink
   - Science
 ---
-# Four Coffee Observations in Two Studies
+## Four Coffee Observations in Two Studies
 
 There is something beautiful about scientists being given the freedom to
 apply their skills to passion projects. High-impact science is valuable,
@@ -167,7 +167,7 @@ to extremely low temperatures and then warmed back up to room
 temperature behaves just like coffee that was never cooled in the first
 place.
 
-# 3. So what did we learn?
+## 3. So what did we learn?
 
 The actionable takeaways from this mini deep dive are:
 
@@ -185,7 +185,7 @@ If you know of any novel research on coffee, let me know! My email is in
 the "Contact Me" section of my website, and my Mastodon handle is on the
 sidebar.
 
-# 3 Sources
+## 3 Sources
 
 Harper, J.M., Hendon, C.H., 2023. Chemical strategies to mitigate
 electrostatic charging during coffee grinding.

@@ -1,5 +1,6 @@
 ---
 title: /about
+description: About Cameron Jones, a PhD student in Australia working on lasers, optics, satellite communications, and personal web projects.
 layout: default.liquid
 ---
 

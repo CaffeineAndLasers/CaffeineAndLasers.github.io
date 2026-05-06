@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Automating Your RSS Feed with 11ty</title>
+    <meta name="description" content="Here is a quick write-up on how to automate a little more of your personal website.">
+<meta name="author" content="Cameron Jones">
+<meta property="og:title" content="Automating Your RSS Feed with 11ty">
+<meta property="og:description" content="Here is a quick write-up on how to automate a little more of your personal website.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://caffeineandlasers.com/blogs/automatingYourRSS.html">
+<meta property="og:site_name" content="Caffeine and Lasers">
+<meta property="og:image" content="https://caffeineandlasers.com/Assets/CaffineANdLasers.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Automating Your RSS Feed with 11ty">
+<meta name="twitter:description" content="Here is a quick write-up on how to automate a little more of your personal website.">
+<meta name="twitter:image" content="https://caffeineandlasers.com/Assets/CaffineANdLasers.svg">
+<meta property="article:published_time" content="2025-03-17T11:00:00Z">
+<meta property="article:modified_time" content="2025-09-05T10:00:00Z">
+<meta property="article:tag" content="Technology">
+<meta property="article:tag" content="Webmastery">
+
     <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" href="/styles.css?nocache=1777388882459">
+  <link rel="stylesheet" href="/styles.css?nocache=1778031327069">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="https://caffeineandlasers.com/blogs/automatingYourRSS.html">
@@ -37,6 +54,7 @@
     </script>
 </head>
 
+<body>
 <div id="container"><div id="header"></div>
     <div id="headerArea">
     <nav id="navbar" style="margin-bottom: 0px;"><ul>
@@ -120,11 +138,11 @@
   <p><strong>Last Updated:</strong> 2025-09-05</p>
 </div>
 
-<h1>1 Background</h1>
+<h2>1 Background</h2>
 <p>A while back, I wrote a quick explainer on how to set up your own RSS feed for your site. It was pretty straightforward, and showed you how to hard-code it.</p>
 <p>Then I got lazy, updating the <code>feed.xml</code>  file every time I wrote a blog post was becoming a pain.</p>
 <p>To resolve this, I opted to use 11ty to auto-update the RSS feed every time I added a new blog-post. This very post will get auto-updated to the RSS feed. I already used 11ty for automating other parts of my site, so this was just a natural extension.</p>
-<h1>2 Setting Up Your Environment</h1>
+<h2>2 Setting Up Your Environment</h2>
 <h2>2.1 Setting Up Eleventy</h2>
 <p>Go follow <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial">PetraPixels Tutorial</a> she explains it better than me. From here I will assume you have it set-up somewhat like hers? Deal? Deal!</p>
 <h2>2.2 Your Folder Structure</h2>
@@ -140,7 +158,7 @@
 ----&gt; All the files that 11ty generates
 </code></pre>
 <hr>
-<h1>3 Creating Your RSS Template</h1>
+<h2>3 Creating Your RSS Template</h2>
 <p>Okay, you did everything and followed Petra's advice? Okay good. Now let's add the required properties to all our blogposts. For every post let's upate the yaml:</p>
 <hr>
 <pre><code class="language-yaml">---
@@ -164,7 +182,7 @@ layout: blogpost.liquid
 ---
 </code></pre>
 <hr>
-<h1>4 Update your .eleventy.js File</h1>
+<h2>4 Update your .eleventy.js File</h2>
 <p>We are adding two more functions to the <code>.eleventy.js</code> file. The first one <code>addCollection</code> just looks for the folder of blog posts, and grabs all the <code>html</code>  file (or <code>md</code> files). This is used by the template later. The second just formats the dates nicely.</p>
 <hr>
 <pre><code class="language-js">module.exports = function (eleventyConfig) {
@@ -186,7 +204,7 @@ layout: blogpost.liquid
 };
 </code></pre>
 <hr>
-<h1>5 Update the Feed File</h1>
+<h2>5 Update the Feed File</h2>
 <p>Final step! let's fix up your feed. Create or edit your rss feed file. Mine is <code>feed.xml</code></p>
 <hr>
 <pre><code class="language-html">---
@@ -215,7 +233,7 @@ eleventyExcludeFromCollections: true
 </code></pre>
 <hr>
 <p>What is going on here? The important bit is in-between  <code>\{\% for post in collections.blogPosts \%\}</code> and <code>{\% endfor \%\}</code>. This section tells 11ty to go through all the files in the  blogs directory, and generates an RSS entry from all those properties  we went through and added earlier.</p>
-<h1>6 Extension: Automating other parts of your page!</h1>
+<h2>6 Extension: Automating other parts of your page!</h2>
 <p>There is no reason to limit ourselves to automating the RSS page.</p>
 <h2>6.1 Every Blogpost in bullet points</h2>
 <p>Here is a html snippet which will tell 11ty to put every blog post in your folder in dot-points. Use your CSS skills to snazzy it up using the <code>blog-posts-container</code> class.</p>
@@ -310,7 +328,7 @@ eleventyExcludeFromCollections: true
     </div>
 </footer>
 
-<script src="/scripts.js?nocache=1777388882459"></script>
+<script src="/scripts.js?nocache=1778031327069"></script>
 <button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">🌙 Dark</button>
+</body>
 </html>
-

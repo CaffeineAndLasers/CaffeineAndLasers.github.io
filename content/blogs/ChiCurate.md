@@ -7,7 +7,7 @@ tags:
     - Technology
     - Projects
 ---
-# Introducing ChiCurate: Your Personalized ArXiv Feed
+## Introducing ChiCurate: Your Personalized ArXiv Feed
 
 In the fast-paced world of scientific research, staying up-to-date with
 the latest publications is crucial. However, with hundreds of papers

@@ -5,7 +5,7 @@ description: Just raving about a couple audio-ficiton podcasts I have been liste
 layout: note.liquid
 ---
 
-# Podcast is the best medium for horror fiction
+## Podcast is the best medium for horror fiction
 
 If you ever watch horror movies, you know that the anticipation is scarier than the reveal. The scraping noise against the window beats the monster reveal on the terror factor every time. This is the mistake that bad horror movies make when they reveal their monster too early.
 

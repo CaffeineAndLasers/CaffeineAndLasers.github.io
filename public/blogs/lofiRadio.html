@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LoFi Terminal</title>
+    <meta name="description" content="A minimalist audio player that does its job without any frills.">
+<meta name="author" content="Cameron Jones">
+<meta property="og:title" content="LoFi Terminal">
+<meta property="og:description" content="A minimalist audio player that does its job without any frills.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://caffeineandlasers.com/blogs/lofiRadio.html">
+<meta property="og:site_name" content="Caffeine and Lasers">
+<meta property="og:image" content="https://caffeineandlasers.com/Assets/CaffineANdLasers.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LoFi Terminal">
+<meta name="twitter:description" content="A minimalist audio player that does its job without any frills.">
+<meta name="twitter:image" content="https://caffeineandlasers.com/Assets/CaffineANdLasers.svg">
+<meta property="article:published_time" content="2024-08-11T10:00:00Z">
+<meta property="article:tag" content="Technology">
+<meta property="article:tag" content="Projects">
+
     <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" href="/styles.css?nocache=1777388882459">
+  <link rel="stylesheet" href="/styles.css?nocache=1778031327069">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="https://caffeineandlasers.com/blogs/lofiRadio.html">
@@ -37,6 +53,7 @@
     </script>
 </head>
 
+<body>
 <div id="container"><div id="header"></div>
     <div id="headerArea">
     <nav id="navbar" style="margin-bottom: 0px;"><ul>
@@ -120,13 +137,13 @@
   <p><strong>Last Updated:</strong> </p>
 </div>
 
-<h1>1 Announcing My LoFi Terminal Radio</h1>
+<h2>1 Announcing My LoFi Terminal Radio</h2>
 <p>This was a short weekend project I threw together to replace the<br>
 perpetually open YouTube Tab for <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study<br>
 to</a>. The result? A<br>
 minimalist audio player that does its job without any frills. Here's<br>
 why I created it and how it works.</p>
-<h1>2 What is it</h1>
+<h2>2 What is it</h2>
 <p>In short, it is an audio player with a very specific emphasis on<br>
 being: - minimalist - distraction-free You cannot select tracks, replay<br>
 tracks or go to the next track. This is a feature, not a shortcoming. If<br>
@@ -134,7 +151,7 @@ you want different music, change the station.</p>
 <p>The aim of this is to provide an experience akin to radio. You can turn<br>
 it on, change the volume and switch the channel, but the programming is<br>
 up to the DJ.</p>
-<h1>3 Why Design it like this</h1>
+<h2>3 Why Design it like this</h2>
 <p>This program isn't to replace your spotify or main music player.<br>
 Instead it is to replace your <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study<br>
 to</a> Youtube tab that stays<br>
@@ -152,7 +169,7 @@ super-overkill for listening to music. It wastes network bandwidth,<br>
 computer memory, and CPU cycles. On top of this, it removes the<br>
 distraction of fiddling with playlists but replaces it with the visual<br>
 clutter of an unnecessary browser tab next to your actual work</p>
-<h1>4 My Solution</h1>
+<h2>4 My Solution</h2>
 <p>A tool to replace this should have 1. No way to select tracks or<br>
 configure playlists from the UI 2. Stay out of the way when you aren't<br>
 using it</p>
@@ -161,10 +178,10 @@ out of the way. Especially when I leave it running in my <a href="https://extens
 Terminal</a><br>
 extension for GNOME.</p>
 <p><img src="lofiRadio.png" alt="Screenshot of the UI"></p>
-<h1>5 Where Do I install it?</h1>
+<h2>5 Where Do I install it?</h2>
 <p>Install instructions at <a href="https://github.com/CJones-Optics/lofi-player">My<br>
 Repo</a></p>
-<h1>6 Customising it</h1>
+<h2>6 Customising it</h2>
 <h2>6.1 Colours!</h2>
 <p>The UI is determined by css, with the colours defined at the top of the<br>
 file. Change your colour scheme to whatever you want just by changing<br>
@@ -172,7 +189,7 @@ the hex codes at the top of the css file.</p>
 <h2>6.2 Keybindings!</h2>
 <p>Don't like vim? Iwon't hold it against you. There is a simple text<br>
 file of the keybindings. Change the key to whatever you need.</p>
-<h1>7 Does it work on:</h1>
+<h2>7 Does it work on:</h2>
 <ul>
 <li>Linux
 <ul>
@@ -194,14 +211,14 @@ fixed when I get around to it.</li>
 </ul>
 </li>
 </ul>
-<h1>8 This is all well and good, but who has MP3 files anymore?</h1>
+<h2>8 This is all well and good, but who has MP3 files anymore?</h2>
 <p>You got me there! Spotify support isn't really something I can be<br>
 bothered messing with. Instead, I built my playlists from the Royalty<br>
 Free resources available at<br>
 <a href="https://pixabay.com/music/search/lofi/">Pixbay</a>, but for artists, you<br>
 are genuinely fond of you can actually support them by buying their<br>
 music through Bandcamp.</p>
-<h1>9 Technical Details</h1>
+<h2>9 Technical Details</h2>
 <h2>9.1 Frameworks</h2>
 <ul>
 <li>Both the backend and UI are written in Python
@@ -233,7 +250,7 @@ repo has a spare folder for GUI elements I designed, (then removed) to<br>
 get you started.</p>
 <p>The process also already has a command written for the next track. You<br>
 only need to add the UI element if you really want it.</p>
-<h1>10 Future Changes</h1>
+<h2>10 Future Changes</h2>
 <p>Future changes are unlikely because it currently fits my use case.<br>
 However for the sake of completeness, here is how I may extend the<br>
 application. - Custom theming. - At the moment I have a Catpuccino theme<br>
@@ -249,7 +266,7 @@ eventually.\</p>
 <ul>
 <li>GUI Support Cont: Implement a list feature for all the stations.</li>
 </ul>
-<h1>11 Conclusion</h1>
+<h2>11 Conclusion</h2>
 <p>The LoFi Terminal Radio aims to provide a distraction-free,<br>
 resource-efficient alternative to streaming background music. If you're<br>
 looking for a minimalist approach to your work soundtrack, give it a<br>
@@ -310,7 +327,7 @@ try! Feedback and contributions are always welcome.</p>
     </div>
 </footer>
 
-<script src="/scripts.js?nocache=1777388882459"></script>
+<script src="/scripts.js?nocache=1778031327069"></script>
 <button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">🌙 Dark</button>
+</body>
 </html>
-

@@ -151,7 +151,7 @@ As Nietzsche would put it:
   "He who has a why to live can bear almost any how" 
 </div>
 
-# Related Works
+## Related Works
 
 This cool fan animation by AnafDraws:
 

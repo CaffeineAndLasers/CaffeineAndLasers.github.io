@@ -8,7 +8,7 @@ tags:
 	- Academia
 ---
 
-# 1 How to take notes
+## 1 How to take notes
 
 I've seen way too many people ask how do you use Obsidian, how do you take notes, it all seems so daunting. To be completely honest, it seems really obvious to me. So I figured I would just write down what I do. The key to effective note-taking in Obsidian or any other system you want to use is to **WRITE THINGS DOWN**. Preferably in your system of choice. Everything else is secondary. However, I will admit that to many people a blank page is intimidating and they don't know where to start. 
 
@@ -63,7 +63,7 @@ The general idea here should be that the source notes can contain whatever copy 
 
 This section is admittedly the most complicated part of my note taking and where I'll forgive people for saying they get overwhelmed. But I also think this level of diligence is only required if you are doing any kind of publication or academic work.
 
-# 2 Topics Vs Types of Notes
+## 2 Topics Vs Types of Notes
 
 When it comes to deciding how to organise your folder structure, or whatever else, it helps to have a clear idea of the difference between what topic a file might refer to, and what type of file it is. For example, take my meeting minutes from a research meeting. The note is *about* research, so it's topic is research, but its *type* is meeting minutes. 
 
@@ -77,7 +77,7 @@ My exception to the rule I just established is in journaling. I am a big fan of 
 
 So for this reason my journaling goes into its own folder where my automated backup and sync knows not to touch it. 
 
-# 3 Concluding thoughts
+## 3 Concluding thoughts
 
 This isn't a "system", I'm not telling you rules, I'm not your dad. 
 

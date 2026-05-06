@@ -56,5 +56,5 @@ The ad supported internet was not an inevitability, and ad supported media is no
 
 Your grandparents were alive in a time before advertising became the only way to fund TV, news and art. I just want to emphasise this to give hope to the idea of building something better. 
 
-# Further Reading
+## Further Reading
 - Pluralistic [The surveillance advertising to financial fraud pipeline (29 Sept 2023)](https://pluralistic.net/2023/09/29/ban-surveillance-ads/#sucker-funnel)

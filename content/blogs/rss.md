@@ -7,7 +7,7 @@ layout: blogpost.liquid
 tags:
   - Webmastery
 ---
-# 1 What Is RSS and why might your readers want it?
+## 1 What Is RSS and why might your readers want it?
 
 The acronym for RSS is \"Really Simple Syndication\". Essentially, it is a way better method of alerting your readers to your new blog posts, without requiring an email address.
 
@@ -23,7 +23,7 @@ Your users will have an RSS Reader. This program keeps a list of webpages to che
 
 RSS beats email because it makes more sense. The user lets **YOU** know when they want to read, not the other way around. You don\'t need a long list of email addresses, and quite frankly you don\'t want one.
 
-# 2 How to set it up:
+## 2 How to set it up:
 
 All you need to setup an RSS feed is:
 
@@ -153,7 +153,7 @@ Now that you have created the feed, you need a way to drive users to subscribe. 
 
 It is customary to use the RSS logo you can see at the bottom of my page to link it it. If you go ahead and click on it, you will see it brings you to an empty looking page. Thats because the page isn\'t for you. It is for the programs. So you can go ahead and copy and paste that logo into your RSS Reader to subscribe to me 😉.
 
-# 3 Wrapping Up
+## 3 Wrapping Up
 
 Thats all you need! Don\'t forget to add a new item to your feed when
 you update your blog! No other maintenance needed. Feel free to use the button below for your RSS feed, and subscribe to my feed using the icon in my site's footer.

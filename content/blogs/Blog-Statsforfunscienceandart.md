@@ -126,7 +126,7 @@ I tried it on a beautiful portrait of my partner and I standing on a grassy hill
 
 This photo we used works quite well because we have yellow rain jacket, brown floorboards, dark brown carpet, grey dog and black features on the dog. So it fits quite nicely into k equals 5.
 
-# The Code
+## The Code
 
 ```python
 import numpy as np

@@ -9,7 +9,7 @@ tags:
   - Projects
 ---
 
-# 1 [ChiScraper](https://chiscraper.github.io): Personalised ArXiv Assistant
+## 1 [ChiScraper](https://chiscraper.github.io): Personalised ArXiv Assistant
 
 Keeping up with the latest research papers can feel like drinking from a firehouse - Especially if you are following the current LLM trend. ChiScraper is an open-source tool that helps researchers take control of their ArXiv experience by combining a powerful keyword matching algorithm with LLM-powered ranking. Instead of wading through endless papers, Chi-scraper shows you what's relevant to your research interests and ranks them by importance. 
 
@@ -31,7 +31,7 @@ The great thing about simple LLM applications like this, is that it works even w
 If you're interested in trying ChiScraper, head over to [the project website](https://chiscraper.github.io/) for installation instructions and detailed documentation. The setup process is 
 straightforward, and you can be up and running in minutes, whether you choose to use OpenAI's models or go the local LLM route.
 
-# 2 How do I use it
+## 2 How do I use it
 
 ## 2.1 Choosing Your LLM 
 We purposely built the program to be model agnostic. For a "just works" config we defaulted to using OpenAI's GPT4o-mini model for the ranking. In my opinion this model is overkill for the task at hand, (but from a design perspective, we want a model which erred on too smart, rather than too dumb). 

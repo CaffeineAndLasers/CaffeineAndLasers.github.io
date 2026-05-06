@@ -5,14 +5,17 @@ nesting: ../
 eleventyExcludeFromCollections: false
 permalink: "{{ page.filePathStem }}.html"
 ---
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
+    {% include "seo-meta.liquid" %}
     <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="{{css}}{{ nocache }}">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval'; connect-src 'self' https://aus.social;">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
@@ -44,6 +47,7 @@ permalink: "{{ page.filePathStem }}.html"
         </script>
 </head>
 
+<body>
 {% include "header.liquid" %}
 
 <div id="flex">
@@ -55,10 +59,10 @@ permalink: "{{ page.filePathStem }}.html"
 </div>
 {% include "footer.liquid" %}
 
-</html>
-
 <script src="/scripts.js{{ nocache }}"></script>
 <!-- Global floating theme toggle -->
 <button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">
     🌙 Dark
 </button>
+</body>
+</html>

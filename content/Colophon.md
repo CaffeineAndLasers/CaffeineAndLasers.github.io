@@ -1,5 +1,6 @@
 ---
 title: Colophon
+description: Notes on how Caffeine and Lasers is built, published, automated, and maintained.
 layout: default.liquid
 ---
 

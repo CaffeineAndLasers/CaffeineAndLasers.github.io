@@ -11,7 +11,7 @@ tags:
 
 
 
-# 1 On the role of technical skills in fighting power
+## 1 On the role of technical skills in fighting power
 
 I've been reading Yanis Varifakis's [Technofeudalism: What killed capitalism](https://www.penguin.com.au/books/technofeudalism-9781529926095) and have been thinking about the pessimism a lot of progressives have in opposing oligarchy. 
 Specifically, progressives are often reluctant to engage with techno-capital on its own terms, and instead fall into old habbits of at best, trying to regulate out the problems, or at worst complaining to no end. 
@@ -48,13 +48,13 @@ Why do you need your own website? Well it depends who you are and what you do. B
  
  Don't forget. "The Cloud" is just someone else's computer.  Escaping entirely from the cloud is going to be impossible, but every step you take is less data they have on you. The FUTO organisation's [Immich](https://immich.app/) is an alternative to Google Photos and Apple Cloud. They also have a tracker-less [keyboard](https://keyboard.futo.org/) for your android phone (Did you know your default keyboard sends telemetry back to the manafacturer?). [Nextcloud](https://nextcloud.com/) is a self-hostable version alternative to Google Drive, or for an easier option, consider backing up yourself using a Network Attached Storage (NAS). [Synology](https://www.synology.com/en-global) sells just-works out of the box options. 
 
-# 2 Conclusion
+## 2 Conclusion
 
 Every step of these you take, removes another bind that cloud-capital uses to control you. It won't fix everything, but it makes the next steps easier - nay - possible. Sometimes material change, requires digital work. 
 
 I want to clarify, this is not a call to out-technology the problem. The technology is already here, and is being used against you. I am calling on you to understand the state of modern (class) warfare. The good news is, [the good ol days of the internet are not over](https://www.citationneeded.news/we-can-have-a-different-web/) and you can be part of it.  
 
-# 3 Appendix: BlueSky Are NOT your Saviours
+## 3 Appendix: BlueSky Are NOT your Saviours
 
 This doesn't quite fit in with the rest of my argument, but it needs to be said somewhere. Bluesky has all the same incentives which enshittified Twitter. It is still under the total control of its owners, who can enforce their will onto you. 
 

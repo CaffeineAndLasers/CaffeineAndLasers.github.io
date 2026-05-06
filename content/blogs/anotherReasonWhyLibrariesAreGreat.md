@@ -8,7 +8,7 @@ tags:
 	- Culture
 ---
 
-# Another reason why libraries are great
+## Another reason why libraries are great
 Everyone knows the main reasons why libraries are great. You get to read books for free. It is the only place left in our world where you can exist - I mean *loiter* - without the expectation of spending money. Sharing knowledge to upskill yourself, or your community. 
 
 But I have one more reason I want to share: **It makes choosing books much lower risk**. Here me out

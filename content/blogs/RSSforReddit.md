@@ -10,7 +10,7 @@ tags:
 
 **UPDATE** I built a widget to generate the feed url for you. See it [here](/reddit-rss.html)
 
-# 1 How and Why to Use RSS to Improve Your Reddit UX
+## 1 How and Why to Use RSS to Improve Your Reddit UX
 
 Did you know you can subscribe to subreddits via RSS? Maybe you did, but did you know it’s the best way to use Reddit without getting sucked into the Enshittified Torment Nexus™️?
 
@@ -40,7 +40,7 @@ Using RSS, you can subscribe to *only* the communities you want to hear from and
 
 No more endless algorithm of slop. Just the content you previously decided you wanted to see.
 
-# 2 How Do I do it?
+## 2 How Do I do it?
 
 ## 2.1 Get Everything With No Sorting
 
@@ -67,7 +67,7 @@ I did this for the 5 or so Reddit communities I actually want to keep track of, 
 
 *Considering these options only seem to appear on Old Reddit, I am not sure how much longer they will be supported. Lets See*
 
-# 3 Wrapping Up
+## 3 Wrapping Up
 
 Using RSS to browse reddit is the best of both worlds – I don't need to quit Reddit and leave those communities but I can still avoid getting sucked into the Enshittified Torment Nexus™️. 
 

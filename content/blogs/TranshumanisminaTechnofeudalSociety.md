@@ -8,7 +8,7 @@ tags:
 	- Culture
 ---
 
-# 1 Blindsight, Transhumanism, and Surveillance Capitalism
+## 1 Blindsight, Transhumanism, and Surveillance Capitalism
 
 I can not stop thinking about Peter Watts novel Blindsight (2006). It keeps me up at night thinking about its implications and what it says about humanity. Let me tell you about it. 
 
@@ -96,7 +96,7 @@ _Blindsight_ was published in 2006. That September, Facebook opened to everyone,
 It wasn't long before his team and his competitors perfected their poison. For all our progress as humans, it turns out that we could be captured by 30 second vertical format videos. No different from *"those rats back in the sixties"*
 
 
-# 2 Further Reading
+## 2 Further Reading
 - [Blindsight](https://www.rifters.com/real/Blindsight.htm) is actually free. Watts released it into the public domain. You can read it online or download the pdf or ePub. [here](https://www.rifters.com/real/shorts.htm) is the rest of his public domain works
 - This essay was also strongly inspired by Mark Rowland's book "The Happiness of Dogs", which discuses philosophy of mind and consciousness extensively. 
 - My anxieties around the control over the "Means of Computation" lie thanks to Cory Doctorows Book "The Internet Con", and was supplemented by Yannis Varoufakis' book "Technofeudalism"
