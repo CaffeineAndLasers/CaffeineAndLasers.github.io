@@ -6,9 +6,27 @@
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feed.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Wed, 29 Apr 2026 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[Robot tadpoles and spoofing frog communication]]></title>
+      <description><![CDATA[A tiny TadBot that mimics tadpole ‘hunger’ vibrations — and what it means to fake a frog family signal.]]></description>
+      <content:encoded><![CDATA[<p>Another cool scientist profile dropped on Nature earlier, and I wanted to share it here. Billie Goolsby uses robots built by Tony Chen to eavesdrop on the conversations between Frogs and Tadpoles. How cool is that!</p>
+<p>Essentially, it turns out that one of the key components of parent-offspring in these frogs is how they &quot;wriggle&quot;. They use this wriggling to communicate hunger to the parents to supply food. (An unfertilized egg, nature is crazy)</p>
+<p>So the they designed a robot to mimic the tadpole, and trick the parents into thinking it is a real one, so they can investigate how this communication actually works.</p>
+<p>LINK: <a href="https://www.nature.com/articles/d41586-026-01621-6">Nature — How I eavesdrop on frog conversations</a></p>
+<p>LINK: <a href="https://arxiv.org/abs/2305.14570">arXiv — Feed Me: Robotic Infiltration of Poison Frog Families (2305.14570)</a></p>
+<p>Here are some photos of the contraption</p>
+<p><img src="https://caffeineandlasers.com/Assets/tadpole1.png" alt="Robot tadpole experiment photos (from Chen et al., arXiv:2305.14570)"></p>
+<p><img src="https://caffeineandlasers.com/Assets/tadpole2.png" alt="TadBot schematic inside a canister (from Chen et al., arXiv:2305.14570)"><br>
+<strong>Image credit:</strong> Tony G. Chen et al., “Feed Me: Robotic Infiltration of Poison Frog Families”, arXiv:2305.14570 (CC BY-NC-SA 4.0)</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20260526_RobotTadpoles_SpoofingFrogCommunication.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20260526_RobotTadpoles_SpoofingFrogCommunication.html</guid>
+      <pubDate>Tue, 26 May 2026 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[A Remarkably Simple Demonstration On Diffraction]]></title>
@@ -1473,7 +1491,7 @@ This blogpost may not last very long depending on how technology goes
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Blogpost-FollowingthescientificCacioePepeProcess.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Blogpost-FollowingthescientificCacioePepeProcess.html</guid>
-      <pubDate>Mon, 22 Sep 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 22 Sept 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1675,7 +1693,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</guid>
-      <pubDate>Thu, 31 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 31 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1743,7 +1761,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Blogpost-Myfavouritealiens.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Blogpost-Myfavouritealiens.html</guid>
-      <pubDate>Wed, 30 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 30 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1760,7 +1778,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</guid>
-      <pubDate>Tue, 29 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Tue, 29 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1802,7 +1820,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/AnthroLLM.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/AnthroLLM.html</guid>
-      <pubDate>Mon, 14 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 14 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1819,7 +1837,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</guid>
-      <pubDate>Wed, 25 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 25 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1851,7 +1869,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</guid>
-      <pubDate>Mon, 23 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 23 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1923,7 +1941,7 @@ They succeed in controlling us — our decisions, our desires — even without a
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/TranshumanisminaTechnofeudalSociety.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/TranshumanisminaTechnofeudalSociety.html</guid>
-      <pubDate>Wed, 04 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 04 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1938,7 +1956,7 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</guid>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Sun, 01 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -3255,7 +3273,7 @@ Paradox.&quot; arXiv, August 5, 2024.<br>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Aliens.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Aliens.html</guid>
-      <pubDate>Mon, 30 Sep 2024 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 30 Sept 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -3315,7 +3333,7 @@ For centuries, farmers have pooled commodities into co-ops to trade as blocks. T
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/TheCaseForPowerCoOps.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/TheCaseForPowerCoOps.html</guid>
-      <pubDate>Mon, 30 Sep 2024 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 30 Sept 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -4214,7 +4232,7 @@ used to explaining your work and understanding the work of others.</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/fromStudentToIndustry.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/fromStudentToIndustry.html</guid>
-      <pubDate>Sun, 28 Jul 2024 10:00:00 +1000</pubDate>
+      <pubDate>Sun, 28 July 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -4360,7 +4378,7 @@ maybe level up your own coffee :)</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/20240725T075059.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/20240725T075059.html</guid>
-      <pubDate>Thu, 25 Jul 2024 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 25 July 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -4603,7 +4621,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/life-as-no-one-knows-it.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/life-as-no-one-knows-it.html</guid>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Sept 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4617,7 +4635,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/algospeak.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/algospeak.html</guid>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Sept 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4673,7 +4691,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/no-power-greater-a-history-of-union-action-in-australia.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/no-power-greater-a-history-of-union-action-in-australia.html</guid>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 July 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4687,7 +4705,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-happiness-of-dogs-why-the-unexamined-life-is-the-most-worth-living.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-happiness-of-dogs-why-the-unexamined-life-is-the-most-worth-living.html</guid>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 June 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4855,7 +4873,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-internet-con-how-to-seize-the-means-of-computation.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-internet-con-how-to-seize-the-means-of-computation.html</guid>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 July 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>

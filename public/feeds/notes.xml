@@ -5,9 +5,27 @@
     <description>Thoughts and Links from Caffeine and Lasers</description>
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feeds/notes.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 24 Apr 2026 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[Robot tadpoles and spoofing frog communication]]></title>
+      <description><![CDATA[A tiny TadBot that mimics tadpole ‘hunger’ vibrations — and what it means to fake a frog family signal.]]></description>
+      <content:encoded><![CDATA[<p>Another cool scientist profile dropped on Nature earlier, and I wanted to share it here. Billie Goolsby uses robots built by Tony Chen to eavesdrop on the conversations between Frogs and Tadpoles. How cool is that!</p>
+<p>Essentially, it turns out that one of the key components of parent-offspring in these frogs is how they &quot;wriggle&quot;. They use this wriggling to communicate hunger to the parents to supply food. (An unfertilized egg, nature is crazy)</p>
+<p>So the they designed a robot to mimic the tadpole, and trick the parents into thinking it is a real one, so they can investigate how this communication actually works.</p>
+<p>LINK: <a href="https://www.nature.com/articles/d41586-026-01621-6">Nature — How I eavesdrop on frog conversations</a></p>
+<p>LINK: <a href="https://arxiv.org/abs/2305.14570">arXiv — Feed Me: Robotic Infiltration of Poison Frog Families (2305.14570)</a></p>
+<p>Here are some photos of the contraption</p>
+<p><img src="https://caffeineandlasers.com/Assets/tadpole1.png" alt="Robot tadpole experiment photos (from Chen et al., arXiv:2305.14570)"></p>
+<p><img src="https://caffeineandlasers.com/Assets/tadpole2.png" alt="TadBot schematic inside a canister (from Chen et al., arXiv:2305.14570)"><br>
+<strong>Image credit:</strong> Tony G. Chen et al., “Feed Me: Robotic Infiltration of Poison Frog Families”, arXiv:2305.14570 (CC BY-NC-SA 4.0)</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20260526_RobotTadpoles_SpoofingFrogCommunication.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20260526_RobotTadpoles_SpoofingFrogCommunication.html</guid>
+      <pubDate>Tue, 26 May 2026 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Some thoughts on the role of astrophysics, AI and ML.]]></title>
@@ -250,7 +268,7 @@ hard it can be to disentangle their coats in the first place</li>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</guid>
-      <pubDate>Thu, 31 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 31 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -267,7 +285,7 @@ hard it can be to disentangle their coats in the first place</li>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</guid>
-      <pubDate>Tue, 29 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Tue, 29 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -284,7 +302,7 @@ hard it can be to disentangle their coats in the first place</li>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</guid>
-      <pubDate>Wed, 25 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 25 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -316,7 +334,7 @@ hard it can be to disentangle their coats in the first place</li>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</guid>
-      <pubDate>Mon, 23 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 23 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -331,7 +349,7 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</guid>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Sun, 01 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
