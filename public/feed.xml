@@ -4431,6 +4431,19 @@ Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will
     
     
     <item>
+      <title><![CDATA[Book Review: Still Lost: Tales from 2080 by Sam A Miller]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟩</p>
+        <p><strong>Type:</strong> Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9798248068364.jpg" alt="Cover of Still Lost: Tales from 2080" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/still-lost-tales-from-2080.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/still-lost-tales-from-2080.html</guid>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title><![CDATA[Book Review: The Dispossessed by Ursula K. Le Guin]]></title>
       <description><![CDATA[
         <p><strong>Rating:</strong> ⭐</p>
