@@ -1,8 +1,7 @@
 // Usage: npm run add-book <ISBN>
 // Example: npm run add-book 9780140328721
 
-import fs from "fs";
-import fetch from "node-fetch";
+const fs = require("fs");
 
 const BOOKS_DIR = "./content/books/";
 const COVER_DIR = "./content/Assets/book-covers/";
@@ -20,9 +19,27 @@ function slugify(text) {
     .replace(/-+$/, "");            // Trim - from end of text
 }
 
+// helper: fetch with timeout + retry for flaky networks
+async function fetchWithTimeout(url, { timeoutMs = 12000, retries = 2 } = {}) {
+  let lastError;
+  for (let attempt = 0; attempt <= retries; attempt += 1) {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const res = await fetch(url, { signal: controller.signal });
+      clearTimeout(timeoutId);
+      return res;
+    } catch (err) {
+      clearTimeout(timeoutId);
+      lastError = err;
+    }
+  }
+  throw lastError;
+}
+
 // helper: download a file
 async function download(url, path) {
-  const res = await fetch(url);
+  const res = await fetchWithTimeout(url, { timeoutMs: 12000, retries: 2 });
   if (!res.ok) throw new Error(`Failed to fetch ${url}`);
   const buffer = await res.arrayBuffer();
   fs.writeFileSync(path, Buffer.from(buffer));
@@ -32,23 +49,35 @@ async function download(url, path) {
 async function addBook(isbn) {
   // fetch metadata from Open Library
   const metaUrl = `https://openlibrary.org/isbn/${isbn}.json`;
-  const res = await fetch(metaUrl);
-  if (!res.ok) {
-    console.error("Book not found");
+  let meta;
+  try {
+    const res = await fetchWithTimeout(metaUrl, { timeoutMs: 12000, retries: 2 });
+    if (!res.ok) {
+      console.error("Book not found");
+      return;
+    }
+    meta = await res.json();
+  } catch (err) {
+    console.error("Failed to reach Open Library. Check your connection and try again.");
+    console.error(err?.cause?.code || err?.message || err);
     return;
   }
-  const meta = await res.json();
 
   // get title + author(s)
   const title = meta.title || "Unknown";
   let author = "Unknown";
   if (meta.authors && meta.authors[0]?.key) {
-    const aRes = await fetch(
-      `https://openlibrary.org${meta.authors[0].key}.json`
-    );
-    if (aRes.ok) {
-      const aData = await aRes.json();
-      author = aData.name;
+    try {
+      const aRes = await fetchWithTimeout(
+        `https://openlibrary.org${meta.authors[0].key}.json`,
+        { timeoutMs: 12000, retries: 2 }
+      );
+      if (aRes.ok) {
+        const aData = await aRes.json();
+        author = aData.name;
+      }
+    } catch {
+      // keep default author on failure
     }
   }
 
