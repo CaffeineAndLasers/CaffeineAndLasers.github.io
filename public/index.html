@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://caffeineandlasers.com/Assets/CaffineANdLasers.svg">
 
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="/styles.css?nocache=1780702163772">
+    <link rel="stylesheet" href="/styles.css?nocache=1781139260620">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval'; connect-src 'self' https://aus.social;">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
     <!-- Canonical URL for SEO and sitemap -->
@@ -171,24 +171,23 @@
   
     <div class="note-content">
       <h3>
-        <a href="/notes/VerySpecific3DPrintedTools.html">
-          2026-06-06: Very Specific 3D Printed Tools
+        <a href="/notes/20260611_PreBendingDelayLaserSheetMetalForming.html">
+          2026-06-11: Bending things with lasers!
         </a>
       </h4>
       <div class="note-body">
-        <p>My favourite thing about owning a 3D printer is the very specific tools which I would never pay for.</p>
-<p>Take a guess what this is for:</p>
-<p style="text-align: center;">
-  <img src="/Assets/PXL_20260602_231415431.jpg" alt="" style="width: 82%; max-width: 680px;">
-</p>
-<p>It is a key for popping out portafilters from the group head on my espresso machine</p>
-<p style="text-align: center;">
-  <img src="/Assets/PXL_20260602_231438360.jpg" alt="" style="width: 82%; max-width: 680px;">
-</p>
-<p>Oridinarily I can do this with a teaspoon. The only problem is later I use that teaspoon for stirring my coffee, and then need to get a new one. In addition the curve isn't quite right for getting it out in one motion.</p>
-<p>This little ABS key is the perfect size for popping out the filters in a single motion, and lives next to the machine.</p>
-<p>Very silly tool that no one would ever pay for, but makes the job just 5% easier every time.</p>
-<p>(Excuse the print quality. Contrary to popular opinion you CAN print ABS on an A1, but it is annoying. This spool hadn't been dried either which made things even worse.)</p>
+        <p>Turns out you can bend things using lasers. The process relies on two key characteristics of most solids, (especially metal and glass)</p>
+<ol>
+<li>Things expand when they heat up</li>
+<li>Things get soft and bends when they are hot enough</li>
+</ol>
+<p>So the process is simple* get the whole thing hot enough that it is soft and bendy (we can use a laser for that), then heat up one side more than the other so it expands (We can use the same laser for that). Since one side is expanding faster than the other it bends. Cool it down and hey presto, you just bent the metal with the power of focussed light. This is more or less the same process as why metal can warp in the heat, but done in a controlled manner.</p>
+<p>I first learnt about this in the <a href="https://www.universetoday.com/articles/building-in-space-with-laser-origami">Universe today newsletter</a> which cited <a href="https://link.springer.com/article/10.1007/s40516-026-00346-8">this paper from Fripp et al</a> investigating how different atmospheres affect the process, and how well it performs under vacuum.</p>
+<p>Why might we be interested in performing it under vacuum? Well laser forming (the actual name of this process) is being invesitigated as one possible manafacturing technique on the moon and in space. Transporting things to space is hard and expensive, so &quot;In Situ Utilization&quot; (using the shit we find out there like a high tech bear grills) is seen as the preffered option where possible.</p>
+<p>So the broad strokes are following: We harvest lunar regolith (moon rock) and melt it down into ceramics, and then we can use laser forming to bend the ceramics into shape like origami. The researchers at University of Florida have already tested this idea with moon glass**.</p>
+<p>How neat!</p>
+<p>* In theory</p>
+<p>** Glass made from lunar soil simulant</p>
 
       </div>
     </div>
@@ -274,7 +273,7 @@
     </div>
 </footer>
 
-<script src="/scripts.js?nocache=1780702163772"></script>
+<script src="/scripts.js?nocache=1781139260620"></script>
 <!-- Global floating theme toggle -->
 <button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">
     🌙 Dark

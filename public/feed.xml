@@ -6,9 +6,30 @@
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feed.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Sat, 06 Jun 2026 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[Bending things with lasers!]]></title>
+      <description><![CDATA[A placeholder note for a paper on how atmosphere, oxidation, and laser parameters affect laser sheet metal forming.]]></description>
+      <content:encoded><![CDATA[<p>Turns out you can bend things using lasers. The process relies on two key characteristics of most solids, (especially metal and glass)</p>
+<ol>
+<li>Things expand when they heat up</li>
+<li>Things get soft and bends when they are hot enough</li>
+</ol>
+<p>So the process is simple* get the whole thing hot enough that it is soft and bendy (we can use a laser for that), then heat up one side more than the other so it expands (We can use the same laser for that). Since one side is expanding faster than the other it bends. Cool it down and hey presto, you just bent the metal with the power of focussed light. This is more or less the same process as why metal can warp in the heat, but done in a controlled manner.</p>
+<p>I first learnt about this in the <a href="https://www.universetoday.com/articles/building-in-space-with-laser-origami">Universe today newsletter</a> which cited <a href="https://link.springer.com/article/10.1007/s40516-026-00346-8">this paper from Fripp et al</a> investigating how different atmospheres affect the process, and how well it performs under vacuum.</p>
+<p>Why might we be interested in performing it under vacuum? Well laser forming (the actual name of this process) is being invesitigated as one possible manafacturing technique on the moon and in space. Transporting things to space is hard and expensive, so &quot;In Situ Utilization&quot; (using the shit we find out there like a high tech bear grills) is seen as the preffered option where possible.</p>
+<p>So the broad strokes are following: We harvest lunar regolith (moon rock) and melt it down into ceramics, and then we can use laser forming to bend the ceramics into shape like origami. The researchers at University of Florida have already tested this idea with moon glass**.</p>
+<p>How neat!</p>
+<p>* In theory</p>
+<p>** Glass made from lunar soil simulant</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/20260611_PreBendingDelayLaserSheetMetalForming.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/20260611_PreBendingDelayLaserSheetMetalForming.html</guid>
+      <pubDate>Thu, 11 Jun 2026 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Very Specific 3D Printed Tools]]></title>
@@ -1513,7 +1534,7 @@ This blogpost may not last very long depending on how technology goes
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Blogpost-FollowingthescientificCacioePepeProcess.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Blogpost-FollowingthescientificCacioePepeProcess.html</guid>
-      <pubDate>Mon, 22 Sep 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 22 Sept 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -3295,7 +3316,7 @@ Paradox.&quot; arXiv, August 5, 2024.<br>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Aliens.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Aliens.html</guid>
-      <pubDate>Mon, 30 Sep 2024 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 30 Sept 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -3355,7 +3376,7 @@ For centuries, farmers have pooled commodities into co-ops to trade as blocks. T
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/TheCaseForPowerCoOps.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/TheCaseForPowerCoOps.html</guid>
-      <pubDate>Mon, 30 Sep 2024 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 30 Sept 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -4656,7 +4677,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/life-as-no-one-knows-it.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/life-as-no-one-knows-it.html</guid>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Sept 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4670,7 +4691,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/algospeak.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/algospeak.html</guid>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Sept 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
