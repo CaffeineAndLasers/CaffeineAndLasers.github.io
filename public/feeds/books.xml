@@ -6,9 +6,22 @@
     <link>https://caffeineandlasers.com/Library.html</link>
     <atom:link href="https://caffeineandlasers.com/feeds/books.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[Good Material by Dolly Alderton]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟩</p>
+        <p><strong>Type:</strong> Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9780241993163.jpg" alt="Cover of Good Material" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/good-material.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/good-material.html</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Still Lost: Tales from 2080 by Sam A Miller]]></title>
