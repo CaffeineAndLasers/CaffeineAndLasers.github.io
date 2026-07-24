@@ -6,9 +6,42 @@
     <link>https://caffeineandlasers.com/Library.html</link>
     <atom:link href="https://caffeineandlasers.com/feeds/books.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 July 2026 00:00:00 +0000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[The Fishermen by Chigozie Obioma]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟧</p>
+        <p><strong>Type:</strong> Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9780316338356.jpg" alt="Cover of The Fishermen" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/the-fishermen.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/the-fishermen.html</guid>
+      <pubDate>Thu, 23 July 2026 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title><![CDATA[The Reverse Centaur's Guide to Life After AI by Cory Doctorow]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟩</p>
+        <p><strong>Type:</strong> Non-Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9780374621568.jpg" alt="Cover of The Reverse Centaur's Guide to Life After AI" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p>If you are an avid reader of Doctorow's blog "Pluralistic" you will have probably heard most of the arguments here before. That isn't too much of a complaint, after all, Docotow specifically says the point of his blog is to help him flesh out his arguments for his books. 
+
+Overall, I really liked the book. (It helps that I was already very clsoely aligned with Doctorow ideologically). Doctorow does a really, REALLY, good job at economically grounded analysis. His arguments about why the current state of AI is a bubble consistantly swings back to the economics of the situation, without falling back on weak heuristics or emotional arguments. 
+
+Like me, Docotorow is also an optimist for the technlogy itself. Highliting how it can be used for countless GOOD applications. (But that does not diminish the terrible economics of the market).
+
+Overall, I think he makes some convincing arguments.
+</p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/the-reverse-centaurs-guide-to-life-after-ai.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/the-reverse-centaurs-guide-to-life-after-ai.html</guid>
+      <pubDate>Fri, 17 July 2026 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Good Material by Dolly Alderton]]></title>
@@ -20,7 +53,7 @@
       ]]></description>
       <link>https://caffeineandlasers.com/books/good-material.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/good-material.html</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 June 2026 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -297,7 +330,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/no-power-greater-a-history-of-union-action-in-australia.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/no-power-greater-a-history-of-union-action-in-australia.html</guid>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 July 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -311,7 +344,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-happiness-of-dogs-why-the-unexamined-life-is-the-most-worth-living.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-happiness-of-dogs-why-the-unexamined-life-is-the-most-worth-living.html</guid>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 June 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -479,7 +512,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-internet-con-how-to-seize-the-means-of-computation.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-internet-con-how-to-seize-the-means-of-computation.html</guid>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 July 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
