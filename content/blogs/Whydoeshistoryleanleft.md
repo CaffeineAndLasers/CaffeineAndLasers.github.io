@@ -134,3 +134,11 @@ Instead I would argue that history favours winners, and team players become winn
   </blockquote>
   <p>In any case I do not think this has much of a bearing on my larger argument, which is the role of collaboration and pro-social behaviour in the success of civilization. Whether or not collaboration is the left arc or right arc doesn't really matter.</p>
 </details>
+
+# Angry comments
+
+Are you filled with a burning passion to prove me wrong? Maybe you just want to say hi. 
+
+Send me an email at: [cam@caffeineandlasers.com](mailto:cam@caffeineandlasers.com) if it is any good I will happily ammend my post or publically respond.
+
+Unfortunately [Australian law makes hosting comments on a private blog a little dicey](../notes/RemovingCommentsAndGuestbook.html) so I am not willing to host a public comment section.
