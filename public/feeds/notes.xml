@@ -5,9 +5,28 @@
     <description>Thoughts and Links from Caffeine and Lasers</description>
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feeds/notes.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 01 Jul 2026 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[Why does everything always look the same]]></title>
+      <description><![CDATA[Lauren Leek's Fantastic Essay explores why in the age of personalized algorithms for everyone, everything feels so samey.]]></description>
+      <content:encoded><![CDATA[<p><a href="https://laurenleek.substack.com/p/temperature-zero-for-culture-why">Lauren Leek's Fantastic Essay</a> explores why in the age of personalized algorithms for everyone, everything feels so samey.</p>
+<p>In her words:</p>
+<blockquote>
+<p>&quot;We have never had more individual data and naive intuition says all that granular personal data should fragment us, splinter the world into a billion niches. And yet the opposite is happening. The more the machines learn about us as individuals, the more alike our worlds look.&quot;</p>
+</blockquote>
+<p>And to summarize her entire essay with a FANTASTIC quote from her:</p>
+<blockquote>
+<p>&quot;Personalisation under a standard loss function is regression to the collective mean with extra steps.&quot;</p>
+</blockquote>
+<p>That explains so much about the modern world it is uncanny! Read the Essay</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/zeroTemperatureCulture.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/zeroTemperatureCulture.html</guid>
+      <pubDate>Mon, 17 Aug 2026 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[New Spider Just Dropped]]></title>
@@ -19,7 +38,7 @@
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/NewSpiderJustDropped.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/NewSpiderJustDropped.html</guid>
-      <pubDate>Wed, 01 Jul 2026 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 01 July 2026 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -40,7 +59,7 @@
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/20260611_PreBendingDelayLaserSheetMetalForming.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/20260611_PreBendingDelayLaserSheetMetalForming.html</guid>
-      <pubDate>Thu, 11 Jun 2026 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 11 June 2026 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -62,7 +81,7 @@
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/VerySpecific3DPrintedTools.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/VerySpecific3DPrintedTools.html</guid>
-      <pubDate>Sat, 06 Jun 2026 10:00:00 +1000</pubDate>
+      <pubDate>Sat, 06 June 2026 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -324,7 +343,7 @@ hard it can be to disentangle their coats in the first place</li>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</guid>
-      <pubDate>Thu, 31 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 31 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -341,7 +360,7 @@ hard it can be to disentangle their coats in the first place</li>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</guid>
-      <pubDate>Tue, 29 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Tue, 29 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -358,7 +377,7 @@ hard it can be to disentangle their coats in the first place</li>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</guid>
-      <pubDate>Wed, 25 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 25 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -390,7 +409,7 @@ hard it can be to disentangle their coats in the first place</li>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</guid>
-      <pubDate>Mon, 23 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 23 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -405,7 +424,7 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</guid>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Sun, 01 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>

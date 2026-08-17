@@ -6,9 +6,28 @@
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feed.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Mon, 10 Aug 2026 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[Why does everything always look the same]]></title>
+      <description><![CDATA[Lauren Leek's Fantastic Essay explores why in the age of personalized algorithms for everyone, everything feels so samey.]]></description>
+      <content:encoded><![CDATA[<p><a href="https://laurenleek.substack.com/p/temperature-zero-for-culture-why">Lauren Leek's Fantastic Essay</a> explores why in the age of personalized algorithms for everyone, everything feels so samey.</p>
+<p>In her words:</p>
+<blockquote>
+<p>&quot;We have never had more individual data and naive intuition says all that granular personal data should fragment us, splinter the world into a billion niches. And yet the opposite is happening. The more the machines learn about us as individuals, the more alike our worlds look.&quot;</p>
+</blockquote>
+<p>And to summarize her entire essay with a FANTASTIC quote from her:</p>
+<blockquote>
+<p>&quot;Personalisation under a standard loss function is regression to the collective mean with extra steps.&quot;</p>
+</blockquote>
+<p>That explains so much about the modern world it is uncanny! Read the Essay</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/zeroTemperatureCulture.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/zeroTemperatureCulture.html</guid>
+      <pubDate>Mon, 17 Aug 2026 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Does history actually lean to the left]]></title>
@@ -117,7 +136,7 @@ Anti-social behaviour is economically inefficient behaviour. It is a grubby atte
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/NewSpiderJustDropped.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/NewSpiderJustDropped.html</guid>
-      <pubDate>Wed, 01 Jul 2026 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 01 July 2026 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -138,7 +157,7 @@ Anti-social behaviour is economically inefficient behaviour. It is a grubby atte
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/20260611_PreBendingDelayLaserSheetMetalForming.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/20260611_PreBendingDelayLaserSheetMetalForming.html</guid>
-      <pubDate>Thu, 11 Jun 2026 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 11 June 2026 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -160,7 +179,7 @@ Anti-social behaviour is economically inefficient behaviour. It is a grubby atte
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/VerySpecific3DPrintedTools.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/VerySpecific3DPrintedTools.html</guid>
-      <pubDate>Sat, 06 Jun 2026 10:00:00 +1000</pubDate>
+      <pubDate>Sat, 06 June 2026 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1846,7 +1865,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/DumbRealisationaboutanicheproblem.html</guid>
-      <pubDate>Thu, 31 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 31 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1914,7 +1933,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Blogpost-Myfavouritealiens.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Blogpost-Myfavouritealiens.html</guid>
-      <pubDate>Wed, 30 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 30 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1931,7 +1950,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/ItTurnsOutTHeEldritchHorrorWasTheCorposWeWorkedAtaAlongTheWay.html</guid>
-      <pubDate>Tue, 29 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Tue, 29 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1973,7 +1992,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/AnthroLLM.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/AnthroLLM.html</guid>
-      <pubDate>Mon, 14 Jul 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 14 July 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -1990,7 +2009,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BiologyIsCoolAgain.html</guid>
-      <pubDate>Wed, 25 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 25 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -2022,7 +2041,7 @@ plt.show()
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/BlogPost-DigitizingPapernotesinthe21stCentury.html</guid>
-      <pubDate>Mon, 23 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Mon, 23 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -2094,7 +2113,7 @@ They succeed in controlling us — our decisions, our desires — even without a
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/TranshumanisminaTechnofeudalSociety.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/TranshumanisminaTechnofeudalSociety.html</guid>
-      <pubDate>Wed, 04 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Wed, 04 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -2109,7 +2128,7 @@ Not only does my dog accept his iguana herding duties with zeal, it seems to be 
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/notes/Agreatexcerptfromthehappinessofdogs.html</guid>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +1000</pubDate>
+      <pubDate>Sun, 01 June 2025 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -4385,7 +4404,7 @@ used to explaining your work and understanding the work of others.</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/fromStudentToIndustry.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/fromStudentToIndustry.html</guid>
-      <pubDate>Sun, 28 Jul 2024 10:00:00 +1000</pubDate>
+      <pubDate>Sun, 28 July 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -4531,7 +4550,7 @@ maybe level up your own coffee :)</p>
 ]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/20240725T075059.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/20240725T075059.html</guid>
-      <pubDate>Thu, 25 Jul 2024 10:00:00 +1000</pubDate>
+      <pubDate>Thu, 25 July 2024 10:00:00 +1000</pubDate>
     </item>
     
     <item>
@@ -4607,7 +4626,7 @@ Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-fishermen.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-fishermen.html</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 July 2026 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4627,7 +4646,7 @@ Overall, I think he makes some convincing arguments.
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-reverse-centaurs-guide-to-life-after-ai.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-reverse-centaurs-guide-to-life-after-ai.html</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 July 2026 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4640,7 +4659,7 @@ Overall, I think he makes some convincing arguments.
       ]]></description>
       <link>https://caffeineandlasers.com/books/good-material.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/good-material.html</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 June 2026 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4917,7 +4936,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/no-power-greater-a-history-of-union-action-in-australia.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/no-power-greater-a-history-of-union-action-in-australia.html</guid>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 July 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -4931,7 +4950,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-happiness-of-dogs-why-the-unexamined-life-is-the-most-worth-living.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-happiness-of-dogs-why-the-unexamined-life-is-the-most-worth-living.html</guid>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 June 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -5099,7 +5118,7 @@ side note: this book also is extremely Australian and for Australian audiences. 
       ]]></description>
       <link>https://caffeineandlasers.com/books/the-internet-con-how-to-seize-the-means-of-computation.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/books/the-internet-con-how-to-seize-the-means-of-computation.html</guid>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 July 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
