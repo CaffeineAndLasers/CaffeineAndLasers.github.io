@@ -5,9 +5,21 @@
     <description>Thoughts and Links from Caffeine and Lasers</description>
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feeds/notes.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 17 Aug 2026 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 10:00:00 +1000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[How to watch Netflix from the Moon]]></title>
+      <description><![CDATA[A public lecture I delivered on the Australian National University's role in the Artemis II Mission]]></description>
+      <content:encoded><![CDATA[<p>Do you know how we communicated with the Artemis II mission? All that crispy high definition video? When I can barely get 5G on Earth, how did they get such a good connection to stream the footage live?</p>
+<p>I am finally getting around to sharing some of my work on this site. Last week I delivered a presentaiton ahead of Science Week detailing how my lab participated in the Artemis II mission. While my role in the mission was tiny, I was still very proud to deliver this talk on behalf of the team who actually did all the work.</p>
+<p>Watch my lecture below.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r4o45xNCQuw?si=v7Ya0nWAnYwTBbWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/HowToWatchNetflixOnTheMoon.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/HowToWatchNetflixOnTheMoon.html</guid>
+      <pubDate>Fri, 21 Aug 2026 10:00:00 +1000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Why does everything always look the same]]></title>
