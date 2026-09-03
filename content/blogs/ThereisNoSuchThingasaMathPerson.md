@@ -21,13 +21,13 @@ In any other blogpost, this would be the point where I make a sarcastic joke abo
 </blockquote>
 
 
-I may be a physicist, but I am not a math-person, I am someone who practices maths for around 2,000 hours a year. So of course I am good at it. But more importantly than busting the math-person myth, I need to bust the myth of the not-a-math-person. Many people think they are a not-a-math-person and they freak out at the first mention of statistics, and think they will never understand it all.  If the math-person isn't real, I am here to tell you that the not-a-math-person is even more not real. 
+I may be a physicist, but I am not a *math-person*, I am someone who practices maths for around 2,000 hours a year. So of course I am good at it. But more importantly than busting the math-person myth, I need to bust the myth of the not-a-math-person. Many people think they are a *not-a-math-person* and they freak out at the first mention of statistics, and think they will never understand it all.  If the *math-person* isn't real, I am here to tell you that the *not-a-math-person* is even more not real. 
 
 This is important to me, because I think that the phrase, "not everyone is a math person", might be one of the most destructive phrases in education. It is totally unacceptable in my opinion and if you say it to a child you are not being kind, you are actively removing opportunities from their life.
 
-In the Western world, we are comfortable with the understanding that not-a-reading-person is not a thing. This doesn't mean that reading is easy for every child to learn, some children will have trouble, and that's okay. We just give those children extra time and effort to make sure that they pick it up. We have decided as a society that illiteracy is a problem.
+In the Western world, we are comfortable with the understanding that *not-a-reading-person* is not a thing. This doesn't mean that reading is easy for every child to learn, some children will have trouble, and that's okay. We just give those children extra time and effort to make sure that they pick it up. We have decided as a society that illiteracy is a problem.
 
-Yet somehow a significant portion of the population has decided that it is okay if people are innumerate. The rest of today's lesson is to convince you that you are not a not-a-math-person, and are just as capable of improving your mathematics as you are capable of improving your literacy. 
+Yet somehow a significant portion of the population has decided that it is okay if people are innumerate. The rest of today's lesson is to convince you that you are not a *not-a-math-person*, and are just as capable of improving your mathematics as you are capable of improving your literacy. 
 
 ## but first, why you need to care about math
 
