@@ -1129,4 +1129,12 @@
     <priority>0.7</priority>
   </url>
   
+  
+  <url>
+    <loc>https://caffeineandlasers.com/books/the-end-of-the-story.html</loc>
+    <lastmod>2026-09-02T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
 </urlset>

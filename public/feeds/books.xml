@@ -6,9 +6,22 @@
     <link>https://caffeineandlasers.com/Library.html</link>
     <atom:link href="https://caffeineandlasers.com/feeds/books.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Mon, 10 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sept 2026 00:00:00 +0000</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[The End of the Story by Lydia Davis]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟥</p>
+        <p><strong>Type:</strong> Non-Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9780312423711.jpg" alt="Cover of The End of the Story" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/the-end-of-the-story.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/the-end-of-the-story.html</guid>
+      <pubDate>Wed, 02 Sept 2026 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Lathe of Heaven by Ursula K. Le Guin]]></title>

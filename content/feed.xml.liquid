@@ -20,7 +20,7 @@ permalink: /feed.xml # Ensure it outputs to the root
     <item>
       <title><![CDATA[{{ post.data.title | toCdata }}]]></title>
       <description><![CDATA[{{ post.data.description | toCdata }}]]></description>
-      <content:encoded><![CDATA[{{ post.templateContent | absoluteUrl: rootURL | toCdata }}]]></content:encoded>
+      <content:encoded><![CDATA[{{ post.templateContent | absoluteUrl: rootURL | toCdata }}{% if post.url contains '/blogs/' %}<p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>{% endif %}]]></content:encoded>
       <link>{{ rootURL }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ rootURL }}{{ post.url }}</guid>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
