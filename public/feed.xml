@@ -3007,37 +3007,16 @@ eleventyExcludeFromCollections: true
       <title><![CDATA[How I do My Research (As a PhD Student)]]></title>
       <description><![CDATA[Yet another PhD student explains their personal knowledge management system.]]></description>
       <content:encoded><![CDATA[<h2>How I do My Research (As a PhD Student)</h2>
-<p>It has almost become a cliche amongst a certain kind of PhD student to explain<br>
-<em>Exactly</em> your research workflow, and why it works. Now it is my turn to add to<br>
-the pile.</p>
-<p>The overall &quot;philosophy&quot; (If you can even call it that) of my Pesonal Knowledge<br>
-Management (PKM) system, is minimising friction by allowing emergence. What that<br>
-means, is I just use the tools in front of me, and only create systems which<br>
-support my habbits, rather than fighting them - If a process is not the easiest<br>
-way of doing it in the short term, then eventually I will skip it when I am tired/lazy/bored.<br>
-This is not what we want, so instead lets so remove all friction from the process.</p>
-<p>There is <strong>one</strong> exception to my zero friction rule. Everything that goes into<br>
-my &quot;Second Brain&quot; needs to be written by me. Not copy and pasted, and not by AI.<br>
-This isn't for any political or philosophical reason. It’s simply because I<br>
-understand things better when I put them in my own words, and my Vault is only<br>
-for things I <em>have</em> understood.</p>
+<p>It has almost become a cliche amongst a certain kind of PhD student to explain <em>Exactly</em> your research workflow, and why it works. Now it is my turn to add to the pile.</p>
+<p>The overall &quot;philosophy&quot; (If you can even call it that) of my Pesonal Knowledge Management (PKM) system, is minimising friction by allowing emergence. What that means, is I just use the tools in front of me, and only create systems which support my habbits, rather than fighting them - If a process is not the easiest way of doing it in the short term, then eventually I will skip it when I am tired/lazy/bored. This is not what we want, so instead lets so remove all friction from the process.</p>
+<p>There is <strong>one</strong> exception to my zero friction rule. Everything that goes into my &quot;Second Brain&quot; needs to be written by me. Not copy and pasted, and not by AI. This isn't for any political or philosophical reason. It’s simply because I understand things better when I put them in my own words, and my Vault is only for things I <em>have</em> understood.</p>
 <h2>1 Technologies</h2>
 <h2>1.1 Obsidian</h2>
 <p><img src="https://caffeineandlasers.com/Assets/ObsidianLogo.png" alt="Obsidian Logo"
      style="float: right; width: 25%; margin-left: 10px;"></p>
 <p>I don't know how you would have found this post if you do not know Obsidian. Just in case, I will give you a run down on what it is, and why it is perfect for a brain like me.</p>
-<p>Obsidian is a text editor, which supports links, back-links and a whole bunch of plug-ins.<br>
-It saves every note you take in plain text on your own computer. No cloud BS, no<br>
-proprietary file format BS. Just text. This is important, because it means my<br>
-notes will outlive Obsidian. If the program is <a href="https://pluralistic.net/2025/01/20/capitalist-unrealism/#praxis">enshitified</a><br>
-, I can easily port them over to another program (I've been keeping a close eye on<br>
-Neovim and Emacs).</p>
-<p>The power of Obsidian from a knowledge management perspective,<br>
-comes from its ability to manage connections. It supports links just like<br>
-Wikipedia, so I am able to &quot;surf my vault&quot;. A feature Extremely handy for when<br>
-I half remember something that I am sure that I wrote down somewhere once. It also<br>
-works backwards, where from a given note, I can quickly see every note which links<br>
-<strong>TO</strong> it.</p>
+<p>Obsidian is a text editor, which supports links, back-links and a whole bunch of plug-ins. It saves every note you take in plain text on your own computer. No cloud BS, no proprietary file format BS. Just text. This is important, because it means my notes will outlive Obsidian. If the program is <a href="https://pluralistic.net/2025/01/20/capitalist-unrealism/#praxis">enshitified</a> , I can easily port them over to another program (I've been keeping a close eye on Neovim and Emacs).</p>
+<p>The power of Obsidian from a knowledge management perspective, comes from its ability to manage connections. It supports links just like Wikipedia, so I am able to &quot;surf my vault&quot;. A feature Extremely handy for when I half remember something that I am sure that I wrote down somewhere once. It also works backwards, where from a given note, I can quickly see every note which links <strong>TO</strong> it.</p>
 <h3>1.1.1 Plug-ins</h3>
 <h4>1.1.1.1 Dataview</h4>
 <p>I don’t use Dataview <em>that</em> much. Mostly, I use it in my daily notes. It lets me search for every note created and last modified on a given date, basically letting me browse my notes over time.</p>
@@ -3073,9 +3052,7 @@ works backwards, where from a given note, I can quickly see every note which lin
 <p>If you're a researcher who doesn't use the ArXiv but want to use this tool, ask me nicely and I'll add options for other sources. I have just let the project go into hibernation while it fits  my use case for now.</p>
 <p>Check out the project <a href="https://chiscraper.github.io/">here</a> and the blog post <a href="https://caffeineandlasers.neocities.org/blogs/ChiScraperIntroduction">here</a></p>
 <h2>2.2 Knowledge Forming</h2>
-<p>I consider notes from literature only <strong>half</strong> processed. They’re fully<br>
-processed once I’ve abstracted the knowledge and distilled it into the<br>
-relevant “parent” notes.  This means I have two types of notes:</p>
+<p>I consider notes from literature only <strong>half</strong> processed. They’re fully processed once I’ve abstracted the knowledge and distilled it into the relevant “parent” notes.  This means I have two types of notes:</p>
 <table>
 <thead>
 <tr>
@@ -3107,35 +3084,16 @@ relevant “parent” notes.  This means I have two types of notes:</p>
 <h3>2.3.3 Meetings</h3>
 <p>When I take notes during a meeting, the first thing I do is link to the people notes for all attendees. This lets me quickly check every meeting I’ve had with someone by looking at their person note and checking the backlinks.</p>
 <h2>3 Making Sense of the Chaos</h2>
-<p>Okay, so that’s how I get knowledge <strong>into</strong> my system. How do I get it <strong>out</strong>?<br>
-Links, mostly!</p>
-<p>Obsidian’s search is super fast and great. So, when I need a specific note,<br>
-a search will find it quickly. If I'm revisiting a topic I’ve already studied,<br>
-I can usually find a high-level note for it. From there, I “surf” the links,<br>
-re-reading until I find the relevant information. This is also an opportunity<br>
-to reshape and form new connections. If it took me a long time to find a specific<br>
-bit of information, I go back to what I originally searched for and add a link.<br>
-This means my “second brain” is constantly evolving - reformulating links and<br>
-connections, just like my first, meat based, brain.</p>
-<p>Another example. Let's say I wanted to find info about training a Neural Network<br>
-on the outputs of a photonic lantern. This is covered in the paper<br>
-<a href="https://doi.org/10.1117/1.JATIS.7.2.028007">Sweeney, D. et,al. 2021. &quot;Learning the lantern: neural network applications to broadband photonic lantern modeling&quot;</a><br>
-, but let’s suppose I forgot this.</p>
-<p>First, I’d pull up my note for <strong>Photonic Lanterns</strong> and skim it, where<br>
-I’d find a note for <strong>Photonic Lantern - Wavefront Sensor</strong>. From there,<br>
-I’d see the info on <strong>Photonic Lantern Reconstruction Algorithms</strong> and opening<br>
-that note, I’d find the stuff I wrote about NN-based photonic lantern output<br>
-approximation, along with a link to the relevant paper.</p>
+<p>Okay, so that’s how I get knowledge <strong>into</strong> my system. How do I get it <strong>out</strong>? Links, mostly!</p>
+<p>Obsidian’s search is super fast and great. So, when I need a specific note, a search will find it quickly. If I'm revisiting a topic I’ve already studied, I can usually find a high-level note for it. From there, I “surf” the links, re-reading until I find the relevant information. This is also an opportunity to reshape and form new connections. If it took me a long time to find a specific bit of information, I go back to what I originally searched for and add a link. This means my “second brain” is constantly evolving - reformulating links and connections, just like my first, meat based, brain.</p>
+<p>Another example. Let's say I wanted to find info about training a Neural Network on the outputs of a photonic lantern. This is covered in the paper <a href="https://doi.org/10.1117/1.JATIS.7.2.028007">Sweeney, D. et,al. 2021. &quot;Learning the lantern: neural network applications to broadband photonic lantern modeling&quot;</a> , but let’s suppose I forgot this.</p>
+<p>First, I’d pull up my note for <strong>Photonic Lanterns</strong> and skim it, where I’d find a note for <strong>Photonic Lantern - Wavefront Sensor</strong>. From there, I’d see the info on <strong>Photonic Lantern Reconstruction Algorithms</strong> and opening that note, I’d find the stuff I wrote about NN-based photonic lantern output approximation, along with a link to the relevant paper.</p>
 <p>Here you can see where I can start with a fuzzy, half remembered idea, and quickly resurface a specific paper, rather than scratching my head trying to remember who wrote what from a cold start.</p>
 <p>With any hope, this lets me do research and close the loop!</p>
 <p><img src="https://caffeineandlasers.com/Assets/PKM_Flowchart.png" alt=""></p>
 <h2>Conclusions</h2>
-<p>This is just a broad overview of physically <strong>HOW</strong> I do my research.<br>
-Maybe at some point later I will dive deeper into my philosphy of what deserves<br>
-a note and how I go about learning. But that is for another  time.</p>
-<p>This post was more inspried by the typical &quot;Here is the tools I use&quot; kind of posts<br>
-you see on other folks personal web pages. I hope you found it interesting, and<br>
-if you feel like chatting ping me an email or connnect on Mastodon!</p>
+<p>This is just a broad overview of physically <strong>HOW</strong> I do my research. Maybe at some point later I will dive deeper into my philosphy of what deserves a note and how I go about learning. But that is for another  time.</p>
+<p>This post was more inspried by the typical &quot;Here is the tools I use&quot; kind of posts you see on other folks personal web pages. I hope you found it interesting, and if you feel like chatting ping me an email or connnect on Mastodon!</p>
 <p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/How_I_do_my_Research(As_a_PhD_Student).html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/How_I_do_my_Research(As_a_PhD_Student).html</guid>
@@ -3380,53 +3338,26 @@ straightforward, and you can be up and running in minutes, whether you choose to
       <title><![CDATA[ChiCurate]]></title>
       <description><![CDATA[Introducing ChiCurate, an open-source tool designed to help researchers streamline their ArXiv experience by combining keyword matching with LLM-powered ranking.]]></description>
       <content:encoded><![CDATA[<h2>Introducing ChiCurate: Your Personalized ArXiv Feed</h2>
-<p>In the fast-paced world of scientific research, staying up-to-date with<br>
-the latest publications is crucial. However, with hundreds of papers<br>
-published daily on ArXiv, finding the most relevant ones for your<br>
-research can be like searching for a needle in a haystack. Enter<br>
-ChiCurate, a simple tool designed to make researchers more efficient,<br>
-and unearth the papers they are interested in.</p>
+<p>In the fast-paced world of scientific research, staying up-to-date with the latest publications is crucial. However, with hundreds of papers published daily on ArXiv, finding the most relevant ones for your research can be like searching for a needle in a haystack. Enter ChiCurate, a simple tool designed to make researchers more efficient, and unearth the papers they are interested in.</p>
 <p>Get it <a href="https://github.com/CJones-Optics/ChiCurate">here!</a></p>
 <h2>What is ChiCurate?</h2>
-<p>ChiCurate is an open-source tool that creates a personalized ArXiv feed<br>
-tailored to your specific research interests. By leveraging the power of<br>
-local Large Language Models (LLMs) and the simplicity of RSS feeds,<br>
-ChiCurate ranks papers based on their relevance to your work, saving you<br>
-valuable time and ensuring you never miss an important publication in<br>
-your field.</p>
+<p>ChiCurate is an open-source tool that creates a personalized ArXiv feed tailored to your specific research interests. By leveraging the power of local Large Language Models (LLMs) and the simplicity of RSS feeds, ChiCurate ranks papers based on their relevance to your work, saving you valuable time and ensuring you never miss an important publication in your field.</p>
 <h2>Key Advantages</h2>
 <ol>
-<li><strong>Personalization</strong>: Unlike traditional RSS feeds, ChiCurate allows<br>
-you to describe your research interests in plain language. The AI<br>
-then uses this information to rank papers, ensuring you see the most<br>
-relevant content first.</li>
-<li><strong>Local Processing</strong>: ChiCurate runs on your local machine, ensuring<br>
-privacy and giving you full control over the curation process.</li>
-<li><strong>Open Source</strong>: The tool is open-source, allowing for community<br>
-contributions and customizations to fit various research needs.</li>
-<li><strong>Efficient</strong>: While it may take about 15 minutes to process a<br>
-day's worth of papers, you can set it up to run automatically each<br>
-morning, having your personalized feed ready before you start your<br>
-day.</li>
-<li><strong>Flexible</strong>: You can easily adjust your research interests or try<br>
-different LLM models to optimize the curation process.</li>
-<li><strong>Resource-Friendly</strong>: ChiCurate can run on modest hardware, making<br>
-it accessible to researchers without high-end computing resources.</li>
+<li><strong>Personalization</strong>: Unlike traditional RSS feeds, ChiCurate allows you to describe your research interests in plain language. The AI then uses this information to rank papers, ensuring you see the most relevant content first.</li>
+<li><strong>Local Processing</strong>: ChiCurate runs on your local machine, ensuring privacy and giving you full control over the curation process.</li>
+<li><strong>Open Source</strong>: The tool is open-source, allowing for community contributions and customizations to fit various research needs.</li>
+<li><strong>Efficient</strong>: While it may take about 15 minutes to process a day's worth of papers, you can set it up to run automatically each morning, having your personalized feed ready before you start your day.</li>
+<li><strong>Flexible</strong>: You can easily adjust your research interests or try different LLM models to optimize the curation process.</li>
+<li><strong>Resource-Friendly</strong>: ChiCurate can run on modest hardware, making it accessible to researchers without high-end computing resources.</li>
 </ol>
 <h2>How It Works</h2>
 <p>ChiCurate combines two key technologies:</p>
 <ol>
-<li><strong>Local LLMs</strong>: Using Ollama, an open-source tool for running LLMs<br>
-locally, ChiCurate analyzes paper titles (and potentially abstracts)<br>
-to determine their relevance to your interests.</li>
-<li><strong>RSS Feeds</strong>: The tool fetches the latest papers from ArXiv's RSS<br>
-feeds, providing a structured and machine-readable interface for the<br>
-LLM to process.</li>
+<li><strong>Local LLMs</strong>: Using Ollama, an open-source tool for running LLMs locally, ChiCurate analyzes paper titles (and potentially abstracts) to determine their relevance to your interests.</li>
+<li><strong>RSS Feeds</strong>: The tool fetches the latest papers from ArXiv's RSS feeds, providing a structured and machine-readable interface for the LLM to process.</li>
 </ol>
-<p>By describing your research interests to the AI, you create a<br>
-personalized algorithm that ranks papers based on their relevance to<br>
-your work. This approach gives you the benefits of a curated feed while<br>
-maintaining full control over the curation process.</p>
+<p>By describing your research interests to the AI, you create a personalized algorithm that ranks papers based on their relevance to your work. This approach gives you the benefits of a curated feed while maintaining full control over the curation process.</p>
 <h2>Installation Guide</h2>
 <p>To get started with ChiCurate, follow these steps:</p>
 <ol>
@@ -3434,10 +3365,8 @@ maintaining full control over the curation process.</p>
 <p><strong>Install Ollama</strong>:</p>
 <ul>
 <li>For Linux: <code>curl -fsSL https://ollama.com/install.sh | sh</code></li>
-<li>For Windows: Install WSL (Windows Subsystem for Linux) first,<br>
-then follow the Linux instructions</li>
-<li>For MacOS: Download the dedicated installer from the Ollama<br>
-website</li>
+<li>For Windows: Install WSL (Windows Subsystem for Linux) first, then follow the Linux instructions</li>
+<li>For MacOS: Download the dedicated installer from the Ollama website</li>
 </ul>
 </li>
 <li>
@@ -3455,12 +3384,9 @@ pip install -r requirements.txt</p>
 <li>
 <p><strong>Configure ChiCurate</strong>:</p>
 <ul>
-<li>Edit <code>./userData/feeds.csv</code> to include the ArXiv RSS feeds<br>
-you're interested in</li>
-<li>Modify <code>./userData/userPrompt.txt</code> to describe your research<br>
-interests</li>
-<li>Adjust <code>config.yaml</code> if needed (e.g., to change the LLM model or<br>
-batch size)</li>
+<li>Edit <code>./userData/feeds.csv</code> to include the ArXiv RSS feeds you're interested in</li>
+<li>Modify <code>./userData/userPrompt.txt</code> to describe your research interests</li>
+<li>Adjust <code>config.yaml</code> if needed (e.g., to change the LLM model or batch size)</li>
 </ul>
 </li>
 <li>
@@ -3468,10 +3394,8 @@ batch size)</li>
 <p>Execute <code>run.sh</code> to start the curation process</p>
 </li>
 </ol>
-<p>For optimal use, consider setting up a cron job to run ChiCurate<br>
-automatically each morning.</p>
-<p><strong>UPDATE: September 2024</strong><br>
-Stay Tuned. I have made the program even more efficient :)</p>
+<p>For optimal use, consider setting up a cron job to run ChiCurate automatically each morning.</p>
+<p><strong>UPDATE: September 2024</strong> Stay Tuned. I have made the program even more efficient :)</p>
 <p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/ChiCurate.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/ChiCurate.html</guid>
@@ -3482,84 +3406,27 @@ Stay Tuned. I have made the program even more efficient :)</p>
       <title><![CDATA[Where are all the aliens?]]></title>
       <description><![CDATA[They arn't talking to us right now.]]></description>
       <content:encoded><![CDATA[<h2>...They just aren't talking to us</h2>
-<p>I read a paper exploring a novel explanation for why the universe is so<br>
-darn quiet.</p>
-<p>For those unacquainted, the <a href="https://www.space.com/25325-fermi-paradox.html">Fermi<br>
-Paradox</a> is the simple<br>
-question. &quot;Why is the universe so quiet???&quot;. This follows the <a href="https://en.wikipedia.org/wiki/Drake_equation">Drake<br>
-Equation</a> which is a kind<br>
-of napkin math estimate of how many aliens there are in the universe.<br>
-You simply take the number of stars in the universe, multiplied by the<br>
-percentage of those stars with planets, multiplied by the percentage of<br>
-planets in the habitable zone, multiplied by the probability of life<br>
-spontaneously developing. While we don't know the true value of any of<br>
-these numbers, even a conservative estimate for each says there should<br>
-be plenty of aliens out there for us to find. Simply because the<br>
-universe is so big, and there are so many stars!</p>
-<p>There are many explanations for the Fermi Paradox. Most of them make<br>
-great premises for Sci-Fi works. From the great filter hypothesis (seen<br>
-in <em>Mass Effect</em>) to the Dark Forest hypothesis (seen in <em>Three Body<br>
-Problem</em>), to the Berserker hypothesis (seen in <em>Berserk</em>). A paper that<br>
-hit the ArXiv last month has a novel explanation for why we can't hear<br>
-any aliens.</p>
+<p>I read a paper exploring a novel explanation for why the universe is so darn quiet.</p>
+<p>For those unacquainted, the <a href="https://www.space.com/25325-fermi-paradox.html">Fermi Paradox</a> is the simple question. &quot;Why is the universe so quiet???&quot;. This follows the <a href="https://en.wikipedia.org/wiki/Drake_equation">Drake Equation</a> which is a kind of napkin math estimate of how many aliens there are in the universe. You simply take the number of stars in the universe, multiplied by the percentage of those stars with planets, multiplied by the percentage of planets in the habitable zone, multiplied by the probability of life spontaneously developing. While we don't know the true value of any of these numbers, even a conservative estimate for each says there should be plenty of aliens out there for us to find. Simply because the universe is so big, and there are so many stars!</p>
+<p>There are many explanations for the Fermi Paradox. Most of them make great premises for Sci-Fi works. From the great filter hypothesis (seen in <em>Mass Effect</em>) to the Dark Forest hypothesis (seen in <em>Three Body Problem</em>), to the Berserker hypothesis (seen in <em>Berserk</em>). A paper that hit the ArXiv last month has a novel explanation for why we can't hear any aliens.</p>
 <p>In a sentence.</p>
 <p><em>They aren't talking to us</em>.</p>
-<p>But, why aren't they talking to us? And why can't we overhear them<br>
-talking to each other? That is what this paper addresses.</p>
-<p>The author of the paper suggests that interstellar civilisations may<br>
-prefer to communicate using quantum communication. The reasons for this<br>
-are beyond the scope of my blog post, but in short, you can get more<br>
-data, faster, and more securely and lets you do a bunch of things that<br>
-are impossible in non-quantum communication.</p>
-<p>The physics of Quantum Communication puts some hard limits on what we<br>
-Earthlings could expect to hear</p>
-<p>When we do &quot;classical&quot; communication here on Earth. All that matters is<br>
-that the signal is louder than the background noise. Think about<br>
-communication like speech, if you cannot hear your interlocutor inside a<br>
-noisy restaurant, you will simply ask them to increase their volume, and<br>
-you will be able to understand them.</p>
-<p>Radio communication on Earth is like a lightbulb in a dark room. It<br>
-sends signals in all directions, and if someone can't hear the message<br>
-clearly, we just use a stronger &quot;bulb&quot;. This works because we only need<br>
-the signal to be louder than the background noise to understand it.</p>
-<p>Quantum communication is different. Quantum communication leverages the<br>
-particle-like properties of light (or other quantum things). This means<br>
-that the limit is no longer that a signal is louder than the background,<br>
-but that a large enough percentage of the individual particles that are<br>
-sent get received. The consequence of this is that you cannot just &quot;turn<br>
-up the volume&quot; if the receiver isn't getting the signal.</p>
-<p>This is less like speaking in a restaurant, and more like a game of<br>
-catch. If your ball partner is only catching 50% of the balls you throw,<br>
-simply throwing more (turning up the volume) won't help improve their<br>
-catch rate. Instead, you need to move closer and throw more accurately.</p>
-<p>For effective quantum communication, the MAJORITY of the signal<br>
-transmitted must be received to work. As a result, quantum communication<br>
-requires small wavelengths. These signals would be transmitted by a<br>
-telescope on one end, and received by another telescope on the other.<br>
-These laser beams of signal can then be passed through space with high<br>
-accuracy, allowing most of the signal to land on target.</p>
+<p>But, why aren't they talking to us? And why can't we overhear them talking to each other? That is what this paper addresses.</p>
+<p>The author of the paper suggests that interstellar civilisations may prefer to communicate using quantum communication. The reasons for this are beyond the scope of my blog post, but in short, you can get more data, faster, and more securely and lets you do a bunch of things that are impossible in non-quantum communication.</p>
+<p>The physics of Quantum Communication puts some hard limits on what we Earthlings could expect to hear</p>
+<p>When we do &quot;classical&quot; communication here on Earth. All that matters is that the signal is louder than the background noise. Think about communication like speech, if you cannot hear your interlocutor inside a noisy restaurant, you will simply ask them to increase their volume, and you will be able to understand them.</p>
+<p>Radio communication on Earth is like a lightbulb in a dark room. It sends signals in all directions, and if someone can't hear the message clearly, we just use a stronger &quot;bulb&quot;. This works because we only need the signal to be louder than the background noise to understand it.</p>
+<p>Quantum communication is different. Quantum communication leverages the particle-like properties of light (or other quantum things). This means that the limit is no longer that a signal is louder than the background, but that a large enough percentage of the individual particles that are sent get received. The consequence of this is that you cannot just &quot;turn up the volume&quot; if the receiver isn't getting the signal.</p>
+<p>This is less like speaking in a restaurant, and more like a game of catch. If your ball partner is only catching 50% of the balls you throw, simply throwing more (turning up the volume) won't help improve their catch rate. Instead, you need to move closer and throw more accurately.</p>
+<p>For effective quantum communication, the MAJORITY of the signal transmitted must be received to work. As a result, quantum communication requires small wavelengths. These signals would be transmitted by a telescope on one end, and received by another telescope on the other. These laser beams of signal can then be passed through space with high accuracy, allowing most of the signal to land on target.</p>
 <p><img src="ClassicalComsvsQComms.svg" alt="Classical Coms Vs Quantm Comms"></p>
-<p>This means that if all the aliens out there are communicating using<br>
-Quantum communications:</p>
-<p><strong>a</strong>.  They must have <strong>extremely</strong> narrow beams. So it is near impossible<br>
-for any stray signal to hit us. Remember, the majority of the signal<br>
-needs to hit the receiver, and any that hits us isn't hitting the<br>
-receiver.</p>
-<p><strong>b</strong>.  They must have <strong>MASSIVE</strong> telescopes to suck up all those photons.<br>
-And by massive, I don't mean hundreds of meters wide, or even a<br>
-kilometre wide. In order to send a quantum signal between us and our<br>
-closest neighbour, quantum information theory predicts you would<br>
-need a telescope 100 km wide!</p>
-<p>The craziest thing about this explanation is that even if aliens wanted<br>
-to talk to us, AND had the technology to do so, they would also have the<br>
-technology to see that we wouldn't be able to hear them because we do<br>
-not have any large enough telescopes.</p>
-<p>So quite simply, it is so quiet, because the aliens are not talking to<br>
-us.</p>
+<p>This means that if all the aliens out there are communicating using Quantum communications:</p>
+<p><strong>a</strong>. They must have <strong>extremely</strong> narrow beams. So it is near impossible for any stray signal to hit us. Remember, the majority of the signal needs to hit the receiver, and any that hits us isn't hitting the receiver.</p>
+<p><strong>b</strong>. They must have <strong>MASSIVE</strong> telescopes to suck up all those photons. And by massive, I don't mean hundreds of meters wide, or even a kilometre wide. In order to send a quantum signal between us and our closest neighbour, quantum information theory predicts you would need a telescope 100 km wide!</p>
+<p>The craziest thing about this explanation is that even if aliens wanted to talk to us, AND had the technology to do so, they would also have the technology to see that we wouldn't be able to hear them because we do not have any large enough telescopes.</p>
+<p>So quite simply, it is so quiet, because the aliens are not talking to us.</p>
 <h2>1 Source</h2>
-<p>Boyle, Latham. &quot;On Interstellar Quantum Communication and the Fermi<br>
-Paradox.&quot; arXiv, August 5, 2024.<br>
-<a href="https://doi.org/10.48550/arXiv.2408.02445.">https://doi.org/10.48550/arXiv.2408.02445</a>.</p>
+<p>Boyle, Latham. &quot;On Interstellar Quantum Communication and the Fermi Paradox.&quot; arXiv, August 5, 2024. <a href="https://doi.org/10.48550/arXiv.2408.02445.">https://doi.org/10.48550/arXiv.2408.02445</a>.</p>
 <p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Aliens.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Aliens.html</guid>
@@ -3630,92 +3497,43 @@ For centuries, farmers have pooled commodities into co-ops to trade as blocks. T
       <title><![CDATA[What Science Says About Coffee Grinding]]></title>
       <description><![CDATA[Delving into the scientific aspects of coffee grinding, exploring the effects of electrostatic charges and strategies to mitigate them for a better cup of coffee.]]></description>
       <content:encoded><![CDATA[<h2>Four Coffee Observations in Two Studies</h2>
-<p>There is something beautiful about scientists being given the freedom to<br>
-apply their skills to passion projects. High-impact science is valuable,<br>
-but the purity of studying a hobby out of sheer interest is something I<br>
-will always appreciate.</p>
-<p>Here are four observations from two scientific papers on the practice of<br>
-coffee grinding. Experienced coffee nerds might know some of these<br>
-intuitively, but now we have graphs to back them up.</p>
+<p>There is something beautiful about scientists being given the freedom to apply their skills to passion projects. High-impact science is valuable, but the purity of studying a hobby out of sheer interest is something I will always appreciate.</p>
+<p>Here are four observations from two scientific papers on the practice of coffee grinding. Experienced coffee nerds might know some of these intuitively, but now we have graphs to back them up.</p>
 <h2>1. Study One: Chemical strategies to mitigate electrostatic charging during coffee grinding</h2>
-<p>One interesting aspect of coffee grinding is the role of electrostatic<br>
-charges. When you grind coffee, the particles become charged, causing<br>
-them to clump together and stick to the sides of the grinder. This can<br>
-be annoying, as it creates a mess on your coffee station, but it can<br>
-also significantly impact the quality of the coffee.</p>
-<p>When coffee grounds clump together, water can't flow through them evenly<br>
-during brewing. This uneven extraction leads to what's known as<br>
-&quot;channeling,&quot; where water finds the path of least resistance and flows<br>
-through only part of the coffee bed. The result is a cup of coffee<br>
-that's less flavorful and more bitter than it should be. This paper<br>
-quantifies two strategies used to minimize this effect.</p>
+<p>One interesting aspect of coffee grinding is the role of electrostatic charges. When you grind coffee, the particles become charged, causing them to clump together and stick to the sides of the grinder. This can be annoying, as it creates a mess on your coffee station, but it can also significantly impact the quality of the coffee.</p>
+<p>When coffee grounds clump together, water can't flow through them evenly during brewing. This uneven extraction leads to what's known as &quot;channeling,&quot; where water finds the path of least resistance and flows through only part of the coffee bed. The result is a cup of coffee that's less flavorful and more bitter than it should be. This paper quantifies two strategies used to minimize this effect.</p>
 <h3>1.1 Electrical De-ionizers</h3>
-<p>Many modern &quot;luxury&quot; grinders include high-voltage ionizers fitted on<br>
-the exit chute of the grinder. The idea behind this device is to bombard<br>
-the coffee grinds with charged particles, which neutralize any static<br>
-charge picked up during the grinding process.</p>
+<p>Many modern &quot;luxury&quot; grinders include high-voltage ionizers fitted on the exit chute of the grinder. The idea behind this device is to bombard the coffee grinds with charged particles, which neutralize any static charge picked up during the grinding process.</p>
 <p><img src="CoffeeGrindsPaper1Fig3.png" alt=""></p>
-<p>The graphs shown in <em>d</em> and <em>b</em> demonstrate that fitting an electrical<br>
-de-ionizer does indeed reduce the charge buildup on the coffee grinds.</p>
-<p>But this isn't the end of the story. Does this reduction in static<br>
-charge translate into a better cup of coffee? Observing the bottom<br>
-graphs in Figure 5 shows almost no difference between espresso prepared<br>
-with and without the de-ionizer. The researchers note that the flavor<br>
-difference is negligible as well.</p>
-<p>How do we understand this result? The reason seems to be that by the<br>
-time the de-ionizer does its job, the damage has already been done---the<br>
-coffee grounds have already clumped together.</p>
-<p>So while a de-ionizer might make your coffee station less messy, it's<br>
-not going to make your coffee taste better.</p>
-<p>This raises an interesting question: Could combining a de-ionizer with a<br>
-grind distribution tool improve the situation? While de-ionizing the<br>
-coffee grinds does not cause the clumps to dissipate on their own,<br>
-perhaps it can make them easier to break apart with a coffee<br>
-distribution tool?</p>
+<p>The graphs shown in <em>d</em> and <em>b</em> demonstrate that fitting an electrical de-ionizer does indeed reduce the charge buildup on the coffee grinds.</p>
+<p>But this isn't the end of the story. Does this reduction in static charge translate into a better cup of coffee? Observing the bottom graphs in Figure 5 shows almost no difference between espresso prepared with and without the de-ionizer. The researchers note that the flavor difference is negligible as well.</p>
+<p>How do we understand this result? The reason seems to be that by the time the de-ionizer does its job, the damage has already been done---the coffee grounds have already clumped together.</p>
+<p>So while a de-ionizer might make your coffee station less messy, it's not going to make your coffee taste better.</p>
+<p>This raises an interesting question: Could combining a de-ionizer with a grind distribution tool improve the situation? While de-ionizing the coffee grinds does not cause the clumps to dissipate on their own, perhaps it can make them easier to break apart with a coffee distribution tool?</p>
 <h3>1.2 Spritzing the beans with water.</h3>
-<p>Another method for reducing static is much simpler: just spritz your<br>
-coffee beans with a little water before grinding. The idea is that the<br>
-water will dissipate charge as soon as it builds up. This method is much<br>
-lower-tech than the solution described above, but how does it compare?</p>
-<p>The researchers measured a reduction in static charge when a small<br>
-amount of water was added to the coffee before grinding. It also<br>
-resulted in lower retention (i.e., how much coffee gets stuck in the<br>
-grinder) and reduces the grind coarseness, and increases grind<br>
-uniformity.</p>
+<p>Another method for reducing static is much simpler: just spritz your coffee beans with a little water before grinding. The idea is that the water will dissipate charge as soon as it builds up. This method is much lower-tech than the solution described above, but how does it compare?</p>
+<p>The researchers measured a reduction in static charge when a small amount of water was added to the coffee before grinding. It also resulted in lower retention (i.e., how much coffee gets stuck in the grinder) and reduces the grind coarseness, and increases grind uniformity.</p>
 <p><img src="CoffeeGrindsPaper1Fig4.png" alt=""></p>
-<p>So how does this affect taste? The study observed that the addition of<br>
-water leads to a slower flow rate during brewing, which results in a<br>
-more concentrated extraction---especially with darker roasts. This is<br>
-also illustrated in figure 5.</p>
+<p>So how does this affect taste? The study observed that the addition of water leads to a slower flow rate during brewing, which results in a more concentrated extraction---especially with darker roasts. This is also illustrated in figure 5.</p>
 <p><img src="CoffeeGrindsPaper1Fig5.png" alt=""></p>
 <h3>1.3 Lessons from this paper</h3>
 <ul>
-<li>Grinders fitted with an electrical de-ionizer do not produce better<br>
-coffee but do result in less mess when making coffee.\</li>
-<li>Treating beans with a spray of water reduces clumping, resulting in<br>
-increased extraction and lower grinder retention.</li>
+<li>Grinders fitted with an electrical de-ionizer do not produce better coffee but do result in less mess when making coffee.</li>
+<li>Treating beans with a spray of water reduces clumping, resulting in increased extraction and lower grinder retention.</li>
 </ul>
 <h2>2. Study Two: The effect of bean origin and temperature on grinding roasted coffee</h2>
-<p>The second study focused on how different factors related to the coffee<br>
-beans themselves affect grinding</p>
-<p>This paper compares the effects of both bean origin and bean temperature<br>
-prior to grinding.</p>
+<p>The second study focused on how different factors related to the coffee beans themselves affect grinding</p>
+<p>This paper compares the effects of both bean origin and bean temperature prior to grinding.</p>
 <h3>2.1 The Effect of Bean Origin</h3>
-<p>Will different single-origin coffees grind differently? For once, the<br>
-answer is simple: NO!</p>
+<p>Will different single-origin coffees grind differently? For once, the answer is simple: NO!</p>
 <p><img src="CoffeeGrindsPaper2Fig3.png" alt=""></p>
-<p>It appears that between different coffees, the grind distribution<br>
-produced by the EK43 commercial are near identical for all of them.</p>
+<p>It appears that between different coffees, the grind distribution produced by the EK43 commercial are near identical for all of them.</p>
 <ol>
-<li>Four speciality grade coffees were ground to study grind profile<br>
-variations.</li>
-<li>Grind profiles showed a skewed-Gaussian shape with particle sizes<br>
-ranging from 0.1 μm to 1000 μm.</li>
-<li>All coffees had similar grind distributions, with minor differences<br>
-in number modes and fine particulates cutoff.</li>
+<li>Four speciality grade coffees were ground to study grind profile variations.</li>
+<li>Grind profiles showed a skewed-Gaussian shape with particle sizes ranging from 0.1 μm to 1000 μm.</li>
+<li>All coffees had similar grind distributions, with minor differences in number modes and fine particulates cutoff.</li>
 </ol>
-<p>There are a couple things to note here: - All 4 coffees tested were<br>
-light/medium roast - This test was only done on an EK43 grinder</p>
+<p>There are a couple things to note here: - All 4 coffees tested were light/medium roast - This test was only done on an EK43 grinder</p>
 <p>There are a couple of things to note here:\</p>
 <ul>
 <li>All four coffees tested were light/medium roast.\</li>
@@ -3735,54 +3553,26 @@ roasts?\</li>
 cheaper home grinders?</li>
 </ol>
 <h3>2.2 Effect of Bean Temperature</h3>
-<p>If you've ever ordered one of those expensive coffees---like the ones<br>
-that cost more than $10 a cup---you may have seen the barista pull the<br>
-coffee out of a freezer. The reason for this is obvious: they want to<br>
-keep the good stuff fresh for as long as possible. These baristas tend<br>
-to develop an intuition that freezing the beans makes them &quot;shatter&quot;<br>
-more evenly. So how accurate is their intuition?</p>
+<p>If you've ever ordered one of those expensive coffees---like the ones that cost more than $10 a cup---you may have seen the barista pull the coffee out of a freezer. The reason for this is obvious: they want to keep the good stuff fresh for as long as possible. These baristas tend to develop an intuition that freezing the beans makes them &quot;shatter&quot; more evenly. So how accurate is their intuition?</p>
 <p>It turns out it's quite accurate!</p>
 <p><img src="CoffeeGrindsPaper2Fig4.png" alt=""></p>
-<p>The paper's analysis shows that decreasing the temperature of the beans,<br>
-all the way down to -196°C, decreases both the average size of each<br>
-particle and reduces the &quot;spread&quot; of coffee grind sizes.</p>
-<p>The intuition of shattering beans turns out to be an accurate<br>
-description of what is happening here. While there are (almost) no ice<br>
-crystals within the bean to shatter, the bean itself has a crystalline<br>
-structure sensitive to temperature. So chilling the beans really does<br>
-cause them to shatter when you hit them.</p>
-<p>However, there are some caveats. As the beans pass through the grinder,<br>
-they warm up due to friction and contact with hot grinder blades. This<br>
-causes diminishing returns both as the coffee gets colder and as the<br>
-grinder is set finer.</p>
-<p>Interestingly, this effect seems to be reversible. Coffee that's cooled<br>
-to extremely low temperatures and then warmed back up to room<br>
-temperature behaves just like coffee that was never cooled in the first<br>
-place.</p>
+<p>The paper's analysis shows that decreasing the temperature of the beans, all the way down to -196°C, decreases both the average size of each particle and reduces the &quot;spread&quot; of coffee grind sizes.</p>
+<p>The intuition of shattering beans turns out to be an accurate description of what is happening here. While there are (almost) no ice crystals within the bean to shatter, the bean itself has a crystalline structure sensitive to temperature. So chilling the beans really does cause them to shatter when you hit them.</p>
+<p>However, there are some caveats. As the beans pass through the grinder, they warm up due to friction and contact with hot grinder blades. This causes diminishing returns both as the coffee gets colder and as the grinder is set finer.</p>
+<p>Interestingly, this effect seems to be reversible. Coffee that's cooled to extremely low temperatures and then warmed back up to room temperature behaves just like coffee that was never cooled in the first place.</p>
 <h2>3. So what did we learn?</h2>
 <p>The actionable takeaways from this mini deep dive are:</p>
 <ol>
-<li>Adding water to your coffee pre-grind improves extraction, reduces<br>
-retention, and slightly decreases coarseness.\</li>
+<li>Adding water to your coffee pre-grind improves extraction, reduces retention, and slightly decreases coarseness.</li>
 <li>Freezing coffee increases grind size uniformity.\</li>
-<li>The electrical de-ionizer on expensive grinders helps reduce mess<br>
-but does not appear to improve your coffee's quality (although<br>
-combining de-ionization with distribution tools has not been<br>
-studied).\</li>
-<li>Different coffees will have similar grind profiles on the same<br>
-grinder with identical settings.</li>
+<li>The electrical de-ionizer on expensive grinders helps reduce mess but does not appear to improve your coffee's quality (although combining de-ionization with distribution tools has not been studied).</li>
+<li>Different coffees will have similar grind profiles on the same grinder with identical settings.</li>
 </ol>
-<p>If you know of any novel research on coffee, let me know! My email is in<br>
-the &quot;Contact Me&quot; section of my website, and my Mastodon handle is on the<br>
-sidebar.</p>
+<p>If you know of any novel research on coffee, let me know! My email is in the &quot;Contact Me&quot; section of my website, and my Mastodon handle is on the sidebar.</p>
 <h2>3 Sources</h2>
-<p>Harper, J.M., Hendon, C.H., 2023. Chemical strategies to mitigate<br>
-electrostatic charging during coffee grinding.<br>
+<p>Harper, J.M., Hendon, C.H., 2023. Chemical strategies to mitigate electrostatic charging during coffee grinding.<br>
 <a href="https://doi.org/10.48550/arXiv.2312.03103">https://doi.org/10.48550/arXiv.2312.03103</a></p>
-<p>Uman, E., Colonna-Dashwood, M., Colonna-Dashwood, L., Perger, M., Klatt,<br>
-C., Leighton, S., Miller, B., Butler, K.T., Melot, B.C., Speirs, R.W.,<br>
-Hendon, C.H., 2016. The effect of bean origin and temperature on<br>
-grinding roasted coffee. Sci Rep 6, 24483.<br>
+<p>Uman, E., Colonna-Dashwood, M., Colonna-Dashwood, L., Perger, M., Klatt, C., Leighton, S., Miller, B., Butler, K.T., Melot, B.C., Speirs, R.W., Hendon, C.H., 2016. The effect of bean origin and temperature on grinding roasted coffee. Sci Rep 6, 24483.<br>
 <a href="https://doi.org/10.1038/srep24483">https://doi.org/10.1038/srep24483</a></p>
 <p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/WhatScienceSaysAboutCoffeeGrinding.html</link>
@@ -3794,57 +3584,25 @@ grinding roasted coffee. Sci Rep 6, 24483.<br>
       <title><![CDATA[LoFi Terminal]]></title>
       <description><![CDATA[A minimalist audio player that does its job without any frills.]]></description>
       <content:encoded><![CDATA[<h2>1 Announcing My LoFi Terminal Radio</h2>
-<p>This was a short weekend project I threw together to replace the<br>
-perpetually open YouTube Tab for <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study<br>
-to</a>. The result? A<br>
-minimalist audio player that does its job without any frills. Here's<br>
-why I created it and how it works.</p>
+<p>This was a short weekend project I threw together to replace the perpetually open YouTube Tab for <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study to</a>. The result? A minimalist audio player that does its job without any frills. Here's why I created it and how it works.</p>
 <h2>2 What is it</h2>
-<p>In short, it is an audio player with a very specific emphasis on<br>
-being: - minimalist - distraction-free You cannot select tracks, replay<br>
-tracks or go to the next track. This is a feature, not a shortcoming. If<br>
-you want different music, change the station.</p>
-<p>The aim of this is to provide an experience akin to radio. You can turn<br>
-it on, change the volume and switch the channel, but the programming is<br>
-up to the DJ.</p>
+<p>In short, it is an audio player with a very specific emphasis on being: - minimalist - distraction-free You cannot select tracks, replay tracks or go to the next track. This is a feature, not a shortcoming. If you want different music, change the station.</p>
+<p>The aim of this is to provide an experience akin to radio. You can turn it on, change the volume and switch the channel, but the programming is up to the DJ.</p>
 <h2>3 Why Design it like this</h2>
-<p>This program isn't to replace your spotify or main music player.<br>
-Instead it is to replace your <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study<br>
-to</a> Youtube tab that stays<br>
-open while you work. The channel has 15k streamers on it when I checked,<br>
-and has streaming uninterrupted since July 2022.</p>
-<p>Why does this exist? Much like some art makes you think, and some exists<br>
-just to decorate space. Some music exists to make you think, and some<br>
-exist to decorate time. When you get these two types confused your<br>
-&quot;background music&quot; can become the focus, distracting you from the work<br>
-you are meant to be doing. These &quot;lofi hip-hop&quot; streams exist to play<br>
-background music and remove the temptation of fiddling with the<br>
-playlist.</p>
-<p>The problem is, a 1080p video stream running in a web browser is<br>
-super-overkill for listening to music. It wastes network bandwidth,<br>
-computer memory, and CPU cycles. On top of this, it removes the<br>
-distraction of fiddling with playlists but replaces it with the visual<br>
-clutter of an unnecessary browser tab next to your actual work</p>
+<p>This program isn't to replace your spotify or main music player. Instead it is to replace your <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi beats to relax/study to</a> Youtube tab that stays open while you work. The channel has 15k streamers on it when I checked, and has streaming uninterrupted since July 2022.</p>
+<p>Why does this exist? Much like some art makes you think, and some exists just to decorate space. Some music exists to make you think, and some exist to decorate time. When you get these two types confused your &quot;background music&quot; can become the focus, distracting you from the work you are meant to be doing. These &quot;lofi hip-hop&quot; streams exist to play background music and remove the temptation of fiddling with the playlist.</p>
+<p>The problem is, a 1080p video stream running in a web browser is super-overkill for listening to music. It wastes network bandwidth, computer memory, and CPU cycles. On top of this, it removes the distraction of fiddling with playlists but replaces it with the visual clutter of an unnecessary browser tab next to your actual work</p>
 <h2>4 My Solution</h2>
-<p>A tool to replace this should have 1. No way to select tracks or<br>
-configure playlists from the UI 2. Stay out of the way when you aren't<br>
-using it</p>
-<p>For this, I settled on a discrete terminal app that I can stash neatly<br>
-out of the way. Especially when I leave it running in my <a href="https://extensions.gnome.org/extension/6307/quake-terminal/">Quake<br>
-Terminal</a><br>
-extension for GNOME.</p>
+<p>A tool to replace this should have 1. No way to select tracks or configure playlists from the UI 2. Stay out of the way when you aren't using it</p>
+<p>For this, I settled on a discrete terminal app that I can stash neatly out of the way. Especially when I leave it running in my <a href="https://extensions.gnome.org/extension/6307/quake-terminal/">Quake Terminal</a> extension for GNOME.</p>
 <p><img src="lofiRadio.png" alt="Screenshot of the UI"></p>
 <h2>5 Where Do I install it?</h2>
-<p>Install instructions at <a href="https://github.com/CJones-Optics/lofi-player">My<br>
-Repo</a></p>
+<p>Install instructions at <a href="https://github.com/CJones-Optics/lofi-player">My Repo</a></p>
 <h2>6 Customising it</h2>
 <h2>6.1 Colours!</h2>
-<p>The UI is determined by css, with the colours defined at the top of the<br>
-file. Change your colour scheme to whatever you want just by changing<br>
-the hex codes at the top of the css file.</p>
+<p>The UI is determined by css, with the colours defined at the top of the file. Change your colour scheme to whatever you want just by changing the hex codes at the top of the css file.</p>
 <h2>6.2 Keybindings!</h2>
-<p>Don't like vim? Iwon't hold it against you. There is a simple text<br>
-file of the keybindings. Change the key to whatever you need.</p>
+<p>Don't like vim? Iwon't hold it against you. There is a simple text file of the keybindings. Change the key to whatever you need.</p>
 <h2>7 Does it work on:</h2>
 <ul>
 <li>Linux
@@ -3854,79 +3612,43 @@ file of the keybindings. Change the key to whatever you need.</p>
 </li>
 <li>Mac
 <ul>
-<li><strong>Probably!</strong> I haven't tested. Try it and let me know. I<br>
-can't afford a Macbook.</li>
+<li><strong>Probably!</strong> I haven't tested. Try it and let me know. I can't afford a Macbook.</li>
 </ul>
 </li>
 <li>Windows
 <ul>
-<li><strong>Eventually!</strong> There are some bugs specific to Window's<br>
-implementation of Python. (Or maybe Linux's implementation?)<br>
-Either way, it doesn't work as perfectly on Windows. It will be<br>
-fixed when I get around to it.</li>
+<li><strong>Eventually!</strong> There are some bugs specific to Window's implementation of Python. (Or maybe Linux's implementation?) Either way, it doesn't work as perfectly on Windows. It will be fixed when I get around to it.</li>
 </ul>
 </li>
 </ul>
 <h2>8 This is all well and good, but who has MP3 files anymore?</h2>
-<p>You got me there! Spotify support isn't really something I can be<br>
-bothered messing with. Instead, I built my playlists from the Royalty<br>
-Free resources available at<br>
-<a href="https://pixabay.com/music/search/lofi/">Pixbay</a>, but for artists, you<br>
-are genuinely fond of you can actually support them by buying their<br>
-music through Bandcamp.</p>
+<p>You got me there! Spotify support isn't really something I can be bothered messing with. Instead, I built my playlists from the Royalty Free resources available at <a href="https://pixabay.com/music/search/lofi/">Pixbay</a>, but for artists, you are genuinely fond of you can actually support them by buying their music through Bandcamp.</p>
 <h2>9 Technical Details</h2>
 <h2>9.1 Frameworks</h2>
 <ul>
 <li>Both the backend and UI are written in Python
 <ul>
 <li>Backend uses PyGame to handle the mp3 playback</li>
-<li>Frontend uses the Textual Framework to handle keybindings, and<br>
-tcss for a css-like experience configuring the UI</li>
+<li>Frontend uses the Textual Framework to handle keybindings, and tcss for a css-like experience configuring the UI</li>
 </ul>
 </li>
 </ul>
 <h2>9.2 How it works:</h2>
 <ul>
-<li>The player process grabs a directory of mp3 files, and a playlist<br>
-object grabs each file one at a time, and throws it at the player<br>
-object when it needs a new song.</li>
-<li>A queue is used to pass commands from the UI in <a href="http://TUI.py">TUI.py</a>, to the<br>
-process in <a href="http://musicPlayer.py">musicPlayer.py</a> and messages back in the other direction.</li>
+<li>The player process grabs a directory of mp3 files, and a playlist object grabs each file one at a time, and throws it at the player object when it needs a new song.</li>
+<li>A queue is used to pass commands from the UI in <a href="http://TUI.py">TUI.py</a>, to the process in <a href="http://musicPlayer.py">musicPlayer.py</a> and messages back in the other direction.</li>
 </ul>
 <h2>9.3 Customisability</h2>
-<p>At the moment the application is optimised for my specific use case. And<br>
-I am very opinionated. This means: -The entire program is controlled<br>
-from the keyboard, with vim keybindings - No &quot;Next&quot; button is exposed<br>
-in the UI.</p>
-<p>Thankfully, the frameworks used are very flexible, allowing for easy<br>
-hackability. To change the colours of the UI, you only need to change<br>
-the hexcodes in <code>style.tcss</code>. To add mouse support, you can easily<br>
-implement buttons using Textualise's built-in widgets. In fact, the<br>
-repo has a spare folder for GUI elements I designed, (then removed) to<br>
-get you started.</p>
-<p>The process also already has a command written for the next track. You<br>
-only need to add the UI element if you really want it.</p>
+<p>At the moment the application is optimised for my specific use case. And I am very opinionated. This means: -The entire program is controlled from the keyboard, with vim keybindings - No &quot;Next&quot; button is exposed in the UI.</p>
+<p>Thankfully, the frameworks used are very flexible, allowing for easy hackability. To change the colours of the UI, you only need to change the hexcodes in <code>style.tcss</code>. To add mouse support, you can easily implement buttons using Textualise's built-in widgets. In fact, the repo has a spare folder for GUI elements I designed, (then removed) to get you started.</p>
+<p>The process also already has a command written for the next track. You only need to add the UI element if you really want it.</p>
 <h2>10 Future Changes</h2>
-<p>Future changes are unlikely because it currently fits my use case.<br>
-However for the sake of completeness, here is how I may extend the<br>
-application. - Custom theming. - At the moment I have a Catpuccino theme<br>
-hardcoded into it. An implementation to vary the colour scheme would be<br>
-simple to implement and highly beneficial - Implement GUI and Mouse<br>
-Support. - I have a soft spot for text-only UIs, which is why it is<br>
-implemented like this. The framework does support buttons for mouse UIs<br>
-though. The app does work with buttons but I thought they were ugly and<br>
-removed them. Check the commit history for implementation -Old School<br>
-animated music visualiser: - This is somewhat antithetical to the design<br>
-philosophy, but they are a lot of fun. I plan on building one<br>
-eventually.\</p>
+<p>Future changes are unlikely because it currently fits my use case. However for the sake of completeness, here is how I may extend the application. - Custom theming. - At the moment I have a Catpuccino theme hardcoded into it. An implementation to vary the colour scheme would be simple to implement and highly beneficial - Implement GUI and Mouse Support. - I have a soft spot for text-only UIs, which is why it is implemented like this. The framework does support buttons for mouse UIs though. The app does work with buttons but I thought they were ugly and removed them. Check the commit history for implementation -Old School animated music visualiser: - This is somewhat antithetical to the design philosophy, but they are a lot of fun. I plan on building one eventually.</p>
 <ul>
 <li>GUI Support Cont: Implement a list feature for all the stations.</li>
 </ul>
 <h2>11 Conclusion</h2>
-<p>The LoFi Terminal Radio aims to provide a distraction-free,<br>
-resource-efficient alternative to streaming background music. If you're<br>
-looking for a minimalist approach to your work soundtrack, give it a<br>
-try! Feedback and contributions are always welcome.</p>
+<p>The LoFi Terminal Radio aims to provide a distraction-free, resource-efficient alternative to streaming background music. If you're looking for a minimalist approach to your work soundtrack, give it a try! Feedback and contributions are always welcome.</p>
 <p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/lofiRadio.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/lofiRadio.html</guid>
@@ -4064,168 +3786,70 @@ you update your blog! No other maintenance needed. Feel free to use the button b
       <content:encoded><![CDATA[<h2>Observing the observer: Perception in Philosophy Psychology and Physics</h2>
 <p><strong>What Do Descarte, Buddhists and Astrophysicists have in common?</strong></p>
 <h2>The Answer?</h2>
-<p>To give a short answer. Fundamental appreciation of one's own<br>
-epistemologic limitations and an understanding of the self-referential<br>
-nature of perceiving one's existence.</p>
-<p>In non-jargon: They pay attention to what they are paying attention to.<br>
-In order to better understand this, lets take a brief tour through<br>
-philosphy, psychology and astrophysics.</p>
+<p>To give a short answer. Fundamental appreciation of one's own epistemologic limitations and an understanding of the self-referential nature of perceiving one's existence.</p>
+<p>In non-jargon: They pay attention to what they are paying attention to. In order to better understand this, lets take a brief tour through philosphy, psychology and astrophysics.</p>
 <h2>Descartes Says: &quot;Cogito, Ergo Sum&quot; {#cogito-ergo-sum}</h2>
 <p><em>I think therefore I am</em></p>
-<p>A famous line everyone has heard before. Let's cover what Descartes<br>
-meant by this.</p>
-<p>Descartes was a <em>Skeptic</em>. He wanted to answer the question &quot;What can I<br>
-know for SURE&quot;. While this seems simple, it reveals some deeper<br>
-questions. Can you trust your eyes? What about opical illusions? Can you<br>
-trust your ears? What if you are hallucinating? If we cant trust our<br>
-senses, what can we trust?</p>
-<p>This question drove him insane until he came to one very important<br>
-discovery.</p>
+<p>A famous line everyone has heard before. Let's cover what Descartes meant by this.</p>
+<p>Descartes was a <em>Skeptic</em>. He wanted to answer the question &quot;What can I know for SURE&quot;. While this seems simple, it reveals some deeper questions. Can you trust your eyes? What about opical illusions? Can you trust your ears? What if you are hallucinating? If we cant trust our senses, what can we trust?</p>
+<p>This question drove him insane until he came to one very important discovery.</p>
 <p><em>Cogito, Ergo Sum - I think therefore I am</em></p>
-<p>What this means, is that while we can doubt our knowledge, our eyes,<br>
-ears and smell, we cannot doubt our own existence. Because any doubt<br>
-itself is proof of our own existence.</p>
-<p>This is such a profound statement, because stating it itself, is proof<br>
-that it is not false. Even if you doubt your senses or your reasoning,<br>
-it must still be true.</p>
-<p>From this observation, Descartes (and thousands of philosophers after<br>
-him) tried (and failed) to axiomatically reconstruct all of human<br>
-knowledge. This fundamental axiom remains unchanged. You exist, because<br>
-you can observe yourself.</p>
+<p>What this means, is that while we can doubt our knowledge, our eyes, ears and smell, we cannot doubt our own existence. Because any doubt itself is proof of our own existence.</p>
+<p>This is such a profound statement, because stating it itself, is proof that it is not false. Even if you doubt your senses or your reasoning, it must still be true.</p>
+<p>From this observation, Descartes (and thousands of philosophers after him) tried (and failed) to axiomatically reconstruct all of human knowledge. This fundamental axiom remains unchanged. You exist, because you can observe yourself.</p>
 <h2>Anthropic principle</h2>
-<p>In 1973, Brandon Carter changed astrophysics forever when he coined the<br>
-&quot;Anthropic principle&quot;. This principle states that the fact that <em>we</em><br>
-exist, is a necessary condition for us to make observations about the<br>
-universe. This means that the range of observations that could be made<br>
-about the universe is limited by the fact that observations can only be<br>
-made within a universe capable of creating intelligent observers. An<br>
-excellent anaology is to consider a sentient puddle of water, who is<br>
-amazed at how perfectly the hole it is in fits it. The puddle's<br>
-misconception is that the hole was made for it, when in reality, the<br>
-puddle was made out of the hole.</p>
-<p>This principle starts to explain why it seems like the universe is<br>
-finely tuned to produce life. That is because, if it wasn't, we<br>
-wouldn't be here to notice it. It puts limits on the physical<br>
-constants, the age of the universe and possibly why we haven't found<br>
-aliens.</p>
-<p>For example, why is the universe as old as it is? If it were a tenth of<br>
-its current age, there would not be enough metal in the universe to<br>
-sustain intelligent life. If it were ten times its current age there<br>
-would not be enough active stars alive in the universe to maintain human<br>
-life. Therefore, it is no coincidence that we live in a universal golden<br>
-age. If we weren't then we wouldn't exist to notice that it is a<br>
-golden age.</p>
-<p>The anthropic principle is invoked many times in astrophysics to explain<br>
-the remarkable coincidences we see in nature.</p>
+<p>In 1973, Brandon Carter changed astrophysics forever when he coined the &quot;Anthropic principle&quot;. This principle states that the fact that <em>we</em> exist, is a necessary condition for us to make observations about the universe. This means that the range of observations that could be made about the universe is limited by the fact that observations can only be made within a universe capable of creating intelligent observers. An excellent anaology is to consider a sentient puddle of water, who is amazed at how perfectly the hole it is in fits it. The puddle's misconception is that the hole was made for it, when in reality, the puddle was made out of the hole.</p>
+<p>This principle starts to explain why it seems like the universe is finely tuned to produce life. That is because, if it wasn't, we wouldn't be here to notice it. It puts limits on the physical constants, the age of the universe and possibly why we haven't found aliens.</p>
+<p>For example, why is the universe as old as it is? If it were a tenth of its current age, there would not be enough metal in the universe to sustain intelligent life. If it were ten times its current age there would not be enough active stars alive in the universe to maintain human life. Therefore, it is no coincidence that we live in a universal golden age. If we weren't then we wouldn't exist to notice that it is a golden age.</p>
+<p>The anthropic principle is invoked many times in astrophysics to explain the remarkable coincidences we see in nature.</p>
 <h2>Mindfulness</h2>
-<p>Mental health practitioners, Buddhists, and plenty of wise people<br>
-recommend mindfulness for managing anxiety and depression. This practice<br>
-emphasizes observing one's thoughts and feelings from a detached<br>
-perspective. It implicitly recognizes the existence of a conscious<br>
-observer separate from the contents of consciousness.</p>
-<p>In practice, a mindfulness exercise involves letting yourself feel<br>
-emotions and experience thoughts while observing those emotions and<br>
-thoughts from a detached perspective.</p>
-<p>This is sometimes called meta-attention. Paying attention to your<br>
-attention. The aim of practising meta-attention is to decouple your<br>
-consciousness from your observations and thereby break the thought loops<br>
-that cause anxiety and depression.</p>
-<p>Mindfulness extends from the Buddhist and Hindu traditions and is backed<br>
-by modern cognitive psychology. The practice of observing one's<br>
-thoughts as the physical process of natural laws is a powerful tool for<br>
-understandng ones place in the universe.</p>
+<p>Mental health practitioners, Buddhists, and plenty of wise people recommend mindfulness for managing anxiety and depression. This practice emphasizes observing one's thoughts and feelings from a detached perspective. It implicitly recognizes the existence of a conscious observer separate from the contents of consciousness.</p>
+<p>In practice, a mindfulness exercise involves letting yourself feel emotions and experience thoughts while observing those emotions and thoughts from a detached perspective.</p>
+<p>This is sometimes called meta-attention. Paying attention to your attention. The aim of practising meta-attention is to decouple your consciousness from your observations and thereby break the thought loops that cause anxiety and depression.</p>
+<p>Mindfulness extends from the Buddhist and Hindu traditions and is backed by modern cognitive psychology. The practice of observing one's thoughts as the physical process of natural laws is a powerful tool for understandng ones place in the universe.</p>
 <h2>So what ties these things together?</h2>
-<p>The common thread linking these three concepts is the acknowledgment of<br>
-consciousness or subjective experience as a fundamental starting point<br>
-for understanding reality.</p>
+<p>The common thread linking these three concepts is the acknowledgment of consciousness or subjective experience as a fundamental starting point for understanding reality.</p>
 <p>Specifically:</p>
 <ol>
-<li><strong>Epistemological starting point</strong>: All three ideas recognize that<br>
-our subjective experience is the starting point for knowledge. We<br>
-can't step outside our consciousness to view reality<br>
-&quot;objectively.&quot;</li>
-<li><strong>Self-referential nature</strong>: Each concept involves a kind of<br>
-self-reference. Mindfulness observes the observer, Descartes uses<br>
-thought to prove the thinker, and the Anthropic Principle considers<br>
-observers observing the conditions for their own existence.</li>
-<li><strong>Limits of knowledge</strong>: All three ideas implicitly acknowledge the<br>
-limitations of what we can know. Mindfulness reveals the constructed<br>
-nature of our experiences through our senses and Descartes'<br>
-scepticism provides a starting block to build our knowledge off of.<br>
-Finally, the Anthropic Principle reminds us that our observations<br>
-are inherently biased by our own existence.</li>
-<li><strong>Importance of perspective</strong>: Each concept emphasizes the role of<br>
-the observer's perspective. Mindfulness shifts perspective,<br>
-Descartes isolates a singular perspective, and the Anthropic<br>
-Principle accounts for the observer's perspective in cosmological<br>
-theories.</li>
+<li><strong>Epistemological starting point</strong>: All three ideas recognize that our subjective experience is the starting point for knowledge. We can't step outside our consciousness to view reality &quot;objectively.&quot;</li>
+<li><strong>Self-referential nature</strong>: Each concept involves a kind of self-reference. Mindfulness observes the observer, Descartes uses thought to prove the thinker, and the Anthropic Principle considers observers observing the conditions for their own existence.</li>
+<li><strong>Limits of knowledge</strong>: All three ideas implicitly acknowledge the limitations of what we can know. Mindfulness reveals the constructed nature of our experiences through our senses and Descartes' scepticism provides a starting block to build our knowledge off of. Finally, the Anthropic Principle reminds us that our observations are inherently biased by our own existence.</li>
+<li><strong>Importance of perspective</strong>: Each concept emphasizes the role of the observer's perspective. Mindfulness shifts perspective, Descartes isolates a singular perspective, and the Anthropic Principle accounts for the observer's perspective in cosmological theories.</li>
 </ol>
 <h2>Where else does the role of the observer come up in study?</h2>
 <h2>Plato's Cave</h2>
-<p>Plato's Cave is a philosophical parable that addresses the nature of<br>
-reality and human perception. It is another concept very relevant to<br>
-these concepts of observability. The allegory is summarised :</p>
+<p>Plato's Cave is a philosophical parable that addresses the nature of reality and human perception. It is another concept very relevant to these concepts of observability. The allegory is summarised :</p>
 <ol>
-<li>Prisoners are chained in a cave, facing a wall. They have lived<br>
-facing this wall their entire life..</li>
-<li>Behind them, a fire casts shadows on the wall from objects passing<br>
-in front of it.</li>
-<li>The prisoners can only see these shadows and believe them to be<br>
-reality.</li>
-<li>If a prisoner is freed and sees the true world outside the cave,<br>
-they would at first be confused and disbelieving.</li>
+<li>Prisoners are chained in a cave, facing a wall. They have lived facing this wall their entire life..</li>
+<li>Behind them, a fire casts shadows on the wall from objects passing in front of it.</li>
+<li>The prisoners can only see these shadows and believe them to be reality.</li>
+<li>If a prisoner is freed and sees the true world outside the cave, they would at first be confused and disbelieving.</li>
 </ol>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/An_Illustration_of_The_Allegory_of_the_Cave%2C_from_Plato%E2%80%99s_Republic.jpg" alt="Platos
 Cave" title="Plato's Cave"></p>
 <p>Copyright: Wikimedia Commons. 2018. Sharealike license</p>
-<p>The lesson we learn from Plato's Cave is to consider how our perception<br>
-limits our understanding of the universe. Plato argues that the<br>
-philosopher is like the prisoner who escapes the cave to understand the<br>
-world, while the unenlightened are content not knowing even what they do<br>
-not know.</p>
-<p>Plato's cave also prompts us to consider our own subjective existence<br>
-in relation to our observations of the universe. Much like the prisoners<br>
-mistake shadows for reality, mindfulness encourages us to not mistake<br>
-our own thoughts and feelings for reality.</p>
+<p>The lesson we learn from Plato's Cave is to consider how our perception limits our understanding of the universe. Plato argues that the philosopher is like the prisoner who escapes the cave to understand the world, while the unenlightened are content not knowing even what they do not know.</p>
+<p>Plato's cave also prompts us to consider our own subjective existence in relation to our observations of the universe. Much like the prisoners mistake shadows for reality, mindfulness encourages us to not mistake our own thoughts and feelings for reality.</p>
 <h2>Heisenberg Uncertainty Principal</h2>
-<p>While less philosophically dense, Quantum mechanics is another topic<br>
-which centres observability within its epistemic framework. Quantum<br>
-mechanics centres the role of the observer within it via the Heisenberg<br>
-Uncertainty principle.</p>
-<p>This principle places a limit on what we can know because the action of<br>
-making an observation itself will affect the state of the thing we are<br>
-observing. Mathematically this is expressed as:</p>
+<p>While less philosophically dense, Quantum mechanics is another topic which centres observability within its epistemic framework. Quantum mechanics centres the role of the observer within it via the Heisenberg Uncertainty principle.</p>
+<p>This principle places a limit on what we can know because the action of making an observation itself will affect the state of the thing we are observing. Mathematically this is expressed as:</p>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%5CDelta%20x%20%5CDelta%20p%20%5Cgeq%20%5Cfrac%7B%5Chbar%7D%7B2%7D" alt="Delta x Delta p geq
 frac{hbar}{2}" title="\Delta x \Delta p \geq \frac{\hbar}{2}"></p>
 <p>This means, that the more precisely we know a particle's position<br>
 <img src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20x" alt="x" title="x"><br>
-, the less precisely we know its<br>
-momentum<br>
+, the less precisely we know its momentum<br>
 <img src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20p" alt="p" title="p"><br>
-and vice versa. This is because<br>
-to figure out a particle's location, you need to interact with it in<br>
-some way. This interaction affects its momentum.</p>
-<p>Quantum mechanics even encodes the act of observing as a mathematical<br>
-operation, expressed as a bra<br>
+and vice versa. This is because to figure out a particle's location, you need to interact with it in some way. This interaction affects its momentum.</p>
+<p>Quantum mechanics even encodes the act of observing as a mathematical operation, expressed as a bra<br>
 <img src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Clangle%7BO%7D%7C" alt="langle{O}" title="\langle{O}|"><br>
 and &quot;reality&quot; as a ket<br>
 <img src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%7C%7BR%7D%5Crangle" alt="{R}rangle" title="|{R}\rangle"><br>
-. The observation of reality is<br>
-calculated as a probability by multiplying the two:<br>
+. The observation of reality is calculated as a probability by multiplying the two:<br>
 <img src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Clangle%7BO%7D%7C%7BR%7D%5Crangle%20%3D%20p%28O%29" alt="langle{O}{R}rangle =
 p(O)" title="\langle{O}|{R}\rangle = p(O)"></p>
 <h2>Concluding thoughts</h2>
-<p>To be completely honest, I don't know how to tie this blog post<br>
-together, other than noticing the interesting pattern of the role of the<br>
-observer in so many different fields.The act of decoupling the concept<br>
-of observing from understanding true reality, we have made strides in a<br>
-wide range of fields, from philosophy, and psychology to astrophysics,<br>
-and quantum physics.</p>
-<p>If you can tie this idea of perceptibility to your own work let me know,<br>
-either email me or hit me up on mastodon, because I am very interested<br>
-to see where else it has come up. I hope to write a future blog post<br>
-tying the concept of perceptibility to determinism and free will. So<br>
-stay tuned for that!</p>
+<p>To be completely honest, I don't know how to tie this blog post together, other than noticing the interesting pattern of the role of the observer in so many different fields.The act of decoupling the concept of observing from understanding true reality, we have made strides in a wide range of fields, from philosophy, and psychology to astrophysics, and quantum physics.</p>
+<p>If you can tie this idea of perceptibility to your own work let me know, either email me or hit me up on mastodon, because I am very interested to see where else it has come up. I hope to write a future blog post tying the concept of perceptibility to determinism and free will. So stay tuned for that!</p>
 <p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/Perceptibility.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/Perceptibility.html</guid>
@@ -4235,133 +3859,42 @@ stay tuned for that!</p>
     <item>
       <title><![CDATA[An Introduction To LCOS]]></title>
       <description><![CDATA[An introduction to Liquid Crystal on Silicon (LCOS) technology, covering its principles, applications, and the author's personal experience working with it.]]></description>
-      <content:encoded><![CDATA[<p>From my time at Finisar I got to work extensively with <strong>L</strong>iquid<br>
-<strong>C</strong>rystal <strong>o</strong>n <strong>S</strong>ilicon (LCOS), <strong>S</strong>patial <strong>L</strong>ight<br>
-<strong>M</strong>odulators (SLMs). This page is my attempt to share a little of what<br>
-I've learned, because it is such a cool technology that I hope others<br>
-get to work with.</p>
+      <content:encoded><![CDATA[<p>From my time at Finisar I got to work extensively with <strong>L</strong>iquid <strong>C</strong>rystal <strong>o</strong>n <strong>S</strong>ilicon (LCOS), <strong>S</strong>patial <strong>L</strong>ight <strong>M</strong>odulators (SLMs). This page is my attempt to share a little of what I've learned, because it is such a cool technology that I hope others get to work with.</p>
 <h2>1 What is an LCOS SLM?</h2>
-<p>There are two acronyms here, so I will break it down into its composite<br>
-parts before I piece everything back together.</p>
+<p>There are two acronyms here, so I will break it down into its composite parts before I piece everything back together.</p>
 <h2>1.1 Liquid Crystals</h2>
-<p>We all know that liquids are substances without any structure, the<br>
-molecules are free to move around, and don't have any structure. A<br>
-crystal on the other hand, has a lot of structure, it is a substance<br>
-with a structure that repeats in one, two or three dimensions (or four<br>
-if you count <a href="https://en.wikipedia.org/wiki/Time_crystal">time crystals</a><br>
-). Bringing the two concepts together, liquid crystals are a substance<br>
-with a loosely repeating structure, where molecules are free to jostle,<br>
-twist, and rotate, but not break out of their structure.</p>
-<p>The molecular structure of the liquid crystals we are interested in<br>
-gives it another trick that makes it useful for our applications. If we<br>
-consider the MBBA molecule:</p>
+<p>We all know that liquids are substances without any structure, the molecules are free to move around, and don't have any structure. A crystal on the other hand, has a lot of structure, it is a substance with a structure that repeats in one, two or three dimensions (or four if you count <a href="https://en.wikipedia.org/wiki/Time_crystal">time crystals</a> ). Bringing the two concepts together, liquid crystals are a substance with a loosely repeating structure, where molecules are free to jostle, twist, and rotate, but not break out of their structure.</p>
+<p>The molecular structure of the liquid crystals we are interested in gives it another trick that makes it useful for our applications. If we consider the MBBA molecule:</p>
 <p><img src="LiquidCrystalDiagram.png" alt="Chemical Diagram of the MBBA Molecule"></p>
-<p>It has a long rod-like structure, AND a free electron that is able to<br>
-move up and down the length of the molecule uninterrupted. This electron<br>
-makes the substance both electrically and optically active.</p>
-<p>Putting all this together, liquid crystals are long, rod shaped<br>
-molecules who arrange themselves in a repeating lattice with both<br>
-electrical and optical responses.</p>
+<p>It has a long rod-like structure, AND a free electron that is able to move up and down the length of the molecule uninterrupted. This electron makes the substance both electrically and optically active.</p>
+<p>Putting all this together, liquid crystals are long, rod shaped molecules who arrange themselves in a repeating lattice with both electrical and optical responses.</p>
 <p><img src="LCLattice.png" alt="Lattice of Liquid Crystals"></p>
 <h3>1.2.1 Electrical Properties of Liquid Crystals {#electrical-properties}</h3>
-<p>As a result of that free electron, when we expose a liquid crystal<br>
-lattice to an electric field, the molecules will rotate, re-orienting<br>
-themselves to point in the same direction of the electric field. This<br>
-means that by applying a voltage, we can control the axis or the<br>
-direction of our liquid crystal.</p>
+<p>As a result of that free electron, when we expose a liquid crystal lattice to an electric field, the molecules will rotate, re-orienting themselves to point in the same direction of the electric field. This means that by applying a voltage, we can control the axis or the direction of our liquid crystal.</p>
 <h3>1.2.2 Optical Properties of Liquid Crystals {#optical-properties}</h3>
-<p>That free electron also affects the optical properties of the light.<br>
-This is because light is an electro-magnetic field, so the free electron<br>
-will oscillate in harmony with the electric field of any light that<br>
-passes through it, this slows down the speed of light through the<br>
-substance. There is a catch though, that electron can only run up and<br>
-down the length of the molecule, so if the molecule is not totally in<br>
-the same axis as the electric field of the light, the effect will be<br>
-reduced. That means that the refractive index of the substance (the<br>
-speed which light moves through it), is determined by the the angle the<br>
-light hits the crystal at.</p>
-<p>This is important, because slowing down light is how we bend it. Imagine<br>
-when you are driving a car, and your left tyre is slowed by a puddle,<br>
-making you veer left. When light hits a slow patch at an angle it bends.<br>
-This is how lenses (like the ones in your glasses works.)</p>
+<p>That free electron also affects the optical properties of the light. This is because light is an electro-magnetic field, so the free electron will oscillate in harmony with the electric field of any light that passes through it, this slows down the speed of light through the substance. There is a catch though, that electron can only run up and down the length of the molecule, so if the molecule is not totally in the same axis as the electric field of the light, the effect will be reduced. That means that the refractive index of the substance (the speed which light moves through it), is determined by the the angle the light hits the crystal at.</p>
+<p>This is important, because slowing down light is how we bend it. Imagine when you are driving a car, and your left tyre is slowed by a puddle, making you veer left. When light hits a slow patch at an angle it bends. This is how lenses (like the ones in your glasses works.)</p>
 <h2>1.2 Silicon</h2>
-<p>Now that we have gotten liquid crystals out of the way, lets talk about<br>
-silicon technology. Undoubtedly computers have changed the world, but<br>
-convenient side effect for us that work in optics, is that the computer<br>
-revolution has resulted in cheap, high quality semiconductor<br>
-manufacturing. So any time we can exploit silicon technology for optics,<br>
-we jump on the opportunity.</p>
-<p>In order to control those liquid crystals I described above, we sandwich<br>
-the liquid crystal between a silicon chip and a conductive transparent<br>
-top glass. The silicon chip lets us apply a custom voltage anywhere in<br>
-the x-y plane. That is, we can create an arbitrary electric field<br>
-pattern across the liquid crystal.</p>
+<p>Now that we have gotten liquid crystals out of the way, lets talk about silicon technology. Undoubtedly computers have changed the world, but convenient side effect for us that work in optics, is that the computer revolution has resulted in cheap, high quality semiconductor manufacturing. So any time we can exploit silicon technology for optics, we jump on the opportunity.</p>
+<p>In order to control those liquid crystals I described above, we sandwich the liquid crystal between a silicon chip and a conductive transparent top glass. The silicon chip lets us apply a custom voltage anywhere in the x-y plane. That is, we can create an arbitrary electric field pattern across the liquid crystal.</p>
 <h2>2 Putting it all together {#putting-together-the-first-word}</h2>
-<p>After all that, we are ready to understand what the device does. An LCoS<br>
-is a device that allows you to apply any refractive index profile you<br>
-want in an x-y plane. It does this by creating an arbitrary electric<br>
-field profile using silicon chip technology, and placing liquid crystals<br>
-within that field, whose refractive index is a function electric field<br>
-strength. This contraption allows you modulate the phase of incoming<br>
-light in space. This is why we call them a <strong>Spatial Light Modulator</strong>.</p>
-<p>In simple English. This is a lens, that we can reshape into any optical<br>
-configuration from a computer.</p>
+<p>After all that, we are ready to understand what the device does. An LCoS is a device that allows you to apply any refractive index profile you want in an x-y plane. It does this by creating an arbitrary electric field profile using silicon chip technology, and placing liquid crystals within that field, whose refractive index is a function electric field strength. This contraption allows you modulate the phase of incoming light in space. This is why we call them a <strong>Spatial Light Modulator</strong>.</p>
+<p>In simple English. This is a lens, that we can reshape into any optical configuration from a computer.</p>
 <h2>3 Applications</h2>
-<p>There are a surprising number of applications for LCOS SLMs, from Beam<br>
-Steering, to <a href="https://arxiv.org/abs/1202.2078">photographing through walls and around<br>
-corners</a>, but I want to talk about<br>
-digital holography for now.</p>
+<p>There are a surprising number of applications for LCOS SLMs, from Beam Steering, to <a href="https://arxiv.org/abs/1202.2078">photographing through walls and around corners</a>, but I want to talk about digital holography for now.</p>
 <h2>3.1 Digital Holography</h2>
-<p>Using spatial light phase modulation, we can use an SLM to create a real<br>
-life holograms. The required necessary phase map to create a given<br>
-hologram's amplitude map can be calculated using the Gerchburg Saxton<br>
-Algorithm.</p>
-<p>This algorithm creates a phase profile, which when light propagates<br>
-through, creates constructive interference at the desired points in 3D<br>
-space, and deconstructively interferes everywhere else.</p>
-<p>Below you can see a hologram I built in the lab. The photo fails to do<br>
-it justice. If I were to move the box forward or backwards, the hologram<br>
-would disappear, since it was programmed to appear at that specific<br>
-point in space. It would have worked better if I had a smoke machine on<br>
-hand.</p>
+<p>Using spatial light phase modulation, we can use an SLM to create a real life holograms. The required necessary phase map to create a given hologram's amplitude map can be calculated using the Gerchburg Saxton Algorithm.</p>
+<p>This algorithm creates a phase profile, which when light propagates through, creates constructive interference at the desired points in 3D space, and deconstructively interferes everywhere else.</p>
+<p>Below you can see a hologram I built in the lab. The photo fails to do it justice. If I were to move the box forward or backwards, the hologram would disappear, since it was programmed to appear at that specific point in space. It would have worked better if I had a smoke machine on hand.</p>
 <p><img src="PhySocHologram.png" alt="Hologram of the word PHYSOC projected onto a carboard
 box"></p>
 <h3>3.1.1 Holographic Optical Tweezers</h3>
-<p>Aside from cool sci-fi implications of real life holograms replacing<br>
-zoom calls, I would like to highlight one especially cool application of<br>
-Computer Generated Holograms and LCOS SLMs, and that is Optical<br>
-Tweezers. This effect relies on the fact that light has momentum. By<br>
-exploiting this fact, we can use CGH to create a donut shaped light<br>
-intensity profile, and use the momentum contained within this profile to<br>
-pick up and move around small objects. This is super useful for things<br>
-like neuron cells, which tend to respond poorly to being picked up by<br>
-glass pipettes. Holographic Optical Tweezers offer a comparatively<br>
-gentle experience for the cells. This concept is used with some<br>
-regularity within biological research and is a commercial product<br>
-offered by <a href="https://www.meadowlark.com/3d-holographic-optical-tweezing-kit/">Meadowlark Polarisation<br>
-Optics</a>.<br>
-You can see a demonstration below, where particles only 4.5 micrometers<br>
-are being manipluated by such a device. <img src="HolographicOpticalTweezers.png" alt="A microscope photograph of
-microparticels aranged as numbers
-1-9"></p>
+<p>Aside from cool sci-fi implications of real life holograms replacing zoom calls, I would like to highlight one especially cool application of Computer Generated Holograms and LCOS SLMs, and that is Optical Tweezers. This effect relies on the fact that light has momentum. By exploiting this fact, we can use CGH to create a donut shaped light intensity profile, and use the momentum contained within this profile to pick up and move around small objects. This is super useful for things like neuron cells, which tend to respond poorly to being picked up by glass pipettes. Holographic Optical Tweezers offer a comparatively gentle experience for the cells. This concept is used with some regularity within biological research and is a commercial product offered by <a href="https://www.meadowlark.com/3d-holographic-optical-tweezing-kit/">Meadowlark Polarisation Optics</a>. You can see a demonstration below, where particles only 4.5 micrometers are being manipluated by such a device. <img src="HolographicOpticalTweezers.png" alt="A microscope photograph of microparticels aranged as numbers 1-9"></p>
 <h2>3.2 Spy Stuff</h2>
-<p>It turn out, the only difference between white paint and a mirror, is<br>
-that white paint isn't very smooth. It reflects all the colours the<br>
-same as a mirror, but scatters the light - reflecting it at different<br>
-angles and distances.</p>
-<p>This is where the LCOS comes in again, if the light has been scattered<br>
-by the white paint, we can use an LCOS to undo that distortion, and<br>
-reconstruct an image. This is what <a href="https://arxiv.org/abs/1202.2078">these<br>
-researchers</a> figured out, where they<br>
-were able to take photos around corners by photographing white paint,<br>
-and through &quot;privacy&quot; glass. <img src="lookingAroundCorners.png" alt="extract of a scientific paper, showing
-the pheomena"> Credit: <a href="https://arxiv.org/abs/1202.2078">Katz, O.<br>
-(2012)</a></p>
+<p>It turn out, the only difference between white paint and a mirror, is that white paint isn't very smooth. It reflects all the colours the same as a mirror, but scatters the light - reflecting it at different angles and distances.</p>
+<p>This is where the LCOS comes in again, if the light has been scattered by the white paint, we can use an LCOS to undo that distortion, and reconstruct an image. This is what <a href="https://arxiv.org/abs/1202.2078">these researchers</a> figured out, where they were able to take photos around corners by photographing white paint, and through &quot;privacy&quot; glass. <img src="lookingAroundCorners.png" alt="extract of a scientific paper, showing the pheomena"> Credit: <a href="https://arxiv.org/abs/1202.2078">Katz, O. (2012)</a></p>
 <h2>4 Conclusion</h2>
-<p>I hope you enjoyed this short introduction to my niche area of interest.<br>
-There are plenty of cool applications for LCoS in the world of research<br>
-and engineering, and if you ever get the chance to work with the, I<br>
-would highly recommend it.</p>
+<p>I hope you enjoyed this short introduction to my niche area of interest. There are plenty of cool applications for LCoS in the world of research and engineering, and if you ever get the chance to work with the, I would highly recommend it.</p>
 <p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/IntroToLCOS.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/IntroToLCOS.html</guid>
@@ -4371,24 +3904,11 @@ would highly recommend it.</p>
     <item>
       <title><![CDATA[From Student To Industry]]></title>
       <description><![CDATA[This is a transcript for a talk I delivered to Joel Carpenters UQ Optics class in 2022. I found it in my notes and did not bother to re-read it before uploading. Feel free to yell at me if I\'ve made any mistakes]]></description>
-      <content:encoded><![CDATA[<p><strong>2024-07-28 Note:</strong> This is a transcript for a talk I delivered to<br>
-<a href="https://www.youtube.com/user/joelacarpenter">Joel Carpenter's</a> UQ<br>
-Optics class in 2022. I found it in my notes and did not bother to<br>
-re-read it before uploading. Feel free to yell at me if I've made any<br>
-mistakes.</p>
+      <content:encoded><![CDATA[<p><strong>2024-07-28 Note:</strong> This is a transcript for a talk I delivered to <a href="https://www.youtube.com/user/joelacarpenter">Joel Carpenter's</a> UQ Optics class in 2022. I found it in my notes and did not bother to re-read it before uploading. Feel free to yell at me if I've made any mistakes.</p>
 <h2>From Student To Industry</h2>
-<p>Good afternoon everyone, my name is Cameron, I am a somewhat recent hire<br>
-at Finisar, so I was sitting in your seat only a few years ago. Today I<br>
-am going to talk about some of the things I noticed going from studying<br>
-to working, some of the things I found helped with the transition and<br>
-finding a job in industry and some of the things I might've done<br>
-differently if I was going to do it again.</p>
-<p>So to begin with, I want to talk about some of the differences I've<br>
-noticed moving from being a student in academia to working in industry<br>
-so that you have the right idea about what to expect.</p>
-<p>The biggest difference I've noticed after moving from being a science<br>
-student to working in industry is the shear breadth of things I need to<br>
-do. If your science degree is anything like mine was, an average day was</p>
+<p>Good afternoon everyone, my name is Cameron, I am a somewhat recent hire at Finisar, so I was sitting in your seat only a few years ago. Today I am going to talk about some of the things I noticed going from studying to working, some of the things I found helped with the transition and finding a job in industry and some of the things I might've done differently if I was going to do it again.</p>
+<p>So to begin with, I want to talk about some of the differences I've noticed moving from being a student in academia to working in industry so that you have the right idea about what to expect.</p>
+<p>The biggest difference I've noticed after moving from being a science student to working in industry is the shear breadth of things I need to do. If your science degree is anything like mine was, an average day was</p>
 <ol>
 <li>Sit in a lecture</li>
 <li>Write some Notes</li>
@@ -4396,129 +3916,23 @@ do. If your science degree is anything like mine was, an average day was</p>
 <li>Send one email,</li>
 <li>Take more notes.</li>
 </ol>
-<p>Working as an engineer I find myself still doing lots of math and<br>
-writing lots of software, but I'm also debugging electronic circuit<br>
-boards, setting up experiments, designing metalwork, designing<br>
-packaging, troubleshooting for customers and all kinds of related tasks.<br>
-On the other hand, I also spend a LOT more time, filling in paperwork,<br>
-answering emails, filling in more paperwork and also getting my hands<br>
-dirty with the production crew make sure product <em>actually</em> gets out the<br>
-door.</p>
-<p>So there are pros and cons to it like anything, in both academia and<br>
-industry there are plenty of time wasting tasks to get through, but<br>
-having a physical product that you can hold in your hands and sell to<br>
-customers for money I find to be really quite rewarding about working in<br>
-industry. Especially after spending so many years where the sum of my<br>
-work was a grade sheet at the end of semester.</p>
-<p>On the hand, the other consequence of working on a physical product, is<br>
-it actually needs to work. Every Time. When your in the lab your<br>
-experiment only needs to work long enough to take your measurements, but<br>
-for a physical product it needs to work every day, at a wide temperature<br>
-range and under all kinds on conditions. Finding and addressing the<br>
-corner cases in your products is its own special breed of hair pulling<br>
-out.</p>
-<p>So now I want to talk about what was useful an d useless that I got out<br>
-of my degree.</p>
-<p>It should go without saying that the foundations of mathematics and the<br>
-skills associated with it are critical for understanding the underlying<br>
-principals of any product you might design. Unfortunately, about 90% of<br>
-the content you learn in math is useless. And I say that without<br>
-exaggeration. I have not done a single proof since graduating. That is<br>
-not to say that your math classes are useless, I often find myself<br>
-writing software to implement some algorithm or another, which requires<br>
-a good grasp on the elements of linear algebra, calculus, differential<br>
-equations and all that other good stuff. The point I am trying to make<br>
-here, is that a solid understanding of the fundamentals and how to apply<br>
-them are a lot more useful than the expertise in any particular area of<br>
-mathematics.</p>
-<p>On a similar note, the lab sessions in my undergrad course were a lot<br>
-more useful than I gave them credit for at the time.</p>
-<p>There is the great saying <em>&quot;The difference between theory and practice,<br>
-is greater in practice than in theory&quot;</em> And in engineering, a<br>
-theoretical product doesn't get you very far. ( Unless you work for a<br>
-Silicon Valley start up :P )</p>
-<p>The point is, knowing how to use the tools of the trade and set up an<br>
-experiment is one of the more useful things that your degree will<br>
-directly teach you. Messing around with lasers, electronics,<br>
-oscilloscopes and whatever else is in your lab is the most expensive<br>
-part of your degree. So try to get your money's worth.</p>
-<p>Now I want to talk about what I did right, and what I wish I did<br>
-differently.</p>
-<p>For one, I think the most valuable part of my degree of all my work was<br>
-the open-ended research opportunities. I was fortunate enough to get the<br>
-chance to do different research projects before starting my honors<br>
-research. And even though none of this work nearly of publishable<br>
-quality, this is where I learnt to work independently, and problem solve<br>
-without the benefit of textbooks or lecturers who I could go to for<br>
-clues. It also gave me some projects which I could talk when I was<br>
-applying for jobs which differentiated me from the pack. If you have<br>
-done primary research on a topic that's something an interviewer can ask<br>
-you about and you can use it as an excuse to exercise your communication<br>
-skills to talk about how you lead a project working independently (or in<br>
-a team) and got actionable data from. See how many job keywords I<br>
-slipped in there? So my recommendation, any chance you get to do some<br>
-open ended research, jump on it!</p>
-<p>For what I wish I did differently, I wish that I had got my hands dirty<br>
-with a few more physical projects. Now in the <em><strong>unprecedented times</strong></em><br>
-of covid, I found some of my <em>non-theoretical</em> skills were lacking, and<br>
-that was a steep learning curve for me upon entering engineering.<br>
-Labwork really helps here, but it was not quite enough. And if I might<br>
-give some specific advice; if you are worried your physical skills are<br>
-lacking like mine were, go buy yourself an Arduino Starter kit, they're<br>
-relatively cheap and you can go get some experience with circuitry,<br>
-embedded software, and project design. I also happen to think they're<br>
-quite fun to tinker with, but it's VERY useful to have a physical<br>
-<strong>THING</strong> you can say you made when applying to jobs. Remember, industry<br>
-cares about selling things, not your grades.</p>
-<p>Another idea for something to differentiate yourself from the pack. If<br>
-you are a software person, consider contributing to an open-source<br>
-project, even if its just correcting some typos in the documentation to<br>
-start off with,</p>
-<p>Having something of a portfolio you can show at an interview is<br>
-invaluable, whether it is a physical <strong>thing</strong> you made, software you<br>
-wrote or research you produced, having something unique that you did<br>
-speaks a lot louder than the grades you get on your exams and assignment<br>
-worksheets.</p>
-<p>Another thing to put in the win column was all the hours I spent hanging<br>
-out in the engineering department. I noticed very early on in my degree,<br>
-that although I was studying pure science, the engineers always threw<br>
-way better parties. So naturally that is where I spent all my free time.<br>
-Now in addition to learning about the deep rivalry between mechanical<br>
-and aeronautical engineering and deep philosophical questions such as<br>
-&quot;Is civil engineering, really a type of engineering?&quot; spending time with<br>
-this cohort was invaluable to my development.</p>
-<p>This all boils down to idea cross-pollination, by making sure I was<br>
-speaking to people outside of my department, I was exposing myself to<br>
-more ideas. This meant I was better able to talk to people outside of my<br>
-specialty, - (seriously, if you can't explain what it is your studying<br>
-to a lay person, you will have problems explaining to an interviewer why<br>
-they should hire you). - I was also able to get a better idea of what<br>
-technologies other people were using and what scientific problems really<br>
-need solving. For the engineers, speaking to us scientists they get some<br>
-nice spoilers for upcoming technology and new ideas for development. So,<br>
-the benefits really goes both ways.</p>
-<p>Now while I've focused on our friends in engineering, I this idea<br>
-generalizes quite broadly, if you want to know what products make a<br>
-business profitable and which are a big-time waster, you're probably<br>
-going to have to speak to the business students. There are fantastic<br>
-ideas coming out of the mathematics and computer science departments<br>
-every day which make for more useful research tools, and if you want to<br>
-know what life is really worth living for, I guess that's what the arts<br>
-department is for. Idea cross pollination and diversity of thought and<br>
-mindset are incredibly important for your development professionally,<br>
-the ideas you come up with and for your general social and emotional<br>
-wellbeing.</p>
-<p>To summarize the first half on my presentation, here are some action<br>
-points: - Working in industry you may find yourself doing a much broader<br>
-variety of tasks, but just as many time-wasting tasks - At the end of<br>
-the day, you end up with a physical thing you can hold in your hands and<br>
-sell for money, which I think is rewarding, however your milage may<br>
-vary. - Math knowledge is useless, math skills are critical - Pay more<br>
-attention in lab - Do something different to your cohort: - Chase down<br>
-some open-ended research project - Build something with an Arduino -<br>
-Contribute to an Open-Source Software project - Finally, try your best<br>
-to socialize with people outside of your department, make sure you get<br>
-used to explaining your work and understanding the work of others.</p>
+<p>Working as an engineer I find myself still doing lots of math and writing lots of software, but I'm also debugging electronic circuit boards, setting up experiments, designing metalwork, designing packaging, troubleshooting for customers and all kinds of related tasks. On the other hand, I also spend a LOT more time, filling in paperwork, answering emails, filling in more paperwork and also getting my hands dirty with the production crew make sure product <em>actually</em> gets out the door.</p>
+<p>So there are pros and cons to it like anything, in both academia and industry there are plenty of time wasting tasks to get through, but having a physical product that you can hold in your hands and sell to customers for money I find to be really quite rewarding about working in industry. Especially after spending so many years where the sum of my work was a grade sheet at the end of semester.</p>
+<p>On the hand, the other consequence of working on a physical product, is it actually needs to work. Every Time. When your in the lab your experiment only needs to work long enough to take your measurements, but for a physical product it needs to work every day, at a wide temperature range and under all kinds on conditions. Finding and addressing the corner cases in your products is its own special breed of hair pulling out.</p>
+<p>So now I want to talk about what was useful an d useless that I got out of my degree.</p>
+<p>It should go without saying that the foundations of mathematics and the skills associated with it are critical for understanding the underlying principals of any product you might design. Unfortunately, about 90% of the content you learn in math is useless. And I say that without exaggeration. I have not done a single proof since graduating. That is not to say that your math classes are useless, I often find myself writing software to implement some algorithm or another, which requires a good grasp on the elements of linear algebra, calculus, differential equations and all that other good stuff. The point I am trying to make here, is that a solid understanding of the fundamentals and how to apply them are a lot more useful than the expertise in any particular area of mathematics.</p>
+<p>On a similar note, the lab sessions in my undergrad course were a lot more useful than I gave them credit for at the time.</p>
+<p>There is the great saying <em>&quot;The difference between theory and practice, is greater in practice than in theory&quot;</em> And in engineering, a theoretical product doesn't get you very far. ( Unless you work for a Silicon Valley start up :P )</p>
+<p>The point is, knowing how to use the tools of the trade and set up an experiment is one of the more useful things that your degree will directly teach you. Messing around with lasers, electronics, oscilloscopes and whatever else is in your lab is the most expensive part of your degree. So try to get your money's worth.</p>
+<p>Now I want to talk about what I did right, and what I wish I did differently.</p>
+<p>For one, I think the most valuable part of my degree of all my work was the open-ended research opportunities. I was fortunate enough to get the chance to do different research projects before starting my honors research. And even though none of this work nearly of publishable quality, this is where I learnt to work independently, and problem solve without the benefit of textbooks or lecturers who I could go to for clues. It also gave me some projects which I could talk when I was applying for jobs which differentiated me from the pack. If you have done primary research on a topic that's something an interviewer can ask you about and you can use it as an excuse to exercise your communication skills to talk about how you lead a project working independently (or in a team) and got actionable data from. See how many job keywords I slipped in there? So my recommendation, any chance you get to do some open ended research, jump on it!</p>
+<p>For what I wish I did differently, I wish that I had got my hands dirty with a few more physical projects. Now in the <em><strong>unprecedented times</strong></em> of covid, I found some of my <em>non-theoretical</em> skills were lacking, and that was a steep learning curve for me upon entering engineering. Labwork really helps here, but it was not quite enough. And if I might give some specific advice; if you are worried your physical skills are lacking like mine were, go buy yourself an Arduino Starter kit, they're relatively cheap and you can go get some experience with circuitry, embedded software, and project design. I also happen to think they're quite fun to tinker with, but it's VERY useful to have a physical <strong>THING</strong> you can say you made when applying to jobs. Remember, industry cares about selling things, not your grades.</p>
+<p>Another idea for something to differentiate yourself from the pack. If you are a software person, consider contributing to an open-source project, even if its just correcting some typos in the documentation to start off with,</p>
+<p>Having something of a portfolio you can show at an interview is invaluable, whether it is a physical <strong>thing</strong> you made, software you wrote or research you produced, having something unique that you did speaks a lot louder than the grades you get on your exams and assignment worksheets.</p>
+<p>Another thing to put in the win column was all the hours I spent hanging out in the engineering department. I noticed very early on in my degree, that although I was studying pure science, the engineers always threw way better parties. So naturally that is where I spent all my free time. Now in addition to learning about the deep rivalry between mechanical and aeronautical engineering and deep philosophical questions such as &quot;Is civil engineering, really a type of engineering?&quot; spending time with this cohort was invaluable to my development.</p>
+<p>This all boils down to idea cross-pollination, by making sure I was speaking to people outside of my department, I was exposing myself to more ideas. This meant I was better able to talk to people outside of my specialty, - (seriously, if you can't explain what it is your studying to a lay person, you will have problems explaining to an interviewer why they should hire you). - I was also able to get a better idea of what technologies other people were using and what scientific problems really need solving. For the engineers, speaking to us scientists they get some nice spoilers for upcoming technology and new ideas for development. So, the benefits really goes both ways.</p>
+<p>Now while I've focused on our friends in engineering, I this idea generalizes quite broadly, if you want to know what products make a business profitable and which are a big-time waster, you're probably going to have to speak to the business students. There are fantastic ideas coming out of the mathematics and computer science departments every day which make for more useful research tools, and if you want to know what life is really worth living for, I guess that's what the arts department is for. Idea cross pollination and diversity of thought and mindset are incredibly important for your development professionally, the ideas you come up with and for your general social and emotional wellbeing.</p>
+<p>To summarize the first half on my presentation, here are some action points: - Working in industry you may find yourself doing a much broader variety of tasks, but just as many time-wasting tasks - At the end of the day, you end up with a physical thing you can hold in your hands and sell for money, which I think is rewarding, however your milage may vary. - Math knowledge is useless, math skills are critical - Pay more attention in lab - Do something different to your cohort: - Chase down some open-ended research project - Build something with an Arduino - Contribute to an Open-Source Software project - Finally, try your best to socialize with people outside of your department, make sure you get used to explaining your work and understanding the work of others.</p>
 <p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/fromStudentToIndustry.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/fromStudentToIndustry.html</guid>
@@ -4529,119 +3943,53 @@ used to explaining your work and understanding the work of others.</p>
       <title><![CDATA[Anatomy of the Espresso]]></title>
       <description><![CDATA[What even is an espresso?]]></description>
       <content:encoded><![CDATA[<h2>1 Anatomy of the Espresso</h2>
-<p>There are dozens of methods of brewing coffee, from the humble filter,<br>
-plunger, aeropress and cold brew. But here in Australia, when we hear<br>
-&quot;coffee&quot;, we think espresso. There is a lot of mysticism around coffee<br>
-culture and the espresso, so as a coffee enthusiast and a nerd, I figure<br>
-it is my responsibility to help out.</p>
-<p>There are two factors which set Espresso apart from other methods of<br>
-coffee brewing:</p>
+<p>There are dozens of methods of brewing coffee, from the humble filter, plunger, aeropress and cold brew. But here in Australia, when we hear &quot;coffee&quot;, we think espresso. There is a lot of mysticism around coffee culture and the espresso, so as a coffee enthusiast and a nerd, I figure it is my responsibility to help out.</p>
+<p>There are two factors which set Espresso apart from other methods of coffee brewing:</p>
 <ol>
 <li>Constant water flow</li>
 <li>High-Pressure extraction.</li>
 </ol>
 <p>Let's explore what these two things mean for our coffee below.</p>
 <h2>1.1 Flow</h2>
-<p>Unlike immersion methods like the plunger, where the coffee is immersed<br>
-in a fixed batch of hot water, espresso cycles fresh water through the<br>
-coffee at a constant rate. This results in more efficient extraction.<br>
-Imagine trying to dissolve your milo, the more milo is already in<br>
-solution the harder it is to dissolve any more. So by cycling fresh<br>
-water through the coffee grinds, we make it easier for that water to<br>
-dissolve the flavour compounds in the water.</p>
+<p>Unlike immersion methods like the plunger, where the coffee is immersed in a fixed batch of hot water, espresso cycles fresh water through the coffee at a constant rate. This results in more efficient extraction. Imagine trying to dissolve your milo, the more milo is already in solution the harder it is to dissolve any more. So by cycling fresh water through the coffee grinds, we make it easier for that water to dissolve the flavour compounds in the water.</p>
 <p><img src="/blogs/FlowVsImmersion.svg" alt="Diagramm of the difference between Flow and Immersion"></p>
 <h2>1.2 Pressure</h2>
-<p>While plenty of other methods use flow (e.g. filter coffee), Espresso<br>
-stands alone in using high pressure to maximise extraction. Using high<br>
-pressure extraction further maximises the ability of the water to<br>
-dissolve the flavour compounds.</p>
-<p>The combination of these two factors is what allows the incredibly rich<br>
-and concentrated nature of the espresso, and it is these factors we keep<br>
-in mind when exploring how espresso works.</p>
+<p>While plenty of other methods use flow (e.g. filter coffee), Espresso stands alone in using high pressure to maximise extraction. Using high pressure extraction further maximises the ability of the water to dissolve the flavour compounds.</p>
+<p>The combination of these two factors is what allows the incredibly rich and concentrated nature of the espresso, and it is these factors we keep in mind when exploring how espresso works.</p>
 <h2>2 Flavour</h2>
 <h2>2.1 Taste and Aromatics</h2>
-<p>Like many natural products (e.g. beer and wine) it is important to<br>
-consider taste and flavour differently. Taste is the 5 basic tastes,<br>
-sweet, salt, acid, umami, and bitter. While flavour is the complex<br>
-interaction between taste, aroma and texture. Think of it like the<br>
-difference between citric acid and a juicy lemon.</p>
+<p>Like many natural products (e.g. beer and wine) it is important to consider taste and flavour differently. Taste is the 5 basic tastes, sweet, salt, acid, umami, and bitter. While flavour is the complex interaction between taste, aroma and texture. Think of it like the difference between citric acid and a juicy lemon.</p>
 <h3>2.1.1 Taste</h3>
-<p>The primary taste profile of Espresso is salt and a balance of sour and<br>
-bitter, with just a small amount of sweetness. Taste in an Espresso is<br>
-optimised by balancing its extraction while maximising its strength.</p>
+<p>The primary taste profile of Espresso is salt and a balance of sour and bitter, with just a small amount of sweetness. Taste in an Espresso is optimised by balancing its extraction while maximising its strength.</p>
 <h3>2.1.2 Aromatics</h3>
-<p>Aromatics are the parts of the flavour that aren't the sense of taste,<br>
-or texture. When a coffee says it tastes like stone fruit they are<br>
-talking about the Aromatics.</p>
-<p>Aromatics are experienced through our sense of smell. The pharynx is the<br>
-tube that connects our mouth to our nose. It is what got filled up that<br>
-time you laughed so hard that spaghetti came out of your nose, but it is<br>
-also what lets us experience the smell of food while we are eating.</p>
-<p>In coffee, the compounds responsible for aromatic expression are Esters,<br>
-alcohols and Phenols. These highly volatile compounds freely evaporate<br>
-allowing us to smell them, but are also very sensitive to changes in<br>
-their environment.</p>
+<p>Aromatics are the parts of the flavour that aren't the sense of taste, or texture. When a coffee says it tastes like stone fruit they are talking about the Aromatics.</p>
+<p>Aromatics are experienced through our sense of smell. The pharynx is the tube that connects our mouth to our nose. It is what got filled up that time you laughed so hard that spaghetti came out of your nose, but it is also what lets us experience the smell of food while we are eating.</p>
+<p>In coffee, the compounds responsible for aromatic expression are Esters, alcohols and Phenols. These highly volatile compounds freely evaporate allowing us to smell them, but are also very sensitive to changes in their environment.</p>
 <h2>2.2 Extraction and Strength</h2>
-<p>The difference between a good espresso and a bad espresso is the balance<br>
-of its extraction and its strength.</p>
+<p>The difference between a good espresso and a bad espresso is the balance of its extraction and its strength.</p>
 <p><img src="/blogs/CoffeeDiagram.svg" alt="Description of SVG image"></p>
 <h3>2.2.1 Extraction</h3>
-<p>During an espresso's extraction, the flavour profile is not even<br>
-throughout the shot. The most soluble products are extracted first,<br>
-while the less soluble are extracted after.</p>
-<p>Typically the early fraction is acidic, tasting sour, brightly coloured,<br>
-a warm honeycomb, and carries the oils and oil soluble Aromatics.</p>
-<p>The later fractions are the near inverse. They are alkaline, tasting<br>
-bitter, very darkly coloured like dark chocolate, and carries out the<br>
-water soluble salts and aromatics.</p>
-<p>An &quot;over-extracted&quot; espresso is characterised by a burnt and ashy taste.<br>
-When people complain that their coffee is &quot;burned&quot; it is normally<br>
-over-extracted.</p>
-<p>Therefore, a &quot;balanced&quot; espresso is one which balances the bitter<br>
-alkaline with the sour acid to reach a point where they approximately<br>
-cancels out and is not too bitter or sour.</p>
+<p>During an espresso's extraction, the flavour profile is not even throughout the shot. The most soluble products are extracted first, while the less soluble are extracted after.</p>
+<p>Typically the early fraction is acidic, tasting sour, brightly coloured, a warm honeycomb, and carries the oils and oil soluble Aromatics.</p>
+<p>The later fractions are the near inverse. They are alkaline, tasting bitter, very darkly coloured like dark chocolate, and carries out the water soluble salts and aromatics.</p>
+<p>An &quot;over-extracted&quot; espresso is characterised by a burnt and ashy taste. When people complain that their coffee is &quot;burned&quot; it is normally over-extracted.</p>
+<p>Therefore, a &quot;balanced&quot; espresso is one which balances the bitter alkaline with the sour acid to reach a point where they approximately cancels out and is not too bitter or sour.</p>
 <h3>2.2.2 Strength</h3>
-<p>While a balanced espresso is one where the right amount of soluble<br>
-compounds are dissolved, a strong espresso is one which achieves this in<br>
-as little water as possible (or more accurately, maximises the<br>
-concentration of flavour per mL)</p>
-<p>A strong Espresso is more viscous than water, owing to the significant<br>
-fraction of oils suspended in the solution. This gives an Espresso its<br>
-texture (or as the weirdos call it &quot;Mouthfeel&quot;)</p>
+<p>While a balanced espresso is one where the right amount of soluble compounds are dissolved, a strong espresso is one which achieves this in as little water as possible (or more accurately, maximises the concentration of flavour per mL)</p>
+<p>A strong Espresso is more viscous than water, owing to the significant fraction of oils suspended in the solution. This gives an Espresso its texture (or as the weirdos call it &quot;Mouthfeel&quot;)</p>
 <h2>3 Parameters Baristas Measure and Control</h2>
-<p>An espresso &quot;recipe&quot; is three numbers: 1. Dose 2. Yield 3. Time. When a<br>
-barista wants to replicate the taste of espresso days apart, they<br>
-attempt to replicate these numbers.</p>
+<p>An espresso &quot;recipe&quot; is three numbers: 1. Dose 2. Yield 3. Time. When a barista wants to replicate the taste of espresso days apart, they attempt to replicate these numbers.</p>
 <h3>3.1.1 Dose</h3>
-<p>Dose is quite simply the amount of coffee which goes into the basket<br>
-before you extract.</p>
-<p>Increasing the dose does two things. 1. Increase the strength 2.<br>
-Increase the resistance to flow, increasing extraction</p>
-<p>Point 1 is quite simple to understand, the higher the dose-to-yield<br>
-ratio, the more concentrated the Espresso will be. Point number 2 is a<br>
-little more complicated though. By adding more coffee to the basket, it<br>
-increases the resistance to the pressure applied by the machine,<br>
-resulting in a longer extraction time. Read on to see how this affects<br>
-things.</p>
+<p>Dose is quite simply the amount of coffee which goes into the basket before you extract.</p>
+<p>Increasing the dose does two things. 1. Increase the strength 2. Increase the resistance to flow, increasing extraction</p>
+<p>Point 1 is quite simple to understand, the higher the dose-to-yield ratio, the more concentrated the Espresso will be. Point number 2 is a little more complicated though. By adding more coffee to the basket, it increases the resistance to the pressure applied by the machine, resulting in a longer extraction time. Read on to see how this affects things.</p>
 <h3>3.1.2 Yield</h3>
-<p>While dose is how much coffee grind you put in, yield is how much<br>
-Espresso we pull out. Increasing the yield will change the coffee by. 1.<br>
-Increasing the extraction 2. Decreasing the strength</p>
-<p>Since dissolving things into solution, is a chemical equilibrium<br>
-process, sometimes the barista might add extra water to squeeze out that<br>
-last bit of flavour.</p>
+<p>While dose is how much coffee grind you put in, yield is how much Espresso we pull out. Increasing the yield will change the coffee by. 1. Increasing the extraction 2. Decreasing the strength</p>
+<p>Since dissolving things into solution, is a chemical equilibrium process, sometimes the barista might add extra water to squeeze out that last bit of flavour.</p>
 <h3>3.1.3 Time</h3>
-<p>The time is quite simply how long it takes to pull the shot. This final<br>
-variable is where the art of espresso is revealed. Because while the<br>
-barista controls the dose and yield, they do not have any control over<br>
-how long the espresso takes to extract. This is something they can only<br>
-measure.</p>
-<p>Generally speaking, for a fixed dose and yield, an increased time will<br>
-result in higher extraction, since the water stays in contact with the<br>
-coffee grinds for longer.</p>
-<p>The time it takes to extract a shot is driven by the machine pressure<br>
-and the coffee's resistance. Since the pressure is not something the<br>
-barista changes during service, this leaves resistance as the variable.</p>
+<p>The time is quite simply how long it takes to pull the shot. This final variable is where the art of espresso is revealed. Because while the barista controls the dose and yield, they do not have any control over how long the espresso takes to extract. This is something they can only measure.</p>
+<p>Generally speaking, for a fixed dose and yield, an increased time will result in higher extraction, since the water stays in contact with the coffee grinds for longer.</p>
+<p>The time it takes to extract a shot is driven by the machine pressure and the coffee's resistance. Since the pressure is not something the barista changes during service, this leaves resistance as the variable.</p>
 <p>Coffee's resistance itself varies with a number of factors including:</p>
 <ul>
 <li>Grinder Settings</li>
@@ -4653,18 +4001,11 @@ barista changes during service, this leaves resistance as the variable.</p>
 <li>Basket Geometry</li>
 <li>And More!</li>
 </ul>
-<p>Of all the factors that affect resistance, the only ones under the<br>
-barista's control are dose and coarseness. Since the other factors<br>
-change over the course of the day, so will the coarseness have to change<br>
-to account for these differences.</p>
+<p>Of all the factors that affect resistance, the only ones under the barista's control are dose and coarseness. Since the other factors change over the course of the day, so will the coarseness have to change to account for these differences.</p>
 <h2>4 Dialing in the espresso</h2>
-<p>The process of making an espresso taste good, is the process of<br>
-exploring the parameter space in order balance extraction and maximise<br>
-strength, by adjusting dose, yield and grinder settings. .</p>
+<p>The process of making an espresso taste good, is the process of exploring the parameter space in order balance extraction and maximise strength, by adjusting dose, yield and grinder settings. .</p>
 <h2>5 Conclusion</h2>
-<p>And that's it! That is all the information you need to know to<br>
-understand what the hell those weird coffee nerds are talking about, or<br>
-maybe level up your own coffee :)</p>
+<p>And that's it! That is all the information you need to know to understand what the hell those weird coffee nerds are talking about, or maybe level up your own coffee :)</p>
 <p><a href="mailto:cam@caffeineandlasers.com">Reply by email</a></p>]]></content:encoded>
       <link>https://caffeineandlasers.com/blogs/20240725T075059.html</link>
       <guid isPermaLink="true">https://caffeineandlasers.com/blogs/20240725T075059.html</guid>

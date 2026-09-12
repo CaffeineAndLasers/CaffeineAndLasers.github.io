@@ -21,7 +21,7 @@
 <meta property="article:tag" content="Projects">
 
     <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" href="/styles.css?nocache=1789211785332">
+  <link rel="stylesheet" href="/styles.css?nocache=1789212356945">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="https://caffeineandlasers.com/blogs/ChiCurate.html">
@@ -138,53 +138,26 @@
 </div>
 
 <h2>Introducing ChiCurate: Your Personalized ArXiv Feed</h2>
-<p>In the fast-paced world of scientific research, staying up-to-date with<br>
-the latest publications is crucial. However, with hundreds of papers<br>
-published daily on ArXiv, finding the most relevant ones for your<br>
-research can be like searching for a needle in a haystack. Enter<br>
-ChiCurate, a simple tool designed to make researchers more efficient,<br>
-and unearth the papers they are interested in.</p>
+<p>In the fast-paced world of scientific research, staying up-to-date with the latest publications is crucial. However, with hundreds of papers published daily on ArXiv, finding the most relevant ones for your research can be like searching for a needle in a haystack. Enter ChiCurate, a simple tool designed to make researchers more efficient, and unearth the papers they are interested in.</p>
 <p>Get it <a href="https://github.com/CJones-Optics/ChiCurate">here!</a></p>
 <h2>What is ChiCurate?</h2>
-<p>ChiCurate is an open-source tool that creates a personalized ArXiv feed<br>
-tailored to your specific research interests. By leveraging the power of<br>
-local Large Language Models (LLMs) and the simplicity of RSS feeds,<br>
-ChiCurate ranks papers based on their relevance to your work, saving you<br>
-valuable time and ensuring you never miss an important publication in<br>
-your field.</p>
+<p>ChiCurate is an open-source tool that creates a personalized ArXiv feed tailored to your specific research interests. By leveraging the power of local Large Language Models (LLMs) and the simplicity of RSS feeds, ChiCurate ranks papers based on their relevance to your work, saving you valuable time and ensuring you never miss an important publication in your field.</p>
 <h2>Key Advantages</h2>
 <ol>
-<li><strong>Personalization</strong>: Unlike traditional RSS feeds, ChiCurate allows<br>
-you to describe your research interests in plain language. The AI<br>
-then uses this information to rank papers, ensuring you see the most<br>
-relevant content first.</li>
-<li><strong>Local Processing</strong>: ChiCurate runs on your local machine, ensuring<br>
-privacy and giving you full control over the curation process.</li>
-<li><strong>Open Source</strong>: The tool is open-source, allowing for community<br>
-contributions and customizations to fit various research needs.</li>
-<li><strong>Efficient</strong>: While it may take about 15 minutes to process a<br>
-day's worth of papers, you can set it up to run automatically each<br>
-morning, having your personalized feed ready before you start your<br>
-day.</li>
-<li><strong>Flexible</strong>: You can easily adjust your research interests or try<br>
-different LLM models to optimize the curation process.</li>
-<li><strong>Resource-Friendly</strong>: ChiCurate can run on modest hardware, making<br>
-it accessible to researchers without high-end computing resources.</li>
+<li><strong>Personalization</strong>: Unlike traditional RSS feeds, ChiCurate allows you to describe your research interests in plain language. The AI then uses this information to rank papers, ensuring you see the most relevant content first.</li>
+<li><strong>Local Processing</strong>: ChiCurate runs on your local machine, ensuring privacy and giving you full control over the curation process.</li>
+<li><strong>Open Source</strong>: The tool is open-source, allowing for community contributions and customizations to fit various research needs.</li>
+<li><strong>Efficient</strong>: While it may take about 15 minutes to process a day's worth of papers, you can set it up to run automatically each morning, having your personalized feed ready before you start your day.</li>
+<li><strong>Flexible</strong>: You can easily adjust your research interests or try different LLM models to optimize the curation process.</li>
+<li><strong>Resource-Friendly</strong>: ChiCurate can run on modest hardware, making it accessible to researchers without high-end computing resources.</li>
 </ol>
 <h2>How It Works</h2>
 <p>ChiCurate combines two key technologies:</p>
 <ol>
-<li><strong>Local LLMs</strong>: Using Ollama, an open-source tool for running LLMs<br>
-locally, ChiCurate analyzes paper titles (and potentially abstracts)<br>
-to determine their relevance to your interests.</li>
-<li><strong>RSS Feeds</strong>: The tool fetches the latest papers from ArXiv's RSS<br>
-feeds, providing a structured and machine-readable interface for the<br>
-LLM to process.</li>
+<li><strong>Local LLMs</strong>: Using Ollama, an open-source tool for running LLMs locally, ChiCurate analyzes paper titles (and potentially abstracts) to determine their relevance to your interests.</li>
+<li><strong>RSS Feeds</strong>: The tool fetches the latest papers from ArXiv's RSS feeds, providing a structured and machine-readable interface for the LLM to process.</li>
 </ol>
-<p>By describing your research interests to the AI, you create a<br>
-personalized algorithm that ranks papers based on their relevance to<br>
-your work. This approach gives you the benefits of a curated feed while<br>
-maintaining full control over the curation process.</p>
+<p>By describing your research interests to the AI, you create a personalized algorithm that ranks papers based on their relevance to your work. This approach gives you the benefits of a curated feed while maintaining full control over the curation process.</p>
 <h2>Installation Guide</h2>
 <p>To get started with ChiCurate, follow these steps:</p>
 <ol>
@@ -192,10 +165,8 @@ maintaining full control over the curation process.</p>
 <p><strong>Install Ollama</strong>:</p>
 <ul>
 <li>For Linux: <code>curl -fsSL https://ollama.com/install.sh | sh</code></li>
-<li>For Windows: Install WSL (Windows Subsystem for Linux) first,<br>
-then follow the Linux instructions</li>
-<li>For MacOS: Download the dedicated installer from the Ollama<br>
-website</li>
+<li>For Windows: Install WSL (Windows Subsystem for Linux) first, then follow the Linux instructions</li>
+<li>For MacOS: Download the dedicated installer from the Ollama website</li>
 </ul>
 </li>
 <li>
@@ -213,12 +184,9 @@ pip install -r requirements.txt</p>
 <li>
 <p><strong>Configure ChiCurate</strong>:</p>
 <ul>
-<li>Edit <code>./userData/feeds.csv</code> to include the ArXiv RSS feeds<br>
-you're interested in</li>
-<li>Modify <code>./userData/userPrompt.txt</code> to describe your research<br>
-interests</li>
-<li>Adjust <code>config.yaml</code> if needed (e.g., to change the LLM model or<br>
-batch size)</li>
+<li>Edit <code>./userData/feeds.csv</code> to include the ArXiv RSS feeds you're interested in</li>
+<li>Modify <code>./userData/userPrompt.txt</code> to describe your research interests</li>
+<li>Adjust <code>config.yaml</code> if needed (e.g., to change the LLM model or batch size)</li>
 </ul>
 </li>
 <li>
@@ -226,10 +194,8 @@ batch size)</li>
 <p>Execute <code>run.sh</code> to start the curation process</p>
 </li>
 </ol>
-<p>For optimal use, consider setting up a cron job to run ChiCurate<br>
-automatically each morning.</p>
-<p><strong>UPDATE: September 2024</strong><br>
-Stay Tuned. I have made the program even more efficient :)</p>
+<p>For optimal use, consider setting up a cron job to run ChiCurate automatically each morning.</p>
+<p><strong>UPDATE: September 2024</strong> Stay Tuned. I have made the program even more efficient :)</p>
 
 
 
@@ -287,7 +253,7 @@ Stay Tuned. I have made the program even more efficient :)</p>
     </div>
 </footer>
 
-<script src="/scripts.js?nocache=1789211785332"></script>
+<script src="/scripts.js?nocache=1789212356945"></script>
 <button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">🌙 Dark</button>
 </body>
 </html>

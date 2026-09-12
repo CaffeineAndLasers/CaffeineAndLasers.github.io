@@ -11,22 +11,11 @@ nesting: "../"
 ## {{ title }}
 
 
-It has almost become a cliche amongst a certain kind of PhD student to explain
-*Exactly* your research workflow, and why it works. Now it is my turn to add to
-the pile.
+It has almost become a cliche amongst a certain kind of PhD student to explain *Exactly* your research workflow, and why it works. Now it is my turn to add to the pile.
 
-The overall "philosophy" (If you can even call it that) of my Pesonal Knowledge
-Management (PKM) system, is minimising friction by allowing emergence. What that
-means, is I just use the tools in front of me, and only create systems which
-support my habbits, rather than fighting them - If a process is not the easiest
-way of doing it in the short term, then eventually I will skip it when I am tired/lazy/bored.
-This is not what we want, so instead lets so remove all friction from the process.
+The overall "philosophy" (If you can even call it that) of my Pesonal Knowledge Management (PKM) system, is minimising friction by allowing emergence. What that means, is I just use the tools in front of me, and only create systems which support my habbits, rather than fighting them - If a process is not the easiest way of doing it in the short term, then eventually I will skip it when I am tired/lazy/bored. This is not what we want, so instead lets so remove all friction from the process.
 
-There is **one** exception to my zero friction rule. Everything that goes into
-my "Second Brain" needs to be written by me. Not copy and pasted, and not by AI.
-This isn't for any political or philosophical reason. It’s simply because I
-understand things better when I put them in my own words, and my Vault is only
-for things I _have_ understood.
+There is **one** exception to my zero friction rule. Everything that goes into my "Second Brain" needs to be written by me. Not copy and pasted, and not by AI. This isn't for any political or philosophical reason. It’s simply because I understand things better when I put them in my own words, and my Vault is only for things I _have_ understood.
 
 ## 1 Technologies
 
@@ -36,19 +25,9 @@ for things I _have_ understood.
 
 I don't know how you would have found this post if you do not know Obsidian. Just in case, I will give you a run down on what it is, and why it is perfect for a brain like me.
 
-Obsidian is a text editor, which supports links, back-links and a whole bunch of plug-ins.
-It saves every note you take in plain text on your own computer. No cloud BS, no
-proprietary file format BS. Just text. This is important, because it means my
-notes will outlive Obsidian. If the program is [enshitified](https://pluralistic.net/2025/01/20/capitalist-unrealism/#praxis)
-, I can easily port them over to another program (I've been keeping a close eye on
-Neovim and Emacs).
+Obsidian is a text editor, which supports links, back-links and a whole bunch of plug-ins. It saves every note you take in plain text on your own computer. No cloud BS, no proprietary file format BS. Just text. This is important, because it means my notes will outlive Obsidian. If the program is [enshitified](https://pluralistic.net/2025/01/20/capitalist-unrealism/#praxis) , I can easily port them over to another program (I've been keeping a close eye on Neovim and Emacs).
 
-The power of Obsidian from a knowledge management perspective,
-comes from its ability to manage connections. It supports links just like
-Wikipedia, so I am able to "surf my vault". A feature Extremely handy for when
-I half remember something that I am sure that I wrote down somewhere once. It also
-works backwards, where from a given note, I can quickly see every note which links
-**TO** it.
+The power of Obsidian from a knowledge management perspective, comes from its ability to manage connections. It supports links just like Wikipedia, so I am able to "surf my vault". A feature Extremely handy for when I half remember something that I am sure that I wrote down somewhere once. It also works backwards, where from a given note, I can quickly see every note which links **TO** it.
 
 ### 1.1.1 Plug-ins
 
@@ -108,9 +87,7 @@ Check out the project [here](https://chiscraper.github.io/) and the blog post [h
 
 ## 2.2 Knowledge Forming
 
-I consider notes from literature only **half** processed. They’re fully
-processed once I’ve abstracted the knowledge and distilled it into the
-relevant “parent” notes.  This means I have two types of notes:
+I consider notes from literature only **half** processed. They’re fully processed once I’ve abstracted the knowledge and distilled it into the relevant “parent” notes.  This means I have two types of notes:
 
 |Knowledge Notes|Literature Notes|
 |---|---|
@@ -143,29 +120,14 @@ When I take notes during a meeting, the first thing I do is link to the people n
 
 ## 3 Making Sense of the Chaos
 
-Okay, so that’s how I get knowledge **into** my system. How do I get it **out**?
-Links, mostly!
+Okay, so that’s how I get knowledge **into** my system. How do I get it **out**? Links, mostly!
 
-Obsidian’s search is super fast and great. So, when I need a specific note,
-a search will find it quickly. If I'm revisiting a topic I’ve already studied,
-I can usually find a high-level note for it. From there, I “surf” the links,
-re-reading until I find the relevant information. This is also an opportunity
-to reshape and form new connections. If it took me a long time to find a specific
-bit of information, I go back to what I originally searched for and add a link.
-This means my “second brain” is constantly evolving - reformulating links and
-connections, just like my first, meat based, brain.
+Obsidian’s search is super fast and great. So, when I need a specific note, a search will find it quickly. If I'm revisiting a topic I’ve already studied, I can usually find a high-level note for it. From there, I “surf” the links, re-reading until I find the relevant information. This is also an opportunity to reshape and form new connections. If it took me a long time to find a specific bit of information, I go back to what I originally searched for and add a link. This means my “second brain” is constantly evolving - reformulating links and connections, just like my first, meat based, brain.
 
-Another example. Let's say I wanted to find info about training a Neural Network
-on the outputs of a photonic lantern. This is covered in the paper
-[Sweeney, D. et,al. 2021. "Learning the lantern: neural network applications to broadband photonic lantern modeling"](https://doi.org/10.1117/1.JATIS.7.2.028007)
-, but let’s suppose I forgot this.
+Another example. Let's say I wanted to find info about training a Neural Network on the outputs of a photonic lantern. This is covered in the paper [Sweeney, D. et,al. 2021. "Learning the lantern: neural network applications to broadband photonic lantern modeling"](https://doi.org/10.1117/1.JATIS.7.2.028007) , but let’s suppose I forgot this.
 
 
-First, I’d pull up my note for **Photonic Lanterns** and skim it, where
-I’d find a note for **Photonic Lantern - Wavefront Sensor**. From there,
-I’d see the info on **Photonic Lantern Reconstruction Algorithms** and opening
-that note, I’d find the stuff I wrote about NN-based photonic lantern output
-approximation, along with a link to the relevant paper.
+First, I’d pull up my note for **Photonic Lanterns** and skim it, where I’d find a note for **Photonic Lantern - Wavefront Sensor**. From there, I’d see the info on **Photonic Lantern Reconstruction Algorithms** and opening that note, I’d find the stuff I wrote about NN-based photonic lantern output approximation, along with a link to the relevant paper.
 
 Here you can see where I can start with a fuzzy, half remembered idea, and quickly resurface a specific paper, rather than scratching my head trying to remember who wrote what from a cold start.
 
@@ -174,10 +136,6 @@ With any hope, this lets me do research and close the loop!
 ![](/Assets/PKM_Flowchart.png)
 
 ## Conclusions
-This is just a broad overview of physically **HOW** I do my research.
-Maybe at some point later I will dive deeper into my philosphy of what deserves
-a note and how I go about learning. But that is for another  time.
+This is just a broad overview of physically **HOW** I do my research. Maybe at some point later I will dive deeper into my philosphy of what deserves a note and how I go about learning. But that is for another  time.
 
-This post was more inspried by the typical "Here is the tools I use" kind of posts
-you see on other folks personal web pages. I hope you found it interesting, and
-if you feel like chatting ping me an email or connnect on Mastodon!
+This post was more inspried by the typical "Here is the tools I use" kind of posts you see on other folks personal web pages. I hope you found it interesting, and if you feel like chatting ping me an email or connnect on Mastodon!
