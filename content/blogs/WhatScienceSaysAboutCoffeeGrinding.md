@@ -7,6 +7,7 @@ tags:
   - Technology
   - FoodAndDrink
   - Science
+  - Coffee
 ---
 ## Four Coffee Observations in Two Studies
 

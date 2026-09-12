@@ -6,6 +6,9 @@ description: "I've been thinking about how we find meaning in life after reading
 tags:
     - Culture
     - Philosophy
+    - Games
+    - DiscoElysium
+    - Existentialism
 layout: blogpost.liquid
 ---
 

@@ -5,7 +5,8 @@ updated: 2025-06-04
 description: I can not stop thinking about Peter Watts novel Blindsight (2006). It keeps me up at night thinking about its implications and what it says about humanity. Let me tell you about it.
 layout: blogpost.liquid
 tags:
-	- Culture
+  - Culture
+  - Philosophy
 ---
 
 ## 1 Blindsight, Transhumanism, and Surveillance Capitalism

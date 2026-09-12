@@ -4,6 +4,11 @@ date: 2026-04-29
 updated: 2026-04-29
 description: "I spotted a remarkably simple demonstration of optical diffraction the other night, from looking across at the far away lights on the otherside of the train tracks from a balcony. I noticed they  looked quite different dependng on whether the flyscreen was open, or closed. Take a look:"
 layout: blogpost.liquid
+tags:
+  - Physics
+  - Science
+  - Optics
+  - Diffraction
 ---
 
 I spotted a remarkably simple demonstration of optical diffraction the other night, from looking across at the far away lights on the otherside of the train tracks from a balcony. I noticed they  looked quite different dependng on whether the flyscreen was open, or closed. Take a look:

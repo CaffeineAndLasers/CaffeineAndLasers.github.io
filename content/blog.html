@@ -85,57 +85,100 @@ layout: blog.liquid
 <h2>📜All My Posts📜</h2>
 <div class="blog-posts-container">
 
-  <!-- Tag filter UI -->
-  <div id="tag-filters" style="margin-bottom: 1rem;">
-    <strong>Filter by tag:</strong>
-    <label style="margin-left:0.75rem;"><input type="radio" name="tag-filter" value="all" checked> Show all</label>
-    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Academia"> Academia</label>
-    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Culture"> Culture</label>
-    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="FoodAndDrink"> Food & Drink</label>
-    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Physics"> Physics</label>
-    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Projects"> Projects</label>
-    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Science"> Science</label>
-    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Technology"> Technology</label>
-    <label style="margin-left:0.5rem;"><input type="radio" name="tag-filter" value="Webmastery"> Webmastery</label>
-  </div>
+  <fieldset id="tag-filters" class="tag-filter-radios">
+    <legend>Filter by tag:</legend>
+    <label><input type="radio" name="tag-filter" value="all" checked> ✨ All <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Academia"> 🎓 Academia <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="AI"> 🤖 AI <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Coffee"> ☕ Coffee <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Culture"> 🎭 Culture <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Economics"> 📈 Economics <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="FoodAndDrink"> 🍴 Food &amp; Drink <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="History"> 📜 History <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Philosophy"> 🤔 Philosophy <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Physics"> ⚛️ Physics <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Projects"> 🛠️ Projects <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Science"> 🔬 Science <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Technology"> 💻 Technology <span class="tag-filter-count"></span></label>
+    <label><input type="radio" name="tag-filter" value="Webmastery"> 🌐 Webmastery <span class="tag-filter-count"></span></label>
+  </fieldset>
 
-  <ul id="all-posts-list">
+  <div id="all-posts-list" class="post-archive">
+  {% assign current_year = "now" | date: "%Y" %}
+  {% assign active_year = "" %}
   {% for post in collections.blogPosts %}
-    <li class="post-item" data-tags="{% if post.data.tags %}{{ post.data.tags | join: ',' }}{% endif %}">
-      <a href="{{ post.url }}">
-        {{ post.date | date: "%Y-%m-%d" }}: {{ post.data.title }}
-      </a>
-    </li>
+    {% assign post_year = post.date | date: "%Y" %}
+    {% if post_year != active_year %}
+      {% if active_year != "" %}</tbody></table></details>{% endif %}
+      {% assign active_year = post_year %}
+      <details class="post-year" data-year="{{ post_year }}"{% if post_year == current_year %} open{% endif %}>
+        <summary>{{ post_year }} <span class="year-count"></span></summary>
+        <table class="post-archive-table">
+          <tbody>
+    {% endif %}
+            <tr class="post-item" data-tags="{% if post.data.tags %}{{ post.data.tags | join: ',' }}{% endif %}">
+              <td class="post-date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %b" }}</time></td>
+              <td class="post-title"><a href="{{ post.url }}">{{ post.data.title }}</a></td>
+              <td class="post-categories">
+                {% if post.data.tags contains "Academia" %}<span title="Academia" aria-label="Academia">🎓</span>{% endif %}
+                {% if post.data.tags contains "AI" %}<span title="AI" aria-label="AI">🤖</span>{% endif %}
+                {% if post.data.tags contains "Coffee" %}<span title="Coffee" aria-label="Coffee">☕</span>{% endif %}
+                {% if post.data.tags contains "Culture" %}<span title="Culture" aria-label="Culture">🎭</span>{% endif %}
+                {% if post.data.tags contains "Economics" %}<span title="Economics" aria-label="Economics">📈</span>{% endif %}
+                {% if post.data.tags contains "FoodAndDrink" %}<span title="Food and Drink" aria-label="Food and Drink">🍴</span>{% endif %}
+                {% if post.data.tags contains "History" %}<span title="History" aria-label="History">📜</span>{% endif %}
+                {% if post.data.tags contains "Philosophy" %}<span title="Philosophy" aria-label="Philosophy">🤔</span>{% endif %}
+                {% if post.data.tags contains "Physics" %}<span title="Physics" aria-label="Physics">⚛️</span>{% endif %}
+                {% if post.data.tags contains "Projects" %}<span title="Projects" aria-label="Projects">🛠️</span>{% endif %}
+                {% if post.data.tags contains "Science" %}<span title="Science" aria-label="Science">🔬</span>{% endif %}
+                {% if post.data.tags contains "Technology" %}<span title="Technology" aria-label="Technology">💻</span>{% endif %}
+                {% if post.data.tags contains "Webmastery" %}<span title="Webmastery" aria-label="Webmastery">🌐</span>{% endif %}
+              </td>
+            </tr>
   {% endfor %}
-  </ul>
+  {% if active_year != "" %}</tbody></table></details>{% endif %}
+  </div>
 </div>
 
 <script>
   (function(){
-    // Simple client-side filtering by tag. Checks the data-tags attribute.
     const radios = document.querySelectorAll('input[name="tag-filter"]');
-    const posts = document.querySelectorAll('#all-posts-list .post-item');
+    const posts = document.querySelectorAll('.post-archive .post-item');
+    const years = document.querySelectorAll('.post-archive .post-year');
+    const currentYear = String(new Date().getFullYear());
 
-    function showAll() {
-      posts.forEach(p => p.style.display = 'list-item');
+    function postTags(post) {
+      return (post.dataset.tags || '').split(',').map(tag => tag.trim()).filter(Boolean);
     }
 
+    radios.forEach(radio => {
+      const tag = radio.value;
+      const count = tag === 'all'
+        ? posts.length
+        : Array.from(posts).filter(post => postTags(post).includes(tag)).length;
+      radio.closest('label').querySelector('.tag-filter-count').textContent = `(${count})`;
+    });
+
+    years.forEach(year => {
+      const count = year.querySelectorAll('.post-item').length;
+      year.querySelector('.year-count').textContent = `${count} ${count === 1 ? 'post' : 'posts'}`;
+    });
+
     function filterBy(tag) {
-      posts.forEach(p => {
-        const tags = (p.getAttribute('data-tags') || '').split(',').map(s => s.trim()).filter(Boolean);
-        if (tags.length === 0) {
-          // If post has no tags, show it only when 'all' is selected
-          p.style.display = (tag === 'all') ? 'list-item' : 'none';
-        } else {
-          p.style.display = (tag === 'all' || tags.indexOf(tag) !== -1) ? 'list-item' : 'none';
-        }
+      posts.forEach(post => {
+        post.hidden = tag !== 'all' && !postTags(post).includes(tag);
+      });
+
+      years.forEach(year => {
+        const visiblePosts = year.querySelectorAll('.post-item:not([hidden])');
+        year.hidden = visiblePosts.length === 0;
+        year.open = tag === 'all' ? year.dataset.year === currentYear : visiblePosts.length > 0;
       });
     }
 
-    radios.forEach(r => {
-      r.addEventListener('change', e => {
-        const tag = e.target.value;
-        if (tag === 'all') showAll(); else filterBy(tag);
+    radios.forEach(radio => {
+      radio.addEventListener('change', () => {
+        filterBy(radio.value);
       });
     });
   })();

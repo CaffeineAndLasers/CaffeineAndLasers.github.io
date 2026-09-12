@@ -6,6 +6,7 @@ description: "The other day I read this great blog-post about why you shouldn't 
 layout: blogpost.liquid
 tags:
     - Technology
+    - AI
 ---
 
 

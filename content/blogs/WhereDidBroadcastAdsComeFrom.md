@@ -6,6 +6,8 @@ description: Where did the concept of "Advertisement Supported Content" even com
 layout: blogpost.liquid
 tags:
   - Culture
+  - Economics
+  - History
 ---
 
 ---

@@ -5,6 +5,7 @@ description: "Exploring the potential of supplier cooperatives in the power gene
 layout: blogpost.liquid
 tags:
   - Culture
+  - Economics
 ---
 
 ## The Case For Power Generation Supplier-Cooperatives

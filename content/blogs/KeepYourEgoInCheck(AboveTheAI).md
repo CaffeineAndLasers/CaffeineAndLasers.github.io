@@ -7,6 +7,7 @@ nesting: "../"
 tags:
   - Culture
   - Technology
+  - AI
 ---
 
 ## Keep Your Ego In Check (Above The Robots)
