@@ -51,13 +51,11 @@ permalink: "{{ page.filePathStem }}.html"
 {% include "header.liquid" %}
 
 <div id="flex">
-
-<aside id="leftSidebar">{% include "sidebar.liquid" %}</aside>
-
 <main>{{ content }}</main>
-
 </div>
-{% include "footer.liquid" %}
+
+
+{% include "footer.liquid" %} 
 
 <script src="/scripts.js{{ nocache }}"></script>
 <!-- Global floating theme toggle -->
