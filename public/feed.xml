@@ -4093,6 +4093,45 @@ Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will
     
     
     <item>
+      <title><![CDATA[Book Review: Tress of the Emerald Sea by Brandon Sanderson]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟩</p>
+        <p><strong>Type:</strong> Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9781250899651.jpg" alt="Cover of Tress of the Emerald Sea" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/tress-of-the-emerald-sea.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/tress-of-the-emerald-sea.html</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title><![CDATA[Book Review: Mr Loverman by Bernardine Evaristo]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟧</p>
+        <p><strong>Type:</strong> Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9780241145784.jpg" alt="Cover of Mr Loverman" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/mr-loverman.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/mr-loverman.html</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title><![CDATA[Book Review: Data Empire: The Power of Information to Organize, Control, and Dominate by Roopika Risam]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟥</p>
+        <p><strong>Type:</strong> Non-Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9780063430327.jpg" alt="Cover of Data Empire: The Power of Information to Organize, Control, and Dominate" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/data-empire.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/data-empire.html</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title><![CDATA[Book Review: The Rain Heron by Robbie Arnott]]></title>
       <description><![CDATA[
         <p><strong>Rating:</strong> 🟩🟩</p>
