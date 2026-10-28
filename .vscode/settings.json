@@ -1,0 +1,9 @@
+{
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "pasteImage.path": "${projectRoot}/content/Assets",
+  "pasteImage.basePath": "${projectRoot}/content",
+  "pasteImage.prefix": "/",
+  "pasteImage.defaultName": "YYYYMMDD_HHmmss",
+  "pasteImage.insertPattern": "![${imageFileNameWithoutExt}](${imageFilePath})"
+}

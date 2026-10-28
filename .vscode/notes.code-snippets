@@ -1,0 +1,18 @@
+{
+  "New site note": {
+    "scope": "markdown",
+    "prefix": "new-note",
+    "description": "Create a Caffeine and Lasers note",
+    "body": [
+      "---",
+      "title: ${1:Note title}",
+      "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "description: ${2:Short description for previews and feeds}",
+      "layout: note.liquid",
+      "---",
+      "",
+      "${3:Write your note here.}",
+      ""
+    ]
+  }
+}
