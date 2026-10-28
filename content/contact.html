@@ -22,18 +22,18 @@
     <style>
         body {
             margin: 0;
-            padding: 0;
+            padding: 1rem;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100svh;
         }
         .card {
             background-color: #eff1f5;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            width: 350px;
+            width: min(350px, 100%);
             text-align: center;
         }
         .profile-photo {
@@ -61,6 +61,7 @@
         }
         .links {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             gap: 10px;
             margin-top: 20px;
@@ -71,6 +72,20 @@
         }
         .links a:hover {
             text-decoration: underline;
+        }
+
+        .QR-Code {
+            max-width: min(180px, 100%);
+            height: auto;
+        }
+
+        @media (max-width: 390px) {
+            .card { padding: 1rem; }
+            .profile-photo {
+                width: 140px;
+                height: 140px;
+            }
+            h1 { font-size: 2rem; }
         }
     </style>
 </head>

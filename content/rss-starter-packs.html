@@ -261,6 +261,43 @@ layout: default.liquid
     color: var(--color-bg-dark);
     border-color: var(--color-primary-purple);
   }
+
+  @media (max-width: 560px) {
+    .pack-header,
+    .feed-header {
+      flex-wrap: wrap;
+      gap: .75rem;
+    }
+
+    .pack-label,
+    .feed-label {
+      min-width: 0;
+    }
+
+    .pack-header h2,
+    .feed-header h3 {
+      overflow-wrap: anywhere;
+    }
+
+    .download-opml-button,
+    .link-button {
+      width: 100%;
+      min-width: 0;
+      margin-left: 0;
+    }
+
+    .feed-header > div:last-child {
+      width: 100%;
+      flex-wrap: wrap;
+      gap: .5rem;
+    }
+
+    .feed-header > div:last-child > *,
+    .feed-header .tooltip {
+      width: 100%;
+      flex: 1 1 100%;
+    }
+  }
 </style>
 
 <div id="starter-packs">

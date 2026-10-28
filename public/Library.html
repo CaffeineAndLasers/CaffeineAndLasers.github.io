@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://caffeineandlasers.com/Assets/CaffineANdLasers.svg">
 
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="/styles.css?nocache=1793168167411">
+    <link rel="stylesheet" href="/styles.css?nocache=1793168417454">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval'; connect-src 'self' https://aus.social https://api.open-meteo.com;">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
     <!-- Canonical URL for SEO and sitemap -->
@@ -1128,7 +1128,7 @@
 <style>
   .book-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
     gap: 20px;
     margin-top: 20px;
   }
@@ -1183,6 +1183,28 @@
     opacity: 1;
     margin: 10px 0;
   }
+
+  @media (max-width: 480px) {
+    .book-card {
+      padding: 1rem;
+    }
+
+    .book-card > div:first-child {
+      flex-direction: column-reverse !important;
+    }
+
+    .book-details {
+      margin-right: 0 !important;
+    }
+  }
+
+  @media (hover: none) {
+    .book-thoughts {
+      max-height: none;
+      margin: 10px 0;
+      opacity: 1;
+    }
+  }
 </style>
 </main>
 </div>
@@ -1214,6 +1236,6 @@
 </div>
  
 
-<script src="/scripts.js?nocache=1793168167411"></script>
+<script src="/scripts.js?nocache=1793168417454"></script>
 </body>
 </html>

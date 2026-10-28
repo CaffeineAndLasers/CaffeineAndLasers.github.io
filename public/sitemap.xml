@@ -1035,14 +1035,6 @@
   
   
   <url>
-    <loc>https://caffeineandlasers.com/Resources.html</loc>
-    <lastmod>2026-08-20T15:24:16Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
     <loc>https://caffeineandlasers.com/Resume.html</loc>
     <lastmod>2026-08-20T15:24:16Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1051,23 +1043,7 @@
   
   
   <url>
-    <loc>https://caffeineandlasers.com/about.html</loc>
-    <lastmod>2026-08-20T15:24:16Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
     <loc>https://caffeineandlasers.com/contact.html</loc>
-    <lastmod>2026-08-20T15:24:16Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://caffeineandlasers.com/</loc>
     <lastmod>2026-08-20T15:24:16Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1187,8 +1163,32 @@
   
   
   <url>
+    <loc>https://caffeineandlasers.com/Resources.html</loc>
+    <lastmod>2026-10-28T17:17:38Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/about.html</loc>
+    <lastmod>2026-10-28T17:17:38Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
     <loc>https://caffeineandlasers.com/blog.html</loc>
-    <lastmod>2026-10-28T17:15:55Z</lastmod>
+    <lastmod>2026-10-28T17:17:38Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/</loc>
+    <lastmod>2026-10-28T17:17:38Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
