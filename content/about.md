@@ -8,7 +8,7 @@ layout: default.liquid
 
 I am a PhD Student from Australia. My work is in trying to find loopholes in the ["No Smooshing Theorem"](https://what-if.xkcd.com/145/) for light. 
 
-<figure style="text-align: center;">
+<figure class="about-figure">
     <img src="Assets/XKCD_no_smooshing.png" alt="Illustration of the 'No Smooshing Theorem' for light, showing how light cannot be compressed or focused beyond certain physical limits." />
     <figcaption>It turns out thermodynamics prevents you from smooshing light.</figcaption>
 </figure>
@@ -19,43 +19,28 @@ When I am not working on that, I like to cook, drink nice coffee or beer, or tin
 
 ## 1 Music I am listening to at the moment
 
-<div style="width: 100%; overflow-x: auto; white-space: nowrap; padding: 20px 0; background-color: #f5f5f5; border-radius: 15px;">
-    <div style="display: inline-flex; padding: 0 15px;">
-        <div style="width: 180px; margin-right: 15px;">
-            <div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <img src="Assets/3DCountry.png" alt="3D Country Album Cover" style="width: 100%; display: block;">
-                <div style="padding: 10px; text-align: center;">
-                    <div style="font-weight: bold; color: #333; font-size: 16px;">3D Country</div>
-                    <div style="color: #666; font-size: 14px;">Geese</div>
-                </div>
-            </div>
+<div class="listening-grid">
+    <article class="album-card">
+        <img src="Assets/3DCountry.png" alt="3D Country Album Cover">
+        <div class="album-card__text">
+            <strong>3D Country</strong>
+            <span>Geese</span>
         </div>
-        
-        <div style="width: 180px; margin-right: 15px;">
-            <div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <img src="Assets/EGGYPOCKET.png" alt="EGGY POCKET Album Cover" style="width: 100%; display: block;">
-                <div style="padding: 10px; text-align: center;">
-                    <div style="font-weight: bold; color: #333; font-size: 16px;">EGGY POCKET</div>
-                    <div style="color: #666; font-size: 14px;">Bilmuri</div>
-                </div>
-            </div>
+    </article>
+    <article class="album-card">
+        <img src="Assets/EGGYPOCKET.png" alt="EGGY POCKET Album Cover">
+        <div class="album-card__text">
+            <strong>EGGY POCKET</strong>
+            <span>Bilmuri</span>
         </div>
-        
-        <div style="width: 180px; margin-right: 15px;">
-            <div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <img src="Assets/ForeverHowlongcover.png" alt="Forever Howlong Album Cover" style="width: 100%; display: block;">
-                <div style="padding: 10px; text-align: center;">
-                    <div style="font-weight: bold; color: #333; font-size: 16px;">Forever Howlong</div>
-                    <div style="color: #666; font-size: 14px;">Black Country, New Road</div>
-                </div>
-            </div>
+    </article>
+    <article class="album-card">
+        <img src="Assets/ForeverHowlongcover.png" alt="Forever Howlong Album Cover">
+        <div class="album-card__text">
+            <strong>Forever Howlong</strong>
+            <span>Black Country, New Road</span>
         </div>
-    </div>
-    
-    <!-- Scroll indicator -->
-    <div style="text-align: center; margin-top: 10px;">
-
-    </div>
+    </article>
 </div>
 
 ## 2 Favourite Meal to cook
@@ -68,7 +53,7 @@ My favourite brewery in Syndey is [Hopsters](https://hopsters.coop/) in Enmore. 
 
 Internationally, my favourite brewery is the [The Klosterbrauerei Andechs](https://en.wikipedia.org/wiki/Klosterbrauerei_Andechs) a monestary just outside munich and on top of a mountain which also brews beer, or [Monkish](https://www.monkishbrewing.com/) a european style brewery in LA.
 
-In terms of coffee, I legitimately believe that Australia has the best coffee in the world, so I don’t have any memorable experiances internationally despite looking. Even when I travelled, people used to tell me when a cafe was owned by an Australian as a mark of quality.
+In terms of coffee, I legitimately believe that Australia has the best coffee in the world. Toby's Estate is one of my favourite coffees in Australia at the moment (though once again my bias strikes as I have a friend who works as a roaster there). Internationally, one of my favourite coffee experiances was at the [Ottoman Coffee House](https://www.ottomancoffeehouse.co.uk/) in Glasgow, which I visited at the reccomendation of [James and his coffee blog](https://jamesg.blog/)
 
 
 ## 4 What Parts of Science am I most excited about?

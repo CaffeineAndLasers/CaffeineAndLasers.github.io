@@ -12,30 +12,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style type="text/css">
           :root {
-            --color-primary-purple: #8839ef;
-            --color-primary-pink: #ea76cb;
-            --color-primary-salmon: #dc8a78;
-            --color-bg-light: #eff1f5;
-            --color-bg-medium: #e6e9ef;
-            --color-bg-dark: #08031a;
-            --color-text-body: #4c4f69;
-            --border-dotted-primary: 5px #8839ef dotted;
-            --border-radius-standard: 20px;
+            --color-primary-purple: #5de4ff;
+            --color-primary-pink: #e85a82;
+            --color-bg-light: #0b223d;
+            --color-bg-medium: #102b4c;
+            --color-bg-dark: #06152b;
+            --color-text-body: #f6f3e8;
+            --border-primary: 1px solid #315679;
+            --border-radius-standard: 2px;
           }
           
           body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
             color: var(--color-text-body);
             background-color: var(--color-bg-dark);
-            background-image: url("/Assets/pinkBackground.gif");
-            background-size: 65px;
+            background-image:
+              repeating-linear-gradient(0deg, rgba(255,255,255,0.025) 0 1px, transparent 1px 4px),
+              linear-gradient(145deg, #041020 0%, #08213f 52%, #030b18 100%);
+            background-attachment: fixed;
             margin: 0;
             padding: 20px;
           }
           
           a {
             color: var(--color-primary-purple);
-            text-decoration: none;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 0.2em;
           }
           
           a:hover {
@@ -47,9 +49,10 @@
             margin: 0 auto;
             background-color: var(--color-bg-light);
             padding: 20px;
-            border: var(--border-dotted-primary);
+            border: var(--border-primary);
+            border-top: 6px solid var(--color-primary-purple);
             border-radius: var(--border-radius-standard);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 12px 12px 0 rgba(1,7,18,0.4);
           }
           
           h1 {
@@ -105,8 +108,8 @@
             font-size: 14px;
             padding: 8px 12px;
             background-color: var(--color-primary-purple);
-            color: white;
-            border-radius: 5px;
+            color: var(--color-bg-dark);
+            border-radius: 2px;
           }
           
           @media (max-width: 768px) {

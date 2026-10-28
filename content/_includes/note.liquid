@@ -13,7 +13,7 @@ nesting: ../../
     {% include "seo-meta.liquid" %}
     <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="{{css}}{{ nocache }}">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval';">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval'; connect-src 'self' https://api.open-meteo.com;">
         <!-- Canonical URL for SEO and sitemap -->
         <link rel="canonical" href="{{ site.url }}{{ page.url }}">
         <!-- Octothorpes: request indexing of this page on load -->
@@ -24,6 +24,11 @@ nesting: ../../
                 <link rel="octo:octothorpes" href="{{ tag }}">
             {% endfor %}
         {% endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&amp;family=Barlow+Condensed:ital,wght@1,800&amp;display=swap" rel="stylesheet">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#06152b">
 </head>
 
 <body>
@@ -43,5 +48,6 @@ nesting: ../../
 </div>
 {% include "footer.liquid" %}
 
+<script src="/scripts.js{{ nocache }}"></script>
 </body>
 </html>

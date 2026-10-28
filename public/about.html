@@ -19,8 +19,8 @@
 <meta name="twitter:image" content="https://caffeineandlasers.com/Assets/CaffineANdLasers.svg">
 
     <link href="../Assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="/styles.css?nocache=1793156578679">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval'; connect-src 'self' https://aus.social;">
+    <link rel="stylesheet" href="/styles.css?nocache=1793168167411">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval'; connect-src 'self' https://aus.social https://api.open-meteo.com;">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml"> 
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="https://caffeineandlasers.com/about.html">
@@ -31,32 +31,50 @@
     <!-- Atkinson Hyperlegible font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <meta name="color-scheme" content="dark light">
-        <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
-        <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
-        <!-- Early theme application to prevent flash -->
-        <script>
-            (function() {
-                try {
-                    var stored = localStorage.getItem('cl-theme');
-                    var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-                    var theme = stored || (prefersLight ? 'theme-light' : 'theme-dark');
-                    document.documentElement.classList.add(theme);
-                } catch (e) { /* no-op */ }
-            })();
-        </script>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&amp;family=Barlow+Condensed:ital,wght@1,800&amp;display=swap" rel="stylesheet">
+        <meta name="color-scheme" content="dark">
+        <meta name="theme-color" content="#06152b">
 </head>
 
 <body>
-<div id="container"><div id="header"></div>
+<div id="container">
+<header id="header">
+    <a class="site-ident" href="/index.html" aria-label="Caffeine and Lasers home">
+        <span class="site-ident__name">Caffeine <i>&amp;</i> Lasers</span>
+    </a>
+    <div class="broadcast-id">
+        <svg class="weather-mark" data-condition="unknown" viewBox="0 0 40 40" role="img" aria-labelledby="sydney-weather-title">
+            <title id="sydney-weather-title">Current Sydney weather</title>
+            <g class="weather-mark__sun">
+                <circle cx="13" cy="12" r="5" />
+                <path d="M13 2v4M13 18v4M3 12h4M19 12h4M6 5l3 3M17 16l3 3M20 5l-3 3M9 16l-3 3" />
+            </g>
+            <path class="weather-mark__cloud" d="M11 32h18a7 7 0 0 0 0-14 10 10 0 0 0-19 3 5.5 5.5 0 0 0 1 11Z" />
+            <g class="weather-mark__rain">
+                <path d="M13 34l-2 4M21 34l-2 4M29 34l-2 4" />
+            </g>
+            <g class="weather-mark__snow">
+                <circle cx="13" cy="36" r="1.5" />
+                <circle cx="21" cy="36" r="1.5" />
+                <circle cx="29" cy="36" r="1.5" />
+            </g>
+            <path class="weather-mark__lightning" d="M22 28h5l-4 5h4l-8 7 2-6h-4Z" />
+            <g class="weather-mark__fog">
+                <path d="M5 18h29M2 24h27M8 30h28" />
+            </g>
+        </svg>
+        <time id="sydney-time">--:--:--</time>
+        <span class="broadcast-id__location"><span id="sydney-temperature"></span>SYD / AU</span>
+    </div>
+</header>
     <div id="headerArea">
-    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+    <nav id="navbar" aria-label="Primary navigation" style="margin-bottom: 0px;"><ul>
             <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/notes.html">Notes & Links</a></li>
             <li><a href="/Resources.html">Resources</a></li>
-            <li><a href="/media.html">Media</a></li>
+            <li><a href="/Library.html">Reading List</a></li>
             <!-- This empty one feels immature -->
             <!-- <li><a href="/publications.html">Publications</a></li>  -->
             <!-- <li><a href="/Resume.html">Resume</a></li> -->
@@ -68,53 +86,42 @@
 <div id="flex">
 <main><h1>/about</h1>
 <p>I am a PhD Student from Australia. My work is in trying to find loopholes in the <a href="https://what-if.xkcd.com/145/">&quot;No Smooshing Theorem&quot;</a> for light.</p>
-<figure style="text-align: center;">
+<figure class="about-figure">
     <img src="Assets/XKCD_no_smooshing.png" alt="Illustration of the 'No Smooshing Theorem' for light, showing how light cannot be compressed or focused beyond certain physical limits." />
     <figcaption>It turns out thermodynamics prevents you from smooshing light.</figcaption>
 </figure>
 <p>Specifically, I am trying to use lasers to talk to astronauts, and smooshing the light is a key part of that. Checkout <a href="/blogs/phdAt5Levels.md">this blogpost</a> for more details.</p>
 <p>When I am not working on that, I like to cook, drink nice coffee or beer, or tinker technology.</p>
 <h2>1 Music I am listening to at the moment</h2>
-<div style="width: 100%; overflow-x: auto; white-space: nowrap; padding: 20px 0; background-color: #f5f5f5; border-radius: 15px;">
-    <div style="display: inline-flex; padding: 0 15px;">
-        <div style="width: 180px; margin-right: 15px;">
-            <div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <img src="Assets/3DCountry.png" alt="3D Country Album Cover" style="width: 100%; display: block;">
-                <div style="padding: 10px; text-align: center;">
-                    <div style="font-weight: bold; color: #333; font-size: 16px;">3D Country</div>
-                    <div style="color: #666; font-size: 14px;">Geese</div>
-                </div>
-            </div>
+<div class="listening-grid">
+    <article class="album-card">
+        <img src="Assets/3DCountry.png" alt="3D Country Album Cover">
+        <div class="album-card__text">
+            <strong>3D Country</strong>
+            <span>Geese</span>
         </div>
-<p><div style="width: 180px; margin-right: 15px;"><br>
-<div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"><br>
-<img src="Assets/EGGYPOCKET.png" alt="EGGY POCKET Album Cover" style="width: 100%; display: block;"><br>
-<div style="padding: 10px; text-align: center;"><br>
-<div style="font-weight: bold; color: #333; font-size: 16px;">EGGY POCKET</div><br>
-<div style="color: #666; font-size: 14px;">Bilmuri</div><br>
-</div><br>
-</div><br>
-</div></p>
-<p><div style="width: 180px; margin-right: 15px;"><br>
-<div style="border: 2px solid #333; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"><br>
-<img src="Assets/ForeverHowlongcover.png" alt="Forever Howlong Album Cover" style="width: 100%; display: block;"><br>
-<div style="padding: 10px; text-align: center;"><br>
-<div style="font-weight: bold; color: #333; font-size: 16px;">Forever Howlong</div><br>
-<div style="color: #666; font-size: 14px;">Black Country, New Road</div><br>
-</div><br>
-</div><br>
-</div><br>
-</div></p>
-<p><!-- Scroll indicator --><br>
-<div style="text-align: center; margin-top: 10px;"></p>
-<p></div></p>
+    </article>
+    <article class="album-card">
+        <img src="Assets/EGGYPOCKET.png" alt="EGGY POCKET Album Cover">
+        <div class="album-card__text">
+            <strong>EGGY POCKET</strong>
+            <span>Bilmuri</span>
+        </div>
+    </article>
+    <article class="album-card">
+        <img src="Assets/ForeverHowlongcover.png" alt="Forever Howlong Album Cover">
+        <div class="album-card__text">
+            <strong>Forever Howlong</strong>
+            <span>Black Country, New Road</span>
+        </div>
+    </article>
 </div>
 <h2>2 Favourite Meal to cook</h2>
 <p>My favourite food to cook is Pizza. My partner and I own a small pizza oven and it is good fun.</p>
 <h2>3 Favourite Breweries and Cafes</h2>
 <p>My favourite brewery in Syndey is <a href="https://hopsters.coop/">Hopsters</a> in Enmore. This is a co-op owned brewery, and I am one of the owners. My other favourite, which is not obviously compromised by personal relationship is <a href="https://wildflowerbeer.com/">Wildflower</a> brewing. They do a whole bunch of wild ferment sours.</p>
 <p>Internationally, my favourite brewery is the <a href="https://en.wikipedia.org/wiki/Klosterbrauerei_Andechs">The Klosterbrauerei Andechs</a> a monestary just outside munich and on top of a mountain which also brews beer, or <a href="https://www.monkishbrewing.com/">Monkish</a> a european style brewery in LA.</p>
-<p>In terms of coffee, I legitimately believe that Australia has the best coffee in the world, so I don’t have any memorable experiances internationally despite looking. Even when I travelled, people used to tell me when a cafe was owned by an Australian as a mark of quality.</p>
+<p>In terms of coffee, I legitimately believe that Australia has the best coffee in the world. Toby's Estate is one of my favourite coffees in Australia at the moment (though once again my bias strikes as I have a friend who works as a roaster there). Internationally, one of my favourite coffee experiances was at the <a href="https://www.ottomancoffeehouse.co.uk/">Ottoman Coffee House</a> in Glasgow, which I visited at the reccomendation of <a href="https://jamesg.blog/">James and his coffee blog</a></p>
 <h2>4 What Parts of Science am I most excited about?</h2>
 <p>Well obviously optics and photonics, thats why I am doing my PhD in that. Outside of that, here are the bits I am keeping my eye on:</p>
 <h3>4.1 Astronomy</h3>
@@ -141,7 +148,7 @@
 
 
 <footer id="footer">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <div class="footer-links">
         <a href="/FeedList.html">
             <img 
             src="/Assets/RSS_Logo.png" 
@@ -157,18 +164,15 @@
             target="_blank"
             >LinkedIn</a
         >
-    </li>
-
         <a href="https://octothorp.es" title="Octothorpes main ring">
             <img src="https://octothorp.es/badge.png" alt="Badge for the Octothorpes main ring" style="height: 20px" />
         </a>
+        <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Weather by Open-Meteo</a>
     </div>
-</footer> 
+</footer>
+</div>
+ 
 
-<script src="/scripts.js?nocache=1793156578679"></script>
-<!-- Global floating theme toggle -->
-<button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">
-    🌙 Dark
-</button>
+<script src="/scripts.js?nocache=1793168167411"></script>
 </body>
 </html>

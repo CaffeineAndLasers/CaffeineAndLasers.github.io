@@ -21,7 +21,7 @@
 <meta property="article:tag" content="Projects">
 
     <link href="../../Assets/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" href="/styles.css?nocache=1793156578679">
+  <link rel="stylesheet" href="/styles.css?nocache=1793168167411">
     <link rel="alternate" type="application/rss+xml" title="Caffeine and Lasers RSS Feed" href="/feed.xml">
     <!-- Canonical URL for SEO and sitemap -->
     <link rel="canonical" href="https://caffeineandlasers.com/blogs/lofiRadio.html">
@@ -37,31 +37,50 @@
     
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <meta name="color-scheme" content="dark light">
-    <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
-    <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
-    <script>
-      (function() {
-        try {
-          var stored = localStorage.getItem('cl-theme');
-          var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-          var theme = stored || (prefersLight ? 'theme-light' : 'theme-dark');
-          document.documentElement.classList.add(theme);
-        } catch (e) {}
-      })();
-    </script>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&amp;family=Barlow+Condensed:ital,wght@1,800&amp;display=swap" rel="stylesheet">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#06152b">
 </head>
 
 <body>
-<div id="container"><div id="header"></div>
+<div id="container">
+<header id="header">
+    <a class="site-ident" href="/index.html" aria-label="Caffeine and Lasers home">
+        <span class="site-ident__name">Caffeine <i>&amp;</i> Lasers</span>
+    </a>
+    <div class="broadcast-id">
+        <svg class="weather-mark" data-condition="unknown" viewBox="0 0 40 40" role="img" aria-labelledby="sydney-weather-title">
+            <title id="sydney-weather-title">Current Sydney weather</title>
+            <g class="weather-mark__sun">
+                <circle cx="13" cy="12" r="5" />
+                <path d="M13 2v4M13 18v4M3 12h4M19 12h4M6 5l3 3M17 16l3 3M20 5l-3 3M9 16l-3 3" />
+            </g>
+            <path class="weather-mark__cloud" d="M11 32h18a7 7 0 0 0 0-14 10 10 0 0 0-19 3 5.5 5.5 0 0 0 1 11Z" />
+            <g class="weather-mark__rain">
+                <path d="M13 34l-2 4M21 34l-2 4M29 34l-2 4" />
+            </g>
+            <g class="weather-mark__snow">
+                <circle cx="13" cy="36" r="1.5" />
+                <circle cx="21" cy="36" r="1.5" />
+                <circle cx="29" cy="36" r="1.5" />
+            </g>
+            <path class="weather-mark__lightning" d="M22 28h5l-4 5h4l-8 7 2-6h-4Z" />
+            <g class="weather-mark__fog">
+                <path d="M5 18h29M2 24h27M8 30h28" />
+            </g>
+        </svg>
+        <time id="sydney-time">--:--:--</time>
+        <span class="broadcast-id__location"><span id="sydney-temperature"></span>SYD / AU</span>
+    </div>
+</header>
     <div id="headerArea">
-    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+    <nav id="navbar" aria-label="Primary navigation" style="margin-bottom: 0px;"><ul>
             <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/notes.html">Notes & Links</a></li>
             <li><a href="/Resources.html">Resources</a></li>
-            <li><a href="/media.html">Media</a></li>
+            <li><a href="/Library.html">Reading List</a></li>
             <!-- This empty one feels immature -->
             <!-- <li><a href="/publications.html">Publications</a></li>  -->
             <!-- <li><a href="/Resume.html">Resume</a></li> -->
@@ -188,7 +207,7 @@
 
 </div>
 <footer id="footer">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <div class="footer-links">
         <a href="/FeedList.html">
             <img 
             src="/Assets/RSS_Logo.png" 
@@ -204,15 +223,15 @@
             target="_blank"
             >LinkedIn</a
         >
-    </li>
-
         <a href="https://octothorp.es" title="Octothorpes main ring">
             <img src="https://octothorp.es/badge.png" alt="Badge for the Octothorpes main ring" style="height: 20px" />
         </a>
+        <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Weather by Open-Meteo</a>
     </div>
 </footer>
+</div>
 
-<script src="/scripts.js?nocache=1793156578679"></script>
-<button id="theme-toggle" class="theme-toggle-fab" aria-pressed="false" aria-label="Toggle color theme" title="Toggle theme">🌙 Dark</button>
+
+<script src="/scripts.js?nocache=1793168167411"></script>
 </body>
 </html>

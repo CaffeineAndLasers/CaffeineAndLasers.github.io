@@ -1,11 +1,41 @@
-<div id="container"><div id="header"></div>
+<div id="container">
+<header id="header">
+    <a class="site-ident" href="/index.html" aria-label="Caffeine and Lasers home">
+        <span class="site-ident__name">Caffeine <i>&amp;</i> Lasers</span>
+    </a>
+    <div class="broadcast-id">
+        <svg class="weather-mark" data-condition="unknown" viewBox="0 0 40 40" role="img" aria-labelledby="sydney-weather-title">
+            <title id="sydney-weather-title">Current Sydney weather</title>
+            <g class="weather-mark__sun">
+                <circle cx="13" cy="12" r="5" />
+                <path d="M13 2v4M13 18v4M3 12h4M19 12h4M6 5l3 3M17 16l3 3M20 5l-3 3M9 16l-3 3" />
+            </g>
+            <path class="weather-mark__cloud" d="M11 32h18a7 7 0 0 0 0-14 10 10 0 0 0-19 3 5.5 5.5 0 0 0 1 11Z" />
+            <g class="weather-mark__rain">
+                <path d="M13 34l-2 4M21 34l-2 4M29 34l-2 4" />
+            </g>
+            <g class="weather-mark__snow">
+                <circle cx="13" cy="36" r="1.5" />
+                <circle cx="21" cy="36" r="1.5" />
+                <circle cx="29" cy="36" r="1.5" />
+            </g>
+            <path class="weather-mark__lightning" d="M22 28h5l-4 5h4l-8 7 2-6h-4Z" />
+            <g class="weather-mark__fog">
+                <path d="M5 18h29M2 24h27M8 30h28" />
+            </g>
+        </svg>
+        <time id="sydney-time">--:--:--</time>
+        <span class="broadcast-id__location"><span id="sydney-temperature"></span>SYD / AU</span>
+    </div>
+</header>
     <div id="headerArea">
-    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+    <nav id="navbar" aria-label="Primary navigation" style="margin-bottom: 0px;"><ul>
             <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/notes.html">Notes & Links</a></li>
             <li><a href="/Resources.html">Resources</a></li>
-            <li><a href="/media.html">Media</a></li>
+            <li><a href="/Library.html">Reading List</a></li>
             <!-- This empty one feels immature -->
             <!-- <li><a href="/publications.html">Publications</a></li>  -->
             <!-- <li><a href="/Resume.html">Resume</a></li> -->

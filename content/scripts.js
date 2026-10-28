@@ -63,52 +63,98 @@ function initLatestMastodonPost() {
     fetchLatestMastodonPost("aus.social", "AuntyRed");
 }
 
-// Theme toggle and initialization
-(function() {
-    function setTheme(themeClass) {
-        var root = document.documentElement;
-        root.classList.remove('theme-dark', 'theme-light');
-        root.classList.add(themeClass);
-        try { localStorage.setItem('cl-theme', themeClass); } catch (e) {}
-        // Update theme-color for mobile URL bar
-        var metas = document.querySelectorAll('meta[name="theme-color"]');
-        metas.forEach(function(m) {
-            if (themeClass === 'theme-dark' && m.media && m.media.includes('dark')) {
-                m.content = '#1e1e2e';
-            }
-            if (themeClass === 'theme-light' && m.media && m.media.includes('light')) {
-                m.content = '#eff1f5';
-            }
+function initSydneyClock() {
+    const clock = document.getElementById("sydney-time");
+    if (!clock) return;
+
+    const formatter = new Intl.DateTimeFormat("en-AU", {
+        timeZone: "Australia/Sydney",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false
+    });
+
+    function updateClock() {
+        clock.textContent = formatter.format(new Date());
+    }
+
+    updateClock();
+    window.setInterval(updateClock, 1000);
+}
+
+function initSydneyWeather() {
+    const weatherMark = document.querySelector(".weather-mark");
+    const weatherTitle = document.getElementById("sydney-weather-title");
+    const temperature = document.getElementById("sydney-temperature");
+    if (!weatherMark || !weatherTitle || !temperature) return;
+
+    const descriptions = {
+        0: "Clear sky", 1: "Mainly clear", 2: "Partly cloudy", 3: "Overcast",
+        45: "Fog", 48: "Rime fog", 51: "Light drizzle", 53: "Drizzle",
+        55: "Heavy drizzle", 56: "Freezing drizzle", 57: "Heavy freezing drizzle",
+        61: "Light rain", 63: "Rain", 65: "Heavy rain", 66: "Freezing rain",
+        67: "Heavy freezing rain", 71: "Light snow", 73: "Snow", 75: "Heavy snow",
+        77: "Snow grains", 80: "Light showers", 81: "Showers", 82: "Heavy showers",
+        85: "Light snow showers", 86: "Heavy snow showers", 95: "Thunderstorm",
+        96: "Thunderstorm with hail", 97: "Heavy thunderstorm", 99: "Heavy thunderstorm with hail"
+    };
+
+    function conditionFor(code) {
+        if (code === 0) return "clear";
+        if (code === 1 || code === 2) return "partly-cloudy";
+        if (code === 3) return "cloudy";
+        if (code === 45 || code === 48) return "fog";
+        if (code >= 51 && code <= 67) return "rain";
+        if ((code >= 71 && code <= 77) || code === 85 || code === 86) return "snow";
+        if (code >= 80 && code <= 82) return "rain";
+        if (code >= 95) return "storm";
+        return "unknown";
+    }
+
+    function applyWeather(data) {
+        const code = Number(data.weather_code);
+        const description = descriptions[code] || "Current Sydney weather";
+        weatherMark.dataset.condition = conditionFor(code);
+        weatherTitle.textContent = `${description} in Sydney`;
+        temperature.textContent = `${Math.round(Number(data.temperature_2m))}° · `;
+    }
+
+    const cacheKey = "cl-sydney-weather";
+    try {
+        const cached = JSON.parse(localStorage.getItem(cacheKey));
+        if (cached && Date.now() - cached.savedAt < 10 * 60 * 1000) {
+            applyWeather(cached.current);
+            return;
+        }
+    } catch (error) { /* Fetch fresh data below. */ }
+
+    const endpoint = "https://api.open-meteo.com/v1/forecast?latitude=-33.8688&longitude=151.2093&current=weather_code,temperature_2m&timezone=Australia%2FSydney";
+    fetch(endpoint)
+        .then(response => {
+            if (!response.ok) throw new Error("Weather request failed");
+            return response.json();
+        })
+        .then(data => {
+            if (!data.current) return;
+            applyWeather(data.current);
+            try {
+                localStorage.setItem(cacheKey, JSON.stringify({ savedAt: Date.now(), current: data.current }));
+            } catch (error) { /* Weather still works without caching. */ }
+        })
+        .catch(() => {
+            weatherTitle.textContent = "Sydney weather unavailable";
         });
-    }
-
-    function initThemeToggle() {
-        var btn = document.getElementById('theme-toggle');
-        if (!btn) return;
-        // Reflect current theme in button label/state
-        var current = document.documentElement.classList.contains('theme-light') ? 'theme-light' : 'theme-dark';
-        btn.classList.add('theme-toggle-fab');
-        btn.textContent = current === 'theme-dark' ? '🌙 Dark' : '☀️ Light';
-        btn.setAttribute('aria-pressed', current === 'theme-dark' ? 'true' : 'false');
-
-        btn.addEventListener('click', function() {
-            var now = document.documentElement.classList.contains('theme-dark') ? 'theme-dark' : 'theme-light';
-            var next = now === 'theme-dark' ? 'theme-light' : 'theme-dark';
-            setTheme(next);
-            btn.textContent = next === 'theme-dark' ? '🌙 Dark' : '☀️ Light';
-            btn.setAttribute('aria-pressed', next === 'theme-dark' ? 'true' : 'false');
-        });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initThemeToggle);
-    } else {
-        initThemeToggle();
-    }
-})();
+}
 
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initLatestMastodonPost);
+    document.addEventListener('DOMContentLoaded', function() {
+        initLatestMastodonPost();
+        initSydneyClock();
+        initSydneyWeather();
+    });
 } else {
     initLatestMastodonPost();
+    initSydneyClock();
+    initSydneyWeather();
 }

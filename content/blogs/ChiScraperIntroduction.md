@@ -1,6 +1,7 @@
 ---
 title: Introducing ChiScraper
 date: 2024-11-18
+updated: 2026-10-28
 layout: blogpost.liquid
 description: Introducing ChiScraper, an open-source tool designed to help researchers streamline their ArXiv experience by combining keyword matching with LLM-powered ranking.
 nesting: "../"
@@ -8,6 +9,8 @@ tags:
   - Technology
   - Projects
 ---
+
+**UPDATE** AI has moved so far since this was produced. Genuinely in half the time it would take you to get this running you could vibecode a better version. So instead of installing this, just do that. 
 
 ## 1 [ChiScraper](https://chiscraper.github.io): Personalised ArXiv Assistant
 
