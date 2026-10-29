@@ -4,12 +4,12 @@ description: Cameron Jones's personal book library, reviews, ratings, and readin
 layout: default.liquid
 ---
 
-<h1>My Book Library</h1>
+<h1>/library</h1>
 
 <p>
   Welcome to the library! This is something along the lines
   of my personal "Goodreads". I am a chronic people pleaser
-  so a standerd out of 10 rating will never work for me. 
+  so a standard out of 10 rating will never work for me. 
 </p>
 
 <p> 
@@ -28,7 +28,7 @@ layout: default.liquid
         but I wont go so far as to recommend it.
     </li>
     <li> 
-        🟩 - <b>I recommend It.</b> I enjoyed it, and I would recommend it to others.
+        🟩 - <b>I reccommend It.</b> I enjoyed it, and I would recommend it to others.
     </li>
     <li>
         ⭐ - <b>It changed me.</b> This one is reserved for books that I can 
@@ -36,7 +36,7 @@ layout: default.liquid
         be thinking about for years to come.
     </li>
   </ul>
-  <p><small>Hover over any book card to see my thoughts on it.</small></p>
+  <p><small>Hover over a book card, or tap it on mobile, to see my thoughts on it.</small></p>
 
 <div class="book-container">
 {% assign books = collections.books | sort: 'date' | reverse %}
@@ -68,7 +68,7 @@ layout: default.liquid
         <img src="{{ book.data.coverImg }}" alt="Cover of {{ book.data.name }}" class="cover-image">
             </div>
         </div>
-    <div class="book-thoughts">
+    <div class="book-thoughts" id="book-thoughts-{{ forloop.index }}">
       {{ book.templateContent }}
     </div>
     </div>
@@ -128,10 +128,12 @@ layout: default.liquid
     margin: 0;
   }
   
-  .book-card:hover .book-thoughts {
-    max-height: 9999px; /* large value to avoid clipping */
-    opacity: 1;
-    margin: 10px 0;
+  @media (hover: hover) {
+    .book-card:hover .book-thoughts {
+      max-height: 9999px; /* large value to avoid clipping */
+      opacity: 1;
+      margin: 10px 0;
+    }
   }
 
   @media (max-width: 480px) {
@@ -149,10 +151,31 @@ layout: default.liquid
   }
 
   @media (hover: none) {
+    .book-card {
+      cursor: pointer;
+    }
+
     .book-thoughts {
+      visibility: hidden;
+      transition: none;
+    }
+
+    .book-card.is-expanded .book-thoughts {
+      visibility: visible;
       max-height: none;
       margin: 10px 0;
       opacity: 1;
     }
   }
 </style>
+
+<script>
+  document.querySelectorAll('.book-card').forEach((card) => {
+    card.addEventListener('click', (event) => {
+      if (!window.matchMedia('(hover: none)').matches) return;
+      // Keep links and review text interactive without collapsing the card.
+      if (event.target.closest('a, .book-thoughts')) return;
+      card.classList.toggle('is-expanded');
+    });
+  });
+</script>

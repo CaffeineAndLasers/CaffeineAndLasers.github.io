@@ -779,6 +779,23 @@ body::before {
     animation: tracking-roll 13s linear infinite;
 }
 
+/* A brief, purely decorative horizontal tear rides the descending tracking beam. */
+body::after {
+    content: "";
+    position: fixed;
+    z-index: 0;
+    inset: -30% 0 auto;
+    height: 16px;
+    margin-top: 11vh; /* Track the middle of the 22vh scan beam. */
+    pointer-events: none;
+    opacity: 0;
+    background:
+        linear-gradient(90deg, transparent 3%, rgba(93, 228, 255, 0.32) 22%, rgba(232, 90, 130, 0.25) 76%, transparent 97%) top / 100% 3px no-repeat,
+        linear-gradient(90deg, transparent 12%, rgba(232, 90, 130, 0.22) 35%, rgba(93, 228, 255, 0.3) 82%, transparent 94%) bottom / 100% 3px no-repeat;
+    backdrop-filter: blur(1px);
+    animation: tracking-roll 13s linear infinite, tracking-tear 13s steps(1, end) infinite;
+}
+
 #container {
     position: relative;
     z-index: 1;
@@ -996,12 +1013,6 @@ main {
     box-shadow:
         inset 0 0 90px rgba(1, 7, 18, .18),
         12px 12px 0 rgba(1, 7, 18, 0.4);
-}
-
-main > :where(p, ul, ol, blockquote, pre, details),
-main > article > :where(p, ul, ol, blockquote, pre),
-.note-body > :where(p, ul, ol, blockquote) {
-    max-width: 72ch;
 }
 
 aside {
@@ -1245,9 +1256,15 @@ footer {
     to { transform: translateY(145vh); }
 }
 
+@keyframes tracking-tear {
+    0%, 44%, 47%, 100% { opacity: 0; translate: 0; }
+    44.5%, 45.5% { opacity: 0.9; translate: -12px 0; }
+    45%, 46% { opacity: 0.65; translate: 10px 0; }
+}
+
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
-    body::before { animation: none; display: none; }
+    body::before, body::after { animation: none; display: none; }
     *, *::before, *::after {
         scroll-behavior: auto !important;
         transition-duration: .01ms !important;
