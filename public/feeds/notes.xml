@@ -5,9 +5,20 @@
     <description>Thoughts and Links from Caffeine and Lasers</description>
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feeds/notes.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 28 Oct 2026 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[The final stretch]]></title>
+      <description><![CDATA[Time to get real.]]></description>
+      <content:encoded><![CDATA[<p>Time to get real. I expect this board to fill up as I sink deeper into writing mode.</p>
+<p><img src="https://caffeineandlasers.com/Assets/the-final-stretch-01-3.jpg" alt=""></p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/the-final-stretch.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/the-final-stretch.html</guid>
+      <pubDate>Mon, 02 Nov 2026 11:00:00 +1100</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Wearable Touchscreens]]></title>
