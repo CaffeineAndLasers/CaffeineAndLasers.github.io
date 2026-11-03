@@ -13,7 +13,7 @@ nesting: ../../
     {% include "seo-meta.liquid" %}
     <link href="{{ nesting }}Assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="{{css}}{{ nocache }}">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social 'unsafe-inline' 'wasm-unsafe-eval'; connect-src 'self' https://api.open-meteo.com;">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://staticcdn.aus.social https://gc.zgo.at 'unsafe-inline' 'wasm-unsafe-eval'; connect-src 'self' https://api.open-meteo.com https://caffeineandlasers.goatcounter.com;">
         <!-- Canonical URL for SEO and sitemap -->
         <link rel="canonical" href="{{ site.url }}{{ page.url }}">
         <!-- Octothorpes: request indexing of this page on load -->
@@ -49,5 +49,6 @@ nesting: ../../
 {% include "footer.liquid" %}
 
 <script src="/scripts.js{{ nocache }}"></script>
+<script data-goatcounter="https://caffeineandlasers.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
