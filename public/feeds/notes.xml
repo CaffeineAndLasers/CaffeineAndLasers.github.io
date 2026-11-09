@@ -5,9 +5,22 @@
     <description>Thoughts and Links from Caffeine and Lasers</description>
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feeds/notes.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 02 Nov 2026 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[Please Stop Building Linux Phones. Build a tablet]]></title>
+      <description><![CDATA[Every now and then I see attempts at a "Linux Phone" but I think that is a huge mistake because I need my phone to actually fucking work  I think a way better strategy is to start with a "Linux Tablet", because that I am much happier to tinker with and don't need to suffer the indignity of it failing at some socially embarrassing moment  Then you can boostrap you way onto mobile  OkayThankyouBye]]></description>
+      <content:encoded><![CDATA[<p>Every now and then I see attempts at a &quot;Linux Phone&quot; but I think that is a huge mistake because I need my phone to actually fucking work</p>
+<p>I think a way better strategy is to start with a &quot;Linux Tablet&quot;, because that I am much happier to tinker with and don't need to suffer the indignity of it failing at some socially embarrassing moment</p>
+<p>Then you can boostrap you way onto mobile</p>
+<p>OkayThankyouBye</p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/please-stop-building-linux-phones-build-a-tablet.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/please-stop-building-linux-phones-build-a-tablet.html</guid>
+      <pubDate>Mon, 09 Nov 2026 11:00:00 +1100</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[The final stretch]]></title>
