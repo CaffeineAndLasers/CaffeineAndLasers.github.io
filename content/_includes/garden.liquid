@@ -1,0 +1,9 @@
+---
+layout: default.liquid
+---
+<div class="garden-content">
+<a href="{{ gardenParent }}">Back to parent</a>
+{% if lastEdited %}<p class="garden-last-edited">Last edited: <time datetime="{{ lastEdited }}">{{ lastEdited }}</time></p>{% endif %}
+{{ content }}
+<a href="{{ gardenParent }}">Back to parent</a>
+</div>
