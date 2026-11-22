@@ -2,7 +2,7 @@
 title: Free Space Laser Communicatoins
 layout: garden.liquid
 gardenParent: /garden.html
-lastEdited: "2026-11-20"
+lastEdited: "2026-11-23"
 ---
 
 # Free Space Laser Communicatoins
@@ -15,3 +15,7 @@ In terms of **why** we care about doing laser comms in space, I have written up 
 
 - [Why do we need all the data in space anyway](/garden/FreeSpaceLaserCommunications/Why%20do%20we%20need%20all%20the%20data%20in%20space%20anyway.html)
 - [Why Optical Increases Datarates](/garden/FreeSpaceLaserCommunications/Why%20Optical%20Increases%20Datarates.html)
+
+On the trade-offs:
+
+- [The Downsides of Free Space Optical Comms](/garden/FreeSpaceLaserCommunications/The%20downsides%20of%20Free%20Space%20Optical%20Comms.html)

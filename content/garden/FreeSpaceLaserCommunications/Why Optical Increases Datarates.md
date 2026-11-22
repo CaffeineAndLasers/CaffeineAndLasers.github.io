@@ -70,7 +70,7 @@ Onboard the Artemis II mission, we demonstrated  a maximum speed of 260 Mbps at 
 [Put succinctly by Nasa's Kendall Murphy](https://www.nasa.gov/missions/artemis/artemis-2/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/)
 > "During the about 10-day journey, the laser communications system exchanged 484 gigabytes of data between Orion and Earth, roughly equivalent to 100 high-definition movies"
 
-So if laser comms is so great, why did we still launch with a radio antenna at all? This high speed came at a cost. Laser communication requires very precise alignment, and good weather. Even a single cloud can break an optical link, and the laser tracking precedure between the spacecraft and the ground station requires a great deal of coordination between the two. As such, we still need a high reliability radio antenna on board.  This will be covered in a future entry. 
+So if laser comms is so great, why did we still launch with a radio antenna at all? This high speed came at a cost. Laser communication requires very precise alignment, and good weather. Even a single cloud can break an optical link, and the laser tracking precedure between the spacecraft and the ground station requires a great deal of coordination between the two. As such, we still need a high reliability radio antenna on board.  The next entry covers [the downsides of free space optical comms](/garden/FreeSpaceLaserCommunications/The%20downsides%20of%20Free%20Space%20Optical%20Comms.html).
 
 But what do we need all that data for? I answer that in this blogpost 
 [Why do we need all the data in space anyway?](/garden/FreeSpaceLaserCommunications/Why%20do%20we%20need%20all%20the%20data%20in%20space%20anyway.html)
