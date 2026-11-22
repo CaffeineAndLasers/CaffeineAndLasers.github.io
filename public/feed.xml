@@ -6,7 +6,7 @@
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feed.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Mon, 09 Nov 2026 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -4116,6 +4116,19 @@ Example: <code>https://reddit.com/r/3Dprinting/top/.rss?limit=5</code> This will
     </item>
     
     
+    
+    <item>
+      <title><![CDATA[Book Review: Solaris by Stanisław Lem]]></title>
+      <description><![CDATA[
+        <p><strong>Rating:</strong> 🟩⭐</p>
+        <p><strong>Type:</strong> Fiction</p>
+        <p><img src="https://caffeineandlasers.com/Assets/book-covers/9780571311576.jpg" alt="Cover of Solaris" style="max-width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/></p>
+        <p></p>
+      ]]></description>
+      <link>https://caffeineandlasers.com/books/solaris.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/books/solaris.html</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Book Review: Hunger by Choi Jin-young, Soje]]></title>
