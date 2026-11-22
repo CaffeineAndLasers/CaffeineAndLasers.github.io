@@ -1,11 +1,11 @@
 ---
-title: Free Space Laser Communicatoins
+title: Free Space Laser Communications
 layout: garden.liquid
 gardenParent: /garden.html
 lastEdited: "2026-11-23"
 ---
 
-# Free Space Laser Communicatoins
+# Free Space Laser Communications
 
 This is the topic of my PhD. As I am in the process of writing up my thesis, I plan on updating my site with general audience explanations of my work. Particularly around the introduction. 
 

@@ -7,4 +7,4 @@ lastEdited: "2026-11-20"
 
 # Garden
 
-- [Free Space Laser Communicatoins](/garden/free-space-laser-communicatoins.html)
+- [Free Space Laser Communications](/garden/free-space-laser-communications.html)
