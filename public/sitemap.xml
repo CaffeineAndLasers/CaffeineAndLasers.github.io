@@ -1251,15 +1251,24 @@
   
   
   <url>
-    <loc>https://caffeineandlasers.com/garden/FreeSpaceLaserCommunications/The%20downsides%20of%20Free%20Space%20Optical%20Comms.html</loc>
+    <loc>https://caffeineandlasers.com/garden/FreeSpaceLaserCommunications/The downsides of Free Space Optical Comms.html</loc>
     <lastmod>2026-11-21T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
+  
+  
   <url>
     <loc>https://caffeineandlasers.com/books/solaris.html</loc>
     <lastmod>2026-11-22T11:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>https://caffeineandlasers.com/notes/WereSoBack.html</loc>
+    <lastmod>2026-11-24T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

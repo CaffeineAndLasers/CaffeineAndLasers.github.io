@@ -5,9 +5,19 @@
     <description>Thoughts and Links from Caffeine and Lasers</description>
     <link>https://caffeineandlasers.com</link>
     <atom:link href="https://caffeineandlasers.com/feeds/notes.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 09 Nov 2026 11:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 11:00:00 +1100</lastBuildDate>
     <ttl>1440</ttl>
 
+    
+    <item>
+      <title><![CDATA[We're so back]]></title>
+      <description><![CDATA[A little reminder that the lows don't last forever.]]></description>
+      <content:encoded><![CDATA[<p><img src="https://caffeineandlasers.com/Assets/WereSoBack.png" alt="Hand-drawn wave chart marking the current point on an upswing after a low."></p>
+]]></content:encoded>
+      <link>https://caffeineandlasers.com/notes/WereSoBack.html</link>
+      <guid isPermaLink="true">https://caffeineandlasers.com/notes/WereSoBack.html</guid>
+      <pubDate>Tue, 24 Nov 2026 11:00:00 +1100</pubDate>
+    </item>
     
     <item>
       <title><![CDATA[Please Stop Building Linux Phones. Build a tablet]]></title>
